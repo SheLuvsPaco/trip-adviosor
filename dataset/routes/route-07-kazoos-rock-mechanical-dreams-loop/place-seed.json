@@ -1,0 +1,1332 @@
+{
+  "schema_version": "1.0.0",
+  "route_id": "route-07",
+  "places": [
+    {
+      "id": "springfield-museums",
+      "name": "Springfield Museums",
+      "kind": "five-museum-cultural-campus",
+      "city": "Springfield",
+      "state": "MA",
+      "visit_date": "2026-10-04",
+      "summary": "One walkable quadrangle links natural history, American art, regional industry and the Amazing World of Dr. Seuss, so the first day feels like a choose-your-own-adventure rather than one long gallery.",
+      "why_go": "It lets the four travelers split briefly without splitting the route: Viki can chase visual rooms, Gora can inspect science and industry, and everyone can regroup in the sculpture garden.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Best for viki and sheluvspaco: It lets the four travelers split briefly without splitting the route: Viki can chase visual rooms, Gora can inspect science and industry, and everyone can regroup in the sculpture garden.",
+      "categories": [
+        "unusual_creative",
+        "architecture_nature_photogenic",
+        "local_culture"
+      ],
+      "duration_minutes": 180,
+      "source_ids": [
+        "src-springfield"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "11:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Sunday hours for the museum campus; the outdoor Seuss garden is free but does not replace late indoor arrival."
+      },
+      "cost": {
+        "amount_per_person": 27.5,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Springfield Museums"
+    },
+    {
+      "id": "springfield-armory",
+      "name": "Springfield Armory National Historic Site",
+      "kind": "industrial-and-firearms-history",
+      "city": "Springfield",
+      "state": "MA",
+      "visit_date": "2026-10-04",
+      "summary": "The vast Main Arsenal interprets two centuries of precision manufacturing, labor and weapons development inside the federal armory that helped standardize American industry.",
+      "why_go": "Gora gets evidence-led industrial history while Viki gets monumental brick architecture; it is a focused alternative to the broader museum campus.",
+      "best_for": [
+        "gora"
+      ],
+      "secondary_for": [
+        "viki",
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Best for gora: Gora gets evidence-led industrial history while Viki gets monumental brick architecture; it is a focused alternative to the broader museum campus.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_nature_photogenic",
+        "local_culture"
+      ],
+      "duration_minutes": 120,
+      "source_ids": [
+        "src-armory"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "09:30",
+        "closes": "16:00",
+        "status": "verified-current",
+        "note": "Wednesday-Sunday hours; it closes earlier than the core stop, so it is a preference swap, not a late-arrival rescue."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "replacement",
+      "replacement_reason": "Use when the group wants one deep industrial story instead of five lighter museums.",
+      "replacement": {
+        "day": 1,
+        "replaces_place_ids": [
+          "springfield-museums"
+        ],
+        "route_variant_id": "replacement-d1-springfield-armory",
+        "reason": "Use when the group wants one deep industrial story instead of five lighter museums."
+      },
+      "address": "Springfield Armory National Historic Site"
+    },
+    {
+      "id": "cohoes-falls",
+      "name": "Cohoes Falls View Park",
+      "kind": "urban-waterfall-overlook",
+      "city": "Cohoes",
+      "state": "NY",
+      "visit_date": "2026-10-05",
+      "summary": "A 1,000-foot-wide Mohawk River waterfall appears behind an old mill city, combining exposed rock, hydropower history and a short dramatic overlook rather than a strenuous hike.",
+      "why_go": "It gives Viki a strong landscape-and-infrastructure photo and gives Gora the honest industrial geography behind the Erie Canal corridor.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Best for viki and gora: It gives Viki a strong landscape-and-infrastructure photo and gives Gora the honest industrial geography behind the Erie Canal corridor.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "quiet_reset"
+      ],
+      "duration_minutes": 70,
+      "source_ids": [
+        "src-cohoes"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "07:00",
+        "closes": "19:30",
+        "status": "verified-current",
+        "note": "Falls View Park is seasonally open through November 1; the year-round upper overlook is the fallback. Never enter the riverbed."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Cohoes Falls View Park"
+    },
+    {
+      "id": "oakwood-troy",
+      "name": "Oakwood Cemetery: Uncle Sam Grave & Earl Chapel Grounds",
+      "kind": "victorian-cemetery-history",
+      "city": "Troy",
+      "state": "NY",
+      "visit_date": "2026-10-05",
+      "summary": "A vast nineteenth-century rural cemetery holds Samuel Wilson's grave—the real meatpacker behind Uncle Sam—plus a Romanesque crematory chapel, waterfalls and long Hudson Valley views.",
+      "why_go": "This is the buried-history stop: Gora gets the real person behind a national symbol, Viki gets stonework and autumn landscape, and Stivka gets a quiet, respectful setting.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for gora and viki: This is the buried-history stop: Gora gets the real person behind a national symbol, Viki gets stonework and autumn landscape, and Stivka gets a quiet, respectful setting.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_nature_photogenic",
+        "quiet_reset"
+      ],
+      "duration_minutes": 115,
+      "source_ids": [
+        "src-oakwood",
+        "src-forum-upstate"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "08:00",
+        "closes": "19:00",
+        "status": "verified-current",
+        "note": "Daily grounds hours. It is an active cemetery: keep voices low, yield to funerals, use handheld personal photography only and treat chapel interiors as unavailable unless explicitly open."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Oakwood Cemetery: Uncle Sam Grave & Earl Chapel Grounds"
+    },
+    {
+      "id": "saratoga-auto",
+      "name": "Saratoga Automobile Museum",
+      "kind": "automotive-design-museum",
+      "city": "Saratoga Springs",
+      "state": "NY",
+      "visit_date": "2026-10-05",
+      "summary": "A restored 1935 state bottling plant now frames rotating automobile exhibitions; the October 2026 headline celebrates 140 years of Mercedes-Benz engineering.",
+      "why_go": "It is the polished all-weather substitute when the group wants machinery and design more than two outdoor historical landscapes.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Best for gora and viki: It is the polished all-weather substitute when the group wants machinery and design more than two outdoor historical landscapes.",
+      "categories": [
+        "unusual_creative",
+        "architecture_nature_photogenic",
+        "local_culture"
+      ],
+      "duration_minutes": 120,
+      "source_ids": [
+        "src-saratoga-auto"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Open daily in May-October; special events and exhibit changeovers can alter access, so check the museum feed the day before."
+      },
+      "cost": {
+        "amount_per_person": 20,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "replacement",
+      "replacement_reason": "A single weatherproof design anchor replacing the waterfall-and-cemetery pair.",
+      "replacement": {
+        "day": 2,
+        "replaces_place_ids": [
+          "cohoes-falls",
+          "oakwood-troy"
+        ],
+        "route_variant_id": "replacement-d2-saratoga-auto",
+        "reason": "A single weatherproof design anchor replacing the waterfall-and-cemetery pair."
+      },
+      "address": "Saratoga Automobile Museum"
+    },
+    {
+      "id": "boxing-hof",
+      "name": "International Boxing Hall of Fame",
+      "kind": "combat-sport-history-museum",
+      "city": "Canastota",
+      "state": "NY",
+      "visit_date": "2026-10-06",
+      "summary": "The sport's international shrine sits in the small town where two residents revived boxing's hall of fame, filling compact galleries with gloves, robes, film and difficult careers.",
+      "why_go": "This is the route's only sport-forward anchor and it is exactly calibrated for Gora: historical, technical and human rather than an exhausting activity.",
+      "best_for": [
+        "gora"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka",
+        "viki"
+      ],
+      "best_fit_note": "Best for gora: This is the route's only sport-forward anchor and it is exactly calibrated for Gora: historical, technical and human rather than an exhausting activity.",
+      "categories": [
+        "hidden_history_folklore",
+        "local_culture",
+        "unusual_creative"
+      ],
+      "duration_minutes": 120,
+      "source_ids": [
+        "src-boxing"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "09:30",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Weekday hours; leave enough time for the research library and film room if the group gets absorbed."
+      },
+      "cost": {
+        "amount_per_person": 15.5,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "International Boxing Hall of Fame"
+    },
+    {
+      "id": "chittenango-falls",
+      "name": "Chittenango Falls State Park",
+      "kind": "limestone-waterfall-short-walk",
+      "city": "Cazenovia",
+      "state": "NY",
+      "visit_date": "2026-10-06",
+      "summary": "A 167-foot waterfall steps over 400-million-year-old bedrock, with a compact gorge trail and footbridge that can deliver a huge fall image without a long hike.",
+      "why_go": "Viki gets the strongest nature alternative of the first half, while Gora and Stivka get a quiet reset after the Thruway.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and stivka: Viki gets the strongest nature alternative of the first half, while Gora and Stivka get a quiet reset after the Thruway.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "quiet_reset"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-chittenango",
+        "src-forum-upstate"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "verified-public-space",
+        "note": "Open sunrise to sunset year-round with restrictions. The full gorge has stairs and can be slippery; the top view remains the low-effort option."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "No October vehicle fee is presently listed; carry a card and reconfirm."
+      },
+      "priority": "replacement",
+      "replacement_reason": "Use when the group needs foliage and open air more than combat-sport history.",
+      "replacement": {
+        "day": 3,
+        "replaces_place_ids": [
+          "boxing-hof"
+        ],
+        "route_variant_id": "replacement-d3-chittenango-falls",
+        "reason": "Use when the group needs foliage and open air more than combat-sport history."
+      },
+      "address": "Chittenango Falls State Park"
+    },
+    {
+      "id": "anthony-house",
+      "name": "National Susan B. Anthony Museum & House",
+      "kind": "guided-social-history-house",
+      "city": "Rochester",
+      "state": "NY",
+      "visit_date": "2026-10-07",
+      "summary": "A docent-led visit moves through the rooms where Anthony lived, organized and was arrested after voting in 1872, keeping suffrage history grounded in decisions and evidence.",
+      "why_go": "Gora gets non-sanitized political history, Viki gets an intimate period interior, and the group gets a strong story without a blockbuster crowd.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Best for gora and viki: Gora gets non-sanitized political history, Viki gets an intimate period interior, and the group gets a strong story without a blockbuster crowd.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_nature_photogenic",
+        "local_culture"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-anthony"
+      ],
+      "reservation": "reserve-recommended",
+      "hours": {
+        "opens": "11:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Tuesday-Sunday hours; visits are docent-led, so reserve or arrive for an available tour rather than assuming free wandering."
+      },
+      "cost": {
+        "amount_per_person": 20,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "National Susan B. Anthony Museum & House"
+    },
+    {
+      "id": "mount-hope-rochester",
+      "name": "Mount Hope Cemetery: Douglass & Anthony",
+      "kind": "victorian-landscape-and-memory",
+      "city": "Rochester",
+      "state": "NY",
+      "visit_date": "2026-10-07",
+      "summary": "America's first municipal Victorian cemetery folds glacial hills, mature trees and elaborate monuments around the graves of Frederick Douglass and Susan B. Anthony.",
+      "why_go": "The pairing turns a house-museum story into a physical memory landscape and gives all four a quiet, photogenic hour rather than another indoor collection.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and gora: The pairing turns a house-museum story into a physical memory landscape and gives all four a quiet, photogenic hour rather than another indoor collection.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "quiet_reset"
+      ],
+      "duration_minutes": 75,
+      "source_ids": [
+        "src-mount-hope",
+        "src-forum-upstate"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "07:30",
+        "closes": "20:00",
+        "status": "verified-current",
+        "note": "October 7 falls within the April 1-October 14 extended grounds schedule. Respect funerals and grave decorations; no staged photo shoot."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Mount Hope Cemetery: Douglass & Anthony"
+    },
+    {
+      "id": "rmsc-electricity",
+      "name": "RMSC Electricity Theater",
+      "kind": "live-tesla-coil-science",
+      "city": "Rochester",
+      "state": "NY",
+      "visit_date": "2026-10-07",
+      "summary": "Twin six-foot solid-state Tesla coils throw musical arcs across a dark theater, turning electricity into a controlled live performance inside Rochester's science museum.",
+      "why_go": "This is Viki's unusual-museum instinct at full voltage and gives Gora a spectacular demonstration with real physics underneath it.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Best for viki and gora: This is Viki's unusual-museum instinct at full voltage and gives Gora a spectacular demonstration with real physics underneath it.",
+      "categories": [
+        "unusual_creative",
+        "hidden_history_folklore",
+        "local_culture"
+      ],
+      "duration_minutes": 135,
+      "source_ids": [
+        "src-rmsc",
+        "src-rmsc-tesla"
+      ],
+      "reservation": "same-day-show-check",
+      "hours": {
+        "opens": "09:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Wednesday school-year museum hours; the Electricity Theater is included, but exact show times must be checked before choosing this swap."
+      },
+      "cost": {
+        "amount_per_person": 23,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "replacement",
+      "replacement_reason": "A weatherproof spectacle replacing both quieter history stops when energy or rain calls for one anchor.",
+      "replacement": {
+        "day": 4,
+        "replaces_place_ids": [
+          "anthony-house",
+          "mount-hope-rochester"
+        ],
+        "route_variant_id": "replacement-d4-rmsc-electricity",
+        "reason": "A weatherproof spectacle replacing both quieter history stops when energy or rain calls for one anchor."
+      },
+      "address": "RMSC Electricity Theater"
+    },
+    {
+      "id": "eden-kazoo",
+      "name": "Original American Kazoo Company Factory & Museum",
+      "kind": "working-kazoo-factory",
+      "city": "Eden",
+      "state": "NY",
+      "visit_date": "2026-10-08",
+      "summary": "The only metal kazoo factory of its kind in North America still uses belt-driven machinery in an 1890s workshop; a self-guided visit ends by making a playable kazoo.",
+      "why_go": "This is Route 7's defining hidden gem: strange, inexpensive, mechanical, musical and impossible to confuse with a generic museum.",
+      "best_for": [
+        "stivka",
+        "viki"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for stivka and viki: This is Route 7's defining hidden gem: strange, inexpensive, mechanical, musical and impossible to confuse with a generic museum.",
+      "categories": [
+        "unusual_creative",
+        "hidden_history_folklore",
+        "local_culture"
+      ],
+      "duration_minutes": 85,
+      "source_ids": [
+        "src-kazoo"
+      ],
+      "reservation": "call-day-before",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Thursday is one of the factory's normal operating days; machinery activity can vary, so call the day before and arrive near opening."
+      },
+      "cost": {
+        "amount_per_person": 5,
+        "status": "verified-current",
+        "note": "Self-guided museum is inexpensive; allow a small make-a-kazoo purchase."
+      },
+      "priority": "anchor",
+      "address": "Original American Kazoo Company Factory & Museum"
+    },
+    {
+      "id": "trec-presque-isle",
+      "name": "Tom Ridge Environmental Center & Presque Isle Gateway",
+      "kind": "lake-ecology-and-observation-tower",
+      "city": "Erie",
+      "state": "PA",
+      "visit_date": "2026-10-08",
+      "summary": "Interactive lake-and-dune exhibits lead to a 75-foot tower overlooking Presque Isle, making the peninsula's shifting ecology legible before a short shoreline pause.",
+      "why_go": "Viki gets Lake Erie and a high photo angle, Gora gets environmental systems, and everyone gets fresh air without a five-mile hike.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and gora: Viki gets Lake Erie and a high photo angle, Gora gets environmental systems, and everyone gets fresh air without a five-mile hike.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "quiet_reset",
+        "local_culture"
+      ],
+      "duration_minutes": 105,
+      "source_ids": [
+        "src-trec"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "08:00",
+        "closes": "16:00",
+        "status": "verified-current",
+        "note": "Daily April-October hours; protect the tower and exhibit time by leaving Eden promptly."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Tom Ridge Environmental Center & Presque Isle Gateway"
+    },
+    {
+      "id": "erie-maritime",
+      "name": "Erie Maritime Museum",
+      "kind": "warship-and-lake-industry-museum",
+      "city": "Erie",
+      "state": "PA",
+      "visit_date": "2026-10-08",
+      "summary": "A former power plant interprets naval construction, the Battle of Lake Erie and the bay's working waterfront; the indoor reconstructed gun deck matters even when Niagara is away.",
+      "why_go": "It is the stronger bad-weather choice for Gora and Stivka, mixing engineering, conflict and Erie identity in one compact building.",
+      "best_for": [
+        "gora",
+        "stivka"
+      ],
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for gora and stivka: It is the stronger bad-weather choice for Gora and Stivka, mixing engineering, conflict and Erie identity in one compact building.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_nature_photogenic",
+        "local_culture"
+      ],
+      "duration_minutes": 100,
+      "source_ids": [
+        "src-erie-maritime"
+      ],
+      "reservation": "call",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "The official site currently exposes ticketing but not a dependable October 8 hours block; confirm directly before promoting this replacement."
+      },
+      "cost": {
+        "amount_per_person": 10,
+        "status": "verified-current",
+        "note": "Planning estimate only; confirm current adult admission."
+      },
+      "priority": "replacement",
+      "replacement_reason": "An indoor engineering-and-warship substitute when the lakefront tower is weathered out.",
+      "replacement": {
+        "day": 5,
+        "replaces_place_ids": [
+          "trec-presque-isle"
+        ],
+        "route_variant_id": "replacement-d5-erie-maritime",
+        "reason": "An indoor engineering-and-warship substitute when the lakefront tower is weathered out."
+      },
+      "address": "Erie Maritime Museum"
+    },
+    {
+      "id": "rock-hall",
+      "name": "Rock & Roll Hall of Fame",
+      "kind": "music-history-museum",
+      "city": "Cleveland",
+      "state": "OH",
+      "visit_date": "2026-10-09",
+      "summary": "Cleveland's glass pyramid connects sound, clothing, handwritten lyrics, instruments and contested definitions of rock across generations rather than offering a simple wall of fame.",
+      "why_go": "Stivka gets the trip's biggest music archive, Viki gets iconic architecture and performance objects, and everyone gets context before the live show.",
+      "best_for": [
+        "stivka",
+        "viki"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for stivka and viki: Stivka gets the trip's biggest music archive, Viki gets iconic architecture and performance objects, and everyone gets context before the live show.",
+      "categories": [
+        "social_nightlife_live",
+        "hidden_history_folklore",
+        "architecture_nature_photogenic"
+      ],
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-rockhall"
+      ],
+      "reservation": "reserve",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "September-June Friday hours; timed tickets are strongly recommended for a Friday with a fixed evening show."
+      },
+      "cost": {
+        "amount_per_person": 45,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Rock & Roll Hall of Fame"
+    },
+    {
+      "id": "christmas-story-house",
+      "name": "A Christmas Story House",
+      "kind": "film-location-house-museum",
+      "city": "Cleveland",
+      "state": "OH",
+      "visit_date": "2026-10-09",
+      "summary": "The restored Tremont house turns a familiar film set into a tactile period interior where visitors can trace how an ordinary neighborhood became American holiday mythology.",
+      "why_go": "It is goofy enough to reset the day, highly photographable for Viki and a clean pop-culture story for everyone without becoming a three-hour commitment.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Best for viki and sheluvspaco: It is goofy enough to reset the day, highly photographable for Viki and a clean pop-culture story for everyone without becoming a three-hour commitment.",
+      "categories": [
+        "unusual_creative",
+        "architecture_nature_photogenic",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 60,
+      "source_ids": [
+        "src-christmas"
+      ],
+      "reservation": "reserve",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Daily hours; guided tours run roughly 45-50 minutes, so buy a slot that leaves margin before Buckland and the concert."
+      },
+      "cost": {
+        "amount_per_person": 20,
+        "status": "verified-current",
+        "note": "Current online planning price before tax and booking fees."
+      },
+      "priority": "anchor",
+      "address": "A Christmas Story House"
+    },
+    {
+      "id": "buckland-museum",
+      "name": "Buckland Museum of Witchcraft & Magick",
+      "kind": "occult-history-cabinet",
+      "city": "Cleveland",
+      "state": "OH",
+      "visit_date": "2026-10-09",
+      "summary": "More than two hundred ritual, publishing and personal objects from Raymond Buckland's collection fill a tiny serious museum about modern witchcraft and occult subcultures.",
+      "why_go": "This is Viki's off-mainstream museum and Gora's chance to study a belief system through primary objects rather than internet mythology.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Best for viki and gora: This is Viki's off-mainstream museum and Gora's chance to study a belief system through primary objects rather than internet mythology.",
+      "categories": [
+        "unusual_creative",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 55,
+      "source_ids": [
+        "src-buckland",
+        "src-forum-cleveland"
+      ],
+      "reservation": "reserve",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reserve-and-reconfirm",
+        "note": "Official admission and visit length are current, but the site does not publish a stable Friday hours table. Buy a timed ticket only after October 9 inventory appears."
+      },
+      "cost": {
+        "amount_per_person": 8,
+        "status": "verified-current",
+        "note": "$8 online or $10 at the door."
+      },
+      "priority": "anchor",
+      "address": "Buckland Museum of Witchcraft & Magick"
+    },
+    {
+      "id": "sugar-agora",
+      "name": "Sugar at the Agora Theatre",
+      "kind": "fixed-live-rock-night",
+      "city": "Cleveland",
+      "state": "OH",
+      "visit_date": "2026-10-09",
+      "summary": "Bob Mould's power trio Sugar brings its dense guitar sound to the restored Agora—an exact-date rock night that makes Cleveland the emotional endpoint rather than just the farthest hotel.",
+      "why_go": "This is designed for Stivka, but the social concert energy also gives Paco and Gora the one big night the route earns after a week of careful pacing.",
+      "best_for": [
+        "stivka"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "gora",
+        "viki"
+      ],
+      "best_fit_note": "Best for stivka: This is designed for Stivka, but the social concert energy also gives Paco and Gora the one big night the route earns after a week of careful pacing.",
+      "categories": [
+        "social_nightlife_live",
+        "architecture_nature_photogenic",
+        "local_culture"
+      ],
+      "duration_minutes": 180,
+      "source_ids": [
+        "src-sugar"
+      ],
+      "reservation": "reserve-now",
+      "hours": {
+        "opens": "19:00",
+        "closes": "23:00",
+        "status": "verified-current",
+        "note": "Friday October 9, 2026: doors 19:00, show 20:00. End time is a planning estimate; venue rules and final set times govern."
+      },
+      "cost": {
+        "amount_per_person": null,
+        "status": "verified-current",
+        "note": "Ticket price and fees vary by inventory; nightlife is excluded from the $1,500 controllable budget."
+      },
+      "priority": "anchor",
+      "address": "Sugar at the Agora Theatre"
+    },
+    {
+      "id": "crawford-auto",
+      "name": "Crawford Auto-Aviation Museum",
+      "kind": "transportation-technology-collection",
+      "city": "Cleveland",
+      "state": "OH",
+      "visit_date": "2026-10-09",
+      "summary": "A Cleveland-built transportation collection moves from early electric cars and aircraft to industrial design, including the tiny transatlantic sailboat Tinkerbelle.",
+      "why_go": "It replaces uncertainty with machinery: Gora gets engineering, Viki gets polished forms and Stivka still stays inside Cleveland's cultural history.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for gora and viki: It replaces uncertainty with machinery: Gora gets engineering, Viki gets polished forms and Stivka still stays inside Cleveland's cultural history.",
+      "categories": [
+        "hidden_history_folklore",
+        "unusual_creative",
+        "local_culture"
+      ],
+      "duration_minutes": 100,
+      "source_ids": [
+        "src-crawford"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "16:00",
+        "status": "verified-current",
+        "note": "Friday Cleveland History Center hours; verify which Crawford galleries are open after the museum's renovation cycle."
+      },
+      "cost": {
+        "amount_per_person": 15,
+        "status": "verified-current",
+        "note": "Planning estimate for general admission; confirm current ticket price."
+      },
+      "priority": "replacement",
+      "replacement_reason": "The dependable Friday swap when Buckland has no usable timed inventory.",
+      "replacement": {
+        "day": 6,
+        "replaces_place_ids": [
+          "buckland-museum"
+        ],
+        "route_variant_id": "replacement-d6-crawford-auto",
+        "reason": "The dependable Friday swap when Buckland has no usable timed inventory."
+      },
+      "address": "Crawford Auto-Aviation Museum"
+    },
+    {
+      "id": "cleveland-art",
+      "name": "Cleveland Museum of Art",
+      "kind": "world-art-and-architecture-anchor",
+      "city": "Cleveland",
+      "state": "OH",
+      "visit_date": "2026-10-10",
+      "summary": "A free encyclopedic collection wraps around the huge glass-roofed Ames Family Atrium, letting the group choose armor, icons, contemporary art or quiet courtyard light without paying for completeness.",
+      "why_go": "Viki gets the most beautiful indoor architecture of the route, Stivka can seek sacred art, and each person can follow a different gallery for an hour before regrouping.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and stivka: Viki gets the most beautiful indoor architecture of the route, Stivka can seek sacred art, and each person can follow a different gallery for an hour before regrouping.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "quiet_reset"
+      ],
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-cma"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Saturday hours; general admission is free, but special exhibitions may be timed and paid."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Cleveland Museum of Art"
+    },
+    {
+      "id": "lake-view-haserot",
+      "name": "Lake View Cemetery & Haserot Angel",
+      "kind": "garden-cemetery-sculpture",
+      "city": "Cleveland",
+      "state": "OH",
+      "visit_date": "2026-10-10",
+      "summary": "The bronze Angel of Death Victorious appears to cry black tears from oxidation inside Cleveland's 1869 garden cemetery, surrounded by hills, monuments and old trees.",
+      "why_go": "It is a quieter, stranger Cleveland exit: Viki and Stivka get sculpture and atmosphere while the group decompresses before the long southbound stage.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and stivka: It is a quieter, stranger Cleveland exit: Viki and Stivka get sculpture and atmosphere while the group decompresses before the long southbound stage.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "quiet_reset"
+      ],
+      "duration_minutes": 95,
+      "source_ids": [
+        "src-lakeview",
+        "src-haserot",
+        "src-forum-cleveland"
+      ],
+      "reservation": "same-day-gate-check",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "verified-current",
+        "note": "Public grounds are normally open daily, but exact gate hours must be checked. This is an active cemetery: no props, staged shoot, drones or disturbance."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "replacement",
+      "replacement_reason": "A foliage-and-sculpture alternative when the group has reached museum saturation.",
+      "replacement": {
+        "day": 7,
+        "replaces_place_ids": [
+          "cleveland-art"
+        ],
+        "route_variant_id": "replacement-d7-lake-view-haserot",
+        "reason": "A foliage-and-sculpture alternative when the group has reached museum saturation."
+      },
+      "address": "Lake View Cemetery & Haserot Angel"
+    },
+    {
+      "id": "all-saints-canonsburg",
+      "name": "All Saints Greek Orthodox Church",
+      "kind": "full-orthodox-sunday",
+      "city": "Canonsburg",
+      "state": "PA",
+      "visit_date": "2026-10-11",
+      "summary": "A canonical Greek Orthodox parish anchors the return with the full Sunday sequence—Orthros followed by Divine Liturgy—rather than treating church as a photo stop.",
+      "why_go": "This is Stivka's deepest fit and a meaningful shared ritual for all four Orthodox travelers; the day stays deliberately light afterward.",
+      "best_for": [
+        "stivka"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "viki",
+        "gora"
+      ],
+      "best_fit_note": "Best for stivka: This is Stivka's deepest fit and a meaningful shared ritual for all four Orthodox travelers; the day stays deliberately light afterward.",
+      "categories": [
+        "orthodox_spiritual",
+        "architecture_nature_photogenic",
+        "quiet_reset"
+      ],
+      "duration_minutes": 180,
+      "source_ids": [
+        "src-all-saints",
+        "src-goarch-pittsburgh"
+      ],
+      "reservation": "reconfirm-parish",
+      "hours": {
+        "opens": "09:00",
+        "closes": "12:00",
+        "status": "verified-current",
+        "note": "Regular post-Labor-Day pattern is Orthros around 09:00 and Divine Liturgy around 10:00, but October 11 must be confirmed in the parish bulletin. Ask about visitor and Communion etiquette."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Free; make a respectful offering if desired."
+      },
+      "priority": "anchor",
+      "address": "All Saints Greek Orthodox Church"
+    },
+    {
+      "id": "bedford-coffee-pot",
+      "name": "Koontz Coffee Pot",
+      "kind": "giant-roadside-architecture",
+      "city": "Bedford",
+      "state": "PA",
+      "visit_date": "2026-10-11",
+      "summary": "A giant sheet-metal coffee pot built as a 1920s lunch stand survives beside the Lincoln Highway, saved and moved by local preservationists after decades of roadside service.",
+      "why_go": "It is a ten-minute visual joke with real automobile-era history—perfect after Liturgy and before the final Breezewood push.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Best for viki and sheluvspaco: It is a ten-minute visual joke with real automobile-era history—perfect after Liturgy and before the final Breezewood push.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "unusual_creative"
+      ],
+      "duration_minutes": 35,
+      "source_ids": [
+        "src-coffee-pot"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "verified-exterior",
+        "note": "Exterior roadside stop; interior opening is not promised. Park legally and never block Telegraph Road."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Koontz Coffee Pot"
+    },
+    {
+      "id": "old-bedford-village",
+      "name": "Old Bedford Village",
+      "kind": "living-history-landscape",
+      "city": "Bedford",
+      "state": "PA",
+      "visit_date": "2026-10-11",
+      "summary": "Dozens of rescued and reconstructed log, stone and frame buildings create a compact Pennsylvania village where domestic craft and frontier infrastructure sit together.",
+      "why_go": "It is the fuller folklore-and-architecture option for Viki, Gora and Stivka if the group wants depth rather than one roadside photograph.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and gora: It is the fuller folklore-and-architecture option for Viki, Gora and Stivka if the group wants depth rather than one roadside photograph.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "local_culture"
+      ],
+      "duration_minutes": 105,
+      "source_ids": [
+        "src-old-bedford"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "09:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "September-October Thursday-Sunday pattern; October 11 overlaps Bedford fall-foliage traffic, so confirm admission and allow congestion margin."
+      },
+      "cost": {
+        "amount_per_person": 15,
+        "status": "verified-current",
+        "note": "Planning estimate; confirm 2026 adult admission."
+      },
+      "priority": "replacement",
+      "replacement_reason": "A longer living-history option when energy and festival traffic both remain manageable.",
+      "replacement": {
+        "day": 8,
+        "replaces_place_ids": [
+          "bedford-coffee-pot"
+        ],
+        "route_variant_id": "replacement-d8-old-bedford-village",
+        "reason": "A longer living-history option when energy and festival traffic both remain manageable."
+      },
+      "address": "Old Bedford Village"
+    },
+    {
+      "id": "mack-museum",
+      "name": "Mack Trucks Historical Museum",
+      "kind": "guided-heavy-machinery-history",
+      "city": "Allentown",
+      "state": "PA",
+      "visit_date": "2026-10-12",
+      "summary": "Volunteer ambassadors lead small groups through restored Mack trucks, engines, archives and the bulldog's industrial story inside the active Experience Center campus.",
+      "why_go": "This is the heavy-machinery finale for Gora and a genuinely behind-the-scenes American manufacturing story for all four—not just a room of polished vehicles.",
+      "best_for": [
+        "gora"
+      ],
+      "secondary_for": [
+        "viki",
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for gora: This is the heavy-machinery finale for Gora and a genuinely behind-the-scenes American manufacturing story for all four—not just a room of polished vehicles.",
+      "categories": [
+        "hidden_history_folklore",
+        "unusual_creative",
+        "local_culture"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-mack"
+      ],
+      "reservation": "reserve-and-holiday-confirm",
+      "hours": {
+        "opens": "13:00",
+        "closes": "14:30",
+        "status": "verified-current",
+        "note": "Monday tours normally start 9:00, 10:30, 13:00 and 14:30, but October 12 is a federal holiday. The reservation calendar is authoritative; do not drive to the gated campus without confirmation."
+      },
+      "cost": {
+        "amount_per_person": 5,
+        "status": "verified-current",
+        "note": "No admission fee; $5 suggested adult donation."
+      },
+      "priority": "anchor",
+      "address": "Mack Trucks Historical Museum"
+    },
+    {
+      "id": "allentown-fish-hatchery",
+      "name": "Lil-Le-Hi Trout Nursery",
+      "kind": "historic-public-fish-hatchery",
+      "city": "Allentown",
+      "state": "PA",
+      "visit_date": "2026-10-12",
+      "summary": "Long concrete raceways full of trout sit inside Lehigh Parkway beside stonework, creek paths and the city's 1883 hatchery tradition.",
+      "why_go": "It is the automatic low-pressure rescue if Mack closes for the holiday: moving water, infrastructure and a short outdoor reset instead of a locked gate.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and gora: It is the automatic low-pressure rescue if Mack closes for the holiday: moving water, infrastructure and a short outdoor reset instead of a locked gate.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "quiet_reset",
+        "local_culture"
+      ],
+      "duration_minutes": 85,
+      "source_ids": [
+        "src-fish-hatchery"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "public-space-reconfirm",
+        "note": "Public outdoor facility; verify parking and any seasonal feeding restrictions with Allentown Parks. No indoor program is assumed."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "replacement",
+      "replacement_reason": "The route-safe outdoor substitute if the holiday removes Mack tour inventory.",
+      "replacement": {
+        "day": 9,
+        "replaces_place_ids": [
+          "mack-museum"
+        ],
+        "route_variant_id": "replacement-d9-allentown-fish-hatchery",
+        "reason": "The route-safe outdoor substitute if the holiday removes Mack tour inventory."
+      },
+      "address": "Lil-Le-Hi Trout Nursery"
+    },
+    {
+      "id": "uncle-sam-danbury",
+      "name": "World's Tallest Uncle Sam Statue",
+      "kind": "giant-fairground-survivor",
+      "city": "Danbury",
+      "state": "CT",
+      "visit_date": "2026-10-13",
+      "summary": "A 38-foot, 4,500-pound fiberglass Uncle Sam built for the Great Danbury Fair in 1971 now towers over the Railway Museum parking lot—the return route's perfect echo of Samuel Wilson's grave.",
+      "why_go": "The bookend is the magic: Day 2 meets the real Uncle Sam; Day 10 meets America's enormous carnival version. Viki gets the shot and everyone gets the joke.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Best for viki and sheluvspaco: The bookend is the magic: Day 2 meets the real Uncle Sam; Day 10 meets America's enormous carnival version. Viki gets the shot and everyone gets the joke.",
+      "categories": [
+        "unusual_creative",
+        "architecture_nature_photogenic",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 35,
+      "source_ids": [
+        "src-uncle-sam"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "verified-exterior-only",
+        "note": "The Railway Museum is closed Tuesday; this is strictly an exterior parking-lot statue visit during safe daylight. No indoor or rail-yard access is promised."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "World's Tallest Uncle Sam Statue"
+    },
+    {
+      "id": "danbury-fair-carousel",
+      "name": "Danbury Fair Double-Decker Carousel",
+      "kind": "mall-carousel-and-retail-reset",
+      "city": "Danbury",
+      "state": "CT",
+      "visit_date": "2026-10-13",
+      "summary": "An Italian-style double-decker carousel inside the mall keeps the vanished Great Danbury Fair's carnival energy alive beside a large modern retail mix.",
+      "why_go": "Viki gets one practical fashion-shopping window and a playful photograph while the others get a brief fair-history callback without adding road miles.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Best for viki and sheluvspaco: Viki gets one practical fashion-shopping window and a playful photograph while the others get a brief fair-history callback without adding road miles.",
+      "categories": [
+        "shopping_outlets",
+        "unusual_creative",
+        "social_nightlife_live"
+      ],
+      "duration_minutes": 100,
+      "source_ids": [
+        "src-danbury-fair"
+      ],
+      "reservation": "same-day-operator-check",
+      "hours": {
+        "opens": "10:00",
+        "closes": "20:00",
+        "status": "verified-current",
+        "note": "Tuesday mall hours. The mall lists carousel service, but the independent ride's exact operating hours and price must be confirmed same day."
+      },
+      "cost": {
+        "amount_per_person": 3,
+        "status": "verified-current",
+        "note": "Planning estimate for one ride; shopping is personal and excluded."
+      },
+      "priority": "replacement",
+      "replacement_reason": "An indoor carnival-and-shopping substitute in rain; it replaces the statue rather than stacking with it.",
+      "replacement": {
+        "day": 10,
+        "replaces_place_ids": [
+          "uncle-sam-danbury"
+        ],
+        "route_variant_id": "replacement-d10-danbury-carousel",
+        "reason": "An indoor carnival-and-shopping substitute in rain; it replaces the statue rather than stacking with it."
+      },
+      "address": "Danbury Fair Double-Decker Carousel"
+    },
+    {
+      "id": "mit-museum",
+      "name": "MIT Museum",
+      "kind": "invention-and-kinetic-science-museum",
+      "city": "Cambridge",
+      "state": "MA",
+      "visit_date": "2026-10-14",
+      "summary": "Kinetic sculptures, holography, architecture, artificial intelligence and Doc Edgerton's frozen instants turn MIT research into objects that move, flicker and surprise.",
+      "why_go": "It closes the mechanical-dreams thread after both cars are safely returned: Viki gets visual wonder, Gora gets applied science and nobody has to park in Cambridge.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Best for gora and viki: It closes the mechanical-dreams thread after both cars are safely returned: Viki gets visual wonder, Gora gets applied science and nobody has to park in Cambridge.",
+      "categories": [
+        "unusual_creative",
+        "hidden_history_folklore",
+        "architecture_nature_photogenic"
+      ],
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-mit",
+        "src-mit-arts"
+      ],
+      "reservation": "reserve-recommended",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Open daily 10:00-17:00. Visit only after both rental cars are returned; use MBTA/rideshare and protect the airport-hotel night."
+      },
+      "cost": {
+        "amount_per_person": 20,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "MIT Museum"
+    },
+    {
+      "id": "harvard-art",
+      "name": "Harvard Art Museums",
+      "kind": "free-art-and-conservation-courtyard",
+      "city": "Cambridge",
+      "state": "MA",
+      "visit_date": "2026-10-14",
+      "summary": "More than fifty galleries rise around Renzo Piano's light-filled Calderwood Courtyard, with visible conservation spaces and sacred, ancient and modern art under one roof.",
+      "why_go": "It is the softer free finale when the group wants beauty and space instead of one more technology collection, with especially strong fits for Viki and Stivka.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and stivka: It is the softer free finale when the group wants beauty and space instead of one more technology collection, with especially strong fits for Viki and Stivka.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "quiet_reset",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 135,
+      "source_ids": [
+        "src-harvard"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Open Tuesday-Sunday and free. Weekend registration advice does not apply Wednesday, but check select-date closures before travel."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "replacement",
+      "replacement_reason": "An equal-drive post-car-return finale emphasizing architecture, icons and quiet rather than machines.",
+      "replacement": {
+        "day": 11,
+        "replaces_place_ids": [
+          "mit-museum"
+        ],
+        "route_variant_id": "replacement-d11-harvard-art",
+        "reason": "An equal-drive post-car-return finale emphasizing architecture, icons and quiet rather than machines."
+      },
+      "address": "Harvard Art Museums"
+    }
+  ]
+}

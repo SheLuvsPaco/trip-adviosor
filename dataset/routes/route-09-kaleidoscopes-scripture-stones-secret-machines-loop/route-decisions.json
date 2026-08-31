@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0.0",
+  "route_id": "route-09",
+  "locked_at": "2026-08-24",
+  "accepted": [
+    {
+      "decision": "Columbus is the endpoint",
+      "reason": "Otherworld and the Zanesville bronze-and-bridge sequence give Route 9 a coherent creative endpoint without duplicating the large-city identities of Routes 6-8."
+    },
+    {
+      "decision": "Route 9 favors small-town obsessions over famous-city checklists",
+      "reason": "Kaleidoscopes, carved rocks, mechanical music, bronze, glass and megaliths are the route's story; Columbus is a reveal, not the whole point."
+    },
+    {
+      "decision": "Every day has one measured replacement",
+      "reason": "All eleven variants are independently routed at 209 minutes or less and remain swaps, never disguised additions."
+    },
+    {
+      "decision": "Orthodox Sunday is protected but precisely labelled",
+      "reason": "The parish alternates Liturgy and Obednitsa with Communion; the route protects worship while refusing to promise a service type until October 11 is confirmed."
+    },
+    {
+      "decision": "Tarrywile replaces the closed Tuesday Aldrich museum as core",
+      "reason": "Tarrywile is legally accessible Tuesday and supplies architecture, nature and preservation history; Aldrich survives only as an outdoor garden option."
+    },
+    {
+      "decision": "The return ends after both cars are returned",
+      "reason": "Harvard or Mass General happens by transit/rideshare, protecting the October 15 airport deadline."
+    }
+  ],
+  "rejected": [
+    {
+      "option": "Aldrich museum galleries on Tuesday",
+      "reason": "The official visitor page says the museum is closed. Only its outdoor garden can be represented."
+    },
+    {
+      "option": "Canton or a deeper southern Ohio detour",
+      "reason": "The geometry would either duplicate Route 7's Ohio identity or push sleep-to-sleep stages beyond 210 minutes."
+    },
+    {
+      "option": "Punxsutawney Weather Discovery Center on Wednesday",
+      "reason": "It is closed that day; the replacement uses only public outdoor folklore sites."
+    },
+    {
+      "option": "Trespassing at Hearthstone Castle",
+      "reason": "The ruin is fenced and explicitly unsafe. The route encodes legal exterior observation only."
+    },
+    {
+      "option": "A second big nightlife night",
+      "reason": "Otherworld supplies social energy without a club night, leaving the endpoint restorative before the long Youngstown return."
+    },
+    {
+      "option": "Stacking replacements",
+      "reason": "A replacement rescues weather, energy, closure or booking failure and stays outside Magic scoring unless explicitly promoted."
+    }
+  ],
+  "traffic_policy": "OSRM baselines contain no traffic. Check live ETAs before every departure; days at or above 200 baseline minutes are live-traffic-gated, and no attraction justifies exceeding 210 active driving minutes.",
+  "weather_policy": "Daily Celsius values are NOAA 1991-2020 station normals, not forecasts. Weather carries only 5 percent of Magic score and must be replaced by a live forecast about ten days before departure.",
+  "image_policy": "Three local, visually reviewed real images are stored per place with creator, source and rights metadata. Contextual images are labelled. Permission-required venue/editorial files are private-prototype-only until licensed or replaced."
+}

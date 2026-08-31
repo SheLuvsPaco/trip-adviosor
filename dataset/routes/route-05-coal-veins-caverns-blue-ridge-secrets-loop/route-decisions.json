@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0.0",
+  "route_id": "route-05",
+  "locked_at": "2026-08-23",
+  "accepted": [
+    {
+      "decision": "Charlottesville is the southern endpoint",
+      "reason": "It is the farthest point that still permits a US-only return under the daily cap with one complete Saturday city program."
+    },
+    {
+      "decision": "Open with Wadsworth and Holy Land, then sleep in Danbury",
+      "reason": "This unusual art-and-folk-faith pairing yields a 207-minute OSRM baseline and positions the Monday coal program at 194 minutes."
+    },
+    {
+      "decision": "Stage return at Burnside Bethlehem and Fairfield Hills Newtown",
+      "reason": "Their exact coordinates split Frederick-to-Boston into 207, 207 and 198-minute OSRM baselines while adding meaningful destination stops."
+    },
+    {
+      "decision": "One predefined night out",
+      "reason": "Morgan Wade at the Jefferson is exact-date, regional and rock-forward without consuming another recovery night."
+    }
+  ],
+  "rejected": [
+    {
+      "option": "Opus 40 to Poughkeepsie opening",
+      "reason": "Boston-Opus-Poughkeepsie produced roughly five hours baseline driving."
+    },
+    {
+      "option": "Old New-Gate Prison and Copper Mine on day one",
+      "reason": "The exact Boston-Old New-Gate-Danbury sequence produced about 241 minutes; sleeping farther east then broke Monday's coal route. It is a strong place but not honest for this itinerary."
+    },
+    {
+      "option": "Staunton/Blue Ridge Tunnel/Frontier Culture extension",
+      "reason": "It forced multiple return legs above 210 minutes."
+    },
+    {
+      "option": "Charlottesville to Emmitsburg shrines to Harrisburg",
+      "reason": "The Sunday sequence approached five hours baseline."
+    },
+    {
+      "option": "Harrisburg to Middletown or New Paltz return",
+      "reason": "Both versions produced consecutive 3.75-4.6 hour baselines."
+    },
+    {
+      "option": "Icon Museum in Clinton on October 14",
+      "reason": "The museum is currently Thursday-Sunday and closed Wednesday."
+    },
+    {
+      "option": "Woodbury Common on October 13",
+      "reason": "The outlet detour pushed the exact bed-to-bed baseline above the hard cap; it is not silently hidden in a schedule."
+    },
+    {
+      "option": "Central Bethlehem/SteelStacks on October 12",
+      "reason": "Moving the lodging node east breaks the next day's cap; Burnside preserves both days."
+    }
+  ],
+  "traffic_policy": "OSRM baselines contain no traffic. Check live ETAs before departure; attractions never justify exceeding 210 active driving minutes. On days 9-10 there are no add-on detours.",
+  "image_policy": "Three local images are stored per place with creator, license and source metadata. Contextual images are labeled; permission-required images, if any, are private-prototype only."
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0.0",
+  "route_id": "route-07",
+  "locked_at": "2026-08-24",
+  "accepted": [
+    {
+      "decision": "Cleveland is the endpoint; Columbus is not",
+      "reason": "Exact OSRM baselines showed Columbus would force dishonest bed-to-bed driving. Cleveland still earns the route with the October 9 Sugar show and a complete cultural day."
+    },
+    {
+      "decision": "The route uses multiple small staging nights westbound",
+      "reason": "Troy, Syracuse, Batavia and Erie keep each active driving day at or below 210 minutes while turning transit into real places rather than fuel-only breaks."
+    },
+    {
+      "decision": "Uncle Sam is a deliberate narrative bookend",
+      "reason": "Samuel Wilson's grave in Troy and the 38-foot Great Danbury Fair statue make two overlooked stops reinforce each other across the loop."
+    },
+    {
+      "decision": "Mack is calendar-gated, not promised",
+      "reason": "October 12 is a holiday. The outdoor Fish Hatchery replacement is already route-tested and becomes automatic without four confirmed reservations."
+    },
+    {
+      "decision": "One fixed big night only",
+      "reason": "Sugar at the Agora directly fits Stivka and gives the farthest city emotional purpose; all other nights remain lighter or quiet."
+    },
+    {
+      "decision": "Every day has one route-tested replacement",
+      "reason": "Each swap is independently measured at or below the same 210-minute baseline cap and is a replacement, never a hidden add-on."
+    }
+  ],
+  "rejected": [
+    {
+      "option": "Columbus endpoint",
+      "reason": "It breaks the daily-drive contract once conservative routing and return staging are measured."
+    },
+    {
+      "option": "Niagara Falls or Canada",
+      "reason": "Routes 2-3 already own western New York and this route remains US-only with no J-1 re-entry dependency."
+    },
+    {
+      "option": "JELL-O Gallery in Le Roy",
+      "reason": "It is closed Tuesday and would be a schedule fiction on the only useful day."
+    },
+    {
+      "option": "Strong Museum of Play",
+      "reason": "Excellent but large, mainstream and exhausting beside the more distinctive Anthony/Mount Hope sequence."
+    },
+    {
+      "option": "An abandoned Rochester subway visit",
+      "reason": "Forum interest does not override legal-access, lighting and safety uncertainty."
+    },
+    {
+      "option": "A second Cleveland nightlife event",
+      "reason": "The Friday concert is the one earned big night; Saturday is intentionally lighter before the southbound stage."
+    },
+    {
+      "option": "Indoor Danbury Railway Museum on Tuesday",
+      "reason": "It is closed; the dataset explicitly schedules only the exterior 38-foot statue."
+    },
+    {
+      "option": "Stacking hidden-gem replacements",
+      "reason": "Replacements exist to rescue weather, energy or closures and are excluded from Magic scoring until promoted."
+    }
+  ],
+  "traffic_policy": "OSRM baselines contain no traffic. Check live ETAs before every departure; days at or above 200 baseline minutes are live-traffic-gated, and no attraction justifies exceeding 210 active driving minutes.",
+  "weather_policy": "Daily Celsius values are NOAA 1991-2020 station normals, not forecasts. Weather carries only 5 percent of Magic score and must be replaced by a live forecast about ten days before departure.",
+  "image_policy": "Three local, visually reviewed images are stored per place with creator, source and rights metadata. Contextual images are labelled. Permission-required external files are private-prototype-only until licensed or replaced."
+}

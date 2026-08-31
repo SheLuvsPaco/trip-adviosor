@@ -1,0 +1,2064 @@
+{
+  "schema_version": "1.0.0",
+  "route_id": "route-11",
+  "places": [
+    {
+      "id": "yale-art-gallery",
+      "name": "Yale Art Gallery: A World of Art for Free",
+      "kind": "free-world-collection-in-kahn-spaces",
+      "city": "New Haven",
+      "state": "CT",
+      "visit_date": "2026-10-04",
+      "summary": "America's oldest university art museum holds ancient objects, modern paintings, and art from many cultures. Part of it sits inside a famous Louis Kahn building.",
+      "why_go": "The first day starts with a real surprise. Entry is free, so the group can choose a few favorite rooms and leave before anyone feels tired.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Best for viki and gora: The first day starts with a real surprise. Entry is free, so the group can choose a few favorite rooms and leave before anyone feels tired.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "unusual_creative"
+      ],
+      "duration_minutes": 105,
+      "source_ids": [
+        "src-yale-gallery"
+      ],
+      "reservation": "same-day-hours-check",
+      "hours": {
+        "opens": "11:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Free and open Sunday. The 14:45 target is transfer-sensitive; do not enter after 15:30 and turn the first day into a rush."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "anchor",
+      "address": "Yale University Art Gallery, 1111 Chapel Street, New Haven, Connecticut",
+      "country": "US",
+      "coordinates": [
+        -72.93077,
+        41.30832
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual-verified-visitor-location",
+      "image_ids": [
+        "img-yale-art-gallery-1",
+        "img-yale-art-gallery-2",
+        "img-yale-art-gallery-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "ycba",
+      "name": "Yale Center for British Art: Light, Art & Kahn",
+      "kind": "louis-kahn-museum-as-artwork",
+      "city": "New Haven",
+      "state": "CT",
+      "visit_date": "2026-10-04",
+      "summary": "Soft daylight fills this calm building of concrete, steel, and wood. It holds the largest British art collection outside the United Kingdom.",
+      "why_go": "The building is as special as the art. It gives Viki strong architecture, Stivka a quiet space, and everyone an easy one-hour visit.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and stivka: The building is as special as the art. It gives Viki strong architecture, Stivka a quiet space, and everyone an easy one-hour visit.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "quiet_reset",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 105,
+      "source_ids": [
+        "src-ycba"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "11:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Free Sunday. Large bags are not admitted; paid garages sit behind the museum."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "supporting",
+      "address": "Yale Center for British Art, 1080 Chapel Street, New Haven, Connecticut",
+      "country": "US",
+      "coordinates": [
+        -72.9311,
+        41.30797
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual-verified-visitor-location",
+      "image_ids": [
+        "img-ycba-1",
+        "img-ycba-2",
+        "img-ycba-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "barnes",
+      "name": "Barnes Foundation: Art Walls Like Puzzles",
+      "kind": "collection-arranged-as-visual-puzzles",
+      "city": "Philadelphia",
+      "state": "PA",
+      "visit_date": "2026-10-05",
+      "summary": "Famous paintings share crowded walls with African art, old furniture, and metalwork. The rooms group objects by shape and color instead of date.",
+      "why_go": "Every wall feels like a visual puzzle. The group can search for links between objects instead of reading long museum labels.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Best for viki and gora: Every wall feels like a visual puzzle. The group can search for links between objects instead of reading long museum labels.",
+      "categories": [
+        "unusual_creative",
+        "architecture_nature_photogenic",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-barnes"
+      ],
+      "reservation": "reserve",
+      "hours": {
+        "opens": "11:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Open Monday. Reserve 11:00 timed entry; use Barnes Focus selectively because the galleries intentionally omit standard labels."
+      },
+      "cost": {
+        "amount_per_person": 30,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "anchor",
+      "address": "Barnes Foundation, 2025 Benjamin Franklin Parkway, Philadelphia, Pennsylvania",
+      "country": "US",
+      "coordinates": [
+        -75.17308,
+        39.96064
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual-verified-visitor-location",
+      "image_ids": [
+        "img-barnes-1",
+        "img-barnes-2",
+        "img-barnes-3",
+        "img-barnes-4",
+        "img-barnes-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "calder-gardens",
+      "name": "Calder Gardens: Moving Art in a Wild Garden",
+      "kind": "new-underground-gallery-and-four-season-garden",
+      "city": "Philadelphia",
+      "state": "PA",
+      "visit_date": "2026-10-05",
+      "summary": "Calder's moving sculptures float above quiet rooms and a garden with thousands of plants. Much of the new building hides below the ground.",
+      "why_go": "This is a small but beautiful mix of art, plants, and modern design. It adds fresh air after the busy Barnes galleries.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "stivka",
+        "gora"
+      ],
+      "best_fit_note": "Best for viki and sheluvspaco: This is a small but beautiful mix of art, plants, and modern design. It adds fresh air after the busy Barnes galleries.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "unusual_creative",
+        "quiet_reset"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-calder",
+        "src-calder-about",
+        "src-calder-local"
+      ],
+      "reservation": "reserve-recommended",
+      "hours": {
+        "opens": "11:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Open Monday. The 11:30 or 13:30 guided walk costs more but adds interpretation to a deliberately sparse space."
+      },
+      "cost": {
+        "amount_per_person": 18,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "supporting",
+      "address": "Calder Gardens, 2100 Benjamin Franklin Parkway, Philadelphia, Pennsylvania",
+      "country": "US",
+      "coordinates": [
+        -75.1745,
+        39.96114
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual-verified-visitor-location",
+      "image_ids": [
+        "img-calder-gardens-1",
+        "img-calder-gardens-2",
+        "img-calder-gardens-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "baltimore-industry",
+      "name": "Baltimore Museum of Industry: The City at Work",
+      "kind": "working-industrial-memory-on-the-harbor",
+      "city": "Baltimore",
+      "state": "MD",
+      "visit_date": "2026-10-06",
+      "summary": "An old oyster factory now holds print shops, machines, workrooms, and food-making tools. The displays show how ordinary people built Baltimore.",
+      "why_go": "The machines still make the history feel alive. It is a local story that many visitors miss, with strong harbor views outside.",
+      "best_for": [
+        "gora"
+      ],
+      "secondary_for": [
+        "viki",
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Best for gora: The machines still make the history feel alive. It is a local story that many visitors miss, with strong harbor views outside.",
+      "categories": [
+        "hidden_history_folklore",
+        "unusual_creative",
+        "architecture_nature_photogenic"
+      ],
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-bmi"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "09:00",
+        "closes": "16:00",
+        "status": "verified-current",
+        "note": "Open Tuesday with free on-site parking. Weekday public docent tours are not promised; the galleries still work self-guided."
+      },
+      "cost": {
+        "amount_per_person": 15,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "anchor",
+      "address": "Baltimore Museum of Industry, 1415 Key Highway, Baltimore, Maryland",
+      "country": "US",
+      "coordinates": [
+        -76.60102,
+        39.27384
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual-verified-visitor-location",
+      "image_ids": [
+        "img-baltimore-industry-1",
+        "img-baltimore-industry-2",
+        "img-baltimore-industry-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "peabody-library",
+      "name": "Peabody Library: Five Floors of Iron and Books",
+      "kind": "cathedral-like-research-library",
+      "city": "Baltimore",
+      "state": "MD",
+      "visit_date": "2026-10-06",
+      "summary": "Five levels of white iron balconies rise toward a huge skylight. About 300,000 old books turn the room into a real library cathedral.",
+      "why_go": "This may be the route's most beautiful indoor view. The visit is free, quiet, and short enough to pair with the industry museum.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and stivka: This may be the route's most beautiful indoor view. The visit is free, quiet, and short enough to pair with the industry museum.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "quiet_reset",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 75,
+      "source_ids": [
+        "src-peabody"
+      ],
+      "reservation": "same-day-hours-check",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "The university's published 2026 calendar lists Tuesday October 6 from 10:00-17:00. Public access is free, but private events can still force a late change."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "supporting",
+      "address": "George Peabody Library, 17 East Mount Vernon Place, Baltimore, Maryland",
+      "country": "US",
+      "coordinates": [
+        -76.61545,
+        39.29703
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual-verified-visitor-location",
+      "image_ids": [
+        "img-peabody-library-1",
+        "img-peabody-library-2",
+        "img-peabody-library-3",
+        "img-peabody-library-4",
+        "img-peabody-library-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "grand-caverns",
+      "name": "Grand Caverns: Strange Shields Under Virginia",
+      "kind": "historic-limestone-show-cave",
+      "city": "Grottoes",
+      "state": "VA",
+      "visit_date": "2026-10-07",
+      "summary": "This cave has welcomed visitors since 1806. Its rare shield-shaped rocks and large rooms look like another world below the Shenandoah Valley.",
+      "why_go": "The cave brings geology and history together without a hard hike. Cool air and dramatic shapes make the long drive feel worth it.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and gora: The cave brings geology and history together without a hard hike. Cool air and dramatic shapes make the long drive feel worth it.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-grand",
+        "src-grand-about"
+      ],
+      "reservation": "reserve",
+      "hours": {
+        "opens": "09:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "April-October daily hours. Tour departures vary; reserve an 11:00-11:30 walking tour and arrive 30 minutes early."
+      },
+      "cost": {
+        "amount_per_person": 27,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "anchor",
+      "address": "Grand Caverns, 5 Grand Caverns Drive, Grottoes, Virginia",
+      "country": "US",
+      "coordinates": [
+        -78.82018,
+        38.2667
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual-verified-visitor-location",
+      "image_ids": [
+        "img-grand-caverns-1",
+        "img-grand-caverns-2",
+        "img-grand-caverns-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "frontier-culture",
+      "name": "Frontier Culture Museum: Old Worlds Rebuilt",
+      "kind": "open-air-migration-and-living-history",
+      "city": "Staunton",
+      "state": "VA",
+      "visit_date": "2026-10-07",
+      "summary": "Farms and homes from West Africa and Europe show what early migrants brought to Virginia. Costumed guides explain work, food, faith, and family life.",
+      "why_go": "History becomes easier to understand when the group can walk through real-looking homes and fields. Fall light also makes the open-air museum beautiful.",
+      "best_for": [
+        "gora",
+        "stivka"
+      ],
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for gora and stivka: History becomes easier to understand when the group can walk through real-looking homes and fields. Fall light also makes the open-air museum beautiful.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_nature_photogenic",
+        "local_culture"
+      ],
+      "duration_minutes": 165,
+      "source_ids": [
+        "src-frontier",
+        "src-frontier-tickets"
+      ],
+      "reservation": "reconfirm",
+      "hours": {
+        "opens": "09:00",
+        "closes": "17:00",
+        "status": "reconfirm-seasonal",
+        "note": "Planning assumption based on the museum's standard daily season; confirm October 7 hours and interpreter coverage before booking the route variant."
+      },
+      "cost": {
+        "amount_per_person": 12,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "supporting",
+      "address": "Frontier Culture Museum, 1290 Richmond Avenue, Staunton, Virginia",
+      "country": "US",
+      "coordinates": [
+        -79.04566,
+        38.14584
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual-verified-visitor-location",
+      "image_ids": [
+        "img-frontier-culture-1",
+        "img-frontier-culture-2",
+        "img-frontier-culture-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "birthplace-country-music",
+      "name": "Birthplace of Country Music: The Sessions That Changed Sound",
+      "kind": "interactive-recording-history",
+      "city": "Bristol",
+      "state": "VA",
+      "visit_date": "2026-10-08",
+      "summary": "A small recording studio in Bristol helped launch country music in 1927. Sound booths, films, instruments, and a working radio station tell the story.",
+      "why_go": "The museum is hands-on and easy to enjoy even without loving country music. It shows how simple recording tools changed American sound.",
+      "best_for": [
+        "gora",
+        "stivka"
+      ],
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for gora and stivka: The museum is hands-on and easy to enjoy even without loving country music. It shows how simple recording tools changed American sound.",
+      "categories": [
+        "live_entertainment_social_nightlife",
+        "hidden_history_folklore",
+        "unusual_creative",
+        "local_culture"
+      ],
+      "duration_minutes": 135,
+      "source_ids": [
+        "src-bcm",
+        "src-bcm-faq"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "18:00",
+        "status": "verified-current",
+        "note": "Open Thursday. The museum recommends 1.5-2 hours for permanent exhibits plus time for the special gallery."
+      },
+      "cost": {
+        "amount_per_person": 13.65,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "anchor",
+      "address": "Birthplace of Country Music Museum, 101 Country Music Way, Bristol, Virginia",
+      "country": "US",
+      "coordinates": [
+        -82.18261,
+        36.59645
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual-verified-visitor-location",
+      "image_ids": [
+        "img-birthplace-country-music-1",
+        "img-birthplace-country-music-2",
+        "img-birthplace-country-music-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "gray-fossil",
+      "name": "Gray Fossil Site: A Five-Million-Year Surprise",
+      "kind": "active-miocene-fossil-dig-and-labs",
+      "city": "Gray",
+      "state": "TN",
+      "visit_date": "2026-10-08",
+      "summary": "Road workers found a rich fossil site and moved the highway to save it. Visitors can see fossils, working science labs, and the active dig.",
+      "why_go": "This is real science still happening today. New finds keep changing the story, so it feels more alive than a normal fossil display.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Best for gora and viki: This is real science still happening today. New finds keep changing the story, so it feels more alive than a normal fossil display.",
+      "categories": [
+        "hidden_history_folklore",
+        "unusual_creative",
+        "architecture_nature_photogenic"
+      ],
+      "duration_minutes": 120,
+      "source_ids": [
+        "src-gray",
+        "src-gray-hours"
+      ],
+      "reservation": "tour-check",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Open Thursday. Site tours and visible excavation depend on staffing and weather; the fossil hall and labs remain the guaranteed core."
+      },
+      "cost": {
+        "amount_per_person": 11,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "supporting",
+      "address": "Gray Fossil Site and Museum, 1212 Suncrest Drive, Gray, Tennessee",
+      "country": "US",
+      "coordinates": [
+        -82.47912,
+        36.3909
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual-verified-visitor-location",
+      "image_ids": [
+        "img-gray-fossil-1",
+        "img-gray-fossil-2",
+        "img-gray-fossil-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "biltmore",
+      "name": "Biltmore: A Giant House and Mountain Gardens",
+      "kind": "gilded-estate-and-designed-landscape",
+      "city": "Asheville",
+      "state": "NC",
+      "visit_date": "2026-10-09",
+      "summary": "America's largest private home has 250 rooms, grand details, gardens, and a glass conservatory. The plan focuses on the best rooms and one garden walk.",
+      "why_go": "The scale is unforgettable and the Blue Ridge setting is beautiful in fall. A focused visit keeps enough energy for Atlanta's metal night.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and gora: The scale is unforgettable and the Blue Ridge setting is beautiful in fall. A focused visit keeps enough energy for Atlanta's metal night.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "quiet_reset"
+      ],
+      "duration_minutes": 270,
+      "source_ids": [
+        "src-biltmore",
+        "src-biltmore-fall",
+        "src-biltmore-info"
+      ],
+      "reservation": "reserve-early",
+      "hours": {
+        "opens": "date-specific",
+        "closes": "date-specific",
+        "status": "verified-current",
+        "note": "Biltmore is open daily but hours vary. Reserve the earliest practical House entry and leave the estate by 13:00-13:30; do not attempt every included area."
+      },
+      "cost": {
+        "amount_per_person": 105,
+        "status": "dynamic-current",
+        "note": "Fall House and Grounds starts at $85 and is dynamically priced; $105 is the planning allowance. Reserve at least seven days ahead."
+      },
+      "priority": "anchor",
+      "address": "Biltmore Estate, 1 Lodge Street, Asheville, North Carolina",
+      "country": "US",
+      "coordinates": [
+        -82.55214,
+        35.54093
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual-verified-visitor-location",
+      "image_ids": [
+        "img-biltmore-1",
+        "img-biltmore-2",
+        "img-biltmore-3",
+        "img-biltmore-4",
+        "img-biltmore-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "grovewood",
+      "name": "Grovewood Village: Looms, Craft & Hidden Cars",
+      "kind": "arts-and-crafts-industrial-village",
+      "city": "Asheville",
+      "state": "NC",
+      "visit_date": "2026-10-09",
+      "summary": "Old craft buildings hold giant looms, handmade art, and a surprising antique car room. The small campus once made cloth and furniture for Biltmore.",
+      "why_go": "This hidden stop mixes machines, local craft, and calm gardens. It is free and feels much more personal than the huge estate nearby.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and gora: This hidden stop mixes machines, local craft, and calm gardens. It is free and feels much more personal than the huge estate nearby.",
+      "categories": [
+        "unusual_creative",
+        "hidden_history_folklore",
+        "fashion_outlets_shopping",
+        "architecture_nature_photogenic"
+      ],
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-grovewood",
+        "src-grovewood-history"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Gallery and both museums are open Friday in October. Studios are not promised outside the two published 2026 open-studio weekends."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Admission and parking are free; a car-museum donation is encouraged."
+      },
+      "priority": "supporting",
+      "address": "Grovewood Village, 111 Grovewood Road, Asheville, North Carolina",
+      "country": "US",
+      "coordinates": [
+        -82.54248,
+        35.62042
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual-verified-visitor-location",
+      "image_ids": [
+        "img-grovewood-1",
+        "img-grovewood-2",
+        "img-grovewood-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "boggs-metal-night",
+      "name": "Atlanta Metal Night at Boggs",
+      "kind": "confirmed-underground-metal-night",
+      "city": "Atlanta",
+      "state": "GA",
+      "visit_date": "2026-10-09",
+      "summary": "Four heavy bands play a small Atlanta room on the exact Friday night of the trip. The plan uses a real event instead of hoping to find music later.",
+      "why_go": "This is Stivka's main music night and a look at Atlanta's local scene. The group can leave early if the long day starts to feel too heavy.",
+      "best_for": [
+        "stivka",
+        "gora"
+      ],
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for stivka and gora: This is Stivka's main music night and a look at Atlanta's local scene. The group can leave early if the long day starts to feel too heavy.",
+      "categories": [
+        "live_entertainment_social_nightlife",
+        "local_culture",
+        "unusual_creative"
+      ],
+      "duration_minutes": 240,
+      "source_ids": [
+        "src-wrekage",
+        "src-boggs"
+      ],
+      "reservation": "ticket-alert",
+      "hours": {
+        "opens": "TBA",
+        "closes": "TBA",
+        "status": "confirmed-event-details-pending",
+        "note": "The date, lineup and venue are published; doors, ticket price and age policy were not yet posted at dataset lock. Recheck the promoter and venue before purchase."
+      },
+      "cost": {
+        "amount_per_person": 30,
+        "status": "estimate",
+        "note": "Planning allowance only; ticket price was not yet published."
+      },
+      "priority": "anchor",
+      "address": "Boggs Social and Supply, 1310 White Street Southwest, Atlanta, Georgia",
+      "country": "US",
+      "coordinates": [
+        -84.43144,
+        33.73205
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual-verified-visitor-location",
+      "image_ids": [
+        "img-boggs-metal-night-1",
+        "img-boggs-metal-night-2",
+        "img-boggs-metal-night-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "eji-legacy-sites",
+      "name": "EJI Legacy Museum and National Memorial",
+      "kind": "truth-centered-history-and-memorial-campus",
+      "city": "Montgomery",
+      "state": "AL",
+      "visit_date": "2026-10-10",
+      "summary": "The museum follows the story from slavery to racial terror, segregation, and mass prison systems. The outdoor memorial honors named victims county by county.",
+      "why_go": "The visit tells difficult history through real voices and clear evidence. It needs time, respect, and a quiet break afterward.",
+      "best_for": [
+        "gora",
+        "stivka"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "viki"
+      ],
+      "best_fit_note": "Best for gora and stivka: The visit tells difficult history through real voices and clear evidence. It needs time, respect, and a quiet break afterward.",
+      "categories": [
+        "hidden_history_folklore",
+        "unusual_creative",
+        "architecture_nature_photogenic",
+        "quiet_reset"
+      ],
+      "duration_minutes": 330,
+      "source_ids": [
+        "src-eji",
+        "src-eji-about"
+      ],
+      "reservation": "reserve",
+      "hours": {
+        "opens": "09:00",
+        "closes": "18:00",
+        "status": "verified-current",
+        "note": "Open Saturday. Reserve a 10:00 Legacy Museum entry, allow 3-4 hours there and 1-1.5 hours at the memorial; free shuttles run every 15 minutes."
+      },
+      "cost": {
+        "amount_per_person": 5,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "anchor",
+      "address": "Legacy Museum, 400 North Court Street, Montgomery, Alabama",
+      "country": "US",
+      "coordinates": [
+        -86.31077,
+        32.38268
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual-verified-visitor-location",
+      "image_ids": [
+        "img-eji-legacy-sites-1",
+        "img-eji-legacy-sites-2",
+        "img-eji-legacy-sites-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "fitzgerald-museum",
+      "name": "Scott and Zelda Fitzgerald Museum: Fame and Damage",
+      "kind": "literary-house-with-stayable-rooms",
+      "city": "Montgomery",
+      "state": "AL",
+      "visit_date": "2026-10-10",
+      "summary": "Scott and Zelda Fitzgerald lived and wrote in this Montgomery house. It is the only museum devoted to both of their creative and difficult lives.",
+      "why_go": "The small house makes two famous writers feel human. It gives the day a lighter story before the much deeper EJI visit.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Best for viki and gora: The small house makes two famous writers feel human. It gives the day a lighter story before the much deeper EJI visit.",
+      "categories": [
+        "hidden_history_folklore",
+        "unusual_creative",
+        "architecture_nature_photogenic"
+      ],
+      "duration_minutes": 105,
+      "source_ids": [
+        "src-fitz"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "15:00",
+        "status": "verified-current",
+        "note": "Open Saturday; arrive by 14:30. Admission is a $5 donation. The upstairs Airbnb suites are not part of ordinary museum access."
+      },
+      "cost": {
+        "amount_per_person": 5,
+        "status": "verified-current",
+        "note": "Requested admission donation."
+      },
+      "priority": "supporting",
+      "address": "Scott and Zelda Fitzgerald Museum, 919 Felder Avenue, Montgomery, Alabama",
+      "country": "US",
+      "coordinates": [
+        -86.29216,
+        32.3562
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual-verified-visitor-location",
+      "image_ids": [
+        "img-fitzgerald-museum-1",
+        "img-fitzgerald-museum-2",
+        "img-fitzgerald-museum-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "annunciation-mobile",
+      "name": "Sunday Liturgy at Annunciation Orthodox Church",
+      "kind": "living-orthodox-worship",
+      "city": "Mobile",
+      "state": "AL",
+      "visit_date": "2026-10-11",
+      "summary": "The group joins Orthros and Divine Liturgy at a real Greek Orthodox parish in Mobile. This is worship, not a quick church photo stop.",
+      "why_go": "Sunday faith is protected for all four Orthodox travelers. The group will follow the parish's visitor and Communion rules with respect.",
+      "best_for": [
+        "stivka"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "viki",
+        "gora"
+      ],
+      "best_fit_note": "Best for stivka: Sunday faith is protected for all four Orthodox travelers. The group will follow the parish's visitor and Communion rules with respect.",
+      "categories": [
+        "orthodox_spiritual",
+        "local_culture",
+        "quiet_reset"
+      ],
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-annunciation",
+        "src-annunciation-visit"
+      ],
+      "reservation": "reconfirm-parish",
+      "hours": {
+        "opens": "09:00",
+        "closes": "11:45",
+        "status": "verified-current",
+        "note": "Published Sunday schedule is Orthros around 09:00 and Divine Liturgy at 10:00. Call during the week to confirm October 11 and ask about visitor and Communion etiquette."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "anchor",
+      "address": "Annunciation Greek Orthodox Church, 50 South Ann Street, Mobile, Alabama",
+      "country": "US",
+      "coordinates": [
+        -88.07806,
+        30.68905
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual-verified-visitor-location",
+      "image_ids": [
+        "img-annunciation-mobile-1",
+        "img-annunciation-mobile-2",
+        "img-annunciation-mobile-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "walter-anderson-ocean-springs",
+      "name": "Walter Anderson: Wild Gulf Art and the Little Room",
+      "kind": "visionary-gulf-artist-and-walkable-art-town",
+      "city": "Ocean Springs",
+      "state": "MS",
+      "visit_date": "2026-10-11",
+      "summary": "Walter Anderson turned Gulf animals, myths, and Bible images into bright murals. His hidden Little Room covers every wall with a wild painted world.",
+      "why_go": "The art is colorful, strange, and deeply tied to the coast. It gives the group a gentle stop after church and great time in Ocean Springs.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and stivka: The art is colorful, strange, and deeply tied to the coast. It gives the group a gentle stop after church and great time in Ocean Springs.",
+      "categories": [
+        "unusual_creative",
+        "hidden_history_folklore",
+        "architecture_nature_photogenic",
+        "quiet_reset",
+        "local_culture"
+      ],
+      "duration_minutes": 135,
+      "source_ids": [
+        "src-walter",
+        "src-walter-local"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "13:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Sunday hours. Visit 13:15-14:45, then use 30 minutes for Washington Avenue or Front Beach before the New Orleans drive; the Bayou Collection is listed through January 9."
+      },
+      "cost": {
+        "amount_per_person": 10,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "anchor",
+      "address": "Walter Anderson Museum of Art, 510 Washington Avenue, Ocean Springs, Mississippi",
+      "country": "US",
+      "coordinates": [
+        -88.82728,
+        30.41229
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual-verified-visitor-location",
+      "image_ids": [
+        "img-walter-anderson-ocean-springs-1",
+        "img-walter-anderson-ocean-springs-2",
+        "img-walter-anderson-ocean-springs-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "maritime-seafood-biloxi",
+      "name": "Biloxi Maritime Museum: Boats, Shrimp and Storms",
+      "kind": "working-gulf-industry-and-hurricane-memory",
+      "city": "Biloxi",
+      "state": "MS",
+      "visit_date": "2026-10-11",
+      "summary": "A full-size wooden boat rises inside this waterfront museum. Tools and machines explain shrimping, boatbuilding, and how the Gulf Coast survived major storms.",
+      "why_go": "The stop adds real work and local life to the beautiful coast. Its huge boat and open building also create strong photos.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Best for gora and viki: The stop adds real work and local life to the beautiful coast. Its huge boat and open building also create strong photos.",
+      "categories": [
+        "hidden_history_folklore",
+        "unusual_creative",
+        "architecture_nature_photogenic",
+        "local_culture"
+      ],
+      "duration_minutes": 105,
+      "source_ids": [
+        "src-maritime-seafood"
+      ],
+      "reservation": "week-before-check",
+      "hours": {
+        "opens": "12:00",
+        "closes": "16:00",
+        "status": "verified-current",
+        "note": "The museum currently publishes Sunday 12:00-16:00 year-round. Arrive at opening after church and confirm October hours one week ahead because older city listings describe a seasonal Sunday schedule."
+      },
+      "cost": {
+        "amount_per_person": 10,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "supporting",
+      "address": "Maritime and Seafood Industry Museum, 115 1st Street, Biloxi, Mississippi",
+      "country": "US",
+      "coordinates": [
+        -88.86473,
+        30.3918
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual-verified-visitor-location",
+      "image_ids": [
+        "img-maritime-seafood-biloxi-1",
+        "img-maritime-seafood-biloxi-2",
+        "img-maritime-seafood-biloxi-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "whitney-plantation",
+      "name": "Whitney Plantation: History Told by the Enslaved",
+      "kind": "slavery-centered-plantation-museum",
+      "city": "Wallace",
+      "state": "LA",
+      "visit_date": "2026-10-12",
+      "summary": "Whitney tells the story of slavery through the names, words, homes, and resistance of enslaved people. It does not turn the plantation house into the hero.",
+      "why_go": "This is honest history, not a romantic old-house tour. The group should listen carefully and leave room to think afterward.",
+      "best_for": [
+        "gora",
+        "stivka"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "viki"
+      ],
+      "best_fit_note": "Best for gora and stivka: This is honest history, not a romantic old-house tour. The group should listen carefully and leave room to think afterward.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_nature_photogenic",
+        "quiet_reset"
+      ],
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-whitney",
+        "src-whitney-about"
+      ],
+      "reservation": "reserve",
+      "hours": {
+        "opens": "09:30",
+        "closes": "16:30",
+        "status": "verified-current",
+        "note": "Open Monday and closed Tuesday. Reserve the first 09:30 self-guided audio or guided slot; last entry 15:00."
+      },
+      "cost": {
+        "amount_per_person": 25,
+        "status": "verified-current",
+        "note": "Self-guided audio price; guided adult tour is currently $32."
+      },
+      "priority": "anchor",
+      "address": "Whitney Plantation, 5099 Louisiana Highway 18, Wallace, Louisiana",
+      "country": "US",
+      "coordinates": [
+        -90.66102,
+        30.02952
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual-verified-visitor-location",
+      "image_ids": [
+        "img-whitney-plantation-1",
+        "img-whitney-plantation-2",
+        "img-whitney-plantation-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "mardi-gras-world",
+      "name": "Mardi Gras World: Inside the Float Workshop",
+      "kind": "year-round-parade-workshop",
+      "city": "New Orleans",
+      "state": "LA",
+      "visit_date": "2026-10-12",
+      "summary": "Artists build and paint giant parade floats inside this working warehouse. Visitors see the people and tools behind New Orleans' biggest public celebration.",
+      "why_go": "Huge colors and strange figures bring fun after Whitney's serious morning. The working shop gives the spectacle real craft and human effort.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Best for viki and gora: Huge colors and strange figures bring fun after Whitney's serious morning. The working shop gives the spectacle real craft and human effort.",
+      "categories": [
+        "unusual_creative",
+        "architecture_nature_photogenic",
+        "local_culture"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-mardi"
+      ],
+      "reservation": "reserve-recommended",
+      "hours": {
+        "opens": "09:00",
+        "closes": "17:30",
+        "status": "verified-current",
+        "note": "Open Monday; tours start every half hour and last entry is 16:30. Target 14:00 after returning from Whitney."
+      },
+      "cost": {
+        "amount_per_person": 29.95,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "anchor",
+      "address": "Mardi Gras World, 1380 Port of New Orleans Place, New Orleans, Louisiana",
+      "country": "US",
+      "coordinates": [
+        -90.0613,
+        29.93477
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual-verified-visitor-location",
+      "image_ids": [
+        "img-mardi-gras-world-1",
+        "img-mardi-gras-world-2",
+        "img-mardi-gras-world-3",
+        "img-mardi-gras-world-4",
+        "img-mardi-gras-world-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "frenchmen-music-night",
+      "name": "Frenchmen Street Live Music Night",
+      "kind": "walkable-multi-venue-live-music-night",
+      "city": "New Orleans",
+      "state": "LA",
+      "visit_date": "2026-10-12",
+      "summary": "The night starts at d.b.a., a trusted music room on Frenchmen Street. One area and one or two strong sets are enough for a great evening.",
+      "why_go": "The group gets real New Orleans music without chasing every bar. It is social, flexible, and easy to end whenever the night stops being fun.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Best for viki and sheluvspaco: The group gets real New Orleans music without chasing every bar. It is social, flexible, and easy to end whenever the night stops being fun.",
+      "categories": [
+        "live_entertainment_social_nightlife",
+        "local_culture",
+        "unusual_creative"
+      ],
+      "duration_minutes": 240,
+      "source_ids": [
+        "src-dba",
+        "src-dba-shows"
+      ],
+      "reservation": "calendar-check",
+      "hours": {
+        "opens": "18:00",
+        "closes": "01:00",
+        "status": "verified-current",
+        "note": "d.b.a. is open daily. Its current calendar shows a recurring Monday pattern, but the exact October 12 lineup must be checked 7-10 days before travel; no specific band is promised yet."
+      },
+      "cost": {
+        "amount_per_person": 20,
+        "status": "estimate",
+        "note": "Planning cover-and-one-drink allowance; nightlife remains excluded from the $1,500 target."
+      },
+      "priority": "anchor",
+      "address": "d.b.a. New Orleans, 618 Frenchmen Street, New Orleans, Louisiana",
+      "country": "US",
+      "coordinates": [
+        -90.05836,
+        29.96436
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual-verified-visitor-location",
+      "image_ids": [
+        "img-frenchmen-music-night-1",
+        "img-frenchmen-music-night-2",
+        "img-frenchmen-music-night-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "jamnola",
+      "name": "JAMNOLA: New Orleans Art You Can Step Into",
+      "kind": "interactive-local-art-funhouse",
+      "city": "New Orleans",
+      "state": "LA",
+      "visit_date": "2026-10-12",
+      "summary": "Local artists built colorful rooms about music, food, parades, and neighborhood life. Visitors can touch, play, and walk through the art.",
+      "why_go": "This is the route's most playful photo stop. It adds shared fun while still paying local artists to tell the city's story.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "stivka",
+        "gora"
+      ],
+      "best_fit_note": "Best for viki and sheluvspaco: This is the route's most playful photo stop. It adds shared fun while still paying local artists to tell the city's story.",
+      "categories": [
+        "unusual_creative",
+        "architecture_nature_photogenic",
+        "local_culture"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-jamnola"
+      ],
+      "reservation": "reserve",
+      "hours": {
+        "opens": "10:00",
+        "closes": "18:00",
+        "status": "verified-current",
+        "note": "Open Monday and closed Tuesday/most Wednesdays. Pre-booking is required; target 14:00-15:30."
+      },
+      "cost": {
+        "amount_per_person": 36.99,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "supporting",
+      "address": "JAMNOLA, 940 Frenchmen Street, New Orleans, Louisiana",
+      "country": "US",
+      "coordinates": [
+        -90.05372,
+        29.96462
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual-verified-visitor-location",
+      "image_ids": [
+        "img-jamnola-1",
+        "img-jamnola-2",
+        "img-jamnola-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "st-louis-cemetery-1",
+      "name": "St. Louis Cemetery No. 1: Tombs, Stories and Respect",
+      "kind": "managed-tour-of-active-catholic-cemetery",
+      "city": "New Orleans",
+      "state": "LA",
+      "visit_date": "2026-10-13",
+      "summary": "New Orleans' oldest cemetery holds raised tombs and the stories of Marie Laveau, Homer Plessy, and many local families. Entry requires an approved guide.",
+      "why_go": "The tour connects striking buildings with real people, faith, law, and folklore. The group will treat it as a sacred place, not a ghost attraction.",
+      "best_for": [
+        "stivka",
+        "gora"
+      ],
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for stivka and gora: The tour connects striking buildings with real people, faith, law, and folklore. The group will treat it as a sacred place, not a ghost attraction.",
+      "categories": [
+        "orthodox_spiritual",
+        "hidden_history_folklore",
+        "architecture_nature_photogenic"
+      ],
+      "duration_minutes": 60,
+      "source_ids": [
+        "src-cemetery",
+        "src-cemetery-tour"
+      ],
+      "reservation": "reserve",
+      "hours": {
+        "opens": "09:00",
+        "closes": "16:00",
+        "status": "verified-current",
+        "note": "Official small-group tours leave every 15 minutes through 15:45. Reserve 09:00, check in 15 minutes early at 501 Basin Street, and follow active-cemetery etiquette."
+      },
+      "cost": {
+        "amount_per_person": 29,
+        "status": "verified-current",
+        "note": "Authorized daytime tour currently starts at $29."
+      },
+      "priority": "anchor",
+      "address": "St. Louis Cemetery Number 1, 425 Basin Street, New Orleans, Louisiana",
+      "country": "US",
+      "coordinates": [
+        -90.07104,
+        29.95938
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual-verified-visitor-location",
+      "image_ids": [
+        "img-st-louis-cemetery-1-1",
+        "img-st-louis-cemetery-1-2",
+        "img-st-louis-cemetery-1-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "lake-martin-swamp",
+      "name": "Lake Martin: A Quiet Boat Through Cypress Trees",
+      "kind": "small-boat-cypress-tupelo-eco-tour",
+      "city": "Breaux Bridge",
+      "state": "LA",
+      "visit_date": "2026-10-13",
+      "summary": "A small boat moves slowly through cypress water, birds, and alligator habitat. The guide explains the living wetland and Cajun work around it.",
+      "why_go": "The quiet boat feels close to nature instead of like a loud theme ride. Four travelers fit the small-skiff experience perfectly.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and gora: The quiet boat feels close to nature instead of like a loud theme ride. Four travelers fit the small-skiff experience perfectly.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "quiet_reset",
+        "local_culture"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-lake-martin",
+        "src-lake-details",
+        "src-swamp-local"
+      ],
+      "reservation": "reserve-early",
+      "hours": {
+        "opens": "by-reservation",
+        "closes": "by-reservation",
+        "status": "verified-current",
+        "note": "Tours usually run daily but times vary with demand, weather and season. Request a 13:00-13:30 departure and obtain final written confirmation and directions."
+      },
+      "cost": {
+        "amount_per_person": 30,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "anchor",
+      "address": "Cajun Country Swamp Tours, 1209 Rookery Road, Breaux Bridge, Louisiana",
+      "country": "US",
+      "coordinates": [
+        -91.89604,
+        30.22458
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual-verified-visitor-location",
+      "image_ids": [
+        "img-lake-martin-swamp-1",
+        "img-lake-martin-swamp-2",
+        "img-lake-martin-swamp-3",
+        "img-lake-martin-swamp-4"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "avery-island",
+      "name": "Avery Island: TABASCO, Gardens and a Buddha",
+      "kind": "factory-on-a-salt-dome-and-drive-through-garden",
+      "city": "Avery Island",
+      "state": "LA",
+      "visit_date": "2026-10-13",
+      "summary": "See how TABASCO pepper mash ages in barrels, then drive through a lush garden on a salt dome. A quiet Buddha shrine waits among the plants.",
+      "why_go": "One stop brings food, machines, geology, wildlife, and a peaceful garden together. It is strange, colorful, and easy for everyone to enjoy.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and gora: One stop brings food, machines, geology, wildlife, and a peaceful garden together. It is strange, colorful, and easy for everyone to enjoy.",
+      "categories": [
+        "unusual_creative",
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "local_culture"
+      ],
+      "duration_minutes": 210,
+      "source_ids": [
+        "src-avery"
+      ],
+      "reservation": "reserve-recommended",
+      "hours": {
+        "opens": "09:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Open Tuesday. The bundled factory and garden experience is self-paced; begin by 10:30 and confirm the factory's final tour time, which can differ from garden closing."
+      },
+      "cost": {
+        "amount_per_person": 15.5,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "supporting",
+      "address": "TABASCO Factory and Jungle Gardens, 329 Avery Island Road, Avery Island, Louisiana",
+      "country": "US",
+      "coordinates": [
+        -91.90624,
+        29.91155
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual-verified-visitor-location",
+      "image_ids": [
+        "img-avery-island-1",
+        "img-avery-island-2",
+        "img-avery-island-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "space-center-houston",
+      "name": "Space Center Houston: Real Moonshot Hardware",
+      "kind": "working-spaceflight-campus-and-artifacts",
+      "city": "Houston",
+      "state": "TX",
+      "visit_date": "2026-10-14",
+      "summary": "See flown spacecraft, a huge Saturn V rocket, and the working Johnson Space Center campus. A tram or Mission Control visit makes the experience feel real.",
+      "why_go": "The size of the machines creates a powerful final-day reveal. It mixes engineering, human courage, and the true story of space work.",
+      "best_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "viki",
+        "stivka"
+      ],
+      "best_fit_note": "Best for gora and sheluvspaco: The size of the machines creates a powerful final-day reveal. It mixes engineering, human courage, and the true story of space work.",
+      "categories": [
+        "unusual_creative",
+        "hidden_history_folklore",
+        "architecture_nature_photogenic"
+      ],
+      "duration_minutes": 255,
+      "source_ids": [
+        "src-space",
+        "src-space-tram"
+      ],
+      "reservation": "reserve-early",
+      "hours": {
+        "opens": "10:00",
+        "closes": "18:00",
+        "status": "verified-current",
+        "note": "Current operating hours are 10:00-18:00; reserve 10:15 timed entry and a tram option. NASA is a working facility and tours can close without notice."
+      },
+      "cost": {
+        "amount_per_person": 54.95,
+        "status": "dynamic-current",
+        "note": "Planning maximum combines current $39.95 online general-admission ceiling and $15 Historic Mission Control add-on; standard options may cost less."
+      },
+      "priority": "anchor",
+      "address": "Space Center Houston, 1601 East NASA Parkway, Houston, Texas",
+      "country": "US",
+      "coordinates": [
+        -95.09796,
+        29.55187
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual-verified-visitor-location",
+      "image_ids": [
+        "img-space-center-houston-1",
+        "img-space-center-houston-2",
+        "img-space-center-houston-3",
+        "img-space-center-houston-4",
+        "img-space-center-houston-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "rothko-chapel",
+      "name": "Rothko Chapel: Dark Paintings and Shared Silence",
+      "kind": "interfaith-art-and-contemplation-space",
+      "city": "Houston",
+      "state": "TX",
+      "visit_date": "2026-10-14",
+      "summary": "Fourteen dark Rothko paintings surround a quiet eight-sided chapel. Outside, a broken black column seems to float above water.",
+      "why_go": "The group gets a calm spiritual ending after eleven busy days. There is nothing to rush, photograph, or solve inside.",
+      "best_for": [
+        "stivka",
+        "viki"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "gora"
+      ],
+      "best_fit_note": "Best for stivka and viki: The group gets a calm spiritual ending after eleven busy days. There is nothing to rush, photograph, or solve inside.",
+      "categories": [
+        "orthodox_spiritual",
+        "quiet_reset",
+        "architecture_nature_photogenic",
+        "unusual_creative"
+      ],
+      "duration_minutes": 45,
+      "source_ids": [
+        "src-rothko",
+        "src-houston-local"
+      ],
+      "reservation": "week-before-check",
+      "hours": {
+        "opens": "10:00",
+        "closes": "18:00",
+        "status": "verified-current",
+        "note": "Open Wednesday but closes for private programs about twice monthly; check one week ahead. Silence is expected and interior photography is prohibited."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "anchor",
+      "address": "Rothko Chapel, 3900 Yupon Street, Houston, Texas",
+      "country": "US",
+      "coordinates": [
+        -95.39644,
+        29.73756
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual-verified-visitor-location",
+      "image_ids": [
+        "img-rothko-chapel-1",
+        "img-rothko-chapel-2",
+        "img-rothko-chapel-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "buffalo-bayou-cistern",
+      "name": "Buffalo Bayou Cistern: Light Under 220 Columns",
+      "kind": "underground-reservoir-light-and-sound-installation",
+      "city": "Houston",
+      "state": "TX",
+      "visit_date": "2026-10-14",
+      "summary": "A huge 1926 water tank now holds art beneath Houston. Light, sound, and reflections move through more than 220 concrete columns.",
+      "why_go": "The underground room feels endless and unreal. It turns old city engineering into one of the route's strongest hidden-gem moments.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Best for viki and gora: The underground room feels endless and unreal. It turns old city engineering into one of the route's strongest hidden-gem moments.",
+      "categories": [
+        "unusual_creative",
+        "architecture_nature_photogenic",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 60,
+      "source_ids": [
+        "src-cistern",
+        "src-cistern-current"
+      ],
+      "reservation": "reserve",
+      "hours": {
+        "opens": "10:00",
+        "closes": "19:00",
+        "status": "verified-current",
+        "note": "Open Wednesday; tour slots run through the afternoon. Reserve a 14:30-15:30 entry and confirm the Undercurrents schedule, listed through January 24, 2027."
+      },
+      "cost": {
+        "amount_per_person": 15,
+        "status": "estimate",
+        "note": "Planning allowance; select the current Undercurrents or history-tour ticket when October inventory opens."
+      },
+      "priority": "supporting",
+      "address": "Buffalo Bayou Park Cistern, 105 Sabine Street, Houston, Texas",
+      "country": "US",
+      "coordinates": [
+        -95.37634,
+        29.763
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual-verified-visitor-location",
+      "image_ids": [
+        "img-buffalo-bayou-cistern-1",
+        "img-buffalo-bayou-cistern-2",
+        "img-buffalo-bayou-cistern-3",
+        "img-buffalo-bayou-cistern-4"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    }
+  ]
+}

@@ -1,0 +1,5346 @@
+{
+  "schema_version": "1.0.0",
+  "route_id": "route-07",
+  "places": [
+    {
+      "id": "springfield-museums",
+      "name": "Springfield Museums",
+      "kind": "five-museum-cultural-campus",
+      "city": "Springfield",
+      "state": "MA",
+      "visit_date": "2026-10-04",
+      "summary": "One walkable quadrangle links natural history, American art, regional industry and the Amazing World of Dr. Seuss, so the first day feels like a choose-your-own-adventure rather than one long gallery.",
+      "why_go": "It lets the four travelers split briefly without splitting the route: Viki can chase visual rooms, Gora can inspect science and industry, and everyone can regroup in the sculpture garden.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Best for viki and sheluvspaco: It lets the four travelers split briefly without splitting the route: Viki can chase visual rooms, Gora can inspect science and industry, and everyone can regroup in the sculpture garden.",
+      "categories": [
+        "unusual_creative",
+        "architecture_nature_photogenic",
+        "local_culture"
+      ],
+      "duration_minutes": 180,
+      "source_ids": [
+        "src-springfield"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "11:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Sunday hours for the museum campus; the outdoor Seuss garden is free but does not replace late indoor arrival."
+      },
+      "cost": {
+        "amount_per_person": 27.5,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Springfield Museums, 21 Edwards Street, Springfield, Massachusetts",
+      "country": "US",
+      "coordinates": [
+        -72.5863149,
+        42.1043685
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-springfield-museums-1",
+        "img-springfield-museums-2",
+        "img-springfield-museums-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "springfield-armory",
+      "name": "Springfield Armory National Historic Site",
+      "kind": "industrial-and-firearms-history",
+      "city": "Springfield",
+      "state": "MA",
+      "visit_date": "2026-10-04",
+      "summary": "The vast Main Arsenal interprets two centuries of precision manufacturing, labor and weapons development inside the federal armory that helped standardize American industry.",
+      "why_go": "Gora gets evidence-led industrial history while Viki gets monumental brick architecture; it is a focused alternative to the broader museum campus.",
+      "best_for": [
+        "gora"
+      ],
+      "secondary_for": [
+        "viki",
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Best for gora: Gora gets evidence-led industrial history while Viki gets monumental brick architecture; it is a focused alternative to the broader museum campus.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_nature_photogenic",
+        "local_culture"
+      ],
+      "duration_minutes": 120,
+      "source_ids": [
+        "src-armory"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "09:30",
+        "closes": "16:00",
+        "status": "verified-current",
+        "note": "Wednesday-Sunday hours; it closes earlier than the core stop, so it is a preference swap, not a late-arrival rescue."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "replacement",
+      "replacement_reason": "Use when the group wants one deep industrial story instead of five lighter museums.",
+      "replacement": {
+        "day": 1,
+        "replaces_place_ids": [
+          "springfield-museums"
+        ],
+        "route_variant_id": "replacement-d1-springfield-armory",
+        "reason": "Use when the group wants one deep industrial story instead of five lighter museums.",
+        "route_variant": {
+          "id": "replacement-d1-springfield-armory",
+          "day": 1,
+          "replacement_place_id": "springfield-armory",
+          "replaces_place_ids": [
+            "springfield-museums"
+          ],
+          "nodes": [
+            "boston-logan-rental",
+            "springfield-armory",
+            "springfield-lodging"
+          ],
+          "node_sequence": [
+            "boston-logan-rental",
+            "springfield-armory",
+            "springfield-lodging"
+          ],
+          "baseline_total_miles": 92.6,
+          "baseline_total_minutes": 119,
+          "delta_miles": 0.3,
+          "delta_minutes": 2,
+          "cap_minutes": 210,
+          "cap_status": "passes-baseline-cap",
+          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+          "non_driving_travel_minutes": 0,
+          "total_travel_minutes_excluding_queues": 119,
+          "legs": [
+            {
+              "id": "replacement-d1-springfield-armory-leg-1",
+              "from": "boston-logan-rental",
+              "to": "springfield-armory",
+              "mode": "driving",
+              "distance_miles": 91.4,
+              "baseline_minutes": 115,
+              "display_duration_minutes": 115,
+              "counts_toward_drive_cap": true
+            },
+            {
+              "id": "replacement-d1-springfield-armory-leg-2",
+              "from": "springfield-armory",
+              "to": "springfield-lodging",
+              "mode": "driving",
+              "distance_miles": 1.2,
+              "baseline_minutes": 4,
+              "display_duration_minutes": 4,
+              "counts_toward_drive_cap": true
+            }
+          ],
+          "geometry": {
+            "type": "MultiLineString",
+            "coordinates": [
+              [
+                [
+                  -71.029421,
+                  42.367769
+                ],
+                [
+                  -71.037429,
+                  42.346811
+                ],
+                [
+                  -71.177949,
+                  42.35787
+                ],
+                [
+                  -71.315031,
+                  42.33461
+                ],
+                [
+                  -71.367832,
+                  42.311489
+                ],
+                [
+                  -71.412023,
+                  42.315539
+                ],
+                [
+                  -71.557712,
+                  42.269721
+                ],
+                [
+                  -71.618632,
+                  42.229395
+                ],
+                [
+                  -71.755983,
+                  42.2211
+                ],
+                [
+                  -72.059325,
+                  42.129954
+                ],
+                [
+                  -72.124859,
+                  42.135049
+                ],
+                [
+                  -72.2159,
+                  42.182517
+                ],
+                [
+                  -72.282382,
+                  42.164903
+                ],
+                [
+                  -72.318532,
+                  42.17708
+                ],
+                [
+                  -72.380572,
+                  42.153946
+                ],
+                [
+                  -72.447241,
+                  42.170514
+                ],
+                [
+                  -72.546138,
+                  42.164138
+                ],
+                [
+                  -72.550296,
+                  42.142318
+                ],
+                [
+                  -72.581276,
+                  42.107328
+                ]
+              ],
+              [
+                [
+                  -72.581276,
+                  42.107328
+                ],
+                [
+                  -72.580784,
+                  42.106786
+                ],
+                [
+                  -72.580704,
+                  42.106585
+                ],
+                [
+                  -72.580613,
+                  42.106575
+                ],
+                [
+                  -72.57937,
+                  42.107169
+                ],
+                [
+                  -72.578972,
+                  42.107237
+                ],
+                [
+                  -72.578259,
+                  42.107599
+                ],
+                [
+                  -72.57767,
+                  42.107908
+                ],
+                [
+                  -72.577546,
+                  42.108059
+                ],
+                [
+                  -72.57759,
+                  42.108283
+                ],
+                [
+                  -72.57821,
+                  42.108965
+                ],
+                [
+                  -72.577807,
+                  42.109142
+                ],
+                [
+                  -72.577035,
+                  42.108074
+                ],
+                [
+                  -72.578512,
+                  42.10733
+                ],
+                [
+                  -72.582133,
+                  42.105045
+                ],
+                [
+                  -72.583951,
+                  42.103648
+                ],
+                [
+                  -72.58572,
+                  42.102077
+                ],
+                [
+                  -72.585354,
+                  42.10193
+                ],
+                [
+                  -72.584692,
+                  42.101825
+                ],
+                [
+                  -72.584198,
+                  42.101832
+                ],
+                [
+                  -72.583306,
+                  42.101962
+                ],
+                [
+                  -72.583318,
+                  42.101753
+                ],
+                [
+                  -72.583406,
+                  42.101766
+                ],
+                [
+                  -72.583643,
+                  42.101591
+                ]
+              ]
+            ]
+          },
+          "routing_source": [
+            "https://router.project-osrm.org/route/v1/driving/-71.0304,42.3682;-72.5815607,42.1071841?overview=simplified&geometries=geojson&steps=false",
+            "https://router.project-osrm.org/route/v1/driving/-72.5815607,42.1071841;-72.584,42.1015?overview=simplified&geometries=geojson&steps=false"
+          ]
+        }
+      },
+      "address": "Springfield Armory National Historic Site, 1 Armory Square, Springfield, Massachusetts",
+      "country": "US",
+      "coordinates": [
+        -72.5815607,
+        42.1071841
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-springfield-armory-1",
+        "img-springfield-armory-2",
+        "img-springfield-armory-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete"
+    },
+    {
+      "id": "cohoes-falls",
+      "name": "Cohoes Falls View Park",
+      "kind": "urban-waterfall-overlook",
+      "city": "Cohoes",
+      "state": "NY",
+      "visit_date": "2026-10-05",
+      "summary": "A 1,000-foot-wide Mohawk River waterfall appears behind an old mill city, combining exposed rock, hydropower history and a short dramatic overlook rather than a strenuous hike.",
+      "why_go": "It gives Viki a strong landscape-and-infrastructure photo and gives Gora the honest industrial geography behind the Erie Canal corridor.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Best for viki and gora: It gives Viki a strong landscape-and-infrastructure photo and gives Gora the honest industrial geography behind the Erie Canal corridor.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "quiet_reset"
+      ],
+      "duration_minutes": 70,
+      "source_ids": [
+        "src-cohoes"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "07:00",
+        "closes": "19:30",
+        "status": "verified-current",
+        "note": "Falls View Park is seasonally open through November 1; the year-round upper overlook is the fallback. Never enter the riverbed."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Cohoes Falls View Park, North Mohawk Street, Cohoes, New York",
+      "country": "US",
+      "coordinates": [
+        -73.7100667,
+        42.7859806
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-cohoes-falls-1",
+        "img-cohoes-falls-2",
+        "img-cohoes-falls-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "oakwood-troy",
+      "name": "Oakwood Cemetery: Uncle Sam Grave & Earl Chapel Grounds",
+      "kind": "victorian-cemetery-history",
+      "city": "Troy",
+      "state": "NY",
+      "visit_date": "2026-10-05",
+      "summary": "A vast nineteenth-century rural cemetery holds Samuel Wilson's grave—the real meatpacker behind Uncle Sam—plus a Romanesque crematory chapel, waterfalls and long Hudson Valley views.",
+      "why_go": "This is the buried-history stop: Gora gets the real person behind a national symbol, Viki gets stonework and autumn landscape, and Stivka gets a quiet, respectful setting.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for gora and viki: This is the buried-history stop: Gora gets the real person behind a national symbol, Viki gets stonework and autumn landscape, and Stivka gets a quiet, respectful setting.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_nature_photogenic",
+        "quiet_reset"
+      ],
+      "duration_minutes": 115,
+      "source_ids": [
+        "src-oakwood",
+        "src-forum-upstate"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "08:00",
+        "closes": "19:00",
+        "status": "verified-current",
+        "note": "Daily grounds hours. It is an active cemetery: keep voices low, yield to funerals, use handheld personal photography only and treat chapel interiors as unavailable unless explicitly open."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Uncle Sam Grave, Oakwood Cemetery, Troy, New York",
+      "country": "US",
+      "coordinates": [
+        -73.6680166,
+        42.7624063
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-oakwood-troy-1",
+        "img-oakwood-troy-2",
+        "img-oakwood-troy-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "saratoga-auto",
+      "name": "Saratoga Automobile Museum",
+      "kind": "automotive-design-museum",
+      "city": "Saratoga Springs",
+      "state": "NY",
+      "visit_date": "2026-10-05",
+      "summary": "A restored 1935 state bottling plant now frames rotating automobile exhibitions; the October 2026 headline celebrates 140 years of Mercedes-Benz engineering.",
+      "why_go": "It is the polished all-weather substitute when the group wants machinery and design more than two outdoor historical landscapes.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Best for gora and viki: It is the polished all-weather substitute when the group wants machinery and design more than two outdoor historical landscapes.",
+      "categories": [
+        "unusual_creative",
+        "architecture_nature_photogenic",
+        "local_culture"
+      ],
+      "duration_minutes": 120,
+      "source_ids": [
+        "src-saratoga-auto"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Open daily in May-October; special events and exhibit changeovers can alter access, so check the museum feed the day before."
+      },
+      "cost": {
+        "amount_per_person": 20,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "replacement",
+      "replacement_reason": "A single weatherproof design anchor replacing the waterfall-and-cemetery pair.",
+      "replacement": {
+        "day": 2,
+        "replaces_place_ids": [
+          "cohoes-falls",
+          "oakwood-troy"
+        ],
+        "route_variant_id": "replacement-d2-saratoga-auto",
+        "reason": "A single weatherproof design anchor replacing the waterfall-and-cemetery pair.",
+        "route_variant": {
+          "id": "replacement-d2-saratoga-auto",
+          "day": 2,
+          "replacement_place_id": "saratoga-auto",
+          "replaces_place_ids": [
+            "cohoes-falls",
+            "oakwood-troy"
+          ],
+          "nodes": [
+            "springfield-lodging",
+            "saratoga-auto",
+            "troy-lodging"
+          ],
+          "node_sequence": [
+            "springfield-lodging",
+            "saratoga-auto",
+            "troy-lodging"
+          ],
+          "baseline_total_miles": 145.4,
+          "baseline_total_minutes": 188,
+          "delta_miles": 44.8,
+          "delta_minutes": 43,
+          "cap_minutes": 210,
+          "cap_status": "passes-baseline-cap",
+          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+          "non_driving_travel_minutes": 0,
+          "total_travel_minutes_excluding_queues": 188,
+          "legs": [
+            {
+              "id": "replacement-d2-saratoga-auto-leg-1",
+              "from": "springfield-lodging",
+              "to": "saratoga-auto",
+              "mode": "driving",
+              "distance_miles": 117.2,
+              "baseline_minutes": 147,
+              "display_duration_minutes": 147,
+              "counts_toward_drive_cap": true
+            },
+            {
+              "id": "replacement-d2-saratoga-auto-leg-2",
+              "from": "saratoga-auto",
+              "to": "troy-lodging",
+              "mode": "driving",
+              "distance_miles": 28.3,
+              "baseline_minutes": 40,
+              "display_duration_minutes": 40,
+              "counts_toward_drive_cap": true
+            }
+          ],
+          "geometry": {
+            "type": "MultiLineString",
+            "coordinates": [
+              [
+                [
+                  -72.583643,
+                  42.101591
+                ],
+                [
+                  -72.605549,
+                  42.110411
+                ],
+                [
+                  -72.609711,
+                  42.134656
+                ],
+                [
+                  -72.636088,
+                  42.139867
+                ],
+                [
+                  -72.644549,
+                  42.161637
+                ],
+                [
+                  -72.639745,
+                  42.15412
+                ],
+                [
+                  -72.694668,
+                  42.13902
+                ],
+                [
+                  -72.759029,
+                  42.154856
+                ],
+                [
+                  -72.906255,
+                  42.172582
+                ],
+                [
+                  -72.993536,
+                  42.236973
+                ],
+                [
+                  -73.043933,
+                  42.23304
+                ],
+                [
+                  -73.110157,
+                  42.248037
+                ],
+                [
+                  -73.162165,
+                  42.291201
+                ],
+                [
+                  -73.194316,
+                  42.300504
+                ],
+                [
+                  -73.297311,
+                  42.297751
+                ],
+                [
+                  -73.351982,
+                  42.307479
+                ],
+                [
+                  -73.368241,
+                  42.330514
+                ],
+                [
+                  -73.435765,
+                  42.366103
+                ],
+                [
+                  -73.455627,
+                  42.368417
+                ],
+                [
+                  -73.471608,
+                  42.389293
+                ],
+                [
+                  -73.49423,
+                  42.389646
+                ],
+                [
+                  -73.540926,
+                  42.414172
+                ],
+                [
+                  -73.556821,
+                  42.442375
+                ],
+                [
+                  -73.583778,
+                  42.459777
+                ],
+                [
+                  -73.628316,
+                  42.48193
+                ],
+                [
+                  -73.667993,
+                  42.482807
+                ],
+                [
+                  -73.681259,
+                  42.491448
+                ],
+                [
+                  -73.688812,
+                  42.514228
+                ],
+                [
+                  -73.677015,
+                  42.59137
+                ],
+                [
+                  -73.731402,
+                  42.667329
+                ],
+                [
+                  -73.709677,
+                  42.694844
+                ],
+                [
+                  -73.695565,
+                  42.742962
+                ],
+                [
+                  -73.761512,
+                  42.766413
+                ],
+                [
+                  -73.779673,
+                  42.892678
+                ],
+                [
+                  -73.805173,
+                  42.94407
+                ],
+                [
+                  -73.78831,
+                  43.063119
+                ],
+                [
+                  -73.804773,
+                  43.057231
+                ]
+              ],
+              [
+                [
+                  -73.804773,
+                  43.057231
+                ],
+                [
+                  -73.788459,
+                  43.063113
+                ],
+                [
+                  -73.789555,
+                  43.033586
+                ],
+                [
+                  -73.803547,
+                  43.000512
+                ],
+                [
+                  -73.801534,
+                  42.96089
+                ],
+                [
+                  -73.805735,
+                  42.943799
+                ],
+                [
+                  -73.800971,
+                  42.921216
+                ],
+                [
+                  -73.780486,
+                  42.893054
+                ],
+                [
+                  -73.764636,
+                  42.795598
+                ],
+                [
+                  -73.75805,
+                  42.786583
+                ],
+                [
+                  -73.76603,
+                  42.762353
+                ],
+                [
+                  -73.738078,
+                  42.757544
+                ],
+                [
+                  -73.683434,
+                  42.739315
+                ],
+                [
+                  -73.686797,
+                  42.728428
+                ]
+              ]
+            ]
+          },
+          "routing_source": [
+            "https://router.project-osrm.org/route/v1/driving/-72.584,42.1015;-73.8047534,43.0570007?overview=simplified&geometries=geojson&steps=false",
+            "https://router.project-osrm.org/route/v1/driving/-73.8047534,43.0570007;-73.6868,42.7284?overview=simplified&geometries=geojson&steps=false"
+          ]
+        }
+      },
+      "address": "Saratoga Automobile Museum, 110 Avenue of the Pines, Saratoga Springs, New York",
+      "country": "US",
+      "coordinates": [
+        -73.8047534,
+        43.0570007
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-saratoga-auto-1",
+        "img-saratoga-auto-2",
+        "img-saratoga-auto-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete"
+    },
+    {
+      "id": "boxing-hof",
+      "name": "International Boxing Hall of Fame",
+      "kind": "combat-sport-history-museum",
+      "city": "Canastota",
+      "state": "NY",
+      "visit_date": "2026-10-06",
+      "summary": "The sport's international shrine sits in the small town where two residents revived boxing's hall of fame, filling compact galleries with gloves, robes, film and difficult careers.",
+      "why_go": "This is the route's only sport-forward anchor and it is exactly calibrated for Gora: historical, technical and human rather than an exhausting activity.",
+      "best_for": [
+        "gora"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka",
+        "viki"
+      ],
+      "best_fit_note": "Best for gora: This is the route's only sport-forward anchor and it is exactly calibrated for Gora: historical, technical and human rather than an exhausting activity.",
+      "categories": [
+        "hidden_history_folklore",
+        "local_culture",
+        "unusual_creative"
+      ],
+      "duration_minutes": 120,
+      "source_ids": [
+        "src-boxing"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "09:30",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Weekday hours; leave enough time for the research library and film room if the group gets absorbed."
+      },
+      "cost": {
+        "amount_per_person": 15.5,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "International Boxing Hall of Fame, 360 North Peterboro Street, Canastota, New York",
+      "country": "US",
+      "coordinates": [
+        -75.7501454,
+        43.0896405
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-boxing-hof-1",
+        "img-boxing-hof-2",
+        "img-boxing-hof-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "chittenango-falls",
+      "name": "Chittenango Falls State Park",
+      "kind": "limestone-waterfall-short-walk",
+      "city": "Cazenovia",
+      "state": "NY",
+      "visit_date": "2026-10-06",
+      "summary": "A 167-foot waterfall steps over 400-million-year-old bedrock, with a compact gorge trail and footbridge that can deliver a huge fall image without a long hike.",
+      "why_go": "Viki gets the strongest nature alternative of the first half, while Gora and Stivka get a quiet reset after the Thruway.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and stivka: Viki gets the strongest nature alternative of the first half, while Gora and Stivka get a quiet reset after the Thruway.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "quiet_reset"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-chittenango",
+        "src-forum-upstate"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "verified-public-space",
+        "note": "Open sunrise to sunset year-round with restrictions. The full gorge has stairs and can be slippery; the top view remains the low-effort option."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "No October vehicle fee is presently listed; carry a card and reconfirm."
+      },
+      "priority": "replacement",
+      "replacement_reason": "Use when the group needs foliage and open air more than combat-sport history.",
+      "replacement": {
+        "day": 3,
+        "replaces_place_ids": [
+          "boxing-hof"
+        ],
+        "route_variant_id": "replacement-d3-chittenango-falls",
+        "reason": "Use when the group needs foliage and open air more than combat-sport history.",
+        "route_variant": {
+          "id": "replacement-d3-chittenango-falls",
+          "day": 3,
+          "replacement_place_id": "chittenango-falls",
+          "replaces_place_ids": [
+            "boxing-hof"
+          ],
+          "nodes": [
+            "troy-lodging",
+            "chittenango-falls",
+            "syracuse-lodging"
+          ],
+          "node_sequence": [
+            "troy-lodging",
+            "chittenango-falls",
+            "syracuse-lodging"
+          ],
+          "baseline_total_miles": 159.1,
+          "baseline_total_minutes": 205,
+          "delta_miles": 7.8,
+          "delta_minutes": 18,
+          "cap_minutes": 210,
+          "cap_status": "passes-baseline-cap",
+          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+          "non_driving_travel_minutes": 0,
+          "total_travel_minutes_excluding_queues": 205,
+          "legs": [
+            {
+              "id": "replacement-d3-chittenango-falls-leg-1",
+              "from": "troy-lodging",
+              "to": "chittenango-falls",
+              "mode": "driving",
+              "distance_miles": 138.9,
+              "baseline_minutes": 172,
+              "display_duration_minutes": 172,
+              "counts_toward_drive_cap": true
+            },
+            {
+              "id": "replacement-d3-chittenango-falls-leg-2",
+              "from": "chittenango-falls",
+              "to": "syracuse-lodging",
+              "mode": "driving",
+              "distance_miles": 20.1,
+              "baseline_minutes": 33,
+              "display_duration_minutes": 33,
+              "counts_toward_drive_cap": true
+            }
+          ],
+          "geometry": {
+            "type": "MultiLineString",
+            "coordinates": [
+              [
+                [
+                  -73.686797,
+                  42.728428
+                ],
+                [
+                  -73.681773,
+                  42.739699
+                ],
+                [
+                  -73.765272,
+                  42.764072
+                ],
+                [
+                  -73.790042,
+                  42.732029
+                ],
+                [
+                  -73.841801,
+                  42.696767
+                ],
+                [
+                  -73.929831,
+                  42.7522
+                ],
+                [
+                  -74.011458,
+                  42.784544
+                ],
+                [
+                  -74.013526,
+                  42.839705
+                ],
+                [
+                  -74.046581,
+                  42.870136
+                ],
+                [
+                  -74.102382,
+                  42.898084
+                ],
+                [
+                  -74.240027,
+                  42.932356
+                ],
+                [
+                  -74.307464,
+                  42.930301
+                ],
+                [
+                  -74.379342,
+                  42.948271
+                ],
+                [
+                  -74.467036,
+                  42.897028
+                ],
+                [
+                  -74.529915,
+                  42.894179
+                ],
+                [
+                  -74.60664,
+                  42.915416
+                ],
+                [
+                  -74.63663,
+                  42.959759
+                ],
+                [
+                  -74.671535,
+                  42.989464
+                ],
+                [
+                  -74.72518,
+                  42.989935
+                ],
+                [
+                  -74.806093,
+                  43.017109
+                ],
+                [
+                  -74.884663,
+                  43.004662
+                ],
+                [
+                  -75.01044,
+                  43.018013
+                ],
+                [
+                  -75.042041,
+                  43.030564
+                ],
+                [
+                  -75.067642,
+                  43.055813
+                ],
+                [
+                  -75.115508,
+                  43.082277
+                ],
+                [
+                  -75.273066,
+                  43.137031
+                ],
+                [
+                  -75.389206,
+                  43.122938
+                ],
+                [
+                  -75.485067,
+                  43.136241
+                ],
+                [
+                  -75.610951,
+                  43.125793
+                ],
+                [
+                  -75.728142,
+                  43.101123
+                ],
+                [
+                  -75.747856,
+                  43.094367
+                ],
+                [
+                  -75.752117,
+                  43.069713
+                ],
+                [
+                  -75.86604,
+                  43.054045
+                ],
+                [
+                  -75.866151,
+                  43.037099
+                ],
+                [
+                  -75.844932,
+                  43.006935
+                ],
+                [
+                  -75.846178,
+                  42.983269
+                ]
+              ],
+              [
+                [
+                  -75.846178,
+                  42.983269
+                ],
+                [
+                  -75.844051,
+                  42.991323
+                ],
+                [
+                  -75.844028,
+                  42.996901
+                ],
+                [
+                  -75.846585,
+                  43.002027
+                ],
+                [
+                  -75.844965,
+                  43.007044
+                ],
+                [
+                  -75.848135,
+                  43.010662
+                ],
+                [
+                  -75.850178,
+                  43.016658
+                ],
+                [
+                  -75.858064,
+                  43.021147
+                ],
+                [
+                  -75.858882,
+                  43.027775
+                ],
+                [
+                  -75.866151,
+                  43.037099
+                ],
+                [
+                  -75.86654,
+                  43.042114
+                ],
+                [
+                  -75.911224,
+                  43.050539
+                ],
+                [
+                  -75.924658,
+                  43.050788
+                ],
+                [
+                  -75.930601,
+                  43.048908
+                ],
+                [
+                  -75.941865,
+                  43.060943
+                ],
+                [
+                  -75.976012,
+                  43.059585
+                ],
+                [
+                  -76.000302,
+                  43.053157
+                ],
+                [
+                  -76.011312,
+                  43.059575
+                ],
+                [
+                  -76.019099,
+                  43.059499
+                ],
+                [
+                  -76.032258,
+                  43.062379
+                ],
+                [
+                  -76.060222,
+                  43.063491
+                ],
+                [
+                  -76.065334,
+                  43.061875
+                ],
+                [
+                  -76.067548,
+                  43.05872
+                ],
+                [
+                  -76.071254,
+                  43.057941
+                ],
+                [
+                  -76.095079,
+                  43.059525
+                ],
+                [
+                  -76.128664,
+                  43.051714
+                ],
+                [
+                  -76.145564,
+                  43.051771
+                ],
+                [
+                  -76.145618,
+                  43.048033
+                ],
+                [
+                  -76.1474,
+                  43.048093
+                ]
+              ]
+            ]
+          },
+          "routing_source": [
+            "https://router.project-osrm.org/route/v1/driving/-73.6868,42.7284;-75.8492007,42.9826164?overview=simplified&geometries=geojson&steps=false",
+            "https://router.project-osrm.org/route/v1/driving/-75.8492007,42.9826164;-76.1474,43.0481?overview=simplified&geometries=geojson&steps=false"
+          ]
+        }
+      },
+      "address": "Chittenango Falls State Park, 5241 Gorge Road, Cazenovia, New York",
+      "country": "US",
+      "coordinates": [
+        -75.8492007,
+        42.9826164
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-chittenango-falls-1",
+        "img-chittenango-falls-2",
+        "img-chittenango-falls-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete"
+    },
+    {
+      "id": "anthony-house",
+      "name": "National Susan B. Anthony Museum & House",
+      "kind": "guided-social-history-house",
+      "city": "Rochester",
+      "state": "NY",
+      "visit_date": "2026-10-07",
+      "summary": "A docent-led visit moves through the rooms where Anthony lived, organized and was arrested after voting in 1872, keeping suffrage history grounded in decisions and evidence.",
+      "why_go": "Gora gets non-sanitized political history, Viki gets an intimate period interior, and the group gets a strong story without a blockbuster crowd.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Best for gora and viki: Gora gets non-sanitized political history, Viki gets an intimate period interior, and the group gets a strong story without a blockbuster crowd.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_nature_photogenic",
+        "local_culture"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-anthony"
+      ],
+      "reservation": "reserve-recommended",
+      "hours": {
+        "opens": "11:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Tuesday-Sunday hours; visits are docent-led, so reserve or arrive for an available tour rather than assuming free wandering."
+      },
+      "cost": {
+        "amount_per_person": 20,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Susan B. Anthony Museum & House, 17 Madison Street, Rochester, New York",
+      "country": "US",
+      "coordinates": [
+        -77.6280045,
+        43.1532425
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-anthony-house-1",
+        "img-anthony-house-2",
+        "img-anthony-house-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "mount-hope-rochester",
+      "name": "Mount Hope Cemetery: Douglass & Anthony",
+      "kind": "victorian-landscape-and-memory",
+      "city": "Rochester",
+      "state": "NY",
+      "visit_date": "2026-10-07",
+      "summary": "America's first municipal Victorian cemetery folds glacial hills, mature trees and elaborate monuments around the graves of Frederick Douglass and Susan B. Anthony.",
+      "why_go": "The pairing turns a house-museum story into a physical memory landscape and gives all four a quiet, photogenic hour rather than another indoor collection.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and gora: The pairing turns a house-museum story into a physical memory landscape and gives all four a quiet, photogenic hour rather than another indoor collection.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "quiet_reset"
+      ],
+      "duration_minutes": 75,
+      "source_ids": [
+        "src-mount-hope",
+        "src-forum-upstate"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "07:30",
+        "closes": "20:00",
+        "status": "verified-current",
+        "note": "October 7 falls within the April 1-October 14 extended grounds schedule. Respect funerals and grave decorations; no staged photo shoot."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Mount Hope Cemetery, 1133 Mount Hope Avenue, Rochester, New York",
+      "country": "US",
+      "coordinates": [
+        -77.618824,
+        43.1299725
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-mount-hope-rochester-1",
+        "img-mount-hope-rochester-2",
+        "img-mount-hope-rochester-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "rmsc-electricity",
+      "name": "RMSC Electricity Theater",
+      "kind": "live-tesla-coil-science",
+      "city": "Rochester",
+      "state": "NY",
+      "visit_date": "2026-10-07",
+      "summary": "Twin six-foot solid-state Tesla coils throw musical arcs across a dark theater, turning electricity into a controlled live performance inside Rochester's science museum.",
+      "why_go": "This is Viki's unusual-museum instinct at full voltage and gives Gora a spectacular demonstration with real physics underneath it.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Best for viki and gora: This is Viki's unusual-museum instinct at full voltage and gives Gora a spectacular demonstration with real physics underneath it.",
+      "categories": [
+        "unusual_creative",
+        "hidden_history_folklore",
+        "local_culture"
+      ],
+      "duration_minutes": 135,
+      "source_ids": [
+        "src-rmsc",
+        "src-rmsc-tesla"
+      ],
+      "reservation": "same-day-show-check",
+      "hours": {
+        "opens": "09:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Wednesday school-year museum hours; the Electricity Theater is included, but exact show times must be checked before choosing this swap."
+      },
+      "cost": {
+        "amount_per_person": 23,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "replacement",
+      "replacement_reason": "A weatherproof spectacle replacing both quieter history stops when energy or rain calls for one anchor.",
+      "replacement": {
+        "day": 4,
+        "replaces_place_ids": [
+          "anthony-house",
+          "mount-hope-rochester"
+        ],
+        "route_variant_id": "replacement-d4-rmsc-electricity",
+        "reason": "A weatherproof spectacle replacing both quieter history stops when energy or rain calls for one anchor.",
+        "route_variant": {
+          "id": "replacement-d4-rmsc-electricity",
+          "day": 4,
+          "replacement_place_id": "rmsc-electricity",
+          "replaces_place_ids": [
+            "anthony-house",
+            "mount-hope-rochester"
+          ],
+          "nodes": [
+            "syracuse-lodging",
+            "rmsc-electricity",
+            "batavia-lodging"
+          ],
+          "node_sequence": [
+            "syracuse-lodging",
+            "rmsc-electricity",
+            "batavia-lodging"
+          ],
+          "baseline_total_miles": 120.4,
+          "baseline_total_minutes": 155,
+          "delta_miles": -3.2,
+          "delta_minutes": -14,
+          "cap_minutes": 210,
+          "cap_status": "passes-baseline-cap",
+          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+          "non_driving_travel_minutes": 0,
+          "total_travel_minutes_excluding_queues": 155,
+          "legs": [
+            {
+              "id": "replacement-d4-rmsc-electricity-leg-1",
+              "from": "syracuse-lodging",
+              "to": "rmsc-electricity",
+              "mode": "driving",
+              "distance_miles": 85.1,
+              "baseline_minutes": 106,
+              "display_duration_minutes": 106,
+              "counts_toward_drive_cap": true
+            },
+            {
+              "id": "replacement-d4-rmsc-electricity-leg-2",
+              "from": "rmsc-electricity",
+              "to": "batavia-lodging",
+              "mode": "driving",
+              "distance_miles": 35.4,
+              "baseline_minutes": 49,
+              "display_duration_minutes": 49,
+              "counts_toward_drive_cap": true
+            }
+          ],
+          "geometry": {
+            "type": "MultiLineString",
+            "coordinates": [
+              [
+                [
+                  -76.1474,
+                  43.048093
+                ],
+                [
+                  -76.196747,
+                  43.065761
+                ],
+                [
+                  -76.246859,
+                  43.105856
+                ],
+                [
+                  -76.289057,
+                  43.114512
+                ],
+                [
+                  -76.288372,
+                  43.107243
+                ],
+                [
+                  -76.323192,
+                  43.09035
+                ],
+                [
+                  -76.459628,
+                  43.080507
+                ],
+                [
+                  -76.606717,
+                  43.052727
+                ],
+                [
+                  -76.71453,
+                  43.002039
+                ],
+                [
+                  -76.821119,
+                  42.971443
+                ],
+                [
+                  -76.909273,
+                  42.958812
+                ],
+                [
+                  -77.022578,
+                  42.95608
+                ],
+                [
+                  -77.091315,
+                  42.97422
+                ],
+                [
+                  -77.266374,
+                  42.979739
+                ],
+                [
+                  -77.424517,
+                  43.000685
+                ],
+                [
+                  -77.498394,
+                  43.088847
+                ],
+                [
+                  -77.507791,
+                  43.117521
+                ],
+                [
+                  -77.544207,
+                  43.142321
+                ],
+                [
+                  -77.587142,
+                  43.152454
+                ]
+              ],
+              [
+                [
+                  -77.587142,
+                  43.152454
+                ],
+                [
+                  -77.596788,
+                  43.155648
+                ],
+                [
+                  -77.596012,
+                  43.160067
+                ],
+                [
+                  -77.601376,
+                  43.162285
+                ],
+                [
+                  -77.611724,
+                  43.161251
+                ],
+                [
+                  -77.620405,
+                  43.15652
+                ],
+                [
+                  -77.71296,
+                  43.1578
+                ],
+                [
+                  -77.717671,
+                  43.153915
+                ],
+                [
+                  -77.718928,
+                  43.135704
+                ],
+                [
+                  -77.729425,
+                  43.125951
+                ],
+                [
+                  -77.73922,
+                  43.121862
+                ],
+                [
+                  -77.766394,
+                  43.117099
+                ],
+                [
+                  -77.798954,
+                  43.096061
+                ],
+                [
+                  -77.809446,
+                  43.094042
+                ],
+                [
+                  -77.829322,
+                  43.09435
+                ],
+                [
+                  -77.867078,
+                  43.098106
+                ],
+                [
+                  -77.92026,
+                  43.086319
+                ],
+                [
+                  -77.928268,
+                  43.082838
+                ],
+                [
+                  -77.937276,
+                  43.074858
+                ],
+                [
+                  -77.959113,
+                  43.071095
+                ],
+                [
+                  -78.020873,
+                  43.041351
+                ],
+                [
+                  -78.100521,
+                  43.019922
+                ],
+                [
+                  -78.164295,
+                  42.99495
+                ],
+                [
+                  -78.187602,
+                  42.998129
+                ]
+              ]
+            ]
+          },
+          "routing_source": [
+            "https://router.project-osrm.org/route/v1/driving/-76.1474,43.0481;-77.5874681,43.1525078?overview=simplified&geometries=geojson&steps=false",
+            "https://router.project-osrm.org/route/v1/driving/-77.5874681,43.1525078;-78.1875,42.9984?overview=simplified&geometries=geojson&steps=false"
+          ]
+        }
+      },
+      "address": "Rochester Museum & Science Center, 657 East Avenue, Rochester, New York",
+      "country": "US",
+      "coordinates": [
+        -77.5874681,
+        43.1525078
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-rmsc-electricity-1",
+        "img-rmsc-electricity-2",
+        "img-rmsc-electricity-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete"
+    },
+    {
+      "id": "eden-kazoo",
+      "name": "Original American Kazoo Company Factory & Museum",
+      "kind": "working-kazoo-factory",
+      "city": "Eden",
+      "state": "NY",
+      "visit_date": "2026-10-08",
+      "summary": "The only metal kazoo factory of its kind in North America still uses belt-driven machinery in an 1890s workshop; a self-guided visit ends by making a playable kazoo.",
+      "why_go": "This is Route 7's defining hidden gem: strange, inexpensive, mechanical, musical and impossible to confuse with a generic museum.",
+      "best_for": [
+        "stivka",
+        "viki"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for stivka and viki: This is Route 7's defining hidden gem: strange, inexpensive, mechanical, musical and impossible to confuse with a generic museum.",
+      "categories": [
+        "unusual_creative",
+        "hidden_history_folklore",
+        "local_culture"
+      ],
+      "duration_minutes": 85,
+      "source_ids": [
+        "src-kazoo"
+      ],
+      "reservation": "call-day-before",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Thursday is one of the factory's normal operating days; machinery activity can vary, so call the day before and arrive near opening."
+      },
+      "cost": {
+        "amount_per_person": 5,
+        "status": "verified-current",
+        "note": "Self-guided museum is inexpensive; allow a small make-a-kazoo purchase."
+      },
+      "priority": "anchor",
+      "address": "Original American Kazoo Company, 8703 South Main Street, Eden, New York",
+      "country": "US",
+      "coordinates": [
+        -78.8983928,
+        42.6491077
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-eden-kazoo-1",
+        "img-eden-kazoo-2",
+        "img-eden-kazoo-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "trec-presque-isle",
+      "name": "Tom Ridge Environmental Center & Presque Isle Gateway",
+      "kind": "lake-ecology-and-observation-tower",
+      "city": "Erie",
+      "state": "PA",
+      "visit_date": "2026-10-08",
+      "summary": "Interactive lake-and-dune exhibits lead to a 75-foot tower overlooking Presque Isle, making the peninsula's shifting ecology legible before a short shoreline pause.",
+      "why_go": "Viki gets Lake Erie and a high photo angle, Gora gets environmental systems, and everyone gets fresh air without a five-mile hike.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and gora: Viki gets Lake Erie and a high photo angle, Gora gets environmental systems, and everyone gets fresh air without a five-mile hike.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "quiet_reset",
+        "local_culture"
+      ],
+      "duration_minutes": 105,
+      "source_ids": [
+        "src-trec"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "08:00",
+        "closes": "16:00",
+        "status": "verified-current",
+        "note": "Daily April-October hours; protect the tower and exhibit time by leaving Eden promptly."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Tom Ridge Environmental Center, 301 Peninsula Drive, Erie, Pennsylvania",
+      "country": "US",
+      "coordinates": [
+        -80.1540595,
+        42.1100038
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-trec-presque-isle-1",
+        "img-trec-presque-isle-2",
+        "img-trec-presque-isle-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "erie-maritime",
+      "name": "Erie Maritime Museum",
+      "kind": "warship-and-lake-industry-museum",
+      "city": "Erie",
+      "state": "PA",
+      "visit_date": "2026-10-08",
+      "summary": "A former power plant interprets naval construction, the Battle of Lake Erie and the bay's working waterfront; the indoor reconstructed gun deck matters even when Niagara is away.",
+      "why_go": "It is the stronger bad-weather choice for Gora and Stivka, mixing engineering, conflict and Erie identity in one compact building.",
+      "best_for": [
+        "gora",
+        "stivka"
+      ],
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for gora and stivka: It is the stronger bad-weather choice for Gora and Stivka, mixing engineering, conflict and Erie identity in one compact building.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_nature_photogenic",
+        "local_culture"
+      ],
+      "duration_minutes": 100,
+      "source_ids": [
+        "src-erie-maritime"
+      ],
+      "reservation": "call",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "The official site currently exposes ticketing but not a dependable October 8 hours block; confirm directly before promoting this replacement."
+      },
+      "cost": {
+        "amount_per_person": 10,
+        "status": "verified-current",
+        "note": "Planning estimate only; confirm current adult admission."
+      },
+      "priority": "replacement",
+      "replacement_reason": "An indoor engineering-and-warship substitute when the lakefront tower is weathered out.",
+      "replacement": {
+        "day": 5,
+        "replaces_place_ids": [
+          "trec-presque-isle"
+        ],
+        "route_variant_id": "replacement-d5-erie-maritime",
+        "reason": "An indoor engineering-and-warship substitute when the lakefront tower is weathered out.",
+        "route_variant": {
+          "id": "replacement-d5-erie-maritime",
+          "day": 5,
+          "replacement_place_id": "erie-maritime",
+          "replaces_place_ids": [
+            "trec-presque-isle"
+          ],
+          "nodes": [
+            "batavia-lodging",
+            "eden-kazoo",
+            "erie-maritime",
+            "erie-lodging"
+          ],
+          "node_sequence": [
+            "batavia-lodging",
+            "eden-kazoo",
+            "erie-maritime",
+            "erie-lodging"
+          ],
+          "baseline_total_miles": 134.3,
+          "baseline_total_minutes": 179,
+          "delta_miles": -8.3,
+          "delta_minutes": -19,
+          "cap_minutes": 210,
+          "cap_status": "passes-baseline-cap",
+          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+          "non_driving_travel_minutes": 0,
+          "total_travel_minutes_excluding_queues": 179,
+          "legs": [
+            {
+              "id": "replacement-d5-erie-maritime-leg-1",
+              "from": "batavia-lodging",
+              "to": "eden-kazoo",
+              "mode": "driving",
+              "distance_miles": 56.6,
+              "baseline_minutes": 78,
+              "display_duration_minutes": 78,
+              "counts_toward_drive_cap": true
+            },
+            {
+              "id": "replacement-d5-erie-maritime-leg-2",
+              "from": "eden-kazoo",
+              "to": "erie-maritime",
+              "mode": "driving",
+              "distance_miles": 76.9,
+              "baseline_minutes": 99,
+              "display_duration_minutes": 99,
+              "counts_toward_drive_cap": true
+            },
+            {
+              "id": "replacement-d5-erie-maritime-leg-3",
+              "from": "erie-maritime",
+              "to": "erie-lodging",
+              "mode": "driving",
+              "distance_miles": 0.8,
+              "baseline_minutes": 3,
+              "display_duration_minutes": 3,
+              "counts_toward_drive_cap": true
+            }
+          ],
+          "geometry": {
+            "type": "MultiLineString",
+            "coordinates": [
+              [
+                [
+                  -78.187602,
+                  42.998129
+                ],
+                [
+                  -78.192114,
+                  43.000114
+                ],
+                [
+                  -78.192146,
+                  43.015633
+                ],
+                [
+                  -78.184956,
+                  43.020726
+                ],
+                [
+                  -78.392822,
+                  43.010266
+                ],
+                [
+                  -78.433081,
+                  42.992712
+                ],
+                [
+                  -78.499762,
+                  42.979702
+                ],
+                [
+                  -78.529836,
+                  42.968648
+                ],
+                [
+                  -78.609882,
+                  42.950363
+                ],
+                [
+                  -78.67178,
+                  42.947459
+                ],
+                [
+                  -78.761929,
+                  42.950439
+                ],
+                [
+                  -78.766497,
+                  42.944223
+                ],
+                [
+                  -78.768183,
+                  42.884304
+                ],
+                [
+                  -78.787945,
+                  42.875092
+                ],
+                [
+                  -78.791794,
+                  42.866394
+                ],
+                [
+                  -78.79184,
+                  42.816716
+                ],
+                [
+                  -78.815547,
+                  42.800669
+                ],
+                [
+                  -78.819019,
+                  42.765279
+                ],
+                [
+                  -78.837043,
+                  42.746902
+                ],
+                [
+                  -78.848695,
+                  42.742847
+                ],
+                [
+                  -78.835292,
+                  42.731399
+                ],
+                [
+                  -78.839094,
+                  42.71662
+                ],
+                [
+                  -78.856885,
+                  42.692141
+                ],
+                [
+                  -78.89053,
+                  42.663415
+                ],
+                [
+                  -78.898308,
+                  42.649256
+                ]
+              ],
+              [
+                [
+                  -78.898308,
+                  42.649256
+                ],
+                [
+                  -78.896926,
+                  42.652405
+                ],
+                [
+                  -78.911558,
+                  42.659252
+                ],
+                [
+                  -78.954936,
+                  42.652506
+                ],
+                [
+                  -78.962024,
+                  42.661301
+                ],
+                [
+                  -79.027651,
+                  42.604654
+                ],
+                [
+                  -79.081252,
+                  42.573912
+                ],
+                [
+                  -79.149917,
+                  42.519404
+                ],
+                [
+                  -79.164894,
+                  42.513141
+                ],
+                [
+                  -79.202111,
+                  42.511085
+                ],
+                [
+                  -79.236297,
+                  42.497316
+                ],
+                [
+                  -79.297486,
+                  42.464133
+                ],
+                [
+                  -79.366845,
+                  42.455053
+                ],
+                [
+                  -79.407598,
+                  42.416799
+                ],
+                [
+                  -79.437666,
+                  42.410317
+                ],
+                [
+                  -79.541271,
+                  42.353985
+                ],
+                [
+                  -79.579165,
+                  42.341476
+                ],
+                [
+                  -79.621136,
+                  42.313911
+                ],
+                [
+                  -79.755427,
+                  42.257582
+                ],
+                [
+                  -79.77685,
+                  42.239509
+                ],
+                [
+                  -79.78565,
+                  42.223723
+                ],
+                [
+                  -79.849602,
+                  42.170227
+                ],
+                [
+                  -79.963859,
+                  42.119105
+                ],
+                [
+                  -79.986866,
+                  42.125202
+                ],
+                [
+                  -80.016799,
+                  42.122274
+                ],
+                [
+                  -80.05108,
+                  42.124751
+                ],
+                [
+                  -80.072285,
+                  42.141286
+                ],
+                [
+                  -80.087456,
+                  42.136344
+                ]
+              ],
+              [
+                [
+                  -80.087456,
+                  42.136344
+                ],
+                [
+                  -80.087156,
+                  42.135931
+                ],
+                [
+                  -80.08532,
+                  42.136599
+                ],
+                [
+                  -80.080852,
+                  42.129833
+                ],
+                [
+                  -80.082512,
+                  42.129219
+                ]
+              ]
+            ]
+          },
+          "routing_source": [
+            "https://router.project-osrm.org/route/v1/driving/-78.1875,42.9984;-78.8983928,42.6491077?overview=simplified&geometries=geojson&steps=false",
+            "https://router.project-osrm.org/route/v1/driving/-78.8983928,42.6491077;-80.0871807,42.1364582?overview=simplified&geometries=geojson&steps=false",
+            "https://router.project-osrm.org/route/v1/driving/-80.0871807,42.1364582;-80.0825,42.1292?overview=simplified&geometries=geojson&steps=false"
+          ]
+        }
+      },
+      "address": "Erie Maritime Museum, 150 East Front Street, Erie, Pennsylvania",
+      "country": "US",
+      "coordinates": [
+        -80.0871807,
+        42.1364582
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-erie-maritime-1",
+        "img-erie-maritime-2",
+        "img-erie-maritime-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete"
+    },
+    {
+      "id": "rock-hall",
+      "name": "Rock & Roll Hall of Fame",
+      "kind": "music-history-museum",
+      "city": "Cleveland",
+      "state": "OH",
+      "visit_date": "2026-10-09",
+      "summary": "Cleveland's glass pyramid connects sound, clothing, handwritten lyrics, instruments and contested definitions of rock across generations rather than offering a simple wall of fame.",
+      "why_go": "Stivka gets the trip's biggest music archive, Viki gets iconic architecture and performance objects, and everyone gets context before the live show.",
+      "best_for": [
+        "stivka",
+        "viki"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for stivka and viki: Stivka gets the trip's biggest music archive, Viki gets iconic architecture and performance objects, and everyone gets context before the live show.",
+      "categories": [
+        "social_nightlife_live",
+        "hidden_history_folklore",
+        "architecture_nature_photogenic"
+      ],
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-rockhall"
+      ],
+      "reservation": "reserve",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "September-June Friday hours; timed tickets are strongly recommended for a Friday with a fixed evening show."
+      },
+      "cost": {
+        "amount_per_person": 45,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Rock & Roll Hall of Fame, 1100 Rock and Roll Boulevard, Cleveland, Ohio",
+      "country": "US",
+      "coordinates": [
+        -81.6954068,
+        41.5084983
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-rock-hall-1",
+        "img-rock-hall-2",
+        "img-rock-hall-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "christmas-story-house",
+      "name": "A Christmas Story House",
+      "kind": "film-location-house-museum",
+      "city": "Cleveland",
+      "state": "OH",
+      "visit_date": "2026-10-09",
+      "summary": "The restored Tremont house turns a familiar film set into a tactile period interior where visitors can trace how an ordinary neighborhood became American holiday mythology.",
+      "why_go": "It is goofy enough to reset the day, highly photographable for Viki and a clean pop-culture story for everyone without becoming a three-hour commitment.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Best for viki and sheluvspaco: It is goofy enough to reset the day, highly photographable for Viki and a clean pop-culture story for everyone without becoming a three-hour commitment.",
+      "categories": [
+        "unusual_creative",
+        "architecture_nature_photogenic",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 60,
+      "source_ids": [
+        "src-christmas"
+      ],
+      "reservation": "reserve",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Daily hours; guided tours run roughly 45-50 minutes, so buy a slot that leaves margin before Buckland and the concert."
+      },
+      "cost": {
+        "amount_per_person": 20,
+        "status": "verified-current",
+        "note": "Current online planning price before tax and booking fees."
+      },
+      "priority": "anchor",
+      "address": "A Christmas Story House, 3159 West 11th Street, Cleveland, Ohio",
+      "country": "US",
+      "coordinates": [
+        -81.6874123,
+        41.4687248
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-christmas-story-house-1",
+        "img-christmas-story-house-2",
+        "img-christmas-story-house-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "buckland-museum",
+      "name": "Buckland Museum of Witchcraft & Magick",
+      "kind": "occult-history-cabinet",
+      "city": "Cleveland",
+      "state": "OH",
+      "visit_date": "2026-10-09",
+      "summary": "More than two hundred ritual, publishing and personal objects from Raymond Buckland's collection fill a tiny serious museum about modern witchcraft and occult subcultures.",
+      "why_go": "This is Viki's off-mainstream museum and Gora's chance to study a belief system through primary objects rather than internet mythology.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Best for viki and gora: This is Viki's off-mainstream museum and Gora's chance to study a belief system through primary objects rather than internet mythology.",
+      "categories": [
+        "unusual_creative",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 55,
+      "source_ids": [
+        "src-buckland",
+        "src-forum-cleveland"
+      ],
+      "reservation": "reserve",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reserve-and-reconfirm",
+        "note": "Official admission and visit length are current, but the site does not publish a stable Friday hours table. Buy a timed ticket only after October 9 inventory appears."
+      },
+      "cost": {
+        "amount_per_person": 8,
+        "status": "verified-current",
+        "note": "$8 online or $10 at the door."
+      },
+      "priority": "anchor",
+      "address": "Buckland Museum of Witchcraft & Magick, 2155 Broadview Road, Cleveland, Ohio",
+      "country": "US",
+      "coordinates": [
+        -81.6997569,
+        41.4381207
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-buckland-museum-1",
+        "img-buckland-museum-2",
+        "img-buckland-museum-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "sugar-agora",
+      "name": "Sugar at the Agora Theatre",
+      "kind": "fixed-live-rock-night",
+      "city": "Cleveland",
+      "state": "OH",
+      "visit_date": "2026-10-09",
+      "summary": "Bob Mould's power trio Sugar brings its dense guitar sound to the restored Agora—an exact-date rock night that makes Cleveland the emotional endpoint rather than just the farthest hotel.",
+      "why_go": "This is designed for Stivka, but the social concert energy also gives Paco and Gora the one big night the route earns after a week of careful pacing.",
+      "best_for": [
+        "stivka"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "gora",
+        "viki"
+      ],
+      "best_fit_note": "Best for stivka: This is designed for Stivka, but the social concert energy also gives Paco and Gora the one big night the route earns after a week of careful pacing.",
+      "categories": [
+        "social_nightlife_live",
+        "architecture_nature_photogenic",
+        "local_culture"
+      ],
+      "duration_minutes": 180,
+      "source_ids": [
+        "src-sugar"
+      ],
+      "reservation": "reserve-now",
+      "hours": {
+        "opens": "19:00",
+        "closes": "23:00",
+        "status": "verified-current",
+        "note": "Friday October 9, 2026: doors 19:00, show 20:00. End time is a planning estimate; venue rules and final set times govern."
+      },
+      "cost": {
+        "amount_per_person": null,
+        "status": "verified-current",
+        "note": "Ticket price and fees vary by inventory; nightlife is excluded from the $1,500 controllable budget."
+      },
+      "priority": "anchor",
+      "address": "Agora Theatre & Ballroom, 5000 Euclid Avenue, Cleveland, Ohio",
+      "country": "US",
+      "coordinates": [
+        -81.6536566,
+        41.5034443
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-sugar-agora-1",
+        "img-sugar-agora-2",
+        "img-sugar-agora-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "crawford-auto",
+      "name": "Crawford Auto-Aviation Museum",
+      "kind": "transportation-technology-collection",
+      "city": "Cleveland",
+      "state": "OH",
+      "visit_date": "2026-10-09",
+      "summary": "A Cleveland-built transportation collection moves from early electric cars and aircraft to industrial design, including the tiny transatlantic sailboat Tinkerbelle.",
+      "why_go": "It replaces uncertainty with machinery: Gora gets engineering, Viki gets polished forms and Stivka still stays inside Cleveland's cultural history.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for gora and viki: It replaces uncertainty with machinery: Gora gets engineering, Viki gets polished forms and Stivka still stays inside Cleveland's cultural history.",
+      "categories": [
+        "hidden_history_folklore",
+        "unusual_creative",
+        "local_culture"
+      ],
+      "duration_minutes": 100,
+      "source_ids": [
+        "src-crawford"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "16:00",
+        "status": "verified-current",
+        "note": "Friday Cleveland History Center hours; verify which Crawford galleries are open after the museum's renovation cycle."
+      },
+      "cost": {
+        "amount_per_person": 15,
+        "status": "verified-current",
+        "note": "Planning estimate for general admission; confirm current ticket price."
+      },
+      "priority": "replacement",
+      "replacement_reason": "The dependable Friday swap when Buckland has no usable timed inventory.",
+      "replacement": {
+        "day": 6,
+        "replaces_place_ids": [
+          "buckland-museum"
+        ],
+        "route_variant_id": "replacement-d6-crawford-auto",
+        "reason": "The dependable Friday swap when Buckland has no usable timed inventory.",
+        "route_variant": {
+          "id": "replacement-d6-crawford-auto",
+          "day": 6,
+          "replacement_place_id": "crawford-auto",
+          "replaces_place_ids": [
+            "buckland-museum"
+          ],
+          "nodes": [
+            "erie-lodging",
+            "rock-hall",
+            "christmas-story-house",
+            "crawford-auto",
+            "sugar-agora",
+            "cleveland-lodging"
+          ],
+          "node_sequence": [
+            "erie-lodging",
+            "rock-hall",
+            "christmas-story-house",
+            "crawford-auto",
+            "sugar-agora",
+            "cleveland-lodging"
+          ],
+          "baseline_total_miles": 117.2,
+          "baseline_total_minutes": 162,
+          "delta_miles": 0.5,
+          "delta_minutes": 3,
+          "cap_minutes": 210,
+          "cap_status": "passes-baseline-cap",
+          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+          "non_driving_travel_minutes": 0,
+          "total_travel_minutes_excluding_queues": 162,
+          "legs": [
+            {
+              "id": "replacement-d6-crawford-auto-leg-1",
+              "from": "erie-lodging",
+              "to": "rock-hall",
+              "mode": "driving",
+              "distance_miles": 101.7,
+              "baseline_minutes": 121,
+              "display_duration_minutes": 121,
+              "counts_toward_drive_cap": true
+            },
+            {
+              "id": "replacement-d6-crawford-auto-leg-2",
+              "from": "rock-hall",
+              "to": "christmas-story-house",
+              "mode": "driving",
+              "distance_miles": 3.6,
+              "baseline_minutes": 10,
+              "display_duration_minutes": 10,
+              "counts_toward_drive_cap": true
+            },
+            {
+              "id": "replacement-d6-crawford-auto-leg-3",
+              "from": "christmas-story-house",
+              "to": "crawford-auto",
+              "mode": "driving",
+              "distance_miles": 6.6,
+              "baseline_minutes": 16,
+              "display_duration_minutes": 16,
+              "counts_toward_drive_cap": true
+            },
+            {
+              "id": "replacement-d6-crawford-auto-leg-4",
+              "from": "crawford-auto",
+              "to": "sugar-agora",
+              "mode": "driving",
+              "distance_miles": 3,
+              "baseline_minutes": 9,
+              "display_duration_minutes": 9,
+              "counts_toward_drive_cap": true
+            },
+            {
+              "id": "replacement-d6-crawford-auto-leg-5",
+              "from": "sugar-agora",
+              "to": "cleveland-lodging",
+              "mode": "driving",
+              "distance_miles": 2.3,
+              "baseline_minutes": 6,
+              "display_duration_minutes": 6,
+              "counts_toward_drive_cap": true
+            }
+          ],
+          "geometry": {
+            "type": "MultiLineString",
+            "coordinates": [
+              [
+                [
+                  -80.082512,
+                  42.129219
+                ],
+                [
+                  -80.079943,
+                  42.124013
+                ],
+                [
+                  -80.122316,
+                  42.109367
+                ],
+                [
+                  -80.105594,
+                  42.06727
+                ],
+                [
+                  -80.13457,
+                  42.026415
+                ],
+                [
+                  -80.219233,
+                  42.013136
+                ],
+                [
+                  -80.38564,
+                  41.946598
+                ],
+                [
+                  -80.508112,
+                  41.942818
+                ],
+                [
+                  -80.658185,
+                  41.885359
+                ],
+                [
+                  -80.74022,
+                  41.832346
+                ],
+                [
+                  -80.791757,
+                  41.826469
+                ],
+                [
+                  -80.877655,
+                  41.775044
+                ],
+                [
+                  -81.046244,
+                  41.759614
+                ],
+                [
+                  -81.124985,
+                  41.722861
+                ],
+                [
+                  -81.165661,
+                  41.714538
+                ],
+                [
+                  -81.291445,
+                  41.651023
+                ],
+                [
+                  -81.377628,
+                  41.639527
+                ],
+                [
+                  -81.450222,
+                  41.592069
+                ],
+                [
+                  -81.482326,
+                  41.590278
+                ],
+                [
+                  -81.496571,
+                  41.605539
+                ],
+                [
+                  -81.695067,
+                  41.508762
+                ]
+              ],
+              [
+                [
+                  -81.695067,
+                  41.508762
+                ],
+                [
+                  -81.694672,
+                  41.509074
+                ],
+                [
+                  -81.68245,
+                  41.495209
+                ],
+                [
+                  -81.682628,
+                  41.494908
+                ],
+                [
+                  -81.685706,
+                  41.493389
+                ],
+                [
+                  -81.687793,
+                  41.491657
+                ],
+                [
+                  -81.690675,
+                  41.487184
+                ],
+                [
+                  -81.692657,
+                  41.483207
+                ],
+                [
+                  -81.693354,
+                  41.482903
+                ],
+                [
+                  -81.693855,
+                  41.483389
+                ],
+                [
+                  -81.693534,
+                  41.483735
+                ],
+                [
+                  -81.692544,
+                  41.483809
+                ],
+                [
+                  -81.691372,
+                  41.482255
+                ],
+                [
+                  -81.691201,
+                  41.47004
+                ],
+                [
+                  -81.688824,
+                  41.470084
+                ],
+                [
+                  -81.687632,
+                  41.468723
+                ]
+              ],
+              [
+                [
+                  -81.687632,
+                  41.468723
+                ],
+                [
+                  -81.688824,
+                  41.470084
+                ],
+                [
+                  -81.691201,
+                  41.47004
+                ],
+                [
+                  -81.691547,
+                  41.483514
+                ],
+                [
+                  -81.690009,
+                  41.487515
+                ],
+                [
+                  -81.687916,
+                  41.490862
+                ],
+                [
+                  -81.685695,
+                  41.492855
+                ],
+                [
+                  -81.678633,
+                  41.495688
+                ],
+                [
+                  -81.67138,
+                  41.499481
+                ],
+                [
+                  -81.66838,
+                  41.504466
+                ],
+                [
+                  -81.662387,
+                  41.504742
+                ],
+                [
+                  -81.647617,
+                  41.50663
+                ],
+                [
+                  -81.640567,
+                  41.505883
+                ],
+                [
+                  -81.615329,
+                  41.505434
+                ],
+                [
+                  -81.61541,
+                  41.511611
+                ],
+                [
+                  -81.610993,
+                  41.513091
+                ]
+              ],
+              [
+                [
+                  -81.610993,
+                  41.513091
+                ],
+                [
+                  -81.611088,
+                  41.51287
+                ],
+                [
+                  -81.613238,
+                  41.512596
+                ],
+                [
+                  -81.613986,
+                  41.512366
+                ],
+                [
+                  -81.614379,
+                  41.512074
+                ],
+                [
+                  -81.614742,
+                  41.5115
+                ],
+                [
+                  -81.61541,
+                  41.511611
+                ],
+                [
+                  -81.615329,
+                  41.505434
+                ],
+                [
+                  -81.623796,
+                  41.505827
+                ],
+                [
+                  -81.629566,
+                  41.505837
+                ],
+                [
+                  -81.633751,
+                  41.50615
+                ],
+                [
+                  -81.640559,
+                  41.506018
+                ],
+                [
+                  -81.646396,
+                  41.506722
+                ],
+                [
+                  -81.64812,
+                  41.506757
+                ],
+                [
+                  -81.651795,
+                  41.506199
+                ],
+                [
+                  -81.65178,
+                  41.502907
+                ],
+                [
+                  -81.653779,
+                  41.502689
+                ],
+                [
+                  -81.653882,
+                  41.503205
+                ],
+                [
+                  -81.653618,
+                  41.503232
+                ]
+              ],
+              [
+                [
+                  -81.653618,
+                  41.503232
+                ],
+                [
+                  -81.654104,
+                  41.503182
+                ],
+                [
+                  -81.653996,
+                  41.502665
+                ],
+                [
+                  -81.657678,
+                  41.50222
+                ],
+                [
+                  -81.657398,
+                  41.500997
+                ],
+                [
+                  -81.674575,
+                  41.499076
+                ],
+                [
+                  -81.678945,
+                  41.49763
+                ],
+                [
+                  -81.680806,
+                  41.499669
+                ],
+                [
+                  -81.690651,
+                  41.498193
+                ],
+                [
+                  -81.691116,
+                  41.499256
+                ]
+              ]
+            ]
+          },
+          "routing_source": [
+            "https://router.project-osrm.org/route/v1/driving/-80.0825,42.1292;-81.6954068,41.5084983?overview=simplified&geometries=geojson&steps=false",
+            "https://router.project-osrm.org/route/v1/driving/-81.6954068,41.5084983;-81.6874123,41.4687248?overview=simplified&geometries=geojson&steps=false",
+            "https://router.project-osrm.org/route/v1/driving/-81.6874123,41.4687248;-81.6111732,41.513281?overview=simplified&geometries=geojson&steps=false",
+            "https://router.project-osrm.org/route/v1/driving/-81.6111732,41.513281;-81.6536566,41.5034443?overview=simplified&geometries=geojson&steps=false",
+            "https://router.project-osrm.org/route/v1/driving/-81.6536566,41.5034443;-81.6908,41.4993?overview=simplified&geometries=geojson&steps=false"
+          ]
+        }
+      },
+      "address": "Crawford Auto-Aviation Museum, 10825 East Boulevard, Cleveland, Ohio",
+      "country": "US",
+      "coordinates": [
+        -81.6111732,
+        41.513281
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-crawford-auto-1",
+        "img-crawford-auto-2",
+        "img-crawford-auto-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete"
+    },
+    {
+      "id": "cleveland-art",
+      "name": "Cleveland Museum of Art",
+      "kind": "world-art-and-architecture-anchor",
+      "city": "Cleveland",
+      "state": "OH",
+      "visit_date": "2026-10-10",
+      "summary": "A free encyclopedic collection wraps around the huge glass-roofed Ames Family Atrium, letting the group choose armor, icons, contemporary art or quiet courtyard light without paying for completeness.",
+      "why_go": "Viki gets the most beautiful indoor architecture of the route, Stivka can seek sacred art, and each person can follow a different gallery for an hour before regrouping.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and stivka: Viki gets the most beautiful indoor architecture of the route, Stivka can seek sacred art, and each person can follow a different gallery for an hour before regrouping.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "quiet_reset"
+      ],
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-cma"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Saturday hours; general admission is free, but special exhibitions may be timed and paid."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Cleveland Museum of Art, 11150 East Boulevard, Cleveland, Ohio",
+      "country": "US",
+      "coordinates": [
+        -81.6117367,
+        41.5090438
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-cleveland-art-1",
+        "img-cleveland-art-2",
+        "img-cleveland-art-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "lake-view-haserot",
+      "name": "Lake View Cemetery & Haserot Angel",
+      "kind": "garden-cemetery-sculpture",
+      "city": "Cleveland",
+      "state": "OH",
+      "visit_date": "2026-10-10",
+      "summary": "The bronze Angel of Death Victorious appears to cry black tears from oxidation inside Cleveland's 1869 garden cemetery, surrounded by hills, monuments and old trees.",
+      "why_go": "It is a quieter, stranger Cleveland exit: Viki and Stivka get sculpture and atmosphere while the group decompresses before the long southbound stage.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and stivka: It is a quieter, stranger Cleveland exit: Viki and Stivka get sculpture and atmosphere while the group decompresses before the long southbound stage.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "quiet_reset"
+      ],
+      "duration_minutes": 95,
+      "source_ids": [
+        "src-lakeview",
+        "src-haserot",
+        "src-forum-cleveland"
+      ],
+      "reservation": "same-day-gate-check",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "verified-current",
+        "note": "Public grounds are normally open daily, but exact gate hours must be checked. This is an active cemetery: no props, staged shoot, drones or disturbance."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "replacement",
+      "replacement_reason": "A foliage-and-sculpture alternative when the group has reached museum saturation.",
+      "replacement": {
+        "day": 7,
+        "replaces_place_ids": [
+          "cleveland-art"
+        ],
+        "route_variant_id": "replacement-d7-lake-view-haserot",
+        "reason": "A foliage-and-sculpture alternative when the group has reached museum saturation.",
+        "route_variant": {
+          "id": "replacement-d7-lake-view-haserot",
+          "day": 7,
+          "replacement_place_id": "lake-view-haserot",
+          "replaces_place_ids": [
+            "cleveland-art"
+          ],
+          "nodes": [
+            "cleveland-lodging",
+            "lake-view-haserot",
+            "southpointe-lodging"
+          ],
+          "node_sequence": [
+            "cleveland-lodging",
+            "lake-view-haserot",
+            "southpointe-lodging"
+          ],
+          "baseline_total_miles": 145.9,
+          "baseline_total_minutes": 192,
+          "delta_miles": 1.2,
+          "delta_minutes": 6,
+          "cap_minutes": 210,
+          "cap_status": "passes-baseline-cap",
+          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+          "non_driving_travel_minutes": 0,
+          "total_travel_minutes_excluding_queues": 192,
+          "legs": [
+            {
+              "id": "replacement-d7-lake-view-haserot-leg-1",
+              "from": "cleveland-lodging",
+              "to": "lake-view-haserot",
+              "mode": "driving",
+              "distance_miles": 6.2,
+              "baseline_minutes": 18,
+              "display_duration_minutes": 18,
+              "counts_toward_drive_cap": true
+            },
+            {
+              "id": "replacement-d7-lake-view-haserot-leg-2",
+              "from": "lake-view-haserot",
+              "to": "southpointe-lodging",
+              "mode": "driving",
+              "distance_miles": 139.7,
+              "baseline_minutes": 174,
+              "display_duration_minutes": 174,
+              "counts_toward_drive_cap": true
+            }
+          ],
+          "geometry": {
+            "type": "MultiLineString",
+            "coordinates": [
+              [
+                [
+                  -81.691116,
+                  41.499256
+                ],
+                [
+                  -81.691198,
+                  41.499581
+                ],
+                [
+                  -81.689234,
+                  41.499844
+                ],
+                [
+                  -81.690317,
+                  41.501377
+                ],
+                [
+                  -81.67864,
+                  41.50732
+                ],
+                [
+                  -81.651905,
+                  41.517902
+                ],
+                [
+                  -81.600909,
+                  41.523048
+                ],
+                [
+                  -81.599901,
+                  41.518715
+                ],
+                [
+                  -81.592451,
+                  41.513934
+                ],
+                [
+                  -81.59032,
+                  41.513118
+                ]
+              ],
+              [
+                [
+                  -81.59032,
+                  41.513118
+                ],
+                [
+                  -81.584897,
+                  41.49154
+                ],
+                [
+                  -81.565095,
+                  41.486495
+                ],
+                [
+                  -81.564886,
+                  41.42422
+                ],
+                [
+                  -81.53001,
+                  41.42385
+                ],
+                [
+                  -81.507459,
+                  41.408612
+                ],
+                [
+                  -81.512101,
+                  41.351464
+                ],
+                [
+                  -81.43215,
+                  41.302239
+                ],
+                [
+                  -81.396431,
+                  41.266956
+                ],
+                [
+                  -81.368734,
+                  41.252325
+                ],
+                [
+                  -80.985823,
+                  41.238981
+                ],
+                [
+                  -80.822048,
+                  41.091232
+                ],
+                [
+                  -80.630719,
+                  40.948961
+                ],
+                [
+                  -80.431225,
+                  40.885979
+                ],
+                [
+                  -80.402898,
+                  40.867668
+                ],
+                [
+                  -80.390894,
+                  40.844814
+                ],
+                [
+                  -80.370183,
+                  40.837529
+                ],
+                [
+                  -80.35607,
+                  40.784518
+                ],
+                [
+                  -80.375808,
+                  40.710117
+                ],
+                [
+                  -80.333853,
+                  40.683117
+                ],
+                [
+                  -80.323565,
+                  40.6639
+                ],
+                [
+                  -80.324966,
+                  40.623944
+                ],
+                [
+                  -80.298044,
+                  40.599006
+                ],
+                [
+                  -80.272467,
+                  40.542395
+                ],
+                [
+                  -80.283051,
+                  40.501956
+                ],
+                [
+                  -80.271281,
+                  40.488316
+                ],
+                [
+                  -80.305558,
+                  40.455669
+                ],
+                [
+                  -80.317529,
+                  40.419059
+                ],
+                [
+                  -80.256957,
+                  40.360461
+                ],
+                [
+                  -80.21886,
+                  40.362644
+                ],
+                [
+                  -80.148737,
+                  40.322892
+                ],
+                [
+                  -80.161029,
+                  40.270535
+                ],
+                [
+                  -80.164022,
+                  40.277462
+                ]
+              ]
+            ]
+          },
+          "routing_source": [
+            "https://router.project-osrm.org/route/v1/driving/-81.6908,41.4993;-81.5903833,41.5130472?overview=simplified&geometries=geojson&steps=false",
+            "https://router.project-osrm.org/route/v1/driving/-81.5903833,41.5130472;-80.164,40.2775?overview=simplified&geometries=geojson&steps=false"
+          ]
+        }
+      },
+      "address": "Haserot Angel, Lake View Cemetery, Cleveland, Ohio",
+      "country": "US",
+      "coordinates": [
+        -81.5903833,
+        41.5130472
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-lake-view-haserot-1",
+        "img-lake-view-haserot-2",
+        "img-lake-view-haserot-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete"
+    },
+    {
+      "id": "all-saints-canonsburg",
+      "name": "All Saints Greek Orthodox Church",
+      "kind": "full-orthodox-sunday",
+      "city": "Canonsburg",
+      "state": "PA",
+      "visit_date": "2026-10-11",
+      "summary": "A canonical Greek Orthodox parish anchors the return with the full Sunday sequence—Orthros followed by Divine Liturgy—rather than treating church as a photo stop.",
+      "why_go": "This is Stivka's deepest fit and a meaningful shared ritual for all four Orthodox travelers; the day stays deliberately light afterward.",
+      "best_for": [
+        "stivka"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "viki",
+        "gora"
+      ],
+      "best_fit_note": "Best for stivka: This is Stivka's deepest fit and a meaningful shared ritual for all four Orthodox travelers; the day stays deliberately light afterward.",
+      "categories": [
+        "orthodox_spiritual",
+        "architecture_nature_photogenic",
+        "quiet_reset"
+      ],
+      "duration_minutes": 180,
+      "source_ids": [
+        "src-all-saints",
+        "src-goarch-pittsburgh"
+      ],
+      "reservation": "reconfirm-parish",
+      "hours": {
+        "opens": "09:00",
+        "closes": "12:00",
+        "status": "verified-current",
+        "note": "Regular post-Labor-Day pattern is Orthros around 09:00 and Divine Liturgy around 10:00, but October 11 must be confirmed in the parish bulletin. Ask about visitor and Communion etiquette."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Free; make a respectful offering if desired."
+      },
+      "priority": "anchor",
+      "address": "All Saints Greek Orthodox Church, 601 West McMurray Road, Canonsburg, Pennsylvania",
+      "country": "US",
+      "coordinates": [
+        -80.1568468,
+        40.272971
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-all-saints-canonsburg-1",
+        "img-all-saints-canonsburg-2",
+        "img-all-saints-canonsburg-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "bedford-coffee-pot",
+      "name": "Koontz Coffee Pot",
+      "kind": "giant-roadside-architecture",
+      "city": "Bedford",
+      "state": "PA",
+      "visit_date": "2026-10-11",
+      "summary": "A giant sheet-metal coffee pot built as a 1920s lunch stand survives beside the Lincoln Highway, saved and moved by local preservationists after decades of roadside service.",
+      "why_go": "It is a ten-minute visual joke with real automobile-era history—perfect after Liturgy and before the final Breezewood push.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Best for viki and sheluvspaco: It is a ten-minute visual joke with real automobile-era history—perfect after Liturgy and before the final Breezewood push.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "unusual_creative"
+      ],
+      "duration_minutes": 35,
+      "source_ids": [
+        "src-coffee-pot"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "verified-exterior",
+        "note": "Exterior roadside stop; interior opening is not promised. Park legally and never block Telegraph Road."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "The Coffee Pot, 108 Telegraph Road, Bedford, Pennsylvania",
+      "country": "US",
+      "coordinates": [
+        -78.5173529,
+        40.022906
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-bedford-coffee-pot-1",
+        "img-bedford-coffee-pot-2",
+        "img-bedford-coffee-pot-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "old-bedford-village",
+      "name": "Old Bedford Village",
+      "kind": "living-history-landscape",
+      "city": "Bedford",
+      "state": "PA",
+      "visit_date": "2026-10-11",
+      "summary": "Dozens of rescued and reconstructed log, stone and frame buildings create a compact Pennsylvania village where domestic craft and frontier infrastructure sit together.",
+      "why_go": "It is the fuller folklore-and-architecture option for Viki, Gora and Stivka if the group wants depth rather than one roadside photograph.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and gora: It is the fuller folklore-and-architecture option for Viki, Gora and Stivka if the group wants depth rather than one roadside photograph.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "local_culture"
+      ],
+      "duration_minutes": 105,
+      "source_ids": [
+        "src-old-bedford"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "09:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "September-October Thursday-Sunday pattern; October 11 overlaps Bedford fall-foliage traffic, so confirm admission and allow congestion margin."
+      },
+      "cost": {
+        "amount_per_person": 15,
+        "status": "verified-current",
+        "note": "Planning estimate; confirm 2026 adult admission."
+      },
+      "priority": "replacement",
+      "replacement_reason": "A longer living-history option when energy and festival traffic both remain manageable.",
+      "replacement": {
+        "day": 8,
+        "replaces_place_ids": [
+          "bedford-coffee-pot"
+        ],
+        "route_variant_id": "replacement-d8-old-bedford-village",
+        "reason": "A longer living-history option when energy and festival traffic both remain manageable.",
+        "route_variant": {
+          "id": "replacement-d8-old-bedford-village",
+          "day": 8,
+          "replacement_place_id": "old-bedford-village",
+          "replaces_place_ids": [
+            "bedford-coffee-pot"
+          ],
+          "nodes": [
+            "southpointe-lodging",
+            "all-saints-canonsburg",
+            "old-bedford-village",
+            "mcconnellsburg-lodging"
+          ],
+          "node_sequence": [
+            "southpointe-lodging",
+            "all-saints-canonsburg",
+            "old-bedford-village",
+            "mcconnellsburg-lodging"
+          ],
+          "baseline_total_miles": 151,
+          "baseline_total_minutes": 204,
+          "delta_miles": -1.8,
+          "delta_minutes": -5,
+          "cap_minutes": 210,
+          "cap_status": "passes-baseline-cap",
+          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+          "non_driving_travel_minutes": 0,
+          "total_travel_minutes_excluding_queues": 204,
+          "legs": [
+            {
+              "id": "replacement-d8-old-bedford-village-leg-1",
+              "from": "southpointe-lodging",
+              "to": "all-saints-canonsburg",
+              "mode": "driving",
+              "distance_miles": 1.1,
+              "baseline_minutes": 4,
+              "display_duration_minutes": 4,
+              "counts_toward_drive_cap": true
+            },
+            {
+              "id": "replacement-d8-old-bedford-village-leg-2",
+              "from": "all-saints-canonsburg",
+              "to": "old-bedford-village",
+              "mode": "driving",
+              "distance_miles": 114,
+              "baseline_minutes": 149,
+              "display_duration_minutes": 149,
+              "counts_toward_drive_cap": true
+            },
+            {
+              "id": "replacement-d8-old-bedford-village-leg-3",
+              "from": "old-bedford-village",
+              "to": "mcconnellsburg-lodging",
+              "mode": "driving",
+              "distance_miles": 35.9,
+              "baseline_minutes": 50,
+              "display_duration_minutes": 50,
+              "counts_toward_drive_cap": true
+            }
+          ],
+          "geometry": {
+            "type": "MultiLineString",
+            "coordinates": [
+              [
+                [
+                  -80.164022,
+                  40.277462
+                ],
+                [
+                  -80.164484,
+                  40.27762
+                ],
+                [
+                  -80.164826,
+                  40.276972
+                ],
+                [
+                  -80.165276,
+                  40.276482
+                ],
+                [
+                  -80.164147,
+                  40.2759
+                ],
+                [
+                  -80.163557,
+                  40.275306
+                ],
+                [
+                  -80.163401,
+                  40.275011
+                ],
+                [
+                  -80.163273,
+                  40.274339
+                ],
+                [
+                  -80.163361,
+                  40.273986
+                ],
+                [
+                  -80.163517,
+                  40.273882
+                ],
+                [
+                  -80.163479,
+                  40.273727
+                ],
+                [
+                  -80.163358,
+                  40.273675
+                ],
+                [
+                  -80.163031,
+                  40.273706
+                ],
+                [
+                  -80.161427,
+                  40.273061
+                ],
+                [
+                  -80.162066,
+                  40.271768
+                ],
+                [
+                  -80.162123,
+                  40.271394
+                ],
+                [
+                  -80.161966,
+                  40.271129
+                ],
+                [
+                  -80.16135,
+                  40.270708
+                ],
+                [
+                  -80.161029,
+                  40.270535
+                ],
+                [
+                  -80.159586,
+                  40.27271
+                ],
+                [
+                  -80.159118,
+                  40.273144
+                ],
+                [
+                  -80.158795,
+                  40.273333
+                ],
+                [
+                  -80.158285,
+                  40.273568
+                ],
+                [
+                  -80.157905,
+                  40.273623
+                ],
+                [
+                  -80.156477,
+                  40.273654
+                ],
+                [
+                  -80.156439,
+                  40.273139
+                ],
+                [
+                  -80.156745,
+                  40.273146
+                ]
+              ],
+              [
+                [
+                  -80.156745,
+                  40.273146
+                ],
+                [
+                  -80.174999,
+                  40.261859
+                ],
+                [
+                  -80.170564,
+                  40.252523
+                ],
+                [
+                  -80.180618,
+                  40.242077
+                ],
+                [
+                  -80.152334,
+                  40.218442
+                ],
+                [
+                  -80.133994,
+                  40.214228
+                ],
+                [
+                  -80.083933,
+                  40.166367
+                ],
+                [
+                  -80.038028,
+                  40.156127
+                ],
+                [
+                  -80.005349,
+                  40.133206
+                ],
+                [
+                  -79.96491,
+                  40.130467
+                ],
+                [
+                  -79.937041,
+                  40.113008
+                ],
+                [
+                  -79.897468,
+                  40.107713
+                ],
+                [
+                  -79.855737,
+                  40.13928
+                ],
+                [
+                  -79.825051,
+                  40.140078
+                ],
+                [
+                  -79.734241,
+                  40.167583
+                ],
+                [
+                  -79.688034,
+                  40.192597
+                ],
+                [
+                  -79.67404,
+                  40.211113
+                ],
+                [
+                  -79.600342,
+                  40.219781
+                ],
+                [
+                  -79.607766,
+                  40.224789
+                ],
+                [
+                  -79.466243,
+                  40.151863
+                ],
+                [
+                  -79.433686,
+                  40.154882
+                ],
+                [
+                  -79.379038,
+                  40.108247
+                ],
+                [
+                  -79.290083,
+                  40.128643
+                ],
+                [
+                  -79.235904,
+                  40.104174
+                ],
+                [
+                  -79.205346,
+                  40.103363
+                ],
+                [
+                  -79.197254,
+                  40.085815
+                ],
+                [
+                  -79.143588,
+                  40.064942
+                ],
+                [
+                  -79.047574,
+                  40.000581
+                ],
+                [
+                  -78.87477,
+                  39.968997
+                ],
+                [
+                  -78.847483,
+                  39.957052
+                ],
+                [
+                  -78.834171,
+                  39.964168
+                ],
+                [
+                  -78.815665,
+                  39.955288
+                ],
+                [
+                  -78.783135,
+                  39.987038
+                ],
+                [
+                  -78.752816,
+                  39.977078
+                ],
+                [
+                  -78.709885,
+                  39.985151
+                ],
+                [
+                  -78.677725,
+                  40.0095
+                ],
+                [
+                  -78.61783,
+                  40.01934
+                ],
+                [
+                  -78.603327,
+                  40.009019
+                ],
+                [
+                  -78.554141,
+                  40.047844
+                ],
+                [
+                  -78.511224,
+                  40.052249
+                ],
+                [
+                  -78.511397,
+                  40.041479
+                ]
+              ],
+              [
+                [
+                  -78.511397,
+                  40.041479
+                ],
+                [
+                  -78.506277,
+                  40.040608
+                ],
+                [
+                  -78.511619,
+                  40.05237
+                ],
+                [
+                  -78.51504,
+                  40.049456
+                ],
+                [
+                  -78.509053,
+                  40.048079
+                ],
+                [
+                  -78.495815,
+                  40.032425
+                ],
+                [
+                  -78.485289,
+                  40.027011
+                ],
+                [
+                  -78.465907,
+                  40.011931
+                ],
+                [
+                  -78.443833,
+                  40.011314
+                ],
+                [
+                  -78.427916,
+                  40.002678
+                ],
+                [
+                  -78.415333,
+                  40.004389
+                ],
+                [
+                  -78.408143,
+                  40.011561
+                ],
+                [
+                  -78.40244,
+                  40.012493
+                ],
+                [
+                  -78.390606,
+                  40.009938
+                ],
+                [
+                  -78.378462,
+                  40.003217
+                ],
+                [
+                  -78.35897,
+                  40.000311
+                ],
+                [
+                  -78.347307,
+                  40.000842
+                ],
+                [
+                  -78.31956,
+                  39.99059
+                ],
+                [
+                  -78.28456,
+                  39.982771
+                ],
+                [
+                  -78.275557,
+                  39.98288
+                ],
+                [
+                  -78.261804,
+                  39.986508
+                ],
+                [
+                  -78.257572,
+                  39.985601
+                ],
+                [
+                  -78.254467,
+                  39.988946
+                ],
+                [
+                  -78.23864,
+                  39.991172
+                ],
+                [
+                  -78.232688,
+                  39.999412
+                ],
+                [
+                  -78.220729,
+                  40.00061
+                ],
+                [
+                  -78.214147,
+                  40.004648
+                ],
+                [
+                  -78.210231,
+                  40.010341
+                ],
+                [
+                  -78.184603,
+                  40.020483
+                ],
+                [
+                  -78.172054,
+                  40.021673
+                ],
+                [
+                  -78.144352,
+                  40.014105
+                ],
+                [
+                  -78.128426,
+                  40.017678
+                ],
+                [
+                  -78.12051,
+                  40.016849
+                ],
+                [
+                  -78.107284,
+                  40.008749
+                ],
+                [
+                  -78.096948,
+                  39.997568
+                ],
+                [
+                  -78.081734,
+                  39.991632
+                ],
+                [
+                  -78.047875,
+                  39.985939
+                ],
+                [
+                  -78.04716,
+                  39.982631
+                ],
+                [
+                  -78.038828,
+                  39.975673
+                ],
+                [
+                  -78.024505,
+                  39.970768
+                ],
+                [
+                  -78.024446,
+                  39.953906
+                ],
+                [
+                  -78.019708,
+                  39.940366
+                ],
+                [
+                  -78.015788,
+                  39.936781
+                ],
+                [
+                  -78.017002,
+                  39.932967
+                ],
+                [
+                  -78.024049,
+                  39.932656
+                ]
+              ]
+            ]
+          },
+          "routing_source": [
+            "https://router.project-osrm.org/route/v1/driving/-80.164,40.2775;-80.1568468,40.272971?overview=simplified&geometries=geojson&steps=false",
+            "https://router.project-osrm.org/route/v1/driving/-80.1568468,40.272971;-78.5112971,40.0412389?overview=simplified&geometries=geojson&steps=false",
+            "https://router.project-osrm.org/route/v1/driving/-78.5112971,40.0412389;-78.025,39.935?overview=simplified&geometries=geojson&steps=false"
+          ]
+        }
+      },
+      "address": "Old Bedford Village, 220 Sawblade Road, Bedford, Pennsylvania",
+      "country": "US",
+      "coordinates": [
+        -78.5112971,
+        40.0412389
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-old-bedford-village-1",
+        "img-old-bedford-village-2",
+        "img-old-bedford-village-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete"
+    },
+    {
+      "id": "mack-museum",
+      "name": "Mack Trucks Historical Museum",
+      "kind": "guided-heavy-machinery-history",
+      "city": "Allentown",
+      "state": "PA",
+      "visit_date": "2026-10-12",
+      "summary": "Volunteer ambassadors lead small groups through restored Mack trucks, engines, archives and the bulldog's industrial story inside the active Experience Center campus.",
+      "why_go": "This is the heavy-machinery finale for Gora and a genuinely behind-the-scenes American manufacturing story for all four—not just a room of polished vehicles.",
+      "best_for": [
+        "gora"
+      ],
+      "secondary_for": [
+        "viki",
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for gora: This is the heavy-machinery finale for Gora and a genuinely behind-the-scenes American manufacturing story for all four—not just a room of polished vehicles.",
+      "categories": [
+        "hidden_history_folklore",
+        "unusual_creative",
+        "local_culture"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-mack"
+      ],
+      "reservation": "reserve-and-holiday-confirm",
+      "hours": {
+        "opens": "13:00",
+        "closes": "14:30",
+        "status": "verified-current",
+        "note": "Monday tours normally start 9:00, 10:30, 13:00 and 14:30, but October 12 is a federal holiday. The reservation calendar is authoritative; do not drive to the gated campus without confirmation."
+      },
+      "cost": {
+        "amount_per_person": 5,
+        "status": "verified-current",
+        "note": "No admission fee; $5 suggested adult donation."
+      },
+      "priority": "anchor",
+      "address": "Mack Trucks Historical Museum, 2402 Lehigh Parkway South, Allentown, Pennsylvania",
+      "country": "US",
+      "coordinates": [
+        -75.4944108,
+        40.5721574
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-mack-museum-1",
+        "img-mack-museum-2",
+        "img-mack-museum-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "allentown-fish-hatchery",
+      "name": "Lil-Le-Hi Trout Nursery",
+      "kind": "historic-public-fish-hatchery",
+      "city": "Allentown",
+      "state": "PA",
+      "visit_date": "2026-10-12",
+      "summary": "Long concrete raceways full of trout sit inside Lehigh Parkway beside stonework, creek paths and the city's 1883 hatchery tradition.",
+      "why_go": "It is the automatic low-pressure rescue if Mack closes for the holiday: moving water, infrastructure and a short outdoor reset instead of a locked gate.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and gora: It is the automatic low-pressure rescue if Mack closes for the holiday: moving water, infrastructure and a short outdoor reset instead of a locked gate.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "quiet_reset",
+        "local_culture"
+      ],
+      "duration_minutes": 85,
+      "source_ids": [
+        "src-fish-hatchery"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "public-space-reconfirm",
+        "note": "Public outdoor facility; verify parking and any seasonal feeding restrictions with Allentown Parks. No indoor program is assumed."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "replacement",
+      "replacement_reason": "The route-safe outdoor substitute if the holiday removes Mack tour inventory.",
+      "replacement": {
+        "day": 9,
+        "replaces_place_ids": [
+          "mack-museum"
+        ],
+        "route_variant_id": "replacement-d9-allentown-fish-hatchery",
+        "reason": "The route-safe outdoor substitute if the holiday removes Mack tour inventory.",
+        "route_variant": {
+          "id": "replacement-d9-allentown-fish-hatchery",
+          "day": 9,
+          "replacement_place_id": "allentown-fish-hatchery",
+          "replaces_place_ids": [
+            "mack-museum"
+          ],
+          "nodes": [
+            "mcconnellsburg-lodging",
+            "allentown-fish-hatchery",
+            "allentown-parkway-lodging"
+          ],
+          "node_sequence": [
+            "mcconnellsburg-lodging",
+            "allentown-fish-hatchery",
+            "allentown-parkway-lodging"
+          ],
+          "baseline_total_miles": 155.3,
+          "baseline_total_minutes": 196,
+          "delta_miles": -1.4,
+          "delta_minutes": -10,
+          "cap_minutes": 210,
+          "cap_status": "passes-baseline-cap",
+          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+          "non_driving_travel_minutes": 0,
+          "total_travel_minutes_excluding_queues": 196,
+          "legs": [
+            {
+              "id": "replacement-d9-allentown-fish-hatchery-leg-1",
+              "from": "mcconnellsburg-lodging",
+              "to": "allentown-fish-hatchery",
+              "mode": "driving",
+              "distance_miles": 152.9,
+              "baseline_minutes": 190,
+              "display_duration_minutes": 190,
+              "counts_toward_drive_cap": true
+            },
+            {
+              "id": "replacement-d9-allentown-fish-hatchery-leg-2",
+              "from": "allentown-fish-hatchery",
+              "to": "allentown-parkway-lodging",
+              "mode": "driving",
+              "distance_miles": 2.4,
+              "baseline_minutes": 6,
+              "display_duration_minutes": 6,
+              "counts_toward_drive_cap": true
+            }
+          ],
+          "geometry": {
+            "type": "MultiLineString",
+            "coordinates": [
+              [
+                [
+                  -78.024049,
+                  39.932656
+                ],
+                [
+                  -77.999052,
+                  39.93256
+                ],
+                [
+                  -77.978761,
+                  39.960779
+                ],
+                [
+                  -77.962117,
+                  40.00454
+                ],
+                [
+                  -77.96944,
+                  40.034573
+                ],
+                [
+                  -77.953389,
+                  40.058106
+                ],
+                [
+                  -77.87953,
+                  40.076524
+                ],
+                [
+                  -77.861252,
+                  40.091267
+                ],
+                [
+                  -77.82904,
+                  40.087059
+                ],
+                [
+                  -77.704516,
+                  40.157954
+                ],
+                [
+                  -77.68536,
+                  40.159551
+                ],
+                [
+                  -77.642884,
+                  40.142637
+                ],
+                [
+                  -77.599563,
+                  40.164884
+                ],
+                [
+                  -77.376594,
+                  40.2022
+                ],
+                [
+                  -77.244514,
+                  40.207612
+                ],
+                [
+                  -77.15634,
+                  40.225936
+                ],
+                [
+                  -77.083473,
+                  40.245924
+                ],
+                [
+                  -77.038436,
+                  40.271077
+                ],
+                [
+                  -76.987214,
+                  40.276396
+                ],
+                [
+                  -76.975079,
+                  40.298942
+                ],
+                [
+                  -76.926343,
+                  40.31604
+                ],
+                [
+                  -76.855927,
+                  40.301735
+                ],
+                [
+                  -76.808745,
+                  40.32496
+                ],
+                [
+                  -76.760162,
+                  40.331401
+                ],
+                [
+                  -76.588569,
+                  40.413281
+                ],
+                [
+                  -76.504481,
+                  40.429043
+                ],
+                [
+                  -76.460483,
+                  40.447838
+                ],
+                [
+                  -76.400846,
+                  40.451343
+                ],
+                [
+                  -76.107116,
+                  40.516521
+                ],
+                [
+                  -75.959703,
+                  40.570818
+                ],
+                [
+                  -75.724145,
+                  40.581371
+                ],
+                [
+                  -75.651469,
+                  40.575097
+                ],
+                [
+                  -75.589017,
+                  40.589087
+                ],
+                [
+                  -75.513317,
+                  40.563153
+                ]
+              ],
+              [
+                [
+                  -75.513317,
+                  40.563153
+                ],
+                [
+                  -75.505794,
+                  40.564765
+                ],
+                [
+                  -75.499845,
+                  40.567529
+                ],
+                [
+                  -75.498649,
+                  40.56785
+                ],
+                [
+                  -75.496861,
+                  40.56485
+                ],
+                [
+                  -75.495247,
+                  40.563124
+                ],
+                [
+                  -75.493571,
+                  40.56194
+                ],
+                [
+                  -75.48784,
+                  40.55882
+                ],
+                [
+                  -75.491148,
+                  40.552522
+                ],
+                [
+                  -75.491395,
+                  40.551433
+                ],
+                [
+                  -75.490411,
+                  40.551377
+                ],
+                [
+                  -75.490427,
+                  40.551236
+                ],
+                [
+                  -75.491018,
+                  40.55125
+                ],
+                [
+                  -75.491101,
+                  40.550994
+                ]
+              ]
+            ]
+          },
+          "routing_source": [
+            "https://router.project-osrm.org/route/v1/driving/-78.025,39.935;-75.513344,40.563224?overview=simplified&geometries=geojson&steps=false",
+            "https://router.project-osrm.org/route/v1/driving/-75.513344,40.563224;-75.491,40.551?overview=simplified&geometries=geojson&steps=false"
+          ]
+        }
+      },
+      "address": "Lil-Le-Hi Trout Nursery, 2901 Fish Hatchery Road, Allentown, Pennsylvania",
+      "country": "US",
+      "coordinates": [
+        -75.513344,
+        40.563224
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-allentown-fish-hatchery-1",
+        "img-allentown-fish-hatchery-2",
+        "img-allentown-fish-hatchery-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete"
+    },
+    {
+      "id": "uncle-sam-danbury",
+      "name": "World's Tallest Uncle Sam Statue",
+      "kind": "giant-fairground-survivor",
+      "city": "Danbury",
+      "state": "CT",
+      "visit_date": "2026-10-13",
+      "summary": "A 38-foot, 4,500-pound fiberglass Uncle Sam built for the Great Danbury Fair in 1971 now towers over the Railway Museum parking lot—the return route's perfect echo of Samuel Wilson's grave.",
+      "why_go": "The bookend is the magic: Day 2 meets the real Uncle Sam; Day 10 meets America's enormous carnival version. Viki gets the shot and everyone gets the joke.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Best for viki and sheluvspaco: The bookend is the magic: Day 2 meets the real Uncle Sam; Day 10 meets America's enormous carnival version. Viki gets the shot and everyone gets the joke.",
+      "categories": [
+        "unusual_creative",
+        "architecture_nature_photogenic",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 35,
+      "source_ids": [
+        "src-uncle-sam"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "verified-exterior-only",
+        "note": "The Railway Museum is closed Tuesday; this is strictly an exterior parking-lot statue visit during safe daylight. No indoor or rail-yard access is promised."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "World's Tallest Uncle Sam Statue, Danbury Railway Museum, 120 White Street, Danbury, Connecticut",
+      "country": "US",
+      "coordinates": [
+        -73.4500683,
+        41.3979253
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-uncle-sam-danbury-1",
+        "img-uncle-sam-danbury-2",
+        "img-uncle-sam-danbury-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "danbury-fair-carousel",
+      "name": "Danbury Fair Double-Decker Carousel",
+      "kind": "mall-carousel-and-retail-reset",
+      "city": "Danbury",
+      "state": "CT",
+      "visit_date": "2026-10-13",
+      "summary": "An Italian-style double-decker carousel inside the mall keeps the vanished Great Danbury Fair's carnival energy alive beside a large modern retail mix.",
+      "why_go": "Viki gets one practical fashion-shopping window and a playful photograph while the others get a brief fair-history callback without adding road miles.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Best for viki and sheluvspaco: Viki gets one practical fashion-shopping window and a playful photograph while the others get a brief fair-history callback without adding road miles.",
+      "categories": [
+        "shopping_outlets",
+        "unusual_creative",
+        "social_nightlife_live"
+      ],
+      "duration_minutes": 100,
+      "source_ids": [
+        "src-danbury-fair"
+      ],
+      "reservation": "same-day-operator-check",
+      "hours": {
+        "opens": "10:00",
+        "closes": "20:00",
+        "status": "verified-current",
+        "note": "Tuesday mall hours. The mall lists carousel service, but the independent ride's exact operating hours and price must be confirmed same day."
+      },
+      "cost": {
+        "amount_per_person": 3,
+        "status": "verified-current",
+        "note": "Planning estimate for one ride; shopping is personal and excluded."
+      },
+      "priority": "replacement",
+      "replacement_reason": "An indoor carnival-and-shopping substitute in rain; it replaces the statue rather than stacking with it.",
+      "replacement": {
+        "day": 10,
+        "replaces_place_ids": [
+          "uncle-sam-danbury"
+        ],
+        "route_variant_id": "replacement-d10-danbury-carousel",
+        "reason": "An indoor carnival-and-shopping substitute in rain; it replaces the statue rather than stacking with it.",
+        "route_variant": {
+          "id": "replacement-d10-danbury-carousel",
+          "day": 10,
+          "replacement_place_id": "danbury-fair-carousel",
+          "replaces_place_ids": [
+            "uncle-sam-danbury"
+          ],
+          "nodes": [
+            "allentown-parkway-lodging",
+            "danbury-fair-carousel",
+            "danbury-mall-lodging"
+          ],
+          "node_sequence": [
+            "allentown-parkway-lodging",
+            "danbury-fair-carousel",
+            "danbury-mall-lodging"
+          ],
+          "baseline_total_miles": 152.6,
+          "baseline_total_minutes": 198,
+          "delta_miles": -1.8,
+          "delta_minutes": -3,
+          "cap_minutes": 210,
+          "cap_status": "passes-baseline-cap",
+          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+          "non_driving_travel_minutes": 0,
+          "total_travel_minutes_excluding_queues": 198,
+          "legs": [
+            {
+              "id": "replacement-d10-danbury-carousel-leg-1",
+              "from": "allentown-parkway-lodging",
+              "to": "danbury-fair-carousel",
+              "mode": "driving",
+              "distance_miles": 152.4,
+              "baseline_minutes": 197,
+              "display_duration_minutes": 197,
+              "counts_toward_drive_cap": true
+            },
+            {
+              "id": "replacement-d10-danbury-carousel-leg-2",
+              "from": "danbury-fair-carousel",
+              "to": "danbury-mall-lodging",
+              "mode": "driving",
+              "distance_miles": 0.2,
+              "baseline_minutes": 1,
+              "display_duration_minutes": 1,
+              "counts_toward_drive_cap": true
+            }
+          ],
+          "geometry": {
+            "type": "MultiLineString",
+            "coordinates": [
+              [
+                [
+                  -75.491101,
+                  40.550994
+                ],
+                [
+                  -75.48317,
+                  40.563937
+                ],
+                [
+                  -75.429213,
+                  40.554795
+                ],
+                [
+                  -75.38147,
+                  40.586843
+                ],
+                [
+                  -75.302964,
+                  40.604855
+                ],
+                [
+                  -75.231325,
+                  40.666878
+                ],
+                [
+                  -75.19257,
+                  40.676676
+                ],
+                [
+                  -75.180516,
+                  40.674763
+                ],
+                [
+                  -75.162364,
+                  40.650479
+                ],
+                [
+                  -75.13597,
+                  40.66925
+                ],
+                [
+                  -75.111959,
+                  40.672144
+                ],
+                [
+                  -75.06658,
+                  40.659245
+                ],
+                [
+                  -75.046646,
+                  40.661514
+                ],
+                [
+                  -75.034203,
+                  40.651143
+                ],
+                [
+                  -74.974761,
+                  40.63542
+                ],
+                [
+                  -74.918294,
+                  40.631197
+                ],
+                [
+                  -74.783025,
+                  40.651718
+                ],
+                [
+                  -74.684157,
+                  40.642697
+                ],
+                [
+                  -74.501441,
+                  40.646813
+                ],
+                [
+                  -74.421207,
+                  40.663003
+                ],
+                [
+                  -74.36933,
+                  40.696621
+                ],
+                [
+                  -74.326939,
+                  40.710965
+                ],
+                [
+                  -74.280003,
+                  40.713915
+                ],
+                [
+                  -74.240621,
+                  40.704919
+                ],
+                [
+                  -74.213269,
+                  40.71638
+                ],
+                [
+                  -74.151596,
+                  40.705483
+                ],
+                [
+                  -74.134832,
+                  40.716993
+                ],
+                [
+                  -74.09546,
+                  40.78265
+                ],
+                [
+                  -74.037024,
+                  40.820895
+                ],
+                [
+                  -74.016562,
+                  40.845111
+                ],
+                [
+                  -73.995832,
+                  40.841738
+                ],
+                [
+                  -73.977499,
+                  40.858415
+                ],
+                [
+                  -73.925547,
+                  40.844422
+                ],
+                [
+                  -73.856401,
+                  40.929965
+                ],
+                [
+                  -73.816015,
+                  40.922655
+                ],
+                [
+                  -73.79685,
+                  40.958529
+                ],
+                [
+                  -73.750168,
+                  40.977751
+                ],
+                [
+                  -73.721097,
+                  41.003912
+                ],
+                [
+                  -73.715217,
+                  41.019611
+                ],
+                [
+                  -73.728451,
+                  41.057123
+                ],
+                [
+                  -73.688933,
+                  41.157199
+                ],
+                [
+                  -73.685032,
+                  41.219299
+                ],
+                [
+                  -73.672643,
+                  41.247337
+                ],
+                [
+                  -73.685872,
+                  41.26973
+                ],
+                [
+                  -73.654019,
+                  41.343781
+                ],
+                [
+                  -73.595217,
+                  41.388428
+                ],
+                [
+                  -73.577262,
+                  41.382849
+                ],
+                [
+                  -73.528427,
+                  41.392681
+                ],
+                [
+                  -73.477302,
+                  41.384051
+                ],
+                [
+                  -73.480999,
+                  41.379196
+                ]
+              ],
+              [
+                [
+                  -73.480999,
+                  41.379196
+                ],
+                [
+                  -73.480679,
+                  41.378784
+                ],
+                [
+                  -73.480529,
+                  41.378707
+                ],
+                [
+                  -73.480288,
+                  41.378652
+                ],
+                [
+                  -73.480128,
+                  41.378675
+                ],
+                [
+                  -73.479597,
+                  41.37891
+                ],
+                [
+                  -73.479298,
+                  41.379305
+                ],
+                [
+                  -73.479278,
+                  41.379436
+                ],
+                [
+                  -73.479626,
+                  41.379951
+                ],
+                [
+                  -73.479884,
+                  41.37987
+                ],
+                [
+                  -73.479997,
+                  41.379958
+                ]
+              ]
+            ]
+          },
+          "routing_source": [
+            "https://router.project-osrm.org/route/v1/driving/-75.491,40.551;-73.4807429,41.3793031?overview=simplified&geometries=geojson&steps=false",
+            "https://router.project-osrm.org/route/v1/driving/-73.4807429,41.3793031;-73.48,41.38?overview=simplified&geometries=geojson&steps=false"
+          ]
+        }
+      },
+      "address": "Double-Decker Carousel, Danbury Fair, 7 Backus Avenue, Danbury, Connecticut",
+      "country": "US",
+      "coordinates": [
+        -73.4807429,
+        41.3793031
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-danbury-fair-carousel-1",
+        "img-danbury-fair-carousel-2",
+        "img-danbury-fair-carousel-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete"
+    },
+    {
+      "id": "mit-museum",
+      "name": "MIT Museum",
+      "kind": "invention-and-kinetic-science-museum",
+      "city": "Cambridge",
+      "state": "MA",
+      "visit_date": "2026-10-14",
+      "summary": "Kinetic sculptures, holography, architecture, artificial intelligence and Doc Edgerton's frozen instants turn MIT research into objects that move, flicker and surprise.",
+      "why_go": "It closes the mechanical-dreams thread after both cars are safely returned: Viki gets visual wonder, Gora gets applied science and nobody has to park in Cambridge.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Best for gora and viki: It closes the mechanical-dreams thread after both cars are safely returned: Viki gets visual wonder, Gora gets applied science and nobody has to park in Cambridge.",
+      "categories": [
+        "unusual_creative",
+        "hidden_history_folklore",
+        "architecture_nature_photogenic"
+      ],
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-mit",
+        "src-mit-arts"
+      ],
+      "reservation": "reserve-recommended",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Open daily 10:00-17:00. Visit only after both rental cars are returned; use MBTA/rideshare and protect the airport-hotel night."
+      },
+      "cost": {
+        "amount_per_person": 20,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "MIT Museum, 314 Main Street, Cambridge, Massachusetts",
+      "country": "US",
+      "coordinates": [
+        -71.0864154,
+        42.3619754
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-mit-museum-1",
+        "img-mit-museum-2",
+        "img-mit-museum-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "harvard-art",
+      "name": "Harvard Art Museums",
+      "kind": "free-art-and-conservation-courtyard",
+      "city": "Cambridge",
+      "state": "MA",
+      "visit_date": "2026-10-14",
+      "summary": "More than fifty galleries rise around Renzo Piano's light-filled Calderwood Courtyard, with visible conservation spaces and sacred, ancient and modern art under one roof.",
+      "why_go": "It is the softer free finale when the group wants beauty and space instead of one more technology collection, with especially strong fits for Viki and Stivka.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and stivka: It is the softer free finale when the group wants beauty and space instead of one more technology collection, with especially strong fits for Viki and Stivka.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "quiet_reset",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 135,
+      "source_ids": [
+        "src-harvard"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Open Tuesday-Sunday and free. Weekend registration advice does not apply Wednesday, but check select-date closures before travel."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "replacement",
+      "replacement_reason": "An equal-drive post-car-return finale emphasizing architecture, icons and quiet rather than machines.",
+      "replacement": {
+        "day": 11,
+        "replaces_place_ids": [
+          "mit-museum"
+        ],
+        "route_variant_id": "replacement-d11-harvard-art",
+        "reason": "An equal-drive post-car-return finale emphasizing architecture, icons and quiet rather than machines.",
+        "route_variant": {
+          "id": "replacement-d11-harvard-art",
+          "day": 11,
+          "replacement_place_id": "harvard-art",
+          "replaces_place_ids": [
+            "mit-museum"
+          ],
+          "unchanged_drive": true,
+          "node_sequence": [],
+          "baseline_total_miles": 161.2,
+          "baseline_total_minutes": 203,
+          "delta_miles": 0,
+          "delta_minutes": 0,
+          "cap_minutes": 210,
+          "cap_status": "passes-baseline-cap",
+          "routing_note": "Parked-city replacement; bed-to-bed driving is unchanged.",
+          "legs": [],
+          "geometry": null
+        }
+      },
+      "address": "Harvard Art Museums, 32 Quincy Street, Cambridge, Massachusetts",
+      "country": "US",
+      "coordinates": [
+        -71.114113,
+        42.3740988
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-harvard-art-1",
+        "img-harvard-art-2",
+        "img-harvard-art-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete"
+    }
+  ]
+}

@@ -1,0 +1,1754 @@
+{
+  "schema_version": "1.0.0",
+  "route_id": "route-10",
+  "places": [
+    {
+      "id": "new-england-motorcycle",
+      "name": "New England Motorcycle Museum in the Hockanum Mill",
+      "kind": "motorcycles-inside-a-revived-textile-mill",
+      "city": "Rockville",
+      "state": "CT",
+      "visit_date": "2026-10-04",
+      "summary": "More than 25 motorcycle brands fill a rescued 205-year-old textile mill. The old factory now feels alive again.",
+      "why_go": "Gora gets machines and restoration. Viki gets a dramatic factory building. It is a lively first stop after Boston.",
+      "best_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "viki",
+        "stivka"
+      ],
+      "best_fit_note": "Best for gora and sheluvspaco: Gora gets machines and restoration. Viki gets a dramatic factory building. It is a lively first stop after Boston.",
+      "categories": [
+        "unusual_creative",
+        "hidden_history_folklore",
+        "architecture_nature_photogenic"
+      ],
+      "duration_minutes": 60,
+      "source_ids": [
+        "src-nemm",
+        "src-nemm-price"
+      ],
+      "reservation": "same-day-hours-check",
+      "hours": {
+        "opens": "10:00",
+        "closes": "15:00",
+        "status": "verified-current",
+        "note": "Sunday hours are short. Leave Logan by about 12:10 and treat 14:00 as the latest responsible arrival; holiday hours must still be checked."
+      },
+      "cost": {
+        "amount_per_person": 10,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "anchor",
+      "address": "New England Motorcycle Museum, 200 West Main Street, Rockville, Connecticut",
+      "country": "US",
+      "coordinates": [
+        -72.46101,
+        41.86573
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-new-england-motorcycle-1",
+        "img-new-england-motorcycle-2",
+        "img-new-england-motorcycle-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "hill-stead",
+      "name": "Hill-Stead Museum, Sunken Garden & Theodate Pope Riddle House",
+      "kind": "woman-designed-country-house-and-art",
+      "city": "Farmington",
+      "state": "CT",
+      "visit_date": "2026-10-04",
+      "summary": "One of America's first licensed women architects designed this quiet country house. It holds Impressionist art and a sunken garden.",
+      "why_go": "Viki gets architecture and garden photos. Stivka gets a calm walk. The house has a strong story about women in design.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and stivka: Viki gets architecture and garden photos. Stivka gets a calm walk. The house has a strong story about women in design.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "quiet_reset"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-hillstead",
+        "src-hillstead-about"
+      ],
+      "reservation": "reserve",
+      "hours": {
+        "opens": "10:00",
+        "closes": "16:00",
+        "status": "verified-current",
+        "note": "House is guided only; last tour starts 15:00. Reserve a 14:00 or 14:30 tour and use the free grounds only if Boston pickup runs late."
+      },
+      "cost": {
+        "amount_per_person": 20,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "supporting",
+      "address": "Hill-Stead Museum, 35 Mountain Road, Farmington, Connecticut",
+      "country": "US",
+      "coordinates": [
+        -72.8202697,
+        41.721928
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-hill-stead-1",
+        "img-hill-stead-2",
+        "img-hill-stead-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "baps-akshardham",
+      "name": "BAPS Swaminarayan Akshardham",
+      "kind": "monumental-living-hindu-sacred-complex",
+      "city": "Robbinsville",
+      "state": "NJ",
+      "visit_date": "2026-10-05",
+      "summary": "Thousands of carved stone details cover this large Hindu temple. It is an active place of worship, so visitors enter with care.",
+      "why_go": "Stivka gets a respectful look at another faith. Viki gets remarkable architecture. Everyone sees how devotion can shape a building.",
+      "best_for": [
+        "stivka",
+        "viki"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for stivka and viki: Stivka gets a respectful look at another faith. Viki gets remarkable architecture. Everyone sees how devotion can shape a building.",
+      "categories": [
+        "orthodox_spiritual",
+        "architecture_nature_photogenic",
+        "local_culture",
+        "unusual_creative"
+      ],
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-baps"
+      ],
+      "reservation": "tour-reservation-recommended",
+      "hours": {
+        "opens": "09:00",
+        "closes": "19:30",
+        "status": "verified-current",
+        "note": "Open Monday. Guided tours for fewer than fifteen run hourly 10:00-17:00 subject to availability. Cover shoulders and knees, remove shoes, silence phones, and do not plan commercial photography or outside food."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "anchor",
+      "address": "BAPS Swaminarayan Akshardham, 112 North Main Street, Robbinsville, New Jersey",
+      "country": "US",
+      "coordinates": [
+        -74.5797529,
+        40.2536907
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-baps-akshardham-1",
+        "img-baps-akshardham-2",
+        "img-baps-akshardham-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "sayen-gardens",
+      "name": "Sayen House & Gardens",
+      "kind": "free-woodland-garden-and-historic-house-setting",
+      "city": "Hamilton",
+      "state": "NJ",
+      "visit_date": "2026-10-05",
+      "summary": "Wooded paths pass ponds, streams, bridges, and the 1912 Sayen house. The gardens are free and easy to explore.",
+      "why_go": "Viki gets colorful garden photos. Stivka gets a peaceful break. It adds a soft nature stop after the large temple.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "gora"
+      ],
+      "best_fit_note": "Best for viki and stivka: Viki gets colorful garden photos. Stivka gets a peaceful break. It adds a soft nature stop after the large temple.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "quiet_reset",
+        "local_culture"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-sayen"
+      ],
+      "reservation": "weather-check",
+      "hours": {
+        "opens": "dawn",
+        "closes": "dusk",
+        "status": "verified-current",
+        "note": "Gardens are free and open daily. The house may be closed for private events; the public experience is the garden, not promised interior access."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "supporting",
+      "address": "Sayen House and Gardens, 155 Hughes Drive, Hamilton, New Jersey",
+      "country": "US",
+      "coordinates": [
+        -74.6585056,
+        40.2369418
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-sayen-gardens-1",
+        "img-sayen-gardens-2",
+        "img-sayen-gardens-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "hagley",
+      "name": "Hagley Powder Yards, Waterpower & Eleutherian Mills",
+      "kind": "working-industrial-landscape",
+      "city": "Wilmington",
+      "state": "DE",
+      "visit_date": "2026-10-06",
+      "summary": "Old powder mills, water wheels, and workshops line the Brandywine River. They show how the DuPont business first grew.",
+      "why_go": "Gora gets working machines and industrial history. Viki gets stone buildings beside the river. The story joins invention, danger, and wealth.",
+      "best_for": [
+        "gora"
+      ],
+      "secondary_for": [
+        "viki",
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for gora: Gora gets working machines and industrial history. Viki gets stone buildings beside the river. The story joins invention, danger, and wealth.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_nature_photogenic",
+        "unusual_creative"
+      ],
+      "duration_minutes": 165,
+      "source_ids": [
+        "src-hagley-hours",
+        "src-hagley-visit"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Open Tuesday and closed Wednesday. Arrive before 11:00, prioritize the powder yard and one live demonstration, and leave by 13:30 for Baltimore."
+      },
+      "cost": {
+        "amount_per_person": 22,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "anchor",
+      "address": "Hagley Museum Visitor Center, 200 Hagley Creek Road, Wilmington, Delaware",
+      "country": "US",
+      "coordinates": [
+        -75.6611,
+        39.7756
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-hagley-1",
+        "img-hagley-2",
+        "img-hagley-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "winterthur",
+      "name": "Winterthur House, Galleries & Garden Tram",
+      "kind": "american-decorative-arts-estate",
+      "city": "Winterthur",
+      "state": "DE",
+      "visit_date": "2026-10-06",
+      "summary": "Winterthur is a large country estate filled with American rooms and decorative art. A garden tram makes the grounds easier to see.",
+      "why_go": "Viki gets rich interiors and gardens. Gora gets objects that show taste and power. It gives the day a beautiful contrast to Hagley.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and gora: Viki gets rich interiors and gardens. Gora gets objects that show taste and power. It gives the day a beautiful contrast to Hagley.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "quiet_reset"
+      ],
+      "duration_minutes": 165,
+      "source_ids": [
+        "src-winterthur-hours",
+        "src-winterthur-price"
+      ],
+      "reservation": "reserve-recommended",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Open Tuesday. Choose one house experience plus the tram and one garden sector; the general ticket is valid two days, but this route uses only Tuesday."
+      },
+      "cost": {
+        "amount_per_person": 29,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "supporting",
+      "address": "Winterthur Museum Garden and Library, 5105 Kennett Pike, Winterthur, Delaware",
+      "country": "US",
+      "coordinates": [
+        -75.603,
+        39.806
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-winterthur-1",
+        "img-winterthur-2",
+        "img-winterthur-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "marine-corps-museum",
+      "name": "National Museum of the Marine Corps",
+      "kind": "immersive-military-history-museum",
+      "city": "Triangle",
+      "state": "VA",
+      "visit_date": "2026-10-07",
+      "summary": "Aircraft, vehicles, and rebuilt scenes tell the history of the Marine Corps. The sharp glass building is also part of the experience.",
+      "why_go": "Gora gets important history and military machines. Viki gets bold modern architecture. The group can compare the museum's view with other sources.",
+      "best_for": [
+        "gora"
+      ],
+      "secondary_for": [
+        "viki",
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for gora: Gora gets important history and military machines. Viki gets bold modern architecture. The group can compare the museum's view with other sources.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_nature_photogenic",
+        "unusual_creative"
+      ],
+      "duration_minutes": 210,
+      "source_ids": [
+        "src-marine-hours",
+        "src-marine-plan"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "09:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Open daily and free. Allow 3-3.5 hours, choose conflicts rather than attempting every label, and read the museum as a Marine Corps institution with a defined point of view."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "anchor",
+      "address": "National Museum of the Marine Corps, 1775 Semper Fidelis Way, Triangle, Virginia",
+      "country": "US",
+      "coordinates": [
+        -77.3437206,
+        38.5442473
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-marine-corps-museum-1",
+        "img-marine-corps-museum-2",
+        "img-marine-corps-museum-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "government-island",
+      "name": "Government Island Aquia Sandstone Quarry & Boardwalk",
+      "kind": "birthstone-of-washington-architecture",
+      "city": "Stafford",
+      "state": "VA",
+      "visit_date": "2026-10-07",
+      "summary": "A boardwalk leads to the quarry that supplied stone for the White House and early Capitol. Tool marks remain in the rock.",
+      "why_go": "Gora gets labor and building history. Viki gets water and stone photos. Stivka gets a quiet outdoor walk after the museum.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for gora and viki: Gora gets labor and building history. Viki gets water and stone photos. Stivka gets a quiet outdoor walk after the museum.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_nature_photogenic",
+        "quiet_reset"
+      ],
+      "duration_minutes": 105,
+      "source_ids": [
+        "src-government-island",
+        "src-government-dhr"
+      ],
+      "reservation": "weather-check",
+      "hours": {
+        "opens": "08:00",
+        "closes": "20:00",
+        "status": "verified-current",
+        "note": "October daily hours. Trail is 1.5 miles with a paved approach, boardwalk and then dirt; skip the dirt loop if wet while keeping the quarry interpretation."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "supporting",
+      "address": "Government Island, 191 Coal Landing Road, Stafford, Virginia",
+      "country": "US",
+      "coordinates": [
+        -77.3884169,
+        38.4468077
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-government-island-1",
+        "img-government-island-2",
+        "img-government-island-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "agecroft-hall",
+      "name": "Agecroft Hall & James River Garden",
+      "kind": "sixteenth-century-english-house-reassembled-in-virginia",
+      "city": "Richmond",
+      "state": "VA",
+      "visit_date": "2026-10-08",
+      "summary": "This real Tudor house was taken apart in England and rebuilt above the James River. Its move is stranger than its rooms.",
+      "why_go": "Viki gets a surprising old building. Gora gets questions about money and authenticity. Stivka gets formal gardens and river views.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and gora: Viki gets a surprising old building. Gora gets questions about money and authenticity. Stivka gets formal gardens and river views.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "unusual_creative"
+      ],
+      "duration_minutes": 135,
+      "source_ids": [
+        "src-agecroft"
+      ],
+      "reservation": "reserve-recommended",
+      "hours": {
+        "opens": "12:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Open Thursday. Reserve the first house tour and walk only the compact formal gardens before the near-cap drive to Danville."
+      },
+      "cost": {
+        "amount_per_person": 12,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "anchor",
+      "address": "Agecroft Hall, 4305 Sulgrave Road, Richmond, Virginia",
+      "country": "US",
+      "coordinates": [
+        -77.5050627,
+        37.5530525
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-agecroft-hall-1",
+        "img-agecroft-hall-2",
+        "img-agecroft-hall-3",
+        "img-agecroft-hall-4"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "lewis-ginter",
+      "name": "Lewis Ginter Conservatory & Botanical Garden",
+      "kind": "glasshouse-and-designed-garden",
+      "city": "Richmond",
+      "state": "VA",
+      "visit_date": "2026-10-08",
+      "summary": "A glass conservatory, water garden, and themed paths make this a colorful nature stop. The visit still works when the weather changes.",
+      "why_go": "Viki gets glass, plants, and color. Stivka gets a calm garden. The group can shorten the walk without losing the main experience.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "gora"
+      ],
+      "best_fit_note": "Best for viki and stivka: Viki gets glass, plants, and color. Stivka gets a calm garden. The group can shorten the walk without losing the main experience.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "quiet_reset",
+        "unusual_creative"
+      ],
+      "duration_minutes": 135,
+      "source_ids": [
+        "src-lewis-ginter"
+      ],
+      "reservation": "reserve-recommended",
+      "hours": {
+        "opens": "09:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Open daily. Enter at opening, prioritize the conservatory and one outdoor circuit, and depart on time because the replacement baseline is 209 minutes."
+      },
+      "cost": {
+        "amount_per_person": 24,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "supporting",
+      "address": "Lewis Ginter Botanical Garden, 1800 Lakeside Avenue, Richmond, Virginia",
+      "country": "US",
+      "coordinates": [
+        -77.47075,
+        37.6199722
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-lewis-ginter-1",
+        "img-lewis-ginter-2",
+        "img-lewis-ginter-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "taubman-art",
+      "name": "Taubman Museum of Art",
+      "kind": "sculptural-building-and-free-american-art",
+      "city": "Roanoke",
+      "state": "VA",
+      "visit_date": "2026-10-09",
+      "summary": "A sharp zinc-and-glass building holds free American and modern art. Its roofline copies the shapes of the Blue Ridge Mountains.",
+      "why_go": "Viki gets both art and architecture. Gora gets changing views of American life. Free entry makes a short focused visit easy.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Best for viki and gora: Viki gets both art and architecture. Gora gets changing views of American life. Free entry makes a short focused visit easy.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "unusual_creative",
+        "quiet_reset"
+      ],
+      "duration_minutes": 135,
+      "source_ids": [
+        "src-taubman"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Open Friday with free general admission. Check the 2026 exhibition calendar and pair permanent highlights with only one temporary show."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "anchor",
+      "address": "Taubman Museum of Art, 110 Salem Avenue Southeast, Roanoke, Virginia",
+      "country": "US",
+      "coordinates": [
+        -79.9419,
+        37.2731
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-taubman-art-1",
+        "img-taubman-art-2",
+        "img-taubman-art-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "winston-link",
+      "name": "O. Winston Link Night-Trains & Roanoke History Museum",
+      "kind": "staged-night-photography-and-railroad-memory",
+      "city": "Roanoke",
+      "state": "VA",
+      "visit_date": "2026-10-09",
+      "summary": "Carefully staged night photos show steam trains racing past cinemas, homes, and swimming pools. Train sounds bring the pictures to life.",
+      "why_go": "Viki gets clever night photography. Gora gets the final years of steam power. The old passenger station makes the story feel local.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and gora: Viki gets clever night photography. Gora gets the final years of steam power. The old passenger station makes the story feel local.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "local_culture"
+      ],
+      "duration_minutes": 105,
+      "source_ids": [
+        "src-link-visit",
+        "src-link-collection"
+      ],
+      "reservation": "call-week-before",
+      "hours": {
+        "opens": "10:00",
+        "closes": "16:30",
+        "status": "verified-current",
+        "note": "Open Friday. Call before travel to confirm how much of the Link collection is installed after recent gallery changes; the adjoining history galleries share admission."
+      },
+      "cost": {
+        "amount_per_person": 6,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "supporting",
+      "address": "O Winston Link Museum, 101 Shenandoah Avenue Northeast, Roanoke, Virginia",
+      "country": "US",
+      "coordinates": [
+        -79.9442,
+        37.2745
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-winston-link-1",
+        "img-winston-link-2",
+        "img-winston-link-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "roanoke-star",
+      "name": "Mill Mountain Roanoke Star & Blue Ridge Overlook",
+      "kind": "drive-up-neon-mountain-overlook",
+      "city": "Roanoke",
+      "state": "VA",
+      "visit_date": "2026-10-09",
+      "summary": "A giant neon star stands above Roanoke with wide views of the city and mountains. It began as a 1949 shopping display.",
+      "why_go": "Viki gets the sunset view. Paco gets a simple shared reveal. Nobody needs a long hike after the drive.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "stivka",
+        "gora"
+      ],
+      "best_fit_note": "Best for viki and sheluvspaco: Viki gets the sunset view. Paco gets a simple shared reveal. Nobody needs a long hike after the drive.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "local_culture",
+        "quiet_reset"
+      ],
+      "duration_minutes": 60,
+      "source_ids": [
+        "src-star"
+      ],
+      "reservation": "weather-check",
+      "hours": {
+        "opens": "dawn",
+        "closes": "23:00",
+        "status": "verified-current",
+        "note": "Use the paved overlook near sunset; do not add a long trail. Fog or rain turns this into an automatic cut, not a reason to wait in the car."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "supporting",
+      "address": "Roanoke Star, 2000 J B Fishburn Parkway, Roanoke, Virginia",
+      "country": "US",
+      "coordinates": [
+        -79.978,
+        37.2705
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-roanoke-star-1",
+        "img-roanoke-star-2",
+        "img-roanoke-star-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "virginia-transportation",
+      "name": "Virginia Museum of Transportation & Outdoor Railyard",
+      "kind": "giant-machines-in-a-century-old-freight-station",
+      "city": "Roanoke",
+      "state": "VA",
+      "visit_date": "2026-10-10",
+      "summary": "Huge steam and diesel engines fill an old freight station and outdoor rail yard. Visitors can get close to famous locomotives.",
+      "why_go": "This is Gora's biggest machine stop. The scale can impress everyone. It also explains why the railway made Roanoke grow.",
+      "best_for": [
+        "gora"
+      ],
+      "secondary_for": [
+        "viki",
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Best for gora: This is Gora's biggest machine stop. The scale can impress everyone. It also explains why the railway made Roanoke grow.",
+      "categories": [
+        "unusual_creative",
+        "hidden_history_folklore",
+        "architecture_nature_photogenic"
+      ],
+      "duration_minutes": 165,
+      "source_ids": [
+        "src-vmt"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Open Saturday. Start at opening, use the railyard before crowds and weather, and leave by 13:00 for Mount Crawford."
+      },
+      "cost": {
+        "amount_per_person": 15,
+        "status": "price-reconfirm",
+        "note": "Planning allowance; current checkout pricing should be reconfirmed."
+      },
+      "priority": "anchor",
+      "address": "Virginia Museum of Transportation, 303 Norfolk Avenue Southwest, Roanoke, Virginia",
+      "country": "US",
+      "coordinates": [
+        -79.9463,
+        37.2739
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-virginia-transportation-1",
+        "img-virginia-transportation-2",
+        "img-virginia-transportation-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "roanoke-pinball",
+      "name": "Roanoke Pinball Museum",
+      "kind": "playable-century-of-pinball",
+      "city": "Roanoke",
+      "state": "VA",
+      "visit_date": "2026-10-10",
+      "summary": "About 75 pinball machines from 1932 to today are ready to play. One ticket turns the museum into a group competition.",
+      "why_go": "Paco gets group energy. Gora gets moving mechanisms. Viki gets bright pop art. It adds play after the serious railway museum.",
+      "best_for": [
+        "sheluvspaco",
+        "gora"
+      ],
+      "secondary_for": [
+        "viki",
+        "stivka"
+      ],
+      "best_fit_note": "Best for sheluvspaco and gora: Paco gets group energy. Gora gets moving mechanisms. Viki gets bright pop art. It adds play after the serious railway museum.",
+      "categories": [
+        "social_nightlife_live",
+        "unusual_creative",
+        "athletic_adrenaline"
+      ],
+      "duration_minutes": 120,
+      "source_ids": [
+        "src-pinball",
+        "src-pinball-about"
+      ],
+      "reservation": "same-day-hours-check",
+      "hours": {
+        "opens": "11:00",
+        "closes": "20:00",
+        "status": "verified-current",
+        "note": "Saturday hours shown on the official site; call the box office because private events can close early. Leave by 13:00 despite all-day admission."
+      },
+      "cost": {
+        "amount_per_person": 15,
+        "status": "price-reconfirm",
+        "note": "Official ticket checkout is dynamic; use $15 as a planning figure and reconfirm."
+      },
+      "priority": "supporting",
+      "address": "Roanoke Pinball Museum, 1 Market Square Southeast, Roanoke, Virginia",
+      "country": "US",
+      "coordinates": [
+        -79.9415,
+        37.272
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-roanoke-pinball-1",
+        "img-roanoke-pinball-2",
+        "img-roanoke-pinball-3",
+        "img-roanoke-pinball-4"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "holy-myrrhbearers",
+      "name": "Protected Orthodox Sunday at Holy Myrrhbearers",
+      "kind": "canonical-rocor-hours-and-divine-liturgy",
+      "city": "Mount Crawford",
+      "state": "VA",
+      "visit_date": "2026-10-11",
+      "summary": "This small Orthodox parish celebrates Hours and Divine Liturgy in English with some Slavonic. The stop is real worship, not sightseeing.",
+      "why_go": "The service matters deeply to Stivka and belongs to all four Orthodox travelers. The small parish offers warm community during the trip.",
+      "best_for": [
+        "stivka"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "viki",
+        "gora"
+      ],
+      "best_fit_note": "Best for stivka: The service matters deeply to Stivka and belongs to all four Orthodox travelers. The small parish offers warm community during the trip.",
+      "categories": [
+        "orthodox_spiritual",
+        "quiet_reset",
+        "local_culture"
+      ],
+      "duration_minutes": 165,
+      "source_ids": [
+        "src-myrrh",
+        "src-myrrh-directory"
+      ],
+      "reservation": "parish-confirm",
+      "hours": {
+        "opens": "09:45",
+        "closes": "12:30",
+        "status": "verified-current",
+        "note": "Weekly Hours and Liturgy begin 09:45. Contact the parish before travel about October 11, visitor etiquette and Communion; worship is never shortened for the road."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Free; make a respectful offering if appropriate."
+      },
+      "priority": "anchor",
+      "address": "Holy Myrrhbearers Orthodox Christian Church, 5004 Cross Keys Road, Mount Crawford, Virginia",
+      "country": "US",
+      "coordinates": [
+        -78.8614606,
+        38.3369477
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-holy-myrrhbearers-1",
+        "img-holy-myrrhbearers-2",
+        "img-holy-myrrhbearers-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "harrisonburg-public-art",
+      "name": "Harrisonburg Public Art & Hidden-History Circuit",
+      "kind": "small-city-murals-sculpture-and-memory",
+      "city": "Harrisonburg",
+      "state": "VA",
+      "visit_date": "2026-10-11",
+      "summary": "A short downtown walk joins murals, sculpture, LOVEworks, and old buildings. The art tells local stories in the open air.",
+      "why_go": "Viki gets color and street photos. Gora gets history outside a formal museum. The walk gently wakes everyone after church.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Best for viki and gora: Viki gets color and street photos. Gora gets history outside a formal museum. The walk gently wakes everyone after church.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "local_culture",
+        "quiet_reset"
+      ],
+      "duration_minutes": 75,
+      "source_ids": [
+        "src-harrisonburg-art"
+      ],
+      "reservation": "weather-check",
+      "hours": {
+        "opens": "dawn",
+        "closes": "dusk",
+        "status": "verified-current",
+        "note": "Outdoor works are public. The visitor center is typically open 09:00-17:00, but the route does not depend on its interior; keep the circuit under one mile."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "anchor",
+      "address": "Hardesty-Higgins House Visitor Center, 212 South Main Street, Harrisonburg, Virginia",
+      "country": "US",
+      "coordinates": [
+        -78.86893,
+        38.44717
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-harrisonburg-public-art-1",
+        "img-harrisonburg-public-art-2",
+        "img-harrisonburg-public-art-3",
+        "img-harrisonburg-public-art-4",
+        "img-harrisonburg-public-art-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "carrier-arboretum",
+      "name": "Edith J. Carrier Arboretum",
+      "kind": "free-valley-arboretum-and-pond",
+      "city": "Harrisonburg",
+      "state": "VA",
+      "visit_date": "2026-10-11",
+      "summary": "A free university garden surrounds a pond with woods, native plants, and meadow. The route uses a short and easy loop.",
+      "why_go": "Stivka gets quiet after church. Viki gets autumn reflections. Paco gets a free reset before the long drive north.",
+      "best_for": [
+        "stivka",
+        "viki"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "gora"
+      ],
+      "best_fit_note": "Best for stivka and viki: Stivka gets quiet after church. Viki gets autumn reflections. Paco gets a free reset before the long drive north.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "quiet_reset"
+      ],
+      "duration_minutes": 75,
+      "source_ids": [
+        "src-carrier"
+      ],
+      "reservation": "weather-check",
+      "hours": {
+        "opens": "dawn",
+        "closes": "dusk",
+        "status": "verified-current",
+        "note": "Grounds are free daily. Use the signed visitor lots and a one-mile pond-and-woodland circuit; construction or rain makes the public-art core the better choice."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "supporting",
+      "address": "Edith J Carrier Arboretum, 780 University Boulevard, Harrisonburg, Virginia",
+      "country": "US",
+      "coordinates": [
+        -78.8647272,
+        38.4288286
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-carrier-arboretum-1",
+        "img-carrier-arboretum-2",
+        "img-carrier-arboretum-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "aaca-museum",
+      "name": "America's Transportation Experience at the AACA Museum",
+      "kind": "cars-buses-and-industrial-design",
+      "city": "Hershey",
+      "state": "PA",
+      "visit_date": "2026-10-12",
+      "summary": "Classic cars, buses, and rare Tucker vehicles show how transport design changed. The museum feels broader than a car showroom.",
+      "why_go": "Gora gets engineering. Viki gets shape and color. The group can focus on Tucker cars, buses, and one changing display.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Best for gora and viki: Gora gets engineering. Viki gets shape and color. The group can focus on Tucker cars, buses, and one changing display.",
+      "categories": [
+        "unusual_creative",
+        "hidden_history_folklore",
+        "architecture_nature_photogenic"
+      ],
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-aaca"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "09:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Open daily and not closed for the October 12 holiday. Enter around 10:00 and choose Tucker, buses and one changing exhibit rather than every vehicle."
+      },
+      "cost": {
+        "amount_per_person": 18,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "anchor",
+      "address": "AACA Museum, 161 Museum Drive, Hershey, Pennsylvania",
+      "country": "US",
+      "coordinates": [
+        -76.6901211,
+        40.2981546
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-aaca-museum-1",
+        "img-aaca-museum-2",
+        "img-aaca-museum-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "civil-war-museum",
+      "name": "National Civil War Museum",
+      "kind": "artifact-led-war-and-aftermath-history",
+      "city": "Harrisburg",
+      "state": "PA",
+      "visit_date": "2026-10-12",
+      "summary": "Hundreds of objects explain the causes, fighting, and results of the Civil War. Some displays include difficult images of injury and death.",
+      "why_go": "Gora gets serious history and original objects. The group gets a human story after many machines. Read every claim with care.",
+      "best_for": [
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for gora: Gora gets serious history and original objects. The group gets a human story after many machines. Read every claim with care.",
+      "categories": [
+        "hidden_history_folklore",
+        "local_culture"
+      ],
+      "duration_minutes": 165,
+      "source_ids": [
+        "src-civilwar"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "The museum posts regular holiday hours and extended Sunday-season hours through October. Follow the content advisory and select galleries rather than forcing a four-hour completion."
+      },
+      "cost": {
+        "amount_per_person": 20,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "supporting",
+      "address": "National Civil War Museum, 1 Lincoln Circle, Harrisburg, Pennsylvania",
+      "country": "US",
+      "coordinates": [
+        -76.8917,
+        40.2726
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-civil-war-museum-1",
+        "img-civil-war-museum-2",
+        "img-civil-war-museum-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "skylands",
+      "name": "Skylands Manor & New Jersey Botanical Garden",
+      "kind": "tudor-revival-estate-and-free-autumn-garden",
+      "city": "Ringwood",
+      "state": "NJ",
+      "visit_date": "2026-10-13",
+      "summary": "A large granite Tudor-style manor stands inside 96 acres of free gardens. On Tuesday, the visit focuses on the outside and grounds.",
+      "why_go": "Viki gets strong architecture and autumn color. Stivka gets quiet paths. The free grounds keep the final road days relaxed.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and stivka: Viki gets strong architecture and autumn color. Stivka gets quiet paths. The free grounds keep the final road days relaxed.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "quiet_reset",
+        "local_culture"
+      ],
+      "duration_minutes": 135,
+      "source_ids": [
+        "src-skylands",
+        "src-skylands-state",
+        "src-forum-nj"
+      ],
+      "reservation": "weather-check",
+      "hours": {
+        "opens": "08:00",
+        "closes": "20:00",
+        "status": "verified-current",
+        "note": "Open Tuesday during Eastern Daylight Time and free. Manor interiors are not promised—tours run only on select Sundays—so the experience is architecture exterior plus gardens."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "anchor",
+      "address": "New Jersey Botanical Garden at Skylands, 2 Morris Road, Ringwood, New Jersey",
+      "country": "US",
+      "coordinates": [
+        -74.23954,
+        41.12695
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-skylands-1",
+        "img-skylands-2",
+        "img-skylands-3",
+        "img-skylands-4"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "pyramid-mountain",
+      "name": "Pyramid Mountain Tripod Rock Hike",
+      "kind": "glacial-erratic-balancing-rock",
+      "city": "Montville",
+      "state": "NJ",
+      "visit_date": "2026-10-13",
+      "summary": "A forest trail leads to giant rocks left by ancient ice. Tripod Rock balances on three smaller stones like a natural table.",
+      "why_go": "Gora gets geology and movement. Viki gets one of the trip's strangest photos. It uses the route's one real hiking slot.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for gora and viki: Gora gets geology and movement. Viki gets one of the trip's strangest photos. It uses the route's one real hiking slot.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "unusual_creative",
+        "athletic_adrenaline"
+      ],
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-pyramid",
+        "src-pyramid-map"
+      ],
+      "reservation": "weather-check",
+      "hours": {
+        "opens": "sunrise",
+        "closes": "sunset",
+        "status": "verified-current",
+        "note": "Use the official Tripod Rock suggested route, download the map offline, stay on blazed trails and cancel for rain or poor footing. No climbing is allowed."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "supporting",
+      "address": "Pyramid Mountain Natural Historic Area, 472 Boonton Avenue, Montville, New Jersey",
+      "country": "US",
+      "coordinates": [
+        -74.399,
+        40.947
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-pyramid-mountain-1",
+        "img-pyramid-mountain-2",
+        "img-pyramid-mountain-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "boston-athenaeum",
+      "name": "Boston Athenaeum Full-Building Day Membership",
+      "kind": "twelve-story-independent-library-and-art",
+      "city": "Boston",
+      "state": "MA",
+      "visit_date": "2026-10-14",
+      "summary": "This quiet private library hides art, rare books, bright reading rooms, and a terrace behind its Beacon Street door.",
+      "why_go": "Viki gets beautiful rooms. Gora gets old books and history. Stivka gets calm after both rental cars are returned.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and stivka: Viki gets beautiful rooms. Gora gets old books and history. Stivka gets calm after both rental cars are returned.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "quiet_reset"
+      ],
+      "duration_minutes": 180,
+      "source_ids": [
+        "src-athenaeum"
+      ],
+      "reservation": "reserve-recommended",
+      "hours": {
+        "opens": "09:00",
+        "closes": "20:00",
+        "status": "verified-current",
+        "note": "Open Wednesday. Buy the $40 day membership for all twelve floors or deliberately choose the $11 first-floor ticket; reserve an architecture tour separately if desired."
+      },
+      "cost": {
+        "amount_per_person": 40,
+        "status": "verified-current",
+        "note": "Full-building one-day membership; first-floor-only admission is $11."
+      },
+      "priority": "anchor",
+      "address": "Boston Athenaeum, 10 1/2 Beacon Street, Boston, Massachusetts",
+      "country": "US",
+      "coordinates": [
+        -71.0620806,
+        42.3579152
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-boston-athenaeum-1",
+        "img-boston-athenaeum-2",
+        "img-boston-athenaeum-3",
+        "img-boston-athenaeum-4",
+        "img-boston-athenaeum-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "waterworks",
+      "name": "Metropolitan Waterworks Museum Great Engines Hall",
+      "kind": "victorian-steam-pumps-and-public-health",
+      "city": "Boston",
+      "state": "MA",
+      "visit_date": "2026-10-14",
+      "summary": "Three steam-powered pumps rise more than three stories inside a grand stone pumping station. They once helped give Boston clean water.",
+      "why_go": "Gora gets giant engineering. Viki gets a cathedral-like machine hall. The free museum creates a powerful final contrast with the library.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for gora and viki: Gora gets giant engineering. Viki gets a cathedral-like machine hall. The free museum creates a powerful final contrast with the library.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "unusual_creative"
+      ],
+      "duration_minutes": 120,
+      "source_ids": [
+        "src-waterworks",
+        "src-waterworks-engines"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "11:00",
+        "closes": "16:00",
+        "status": "verified-current",
+        "note": "Open Wednesday and free. The paid climb-on Special Access Tour is not offered Wednesday, so do not promise engine climbing or basement access."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "supporting",
+      "address": "Metropolitan Waterworks Museum, 2450 Beacon Street, Boston, Massachusetts",
+      "country": "US",
+      "coordinates": [
+        -71.1557672,
+        42.3316114
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_specific-object-point",
+      "image_ids": [
+        "img-waterworks-1",
+        "img-waterworks-2",
+        "img-waterworks-3",
+        "img-waterworks-4"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    }
+  ]
+}

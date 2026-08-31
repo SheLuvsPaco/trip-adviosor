@@ -1,0 +1,738 @@
+{
+  "schema_version": "1.0.0",
+  "route_id": "route-02",
+  "verified_at": "2026-08-21",
+  "sources": [
+    {
+      "id": "src-three-sisters",
+      "publisher": "Three Sisters Sanctuary",
+      "type": "official",
+      "url": "https://threesisterssanctuary.com/three-sisters-sanctuary-covid19/",
+      "supports": [
+        "daily hours",
+        "admission",
+        "eight-acre environmental art garden"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-smith",
+      "publisher": "Smith College Botanic Garden",
+      "type": "official",
+      "url": "https://garden.smith.edu/visit",
+      "supports": [
+        "daily conservatory hours",
+        "free admission",
+        "parking"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-tunnel",
+      "publisher": "The Tunnel Bar",
+      "type": "official",
+      "url": "https://www.thetunnelbar.com/",
+      "supports": [
+        "venue identity"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-tunnel-maps",
+      "publisher": "Apple Maps",
+      "type": "map-review-aggregator",
+      "url": "https://maps.apple.com/place?place-id=I81E5F8B11A6466B8",
+      "supports": [
+        "current hours",
+        "historic train-tunnel context",
+        "review signal"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-mass-moca",
+      "publisher": "MASS MoCA",
+      "type": "official",
+      "url": "https://massmoca.org/visit/",
+      "supports": [
+        "Monday hours",
+        "admission",
+        "advance-ticket guidance"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-mass-moca-exhibitions",
+      "publisher": "MASS MoCA",
+      "type": "official",
+      "url": "https://massmoca.org/long-term-exhibitions/",
+      "supports": [
+        "2026 long-term installations",
+        "James Turrell",
+        "Laurie Anderson",
+        "Sol LeWitt"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-grafton",
+      "publisher": "Grafton Peace Pagoda",
+      "type": "official",
+      "url": "https://www.graftonpeacepagoda.org/contact/",
+      "supports": [
+        "sunrise-to-sunset daily access",
+        "address"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-saratoga",
+      "publisher": "New York State Parks",
+      "type": "government",
+      "url": "https://parks.ny.gov/visit/state-parks/saratoga-spa-state-park",
+      "supports": [
+        "2026 hours",
+        "vehicle fees",
+        "mineral springs"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-saratoga-springs-map",
+      "publisher": "New York State Parks",
+      "type": "government",
+      "url": "https://parks.ny.gov/sites/default/files/SaratogaSpaSpaParkMineralSpringsBrochure.pdf",
+      "supports": [
+        "twelve public mineral-spring locations"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-congress",
+      "publisher": "City of Saratoga Springs",
+      "type": "government",
+      "url": "https://www.saratoga-springs.org/Archive/ViewFile/Item/241",
+      "supports": [
+        "Congress Park mineral-water and sculpture context"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-howe",
+      "publisher": "Howe Caverns",
+      "type": "official",
+      "url": "https://howecaverns.com/",
+      "supports": [
+        "traditional-tour format",
+        "online-ticket requirement",
+        "stairs and boat ride"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-howe-price",
+      "publisher": "Howe Caverns",
+      "type": "official",
+      "url": "https://howecaverns.com/howe-caverns-pricing/",
+      "supports": [
+        "2026 adult price",
+        "90-minute duration"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-iroquois",
+      "publisher": "Iroquois Museum",
+      "type": "official",
+      "url": "https://www.iroquoismuseum.org/",
+      "supports": [
+        "October Tuesday hours",
+        "address",
+        "Haudenosaunee stewardship"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-cooperstown",
+      "publisher": "Destination Marketing Corporation for Otsego County",
+      "type": "official-tourism",
+      "url": "https://www.cooperstownny.org/wp-content/uploads/2025/02/Cooperstown-Brochure-for-web-1-1.pdf",
+      "supports": [
+        "lakefront and Cooperstown context",
+        "Ommegang context"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-ommegang",
+      "publisher": "Brewery Ommegang",
+      "type": "official",
+      "url": "https://www.ommegang.com/tap-room-restaurant/",
+      "supports": [
+        "Tuesday taproom hours",
+        "address",
+        "tours weekend-only"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-fenimore",
+      "publisher": "Fenimore Farm",
+      "type": "official",
+      "url": "https://www.fenimorefarm.org/visit/",
+      "supports": [
+        "October hours",
+        "admission",
+        "site operations"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-fenimore-explore",
+      "publisher": "Fenimore Farm",
+      "type": "official",
+      "url": "https://www.fenimorefarm.org/explore",
+      "supports": [
+        "Cardiff Giant history",
+        "Empire State Carousel details"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-taughannock",
+      "publisher": "New York State Parks",
+      "type": "government",
+      "url": "https://parks.ny.gov/visit/state-parks/taughannock-falls-state-park",
+      "supports": [
+        "2026 trail status",
+        "dawn-to-dusk hours",
+        "1.5-mile gorge walk"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-cornell",
+      "publisher": "Cornell Botanic Gardens",
+      "type": "official",
+      "url": "https://cornellbotanicgardens.org/visit/visitor-faq",
+      "supports": [
+        "free admission",
+        "dawn-to-dusk grounds",
+        "weekday parking"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-ithaca-gorges",
+      "publisher": "Cornell University",
+      "type": "official",
+      "url": "https://bpb-us-e1.wpmucdn.com/blogs.cornell.edu/dist/f/3277/files/2024/05/2024-Gorges-Brochure.pdf",
+      "supports": [
+        "Ithaca Falls access",
+        "gorge safety",
+        "seasonal trail context"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-corning",
+      "publisher": "Corning Museum of Glass",
+      "type": "official",
+      "url": "https://visit.cmog.org/plan-your-visit",
+      "supports": [
+        "October daily hours",
+        "admission",
+        "hot-glass demonstrations"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-corning-make",
+      "publisher": "Corning Museum of Glass",
+      "type": "official",
+      "url": "https://glassmaking.cmog.org/make-your-own-glass",
+      "supports": [
+        "studio hours",
+        "advance-reservation advice",
+        "separate experience"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-corning-fall",
+      "publisher": "Corning Museum of Glass",
+      "type": "official",
+      "url": "https://visit.cmog.org/savor-fall-at-the-museum",
+      "supports": [
+        "fall glass projects",
+        "seasonal demonstrations"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-eastman",
+      "publisher": "George Eastman Museum",
+      "type": "official",
+      "url": "https://www.eastman.org/",
+      "supports": [
+        "Friday hours",
+        "admission",
+        "October 2026 exhibitions"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-artisanworks",
+      "publisher": "ARTISANworks",
+      "type": "official",
+      "url": "https://artisanworks.net/",
+      "supports": [
+        "Friday public hours",
+        "admission",
+        "accessibility"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-house-guitars",
+      "publisher": "House of Guitars",
+      "type": "official",
+      "url": "https://houseofguitars.com/sitemap/",
+      "supports": [
+        "Friday hours",
+        "address"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-house-guitars-story",
+      "publisher": "Atlas Obscura",
+      "type": "editorial",
+      "url": "https://www.atlasobscura.com/articles/on-tour-with-the-war-on-drugs-rochester-s-church-of-gear",
+      "supports": [
+        "warren-like layout",
+        "rock memorabilia",
+        "unusual character"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-radio-social",
+      "publisher": "Radio Social",
+      "type": "official",
+      "url": "https://radio-social.com/plan-your-visit/",
+      "supports": [
+        "Friday hours",
+        "bowling reservations",
+        "21-plus policy after 9pm"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-rochester-market",
+      "publisher": "City of Rochester",
+      "type": "government",
+      "url": "https://www.cityofrochester.gov/departments/department-recreation-and-human-services-drhs/public-market",
+      "supports": [
+        "Saturday hours",
+        "federal-holiday closure rule"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-letchworth",
+      "publisher": "New York State Parks",
+      "type": "government",
+      "url": "https://parks.ny.gov/visit/state-parks/letchworth-state-park",
+      "supports": [
+        "2026 hours",
+        "vehicle fee",
+        "permanent Trail 7 closure"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-canalside",
+      "publisher": "Visit Buffalo Niagara",
+      "type": "official-tourism",
+      "url": "https://visitbuffalo.com/neighborhood/canalside-waterfront/",
+      "supports": [
+        "waterfront context",
+        "grain-elevator skyline"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-buffalo-nightlife",
+      "publisher": "Reddit r/Buffalo",
+      "type": "forum",
+      "url": "https://www.reddit.com/r/Buffalo/comments/1vammle/buffalo_night_life/",
+      "supports": [
+        "2026 local nightlife signal",
+        "Essex Street and live-music recommendations"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-annunciation",
+      "publisher": "Annunciation Greek Orthodox Church",
+      "type": "official-bulletin",
+      "url": "https://bulletinbuilder.org/HOCA/current/20260726",
+      "supports": [
+        "Sunday Orthros and Divine Liturgy schedule",
+        "address"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-power-vista",
+      "publisher": "New York Power Authority",
+      "type": "government",
+      "url": "https://nypa.gov/Communities/Visitors-Centers/Niagara-Power-Vista",
+      "supports": [
+        "daily hours",
+        "free admission and parking",
+        "interactive exhibits"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-maid",
+      "publisher": "Maid of the Mist",
+      "type": "official",
+      "url": "https://www.maidofthemist.com/schedule-pricing/",
+      "supports": [
+        "October 11 hours",
+        "2026 price",
+        "US-side boarding"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-cave-winds",
+      "publisher": "Niagara Falls State Park",
+      "type": "official",
+      "url": "https://www.niagarafallsstatepark.com/attractions/cave-of-the-winds/",
+      "supports": [
+        "October 11 hours",
+        "2026 admission",
+        "wet-footwear warning"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-niagara-park",
+      "publisher": "New York State Parks",
+      "type": "government",
+      "url": "https://parks.ny.gov/visit/state-parks/niagara-falls-state-park",
+      "supports": [
+        "US park access",
+        "October parking fee"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-niagara-light",
+      "publisher": "Niagara Falls State Park",
+      "type": "official",
+      "url": "https://www.niagarafallsstatepark.com/tours-events/illuminations/",
+      "supports": [
+        "October 11 illumination start time"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-martin",
+      "publisher": "Frank Lloyd Wright's Martin House",
+      "type": "official",
+      "url": "https://martinhouse.org/visit/prepare/hours/",
+      "supports": [
+        "Monday hours",
+        "interior guided-tour requirement"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-martin-tours",
+      "publisher": "Frank Lloyd Wright's Martin House",
+      "type": "official",
+      "url": "https://martinhouse.org/tours/",
+      "supports": [
+        "tour types",
+        "2026 price",
+        "advance booking"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-tr",
+      "publisher": "Theodore Roosevelt Inaugural Site",
+      "type": "official",
+      "url": "https://www.trsite.org/about/faq/",
+      "supports": [
+        "October 12 hours",
+        "guided-only visit",
+        "admission"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-armory",
+      "publisher": "Visit Syracuse",
+      "type": "official-tourism",
+      "url": "https://www.visitsyracuse.com/things-to-do/neighborhoods/armory-square/",
+      "supports": [
+        "restaurants and compact historic-district context"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-erie",
+      "publisher": "Erie Canal Museum",
+      "type": "official",
+      "url": "https://eriecanalmuseum.org/visit/",
+      "supports": [
+        "daily hours",
+        "pay-what-you-wish admission",
+        "2026 construction warning"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-pine",
+      "publisher": "Albany Pine Bush Preserve Commission",
+      "type": "official",
+      "url": "https://www.albanypinebush.org/",
+      "supports": [
+        "Tuesday hours",
+        "free Discovery Center",
+        "globally rare inland pine barrens"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-pine-forum",
+      "publisher": "Reddit r/Albany",
+      "type": "forum",
+      "url": "https://www.reddit.com/r/Albany/comments/1s4qwmm/pine_bush_discovery_center/",
+      "supports": [
+        "2026 local hidden-gem validation"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-capitol",
+      "publisher": "New York State Office of General Services",
+      "type": "government",
+      "url": "https://empirestateplaza.ny.gov/node/10336",
+      "supports": [
+        "weekday tour times",
+        "free admission",
+        "tour duration"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-turnpark",
+      "publisher": "TurnPark Art Space",
+      "type": "official",
+      "url": "https://www.turnpark.com/visit/",
+      "supports": [
+        "Wednesday hours",
+        "admission",
+        "former quarry setting"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-magic-wings",
+      "publisher": "Magic Wings",
+      "type": "official",
+      "url": "https://magicwings.com/faq/",
+      "supports": [
+        "Sunday hours",
+        "admission",
+        "4,000 free-flying butterflies"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-clark",
+      "publisher": "Clark Art Institute",
+      "type": "official",
+      "url": "https://www.clarkart.edu/visit/",
+      "supports": [
+        "Monday closed warning",
+        "campus access",
+        "admission"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-secret",
+      "publisher": "Secret Caverns",
+      "type": "official",
+      "url": "https://secretcaverns.com/",
+      "supports": [
+        "2026 daily hours",
+        "admission",
+        "100-foot underground waterfall"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-fly-creek",
+      "publisher": "Fly Creek Cider Mill",
+      "type": "official",
+      "url": "https://www.flycreekcidermill.com/plan-your-visit",
+      "supports": [
+        "free self-guided mill tour",
+        "working cider process"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-fly-creek-hours",
+      "publisher": "Fly Creek Cider Mill",
+      "type": "official",
+      "url": "https://www.flycreekcidermill.com/fly-creek-cider-mill-voted-best-cidery-nation",
+      "supports": [
+        "daily hours",
+        "fall pressing season"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-earth",
+      "publisher": "Museum of the Earth",
+      "type": "official",
+      "url": "https://www.museumoftheearth.org/visit/plan-your-visit",
+      "supports": [
+        "Thursday hours",
+        "admission",
+        "mastodon and whale exhibits"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-strong",
+      "publisher": "The Strong National Museum of Play",
+      "type": "official",
+      "url": "https://www.museumofplay.org/visit/hours-and-admissions/",
+      "supports": [
+        "Friday hours",
+        "admission",
+        "half-price Friday after 4pm"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-eternal",
+      "publisher": "Erie County Parks",
+      "type": "government",
+      "url": "https://www3.erie.gov/parks/sites/www3.erie.gov.parks/files/2021-08/eternal-flametrail-map_11x17.pdf",
+      "supports": [
+        "official trail map",
+        "trailhead and route"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-old-fort",
+      "publisher": "Old Fort Niagara",
+      "type": "official",
+      "url": "https://www.oldfortniagara.org/plan-your-visit",
+      "supports": [
+        "October 11 hours",
+        "2026 admission",
+        "living-history program"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-forest",
+      "publisher": "Forest Lawn",
+      "type": "official",
+      "url": "https://forest-lawn.com/plan-your-visit/",
+      "supports": [
+        "daily access",
+        "self-guided app and map"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-blue-sky",
+      "publisher": "Blue Sky Mausoleum",
+      "type": "official",
+      "url": "https://www.blueskymausoleum.com/",
+      "supports": [
+        "Frank Lloyd Wright design",
+        "open-sky memorial context"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-stockade",
+      "publisher": "Discover Schenectady",
+      "type": "official-tourism",
+      "url": "https://www.discoverschenectady.com/things-to-do/attractions/historic-stockade-stockade-tours/",
+      "supports": [
+        "300-year-old neighborhood",
+        "self-guided walking tour"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-six",
+      "publisher": "Six Depot Roastery and Cafe",
+      "type": "official",
+      "url": "https://sixdepot.com/pages/visit-cafe",
+      "supports": [
+        "Wednesday hours",
+        "historic station",
+        "roastery and gallery"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-rochester-forum",
+      "publisher": "Reddit r/Rochester",
+      "type": "forum",
+      "url": "https://www.reddit.com/r/Rochester/comments/1ad7dz0",
+      "supports": [
+        "ARTISANworks and House of Guitars hidden-gem validation"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-upstate-caves-forum",
+      "publisher": "Reddit r/upstate_new_york",
+      "type": "forum",
+      "url": "https://www.reddit.com/r/upstate_new_york/comments/1v1n31f/nice_trip_to_howe_caverns_imagine_finding_this_in/",
+      "supports": [
+        "Howe versus Secret Caverns comparison"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-noaa-normals",
+      "publisher": "NOAA National Centers for Environmental Information",
+      "type": "government-data",
+      "url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+      "supports": [
+        "1991-2020 daily climate normals"
+      ],
+      "verified_at": "2026-08-21"
+    },
+    {
+      "id": "src-osrm",
+      "publisher": "Open Source Routing Machine",
+      "type": "routing",
+      "url": "https://project-osrm.org/",
+      "supports": [
+        "road-network distance and no-traffic duration baselines"
+      ],
+      "verified_at": "2026-08-21"
+    }
+  ]
+}

@@ -1,0 +1,6309 @@
+{
+  "schema_version": "1.0.0",
+  "route_id": "route-06",
+  "places": [
+    {
+      "id": "carousel-museum",
+      "name": "New England Carousel Museum",
+      "kind": "working-folk-art-museum",
+      "city": "Bristol",
+      "state": "CT",
+      "visit_date": "2026-10-04",
+      "summary": "A brick factory full of hand-carved carousel animals, with a repair workshop and a carousel you can actually ride indoors.",
+      "why_go": "Hand-carved horses at arm's length, a repair bench in the same building, and a ride at the end. An easy, cheerful start.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Viki's colors and detail, and for Gora's interest in the machinery under the paint. Everyone enjoys the ride.",
+      "categories": [
+        "unusual_creative",
+        "architecture_nature_photogenic",
+        "local_culture"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-carousel"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "12:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Sunday hours; arrive by 15:30 for an unhurried visit."
+      },
+      "cost": {
+        "amount_per_person": 15,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "New England Carousel Museum, 95 Riverside Avenue, Bristol, Connecticut",
+      "country": "US",
+      "coordinates": [
+        -72.9428,
+        41.6715
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_parking_point",
+      "image_ids": [
+        "img-carousel-museum-1",
+        "img-carousel-museum-2",
+        "img-carousel-museum-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "witchs-dungeon",
+      "name": "Witch's Dungeon Classic Movie Museum",
+      "kind": "classic-horror-cabinet",
+      "city": "Plainville",
+      "state": "CT",
+      "visit_date": "2026-10-04",
+      "summary": "A small museum built by one family, holding life-size figures of classic horror film monsters and film memorabilia. A guide takes you round.",
+      "why_go": "Handmade classic movie monsters in a room the size of a house. It feels like an old neighborhood haunted attraction, because it is.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Viki's love of strange places and for Gora, who wants the story behind the film icons.",
+      "categories": [
+        "unusual_creative",
+        "hidden_history_folklore",
+        "social_nightlife_live"
+      ],
+      "duration_minutes": 75,
+      "source_ids": [
+        "src-witch"
+      ],
+      "reservation": "reserve-recommended",
+      "hours": {
+        "opens": "15:00",
+        "closes": "21:00",
+        "status": "verified-current",
+        "note": "Current Sunday pattern; guided entry and seasonal demand make direct confirmation essential."
+      },
+      "cost": {
+        "amount_per_person": 25,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "replacement",
+      "replacement_reason": "A darker Halloween-season opener when everyone prefers cinematic oddity over folk craft.",
+      "replacement": {
+        "day": 1,
+        "replaces_place_ids": [
+          "carousel-museum"
+        ],
+        "route_variant_id": "replacement-d1-witchs-dungeon",
+        "reason": "A darker Halloween-season opener when everyone prefers cinematic oddity over folk craft.",
+        "route_variant": {
+          "id": "replacement-d1-witchs-dungeon",
+          "day": 1,
+          "replacement_place_id": "witchs-dungeon",
+          "replaces_place_ids": [
+            "carousel-museum"
+          ],
+          "nodes": [
+            "boston-logan-rental",
+            "witchs-dungeon",
+            "danbury-west-lodging"
+          ],
+          "node_sequence": [
+            "boston-logan-rental",
+            "witchs-dungeon",
+            "danbury-west-lodging"
+          ],
+          "baseline_total_miles": 163.1,
+          "baseline_total_minutes": 205,
+          "delta_miles": 1.9,
+          "delta_minutes": -1,
+          "cap_minutes": 210,
+          "cap_status": "passes-baseline-cap",
+          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+          "non_driving_travel_minutes": 0,
+          "total_travel_minutes_excluding_queues": 205,
+          "legs": [
+            {
+              "id": "replacement-d1-witchs-dungeon-leg-1",
+              "from": "boston-logan-rental",
+              "to": "witchs-dungeon",
+              "mode": "driving",
+              "distance_miles": 116.9,
+              "baseline_minutes": 146,
+              "display_duration_minutes": 146,
+              "counts_toward_drive_cap": true
+            },
+            {
+              "id": "replacement-d1-witchs-dungeon-leg-2",
+              "from": "witchs-dungeon",
+              "to": "danbury-west-lodging",
+              "mode": "driving",
+              "distance_miles": 46.2,
+              "baseline_minutes": 59,
+              "display_duration_minutes": 59,
+              "counts_toward_drive_cap": true
+            }
+          ],
+          "geometry": {
+            "type": "MultiLineString",
+            "coordinates": [
+              [
+                [
+                  -71.029421,
+                  42.367769
+                ],
+                [
+                  -71.037429,
+                  42.346811
+                ],
+                [
+                  -71.177949,
+                  42.35787
+                ],
+                [
+                  -71.315031,
+                  42.33461
+                ],
+                [
+                  -71.367832,
+                  42.311489
+                ],
+                [
+                  -71.412023,
+                  42.315539
+                ],
+                [
+                  -71.557712,
+                  42.269721
+                ],
+                [
+                  -71.618632,
+                  42.229395
+                ],
+                [
+                  -71.755983,
+                  42.2211
+                ],
+                [
+                  -72.060614,
+                  42.131196
+                ],
+                [
+                  -72.202145,
+                  41.950927
+                ],
+                [
+                  -72.257431,
+                  41.925367
+                ],
+                [
+                  -72.29244,
+                  41.895348
+                ],
+                [
+                  -72.375311,
+                  41.85683
+                ],
+                [
+                  -72.431229,
+                  41.854117
+                ],
+                [
+                  -72.46889,
+                  41.831455
+                ],
+                [
+                  -72.553905,
+                  41.801581
+                ],
+                [
+                  -72.578634,
+                  41.77432
+                ],
+                [
+                  -72.637459,
+                  41.763463
+                ],
+                [
+                  -72.68037,
+                  41.771157
+                ],
+                [
+                  -72.705098,
+                  41.750523
+                ],
+                [
+                  -72.734224,
+                  41.748709
+                ],
+                [
+                  -72.758842,
+                  41.727347
+                ],
+                [
+                  -72.825037,
+                  41.726527
+                ],
+                [
+                  -72.868593,
+                  41.671431
+                ]
+              ],
+              [
+                [
+                  -72.868593,
+                  41.671431
+                ],
+                [
+                  -72.861998,
+                  41.673137
+                ],
+                [
+                  -72.846221,
+                  41.66865
+                ],
+                [
+                  -72.848826,
+                  41.661352
+                ],
+                [
+                  -72.869236,
+                  41.63596
+                ],
+                [
+                  -72.89198,
+                  41.620531
+                ],
+                [
+                  -72.900147,
+                  41.610974
+                ],
+                [
+                  -72.903768,
+                  41.594994
+                ],
+                [
+                  -72.899225,
+                  41.58325
+                ],
+                [
+                  -72.915009,
+                  41.562229
+                ],
+                [
+                  -72.931537,
+                  41.553888
+                ],
+                [
+                  -72.945229,
+                  41.542707
+                ],
+                [
+                  -72.95466,
+                  41.541137
+                ],
+                [
+                  -72.96337,
+                  41.536568
+                ],
+                [
+                  -72.9843,
+                  41.543983
+                ],
+                [
+                  -73.004448,
+                  41.538187
+                ],
+                [
+                  -73.020656,
+                  41.541143
+                ],
+                [
+                  -73.032565,
+                  41.551615
+                ],
+                [
+                  -73.055471,
+                  41.551432
+                ],
+                [
+                  -73.067557,
+                  41.548233
+                ],
+                [
+                  -73.085708,
+                  41.537581
+                ],
+                [
+                  -73.088857,
+                  41.526146
+                ],
+                [
+                  -73.092348,
+                  41.522696
+                ],
+                [
+                  -73.138366,
+                  41.50898
+                ],
+                [
+                  -73.163613,
+                  41.49338
+                ],
+                [
+                  -73.212686,
+                  41.476296
+                ],
+                [
+                  -73.222469,
+                  41.46581
+                ],
+                [
+                  -73.248145,
+                  41.450771
+                ],
+                [
+                  -73.250137,
+                  41.445048
+                ],
+                [
+                  -73.247498,
+                  41.434036
+                ],
+                [
+                  -73.266495,
+                  41.415354
+                ],
+                [
+                  -73.289385,
+                  41.417327
+                ],
+                [
+                  -73.314484,
+                  41.429437
+                ],
+                [
+                  -73.326122,
+                  41.426759
+                ],
+                [
+                  -73.351742,
+                  41.425852
+                ],
+                [
+                  -73.362572,
+                  41.422615
+                ],
+                [
+                  -73.374777,
+                  41.424994
+                ],
+                [
+                  -73.410031,
+                  41.414031
+                ],
+                [
+                  -73.424652,
+                  41.418455
+                ],
+                [
+                  -73.45225,
+                  41.411441
+                ],
+                [
+                  -73.462837,
+                  41.404987
+                ],
+                [
+                  -73.459703,
+                  41.404608
+                ],
+                [
+                  -73.454166,
+                  41.394962
+                ]
+              ]
+            ]
+          },
+          "routing_source": [
+            "https://router.project-osrm.org/route/v1/driving/-71.0304,42.3682;-72.8688,41.6719?overview=simplified&geometries=geojson&steps=false",
+            "https://router.project-osrm.org/route/v1/driving/-72.8688,41.6719;-73.454,41.3948?overview=simplified&geometries=geojson&steps=false"
+          ]
+        }
+      },
+      "address": "Witch's Dungeon Classic Movie Museum, 103 East Main Street, Plainville, Connecticut",
+      "country": "US",
+      "coordinates": [
+        -72.8688,
+        41.6719
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_parking_point",
+      "image_ids": [
+        "img-witchs-dungeon-1",
+        "img-witchs-dungeon-2",
+        "img-witchs-dungeon-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete"
+    },
+    {
+      "id": "columcille",
+      "name": "Columcille Megalith Park",
+      "kind": "woodland-megalith-landscape",
+      "city": "Bangor",
+      "state": "PA",
+      "visit_date": "2026-10-05",
+      "summary": "More than ninety standing stones, circles and gateways set across twenty acres of woodland. It was built as a place to think, not as a copy of an ancient site.",
+      "why_go": "Ninety standing stones in a Pennsylvania wood, built by hand in our own time. Quiet, strange and completely absorbing.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's photographs and Stivka's quiet hour. Gora gets the story of why someone built it.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "quiet_reset",
+        "unusual_creative"
+      ],
+      "duration_minutes": 105,
+      "source_ids": [
+        "src-columcille"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "verified-public-space",
+        "note": "Open daily dawn to dusk; rough trails, no climbing on stones, no drones and no commercial photography."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Free; donation encouraged."
+      },
+      "priority": "anchor",
+      "address": "Columcille Megalith Park, 2155 Fox Gap Road, Bangor, Pennsylvania",
+      "country": "US",
+      "coordinates": [
+        -75.1708,
+        40.8671
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_parking_point",
+      "image_ids": [
+        "img-columcille-1",
+        "img-columcille-2",
+        "img-columcille-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "martin-guitar",
+      "name": "C. F. Martin Guitar Factory & Museum",
+      "kind": "living-music-craft",
+      "city": "Nazareth",
+      "state": "PA",
+      "visit_date": "2026-10-05",
+      "summary": "A free museum and a bookable factory tour follow how a guitar is made, from the choice of wood to the finished instrument. Martin has been building here for generations.",
+      "why_go": "You watch guitars being built by hand, then see the instruments famous players actually used.",
+      "best_for": [
+        "stivka",
+        "gora"
+      ],
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Stivka's love of music without needing a concert. Gora gets real manufacturing and Viki gets fine craft.",
+      "categories": [
+        "hidden_history_folklore",
+        "unusual_creative",
+        "local_culture"
+      ],
+      "duration_minutes": 105,
+      "source_ids": [
+        "src-martin"
+      ],
+      "reservation": "reserve",
+      "hours": {
+        "opens": "09:00",
+        "closes": "16:30",
+        "status": "verified-current",
+        "note": "Monday museum hours; factory tours are offered in a narrower 10:00-14:00 window and require advance booking."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Museum is free; donation optional."
+      },
+      "priority": "replacement",
+      "replacement_reason": "Use for bad weather or when the group wants living music craft instead of an outdoor stone landscape.",
+      "replacement": {
+        "day": 2,
+        "replaces_place_ids": [
+          "columcille"
+        ],
+        "route_variant_id": "replacement-d2-martin-guitar",
+        "reason": "Use for bad weather or when the group wants living music craft instead of an outdoor stone landscape.",
+        "route_variant": {
+          "id": "replacement-d2-martin-guitar",
+          "day": 2,
+          "replacement_place_id": "martin-guitar",
+          "replaces_place_ids": [
+            "columcille"
+          ],
+          "nodes": [
+            "danbury-west-lodging",
+            "martin-guitar",
+            "nazareth-lodging"
+          ],
+          "node_sequence": [
+            "danbury-west-lodging",
+            "martin-guitar",
+            "nazareth-lodging"
+          ],
+          "baseline_total_miles": 148.2,
+          "baseline_total_minutes": 198,
+          "delta_miles": 2.6,
+          "delta_minutes": -8,
+          "cap_minutes": 210,
+          "cap_status": "passes-baseline-cap",
+          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+          "non_driving_travel_minutes": 0,
+          "total_travel_minutes_excluding_queues": 198,
+          "legs": [
+            {
+              "id": "replacement-d2-martin-guitar-leg-1",
+              "from": "danbury-west-lodging",
+              "to": "martin-guitar",
+              "mode": "driving",
+              "distance_miles": 145.1,
+              "baseline_minutes": 191,
+              "display_duration_minutes": 191,
+              "counts_toward_drive_cap": true
+            },
+            {
+              "id": "replacement-d2-martin-guitar-leg-2",
+              "from": "martin-guitar",
+              "to": "nazareth-lodging",
+              "mode": "driving",
+              "distance_miles": 3,
+              "baseline_minutes": 7,
+              "display_duration_minutes": 7,
+              "counts_toward_drive_cap": true
+            }
+          ],
+          "geometry": {
+            "type": "MultiLineString",
+            "coordinates": [
+              [
+                [
+                  -73.454166,
+                  41.394962
+                ],
+                [
+                  -73.484225,
+                  41.383637
+                ],
+                [
+                  -73.529622,
+                  41.392927
+                ],
+                [
+                  -73.580144,
+                  41.383521
+                ],
+                [
+                  -73.599363,
+                  41.392395
+                ],
+                [
+                  -73.604216,
+                  41.377303
+                ],
+                [
+                  -73.654035,
+                  41.344099
+                ],
+                [
+                  -73.686051,
+                  41.269971
+                ],
+                [
+                  -73.677033,
+                  41.250276
+                ],
+                [
+                  -73.736465,
+                  41.213895
+                ],
+                [
+                  -73.735675,
+                  41.204261
+                ],
+                [
+                  -73.79602,
+                  41.134678
+                ],
+                [
+                  -73.783945,
+                  41.120231
+                ],
+                [
+                  -73.809958,
+                  41.106024
+                ],
+                [
+                  -73.833757,
+                  41.077451
+                ],
+                [
+                  -73.823374,
+                  41.060176
+                ],
+                [
+                  -73.915019,
+                  41.071827
+                ],
+                [
+                  -73.931332,
+                  41.093309
+                ],
+                [
+                  -73.954108,
+                  41.100409
+                ],
+                [
+                  -74.020415,
+                  41.104065
+                ],
+                [
+                  -74.0477,
+                  41.09697
+                ],
+                [
+                  -74.134681,
+                  41.121404
+                ],
+                [
+                  -74.161056,
+                  41.118314
+                ],
+                [
+                  -74.196055,
+                  41.031827
+                ],
+                [
+                  -74.217763,
+                  41.020392
+                ],
+                [
+                  -74.24796,
+                  41.028932
+                ],
+                [
+                  -74.289588,
+                  41.024998
+                ],
+                [
+                  -74.362953,
+                  40.921337
+                ],
+                [
+                  -74.414594,
+                  40.899025
+                ],
+                [
+                  -74.419151,
+                  40.860856
+                ],
+                [
+                  -74.478183,
+                  40.774762
+                ],
+                [
+                  -74.521752,
+                  40.758598
+                ],
+                [
+                  -74.570365,
+                  40.693669
+                ],
+                [
+                  -74.636561,
+                  40.667236
+                ],
+                [
+                  -74.648513,
+                  40.643677
+                ],
+                [
+                  -74.782195,
+                  40.652195
+                ],
+                [
+                  -74.856297,
+                  40.646155
+                ],
+                [
+                  -74.916763,
+                  40.631551
+                ],
+                [
+                  -74.972935,
+                  40.635359
+                ],
+                [
+                  -75.033828,
+                  40.651163
+                ],
+                [
+                  -75.046846,
+                  40.661839
+                ],
+                [
+                  -75.136568,
+                  40.671767
+                ],
+                [
+                  -75.16499,
+                  40.699367
+                ],
+                [
+                  -75.213299,
+                  40.694306
+                ],
+                [
+                  -75.216203,
+                  40.699792
+                ],
+                [
+                  -75.253447,
+                  40.688178
+                ],
+                [
+                  -75.30953,
+                  40.740615
+                ],
+                [
+                  -75.329772,
+                  40.741726
+                ]
+              ],
+              [
+                [
+                  -75.329772,
+                  40.741726
+                ],
+                [
+                  -75.319412,
+                  40.74101
+                ],
+                [
+                  -75.318827,
+                  40.740726
+                ],
+                [
+                  -75.30953,
+                  40.740615
+                ],
+                [
+                  -75.309502,
+                  40.732885
+                ],
+                [
+                  -75.308096,
+                  40.732728
+                ],
+                [
+                  -75.306942,
+                  40.732173
+                ],
+                [
+                  -75.292138,
+                  40.720138
+                ],
+                [
+                  -75.291675,
+                  40.71953
+                ],
+                [
+                  -75.292715,
+                  40.719336
+                ],
+                [
+                  -75.29267,
+                  40.719028
+                ]
+              ]
+            ]
+          },
+          "routing_source": [
+            "https://router.project-osrm.org/route/v1/driving/-73.454,41.3948;-75.3296,40.7428?overview=simplified&geometries=geojson&steps=false",
+            "https://router.project-osrm.org/route/v1/driving/-75.3296,40.7428;-75.293,40.719?overview=simplified&geometries=geojson&steps=false"
+          ]
+        }
+      },
+      "address": "C. F. Martin Guitar Factory and Museum, 510 Sycamore Street, Nazareth, Pennsylvania",
+      "country": "US",
+      "coordinates": [
+        -75.3296,
+        40.7428
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_parking_point",
+      "image_ids": [
+        "img-martin-guitar-1",
+        "img-martin-guitar-2",
+        "img-martin-guitar-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete"
+    },
+    {
+      "id": "army-heritage",
+      "name": "U.S. Army Heritage & Education Center",
+      "kind": "evidence-first-military-history",
+      "city": "Carlisle",
+      "state": "PA",
+      "visit_date": "2026-10-06",
+      "summary": "A free museum with a mile-long outdoor trail. It holds full-size trenches, huts, tanks and other structures, showing what soldiers actually lived through rather than the official version.",
+      "why_go": "You walk through a real trench, not a display case. Being outdoors also stops the day turning into museum fatigue.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Gora's evidence-first history and for Viki's full-size structures. Free, and easy to shorten.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_nature_photogenic",
+        "local_culture"
+      ],
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-army"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Monday-Saturday museum hours; outdoor buildings normally 10:00-16:00 and trail dawn to dusk."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "U.S. Army Heritage and Education Center, 950 Soldiers Drive, Carlisle, Pennsylvania",
+      "country": "US",
+      "coordinates": [
+        -77.17,
+        40.2107
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_parking_point",
+      "image_ids": [
+        "img-army-heritage-1",
+        "img-army-heritage-2",
+        "img-army-heritage-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "state-police-museum",
+      "name": "Pennsylvania State Police Museum",
+      "kind": "law-enforcement-history",
+      "city": "Hershey",
+      "state": "PA",
+      "visit_date": "2026-10-06",
+      "summary": "Uniforms, motorcycles, forensic equipment and records trace one of the oldest state police forces in the country. It includes the difficult cases, not only the shiny vehicles.",
+      "why_go": "An institution telling its own story, including the parts that do not flatter it.",
+      "best_for": [
+        "gora"
+      ],
+      "secondary_for": [
+        "viki",
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Gora's interest in how institutions really work. Small enough not to eat into a driving day.",
+      "categories": [
+        "hidden_history_folklore",
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-psp"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "09:00",
+        "closes": "16:00",
+        "status": "verified-current",
+        "note": "Weekday self-guided access; guided visits need advance coordination."
+      },
+      "cost": {
+        "amount_per_person": 7,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "replacement",
+      "replacement_reason": "A tighter and more controversial institutional-history lens when the group does not want the larger Army campus.",
+      "replacement": {
+        "day": 3,
+        "replaces_place_ids": [
+          "army-heritage"
+        ],
+        "route_variant_id": "replacement-d3-state-police",
+        "reason": "A tighter and more controversial institutional-history lens when the group does not want the larger Army campus.",
+        "route_variant": {
+          "id": "replacement-d3-state-police",
+          "day": 3,
+          "replacement_place_id": "state-police-museum",
+          "replaces_place_ids": [
+            "army-heritage"
+          ],
+          "nodes": [
+            "nazareth-lodging",
+            "state-police-museum",
+            "carlisle-lodging"
+          ],
+          "node_sequence": [
+            "nazareth-lodging",
+            "state-police-museum",
+            "carlisle-lodging"
+          ],
+          "baseline_total_miles": 119.3,
+          "baseline_total_minutes": 162,
+          "delta_miles": 6.7,
+          "delta_minutes": 15,
+          "cap_minutes": 210,
+          "cap_status": "passes-baseline-cap",
+          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+          "non_driving_travel_minutes": 0,
+          "total_travel_minutes_excluding_queues": 162,
+          "legs": [
+            {
+              "id": "replacement-d3-state-police-leg-1",
+              "from": "nazareth-lodging",
+              "to": "state-police-museum",
+              "mode": "driving",
+              "distance_miles": 85.6,
+              "baseline_minutes": 111,
+              "display_duration_minutes": 111,
+              "counts_toward_drive_cap": true
+            },
+            {
+              "id": "replacement-d3-state-police-leg-2",
+              "from": "state-police-museum",
+              "to": "carlisle-lodging",
+              "mode": "driving",
+              "distance_miles": 33.6,
+              "baseline_minutes": 51,
+              "display_duration_minutes": 51,
+              "counts_toward_drive_cap": true
+            }
+          ],
+          "geometry": {
+            "type": "MultiLineString",
+            "coordinates": [
+              [
+                [
+                  -75.29267,
+                  40.719028
+                ],
+                [
+                  -75.289223,
+                  40.68931
+                ],
+                [
+                  -75.293945,
+                  40.683682
+                ],
+                [
+                  -75.35592,
+                  40.676317
+                ],
+                [
+                  -75.410397,
+                  40.650341
+                ],
+                [
+                  -75.605202,
+                  40.583543
+                ],
+                [
+                  -75.652054,
+                  40.575188
+                ],
+                [
+                  -75.724145,
+                  40.581492
+                ],
+                [
+                  -75.766668,
+                  40.576115
+                ],
+                [
+                  -75.841632,
+                  40.579403
+                ],
+                [
+                  -75.874097,
+                  40.57377
+                ],
+                [
+                  -75.899795,
+                  40.578404
+                ],
+                [
+                  -75.959735,
+                  40.570922
+                ],
+                [
+                  -76.107165,
+                  40.516639
+                ],
+                [
+                  -76.400882,
+                  40.451665
+                ],
+                [
+                  -76.426639,
+                  40.452923
+                ],
+                [
+                  -76.461231,
+                  40.448006
+                ],
+                [
+                  -76.504175,
+                  40.429447
+                ],
+                [
+                  -76.565636,
+                  40.414335
+                ],
+                [
+                  -76.580133,
+                  40.416034
+                ],
+                [
+                  -76.582374,
+                  40.406016
+                ],
+                [
+                  -76.613442,
+                  40.393295
+                ],
+                [
+                  -76.672237,
+                  40.359408
+                ],
+                [
+                  -76.674339,
+                  40.336099
+                ],
+                [
+                  -76.666522,
+                  40.312273
+                ],
+                [
+                  -76.655518,
+                  40.300822
+                ]
+              ],
+              [
+                [
+                  -76.655518,
+                  40.300822
+                ],
+                [
+                  -76.659893,
+                  40.296914
+                ],
+                [
+                  -76.659102,
+                  40.292881
+                ],
+                [
+                  -76.671496,
+                  40.288443
+                ],
+                [
+                  -76.687515,
+                  40.27678
+                ],
+                [
+                  -76.688538,
+                  40.26522
+                ],
+                [
+                  -76.699021,
+                  40.259142
+                ],
+                [
+                  -76.70725,
+                  40.258084
+                ],
+                [
+                  -76.724459,
+                  40.260972
+                ],
+                [
+                  -76.757483,
+                  40.262041
+                ],
+                [
+                  -76.79105,
+                  40.257109
+                ],
+                [
+                  -76.804431,
+                  40.253147
+                ],
+                [
+                  -76.825288,
+                  40.253882
+                ],
+                [
+                  -76.837755,
+                  40.258246
+                ],
+                [
+                  -76.859702,
+                  40.256236
+                ],
+                [
+                  -76.899173,
+                  40.236401
+                ],
+                [
+                  -76.934076,
+                  40.232873
+                ],
+                [
+                  -76.932441,
+                  40.228214
+                ],
+                [
+                  -76.935971,
+                  40.222741
+                ],
+                [
+                  -76.980043,
+                  40.196181
+                ],
+                [
+                  -77.022911,
+                  40.196627
+                ],
+                [
+                  -77.120332,
+                  40.226034
+                ],
+                [
+                  -77.154755,
+                  40.228329
+                ],
+                [
+                  -77.154225,
+                  40.229791
+                ],
+                [
+                  -77.148951,
+                  40.228928
+                ],
+                [
+                  -77.170392,
+                  40.216921
+                ],
+                [
+                  -77.166419,
+                  40.210231
+                ],
+                [
+                  -77.17447,
+                  40.206036
+                ]
+              ]
+            ]
+          },
+          "routing_source": [
+            "https://router.project-osrm.org/route/v1/driving/-75.293,40.719;-76.6555,40.3008?overview=simplified&geometries=geojson&steps=false",
+            "https://router.project-osrm.org/route/v1/driving/-76.6555,40.3008;-77.1745,40.206?overview=simplified&geometries=geojson&steps=false"
+          ]
+        }
+      },
+      "address": "Pennsylvania State Police Museum, 187 East Hersheypark Drive, Hershey, Pennsylvania",
+      "country": "US",
+      "coordinates": [
+        -76.6555,
+        40.3008
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_parking_point",
+      "image_ids": [
+        "img-state-police-museum-1",
+        "img-state-police-museum-2",
+        "img-state-police-museum-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete"
+    },
+    {
+      "id": "gravity-hill",
+      "name": "Gravity Hill, Bedford County",
+      "kind": "roadside-optical-illusion",
+      "city": "New Paris",
+      "state": "PA",
+      "visit_date": "2026-10-07",
+      "summary": "On one marked stretch of public road, a car left in neutral appears to roll uphill. The surrounding landscape tricks your eye about which way is level.",
+      "why_go": "Put the car in neutral and watch it roll the wrong way. It takes ten minutes and it fools everyone.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Gora, because it is an illusion with a real explanation, not a ghost story. Everyone enjoys trying it.",
+      "categories": [
+        "unusual_creative",
+        "hidden_history_folklore",
+        "athletic_adrenaline"
+      ],
+      "duration_minutes": 30,
+      "source_ids": [
+        "src-gravity"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "public-road",
+        "note": "Public road; use the official start line, yield immediately to traffic, never enter yards and skip if visibility is poor."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Gravity Hill Road, New Paris, Pennsylvania",
+      "country": "US",
+      "coordinates": [
+        -78.6919,
+        40.1108
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_parking_point",
+      "image_ids": [
+        "img-gravity-hill-1",
+        "img-gravity-hill-2",
+        "img-gravity-hill-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "quecreek",
+      "name": "Quecreek Mine Rescue Site",
+      "kind": "working-class-rescue-memorial",
+      "city": "Somerset",
+      "state": "PA",
+      "visit_date": "2026-10-07",
+      "summary": "The rescue shaft, the capsule and a small outdoor memorial stand in the exact farm field where nine trapped miners came out alive in 2002. They had been underground for seventy-seven hours.",
+      "why_go": "Nine men came out of that hole alive. Standing in the field where it happened says more than any exhibition could.",
+      "best_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "viki",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Gora's engineering and labor interest, and for Paco's wish for something honest and human. Short and outdoors.",
+      "categories": [
+        "hidden_history_folklore",
+        "local_culture",
+        "quiet_reset"
+      ],
+      "duration_minutes": 80,
+      "source_ids": [
+        "src-quecreek"
+      ],
+      "reservation": "call",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "call-to-confirm",
+        "note": "Outdoor memorial is available dawn to dusk; visitor-center staffing is limited, so call before relying on the indoor interpretation."
+      },
+      "cost": {
+        "amount_per_person": 8,
+        "status": "verified-current",
+        "note": "Planning price only if the visitor center is staffed; outdoor memorial is free."
+      },
+      "priority": "anchor",
+      "address": "Quecreek Mine Rescue Site, 140 Haupt Road, Somerset, Pennsylvania",
+      "country": "US",
+      "coordinates": [
+        -79.0784,
+        40.0395
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_parking_point",
+      "image_ids": [
+        "img-quecreek-1",
+        "img-quecreek-2",
+        "img-quecreek-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "flight-93",
+      "name": "Flight 93 National Memorial",
+      "kind": "national-memory-landscape",
+      "city": "Stoystown",
+      "state": "PA",
+      "visit_date": "2026-10-07",
+      "summary": "A plain concrete visitor center, a walk along the flight path, and a memorial in the field itself. It explains what the passengers did using their own recorded words.",
+      "why_go": "Told with first-hand evidence and no drama added. It is heavy, but it is done properly.",
+      "best_for": [
+        "gora",
+        "stivka"
+      ],
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Gora and Stivka. A reliable choice if weather or staffing makes the two smaller stops uncertain.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_nature_photogenic",
+        "quiet_reset"
+      ],
+      "duration_minutes": 105,
+      "source_ids": [
+        "src-flight93"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "09:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Daily visitor-center hours; allow 45-60 minutes minimum plus the field overlook."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "replacement",
+      "replacement_reason": "A weatherproof, guaranteed-open single anchor replacing the fragile roadside-and-staffing pair.",
+      "replacement": {
+        "day": 4,
+        "replaces_place_ids": [
+          "gravity-hill",
+          "quecreek"
+        ],
+        "route_variant_id": "replacement-d4-flight-93",
+        "reason": "A weatherproof, guaranteed-open single anchor replacing the fragile roadside-and-staffing pair.",
+        "route_variant": {
+          "id": "replacement-d4-flight-93",
+          "day": 4,
+          "replacement_place_id": "flight-93",
+          "replaces_place_ids": [
+            "gravity-hill",
+            "quecreek"
+          ],
+          "nodes": [
+            "carlisle-lodging",
+            "flight-93",
+            "somerset-lodging"
+          ],
+          "node_sequence": [
+            "carlisle-lodging",
+            "flight-93",
+            "somerset-lodging"
+          ],
+          "baseline_total_miles": 124.5,
+          "baseline_total_minutes": 175,
+          "delta_miles": -14,
+          "delta_minutes": -16,
+          "cap_minutes": 210,
+          "cap_status": "passes-baseline-cap",
+          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+          "non_driving_travel_minutes": 0,
+          "total_travel_minutes_excluding_queues": 175,
+          "legs": [
+            {
+              "id": "replacement-d4-flight-93-leg-1",
+              "from": "carlisle-lodging",
+              "to": "flight-93",
+              "mode": "driving",
+              "distance_miles": 108.5,
+              "baseline_minutes": 143,
+              "display_duration_minutes": 143,
+              "counts_toward_drive_cap": true
+            },
+            {
+              "id": "replacement-d4-flight-93-leg-2",
+              "from": "flight-93",
+              "to": "somerset-lodging",
+              "mode": "driving",
+              "distance_miles": 15.9,
+              "baseline_minutes": 33,
+              "display_duration_minutes": 33,
+              "counts_toward_drive_cap": true
+            }
+          ],
+          "geometry": {
+            "type": "MultiLineString",
+            "coordinates": [
+              [
+                [
+                  -77.17447,
+                  40.206036
+                ],
+                [
+                  -77.146056,
+                  40.229665
+                ],
+                [
+                  -77.239637,
+                  40.208317
+                ],
+                [
+                  -77.374796,
+                  40.202537
+                ],
+                [
+                  -77.599967,
+                  40.164919
+                ],
+                [
+                  -77.642611,
+                  40.14303
+                ],
+                [
+                  -77.684866,
+                  40.159724
+                ],
+                [
+                  -77.703964,
+                  40.158177
+                ],
+                [
+                  -77.829471,
+                  40.087209
+                ],
+                [
+                  -77.86153,
+                  40.091477
+                ],
+                [
+                  -77.87965,
+                  40.076582
+                ],
+                [
+                  -77.933434,
+                  40.068413
+                ],
+                [
+                  -77.996101,
+                  40.037117
+                ],
+                [
+                  -78.055038,
+                  40.043945
+                ],
+                [
+                  -78.093287,
+                  40.059859
+                ],
+                [
+                  -78.13289,
+                  40.033451
+                ],
+                [
+                  -78.170759,
+                  40.029118
+                ],
+                [
+                  -78.204627,
+                  40.013804
+                ],
+                [
+                  -78.238175,
+                  39.984749
+                ],
+                [
+                  -78.285368,
+                  39.982933
+                ],
+                [
+                  -78.403102,
+                  40.012694
+                ],
+                [
+                  -78.430156,
+                  40.003013
+                ],
+                [
+                  -78.468667,
+                  40.013205
+                ],
+                [
+                  -78.51133,
+                  40.052261
+                ],
+                [
+                  -78.566094,
+                  40.041787
+                ],
+                [
+                  -78.611382,
+                  40.052393
+                ],
+                [
+                  -78.655194,
+                  40.049394
+                ],
+                [
+                  -78.691962,
+                  40.038378
+                ],
+                [
+                  -78.755088,
+                  40.045834
+                ],
+                [
+                  -78.761455,
+                  40.036111
+                ],
+                [
+                  -78.861947,
+                  40.071556
+                ],
+                [
+                  -78.873888,
+                  40.051302
+                ],
+                [
+                  -78.885521,
+                  40.049811
+                ]
+              ],
+              [
+                [
+                  -78.885521,
+                  40.049811
+                ],
+                [
+                  -78.886121,
+                  40.048978
+                ],
+                [
+                  -78.883223,
+                  40.046784
+                ],
+                [
+                  -78.884989,
+                  40.045354
+                ],
+                [
+                  -78.88963,
+                  40.043064
+                ],
+                [
+                  -78.896971,
+                  40.04177
+                ],
+                [
+                  -78.903219,
+                  40.037146
+                ],
+                [
+                  -78.902916,
+                  40.027965
+                ],
+                [
+                  -78.903863,
+                  40.025612
+                ],
+                [
+                  -78.906331,
+                  40.024149
+                ],
+                [
+                  -78.908065,
+                  40.016723
+                ],
+                [
+                  -78.907004,
+                  40.013705
+                ],
+                [
+                  -78.91444,
+                  40.008077
+                ],
+                [
+                  -78.917765,
+                  40.002406
+                ],
+                [
+                  -78.924302,
+                  39.999711
+                ],
+                [
+                  -78.926863,
+                  39.996709
+                ],
+                [
+                  -78.927459,
+                  39.992293
+                ],
+                [
+                  -78.931058,
+                  39.989617
+                ],
+                [
+                  -78.939056,
+                  39.979322
+                ],
+                [
+                  -78.937315,
+                  39.978388
+                ],
+                [
+                  -78.959014,
+                  39.985618
+                ],
+                [
+                  -78.98381,
+                  39.990498
+                ],
+                [
+                  -79.027554,
+                  39.994172
+                ],
+                [
+                  -79.047343,
+                  40.000638
+                ],
+                [
+                  -79.053886,
+                  40.00545
+                ],
+                [
+                  -79.067665,
+                  40.009015
+                ],
+                [
+                  -79.077207,
+                  40.018426
+                ],
+                [
+                  -79.084046,
+                  40.022424
+                ],
+                [
+                  -79.082254,
+                  40.021947
+                ],
+                [
+                  -79.081149,
+                  40.017442
+                ],
+                [
+                  -79.078211,
+                  40.016109
+                ],
+                [
+                  -79.077904,
+                  40.017991
+                ]
+              ]
+            ]
+          },
+          "routing_source": [
+            "https://router.project-osrm.org/route/v1/driving/-77.1745,40.206;-78.8855,40.0556?overview=simplified&geometries=geojson&steps=false",
+            "https://router.project-osrm.org/route/v1/driving/-78.8855,40.0556;-79.078,40.018?overview=simplified&geometries=geojson&steps=false"
+          ]
+        }
+      },
+      "address": "Flight 93 National Memorial Visitor Center, 6424 Lincoln Highway, Stoystown, Pennsylvania",
+      "country": "US",
+      "coordinates": [
+        -78.8855,
+        40.0556
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_parking_point",
+      "image_ids": [
+        "img-flight-93-1",
+        "img-flight-93-2",
+        "img-flight-93-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete"
+    },
+    {
+      "id": "nationality-rooms",
+      "name": "Nationality Rooms at the Cathedral of Learning",
+      "kind": "architecture-inside-a-skyscraper",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "visit_date": "2026-10-08",
+      "summary": "Inside a 42-story Gothic tower, immigrant communities in Pittsburgh built classrooms in the style of their home countries. Carved wood, icons, stone and symbols, and every room is different.",
+      "why_go": "A Gothic skyscraper full of classrooms, each built by a different immigrant community to look like home.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's best architecture stop of the route and Stivka's religious art. Gora gets history built by the communities themselves.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "orthodox_spiritual"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-nationality"
+      ],
+      "reservation": "reserve",
+      "hours": {
+        "opens": "10:30",
+        "closes": "12:00",
+        "status": "verified-current",
+        "note": "Book the Thursday Newest Rooms tour; products and room access can change with university classes."
+      },
+      "cost": {
+        "amount_per_person": 10,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Cathedral of Learning, 4200 Fifth Avenue, Pittsburgh, Pennsylvania",
+      "country": "US",
+      "coordinates": [
+        -79.9533,
+        40.4444
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_parking_point",
+      "image_ids": [
+        "img-nationality-rooms-1",
+        "img-nationality-rooms-2",
+        "img-nationality-rooms-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "postnatural-history",
+      "name": "Center for PostNatural History",
+      "kind": "science-oddity-museum",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "visit_date": "2026-10-08",
+      "summary": "A tiny, serious museum about living things that humans have deliberately changed, from engineered insects to domesticated animals.",
+      "why_go": "A small room of creatures people redesigned on purpose. It feels like a cabinet of evidence someone was not meant to show you.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Viki's taste in strange museums and Gora's interest in what mainstream science displays leave out.",
+      "categories": [
+        "unusual_creative",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 75,
+      "source_ids": [
+        "src-postnatural"
+      ],
+      "reservation": "appointment",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "verified-current",
+        "note": "Public hours are Friday-Sunday; Thursday requires a confirmed private appointment and is never assumed."
+      },
+      "cost": {
+        "amount_per_person": 10,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "replacement",
+      "replacement_reason": "Use only with a confirmed Thursday appointment when the group values biological strangeness over monumental architecture.",
+      "replacement": {
+        "day": 5,
+        "replaces_place_ids": [
+          "nationality-rooms"
+        ],
+        "route_variant_id": "replacement-d5-postnatural",
+        "reason": "Use only with a confirmed Thursday appointment when the group values biological strangeness over monumental architecture.",
+        "route_variant": {
+          "id": "replacement-d5-postnatural",
+          "day": 5,
+          "replacement_place_id": "postnatural-history",
+          "replaces_place_ids": [
+            "nationality-rooms"
+          ],
+          "nodes": [
+            "somerset-lodging",
+            "postnatural-history",
+            "bicycle-heaven",
+            "randyland",
+            "church-brew",
+            "wheeling-lodging"
+          ],
+          "node_sequence": [
+            "somerset-lodging",
+            "postnatural-history",
+            "bicycle-heaven",
+            "randyland",
+            "church-brew",
+            "wheeling-lodging"
+          ],
+          "baseline_total_miles": 136.7,
+          "baseline_total_minutes": 192,
+          "delta_miles": -1.6,
+          "delta_minutes": 0,
+          "cap_minutes": 210,
+          "cap_status": "passes-baseline-cap",
+          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+          "non_driving_travel_minutes": 0,
+          "total_travel_minutes_excluding_queues": 192,
+          "legs": [
+            {
+              "id": "replacement-d5-postnatural-leg-1",
+              "from": "somerset-lodging",
+              "to": "postnatural-history",
+              "mode": "driving",
+              "distance_miles": 66.4,
+              "baseline_minutes": 84,
+              "display_duration_minutes": 84,
+              "counts_toward_drive_cap": true
+            },
+            {
+              "id": "replacement-d5-postnatural-leg-2",
+              "from": "postnatural-history",
+              "to": "bicycle-heaven",
+              "mode": "driving",
+              "distance_miles": 5.4,
+              "baseline_minutes": 11,
+              "display_duration_minutes": 11,
+              "counts_toward_drive_cap": true
+            },
+            {
+              "id": "replacement-d5-postnatural-leg-3",
+              "from": "bicycle-heaven",
+              "to": "randyland",
+              "mode": "driving",
+              "distance_miles": 0.6,
+              "baseline_minutes": 3,
+              "display_duration_minutes": 3,
+              "counts_toward_drive_cap": true
+            },
+            {
+              "id": "replacement-d5-postnatural-leg-4",
+              "from": "randyland",
+              "to": "church-brew",
+              "mode": "driving",
+              "distance_miles": 3.7,
+              "baseline_minutes": 10,
+              "display_duration_minutes": 10,
+              "counts_toward_drive_cap": true
+            },
+            {
+              "id": "replacement-d5-postnatural-leg-5",
+              "from": "church-brew",
+              "to": "wheeling-lodging",
+              "mode": "driving",
+              "distance_miles": 60.5,
+              "baseline_minutes": 84,
+              "display_duration_minutes": 84,
+              "counts_toward_drive_cap": true
+            }
+          ],
+          "geometry": {
+            "type": "MultiLineString",
+            "coordinates": [
+              [
+                [
+                  -79.077904,
+                  40.017991
+                ],
+                [
+                  -79.10461,
+                  40.040515
+                ],
+                [
+                  -79.118074,
+                  40.042713
+                ],
+                [
+                  -79.143578,
+                  40.065128
+                ],
+                [
+                  -79.1972,
+                  40.085881
+                ],
+                [
+                  -79.206187,
+                  40.103908
+                ],
+                [
+                  -79.222332,
+                  40.10805
+                ],
+                [
+                  -79.237408,
+                  40.105099
+                ],
+                [
+                  -79.249754,
+                  40.112815
+                ],
+                [
+                  -79.276564,
+                  40.119074
+                ],
+                [
+                  -79.291922,
+                  40.129087
+                ],
+                [
+                  -79.370952,
+                  40.107101
+                ],
+                [
+                  -79.378498,
+                  40.108218
+                ],
+                [
+                  -79.396082,
+                  40.116121
+                ],
+                [
+                  -79.410683,
+                  40.138355
+                ],
+                [
+                  -79.432681,
+                  40.154495
+                ],
+                [
+                  -79.449854,
+                  40.150235
+                ],
+                [
+                  -79.466117,
+                  40.151961
+                ],
+                [
+                  -79.528983,
+                  40.183216
+                ],
+                [
+                  -79.537403,
+                  40.191825
+                ],
+                [
+                  -79.581048,
+                  40.211892
+                ],
+                [
+                  -79.593636,
+                  40.213528
+                ],
+                [
+                  -79.624673,
+                  40.238865
+                ],
+                [
+                  -79.636378,
+                  40.243363
+                ],
+                [
+                  -79.644619,
+                  40.260425
+                ],
+                [
+                  -79.667255,
+                  40.268188
+                ],
+                [
+                  -79.672853,
+                  40.304328
+                ],
+                [
+                  -79.692254,
+                  40.338541
+                ],
+                [
+                  -79.67921,
+                  40.361035
+                ],
+                [
+                  -79.675493,
+                  40.380299
+                ],
+                [
+                  -79.692976,
+                  40.396825
+                ],
+                [
+                  -79.727708,
+                  40.411941
+                ],
+                [
+                  -79.747741,
+                  40.436142
+                ],
+                [
+                  -79.76998,
+                  40.444769
+                ],
+                [
+                  -79.832844,
+                  40.440483
+                ],
+                [
+                  -79.84588,
+                  40.445687
+                ],
+                [
+                  -79.867633,
+                  40.434106
+                ],
+                [
+                  -79.921402,
+                  40.460221
+                ],
+                [
+                  -79.945101,
+                  40.465293
+                ]
+              ],
+              [
+                [
+                  -79.945101,
+                  40.465293
+                ],
+                [
+                  -79.951939,
+                  40.466179
+                ],
+                [
+                  -79.957953,
+                  40.465178
+                ],
+                [
+                  -79.963704,
+                  40.46984
+                ],
+                [
+                  -79.971496,
+                  40.474534
+                ],
+                [
+                  -79.973226,
+                  40.472244
+                ],
+                [
+                  -79.975656,
+                  40.470042
+                ],
+                [
+                  -79.98168,
+                  40.462519
+                ],
+                [
+                  -79.984353,
+                  40.459847
+                ],
+                [
+                  -79.987201,
+                  40.457965
+                ],
+                [
+                  -79.99536,
+                  40.454529
+                ],
+                [
+                  -80.003669,
+                  40.452946
+                ],
+                [
+                  -80.004083,
+                  40.454171
+                ],
+                [
+                  -80.004409,
+                  40.454249
+                ],
+                [
+                  -80.007968,
+                  40.453545
+                ],
+                [
+                  -80.007638,
+                  40.4522
+                ],
+                [
+                  -80.011175,
+                  40.45158
+                ],
+                [
+                  -80.013196,
+                  40.452381
+                ],
+                [
+                  -80.014013,
+                  40.452429
+                ],
+                [
+                  -80.016471,
+                  40.459291
+                ],
+                [
+                  -80.017052,
+                  40.45965
+                ],
+                [
+                  -80.018983,
+                  40.459279
+                ],
+                [
+                  -80.019124,
+                  40.459695
+                ]
+              ],
+              [
+                [
+                  -80.019124,
+                  40.459695
+                ],
+                [
+                  -80.018983,
+                  40.459279
+                ],
+                [
+                  -80.017052,
+                  40.45965
+                ],
+                [
+                  -80.016962,
+                  40.4596
+                ],
+                [
+                  -80.016638,
+                  40.459412
+                ],
+                [
+                  -80.016373,
+                  40.459179
+                ],
+                [
+                  -80.015932,
+                  40.457854
+                ],
+                [
+                  -80.011872,
+                  40.458621
+                ],
+                [
+                  -80.011515,
+                  40.457537
+                ],
+                [
+                  -80.012042,
+                  40.457453
+                ]
+              ],
+              [
+                [
+                  -80.012042,
+                  40.457453
+                ],
+                [
+                  -80.013531,
+                  40.457185
+                ],
+                [
+                  -80.012602,
+                  40.454333
+                ],
+                [
+                  -80.002647,
+                  40.456221
+                ],
+                [
+                  -80.001501,
+                  40.453322
+                ],
+                [
+                  -79.995095,
+                  40.454488
+                ],
+                [
+                  -79.993717,
+                  40.455233
+                ],
+                [
+                  -79.992424,
+                  40.455349
+                ],
+                [
+                  -79.991633,
+                  40.455936
+                ],
+                [
+                  -79.987118,
+                  40.457913
+                ],
+                [
+                  -79.984685,
+                  40.459483
+                ],
+                [
+                  -79.983065,
+                  40.460909
+                ],
+                [
+                  -79.979657,
+                  40.464711
+                ],
+                [
+                  -79.974486,
+                  40.462416
+                ],
+                [
+                  -79.971365,
+                  40.4598
+                ],
+                [
+                  -79.965359,
+                  40.463906
+                ],
+                [
+                  -79.963301,
+                  40.464291
+                ],
+                [
+                  -79.963233,
+                  40.464014
+                ],
+                [
+                  -79.964137,
+                  40.463283
+                ],
+                [
+                  -79.96416,
+                  40.462515
+                ]
+              ],
+              [
+                [
+                  -79.96416,
+                  40.462515
+                ],
+                [
+                  -79.971365,
+                  40.4598
+                ],
+                [
+                  -79.979917,
+                  40.464827
+                ],
+                [
+                  -79.998496,
+                  40.450596
+                ],
+                [
+                  -80.008003,
+                  40.44832
+                ],
+                [
+                  -80.009774,
+                  40.439849
+                ],
+                [
+                  -80.02944,
+                  40.429174
+                ],
+                [
+                  -80.03253,
+                  40.420434
+                ],
+                [
+                  -80.048986,
+                  40.420613
+                ],
+                [
+                  -80.071144,
+                  40.410616
+                ],
+                [
+                  -80.078462,
+                  40.412807
+                ],
+                [
+                  -80.106475,
+                  40.398578
+                ],
+                [
+                  -80.097192,
+                  40.381001
+                ],
+                [
+                  -80.104938,
+                  40.373541
+                ],
+                [
+                  -80.118242,
+                  40.370226
+                ],
+                [
+                  -80.118538,
+                  40.347136
+                ],
+                [
+                  -80.134052,
+                  40.337157
+                ],
+                [
+                  -80.167649,
+                  40.299509
+                ],
+                [
+                  -80.169559,
+                  40.288437
+                ],
+                [
+                  -80.158712,
+                  40.27659
+                ],
+                [
+                  -80.161449,
+                  40.267575
+                ],
+                [
+                  -80.20335,
+                  40.243615
+                ],
+                [
+                  -80.21597,
+                  40.218262
+                ],
+                [
+                  -80.224942,
+                  40.211295
+                ],
+                [
+                  -80.24482,
+                  40.208104
+                ],
+                [
+                  -80.248283,
+                  40.189026
+                ],
+                [
+                  -80.265329,
+                  40.180292
+                ],
+                [
+                  -80.283961,
+                  40.15579
+                ],
+                [
+                  -80.307547,
+                  40.145995
+                ],
+                [
+                  -80.325194,
+                  40.131511
+                ],
+                [
+                  -80.354989,
+                  40.131216
+                ],
+                [
+                  -80.365812,
+                  40.124666
+                ],
+                [
+                  -80.400181,
+                  40.121098
+                ],
+                [
+                  -80.418765,
+                  40.113624
+                ],
+                [
+                  -80.436154,
+                  40.116832
+                ],
+                [
+                  -80.462771,
+                  40.113366
+                ],
+                [
+                  -80.479677,
+                  40.119163
+                ],
+                [
+                  -80.508006,
+                  40.098894
+                ],
+                [
+                  -80.536429,
+                  40.090641
+                ],
+                [
+                  -80.568274,
+                  40.067403
+                ],
+                [
+                  -80.591595,
+                  40.062988
+                ],
+                [
+                  -80.609216,
+                  40.042721
+                ],
+                [
+                  -80.655393,
+                  40.0447
+                ],
+                [
+                  -80.676481,
+                  40.054023
+                ],
+                [
+                  -80.685969,
+                  40.065553
+                ],
+                [
+                  -80.703515,
+                  40.07448
+                ],
+                [
+                  -80.72433,
+                  40.072495
+                ],
+                [
+                  -80.72453,
+                  40.067899
+                ]
+              ]
+            ]
+          },
+          "routing_source": [
+            "https://router.project-osrm.org/route/v1/driving/-79.078,40.018;-79.9451,40.4653?overview=simplified&geometries=geojson&steps=false",
+            "https://router.project-osrm.org/route/v1/driving/-79.9451,40.4653;-80.0191,40.4597?overview=simplified&geometries=geojson&steps=false",
+            "https://router.project-osrm.org/route/v1/driving/-80.0191,40.4597;-80.012,40.4573?overview=simplified&geometries=geojson&steps=false",
+            "https://router.project-osrm.org/route/v1/driving/-80.012,40.4573;-79.9643,40.4625?overview=simplified&geometries=geojson&steps=false",
+            "https://router.project-osrm.org/route/v1/driving/-79.9643,40.4625;-80.7247,40.0679?overview=simplified&geometries=geojson&steps=false"
+          ]
+        }
+      },
+      "address": "Center for PostNatural History, 4913 Penn Avenue, Pittsburgh, Pennsylvania",
+      "country": "US",
+      "coordinates": [
+        -79.9451,
+        40.4653
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_parking_point",
+      "image_ids": [
+        "img-postnatural-history-1",
+        "img-postnatural-history-2",
+        "img-postnatural-history-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete"
+    },
+    {
+      "id": "bicycle-heaven",
+      "name": "Bicycle Heaven",
+      "kind": "maximalist-bike-museum",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "visit_date": "2026-10-08",
+      "summary": "Two floors packed with thousands of old, rare and film bicycles, with wheels covering the ceiling. The Pee-wee Herman bike is here, along with rooms of bright sprockets.",
+      "why_go": "Thousands of bicycles, floor to ceiling, free to walk into. Pure visual overload in the best way.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Viki and Paco above all. Gora and Stivka get design, mechanics and film history.",
+      "categories": [
+        "unusual_creative",
+        "architecture_nature_photogenic",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 85,
+      "source_ids": [
+        "src-bicycle"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "19:00",
+        "status": "verified-current",
+        "note": "Daily hours; the venue currently warns that its elevator is broken, so reconfirm accessibility."
+      },
+      "cost": {
+        "amount_per_person": 15,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Bicycle Heaven, 1800 Preble Avenue, Pittsburgh, Pennsylvania",
+      "country": "US",
+      "coordinates": [
+        -80.0191,
+        40.4597
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_parking_point",
+      "image_ids": [
+        "img-bicycle-heaven-1",
+        "img-bicycle-heaven-2",
+        "img-bicycle-heaven-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "randyland",
+      "name": "Randyland",
+      "kind": "outsider-art-yard",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "visit_date": "2026-10-08",
+      "summary": "A row house and courtyard covered in hand-painted murals, mirrors and mannequins, built up by one artist over decades.",
+      "why_go": "One man painted a whole corner of the city bright yellow and pink, and left the gate open. Free, fast and joyful.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Viki's instant photograph and for the group's need to breathe between heavier museums.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "unusual_creative",
+        "local_culture"
+      ],
+      "duration_minutes": 35,
+      "source_ids": [
+        "src-randyland",
+        "src-forum-pittsburgh"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "same-day-check",
+        "note": "Commonly open daily in daylight and free, but no reliable exact-date official hours are published; call or check same day."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Free; donation encouraged."
+      },
+      "priority": "supporting",
+      "address": "Randyland, 1501 Arch Street, Pittsburgh, Pennsylvania",
+      "country": "US",
+      "coordinates": [
+        -80.012,
+        40.4573
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_parking_point",
+      "image_ids": [
+        "img-randyland-1",
+        "img-randyland-2",
+        "img-randyland-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "church-brew",
+      "name": "The Church Brew Works",
+      "kind": "church-adaptive-reuse-dinner",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "visit_date": "2026-10-08",
+      "summary": "A 19th-century church that is no longer consecrated, now a busy restaurant and brewery. The stained glass, the columns and the altar area are all still there, with the brewing tanks where the altar stood.",
+      "why_go": "Dinner in a real church, with the brewing tanks standing where the altar used to be. Nobody pretends it is still sacred.",
+      "best_for": [
+        "stivka",
+        "viki"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "gora"
+      ],
+      "best_fit_note": "Good for Viki's dramatic room and Stivka's interest in the architecture. A social evening that stays calm.",
+      "categories": [
+        "food_cafes",
+        "architecture_nature_photogenic",
+        "social_nightlife_live"
+      ],
+      "duration_minutes": 75,
+      "source_ids": [
+        "src-churchbrew"
+      ],
+      "reservation": "reserve-recommended",
+      "hours": {
+        "opens": "16:00",
+        "closes": "22:15",
+        "status": "verified-current",
+        "note": "Thursday opening; kitchen currently closes 20:45, so this is an early dinner."
+      },
+      "cost": {
+        "amount_per_person": 35,
+        "status": "verified-current",
+        "note": "Flexible dinner allowance; nightlife is excluded from the route budget."
+      },
+      "priority": "anchor",
+      "address": "Church Brew Works, 3525 Liberty Avenue, Pittsburgh, Pennsylvania",
+      "country": "US",
+      "coordinates": [
+        -79.9643,
+        40.4625
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_parking_point",
+      "image_ids": [
+        "img-church-brew-1",
+        "img-church-brew-2",
+        "img-church-brew-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "wheeling-heritage-port",
+      "name": "Wheeling Heritage Port & Riverfront",
+      "kind": "blue-hour-riverfront",
+      "city": "Wheeling",
+      "state": "WV",
+      "visit_date": "2026-10-08",
+      "summary": "A short riverside walk where the Ohio River, the old freight-era skyline and the suspension bridge all line up.",
+      "why_go": "Twenty minutes after checking in, you get a river, an old iron bridge and a whole skyline in one view.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's bridge photos and for Gora and Stivka's quiet reset by the water.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "quiet_reset",
+        "local_culture"
+      ],
+      "duration_minutes": 40,
+      "source_ids": [
+        "src-wheeling-trail",
+        "src-wheeling-bridge"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "verified-public-space",
+        "note": "Public riverfront; bridge preservation status can change, so the plan promises the viewpoint—not a bridge crossing."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "supporting",
+      "address": "Wheeling Heritage Port, 1201 Water Street, Wheeling, West Virginia",
+      "country": "US",
+      "coordinates": [
+        -80.7268,
+        40.0695
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_parking_point",
+      "image_ids": [
+        "img-wheeling-heritage-port-1",
+        "img-wheeling-heritage-port-2",
+        "img-wheeling-heritage-port-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "mothman-museum",
+      "name": "Mothman Museum",
+      "kind": "cryptid-evidence-cabinet",
+      "city": "Point Pleasant",
+      "state": "WV",
+      "visit_date": "2026-10-09",
+      "summary": "Newspaper cuttings, witness statements, film props and decades of local material turn the Mothman story into a proper archive rather than a roadside joke.",
+      "why_go": "The whole strange story in one room, with the original newspapers. You can decide for yourself what to believe.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Viki's strange museum and for Gora, who can separate the evidence from the legend.",
+      "categories": [
+        "hidden_history_folklore",
+        "unusual_creative",
+        "local_culture"
+      ],
+      "duration_minutes": 60,
+      "source_ids": [
+        "src-mothman"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "18:00",
+        "status": "verified-current",
+        "note": "Friday hours."
+      },
+      "cost": {
+        "amount_per_person": 4.99,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Mothman Museum, 400 Main Street, Point Pleasant, West Virginia",
+      "country": "US",
+      "coordinates": [
+        -82.1371,
+        38.8446
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_parking_point",
+      "image_ids": [
+        "img-mothman-museum-1",
+        "img-mothman-museum-2",
+        "img-mothman-museum-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "mothman-statue",
+      "name": "Mothman Statue",
+      "kind": "roadside-icon",
+      "city": "Point Pleasant",
+      "state": "WV",
+      "visit_date": "2026-10-09",
+      "summary": "A chrome statue of a winged creature with red eyes stands in the middle of town, as Point Pleasant's public emblem.",
+      "why_go": "The group photograph of the trip. It works because the museum has already told you the real story behind it.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Viki and Paco. Twenty minutes, and everyone will want to be in the picture.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "unusual_creative"
+      ],
+      "duration_minutes": 20,
+      "source_ids": [
+        "src-pointpleasant"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "verified-public-space",
+        "note": "Outdoor public statue; open at all hours."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "supporting",
+      "address": "Mothman Statue, 201 Fourth Street, Point Pleasant, West Virginia",
+      "country": "US",
+      "coordinates": [
+        -82.137,
+        38.8443
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_parking_point",
+      "image_ids": [
+        "img-mothman-statue-1",
+        "img-mothman-statue-2",
+        "img-mothman-statue-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "tu-endie-wei",
+      "name": "Tu-Endie-Wei State Park",
+      "kind": "river-confluence-battlefield",
+      "city": "Point Pleasant",
+      "state": "WV",
+      "visit_date": "2026-10-09",
+      "summary": "A small park at the exact point where the Ohio and Kanawha rivers meet. It holds a battle monument, a memorial to the Shawnee leader Cornstalk, and views across both rivers.",
+      "why_go": "The documented history under Point Pleasant's folklore, at the point where two rivers join.",
+      "best_for": [
+        "gora",
+        "stivka"
+      ],
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Gora's real record and Stivka's quiet memorial. Viki gets the strongest river composition of the day.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_nature_photogenic",
+        "quiet_reset"
+      ],
+      "duration_minutes": 40,
+      "source_ids": [
+        "src-tuendiewei"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "08:00",
+        "closes": "22:00",
+        "status": "verified-current",
+        "note": "Park is open; Mansion House facilities normally end after the first October weekend, so October 9 is exterior-only."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Tu-Endie-Wei State Park, 1 Main Street, Point Pleasant, West Virginia",
+      "country": "US",
+      "coordinates": [
+        -82.142,
+        38.8399
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_parking_point",
+      "image_ids": [
+        "img-tu-endie-wei-1",
+        "img-tu-endie-wei-2",
+        "img-tu-endie-wei-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "mcclintic-tnt",
+      "name": "McClintic Wildlife Management Area / TNT Area",
+      "kind": "wartime-ruins-wetland",
+      "city": "Point Pleasant",
+      "state": "WV",
+      "visit_date": "2026-10-09",
+      "summary": "Wetland and forest have grown over parts of a Second World War explosives plant. Its concrete bunkers are where the first Mothman sightings were reported.",
+      "why_go": "Concrete bunkers being swallowed by forest, in the exact place the story started. Uncanny without needing any ghost talk.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Gora's industrial truth and Viki's atmosphere. We go respectfully, in daylight, and check hunting seasons.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_nature_photogenic",
+        "quiet_reset"
+      ],
+      "duration_minutes": 75,
+      "source_ids": [
+        "src-pointpleasant",
+        "src-wvdnr",
+        "src-forum-wv"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "safety-gated",
+        "note": "Public WMA, but October hunting and controlled-waterfowl rules apply. Visit after noon, wear blaze orange, stay on legal roads/trails, never enter sealed bunkers and check current DNR notices."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "McClintic Wildlife Management Area, 6182 Ohio River Road, Point Pleasant, West Virginia",
+      "country": "US",
+      "coordinates": [
+        -82.1,
+        38.9265
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_parking_point",
+      "image_ids": [
+        "img-mcclintic-tnt-1",
+        "img-mcclintic-tnt-2",
+        "img-mcclintic-tnt-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "wv-farm-museum",
+      "name": "West Virginia State Farm Museum",
+      "kind": "open-air-living-history",
+      "city": "Point Pleasant",
+      "state": "WV",
+      "visit_date": "2026-10-09",
+      "summary": "Dozens of relocated farm buildings, a log church, a blacksmith shop, machinery and village streets preserve Appalachian working life without turning it into a theme park.",
+      "why_go": "A whole working village rebuilt from real buildings, including a log church. Bright, open and easy to walk.",
+      "best_for": [
+        "stivka",
+        "viki"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Stivka's log church and for everyone's sense of the region. The safe daylight choice if the TNT area is closed.",
+      "categories": [
+        "local_culture",
+        "hidden_history_folklore",
+        "architecture_nature_photogenic"
+      ],
+      "duration_minutes": 80,
+      "source_ids": [
+        "src-farm",
+        "src-pointpleasant"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "09:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Friday hours through November 1 under the current seasonal schedule."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "replacement",
+      "replacement_reason": "The proper replacement whenever hunting, mud, visibility or group comfort makes the TNT ruins a bad idea.",
+      "replacement": {
+        "day": 6,
+        "replaces_place_ids": [
+          "mcclintic-tnt"
+        ],
+        "route_variant_id": "replacement-d6-farm-museum",
+        "reason": "The proper replacement whenever hunting, mud, visibility or group comfort makes the TNT ruins a bad idea.",
+        "route_variant": {
+          "id": "replacement-d6-farm-museum",
+          "day": 6,
+          "replacement_place_id": "wv-farm-museum",
+          "replaces_place_ids": [
+            "mcclintic-tnt"
+          ],
+          "nodes": [
+            "wheeling-lodging",
+            "mothman-museum",
+            "mothman-statue",
+            "tu-endie-wei",
+            "wv-farm-museum",
+            "point-pleasant-lodging"
+          ],
+          "node_sequence": [
+            "wheeling-lodging",
+            "mothman-museum",
+            "mothman-statue",
+            "tu-endie-wei",
+            "wv-farm-museum",
+            "point-pleasant-lodging"
+          ],
+          "baseline_total_miles": 159.2,
+          "baseline_total_minutes": 202,
+          "delta_miles": 1.7,
+          "delta_minutes": 6,
+          "cap_minutes": 210,
+          "cap_status": "passes-baseline-cap",
+          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+          "non_driving_travel_minutes": 0,
+          "total_travel_minutes_excluding_queues": 202,
+          "legs": [
+            {
+              "id": "replacement-d6-farm-museum-leg-1",
+              "from": "wheeling-lodging",
+              "to": "mothman-museum",
+              "mode": "driving",
+              "distance_miles": 143.9,
+              "baseline_minutes": 170,
+              "display_duration_minutes": 170,
+              "counts_toward_drive_cap": true
+            },
+            {
+              "id": "replacement-d6-farm-museum-leg-2",
+              "from": "mothman-museum",
+              "to": "mothman-statue",
+              "mode": "driving",
+              "distance_miles": 0,
+              "baseline_minutes": 0,
+              "display_duration_minutes": 0,
+              "counts_toward_drive_cap": true
+            },
+            {
+              "id": "replacement-d6-farm-museum-leg-3",
+              "from": "mothman-statue",
+              "to": "tu-endie-wei",
+              "mode": "driving",
+              "distance_miles": 0.5,
+              "baseline_minutes": 2,
+              "display_duration_minutes": 2,
+              "counts_toward_drive_cap": true
+            },
+            {
+              "id": "replacement-d6-farm-museum-leg-4",
+              "from": "tu-endie-wei",
+              "to": "wv-farm-museum",
+              "mode": "driving",
+              "distance_miles": 7.6,
+              "baseline_minutes": 16,
+              "display_duration_minutes": 16,
+              "counts_toward_drive_cap": true
+            },
+            {
+              "id": "replacement-d6-farm-museum-leg-5",
+              "from": "wv-farm-museum",
+              "to": "point-pleasant-lodging",
+              "mode": "driving",
+              "distance_miles": 7.1,
+              "baseline_minutes": 14,
+              "display_duration_minutes": 14,
+              "counts_toward_drive_cap": true
+            }
+          ],
+          "geometry": {
+            "type": "MultiLineString",
+            "coordinates": [
+              [
+                [
+                  -80.72453,
+                  40.067899
+                ],
+                [
+                  -80.732317,
+                  39.977289
+                ],
+                [
+                  -80.753908,
+                  39.956927
+                ],
+                [
+                  -80.748054,
+                  39.911565
+                ],
+                [
+                  -80.76013,
+                  39.905094
+                ],
+                [
+                  -80.796686,
+                  39.911122
+                ],
+                [
+                  -80.785581,
+                  39.86946
+                ],
+                [
+                  -80.81566,
+                  39.845696
+                ],
+                [
+                  -80.82225,
+                  39.796477
+                ],
+                [
+                  -80.861494,
+                  39.767871
+                ],
+                [
+                  -80.822131,
+                  39.715181
+                ],
+                [
+                  -80.832707,
+                  39.700284
+                ],
+                [
+                  -80.854222,
+                  39.692822
+                ],
+                [
+                  -80.857446,
+                  39.637912
+                ],
+                [
+                  -80.867888,
+                  39.625295
+                ],
+                [
+                  -80.884625,
+                  39.614327
+                ],
+                [
+                  -80.915967,
+                  39.614664
+                ],
+                [
+                  -80.984426,
+                  39.574258
+                ],
+                [
+                  -81.080512,
+                  39.500496
+                ],
+                [
+                  -81.124241,
+                  39.444768
+                ],
+                [
+                  -81.177345,
+                  39.4278
+                ],
+                [
+                  -81.21077,
+                  39.385155
+                ],
+                [
+                  -81.255554,
+                  39.384081
+                ],
+                [
+                  -81.360264,
+                  39.334603
+                ],
+                [
+                  -81.404941,
+                  39.340075
+                ],
+                [
+                  -81.479139,
+                  39.314759
+                ],
+                [
+                  -81.496453,
+                  39.290433
+                ],
+                [
+                  -81.500971,
+                  39.239797
+                ],
+                [
+                  -81.527941,
+                  39.224048
+                ],
+                [
+                  -81.520325,
+                  39.206016
+                ],
+                [
+                  -81.549525,
+                  39.141412
+                ],
+                [
+                  -81.545509,
+                  39.083475
+                ],
+                [
+                  -81.563003,
+                  39.067195
+                ],
+                [
+                  -81.595566,
+                  39.055736
+                ],
+                [
+                  -81.592229,
+                  39.038255
+                ],
+                [
+                  -81.626751,
+                  39.005296
+                ],
+                [
+                  -81.686737,
+                  38.986225
+                ],
+                [
+                  -81.719189,
+                  38.9247
+                ],
+                [
+                  -81.742552,
+                  38.939645
+                ],
+                [
+                  -81.766397,
+                  38.917711
+                ],
+                [
+                  -81.823718,
+                  38.920425
+                ],
+                [
+                  -81.839084,
+                  38.889497
+                ],
+                [
+                  -81.873444,
+                  38.877946
+                ],
+                [
+                  -81.890244,
+                  38.855907
+                ],
+                [
+                  -81.921841,
+                  38.838433
+                ],
+                [
+                  -81.95369,
+                  38.848721
+                ],
+                [
+                  -81.998139,
+                  38.839719
+                ],
+                [
+                  -82.029542,
+                  38.85332
+                ],
+                [
+                  -82.054075,
+                  38.84314
+                ],
+                [
+                  -82.076581,
+                  38.848651
+                ],
+                [
+                  -82.091441,
+                  38.836823
+                ],
+                [
+                  -82.10634,
+                  38.845524
+                ],
+                [
+                  -82.122723,
+                  38.834869
+                ],
+                [
+                  -82.137129,
+                  38.844604
+                ]
+              ],
+              [
+                [
+                  -82.137129,
+                  38.844604
+                ],
+                [
+                  -82.137171,
+                  38.844435
+                ],
+                [
+                  -82.136974,
+                  38.844406
+                ]
+              ],
+              [
+                [
+                  -82.136974,
+                  38.844406
+                ],
+                [
+                  -82.137171,
+                  38.844435
+                ],
+                [
+                  -82.137676,
+                  38.842483
+                ],
+                [
+                  -82.138108,
+                  38.84133
+                ],
+                [
+                  -82.1392,
+                  38.841621
+                ],
+                [
+                  -82.140006,
+                  38.839722
+                ],
+                [
+                  -82.140762,
+                  38.839915
+                ]
+              ],
+              [
+                [
+                  -82.140762,
+                  38.839915
+                ],
+                [
+                  -82.1392,
+                  38.841621
+                ],
+                [
+                  -82.138108,
+                  38.84133
+                ],
+                [
+                  -82.135563,
+                  38.852446
+                ],
+                [
+                  -82.132757,
+                  38.853576
+                ],
+                [
+                  -82.126804,
+                  38.863725
+                ],
+                [
+                  -82.121719,
+                  38.889908
+                ],
+                [
+                  -82.123307,
+                  38.900072
+                ],
+                [
+                  -82.117701,
+                  38.909709
+                ],
+                [
+                  -82.109836,
+                  38.920273
+                ],
+                [
+                  -82.102957,
+                  38.923195
+                ],
+                [
+                  -82.100099,
+                  38.926423
+                ],
+                [
+                  -82.087303,
+                  38.919814
+                ]
+              ],
+              [
+                [
+                  -82.087303,
+                  38.919814
+                ],
+                [
+                  -82.100099,
+                  38.926423
+                ],
+                [
+                  -82.102957,
+                  38.923195
+                ],
+                [
+                  -82.107116,
+                  38.921997
+                ],
+                [
+                  -82.109836,
+                  38.920273
+                ],
+                [
+                  -82.117701,
+                  38.909709
+                ],
+                [
+                  -82.123307,
+                  38.900072
+                ],
+                [
+                  -82.121719,
+                  38.889908
+                ],
+                [
+                  -82.123658,
+                  38.883537
+                ],
+                [
+                  -82.126804,
+                  38.863725
+                ],
+                [
+                  -82.132757,
+                  38.853576
+                ],
+                [
+                  -82.135563,
+                  38.852446
+                ],
+                [
+                  -82.137085,
+                  38.844783
+                ]
+              ]
+            ]
+          },
+          "routing_source": [
+            "https://router.project-osrm.org/route/v1/driving/-80.7247,40.0679;-82.1371,38.8446?overview=simplified&geometries=geojson&steps=false",
+            "https://router.project-osrm.org/route/v1/driving/-82.1371,38.8446;-82.137,38.8443?overview=simplified&geometries=geojson&steps=false",
+            "https://router.project-osrm.org/route/v1/driving/-82.137,38.8443;-82.142,38.8399?overview=simplified&geometries=geojson&steps=false",
+            "https://router.project-osrm.org/route/v1/driving/-82.142,38.8399;-82.0875,38.9196?overview=simplified&geometries=geojson&steps=false",
+            "https://router.project-osrm.org/route/v1/driving/-82.0875,38.9196;-82.1372,38.8448?overview=simplified&geometries=geojson&steps=false"
+          ]
+        }
+      },
+      "address": "West Virginia State Farm Museum, 1458 Fairground Road, Point Pleasant, West Virginia",
+      "country": "US",
+      "coordinates": [
+        -82.0875,
+        38.9196
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_parking_point",
+      "image_ids": [
+        "img-wv-farm-museum-1",
+        "img-wv-farm-museum-2",
+        "img-wv-farm-museum-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete"
+    },
+    {
+      "id": "flatwoods-monster",
+      "name": "Flatwoods Monster Museum",
+      "kind": "small-town-ufo-folklore",
+      "city": "Sutton",
+      "state": "WV",
+      "visit_date": "2026-10-10",
+      "summary": "A free shop-front museum gathering witness sketches, newspapers and local art around the 1952 encounter that produced the spade-headed creature known as the Braxie.",
+      "why_go": "A whole town turned one strange night in 1952 into its own folk art. Free, funny and oddly sincere.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Viki's strange visuals and for Gora, who can compare the story with the documents that survive.",
+      "categories": [
+        "hidden_history_folklore",
+        "unusual_creative",
+        "local_culture"
+      ],
+      "duration_minutes": 60,
+      "source_ids": [
+        "src-flatwoods",
+        "src-forum-cryptids"
+      ],
+      "reservation": "call",
+      "hours": {
+        "opens": "10:00",
+        "closes": "16:00",
+        "status": "verified-current",
+        "note": "Saturday hours; the venue explicitly advises calling because unexpected closures happen."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Flatwoods Monster Museum, 208 Main Street, Sutton, West Virginia",
+      "country": "US",
+      "coordinates": [
+        -80.7101,
+        38.6655
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_parking_point",
+      "image_ids": [
+        "img-flatwoods-monster-1",
+        "img-flatwoods-monster-2",
+        "img-flatwoods-monster-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "wv-bigfoot",
+      "name": "West Virginia Bigfoot Museum",
+      "kind": "cryptid-fieldwork-museum",
+      "city": "Sutton",
+      "state": "WV",
+      "visit_date": "2026-10-10",
+      "summary": "Footprint casts, sighting maps and regional research give Bigfoot a small Appalachian evidence room rather than a novelty shop.",
+      "why_go": "Casts, maps and field notes instead of souvenirs. It treats the claim as something to investigate.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Gora above all, when the group wants investigation rather than folk art. Viki still gets the oddness.",
+      "categories": [
+        "hidden_history_folklore",
+        "unusual_creative"
+      ],
+      "duration_minutes": 60,
+      "source_ids": [
+        "src-bigfoot",
+        "src-forum-cryptids"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "18:00",
+        "status": "verified-current",
+        "note": "Saturday hours under the current schedule."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Free or donation-based under the current planning information; confirm."
+      },
+      "priority": "replacement",
+      "replacement_reason": "A more evidence-and-fieldwork-focused cryptid museum using nearly identical route time.",
+      "replacement": {
+        "day": 7,
+        "replaces_place_ids": [
+          "flatwoods-monster"
+        ],
+        "route_variant_id": "replacement-d7-bigfoot",
+        "reason": "A more evidence-and-fieldwork-focused cryptid museum using nearly identical route time.",
+        "route_variant": {
+          "id": "replacement-d7-bigfoot",
+          "day": 7,
+          "replacement_place_id": "wv-bigfoot",
+          "replaces_place_ids": [
+            "flatwoods-monster"
+          ],
+          "nodes": [
+            "point-pleasant-lodging",
+            "wv-bigfoot",
+            "trans-allegheny",
+            "american-glass",
+            "weston-lodging"
+          ],
+          "node_sequence": [
+            "point-pleasant-lodging",
+            "wv-bigfoot",
+            "trans-allegheny",
+            "american-glass",
+            "weston-lodging"
+          ],
+          "baseline_total_miles": 156.6,
+          "baseline_total_minutes": 183,
+          "delta_miles": -0.4,
+          "delta_minutes": -2,
+          "cap_minutes": 210,
+          "cap_status": "passes-baseline-cap",
+          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+          "non_driving_travel_minutes": 0,
+          "total_travel_minutes_excluding_queues": 183,
+          "legs": [
+            {
+              "id": "replacement-d7-bigfoot-leg-1",
+              "from": "point-pleasant-lodging",
+              "to": "wv-bigfoot",
+              "mode": "driving",
+              "distance_miles": 119.4,
+              "baseline_minutes": 136,
+              "display_duration_minutes": 136,
+              "counts_toward_drive_cap": true
+            },
+            {
+              "id": "replacement-d7-bigfoot-leg-2",
+              "from": "wv-bigfoot",
+              "to": "trans-allegheny",
+              "mode": "driving",
+              "distance_miles": 36.6,
+              "baseline_minutes": 45,
+              "display_duration_minutes": 45,
+              "counts_toward_drive_cap": true
+            },
+            {
+              "id": "replacement-d7-bigfoot-leg-3",
+              "from": "trans-allegheny",
+              "to": "american-glass",
+              "mode": "driving",
+              "distance_miles": 0.4,
+              "baseline_minutes": 1,
+              "display_duration_minutes": 1,
+              "counts_toward_drive_cap": true
+            },
+            {
+              "id": "replacement-d7-bigfoot-leg-4",
+              "from": "american-glass",
+              "to": "weston-lodging",
+              "mode": "driving",
+              "distance_miles": 0.1,
+              "baseline_minutes": 0,
+              "display_duration_minutes": 0,
+              "counts_toward_drive_cap": true
+            }
+          ],
+          "geometry": {
+            "type": "MultiLineString",
+            "coordinates": [
+              [
+                [
+                  -82.137085,
+                  38.844783
+                ],
+                [
+                  -82.143378,
+                  38.829767
+                ],
+                [
+                  -82.10817,
+                  38.811732
+                ],
+                [
+                  -82.092488,
+                  38.789549
+                ],
+                [
+                  -82.011657,
+                  38.760124
+                ],
+                [
+                  -81.989644,
+                  38.741772
+                ],
+                [
+                  -81.978892,
+                  38.697132
+                ],
+                [
+                  -81.991887,
+                  38.653244
+                ],
+                [
+                  -81.985229,
+                  38.639937
+                ],
+                [
+                  -82.018142,
+                  38.586145
+                ],
+                [
+                  -82.010988,
+                  38.561686
+                ],
+                [
+                  -81.935115,
+                  38.523568
+                ],
+                [
+                  -81.934457,
+                  38.487536
+                ],
+                [
+                  -81.904339,
+                  38.454157
+                ],
+                [
+                  -81.865248,
+                  38.454079
+                ],
+                [
+                  -81.830562,
+                  38.439663
+                ],
+                [
+                  -81.734106,
+                  38.361147
+                ],
+                [
+                  -81.680487,
+                  38.364707
+                ],
+                [
+                  -81.650784,
+                  38.354353
+                ],
+                [
+                  -81.613777,
+                  38.365133
+                ],
+                [
+                  -81.586708,
+                  38.387508
+                ],
+                [
+                  -81.590125,
+                  38.402055
+                ],
+                [
+                  -81.546982,
+                  38.415899
+                ],
+                [
+                  -81.517993,
+                  38.447185
+                ],
+                [
+                  -81.459907,
+                  38.483416
+                ],
+                [
+                  -81.430531,
+                  38.484953
+                ],
+                [
+                  -81.396339,
+                  38.513585
+                ],
+                [
+                  -81.352888,
+                  38.519448
+                ],
+                [
+                  -81.324615,
+                  38.542229
+                ],
+                [
+                  -81.235421,
+                  38.58097
+                ],
+                [
+                  -81.175972,
+                  38.582753
+                ],
+                [
+                  -81.154059,
+                  38.564824
+                ],
+                [
+                  -81.138687,
+                  38.565802
+                ],
+                [
+                  -81.114284,
+                  38.586931
+                ],
+                [
+                  -81.040877,
+                  38.596378
+                ],
+                [
+                  -81.009602,
+                  38.623405
+                ],
+                [
+                  -80.977753,
+                  38.614762
+                ],
+                [
+                  -80.878136,
+                  38.622918
+                ],
+                [
+                  -80.832431,
+                  38.609606
+                ],
+                [
+                  -80.785599,
+                  38.610134
+                ],
+                [
+                  -80.732958,
+                  38.626792
+                ],
+                [
+                  -80.728871,
+                  38.644148
+                ],
+                [
+                  -80.739563,
+                  38.657719
+                ],
+                [
+                  -80.725307,
+                  38.671024
+                ],
+                [
+                  -80.707831,
+                  38.66431
+                ]
+              ],
+              [
+                [
+                  -80.707831,
+                  38.66431
+                ],
+                [
+                  -80.716843,
+                  38.667581
+                ],
+                [
+                  -80.715008,
+                  38.676268
+                ],
+                [
+                  -80.695014,
+                  38.687559
+                ],
+                [
+                  -80.674483,
+                  38.689599
+                ],
+                [
+                  -80.658767,
+                  38.708189
+                ],
+                [
+                  -80.660881,
+                  38.718863
+                ],
+                [
+                  -80.671588,
+                  38.725409
+                ],
+                [
+                  -80.677296,
+                  38.737327
+                ],
+                [
+                  -80.682113,
+                  38.764386
+                ],
+                [
+                  -80.66352,
+                  38.79044
+                ],
+                [
+                  -80.662203,
+                  38.80543
+                ],
+                [
+                  -80.668297,
+                  38.816106
+                ],
+                [
+                  -80.663233,
+                  38.855744
+                ],
+                [
+                  -80.635928,
+                  38.87312
+                ],
+                [
+                  -80.619502,
+                  38.900938
+                ],
+                [
+                  -80.597046,
+                  38.911807
+                ],
+                [
+                  -80.549582,
+                  38.922283
+                ],
+                [
+                  -80.53387,
+                  38.955046
+                ],
+                [
+                  -80.515395,
+                  38.963127
+                ],
+                [
+                  -80.505846,
+                  38.994014
+                ],
+                [
+                  -80.49361,
+                  39.012608
+                ],
+                [
+                  -80.468687,
+                  39.013208
+                ],
+                [
+                  -80.478289,
+                  39.016862
+                ],
+                [
+                  -80.473912,
+                  39.03371
+                ],
+                [
+                  -80.466197,
+                  39.037612
+                ],
+                [
+                  -80.471689,
+                  39.039294
+                ]
+              ],
+              [
+                [
+                  -80.471689,
+                  39.039294
+                ],
+                [
+                  -80.470432,
+                  39.040744
+                ],
+                [
+                  -80.468503,
+                  39.039003
+                ],
+                [
+                  -80.468193,
+                  39.0388
+                ],
+                [
+                  -80.466737,
+                  39.037938
+                ],
+                [
+                  -80.466459,
+                  39.038203
+                ],
+                [
+                  -80.466545,
+                  39.038254
+                ]
+              ],
+              [
+                [
+                  -80.466545,
+                  39.038254
+                ],
+                [
+                  -80.466459,
+                  39.038203
+                ],
+                [
+                  -80.466737,
+                  39.037938
+                ],
+                [
+                  -80.468124,
+                  39.038762
+                ]
+              ]
+            ]
+          },
+          "routing_source": [
+            "https://router.project-osrm.org/route/v1/driving/-82.1372,38.8448;-80.7077,38.6643?overview=simplified&geometries=geojson&steps=false",
+            "https://router.project-osrm.org/route/v1/driving/-80.7077,38.6643;-80.4717,39.0393?overview=simplified&geometries=geojson&steps=false",
+            "https://router.project-osrm.org/route/v1/driving/-80.4717,39.0393;-80.4665,39.0383?overview=simplified&geometries=geojson&steps=false",
+            "https://router.project-osrm.org/route/v1/driving/-80.4665,39.0383;-80.468,39.0389?overview=simplified&geometries=geojson&steps=false"
+          ]
+        }
+      },
+      "address": "West Virginia Bigfoot Museum, 400 Fourth Street, Sutton, West Virginia",
+      "country": "US",
+      "coordinates": [
+        -80.7077,
+        38.6643
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_parking_point",
+      "image_ids": [
+        "img-wv-bigfoot-1",
+        "img-wv-bigfoot-2",
+        "img-wv-bigfoot-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete"
+    },
+    {
+      "id": "trans-allegheny",
+      "name": "Trans-Allegheny Lunatic Asylum - Historic Tour",
+      "kind": "institutional-history",
+      "city": "Weston",
+      "state": "WV",
+      "visit_date": "2026-10-10",
+      "summary": "An enormous Kirkbride-plan hospital, shown on a daytime tour about its architecture, its overcrowding, its treatments and the lives of its patients. The ghost tours are sold separately and we are not doing one.",
+      "why_go": "One of the largest hand-cut stone buildings in the country, and a hard honest account of what happened inside it.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's enormous architecture and Gora's institutional history. We take the daytime tour, not the ghost hunt.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_nature_photogenic"
+      ],
+      "duration_minutes": 45,
+      "source_ids": [
+        "src-tala"
+      ],
+      "reservation": "reserve",
+      "hours": {
+        "opens": "12:30",
+        "closes": "13:15",
+        "status": "verified-current",
+        "note": "Reserve a first-floor historic tour; the published 2026 season runs March 28-November 8. Do not substitute an evening haunted product."
+      },
+      "cost": {
+        "amount_per_person": 15,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Trans-Allegheny Lunatic Asylum, 71 Asylum Drive, Weston, West Virginia",
+      "country": "US",
+      "coordinates": [
+        -80.4717,
+        39.0393
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_parking_point",
+      "image_ids": [
+        "img-trans-allegheny-1",
+        "img-trans-allegheny-2",
+        "img-trans-allegheny-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "american-glass",
+      "name": "Museum of American Glass in West Virginia",
+      "kind": "regional-craft-archive",
+      "city": "Weston",
+      "state": "WV",
+      "visit_date": "2026-10-10",
+      "summary": "Thousands of pieces fill dense cases connecting West Virginia's glass factories to chemistry, labor and design.",
+      "why_go": "Room after room of colored glass, and the story of an industry that has almost vanished from the state.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Viki's color and pattern, and for Gora's forgotten industry. A gentle stop after the asylum.",
+      "categories": [
+        "unusual_creative",
+        "hidden_history_folklore",
+        "local_culture"
+      ],
+      "duration_minutes": 80,
+      "source_ids": [
+        "src-glass"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "09:30",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Saturday hours."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Museum of American Glass in West Virginia, 230 Main Avenue, Weston, West Virginia",
+      "country": "US",
+      "coordinates": [
+        -80.4665,
+        39.0383
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_parking_point",
+      "image_ids": [
+        "img-american-glass-1",
+        "img-american-glass-2",
+        "img-american-glass-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "assumption-orthodox",
+      "name": "Assumption Greek Orthodox Church",
+      "kind": "canonical-orthodox-parish",
+      "city": "Morgantown",
+      "state": "WV",
+      "visit_date": "2026-10-11",
+      "summary": "A Greek Orthodox parish where we attend the Sunday Divine Liturgy and meet the local community. This is worship, not a tour.",
+      "why_go": "Sunday stays a real Sunday. The stop is long on purpose so the road plan cannot rush it.",
+      "best_for": [
+        "stivka",
+        "sheluvspaco",
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [],
+      "best_fit_note": "Good for all four of us, with Stivka as the clearest fit. Time is protected for the service and for coffee afterwards.",
+      "categories": [
+        "orthodox_spiritual",
+        "local_culture",
+        "quiet_reset"
+      ],
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-assumption",
+        "src-assumption-directory"
+      ],
+      "reservation": "reconfirm",
+      "hours": {
+        "opens": "09:30",
+        "closes": "12:00",
+        "status": "verified-current",
+        "note": "Working assumption is Orthros followed by Divine Liturgy; the exact October 11, 2026 calendar is not yet published. Contact the parish and follow visitor/Communion etiquette."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Donation optional."
+      },
+      "priority": "anchor",
+      "address": "Assumption Greek Orthodox Church, 447 Spruce Street, Morgantown, West Virginia",
+      "country": "US",
+      "coordinates": [
+        -79.9556,
+        39.6308
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_parking_point",
+      "image_ids": [
+        "img-assumption-orthodox-1",
+        "img-assumption-orthodox-2",
+        "img-assumption-orthodox-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "fort-bedford",
+      "name": "Fort Bedford Museum",
+      "kind": "frontier-logistics-museum",
+      "city": "Bedford",
+      "state": "PA",
+      "visit_date": "2026-10-11",
+      "summary": "A rebuilt blockhouse holds the rare 1758 fort flag, a model of the fort, wagons and objects. It shows Bedford as a supply base rather than a heroic frontier outpost.",
+      "why_go": "The original 1758 flag is still here. The museum explains supply and logistics, which is the part the legends leave out.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Gora's objects and logistics, and Viki's timber interior. The right size for a Sunday afternoon.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_nature_photogenic",
+        "local_culture"
+      ],
+      "duration_minutes": 70,
+      "source_ids": [
+        "src-fortbedford"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "16:00",
+        "status": "verified-current",
+        "note": "Sunday fall hours under the current seasonal schedule."
+      },
+      "cost": {
+        "amount_per_person": 10,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Fort Bedford Museum, 110 Fort Bedford Drive, Bedford, Pennsylvania",
+      "country": "US",
+      "coordinates": [
+        -78.506,
+        40.0195
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_parking_point",
+      "image_ids": [
+        "img-fort-bedford-1",
+        "img-fort-bedford-2",
+        "img-fort-bedford-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "coverlet-museum",
+      "name": "National Museum of the American Coverlet",
+      "kind": "textile-pattern-museum",
+      "city": "Bedford",
+      "state": "PA",
+      "visit_date": "2026-10-11",
+      "summary": "Between eighty and a hundred woven coverlets, changed regularly, turn household bedding into coded geometry, regional history and serious design.",
+      "why_go": "Woven blankets that turn out to be full of pattern, code and local history. A real surprise.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's eye for pattern and Stivka's quieter Sunday mood, when another military museum feels like too much.",
+      "categories": [
+        "unusual_creative",
+        "local_culture",
+        "quiet_reset"
+      ],
+      "duration_minutes": 70,
+      "source_ids": [
+        "src-coverlet"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "12:00",
+        "closes": "16:00",
+        "status": "verified-current",
+        "note": "Sunday hours."
+      },
+      "cost": {
+        "amount_per_person": 10,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "replacement",
+      "replacement_reason": "A quieter pattern-and-craft lens with essentially the same drive, ideal if the group has history fatigue.",
+      "replacement": {
+        "day": 8,
+        "replaces_place_ids": [
+          "fort-bedford"
+        ],
+        "route_variant_id": "replacement-d8-coverlet",
+        "reason": "A quieter pattern-and-craft lens with essentially the same drive, ideal if the group has history fatigue.",
+        "route_variant": {
+          "id": "replacement-d8-coverlet",
+          "day": 8,
+          "replacement_place_id": "coverlet-museum",
+          "replaces_place_ids": [
+            "fort-bedford"
+          ],
+          "nodes": [
+            "weston-lodging",
+            "assumption-orthodox",
+            "coverlet-museum",
+            "everett-lodging"
+          ],
+          "node_sequence": [
+            "weston-lodging",
+            "assumption-orthodox",
+            "coverlet-museum",
+            "everett-lodging"
+          ],
+          "baseline_total_miles": 170.7,
+          "baseline_total_minutes": 210,
+          "delta_miles": 0.7,
+          "delta_minutes": 1,
+          "cap_minutes": 210,
+          "cap_status": "passes-baseline-cap",
+          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+          "non_driving_travel_minutes": 0,
+          "total_travel_minutes_excluding_queues": 210,
+          "legs": [
+            {
+              "id": "replacement-d8-coverlet-leg-1",
+              "from": "weston-lodging",
+              "to": "assumption-orthodox",
+              "mode": "driving",
+              "distance_miles": 58.1,
+              "baseline_minutes": 68,
+              "display_duration_minutes": 68,
+              "counts_toward_drive_cap": true
+            },
+            {
+              "id": "replacement-d8-coverlet-leg-2",
+              "from": "assumption-orthodox",
+              "to": "coverlet-museum",
+              "mode": "driving",
+              "distance_miles": 104.2,
+              "baseline_minutes": 127,
+              "display_duration_minutes": 127,
+              "counts_toward_drive_cap": true
+            },
+            {
+              "id": "replacement-d8-coverlet-leg-3",
+              "from": "coverlet-museum",
+              "to": "everett-lodging",
+              "mode": "driving",
+              "distance_miles": 8.4,
+              "baseline_minutes": 15,
+              "display_duration_minutes": 15,
+              "counts_toward_drive_cap": true
+            }
+          ],
+          "geometry": {
+            "type": "MultiLineString",
+            "coordinates": [
+              [
+                [
+                  -80.468124,
+                  39.038762
+                ],
+                [
+                  -80.448705,
+                  39.036403
+                ],
+                [
+                  -80.426682,
+                  39.0215
+                ],
+                [
+                  -80.419069,
+                  39.0389
+                ],
+                [
+                  -80.400863,
+                  39.053157
+                ],
+                [
+                  -80.405079,
+                  39.073208
+                ],
+                [
+                  -80.392569,
+                  39.093662
+                ],
+                [
+                  -80.38507,
+                  39.127352
+                ],
+                [
+                  -80.36387,
+                  39.14417
+                ],
+                [
+                  -80.335824,
+                  39.186432
+                ],
+                [
+                  -80.314077,
+                  39.198913
+                ],
+                [
+                  -80.304936,
+                  39.211516
+                ],
+                [
+                  -80.295176,
+                  39.238284
+                ],
+                [
+                  -80.284915,
+                  39.249928
+                ],
+                [
+                  -80.288599,
+                  39.265838
+                ],
+                [
+                  -80.276593,
+                  39.304683
+                ],
+                [
+                  -80.248998,
+                  39.315886
+                ],
+                [
+                  -80.222962,
+                  39.337264
+                ],
+                [
+                  -80.196376,
+                  39.427077
+                ],
+                [
+                  -80.150868,
+                  39.451776
+                ],
+                [
+                  -80.130797,
+                  39.468528
+                ],
+                [
+                  -80.080315,
+                  39.491296
+                ],
+                [
+                  -80.060205,
+                  39.515248
+                ],
+                [
+                  -80.038453,
+                  39.52048
+                ],
+                [
+                  -80.01369,
+                  39.52029
+                ],
+                [
+                  -79.997368,
+                  39.531886
+                ],
+                [
+                  -79.98498,
+                  39.54332
+                ],
+                [
+                  -79.981781,
+                  39.567002
+                ],
+                [
+                  -79.974751,
+                  39.577789
+                ],
+                [
+                  -79.953234,
+                  39.582268
+                ],
+                [
+                  -79.953737,
+                  39.593415
+                ],
+                [
+                  -79.969498,
+                  39.608419
+                ],
+                [
+                  -79.968591,
+                  39.617787
+                ],
+                [
+                  -79.955994,
+                  39.630891
+                ]
+              ],
+              [
+                [
+                  -79.955994,
+                  39.630891
+                ],
+                [
+                  -79.920107,
+                  39.652518
+                ],
+                [
+                  -79.89309,
+                  39.646341
+                ],
+                [
+                  -79.882291,
+                  39.661083
+                ],
+                [
+                  -79.854422,
+                  39.672109
+                ],
+                [
+                  -79.833236,
+                  39.657139
+                ],
+                [
+                  -79.797453,
+                  39.660864
+                ],
+                [
+                  -79.707187,
+                  39.648694
+                ],
+                [
+                  -79.671333,
+                  39.663084
+                ],
+                [
+                  -79.637901,
+                  39.654603
+                ],
+                [
+                  -79.619232,
+                  39.662255
+                ],
+                [
+                  -79.544847,
+                  39.656287
+                ],
+                [
+                  -79.475447,
+                  39.663502
+                ],
+                [
+                  -79.439454,
+                  39.653404
+                ],
+                [
+                  -79.425794,
+                  39.661788
+                ],
+                [
+                  -79.394489,
+                  39.662575
+                ],
+                [
+                  -79.380034,
+                  39.677036
+                ],
+                [
+                  -79.307027,
+                  39.701551
+                ],
+                [
+                  -79.25691,
+                  39.693555
+                ],
+                [
+                  -79.232732,
+                  39.680192
+                ],
+                [
+                  -79.176905,
+                  39.694501
+                ],
+                [
+                  -79.123194,
+                  39.694901
+                ],
+                [
+                  -79.045049,
+                  39.681645
+                ],
+                [
+                  -78.976873,
+                  39.687821
+                ],
+                [
+                  -78.953906,
+                  39.644237
+                ],
+                [
+                  -78.935218,
+                  39.633666
+                ],
+                [
+                  -78.872935,
+                  39.641239
+                ],
+                [
+                  -78.831694,
+                  39.635016
+                ],
+                [
+                  -78.75639,
+                  39.64963
+                ],
+                [
+                  -78.731416,
+                  39.672474
+                ],
+                [
+                  -78.7174,
+                  39.67326
+                ],
+                [
+                  -78.70171,
+                  39.710229
+                ],
+                [
+                  -78.712196,
+                  39.730883
+                ],
+                [
+                  -78.689767,
+                  39.775449
+                ],
+                [
+                  -78.607794,
+                  39.875896
+                ],
+                [
+                  -78.584548,
+                  39.934373
+                ],
+                [
+                  -78.530625,
+                  39.993112
+                ],
+                [
+                  -78.525114,
+                  40.012528
+                ],
+                [
+                  -78.512971,
+                  40.021169
+                ],
+                [
+                  -78.506421,
+                  40.011525
+                ]
+              ],
+              [
+                [
+                  -78.506421,
+                  40.011525
+                ],
+                [
+                  -78.506374,
+                  40.012531
+                ],
+                [
+                  -78.501329,
+                  40.012881
+                ],
+                [
+                  -78.501698,
+                  40.017529
+                ],
+                [
+                  -78.490259,
+                  40.018069
+                ],
+                [
+                  -78.484648,
+                  40.01719
+                ],
+                [
+                  -78.478402,
+                  40.019014
+                ],
+                [
+                  -78.476503,
+                  40.018224
+                ],
+                [
+                  -78.473583,
+                  40.014878
+                ],
+                [
+                  -78.472023,
+                  40.014324
+                ],
+                [
+                  -78.470042,
+                  40.014409
+                ],
+                [
+                  -78.45724,
+                  40.024103
+                ],
+                [
+                  -78.453584,
+                  40.025566
+                ],
+                [
+                  -78.449289,
+                  40.026094
+                ],
+                [
+                  -78.440871,
+                  40.02541
+                ],
+                [
+                  -78.429809,
+                  40.023689
+                ],
+                [
+                  -78.421386,
+                  40.021676
+                ],
+                [
+                  -78.405669,
+                  40.019565
+                ],
+                [
+                  -78.400744,
+                  40.017157
+                ],
+                [
+                  -78.39536,
+                  40.012081
+                ],
+                [
+                  -78.389191,
+                  40.011115
+                ],
+                [
+                  -78.380736,
+                  40.008297
+                ],
+                [
+                  -78.379546,
+                  40.008434
+                ],
+                [
+                  -78.373385,
+                  40.011506
+                ]
+              ]
+            ]
+          },
+          "routing_source": [
+            "https://router.project-osrm.org/route/v1/driving/-80.468,39.0389;-79.9556,39.6308?overview=simplified&geometries=geojson&steps=false",
+            "https://router.project-osrm.org/route/v1/driving/-79.9556,39.6308;-78.507,40.0115?overview=simplified&geometries=geojson&steps=false",
+            "https://router.project-osrm.org/route/v1/driving/-78.507,40.0115;-78.3734,40.0115?overview=simplified&geometries=geojson&steps=false"
+          ]
+        }
+      },
+      "address": "National Museum of the American Coverlet, 322 South Juliana Street, Bedford, Pennsylvania",
+      "country": "US",
+      "coordinates": [
+        -78.507,
+        40.0115
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_parking_point",
+      "image_ids": [
+        "img-coverlet-museum-1",
+        "img-coverlet-museum-2",
+        "img-coverlet-museum-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete"
+    },
+    {
+      "id": "cabelas-hamburg",
+      "name": "Cabela's Hamburg - Conservation Mountain & Aquariums",
+      "kind": "museum-sized-retail-spectacle",
+      "city": "Hamburg",
+      "state": "PA",
+      "visit_date": "2026-10-12",
+      "summary": "Not an ordinary shop. This 250,000 square foot store contains a thirty-foot indoor waterfall mountain, 55,000-gallon aquariums, a deer museum and very large wildlife dioramas.",
+      "why_go": "A shop with a mountain and a shark-sized aquarium inside it. Completely absurd, and directly on our road.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Viki's shopping and Gora's natural history displays. Nobody has to drive further to reach it.",
+      "categories": [
+        "shopping_outlets",
+        "unusual_creative",
+        "architecture_nature_photogenic"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-cabelas"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "09:00",
+        "closes": "22:00",
+        "status": "verified-current",
+        "note": "Monday store hours; exhibits sit inside a working retail store and remain subject to operations."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Viewing is free; personal shopping excluded."
+      },
+      "priority": "anchor",
+      "address": "Cabela's, 100 Cabela Drive, Hamburg, Pennsylvania",
+      "country": "US",
+      "coordinates": [
+        -75.9906,
+        40.5576
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_parking_point",
+      "image_ids": [
+        "img-cabelas-hamburg-1",
+        "img-cabelas-hamburg-2",
+        "img-cabelas-hamburg-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "hamburg-mural-walk",
+      "name": "Hamburg Historic District & Public-Art Walk",
+      "kind": "small-town-main-street-walk",
+      "city": "Hamburg",
+      "state": "PA",
+      "visit_date": "2026-10-12",
+      "summary": "A short self-guided loop links old shop fronts, the Adams & Bright storefront and public art. Most drivers only ever see this town from the highway exit.",
+      "why_go": "A real small town two minutes off the highway, with old shopfronts and street art instead of a retail park.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's overlooked architecture, and for everyone if taxidermy and shopping are not the mood.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "local_culture",
+        "quiet_reset"
+      ],
+      "duration_minutes": 75,
+      "source_ids": [
+        "src-hamburg"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "verified-public-space",
+        "note": "Outdoor self-guided walk; storefront access is not promised."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "replacement",
+      "replacement_reason": "A calm human-scale alternative when the giant retail environment would create fatigue.",
+      "replacement": {
+        "day": 9,
+        "replaces_place_ids": [
+          "cabelas-hamburg"
+        ],
+        "route_variant_id": "replacement-d9-hamburg-murals",
+        "reason": "A calm human-scale alternative when the giant retail environment would create fatigue.",
+        "route_variant": {
+          "id": "replacement-d9-hamburg-murals",
+          "day": 9,
+          "replacement_place_id": "hamburg-mural-walk",
+          "replaces_place_ids": [
+            "cabelas-hamburg"
+          ],
+          "nodes": [
+            "everett-lodging",
+            "hamburg-mural-walk",
+            "allentown-west-lodging"
+          ],
+          "node_sequence": [
+            "everett-lodging",
+            "hamburg-mural-walk",
+            "allentown-west-lodging"
+          ],
+          "baseline_total_miles": 167.1,
+          "baseline_total_minutes": 204,
+          "delta_miles": -1,
+          "delta_minutes": -3,
+          "cap_minutes": 210,
+          "cap_status": "passes-baseline-cap",
+          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+          "non_driving_travel_minutes": 0,
+          "total_travel_minutes_excluding_queues": 204,
+          "legs": [
+            {
+              "id": "replacement-d9-hamburg-murals-leg-1",
+              "from": "everett-lodging",
+              "to": "hamburg-mural-walk",
+              "mode": "driving",
+              "distance_miles": 144.2,
+              "baseline_minutes": 172,
+              "display_duration_minutes": 172,
+              "counts_toward_drive_cap": true
+            },
+            {
+              "id": "replacement-d9-hamburg-murals-leg-2",
+              "from": "hamburg-mural-walk",
+              "to": "allentown-west-lodging",
+              "mode": "driving",
+              "distance_miles": 22.9,
+              "baseline_minutes": 32,
+              "display_duration_minutes": 32,
+              "counts_toward_drive_cap": true
+            }
+          ],
+          "geometry": {
+            "type": "MultiLineString",
+            "coordinates": [
+              [
+                [
+                  -78.373385,
+                  40.011506
+                ],
+                [
+                  -78.387911,
+                  40.00616
+                ],
+                [
+                  -78.285722,
+                  39.982893
+                ],
+                [
+                  -78.237076,
+                  39.984706
+                ],
+                [
+                  -78.203937,
+                  40.013941
+                ],
+                [
+                  -78.170724,
+                  40.028928
+                ],
+                [
+                  -78.13235,
+                  40.033475
+                ],
+                [
+                  -78.093262,
+                  40.059644
+                ],
+                [
+                  -78.055542,
+                  40.04397
+                ],
+                [
+                  -77.995302,
+                  40.037102
+                ],
+                [
+                  -77.933331,
+                  40.068342
+                ],
+                [
+                  -77.87953,
+                  40.076524
+                ],
+                [
+                  -77.8619,
+                  40.091103
+                ],
+                [
+                  -77.829397,
+                  40.086928
+                ],
+                [
+                  -77.704105,
+                  40.15805
+                ],
+                [
+                  -77.68536,
+                  40.159551
+                ],
+                [
+                  -77.642884,
+                  40.142637
+                ],
+                [
+                  -77.599563,
+                  40.164884
+                ],
+                [
+                  -77.376594,
+                  40.2022
+                ],
+                [
+                  -77.244514,
+                  40.207612
+                ],
+                [
+                  -77.15634,
+                  40.225936
+                ],
+                [
+                  -77.083473,
+                  40.245924
+                ],
+                [
+                  -77.038436,
+                  40.271077
+                ],
+                [
+                  -76.987214,
+                  40.276396
+                ],
+                [
+                  -76.974779,
+                  40.299138
+                ],
+                [
+                  -76.925504,
+                  40.316267
+                ],
+                [
+                  -76.858481,
+                  40.301274
+                ],
+                [
+                  -76.808745,
+                  40.32496
+                ],
+                [
+                  -76.760745,
+                  40.331196
+                ],
+                [
+                  -76.588569,
+                  40.413281
+                ],
+                [
+                  -76.504481,
+                  40.429043
+                ],
+                [
+                  -76.460483,
+                  40.447838
+                ],
+                [
+                  -76.400846,
+                  40.451343
+                ],
+                [
+                  -76.107736,
+                  40.516374
+                ],
+                [
+                  -75.984147,
+                  40.561943
+                ],
+                [
+                  -75.981713,
+                  40.55562
+                ]
+              ],
+              [
+                [
+                  -75.981713,
+                  40.55562
+                ],
+                [
+                  -75.983471,
+                  40.561985
+                ],
+                [
+                  -75.962168,
+                  40.570252
+                ],
+                [
+                  -75.900207,
+                  40.578255
+                ],
+                [
+                  -75.874093,
+                  40.573649
+                ],
+                [
+                  -75.84162,
+                  40.57928
+                ],
+                [
+                  -75.766664,
+                  40.575991
+                ],
+                [
+                  -75.723863,
+                  40.581368
+                ],
+                [
+                  -75.652046,
+                  40.575071
+                ],
+                [
+                  -75.623106,
+                  40.580089
+                ],
+                [
+                  -75.622521,
+                  40.578749
+                ],
+                [
+                  -75.625914,
+                  40.584617
+                ],
+                [
+                  -75.604645,
+                  40.588949
+                ],
+                [
+                  -75.600869,
+                  40.580183
+                ],
+                [
+                  -75.589998,
+                  40.58006
+                ]
+              ]
+            ]
+          },
+          "routing_source": [
+            "https://router.project-osrm.org/route/v1/driving/-78.3734,40.0115;-75.9818,40.5556?overview=simplified&geometries=geojson&steps=false",
+            "https://router.project-osrm.org/route/v1/driving/-75.9818,40.5556;-75.59,40.58?overview=simplified&geometries=geojson&steps=false"
+          ]
+        }
+      },
+      "address": "Hamburg Historic District, 2 South Fourth Street, Hamburg, Pennsylvania",
+      "country": "US",
+      "coordinates": [
+        -75.9818,
+        40.5556
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_parking_point",
+      "image_ids": [
+        "img-hamburg-mural-walk-1",
+        "img-hamburg-mural-walk-2",
+        "img-hamburg-mural-walk-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete"
+    },
+    {
+      "id": "tarrywile",
+      "name": "Tarrywile Park & Mansion Grounds",
+      "kind": "estate-meadow-reset",
+      "city": "Danbury",
+      "state": "CT",
+      "visit_date": "2026-10-13",
+      "summary": "A 722-acre city park opening out from a shingled mansion into ponds, meadows, stone walls and more than twenty miles of paths. There is no entrance fee.",
+      "why_go": "An entire estate landscape, free to walk, right after a long drive. Ponds, autumn color and no ticket.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's autumn reflections and for Gora and Stivka's deepest quiet of the trip.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "quiet_reset"
+      ],
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-tarrywile"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "verified-public-space",
+        "note": "Park open sunrise to sunset; mansion rentals take priority. Hearthstone Castle is closed/fenced and no interior access is part of this plan."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Tarrywile Park and Mansion, 70 Southern Boulevard, Danbury, Connecticut",
+      "country": "US",
+      "coordinates": [
+        -73.4514,
+        41.3803
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_parking_point",
+      "image_ids": [
+        "img-tarrywile-1",
+        "img-tarrywile-2",
+        "img-tarrywile-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "danbury-museum-streets",
+      "name": "Danbury Museum in the Streets",
+      "kind": "self-guided-city-history",
+      "city": "Danbury",
+      "state": "CT",
+      "visit_date": "2026-10-13",
+      "summary": "Outdoor markers lead through Main Street and the old civic center. They explain Danbury hat industry, its immigrant workers and the 1777 raid, in the places where those things happened.",
+      "why_go": "The city tells its own story on the street itself, including the hat factories that poisoned their workers.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Gora's overlooked labor history and Viki's brick architecture. Works in any weather and stays near the hotel.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_nature_photogenic",
+        "local_culture"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-danbury"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "verified-public-space",
+        "note": "Outdoor self-guided markers are open; the Danbury Museum building is closed Tuesday and is not promised."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "replacement",
+      "replacement_reason": "A closer, more urban history walk for rain-threatened or lower-energy afternoons.",
+      "replacement": {
+        "day": 10,
+        "replaces_place_ids": [
+          "tarrywile"
+        ],
+        "route_variant_id": "replacement-d10-danbury-streets",
+        "reason": "A closer, more urban history walk for rain-threatened or lower-energy afternoons.",
+        "route_variant": {
+          "id": "replacement-d10-danbury-streets",
+          "day": 10,
+          "replacement_place_id": "danbury-museum-streets",
+          "replaces_place_ids": [
+            "tarrywile"
+          ],
+          "nodes": [
+            "allentown-west-lodging",
+            "danbury-museum-streets",
+            "danbury-downtown-lodging"
+          ],
+          "node_sequence": [
+            "allentown-west-lodging",
+            "danbury-museum-streets",
+            "danbury-downtown-lodging"
+          ],
+          "baseline_total_miles": 158.7,
+          "baseline_total_minutes": 206,
+          "delta_miles": -0.7,
+          "delta_minutes": -3,
+          "cap_minutes": 210,
+          "cap_status": "passes-baseline-cap",
+          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+          "non_driving_travel_minutes": 0,
+          "total_travel_minutes_excluding_queues": 206,
+          "legs": [
+            {
+              "id": "replacement-d10-danbury-streets-leg-1",
+              "from": "allentown-west-lodging",
+              "to": "danbury-museum-streets",
+              "mode": "driving",
+              "distance_miles": 158.7,
+              "baseline_minutes": 206,
+              "display_duration_minutes": 206,
+              "counts_toward_drive_cap": true
+            },
+            {
+              "id": "replacement-d10-danbury-streets-leg-2",
+              "from": "danbury-museum-streets",
+              "to": "danbury-downtown-lodging",
+              "mode": "driving",
+              "distance_miles": 0,
+              "baseline_minutes": 0,
+              "display_duration_minutes": 0,
+              "counts_toward_drive_cap": true
+            }
+          ],
+          "geometry": {
+            "type": "MultiLineString",
+            "coordinates": [
+              [
+                [
+                  -75.589998,
+                  40.58006
+                ],
+                [
+                  -75.572652,
+                  40.579389
+                ],
+                [
+                  -75.564796,
+                  40.565849
+                ],
+                [
+                  -75.541172,
+                  40.571608
+                ],
+                [
+                  -75.429213,
+                  40.554795
+                ],
+                [
+                  -75.38147,
+                  40.586843
+                ],
+                [
+                  -75.301634,
+                  40.605449
+                ],
+                [
+                  -75.231092,
+                  40.667029
+                ],
+                [
+                  -75.192141,
+                  40.676724
+                ],
+                [
+                  -75.180516,
+                  40.674763
+                ],
+                [
+                  -75.162364,
+                  40.650479
+                ],
+                [
+                  -75.13597,
+                  40.66925
+                ],
+                [
+                  -75.111959,
+                  40.672144
+                ],
+                [
+                  -75.06658,
+                  40.659245
+                ],
+                [
+                  -75.046646,
+                  40.661514
+                ],
+                [
+                  -75.034203,
+                  40.651143
+                ],
+                [
+                  -74.974761,
+                  40.63542
+                ],
+                [
+                  -74.918294,
+                  40.631197
+                ],
+                [
+                  -74.783025,
+                  40.651718
+                ],
+                [
+                  -74.684157,
+                  40.642697
+                ],
+                [
+                  -74.501441,
+                  40.646813
+                ],
+                [
+                  -74.421207,
+                  40.663003
+                ],
+                [
+                  -74.36933,
+                  40.696621
+                ],
+                [
+                  -74.326939,
+                  40.710965
+                ],
+                [
+                  -74.280003,
+                  40.713915
+                ],
+                [
+                  -74.240621,
+                  40.704919
+                ],
+                [
+                  -74.213269,
+                  40.71638
+                ],
+                [
+                  -74.151596,
+                  40.705483
+                ],
+                [
+                  -74.134832,
+                  40.716993
+                ],
+                [
+                  -74.09546,
+                  40.78265
+                ],
+                [
+                  -74.037024,
+                  40.820895
+                ],
+                [
+                  -74.016562,
+                  40.845111
+                ],
+                [
+                  -73.995832,
+                  40.841738
+                ],
+                [
+                  -73.977499,
+                  40.858415
+                ],
+                [
+                  -73.925547,
+                  40.844422
+                ],
+                [
+                  -73.856401,
+                  40.929965
+                ],
+                [
+                  -73.816015,
+                  40.922655
+                ],
+                [
+                  -73.79685,
+                  40.958529
+                ],
+                [
+                  -73.750168,
+                  40.977751
+                ],
+                [
+                  -73.721097,
+                  41.003912
+                ],
+                [
+                  -73.715217,
+                  41.019611
+                ],
+                [
+                  -73.728451,
+                  41.057123
+                ],
+                [
+                  -73.688933,
+                  41.157199
+                ],
+                [
+                  -73.685032,
+                  41.219299
+                ],
+                [
+                  -73.672643,
+                  41.247337
+                ],
+                [
+                  -73.685872,
+                  41.26973
+                ],
+                [
+                  -73.654019,
+                  41.343781
+                ],
+                [
+                  -73.595316,
+                  41.388407
+                ],
+                [
+                  -73.577262,
+                  41.382849
+                ],
+                [
+                  -73.529007,
+                  41.392718
+                ],
+                [
+                  -73.48422,
+                  41.38348
+                ],
+                [
+                  -73.453822,
+                  41.393599
+                ]
+              ],
+              [
+                [
+                  -73.453822,
+                  41.393599
+                ],
+                [
+                  -73.453822,
+                  41.393599
+                ]
+              ]
+            ]
+          },
+          "routing_source": [
+            "https://router.project-osrm.org/route/v1/driving/-75.59,40.58;-73.454,41.3935?overview=simplified&geometries=geojson&steps=false",
+            "https://router.project-osrm.org/route/v1/driving/-73.454,41.3935;-73.454,41.3935?overview=simplified&geometries=geojson&steps=false"
+          ]
+        }
+      },
+      "address": "Danbury Museum in the Streets, 43 Main Street, Danbury, Connecticut",
+      "country": "US",
+      "coordinates": [
+        -73.454,
+        41.3935
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_parking_point",
+      "image_ids": [
+        "img-danbury-museum-streets-1",
+        "img-danbury-museum-streets-2",
+        "img-danbury-museum-streets-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete"
+    },
+    {
+      "id": "museum-bad-art",
+      "name": "Museum of Bad Art at Dorchester Brewing",
+      "kind": "bad-art-gallery",
+      "city": "Boston",
+      "state": "MA",
+      "visit_date": "2026-10-14",
+      "summary": "About sixty sincerely bad paintings hang inside a working brewery, labeled with real affection and very precise comic writing.",
+      "why_go": "Genuinely terrible art, taken completely seriously. The labels are the best part, and the beer is right there.",
+      "best_for": [
+        "sheluvspaco",
+        "viki"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Paco's shared final mood and Viki's love of odd museums. Reached by transit after the cars go back.",
+      "categories": [
+        "unusual_creative",
+        "social_nightlife_live",
+        "food_cafes"
+      ],
+      "duration_minutes": 105,
+      "source_ids": [
+        "src-moba"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "11:30",
+        "closes": "22:00",
+        "status": "verified-current",
+        "note": "Wednesday gallery hours follow Dorchester Brewing; all four visitors remain responsible for venue age/ID rules."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Gallery is free; food and drinks optional and nightlife-excluded."
+      },
+      "priority": "anchor",
+      "address": "Museum of Bad Art at Dorchester Brewing Company, 1250 Massachusetts Avenue, Boston, Massachusetts",
+      "country": "US",
+      "coordinates": [
+        -71.0672,
+        42.3206
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_parking_point",
+      "image_ids": [
+        "img-museum-bad-art-1",
+        "img-museum-bad-art-2",
+        "img-museum-bad-art-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "id": "ether-dome-russell",
+      "name": "Ether Dome & Paul S. Russell Museum",
+      "kind": "medical-breakthrough-history",
+      "city": "Boston",
+      "state": "MA",
+      "visit_date": "2026-10-14",
+      "summary": "At Massachusetts General Hospital, the preserved operating theater where ether was first publicly demonstrated sits alongside a free three-floor museum about medical progress and failure.",
+      "why_go": "The room where surgery stopped being agony. Free, sobering and only a short ride from the airport.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Gora's truth-first finish and Viki's architecture, when a brewery gallery is the wrong note to end on.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_nature_photogenic",
+        "unusual_creative"
+      ],
+      "duration_minutes": 100,
+      "source_ids": [
+        "src-russell",
+        "src-mgh"
+      ],
+      "reservation": "reconfirm",
+      "hours": {
+        "opens": "10:00",
+        "closes": "14:00",
+        "status": "verified-current",
+        "note": "Russell Museum Wednesday hours; Ether Dome normally weekdays 09:00-17:00 but can close for hospital meetings. Use MBTA after car return and confirm both."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "replacement",
+      "replacement_reason": "A free, evidence-rich medical-history finale reached after car return with unchanged road mileage.",
+      "replacement": {
+        "day": 11,
+        "replaces_place_ids": [
+          "museum-bad-art"
+        ],
+        "route_variant_id": "replacement-d11-ether-dome",
+        "reason": "A free, evidence-rich medical-history finale reached after car return with unchanged road mileage.",
+        "route_variant": {
+          "id": "replacement-d11-ether-dome",
+          "day": 11,
+          "replacement_place_id": "ether-dome-russell",
+          "replaces_place_ids": [
+            "museum-bad-art"
+          ],
+          "unchanged_drive": true,
+          "node_sequence": [],
+          "baseline_total_miles": 161.6,
+          "baseline_total_minutes": 206,
+          "delta_miles": 0,
+          "delta_minutes": 0,
+          "cap_minutes": 210,
+          "cap_status": "passes-baseline-cap",
+          "routing_note": "Parked-city replacement; bed-to-bed driving is unchanged.",
+          "legs": [],
+          "geometry": null
+        }
+      },
+      "address": "Paul S. Russell Museum of Medical History and Innovation, 2 North Grove Street, Boston, Massachusetts",
+      "country": "US",
+      "coordinates": [
+        -71.0677,
+        42.3625
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_parking_point",
+      "image_ids": [
+        "img-ether-dome-russell-1",
+        "img-ether-dome-russell-2",
+        "img-ether-dome-russell-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete"
+    }
+  ]
+}

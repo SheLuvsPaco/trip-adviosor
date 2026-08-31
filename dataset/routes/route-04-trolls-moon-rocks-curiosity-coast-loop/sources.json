@@ -1,0 +1,475 @@
+{
+  "schema_version": "1.0.0",
+  "route_id": "route-04",
+  "verified_at": "2026-08-23",
+  "sources": [
+    {
+      "id": "src-portsmouth-abg",
+      "publisher": "City of Portsmouth",
+      "type": "government",
+      "url": "https://www.portsmouthnh.gov/publicworks/portsmouth-african-burying-ground-memorial-park",
+      "supports": [
+        "memorial history",
+        "DNA-authenticated burial ground"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-albacore",
+      "publisher": "USS Albacore Museum",
+      "type": "official",
+      "url": "https://www.ussalbacore.org/",
+      "supports": [
+        "October hours",
+        "admission",
+        "experimental submarine"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-nubble",
+      "publisher": "York Parks and Recreation",
+      "type": "government",
+      "url": "https://www.yorkparksandrec.org/nubble-light-house",
+      "supports": [
+        "year-round park access",
+        "free parking",
+        "lighthouse viewpoint"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-woodman",
+      "publisher": "Woodman Museum",
+      "type": "official",
+      "url": "https://woodmanmuseum.org/home/",
+      "supports": [
+        "collection identity",
+        "museum access"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-victoria",
+      "publisher": "Victoria Mansion",
+      "type": "official",
+      "url": "https://victoriamansion.org/visit-us/",
+      "supports": [
+        "2026 season",
+        "daily hours",
+        "admission"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-portland-head",
+      "publisher": "Portland Head Light",
+      "type": "official",
+      "url": "https://portlandheadlight.com/",
+      "supports": [
+        "museum",
+        "Fort Williams setting"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-arcadia",
+      "publisher": "Arcadia",
+      "type": "official",
+      "url": "https://www.arcadiaportland.com/",
+      "supports": [
+        "21-plus policy",
+        "Monday hours",
+        "arcade bar"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-desert",
+      "publisher": "Desert of Maine",
+      "type": "official",
+      "url": "https://desertofmaine.com/visit",
+      "supports": [
+        "daily hours",
+        "admission",
+        "glacial sand history"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-gardens",
+      "publisher": "Coastal Maine Botanical Gardens",
+      "type": "official",
+      "url": "https://www.mainegardens.org/",
+      "supports": [
+        "October 18 season end",
+        "Guardians of the Seeds",
+        "admission"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-prison",
+      "publisher": "Maine Department of Corrections",
+      "type": "government",
+      "url": "https://www.maine.gov/corrections/programs/prisonindustries",
+      "supports": [
+        "showroom hours",
+        "inmate-made goods"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-rockland",
+      "publisher": "Friends of Rockland Harbor Lights",
+      "type": "official",
+      "url": "https://www.rocklandharborlights.org/",
+      "supports": [
+        "breakwater and lighthouse access"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-maritime",
+      "publisher": "Maine Maritime Museum",
+      "type": "official",
+      "url": "https://www.mainemaritimemuseum.org/visit/",
+      "supports": [
+        "daily hours",
+        "admission",
+        "shipyard campus"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-owls",
+      "publisher": "Owls Head Transportation Museum",
+      "type": "official",
+      "url": "https://owlshead.org/",
+      "supports": [
+        "daily hours",
+        "admission",
+        "operating collection"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-fort-knox",
+      "publisher": "Friends of Fort Knox",
+      "type": "official",
+      "url": "https://www.fortknoxmaine.com/",
+      "supports": [
+        "October operations",
+        "fort and observatory"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-penobscot",
+      "publisher": "Penobscot Marine Museum",
+      "type": "official",
+      "url": "https://penobscotmarinemuseum.org/",
+      "supports": [
+        "October season",
+        "Tuesday-Sunday hours"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-acadia",
+      "publisher": "National Park Service",
+      "type": "government",
+      "url": "https://www.nps.gov/acad/planyourvisit/vehicle_reservations.htm",
+      "supports": [
+        "2026 Cadillac reservation dates",
+        "sunrise release schedule"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-crypto",
+      "publisher": "International Cryptozoology Museum",
+      "type": "official",
+      "url": "https://cryptozoologymuseum.com/plan-your-visit/",
+      "supports": [
+        "new Bangor address",
+        "year-round hours",
+        "admission"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-bangor",
+      "publisher": "City of Bangor",
+      "type": "government",
+      "url": "https://www.bangormaine.gov/318/Thomas-Hill-Standpipe",
+      "supports": [
+        "standpipe history and grounds"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-seal-cove",
+      "publisher": "Seal Cove Auto Museum",
+      "type": "official",
+      "url": "https://www.sealcoveautomuseum.org/",
+      "supports": [
+        "October hours",
+        "admission",
+        "brass-era collection"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-cole",
+      "publisher": "Cole Land Transportation Museum",
+      "type": "official",
+      "url": "https://colemuseum.org/",
+      "supports": [
+        "season",
+        "daily hours",
+        "admission"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-mineral",
+      "publisher": "Maine Mineral and Gem Museum",
+      "type": "official",
+      "url": "https://mainemineralmuseum.org/visit/tickets-admission-hours/",
+      "supports": [
+        "Friday hours",
+        "admission",
+        "meteorite collection"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-colby",
+      "publisher": "Colby College Museum of Art",
+      "type": "official",
+      "url": "https://museum.colby.edu/visit/",
+      "supports": [
+        "free admission",
+        "museum access"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-weeks",
+      "publisher": "New Hampshire State Parks",
+      "type": "government",
+      "url": "https://www.nhstateparks.org/find-parks-trails/weeks-state-park",
+      "supports": [
+        "exact 2026 hours",
+        "auto road",
+        "tower and house museum"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-fall-stj",
+      "publisher": "Discover St. Johnsbury",
+      "type": "official-tourism",
+      "url": "https://www.discoverstjohnsbury.com/fallforstj.html",
+      "supports": [
+        "October 10-11 2026 festival",
+        "foliage train",
+        "museum offer"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-fairbanks",
+      "publisher": "Fairbanks Museum and Planetarium",
+      "type": "official",
+      "url": "https://fairbanksmuseum.org/hours-and-fees/",
+      "supports": [
+        "daily hours",
+        "admission",
+        "collection"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-dog",
+      "publisher": "Dog Mountain",
+      "type": "official",
+      "url": "https://www.dogmt.com/",
+      "supports": [
+        "Dog Chapel",
+        "gallery and grounds"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-orthodox",
+      "publisher": "Dormition Greek Orthodox Church",
+      "type": "official-church",
+      "url": "https://www.gocvt.org/",
+      "supports": [
+        "Sunday Orthros",
+        "Divine Liturgy",
+        "address"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-shelburne",
+      "publisher": "Shelburne Museum",
+      "type": "official",
+      "url": "https://shelburnemuseum.org/visit/",
+      "supports": [
+        "October 11 2026 hours",
+        "admission",
+        "39-building campus"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-radio-bean",
+      "publisher": "Radio Bean",
+      "type": "official",
+      "url": "https://radiobean.com/",
+      "supports": [
+        "live-music calendar",
+        "venue identity"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-everyday",
+      "publisher": "Museum of Everyday Life",
+      "type": "official",
+      "url": "https://museumofeverydaylife.org/sample-page/about-us",
+      "supports": [
+        "self-service hours",
+        "unheated barn",
+        "mission"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-ben-jerrys",
+      "publisher": "Ben and Jerry's",
+      "type": "official",
+      "url": "https://www.benjerry.com/about-us/factory-tours",
+      "supports": [
+        "October 9-12 tour suspension",
+        "fall hours",
+        "Flavor Graveyard"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-hope",
+      "publisher": "City of Barre",
+      "type": "government",
+      "url": "https://www.barrecity.org/cemeteries.html",
+      "supports": [
+        "cemetery access and rules"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-coolidge",
+      "publisher": "Calvin Coolidge Presidential Foundation",
+      "type": "official",
+      "url": "https://coolidgefoundation.org/plan-your-visit/",
+      "supports": [
+        "mid-October season",
+        "Plymouth Notch site"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-vins",
+      "publisher": "Vermont Institute of Natural Science",
+      "type": "official",
+      "url": "https://vinsweb.org/",
+      "supports": [
+        "daily hours",
+        "raptors",
+        "canopy walk"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-precision",
+      "publisher": "American Precision Museum",
+      "type": "official",
+      "url": "https://americanprecision.org/explore-vermont/",
+      "supports": [
+        "May-October daily hours",
+        "machine-tool collection"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-saint-gaudens",
+      "publisher": "National Park Service",
+      "type": "government",
+      "url": "https://home.nps.gov/saga/faqs.htm",
+      "supports": [
+        "Tuesday building closure",
+        "year-round grounds"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-path-life",
+      "publisher": "Great River Outfitters",
+      "type": "official-operator",
+      "url": "https://www.greatriveroutfitters.com/path-of-life",
+      "supports": [
+        "365-day dawn-dusk access",
+        "18 sculptures"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-currier",
+      "publisher": "Currier Museum of Art",
+      "type": "official",
+      "url": "https://www.currier.org/frank-lloyd-wright",
+      "supports": [
+        "2026 tour season",
+        "Wednesday tour times",
+        "two Wright houses"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-see",
+      "publisher": "SEE Science Center",
+      "type": "official",
+      "url": "https://see-sciencecenter.org/plan-your-visit/",
+      "supports": [
+        "Wednesday hours",
+        "average visit time"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-noaa-normals",
+      "publisher": "NOAA National Centers for Environmental Information",
+      "type": "government-data",
+      "url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+      "supports": [
+        "1991-2020 daily climate normals"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-osrm",
+      "publisher": "Open Source Routing Machine",
+      "type": "routing",
+      "url": "https://project-osrm.org/",
+      "supports": [
+        "road-network distances",
+        "no-traffic durations"
+      ],
+      "verified_at": "2026-08-23"
+    }
+  ]
+}

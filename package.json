@@ -1,0 +1,20 @@
+{
+  "name": "detour-atlas",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "optimize:images": "node scripts/optimize-route-images.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "leaflet": "^1.9.4",
+    "maplibre-gl": "^6.6.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "vite": "latest"
+  }
+}

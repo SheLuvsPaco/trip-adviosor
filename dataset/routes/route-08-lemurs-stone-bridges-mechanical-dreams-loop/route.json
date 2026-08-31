@@ -1,0 +1,4306 @@
+{
+  "schema_version": "1.0.0",
+  "route": {
+    "id": "route-08",
+    "slug": "lemurs-stone-bridges-mechanical-dreams-loop",
+    "name": "The Lemurs, Stone Bridges & Mechanical Dreams Loop",
+    "short_name": "Lemurs & Stone Bridges",
+    "status": "research-complete-bookings-pending",
+    "map_color": "#16A34A",
+    "timezone": "America/New_York",
+    "start_date": "2026-10-04",
+    "end_date": "2026-10-14",
+    "airport_date": "2026-10-15",
+    "origin": {
+      "name": "Boston Logan Rental Car Center",
+      "coordinates": [
+        -71.0304,
+        42.3682
+      ]
+    },
+    "destination": {
+      "name": "Boston Logan hotel zone",
+      "coordinates": [
+        -71.0155,
+        42.3655
+      ]
+    },
+    "endpoint_city": "Durham, NC",
+    "direction": "Boston through Connecticut, the Hudson Valley, Bethlehem, Lancaster, Winchester and Roanoke to Durham; return through Petersburg, Richmond, Annapolis, Wilmington, Fort Tryon and Bridgeport",
+    "countries": [
+      "US"
+    ],
+    "canada_included": false,
+    "total_nights": 11,
+    "road_nights": 10,
+    "final_boston_nights": 1,
+    "baseline_total_miles": 1620.1,
+    "summary": "A warmer trip south, built around a private visit with aye-ayes and other lemurs at Duke. Along the way, the group explores huge factory art, working studios, Shenandoah gardens, Natural Bridge, Civil War history, a strange indoor mini-golf hotel, an Orthodox Sunday service, old water-powered factories, medieval rooms, and a final art palace in Boston."
+  },
+  "constraints": {
+    "travelers": 4,
+    "cars": 2,
+    "cars_follow_same_route": true,
+    "daily_drive_target_minutes": [
+      120,
+      180
+    ],
+    "daily_drive_hard_cap_minutes": 210,
+    "max_big_nights_out": 4,
+    "planned_big_nights_out": 0,
+    "max_athletic_adrenaline_spots": 2,
+    "planned_athletic_adrenaline_spots": 0,
+    "hike_soft_cap_miles": 6,
+    "lodging_rooms": [
+      {
+        "count": 1,
+        "beds": 1
+      },
+      {
+        "count": 1,
+        "beds": 2
+      }
+    ],
+    "lodging_priorities": [
+      "safe",
+      "clean",
+      "comfortable",
+      "two-room inventory",
+      "secure two-car parking"
+    ],
+    "visa_policy": "US-only; no Canada crossing or J-1 re-entry dependency.",
+    "budget_target_per_person_usd": 1500,
+    "budget_excludes": [
+      "lodging",
+      "rental cars",
+      "fuel",
+      "nightlife",
+      "personal shopping"
+    ]
+  },
+  "scoring": {
+    "scale": {
+      "min": 1,
+      "max": 5,
+      "increment": 0.5
+    },
+    "equal_traveler_weight": true,
+    "traveler_ids": [
+      "sheluvspaco",
+      "viki",
+      "gora",
+      "stivka"
+    ],
+    "route_component_weights_percent": {
+      "attraction_and_stop_ratings": 45,
+      "excitement_and_uniqueness": 20,
+      "driving_comfort": 15,
+      "traveler_fairness": 10,
+      "cost_and_value": 5,
+      "expected_weather": 5
+    },
+    "route_ratings": {
+      "sheluvspaco": null,
+      "viki": null,
+      "gora": null,
+      "stivka": null
+    },
+    "driving_comfort_ratings": {
+      "sheluvspaco": null,
+      "viki": null,
+      "gora": null,
+      "stivka": null
+    },
+    "overall_excitement_ratings": {
+      "sheluvspaco": null,
+      "viki": null,
+      "gora": null,
+      "stivka": null
+    },
+    "cost_value_ratings": {
+      "sheluvspaco": null,
+      "viki": null,
+      "gora": null,
+      "stivka": null
+    },
+    "weather_ratings": {
+      "sheluvspaco": null,
+      "viki": null,
+      "gora": null,
+      "stivka": null
+    },
+    "magic_score": null,
+    "magic_score_status": "awaiting_traveler_ratings",
+    "person_specific_route_scores": {
+      "sheluvspaco": null,
+      "viki": null,
+      "gora": null,
+      "stivka": null
+    }
+  },
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-10-04",
+      "sleep_city": "Danbury, CT",
+      "theme": "A gentle first day with American art",
+      "schedule": [
+        {
+          "start": "14:45",
+          "end": "16:35",
+          "place_id": "new-britain-art",
+          "priority": "anchor",
+          "reservation": "none"
+        }
+      ],
+      "lodging": {
+        "preferred_area": "West Danbury/Ridgebury near I-84 with two clean rooms, lighted parking and an easy Beacon exit",
+        "fallback_area": "Central Danbury only if recent cleanliness and secure two-car parking are stronger",
+        "room_setup": "Two rooms: one 1-bed room and one 2-bed room",
+        "notes": "Strong suggestion only; manually verify recent safety, cleanliness, exact bed layout and secure parking for two cars."
+      },
+      "fallback": "Leave Logan near 12:15. If traffic or the rental pickup is late, shorten the museum and continue to Danbury. Wadsworth replaces New Britain; never add both.",
+      "day_of_week": "Sunday",
+      "drive": {
+        "legs": [
+          {
+            "id": "d1-boston-logan-rental-to-new-britain-art",
+            "from": "boston-logan-rental",
+            "to": "new-britain-art",
+            "distance_meters": 181304,
+            "distance_miles": 112.7,
+            "baseline_seconds": 8530,
+            "baseline_minutes": 143,
+            "planning_minutes": {
+              "low": 155,
+              "high": 235
+            },
+            "traffic_risk": "high",
+            "mode": "driving",
+            "display_duration_minutes": 143,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -71.029421,
+                  42.367769
+                ],
+                [
+                  -71.037429,
+                  42.346811
+                ],
+                [
+                  -71.177949,
+                  42.35787
+                ],
+                [
+                  -71.315031,
+                  42.33461
+                ],
+                [
+                  -71.367832,
+                  42.311489
+                ],
+                [
+                  -71.412023,
+                  42.315539
+                ],
+                [
+                  -71.557712,
+                  42.269721
+                ],
+                [
+                  -71.618632,
+                  42.229395
+                ],
+                [
+                  -71.755983,
+                  42.2211
+                ],
+                [
+                  -72.060794,
+                  42.131125
+                ],
+                [
+                  -72.205452,
+                  41.948252
+                ],
+                [
+                  -72.37405,
+                  41.857299
+                ],
+                [
+                  -72.430562,
+                  41.854374
+                ],
+                [
+                  -72.46889,
+                  41.831455
+                ],
+                [
+                  -72.553905,
+                  41.801581
+                ],
+                [
+                  -72.576549,
+                  41.775117
+                ],
+                [
+                  -72.647578,
+                  41.757444
+                ],
+                [
+                  -72.665674,
+                  41.728013
+                ],
+                [
+                  -72.699713,
+                  41.711698
+                ],
+                [
+                  -72.705502,
+                  41.698061
+                ],
+                [
+                  -72.757952,
+                  41.693564
+                ],
+                [
+                  -72.758299,
+                  41.684404
+                ],
+                [
+                  -72.791466,
+                  41.664551
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-71.0304,42.3682;-72.7916536,41.6642765?overview=simplified&geometries=geojson&steps=false"
+          },
+          {
+            "id": "d1-new-britain-art-to-danbury-west-lodging",
+            "from": "new-britain-art",
+            "to": "danbury-west-lodging",
+            "distance_meters": 80549,
+            "distance_miles": 50.1,
+            "baseline_seconds": 3876,
+            "baseline_minutes": 65,
+            "planning_minutes": {
+              "low": 75,
+              "high": 115
+            },
+            "traffic_risk": "high",
+            "mode": "driving",
+            "display_duration_minutes": 65,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -72.791466,
+                  41.664551
+                ],
+                [
+                  -72.844527,
+                  41.669295
+                ],
+                [
+                  -72.868898,
+                  41.63631
+                ],
+                [
+                  -72.900147,
+                  41.610974
+                ],
+                [
+                  -72.903768,
+                  41.594994
+                ],
+                [
+                  -72.899225,
+                  41.58325
+                ],
+                [
+                  -72.915009,
+                  41.562229
+                ],
+                [
+                  -72.944865,
+                  41.542887
+                ],
+                [
+                  -72.96337,
+                  41.536568
+                ],
+                [
+                  -72.9843,
+                  41.543983
+                ],
+                [
+                  -73.004448,
+                  41.538187
+                ],
+                [
+                  -73.020656,
+                  41.541143
+                ],
+                [
+                  -73.032565,
+                  41.551615
+                ],
+                [
+                  -73.068444,
+                  41.547943
+                ],
+                [
+                  -73.085931,
+                  41.537349
+                ],
+                [
+                  -73.092348,
+                  41.522696
+                ],
+                [
+                  -73.138366,
+                  41.50898
+                ],
+                [
+                  -73.163613,
+                  41.49338
+                ],
+                [
+                  -73.213008,
+                  41.476081
+                ],
+                [
+                  -73.248145,
+                  41.450771
+                ],
+                [
+                  -73.247498,
+                  41.434036
+                ],
+                [
+                  -73.266495,
+                  41.415354
+                ],
+                [
+                  -73.289385,
+                  41.417327
+                ],
+                [
+                  -73.314484,
+                  41.429437
+                ],
+                [
+                  -73.362572,
+                  41.422615
+                ],
+                [
+                  -73.374777,
+                  41.424994
+                ],
+                [
+                  -73.410031,
+                  41.414031
+                ],
+                [
+                  -73.424652,
+                  41.418455
+                ],
+                [
+                  -73.45225,
+                  41.411441
+                ],
+                [
+                  -73.476178,
+                  41.397694
+                ],
+                [
+                  -73.48055,
+                  41.384867
+                ],
+                [
+                  -73.499966,
+                  41.389986
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-72.7916536,41.6642765;-73.5,41.39?overview=simplified&geometries=geojson&steps=false"
+          }
+        ],
+        "baseline_total_miles": 162.7,
+        "baseline_total_minutes": 207,
+        "planning_total_minutes": {
+          "low": 225,
+          "high": 335
+        },
+        "traffic_risk": "high",
+        "cap_minutes": 210,
+        "cap_status": "live-traffic-gated",
+        "fallback": "Leave Logan near 12:15. If traffic or the rental pickup is late, shorten the museum and continue to Danbury. Wadsworth replaces New Britain; never add both.",
+        "traffic_note": "OSRM is a road-network baseline with no live traffic. Check the actual two-car ETA before departure and cut the replaceable attraction rather than exceed 210 active minutes."
+      },
+      "weather": {
+        "kind": "historical_normal",
+        "high_c": 20.4,
+        "low_c": 11.6,
+        "precipitation_probability_percent": 31.2,
+        "comfort_score": 4.2,
+        "station_id": "USW00094702",
+        "station_name": "BRIDGEPORT SIKORSKY MEM AP, CT US",
+        "station_role": "Bridgeport-Danbury regional proxy",
+        "source_id": "src-noaa-normals",
+        "forecast_status": "replace_with_live_forecast_10_days_before",
+        "note": "Climate normal, not a 2026 forecast. Durham is normally the warmest sleep; Boston is coolest, and mountain mornings can feel colder than the regional station value."
+      }
+    },
+    {
+      "day": 2,
+      "date": "2026-10-05",
+      "sleep_city": "Bethlehem, PA",
+      "theme": "Giant art inside a bright old factory",
+      "schedule": [
+        {
+          "start": "10:00",
+          "end": "12:15",
+          "place_id": "dia-beacon",
+          "priority": "anchor",
+          "reservation": "reserve-recommended"
+        }
+      ],
+      "lodging": {
+        "preferred_area": "Historic Bethlehem/SteelStacks side with two clean rooms and secure parking",
+        "fallback_area": "Bethlehem Airport Road only if downtown two-room inventory is weak",
+        "room_setup": "Two rooms: one 1-bed room and one 2-bed room",
+        "notes": "Strong suggestion only; manually verify recent safety, cleanliness, exact bed layout and secure parking for two cars."
+      },
+      "fallback": "Book Dia's first entry and leave after the visit. Use Bear Mountain only when the summit road is open and the sky is clear. Do not visit both.",
+      "day_of_week": "Monday",
+      "drive": {
+        "legs": [
+          {
+            "id": "d2-danbury-west-lodging-to-dia-beacon",
+            "from": "danbury-west-lodging",
+            "to": "dia-beacon",
+            "distance_meters": 54472,
+            "distance_miles": 33.8,
+            "baseline_seconds": 2656,
+            "baseline_minutes": 45,
+            "planning_minutes": {
+              "low": 50,
+              "high": 80
+            },
+            "traffic_risk": "high",
+            "mode": "driving",
+            "display_duration_minutes": 45,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -73.499966,
+                  41.389986
+                ],
+                [
+                  -73.513955,
+                  41.394455
+                ],
+                [
+                  -73.521653,
+                  41.391479
+                ],
+                [
+                  -73.532513,
+                  41.392623
+                ],
+                [
+                  -73.555954,
+                  41.385438
+                ],
+                [
+                  -73.578679,
+                  41.38346
+                ],
+                [
+                  -73.597915,
+                  41.390689
+                ],
+                [
+                  -73.602502,
+                  41.401426
+                ],
+                [
+                  -73.619698,
+                  41.415893
+                ],
+                [
+                  -73.629248,
+                  41.427915
+                ],
+                [
+                  -73.632708,
+                  41.442169
+                ],
+                [
+                  -73.654462,
+                  41.482786
+                ],
+                [
+                  -73.663156,
+                  41.48983
+                ],
+                [
+                  -73.66902,
+                  41.498464
+                ],
+                [
+                  -73.679163,
+                  41.504271
+                ],
+                [
+                  -73.683854,
+                  41.514171
+                ],
+                [
+                  -73.697495,
+                  41.528957
+                ],
+                [
+                  -73.71418,
+                  41.543963
+                ],
+                [
+                  -73.721565,
+                  41.547317
+                ],
+                [
+                  -73.740681,
+                  41.548532
+                ],
+                [
+                  -73.761329,
+                  41.541032
+                ],
+                [
+                  -73.804036,
+                  41.530836
+                ],
+                [
+                  -73.83356,
+                  41.532791
+                ],
+                [
+                  -73.846085,
+                  41.530862
+                ],
+                [
+                  -73.862912,
+                  41.524817
+                ],
+                [
+                  -73.877637,
+                  41.525666
+                ],
+                [
+                  -73.903695,
+                  41.52265
+                ],
+                [
+                  -73.922588,
+                  41.529846
+                ],
+                [
+                  -73.949547,
+                  41.529834
+                ],
+                [
+                  -73.967583,
+                  41.519463
+                ],
+                [
+                  -73.97385,
+                  41.518256
+                ],
+                [
+                  -73.973203,
+                  41.514992
+                ],
+                [
+                  -73.977498,
+                  41.511955
+                ],
+                [
+                  -73.981744,
+                  41.50029
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-73.5,41.39;-73.9826016,41.5001712?overview=simplified&geometries=geojson&steps=false"
+          },
+          {
+            "id": "d2-dia-beacon-to-bethlehem-lodging",
+            "from": "dia-beacon",
+            "to": "bethlehem-lodging",
+            "distance_meters": 208497,
+            "distance_miles": 129.6,
+            "baseline_seconds": 9619,
+            "baseline_minutes": 161,
+            "planning_minutes": {
+              "low": 175,
+              "high": 260
+            },
+            "traffic_risk": "high",
+            "mode": "driving",
+            "display_duration_minutes": 161,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -73.981744,
+                  41.50029
+                ],
+                [
+                  -73.97385,
+                  41.518256
+                ],
+                [
+                  -74.030323,
+                  41.519724
+                ],
+                [
+                  -74.076677,
+                  41.509424
+                ],
+                [
+                  -74.079317,
+                  41.481851
+                ],
+                [
+                  -74.064572,
+                  41.454025
+                ],
+                [
+                  -74.069756,
+                  41.417089
+                ],
+                [
+                  -74.102872,
+                  41.381154
+                ],
+                [
+                  -74.117224,
+                  41.344157
+                ],
+                [
+                  -74.114665,
+                  41.318133
+                ],
+                [
+                  -74.184388,
+                  41.223951
+                ],
+                [
+                  -74.189086,
+                  41.150431
+                ],
+                [
+                  -74.169785,
+                  41.138872
+                ],
+                [
+                  -74.161455,
+                  41.115869
+                ],
+                [
+                  -74.194842,
+                  41.033203
+                ],
+                [
+                  -74.217763,
+                  41.020392
+                ],
+                [
+                  -74.24796,
+                  41.028932
+                ],
+                [
+                  -74.289588,
+                  41.024998
+                ],
+                [
+                  -74.362953,
+                  40.921337
+                ],
+                [
+                  -74.414594,
+                  40.899025
+                ],
+                [
+                  -74.419151,
+                  40.860856
+                ],
+                [
+                  -74.478183,
+                  40.774762
+                ],
+                [
+                  -74.521752,
+                  40.758598
+                ],
+                [
+                  -74.570365,
+                  40.693669
+                ],
+                [
+                  -74.636561,
+                  40.667236
+                ],
+                [
+                  -74.647916,
+                  40.643963
+                ],
+                [
+                  -74.78312,
+                  40.652163
+                ],
+                [
+                  -74.921033,
+                  40.6315
+                ],
+                [
+                  -74.974202,
+                  40.635578
+                ],
+                [
+                  -75.034048,
+                  40.651242
+                ],
+                [
+                  -75.046321,
+                  40.661714
+                ],
+                [
+                  -75.066478,
+                  40.65953
+                ],
+                [
+                  -75.111442,
+                  40.672362
+                ],
+                [
+                  -75.135798,
+                  40.669667
+                ],
+                [
+                  -75.161998,
+                  40.650692
+                ],
+                [
+                  -75.189936,
+                  40.677111
+                ],
+                [
+                  -75.231025,
+                  40.667367
+                ],
+                [
+                  -75.274408,
+                  40.637334
+                ],
+                [
+                  -75.299342,
+                  40.607334
+                ],
+                [
+                  -75.324065,
+                  40.596424
+                ],
+                [
+                  -75.340205,
+                  40.5982
+                ],
+                [
+                  -75.339703,
+                  40.609514
+                ],
+                [
+                  -75.35796,
+                  40.613534
+                ],
+                [
+                  -75.360156,
+                  40.621973
+                ],
+                [
+                  -75.382699,
+                  40.620175
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-73.9826016,41.5001712;-75.3824373,40.6201695?overview=simplified&geometries=geojson&steps=false"
+          }
+        ],
+        "baseline_total_miles": 163.4,
+        "baseline_total_minutes": 205,
+        "planning_total_minutes": {
+          "low": 225,
+          "high": 330
+        },
+        "traffic_risk": "high",
+        "cap_minutes": 210,
+        "cap_status": "live-traffic-gated",
+        "fallback": "Book Dia's first entry and leave after the visit. Use Bear Mountain only when the summit road is open and the sky is clear. Do not visit both.",
+        "traffic_note": "OSRM is a road-network baseline with no live traffic. Check the actual two-car ETA before departure and cut the replaceable attraction rather than exceed 210 active minutes."
+      },
+      "weather": {
+        "kind": "historical_normal",
+        "high_c": 20.9,
+        "low_c": 8.8,
+        "precipitation_probability_percent": 33.3,
+        "comfort_score": 4.2,
+        "station_id": "USW00014737",
+        "station_name": "ALLENTOWN INTL AP, PA US",
+        "station_role": "Lehigh Valley airport",
+        "source_id": "src-noaa-normals",
+        "forecast_status": "replace_with_live_forecast_10_days_before",
+        "note": "Climate normal, not a 2026 forecast. Durham is normally the warmest sleep; Boston is coolest, and mountain mornings can feel colder than the regional station value."
+      }
+    },
+    {
+      "day": 3,
+      "date": "2026-10-06",
+      "sleep_city": "Lancaster, PA",
+      "theme": "Watch artists work, then shop the outlets",
+      "schedule": [
+        {
+          "start": "10:00",
+          "end": "12:00",
+          "place_id": "goggleworks",
+          "priority": "anchor",
+          "reservation": "none"
+        },
+        {
+          "start": "13:00",
+          "end": "16:00",
+          "place_id": "tanger-lancaster",
+          "priority": "anchor",
+          "reservation": "none"
+        }
+      ],
+      "lodging": {
+        "preferred_area": "East Lancaster near Tanger with two rooms and bright off-street parking",
+        "fallback_area": "Lititz only if the exact hotel pin does not materially lengthen Wednesday",
+        "room_setup": "Two rooms: one 1-bed room and one 2-bed room",
+        "notes": "Strong suggestion only; manually verify recent safety, cleanliness, exact bed layout and secure parking for two cars."
+      },
+      "fallback": "Shorten GoggleWorks if no studios are active. The Air Museum can replace it, but the Tanger shopping window stays. Personal shopping is not part of the shared budget.",
+      "day_of_week": "Tuesday",
+      "drive": {
+        "legs": [
+          {
+            "id": "d3-bethlehem-lodging-to-goggleworks",
+            "from": "bethlehem-lodging",
+            "to": "goggleworks",
+            "distance_meters": 66232,
+            "distance_miles": 41.2,
+            "baseline_seconds": 3893,
+            "baseline_minutes": 65,
+            "planning_minutes": {
+              "low": 70,
+              "high": 95
+            },
+            "traffic_risk": "medium",
+            "mode": "driving",
+            "display_duration_minutes": 65,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -75.382699,
+                  40.620175
+                ],
+                [
+                  -75.381955,
+                  40.622377
+                ],
+                [
+                  -75.420985,
+                  40.623908
+                ],
+                [
+                  -75.443744,
+                  40.616265
+                ],
+                [
+                  -75.453007,
+                  40.606756
+                ],
+                [
+                  -75.457799,
+                  40.607669
+                ],
+                [
+                  -75.510858,
+                  40.591439
+                ],
+                [
+                  -75.516734,
+                  40.584335
+                ],
+                [
+                  -75.52294,
+                  40.583063
+                ],
+                [
+                  -75.527171,
+                  40.577602
+                ],
+                [
+                  -75.543434,
+                  40.570797
+                ],
+                [
+                  -75.553156,
+                  40.570025
+                ],
+                [
+                  -75.571732,
+                  40.564009
+                ],
+                [
+                  -75.596784,
+                  40.564302
+                ],
+                [
+                  -75.619326,
+                  40.553779
+                ],
+                [
+                  -75.622373,
+                  40.542276
+                ],
+                [
+                  -75.626006,
+                  40.53964
+                ],
+                [
+                  -75.677181,
+                  40.544406
+                ],
+                [
+                  -75.706869,
+                  40.541375
+                ],
+                [
+                  -75.758776,
+                  40.531354
+                ],
+                [
+                  -75.767908,
+                  40.531409
+                ],
+                [
+                  -75.784789,
+                  40.525825
+                ],
+                [
+                  -75.805553,
+                  40.504507
+                ],
+                [
+                  -75.809871,
+                  40.496668
+                ],
+                [
+                  -75.849608,
+                  40.480913
+                ],
+                [
+                  -75.871469,
+                  40.462435
+                ],
+                [
+                  -75.904221,
+                  40.444517
+                ],
+                [
+                  -75.918963,
+                  40.416641
+                ],
+                [
+                  -75.92792,
+                  40.408588
+                ],
+                [
+                  -75.927834,
+                  40.33697
+                ],
+                [
+                  -75.933697,
+                  40.337363
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-75.3824373,40.6201695;-75.9333189,40.3373521?overview=simplified&geometries=geojson&steps=false"
+          },
+          {
+            "id": "d3-goggleworks-to-tanger-lancaster",
+            "from": "goggleworks",
+            "to": "tanger-lancaster",
+            "distance_meters": 55077,
+            "distance_miles": 34.2,
+            "baseline_seconds": 2819,
+            "baseline_minutes": 47,
+            "planning_minutes": {
+              "low": 50,
+              "high": 70
+            },
+            "traffic_risk": "medium",
+            "mode": "driving",
+            "display_duration_minutes": 47,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -75.933697,
+                  40.337363
+                ],
+                [
+                  -75.933945,
+                  40.335472
+                ],
+                [
+                  -75.940811,
+                  40.334797
+                ],
+                [
+                  -75.960075,
+                  40.335074
+                ],
+                [
+                  -75.980922,
+                  40.327813
+                ],
+                [
+                  -75.981898,
+                  40.323175
+                ],
+                [
+                  -75.995853,
+                  40.315004
+                ],
+                [
+                  -75.999318,
+                  40.308305
+                ],
+                [
+                  -76.000337,
+                  40.297185
+                ],
+                [
+                  -76.011699,
+                  40.290066
+                ],
+                [
+                  -76.020379,
+                  40.27643
+                ],
+                [
+                  -76.031199,
+                  40.267775
+                ],
+                [
+                  -76.038242,
+                  40.244
+                ],
+                [
+                  -76.05241,
+                  40.22968
+                ],
+                [
+                  -76.116586,
+                  40.205813
+                ],
+                [
+                  -76.12747,
+                  40.185363
+                ],
+                [
+                  -76.14857,
+                  40.171431
+                ],
+                [
+                  -76.155917,
+                  40.155808
+                ],
+                [
+                  -76.16582,
+                  40.150951
+                ],
+                [
+                  -76.178528,
+                  40.149314
+                ],
+                [
+                  -76.203153,
+                  40.140409
+                ],
+                [
+                  -76.225597,
+                  40.11992
+                ],
+                [
+                  -76.24228,
+                  40.113805
+                ],
+                [
+                  -76.255817,
+                  40.102836
+                ],
+                [
+                  -76.265812,
+                  40.088533
+                ],
+                [
+                  -76.285156,
+                  40.075845
+                ],
+                [
+                  -76.288084,
+                  40.067598
+                ],
+                [
+                  -76.291307,
+                  40.06635
+                ],
+                [
+                  -76.286994,
+                  40.066735
+                ],
+                [
+                  -76.269963,
+                  40.056069
+                ],
+                [
+                  -76.25107,
+                  40.047793
+                ],
+                [
+                  -76.240242,
+                  40.031027
+                ],
+                [
+                  -76.223584,
+                  40.027924
+                ],
+                [
+                  -76.221755,
+                  40.024193
+                ],
+                [
+                  -76.21865,
+                  40.02371
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-75.9333189,40.3373521;-76.2186193,40.0238818?overview=simplified&geometries=geojson&steps=false"
+          },
+          {
+            "id": "d3-tanger-lancaster-to-lancaster-east-lodging",
+            "from": "tanger-lancaster",
+            "to": "lancaster-east-lodging",
+            "distance_meters": 958,
+            "distance_miles": 0.6,
+            "baseline_seconds": 200,
+            "baseline_minutes": 4,
+            "planning_minutes": {
+              "low": 5,
+              "high": 15
+            },
+            "traffic_risk": "medium",
+            "mode": "driving",
+            "display_duration_minutes": 4,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -76.21865,
+                  40.02371
+                ],
+                [
+                  -76.219285,
+                  40.023765
+                ],
+                [
+                  -76.219623,
+                  40.023661
+                ],
+                [
+                  -76.219813,
+                  40.024047
+                ],
+                [
+                  -76.219343,
+                  40.024194
+                ],
+                [
+                  -76.217549,
+                  40.024021
+                ],
+                [
+                  -76.217389,
+                  40.024119
+                ],
+                [
+                  -76.217348,
+                  40.024183
+                ],
+                [
+                  -76.21724,
+                  40.024858
+                ],
+                [
+                  -76.214698,
+                  40.025479
+                ],
+                [
+                  -76.21427,
+                  40.025483
+                ],
+                [
+                  -76.214134,
+                  40.025621
+                ],
+                [
+                  -76.214024,
+                  40.025861
+                ],
+                [
+                  -76.213104,
+                  40.025874
+                ],
+                [
+                  -76.212944,
+                  40.025753
+                ],
+                [
+                  -76.212879,
+                  40.02564
+                ],
+                [
+                  -76.212905,
+                  40.025236
+                ],
+                [
+                  -76.212544,
+                  40.025046
+                ],
+                [
+                  -76.212452,
+                  40.024863
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-76.2186193,40.0238818;-76.2126863,40.0247942?overview=simplified&geometries=geojson&steps=false"
+          }
+        ],
+        "baseline_total_miles": 76,
+        "baseline_total_minutes": 116,
+        "planning_total_minutes": {
+          "low": 125,
+          "high": 160
+        },
+        "traffic_risk": "medium",
+        "cap_minutes": 210,
+        "cap_status": "comfortable",
+        "fallback": "Shorten GoggleWorks if no studios are active. The Air Museum can replace it, but the Tanger shopping window stays. Personal shopping is not part of the shared budget.",
+        "traffic_note": "OSRM is a road-network baseline with no live traffic. Check the actual two-car ETA before departure and cut the replaceable attraction rather than exceed 210 active minutes."
+      },
+      "weather": {
+        "kind": "historical_normal",
+        "high_c": 21.4,
+        "low_c": 10.3,
+        "precipitation_probability_percent": 34.8,
+        "comfort_score": 4.4,
+        "station_id": "USW00014751",
+        "station_name": "HARRISBURG CPTL CY AP, PA US",
+        "station_role": "Harrisburg-Lancaster regional proxy",
+        "source_id": "src-noaa-normals",
+        "forecast_status": "replace_with_live_forecast_10_days_before",
+        "note": "Climate normal, not a 2026 forecast. Durham is normally the warmest sleep; Boston is coolest, and mountain mornings can feel colder than the regional station value."
+      }
+    },
+    {
+      "day": 4,
+      "date": "2026-10-07",
+      "sleep_city": "Winchester, VA",
+      "theme": "Gardens, valley stories, and a slow afternoon",
+      "schedule": [
+        {
+          "start": "12:00",
+          "end": "15:30",
+          "place_id": "shenandoah-valley-museum",
+          "priority": "anchor",
+          "reservation": "none"
+        }
+      ],
+      "lodging": {
+        "preferred_area": "Old Town Winchester edge with two clean rooms and secure parking",
+        "fallback_area": "West Winchester near US-50 only if the morning Natural Bridge exit is simpler",
+        "room_setup": "Two rooms: one 1-bed room and one 2-bed room",
+        "notes": "Strong suggestion only; manually verify recent safety, cleanliness, exact bed layout and secure parking for two cars."
+      },
+      "fallback": "This is a long driving day. Start with the galleries and gardens; trails are optional. Stonewall Headquarters is the shorter backup, and its Civil War story should be viewed critically.",
+      "day_of_week": "Wednesday",
+      "drive": {
+        "legs": [
+          {
+            "id": "d4-lancaster-east-lodging-to-shenandoah-valley-museum",
+            "from": "lancaster-east-lodging",
+            "to": "shenandoah-valley-museum",
+            "distance_meters": 252484,
+            "distance_miles": 156.9,
+            "baseline_seconds": 11637,
+            "baseline_minutes": 194,
+            "planning_minutes": {
+              "low": 210,
+              "high": 315
+            },
+            "traffic_risk": "high",
+            "mode": "driving",
+            "display_duration_minutes": 194,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -76.212452,
+                  40.024863
+                ],
+                [
+                  -76.239464,
+                  40.032198
+                ],
+                [
+                  -76.251015,
+                  40.047843
+                ],
+                [
+                  -76.288649,
+                  40.067474
+                ],
+                [
+                  -76.370759,
+                  40.084529
+                ],
+                [
+                  -76.48138,
+                  40.130088
+                ],
+                [
+                  -76.539999,
+                  40.132971
+                ],
+                [
+                  -76.61466,
+                  40.188338
+                ],
+                [
+                  -76.688602,
+                  40.195303
+                ],
+                [
+                  -76.717009,
+                  40.224103
+                ],
+                [
+                  -76.780862,
+                  40.22306
+                ],
+                [
+                  -76.816421,
+                  40.197504
+                ],
+                [
+                  -76.875527,
+                  40.212224
+                ],
+                [
+                  -76.923784,
+                  40.195895
+                ],
+                [
+                  -76.972047,
+                  40.195504
+                ],
+                [
+                  -77.022911,
+                  40.196627
+                ],
+                [
+                  -77.155036,
+                  40.22972
+                ],
+                [
+                  -77.206842,
+                  40.187981
+                ],
+                [
+                  -77.243276,
+                  40.183272
+                ],
+                [
+                  -77.476182,
+                  40.063803
+                ],
+                [
+                  -77.498042,
+                  40.036647
+                ],
+                [
+                  -77.565788,
+                  39.98635
+                ],
+                [
+                  -77.584194,
+                  39.952514
+                ],
+                [
+                  -77.611822,
+                  39.948565
+                ],
+                [
+                  -77.631998,
+                  39.933914
+                ],
+                [
+                  -77.668706,
+                  39.893087
+                ],
+                [
+                  -77.69885,
+                  39.829122
+                ],
+                [
+                  -77.728962,
+                  39.752736
+                ],
+                [
+                  -77.726921,
+                  39.727083
+                ],
+                [
+                  -77.742848,
+                  39.710436
+                ],
+                [
+                  -77.733376,
+                  39.688351
+                ],
+                [
+                  -77.738119,
+                  39.666044
+                ],
+                [
+                  -77.813868,
+                  39.589242
+                ],
+                [
+                  -77.879905,
+                  39.578653
+                ],
+                [
+                  -77.936386,
+                  39.509521
+                ],
+                [
+                  -77.973896,
+                  39.488509
+                ],
+                [
+                  -77.989985,
+                  39.468581
+                ],
+                [
+                  -77.99012,
+                  39.438328
+                ],
+                [
+                  -78.025529,
+                  39.405117
+                ],
+                [
+                  -78.102472,
+                  39.25474
+                ],
+                [
+                  -78.13453,
+                  39.231093
+                ],
+                [
+                  -78.139453,
+                  39.216757
+                ],
+                [
+                  -78.182703,
+                  39.211208
+                ],
+                [
+                  -78.179966,
+                  39.185123
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-76.2126863,40.0247942;-78.1798736,39.1854199?overview=simplified&geometries=geojson&steps=false"
+          },
+          {
+            "id": "d4-shenandoah-valley-museum-to-winchester-lodging",
+            "from": "shenandoah-valley-museum",
+            "to": "winchester-lodging",
+            "distance_meters": 1584,
+            "distance_miles": 1,
+            "baseline_seconds": 248,
+            "baseline_minutes": 5,
+            "planning_minutes": {
+              "low": 10,
+              "high": 20
+            },
+            "traffic_risk": "high",
+            "mode": "driving",
+            "display_duration_minutes": 5,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -78.179966,
+                  39.185123
+                ],
+                [
+                  -78.18005,
+                  39.184962
+                ],
+                [
+                  -78.180594,
+                  39.185142
+                ],
+                [
+                  -78.179789,
+                  39.186545
+                ],
+                [
+                  -78.179759,
+                  39.187762
+                ],
+                [
+                  -78.179851,
+                  39.188314
+                ],
+                [
+                  -78.17969,
+                  39.188695
+                ],
+                [
+                  -78.176972,
+                  39.187617
+                ],
+                [
+                  -78.170438,
+                  39.1863
+                ],
+                [
+                  -78.167636,
+                  39.185614
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-78.1798736,39.1854199;-78.1676,39.1857?overview=simplified&geometries=geojson&steps=false"
+          }
+        ],
+        "baseline_total_miles": 157.9,
+        "baseline_total_minutes": 199,
+        "planning_total_minutes": {
+          "low": 215,
+          "high": 320
+        },
+        "traffic_risk": "high",
+        "cap_minutes": 210,
+        "cap_status": "near-cap",
+        "fallback": "This is a long driving day. Start with the galleries and gardens; trails are optional. Stonewall Headquarters is the shorter backup, and its Civil War story should be viewed critically.",
+        "traffic_note": "OSRM is a road-network baseline with no live traffic. Check the actual two-car ETA before departure and cut the replaceable attraction rather than exceed 210 active minutes."
+      },
+      "weather": {
+        "kind": "historical_normal",
+        "high_c": 21.7,
+        "low_c": 9.4,
+        "precipitation_probability_percent": 27.6,
+        "comfort_score": 4.4,
+        "station_id": "USW00093738",
+        "station_name": "WASHINGTON DC DULLES AP, VA US",
+        "station_role": "Dulles-Winchester regional proxy",
+        "source_id": "src-noaa-normals",
+        "forecast_status": "replace_with_live_forecast_10_days_before",
+        "note": "Climate normal, not a 2026 forecast. Durham is normally the warmest sleep; Boston is coolest, and mountain mornings can feel colder than the regional station value."
+      }
+    },
+    {
+      "day": 5,
+      "date": "2026-10-08",
+      "sleep_city": "Roanoke, VA",
+      "theme": "Walk under a giant stone bridge",
+      "schedule": [
+        {
+          "start": "11:00",
+          "end": "13:30",
+          "place_id": "natural-bridge",
+          "priority": "anchor",
+          "reservation": "none"
+        }
+      ],
+      "lodging": {
+        "preferred_area": "Downtown Roanoke with two clean rooms, secure garage and walkable quiet dinner",
+        "fallback_area": "Salem east only if two-room value and parking are clearly better",
+        "room_setup": "Two rooms: one 1-bed room and one 2-bed room",
+        "notes": "Strong suggestion only; manually verify recent safety, cleanliness, exact bed layout and secure parking for two cars."
+      },
+      "fallback": "The drive leaves room for only one attraction. Ask for the easier path if stairs are a problem. Woodrow Wilson can replace Natural Bridge, but never visit both.",
+      "day_of_week": "Thursday",
+      "drive": {
+        "legs": [
+          {
+            "id": "d5-winchester-lodging-to-natural-bridge",
+            "from": "winchester-lodging",
+            "to": "natural-bridge",
+            "distance_meters": 223279,
+            "distance_miles": 138.7,
+            "baseline_seconds": 9348,
+            "baseline_minutes": 156,
+            "planning_minutes": {
+              "low": 170,
+              "high": 255
+            },
+            "traffic_risk": "high",
+            "mode": "driving",
+            "display_duration_minutes": 156,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -78.167636,
+                  39.185614
+                ],
+                [
+                  -78.171309,
+                  39.143073
+                ],
+                [
+                  -78.269481,
+                  39.028405
+                ],
+                [
+                  -78.30797,
+                  39.00589
+                ],
+                [
+                  -78.356324,
+                  39.015178
+                ],
+                [
+                  -78.413576,
+                  38.988611
+                ],
+                [
+                  -78.60055,
+                  38.808262
+                ],
+                [
+                  -78.650235,
+                  38.748196
+                ],
+                [
+                  -78.681706,
+                  38.640189
+                ],
+                [
+                  -78.824592,
+                  38.461873
+                ],
+                [
+                  -78.909078,
+                  38.4001
+                ],
+                [
+                  -78.938545,
+                  38.268083
+                ],
+                [
+                  -78.99022,
+                  38.216474
+                ],
+                [
+                  -79.021286,
+                  38.141745
+                ],
+                [
+                  -79.227288,
+                  37.933591
+                ],
+                [
+                  -79.36245,
+                  37.850052
+                ],
+                [
+                  -79.434767,
+                  37.725643
+                ],
+                [
+                  -79.543407,
+                  37.628476
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-78.1676,39.1857;-79.5437403,37.6285465?overview=simplified&geometries=geojson&steps=false"
+          },
+          {
+            "id": "d5-natural-bridge-to-roanoke-downtown-lodging",
+            "from": "natural-bridge",
+            "to": "roanoke-downtown-lodging",
+            "distance_meters": 65367,
+            "distance_miles": 40.6,
+            "baseline_seconds": 3012,
+            "baseline_minutes": 51,
+            "planning_minutes": {
+              "low": 60,
+              "high": 90
+            },
+            "traffic_risk": "high",
+            "mode": "driving",
+            "display_duration_minutes": 51,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -79.543407,
+                  37.628476
+                ],
+                [
+                  -79.573205,
+                  37.630033
+                ],
+                [
+                  -79.593619,
+                  37.612828
+                ],
+                [
+                  -79.614189,
+                  37.609567
+                ],
+                [
+                  -79.640608,
+                  37.584508
+                ],
+                [
+                  -79.669526,
+                  37.544326
+                ],
+                [
+                  -79.692018,
+                  37.530154
+                ],
+                [
+                  -79.73856,
+                  37.512141
+                ],
+                [
+                  -79.751083,
+                  37.498071
+                ],
+                [
+                  -79.784013,
+                  37.480106
+                ],
+                [
+                  -79.862343,
+                  37.444984
+                ],
+                [
+                  -79.915673,
+                  37.37221
+                ],
+                [
+                  -79.92645,
+                  37.366744
+                ],
+                [
+                  -79.970601,
+                  37.360049
+                ],
+                [
+                  -79.996792,
+                  37.342389
+                ],
+                [
+                  -79.993303,
+                  37.331347
+                ],
+                [
+                  -79.970657,
+                  37.305597
+                ],
+                [
+                  -79.9401,
+                  37.288971
+                ],
+                [
+                  -79.946848,
+                  37.272806
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-79.5437403,37.6285465;-79.9468241,37.2731542?overview=simplified&geometries=geojson&steps=false"
+          }
+        ],
+        "baseline_total_miles": 179.4,
+        "baseline_total_minutes": 206,
+        "planning_total_minutes": {
+          "low": 225,
+          "high": 330
+        },
+        "traffic_risk": "high",
+        "cap_minutes": 210,
+        "cap_status": "live-traffic-gated",
+        "fallback": "The drive leaves room for only one attraction. Ask for the easier path if stairs are a problem. Woodrow Wilson can replace Natural Bridge, but never visit both.",
+        "traffic_note": "OSRM is a road-network baseline with no live traffic. Check the actual two-car ETA before departure and cut the replaceable attraction rather than exceed 210 active minutes."
+      },
+      "weather": {
+        "kind": "historical_normal",
+        "high_c": 22.6,
+        "low_c": 10.5,
+        "precipitation_probability_percent": 27.1,
+        "comfort_score": 4.5,
+        "station_id": "USW00013741",
+        "station_name": "ROANOKE RGNL AP, VA US",
+        "station_role": "Roanoke airport",
+        "source_id": "src-noaa-normals",
+        "forecast_status": "replace_with_live_forecast_10_days_before",
+        "note": "Climate normal, not a 2026 forecast. Durham is normally the warmest sleep; Boston is coolest, and mountain mornings can feel colder than the regional station value."
+      }
+    },
+    {
+      "day": 6,
+      "date": "2026-10-09",
+      "sleep_city": "Durham, NC",
+      "theme": "Meet rare lemurs, then explore Duke",
+      "schedule": [
+        {
+          "start": "13:30",
+          "end": "15:30",
+          "place_id": "duke-lemur-bts",
+          "priority": "anchor",
+          "reservation": "reserve-now"
+        },
+        {
+          "start": "15:50",
+          "end": "18:00",
+          "place_id": "duke-chapel-gardens",
+          "priority": "supporting",
+          "reservation": "none"
+        }
+      ],
+      "lodging": {
+        "preferred_area": "Downtown Durham with two rooms, secure garage and walkable dinner",
+        "fallback_area": "Duke West Campus corridor only with explicit two-car overnight parking",
+        "room_setup": "Two rooms: one 1-bed room and one 2-bed room",
+        "notes": "Strong suggestion only; manually verify recent safety, cleanliness, exact bed layout and secure parking for two cars."
+      },
+      "fallback": "The private lemur tour must be booked. If no four-person slot is available, visit the Virginia Museum of Transportation before leaving Roanoke. Duke Chapel and Gardens can still stay.",
+      "day_of_week": "Friday",
+      "drive": {
+        "legs": [
+          {
+            "id": "d6-roanoke-downtown-lodging-to-duke-lemur-bts",
+            "from": "roanoke-downtown-lodging",
+            "to": "duke-lemur-bts",
+            "distance_meters": 220683,
+            "distance_miles": 137.1,
+            "baseline_seconds": 10960,
+            "baseline_minutes": 183,
+            "planning_minutes": {
+              "low": 200,
+              "high": 295
+            },
+            "traffic_risk": "high",
+            "mode": "driving",
+            "display_duration_minutes": 183,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -79.946848,
+                  37.272806
+                ],
+                [
+                  -79.946988,
+                  37.258769
+                ],
+                [
+                  -79.975917,
+                  37.234913
+                ],
+                [
+                  -79.935268,
+                  37.179872
+                ],
+                [
+                  -79.972815,
+                  37.134046
+                ],
+                [
+                  -79.93585,
+                  37.090072
+                ],
+                [
+                  -79.885519,
+                  37.063609
+                ],
+                [
+                  -79.87517,
+                  37.040308
+                ],
+                [
+                  -79.882249,
+                  37.020828
+                ],
+                [
+                  -79.86945,
+                  36.997157
+                ],
+                [
+                  -79.881841,
+                  36.949113
+                ],
+                [
+                  -79.864818,
+                  36.915092
+                ],
+                [
+                  -79.876841,
+                  36.853257
+                ],
+                [
+                  -79.917283,
+                  36.841297
+                ],
+                [
+                  -79.93896,
+                  36.809052
+                ],
+                [
+                  -79.937946,
+                  36.727046
+                ],
+                [
+                  -79.95582,
+                  36.718614
+                ],
+                [
+                  -79.957269,
+                  36.705587
+                ],
+                [
+                  -79.92053,
+                  36.652203
+                ],
+                [
+                  -79.860371,
+                  36.621799
+                ],
+                [
+                  -79.86317,
+                  36.579
+                ],
+                [
+                  -79.802632,
+                  36.534879
+                ],
+                [
+                  -79.752982,
+                  36.523268
+                ],
+                [
+                  -79.738275,
+                  36.476362
+                ],
+                [
+                  -79.660005,
+                  36.378755
+                ],
+                [
+                  -79.6287,
+                  36.360402
+                ],
+                [
+                  -79.643915,
+                  36.327625
+                ],
+                [
+                  -79.614128,
+                  36.292023
+                ],
+                [
+                  -79.598145,
+                  36.283031
+                ],
+                [
+                  -79.54282,
+                  36.283955
+                ],
+                [
+                  -79.521456,
+                  36.268399
+                ],
+                [
+                  -79.511296,
+                  36.165979
+                ],
+                [
+                  -79.477615,
+                  36.113182
+                ],
+                [
+                  -79.383215,
+                  36.062819
+                ],
+                [
+                  -79.223299,
+                  36.079234
+                ],
+                [
+                  -79.159964,
+                  36.072708
+                ],
+                [
+                  -79.129557,
+                  36.059175
+                ],
+                [
+                  -79.081707,
+                  36.058766
+                ],
+                [
+                  -78.988722,
+                  36.032248
+                ],
+                [
+                  -78.961956,
+                  35.993765
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-79.9468241,37.2731542;-78.9623365,35.9941971?overview=simplified&geometries=geojson&steps=false"
+          },
+          {
+            "id": "d6-duke-lemur-bts-to-duke-chapel-gardens",
+            "from": "duke-lemur-bts",
+            "to": "duke-chapel-gardens",
+            "distance_meters": 3993,
+            "distance_miles": 2.5,
+            "baseline_seconds": 585,
+            "baseline_minutes": 10,
+            "planning_minutes": {
+              "low": 15,
+              "high": 30
+            },
+            "traffic_risk": "high",
+            "mode": "driving",
+            "display_duration_minutes": 10,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -78.961956,
+                  35.993765
+                ],
+                [
+                  -78.960223,
+                  35.994265
+                ],
+                [
+                  -78.959573,
+                  35.99562
+                ],
+                [
+                  -78.959938,
+                  35.996519
+                ],
+                [
+                  -78.95904,
+                  35.997601
+                ],
+                [
+                  -78.959152,
+                  35.997746
+                ],
+                [
+                  -78.962789,
+                  35.999186
+                ],
+                [
+                  -78.964043,
+                  35.999443
+                ],
+                [
+                  -78.962172,
+                  36.000625
+                ],
+                [
+                  -78.961865,
+                  36.000573
+                ],
+                [
+                  -78.960464,
+                  35.999458
+                ],
+                [
+                  -78.959665,
+                  35.99905
+                ],
+                [
+                  -78.952072,
+                  35.997369
+                ],
+                [
+                  -78.949141,
+                  35.996393
+                ],
+                [
+                  -78.947039,
+                  35.99505
+                ],
+                [
+                  -78.946261,
+                  35.996214
+                ],
+                [
+                  -78.94527,
+                  35.998696
+                ],
+                [
+                  -78.942122,
+                  36.002596
+                ],
+                [
+                  -78.941127,
+                  36.001754
+                ],
+                [
+                  -78.94113,
+                  36.001482
+                ],
+                [
+                  -78.940933,
+                  36.001479
+                ],
+                [
+                  -78.940881,
+                  36.001632
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-78.9623365,35.9941971;-78.9402861,36.0018682?overview=simplified&geometries=geojson&steps=false"
+          },
+          {
+            "id": "d6-duke-chapel-gardens-to-durham-lodging",
+            "from": "duke-chapel-gardens",
+            "to": "durham-lodging",
+            "distance_meters": 4197,
+            "distance_miles": 2.6,
+            "baseline_seconds": 488,
+            "baseline_minutes": 9,
+            "planning_minutes": {
+              "low": 10,
+              "high": 25
+            },
+            "traffic_risk": "high",
+            "mode": "driving",
+            "display_duration_minutes": 9,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -78.940881,
+                  36.001632
+                ],
+                [
+                  -78.942122,
+                  36.002596
+                ],
+                [
+                  -78.944166,
+                  36.000081
+                ],
+                [
+                  -78.942055,
+                  35.999381
+                ],
+                [
+                  -78.939722,
+                  35.998209
+                ],
+                [
+                  -78.939064,
+                  35.997734
+                ],
+                [
+                  -78.937017,
+                  35.997187
+                ],
+                [
+                  -78.935617,
+                  35.99632
+                ],
+                [
+                  -78.934395,
+                  35.99699
+                ],
+                [
+                  -78.931551,
+                  35.998079
+                ],
+                [
+                  -78.930204,
+                  35.9984
+                ],
+                [
+                  -78.927011,
+                  35.997928
+                ],
+                [
+                  -78.923539,
+                  35.997013
+                ],
+                [
+                  -78.921671,
+                  35.996716
+                ],
+                [
+                  -78.917872,
+                  35.996694
+                ],
+                [
+                  -78.910273,
+                  35.996976
+                ],
+                [
+                  -78.91032,
+                  35.995477
+                ],
+                [
+                  -78.908796,
+                  35.995494
+                ],
+                [
+                  -78.908802,
+                  35.996743
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-78.9402861,36.0018682;-78.9087291,35.9967428?overview=simplified&geometries=geojson&steps=false"
+          }
+        ],
+        "baseline_total_miles": 142.2,
+        "baseline_total_minutes": 201,
+        "planning_total_minutes": {
+          "low": 220,
+          "high": 325
+        },
+        "traffic_risk": "high",
+        "cap_minutes": 210,
+        "cap_status": "live-traffic-gated",
+        "fallback": "The private lemur tour must be booked. If no four-person slot is available, visit the Virginia Museum of Transportation before leaving Roanoke. Duke Chapel and Gardens can still stay.",
+        "traffic_note": "OSRM is a road-network baseline with no live traffic. Check the actual two-car ETA before departure and cut the replaceable attraction rather than exceed 210 active minutes."
+      },
+      "weather": {
+        "kind": "historical_normal",
+        "high_c": 24.1,
+        "low_c": 11.8,
+        "precipitation_probability_percent": 26.6,
+        "comfort_score": 4.8,
+        "station_id": "USW00013722",
+        "station_name": "RALEIGH DURHAM INTL AP, NC US",
+        "station_role": "Raleigh-Durham airport",
+        "source_id": "src-noaa-normals",
+        "forecast_status": "replace_with_live_forecast_10_days_before",
+        "note": "Climate normal, not a 2026 forecast. Durham is normally the warmest sleep; Boston is coolest, and mountain mornings can feel colder than the regional station value."
+      }
+    },
+    {
+      "day": 7,
+      "date": "2026-10-10",
+      "sleep_city": "Richmond, VA",
+      "theme": "A Civil War landscape and a strange hotel game",
+      "schedule": [
+        {
+          "start": "11:30",
+          "end": "14:30",
+          "place_id": "petersburg-battlefield",
+          "priority": "anchor",
+          "reservation": "none"
+        },
+        {
+          "start": "18:00",
+          "end": "20:30",
+          "place_id": "hotel-greene",
+          "priority": "anchor",
+          "reservation": "same-day-wait-check"
+        }
+      ],
+      "lodging": {
+        "preferred_area": "Richmond Monroe Ward/downtown with two clean rooms, secure garage and a short walk or rideshare to Hotel Greene",
+        "fallback_area": "Museum District only if Sunday church remains a short reliable drive",
+        "room_setup": "Two rooms: one 1-bed room and one 2-bed room",
+        "notes": "Strong suggestion only; manually verify recent safety, cleanliness, exact bed layout and secure parking for two cars."
+      },
+      "fallback": "Park both cars before Hotel Greene and check its Saturday wait and age rules. Keystone replaces the battlefield in bad weather. This is a light evening, not a big night out.",
+      "day_of_week": "Saturday",
+      "drive": {
+        "legs": [
+          {
+            "id": "d7-durham-lodging-to-petersburg-battlefield",
+            "from": "durham-lodging",
+            "to": "petersburg-battlefield",
+            "distance_meters": 206104,
+            "distance_miles": 128.1,
+            "baseline_seconds": 8569,
+            "baseline_minutes": 143,
+            "planning_minutes": {
+              "low": 155,
+              "high": 235
+            },
+            "traffic_risk": "high",
+            "mode": "driving",
+            "display_duration_minutes": 143,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -78.908802,
+                  35.996743
+                ],
+                [
+                  -78.905007,
+                  36.019058
+                ],
+                [
+                  -78.869653,
+                  36.013903
+                ],
+                [
+                  -78.768502,
+                  36.0782
+                ],
+                [
+                  -78.742536,
+                  36.126258
+                ],
+                [
+                  -78.676282,
+                  36.208122
+                ],
+                [
+                  -78.580745,
+                  36.295282
+                ],
+                [
+                  -78.530518,
+                  36.319472
+                ],
+                [
+                  -78.467278,
+                  36.319639
+                ],
+                [
+                  -78.396832,
+                  36.345279
+                ],
+                [
+                  -78.23725,
+                  36.478173
+                ],
+                [
+                  -78.185097,
+                  36.542557
+                ],
+                [
+                  -78.17577,
+                  36.573335
+                ],
+                [
+                  -78.145451,
+                  36.612414
+                ],
+                [
+                  -78.124357,
+                  36.687068
+                ],
+                [
+                  -78.088064,
+                  36.757284
+                ],
+                [
+                  -78.020265,
+                  36.778946
+                ],
+                [
+                  -77.911026,
+                  36.847127
+                ],
+                [
+                  -77.865964,
+                  36.850723
+                ],
+                [
+                  -77.836431,
+                  36.864835
+                ],
+                [
+                  -77.73155,
+                  36.940135
+                ],
+                [
+                  -77.689647,
+                  36.991552
+                ],
+                [
+                  -77.561456,
+                  37.081649
+                ],
+                [
+                  -77.523635,
+                  37.122315
+                ],
+                [
+                  -77.484936,
+                  37.192993
+                ],
+                [
+                  -77.418585,
+                  37.199134
+                ],
+                [
+                  -77.383166,
+                  37.218722
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-78.9087291,35.9967428;-77.383166,37.2187215?overview=simplified&geometries=geojson&steps=false"
+          },
+          {
+            "id": "d7-petersburg-battlefield-to-richmond-lodging",
+            "from": "petersburg-battlefield",
+            "to": "richmond-lodging",
+            "distance_meters": 40239,
+            "distance_miles": 25,
+            "baseline_seconds": 2001,
+            "baseline_minutes": 34,
+            "planning_minutes": {
+              "low": 40,
+              "high": 65
+            },
+            "traffic_risk": "high",
+            "mode": "driving",
+            "display_duration_minutes": 34,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -77.383166,
+                  37.218722
+                ],
+                [
+                  -77.389847,
+                  37.218973
+                ],
+                [
+                  -77.395681,
+                  37.229755
+                ],
+                [
+                  -77.392976,
+                  37.247247
+                ],
+                [
+                  -77.399061,
+                  37.260159
+                ],
+                [
+                  -77.388516,
+                  37.283732
+                ],
+                [
+                  -77.39133,
+                  37.30067
+                ],
+                [
+                  -77.400397,
+                  37.316562
+                ],
+                [
+                  -77.399706,
+                  37.329376
+                ],
+                [
+                  -77.40553,
+                  37.34177
+                ],
+                [
+                  -77.403777,
+                  37.368923
+                ],
+                [
+                  -77.40777,
+                  37.376839
+                ],
+                [
+                  -77.422346,
+                  37.391665
+                ],
+                [
+                  -77.431596,
+                  37.432857
+                ],
+                [
+                  -77.422978,
+                  37.447664
+                ],
+                [
+                  -77.43249,
+                  37.49021
+                ],
+                [
+                  -77.424786,
+                  37.513357
+                ],
+                [
+                  -77.429261,
+                  37.531794
+                ],
+                [
+                  -77.448961,
+                  37.543058
+                ],
+                [
+                  -77.448686,
+                  37.546987
+                ],
+                [
+                  -77.446781,
+                  37.545436
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-77.383166,37.2187215;-77.446613,37.5453393?overview=simplified&geometries=geojson&steps=false"
+          }
+        ],
+        "baseline_total_miles": 153.1,
+        "baseline_total_minutes": 177,
+        "planning_total_minutes": {
+          "low": 195,
+          "high": 285
+        },
+        "traffic_risk": "high",
+        "cap_minutes": 210,
+        "cap_status": "comfortable",
+        "fallback": "Park both cars before Hotel Greene and check its Saturday wait and age rules. Keystone replaces the battlefield in bad weather. This is a light evening, not a big night out.",
+        "traffic_note": "OSRM is a road-network baseline with no live traffic. Check the actual two-car ETA before departure and cut the replaceable attraction rather than exceed 210 active minutes."
+      },
+      "weather": {
+        "kind": "historical_normal",
+        "high_c": 22.7,
+        "low_c": 10.7,
+        "precipitation_probability_percent": 27.4,
+        "comfort_score": 4.5,
+        "station_id": "USW00013740",
+        "station_name": "RICHMOND INTL AP, VA US",
+        "station_role": "Richmond airport",
+        "source_id": "src-noaa-normals",
+        "forecast_status": "replace_with_live_forecast_10_days_before",
+        "note": "Climate normal, not a 2026 forecast. Durham is normally the warmest sleep; Boston is coolest, and mountain mornings can feel colder than the regional station value."
+      }
+    },
+    {
+      "day": 8,
+      "date": "2026-10-11",
+      "sleep_city": "Annapolis, MD",
+      "theme": "Orthodox Sunday, Poe's garden, and Annapolis",
+      "schedule": [
+        {
+          "start": "08:15",
+          "end": "11:30",
+          "place_id": "richmond-orthodox",
+          "priority": "anchor",
+          "reservation": "reconfirm-parish"
+        },
+        {
+          "start": "12:00",
+          "end": "13:30",
+          "place_id": "poe-museum",
+          "priority": "anchor",
+          "reservation": "none"
+        }
+      ],
+      "lodging": {
+        "preferred_area": "Annapolis hotel corridor with two clean rooms and secure two-car parking",
+        "fallback_area": "Parole only if walkable downtown dinner is traded for easier Monday departure",
+        "room_setup": "Two rooms: one 1-bed room and one 2-bed room",
+        "notes": "Strong suggestion only; manually verify recent safety, cleanliness, exact bed layout and secure parking for two cars."
+      },
+      "fallback": "Keep the full church service and confirm parish rules. VMFA can replace Poe. If church or traffic runs late, cut the museum and protect the driving limit.",
+      "day_of_week": "Sunday",
+      "drive": {
+        "legs": [
+          {
+            "id": "d8-richmond-lodging-to-richmond-orthodox",
+            "from": "richmond-lodging",
+            "to": "richmond-orthodox",
+            "distance_meters": 6193,
+            "distance_miles": 3.8,
+            "baseline_seconds": 457,
+            "baseline_minutes": 8,
+            "planning_minutes": {
+              "low": 10,
+              "high": 25
+            },
+            "traffic_risk": "high",
+            "mode": "driving",
+            "display_duration_minutes": 8,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -77.446781,
+                  37.545436
+                ],
+                [
+                  -77.446543,
+                  37.545695
+                ],
+                [
+                  -77.445336,
+                  37.544974
+                ],
+                [
+                  -77.447412,
+                  37.542777
+                ],
+                [
+                  -77.447894,
+                  37.543077
+                ],
+                [
+                  -77.448877,
+                  37.542646
+                ],
+                [
+                  -77.45518,
+                  37.543008
+                ],
+                [
+                  -77.457014,
+                  37.543414
+                ],
+                [
+                  -77.468822,
+                  37.547642
+                ],
+                [
+                  -77.474811,
+                  37.548121
+                ],
+                [
+                  -77.478542,
+                  37.549277
+                ],
+                [
+                  -77.481125,
+                  37.550268
+                ],
+                [
+                  -77.483287,
+                  37.55181
+                ],
+                [
+                  -77.488367,
+                  37.553647
+                ],
+                [
+                  -77.489536,
+                  37.554557
+                ],
+                [
+                  -77.489862,
+                  37.55622
+                ],
+                [
+                  -77.488928,
+                  37.55906
+                ],
+                [
+                  -77.487355,
+                  37.560709
+                ],
+                [
+                  -77.486415,
+                  37.560557
+                ],
+                [
+                  -77.486991,
+                  37.559493
+                ],
+                [
+                  -77.492431,
+                  37.562091
+                ],
+                [
+                  -77.492858,
+                  37.561516
+                ],
+                [
+                  -77.493274,
+                  37.561708
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-77.446613,37.5453393;-77.4934947,37.5614073?overview=simplified&geometries=geojson&steps=false"
+          },
+          {
+            "id": "d8-richmond-orthodox-to-poe-museum",
+            "from": "richmond-orthodox",
+            "to": "poe-museum",
+            "distance_meters": 7779,
+            "distance_miles": 4.8,
+            "baseline_seconds": 590,
+            "baseline_minutes": 10,
+            "planning_minutes": {
+              "low": 15,
+              "high": 30
+            },
+            "traffic_risk": "high",
+            "mode": "driving",
+            "display_duration_minutes": 10,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -77.493274,
+                  37.561708
+                ],
+                [
+                  -77.493676,
+                  37.561894
+                ],
+                [
+                  -77.494182,
+                  37.561206
+                ],
+                [
+                  -77.493351,
+                  37.560848
+                ],
+                [
+                  -77.494785,
+                  37.558889
+                ],
+                [
+                  -77.490717,
+                  37.556956
+                ],
+                [
+                  -77.490611,
+                  37.555236
+                ],
+                [
+                  -77.489834,
+                  37.554081
+                ],
+                [
+                  -77.483454,
+                  37.551727
+                ],
+                [
+                  -77.480838,
+                  37.549673
+                ],
+                [
+                  -77.475208,
+                  37.547963
+                ],
+                [
+                  -77.46895,
+                  37.547455
+                ],
+                [
+                  -77.456545,
+                  37.543029
+                ],
+                [
+                  -77.450695,
+                  37.542675
+                ],
+                [
+                  -77.44915,
+                  37.542357
+                ],
+                [
+                  -77.447667,
+                  37.541681
+                ],
+                [
+                  -77.440551,
+                  37.53669
+                ],
+                [
+                  -77.436538,
+                  37.534341
+                ],
+                [
+                  -77.436109,
+                  37.534314
+                ],
+                [
+                  -77.435372,
+                  37.534835
+                ],
+                [
+                  -77.432545,
+                  37.534167
+                ],
+                [
+                  -77.432744,
+                  37.533343
+                ],
+                [
+                  -77.431157,
+                  37.532408
+                ],
+                [
+                  -77.429986,
+                  37.532388
+                ],
+                [
+                  -77.428731,
+                  37.531794
+                ],
+                [
+                  -77.427661,
+                  37.532905
+                ],
+                [
+                  -77.426205,
+                  37.532023
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-77.4934947,37.5614073;-77.4260748,37.5321579?overview=simplified&geometries=geojson&steps=false"
+          },
+          {
+            "id": "d8-poe-museum-to-annapolis-lodging",
+            "from": "poe-museum",
+            "to": "annapolis-lodging",
+            "distance_meters": 221290,
+            "distance_miles": 137.5,
+            "baseline_seconds": 10029,
+            "baseline_minutes": 168,
+            "planning_minutes": {
+              "low": 185,
+              "high": 275
+            },
+            "traffic_risk": "high",
+            "mode": "driving",
+            "display_duration_minutes": 168,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -77.426205,
+                  37.532023
+                ],
+                [
+                  -77.469801,
+                  37.582705
+                ],
+                [
+                  -77.443803,
+                  37.617835
+                ],
+                [
+                  -77.450618,
+                  37.839108
+                ],
+                [
+                  -77.517116,
+                  38.090635
+                ],
+                [
+                  -77.498228,
+                  38.33308
+                ],
+                [
+                  -77.435112,
+                  38.397625
+                ],
+                [
+                  -77.275563,
+                  38.663032
+                ],
+                [
+                  -77.230255,
+                  38.680745
+                ],
+                [
+                  -77.158774,
+                  38.805535
+                ],
+                [
+                  -77.028683,
+                  38.881808
+                ],
+                [
+                  -76.969135,
+                  38.876321
+                ],
+                [
+                  -76.880131,
+                  38.943496
+                ],
+                [
+                  -76.763744,
+                  38.945707
+                ],
+                [
+                  -76.546942,
+                  38.982414
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-77.4260748,37.5321579;-76.5472304,38.9825918?overview=simplified&geometries=geojson&steps=false"
+          }
+        ],
+        "baseline_total_miles": 146.2,
+        "baseline_total_minutes": 185,
+        "planning_total_minutes": {
+          "low": 200,
+          "high": 300
+        },
+        "traffic_risk": "high",
+        "cap_minutes": 210,
+        "cap_status": "near-cap",
+        "fallback": "Keep the full church service and confirm parish rules. VMFA can replace Poe. If church or traffic runs late, cut the museum and protect the driving limit.",
+        "traffic_note": "OSRM is a road-network baseline with no live traffic. Check the actual two-car ETA before departure and cut the replaceable attraction rather than exceed 210 active minutes."
+      },
+      "weather": {
+        "kind": "historical_normal",
+        "high_c": 21.1,
+        "low_c": 9.1,
+        "precipitation_probability_percent": 29.2,
+        "comfort_score": 4.3,
+        "station_id": "USW00093721",
+        "station_name": "BALTIMORE WASH INTL AP, MD US",
+        "station_role": "Baltimore-Washington airport regional proxy",
+        "source_id": "src-noaa-normals",
+        "forecast_status": "replace_with_live_forecast_10_days_before",
+        "note": "Climate normal, not a 2026 forecast. Durham is normally the warmest sleep; Boston is coolest, and mountain mornings can feel colder than the regional station value."
+      }
+    },
+    {
+      "day": 9,
+      "date": "2026-10-12",
+      "sleep_city": "Bensalem, PA",
+      "theme": "Water-powered factories hidden in the woods",
+      "schedule": [
+        {
+          "start": "10:00",
+          "end": "13:30",
+          "place_id": "hagley",
+          "priority": "anchor",
+          "reservation": "holiday-confirm"
+        }
+      ],
+      "lodging": {
+        "preferred_area": "Bensalem I-95 corridor with two clean rooms, bright parking and an easy northbound exit",
+        "fallback_area": "Langhorne only if the exact hotel pin preserves Tuesday's measured cap",
+        "room_setup": "Two rooms: one 1-bed room and one 2-bed room",
+        "notes": "Strong suggestion only; manually verify recent safety, cleanliness, exact bed layout and secure parking for two cars."
+      },
+      "fallback": "October 12 is a holiday, so call Hagley before the trip. Use Brandywine when Hagley is closed or the group wants a shorter, easier visit.",
+      "day_of_week": "Monday",
+      "drive": {
+        "legs": [
+          {
+            "id": "d9-annapolis-lodging-to-hagley",
+            "from": "annapolis-lodging",
+            "to": "hagley",
+            "distance_meters": 155591,
+            "distance_miles": 96.7,
+            "baseline_seconds": 7326,
+            "baseline_minutes": 123,
+            "planning_minutes": {
+              "low": 135,
+              "high": 205
+            },
+            "traffic_risk": "high",
+            "mode": "driving",
+            "display_duration_minutes": 123,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -76.546942,
+                  38.982414
+                ],
+                [
+                  -76.575354,
+                  38.985561
+                ],
+                [
+                  -76.611496,
+                  39.010248
+                ],
+                [
+                  -76.613619,
+                  39.04031
+                ],
+                [
+                  -76.640533,
+                  39.064253
+                ],
+                [
+                  -76.624645,
+                  39.086801
+                ],
+                [
+                  -76.64545,
+                  39.15669
+                ],
+                [
+                  -76.623396,
+                  39.229733
+                ],
+                [
+                  -76.613401,
+                  39.239506
+                ],
+                [
+                  -76.578977,
+                  39.242659
+                ],
+                [
+                  -76.553785,
+                  39.273364
+                ],
+                [
+                  -76.553123,
+                  39.293187
+                ],
+                [
+                  -76.512001,
+                  39.343272
+                ],
+                [
+                  -76.456599,
+                  39.372205
+                ],
+                [
+                  -76.371735,
+                  39.440113
+                ],
+                [
+                  -76.340911,
+                  39.4427
+                ],
+                [
+                  -76.244223,
+                  39.486992
+                ],
+                [
+                  -76.132189,
+                  39.574895
+                ],
+                [
+                  -76.076434,
+                  39.586444
+                ],
+                [
+                  -75.925883,
+                  39.645241
+                ],
+                [
+                  -75.783965,
+                  39.639082
+                ],
+                [
+                  -75.704124,
+                  39.654483
+                ],
+                [
+                  -75.659685,
+                  39.682556
+                ],
+                [
+                  -75.599323,
+                  39.698753
+                ],
+                [
+                  -75.621134,
+                  39.73501
+                ],
+                [
+                  -75.597384,
+                  39.768426
+                ],
+                [
+                  -75.577714,
+                  39.774878
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-76.5472304,38.9825918;-75.5778439,39.7749007?overview=simplified&geometries=geojson&steps=false"
+          },
+          {
+            "id": "d9-hagley-to-bensalem-lodging",
+            "from": "hagley",
+            "to": "bensalem-lodging",
+            "distance_meters": 78017,
+            "distance_miles": 48.5,
+            "baseline_seconds": 4318,
+            "baseline_minutes": 72,
+            "planning_minutes": {
+              "low": 80,
+              "high": 125
+            },
+            "traffic_risk": "high",
+            "mode": "driving",
+            "display_duration_minutes": 72,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -75.577714,
+                  39.774878
+                ],
+                [
+                  -75.577094,
+                  39.768667
+                ],
+                [
+                  -75.575391,
+                  39.774322
+                ],
+                [
+                  -75.555238,
+                  39.784592
+                ],
+                [
+                  -75.544848,
+                  39.776798
+                ],
+                [
+                  -75.544521,
+                  39.765168
+                ],
+                [
+                  -75.527869,
+                  39.774767
+                ],
+                [
+                  -75.507567,
+                  39.778996
+                ],
+                [
+                  -75.482117,
+                  39.801439
+                ],
+                [
+                  -75.466241,
+                  39.804341
+                ],
+                [
+                  -75.423365,
+                  39.834215
+                ],
+                [
+                  -75.355366,
+                  39.859172
+                ],
+                [
+                  -75.342873,
+                  39.867709
+                ],
+                [
+                  -75.256556,
+                  39.876387
+                ],
+                [
+                  -75.234226,
+                  39.892629
+                ],
+                [
+                  -75.209068,
+                  39.88562
+                ],
+                [
+                  -75.189806,
+                  39.896851
+                ],
+                [
+                  -75.152461,
+                  39.90125
+                ],
+                [
+                  -75.137838,
+                  39.964364
+                ],
+                [
+                  -75.089767,
+                  39.987471
+                ],
+                [
+                  -75.073737,
+                  40.006639
+                ],
+                [
+                  -75.028404,
+                  40.02542
+                ],
+                [
+                  -74.999419,
+                  40.047825
+                ],
+                [
+                  -74.960701,
+                  40.068427
+                ],
+                [
+                  -74.971126,
+                  40.087545
+                ],
+                [
+                  -74.954522,
+                  40.101103
+                ],
+                [
+                  -74.959879,
+                  40.104929
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-75.5778439,39.7749007;-74.96,40.105?overview=simplified&geometries=geojson&steps=false"
+          }
+        ],
+        "baseline_total_miles": 145.2,
+        "baseline_total_minutes": 195,
+        "planning_total_minutes": {
+          "low": 215,
+          "high": 315
+        },
+        "traffic_risk": "high",
+        "cap_minutes": 210,
+        "cap_status": "near-cap",
+        "fallback": "October 12 is a holiday, so call Hagley before the trip. Use Brandywine when Hagley is closed or the group wants a shorter, easier visit.",
+        "traffic_note": "OSRM is a road-network baseline with no live traffic. Check the actual two-car ETA before departure and cut the replaceable attraction rather than exceed 210 active minutes."
+      },
+      "weather": {
+        "kind": "historical_normal",
+        "high_c": 20.4,
+        "low_c": 10.4,
+        "precipitation_probability_percent": 30.7,
+        "comfort_score": 4.2,
+        "station_id": "USW00013739",
+        "station_name": "PHILADELPHIA INTL AP, PA US",
+        "station_role": "Philadelphia-Bensalem regional proxy",
+        "source_id": "src-noaa-normals",
+        "forecast_status": "replace_with_live_forecast_10_days_before",
+        "note": "Climate normal, not a 2026 forecast. Durham is normally the warmest sleep; Boston is coolest, and mountain mornings can feel colder than the regional station value."
+      }
+    },
+    {
+      "day": 10,
+      "date": "2026-10-13",
+      "sleep_city": "Bridgeport, CT",
+      "theme": "A medieval world above the Hudson",
+      "schedule": [
+        {
+          "start": "10:00",
+          "end": "13:00",
+          "place_id": "met-cloisters",
+          "priority": "anchor",
+          "reservation": "reserve-recommended"
+        }
+      ],
+      "lodging": {
+        "preferred_area": "Fairfield/Bridgeport line with two clean rooms and secure parking",
+        "fallback_area": "Milford only if live traffic still keeps the full bed-to-bed day below 210",
+        "room_setup": "Two rooms: one 1-bed room and one 2-bed room",
+        "notes": "Strong suggestion only; manually verify recent safety, cleanliness, exact bed layout and secure parking for two cars."
+      },
+      "fallback": "Arrive when the Cloisters opens and leave before afternoon traffic. Use Paterson Museum when New York traffic, parking, or low energy makes the Cloisters a poor choice.",
+      "day_of_week": "Tuesday",
+      "drive": {
+        "legs": [
+          {
+            "id": "d10-bensalem-lodging-to-met-cloisters",
+            "from": "bensalem-lodging",
+            "to": "met-cloisters",
+            "distance_meters": 141324,
+            "distance_miles": 87.8,
+            "baseline_seconds": 6835,
+            "baseline_minutes": 114,
+            "planning_minutes": {
+              "low": 125,
+              "high": 190
+            },
+            "traffic_risk": "high",
+            "mode": "driving",
+            "display_duration_minutes": 114,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -74.959879,
+                  40.104929
+                ],
+                [
+                  -74.953567,
+                  40.110965
+                ],
+                [
+                  -74.963,
+                  40.129833
+                ],
+                [
+                  -74.892465,
+                  40.129057
+                ],
+                [
+                  -74.776359,
+                  40.096074
+                ],
+                [
+                  -74.730066,
+                  40.097754
+                ],
+                [
+                  -74.646773,
+                  40.166638
+                ],
+                [
+                  -74.523669,
+                  40.243976
+                ],
+                [
+                  -74.447194,
+                  40.414223
+                ],
+                [
+                  -74.399343,
+                  40.485278
+                ],
+                [
+                  -74.36198,
+                  40.517388
+                ],
+                [
+                  -74.263108,
+                  40.559092
+                ],
+                [
+                  -74.084676,
+                  40.792658
+                ],
+                [
+                  -74.037024,
+                  40.820895
+                ],
+                [
+                  -74.01636,
+                  40.845231
+                ],
+                [
+                  -73.995832,
+                  40.841738
+                ],
+                [
+                  -73.977499,
+                  40.858415
+                ],
+                [
+                  -73.94403,
+                  40.845366
+                ],
+                [
+                  -73.931562,
+                  40.864806
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-74.96,40.105;-73.9319228,40.8648684?overview=simplified&geometries=geojson&steps=false"
+          },
+          {
+            "id": "d10-met-cloisters-to-bridgeport-lodging",
+            "from": "met-cloisters",
+            "to": "bridgeport-lodging",
+            "distance_meters": 81515,
+            "distance_miles": 50.7,
+            "baseline_seconds": 4598,
+            "baseline_minutes": 77,
+            "planning_minutes": {
+              "low": 85,
+              "high": 130
+            },
+            "traffic_risk": "high",
+            "mode": "driving",
+            "display_duration_minutes": 77,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -73.931562,
+                  40.864806
+                ],
+                [
+                  -73.904261,
+                  40.876399
+                ],
+                [
+                  -73.886391,
+                  40.890537
+                ],
+                [
+                  -73.866671,
+                  40.92002
+                ],
+                [
+                  -73.862628,
+                  40.921461
+                ],
+                [
+                  -73.858104,
+                  40.913875
+                ],
+                [
+                  -73.844042,
+                  40.910548
+                ],
+                [
+                  -73.840384,
+                  40.91734
+                ],
+                [
+                  -73.781253,
+                  40.91545
+                ],
+                [
+                  -73.723287,
+                  40.973664
+                ],
+                [
+                  -73.703204,
+                  40.974966
+                ],
+                [
+                  -73.682306,
+                  40.986753
+                ],
+                [
+                  -73.666659,
+                  40.988174
+                ],
+                [
+                  -73.63416,
+                  41.01827
+                ],
+                [
+                  -73.603918,
+                  41.027191
+                ],
+                [
+                  -73.584121,
+                  41.039535
+                ],
+                [
+                  -73.55181,
+                  41.044545
+                ],
+                [
+                  -73.515477,
+                  41.05638
+                ],
+                [
+                  -73.50265,
+                  41.06762
+                ],
+                [
+                  -73.468062,
+                  41.074371
+                ],
+                [
+                  -73.457098,
+                  41.087917
+                ],
+                [
+                  -73.427843,
+                  41.104846
+                ],
+                [
+                  -73.406059,
+                  41.108531
+                ],
+                [
+                  -73.377075,
+                  41.120131
+                ],
+                [
+                  -73.34052,
+                  41.123371
+                ],
+                [
+                  -73.323173,
+                  41.120477
+                ],
+                [
+                  -73.303416,
+                  41.126612
+                ],
+                [
+                  -73.284436,
+                  41.141029
+                ],
+                [
+                  -73.249844,
+                  41.149511
+                ],
+                [
+                  -73.228147,
+                  41.174351
+                ],
+                [
+                  -73.199934,
+                  41.189088
+                ],
+                [
+                  -73.195262,
+                  41.186183
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-73.9319228,40.8648684;-73.1952,41.1865?overview=simplified&geometries=geojson&steps=false"
+          }
+        ],
+        "baseline_total_miles": 138.5,
+        "baseline_total_minutes": 191,
+        "planning_total_minutes": {
+          "low": 210,
+          "high": 310
+        },
+        "traffic_risk": "high",
+        "cap_minutes": 210,
+        "cap_status": "near-cap",
+        "fallback": "Arrive when the Cloisters opens and leave before afternoon traffic. Use Paterson Museum when New York traffic, parking, or low energy makes the Cloisters a poor choice.",
+        "traffic_note": "OSRM is a road-network baseline with no live traffic. Check the actual two-car ETA before departure and cut the replaceable attraction rather than exceed 210 active minutes."
+      },
+      "weather": {
+        "kind": "historical_normal",
+        "high_c": 18.6,
+        "low_c": 9.6,
+        "precipitation_probability_percent": 31.7,
+        "comfort_score": 4,
+        "station_id": "USW00094702",
+        "station_name": "BRIDGEPORT SIKORSKY MEM AP, CT US",
+        "station_role": "Bridgeport airport",
+        "source_id": "src-noaa-normals",
+        "forecast_status": "replace_with_live_forecast_10_days_before",
+        "note": "Climate normal, not a 2026 forecast. Durham is normally the warmest sleep; Boston is coolest, and mountain mornings can feel colder than the regional station value."
+      }
+    },
+    {
+      "day": 11,
+      "date": "2026-10-14",
+      "sleep_city": "Boston, MA",
+      "theme": "Return the cars, then enter an art mystery",
+      "schedule": [
+        {
+          "start": "11:30",
+          "end": "15:00",
+          "place_id": "gardner-museum",
+          "priority": "anchor",
+          "reservation": "reserve"
+        }
+      ],
+      "lodging": {
+        "preferred_area": "Logan airport hotel with confirmed early October 15 shuttle and the exact two-room setup",
+        "fallback_area": "East Boston or Revere only with a verified airport transfer",
+        "room_setup": "Two rooms: one 1-bed room and one 2-bed room",
+        "notes": "Strong suggestion only; manually verify recent safety, cleanliness, exact bed layout and secure parking for two cars."
+      },
+      "fallback": "Leave Bridgeport early and return both cars before visiting Boston. Use transit or rideshare. Boston Public Library is the free backup, and there is no nightlife before the airport day.",
+      "day_of_week": "Wednesday",
+      "drive": {
+        "legs": [
+          {
+            "id": "d11-bridgeport-lodging-to-boston-logan-return",
+            "from": "bridgeport-lodging",
+            "to": "boston-logan-return",
+            "distance_meters": 248775,
+            "distance_miles": 154.6,
+            "baseline_seconds": 11526,
+            "baseline_minutes": 193,
+            "planning_minutes": {
+              "low": 210,
+              "high": 310
+            },
+            "traffic_risk": "high",
+            "mode": "driving",
+            "display_duration_minutes": 193,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -73.195262,
+                  41.186183
+                ],
+                [
+                  -73.178375,
+                  41.222199
+                ],
+                [
+                  -73.15025,
+                  41.23663
+                ],
+                [
+                  -73.078611,
+                  41.249382
+                ],
+                [
+                  -73.030582,
+                  41.310543
+                ],
+                [
+                  -73.000305,
+                  41.319844
+                ],
+                [
+                  -72.962147,
+                  41.351911
+                ],
+                [
+                  -72.918116,
+                  41.36652
+                ],
+                [
+                  -72.863831,
+                  41.402891
+                ],
+                [
+                  -72.82159,
+                  41.481063
+                ],
+                [
+                  -72.770806,
+                  41.521246
+                ],
+                [
+                  -72.774008,
+                  41.565611
+                ],
+                [
+                  -72.698972,
+                  41.710766
+                ],
+                [
+                  -72.665607,
+                  41.727894
+                ],
+                [
+                  -72.65724,
+                  41.75072
+                ],
+                [
+                  -72.633374,
+                  41.763622
+                ],
+                [
+                  -72.576199,
+                  41.774944
+                ],
+                [
+                  -72.553431,
+                  41.800971
+                ],
+                [
+                  -72.469261,
+                  41.830939
+                ],
+                [
+                  -72.430713,
+                  41.854013
+                ],
+                [
+                  -72.37389,
+                  41.857102
+                ],
+                [
+                  -72.205281,
+                  41.948043
+                ],
+                [
+                  -72.098482,
+                  42.073082
+                ],
+                [
+                  -72.063643,
+                  42.128252
+                ],
+                [
+                  -71.756836,
+                  42.220728
+                ],
+                [
+                  -71.618119,
+                  42.229365
+                ],
+                [
+                  -71.557662,
+                  42.269541
+                ],
+                [
+                  -71.411977,
+                  42.315412
+                ],
+                [
+                  -71.368027,
+                  42.311283
+                ],
+                [
+                  -71.315058,
+                  42.334425
+                ],
+                [
+                  -71.178254,
+                  42.357713
+                ],
+                [
+                  -71.037544,
+                  42.346671
+                ],
+                [
+                  -71.025581,
+                  42.358706
+                ],
+                [
+                  -71.029421,
+                  42.367769
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-73.1952,41.1865;-71.0304,42.3682?overview=simplified&geometries=geojson&steps=false"
+          },
+          {
+            "id": "d11-boston-logan-return-to-boston-logan-hotel",
+            "from": "boston-logan-return",
+            "to": "boston-logan-hotel",
+            "distance_meters": 1824,
+            "distance_miles": 1.1,
+            "baseline_seconds": 221,
+            "baseline_minutes": 4,
+            "planning_minutes": {
+              "low": 5,
+              "high": 20
+            },
+            "traffic_risk": "high",
+            "mode": "driving",
+            "display_duration_minutes": 4,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -71.029421,
+                  42.367769
+                ],
+                [
+                  -71.02961,
+                  42.367518
+                ],
+                [
+                  -71.029577,
+                  42.367362
+                ],
+                [
+                  -71.028114,
+                  42.366661
+                ],
+                [
+                  -71.027786,
+                  42.36704
+                ],
+                [
+                  -71.028379,
+                  42.367289
+                ],
+                [
+                  -71.028631,
+                  42.367466
+                ],
+                [
+                  -71.028806,
+                  42.367745
+                ],
+                [
+                  -71.028808,
+                  42.36805
+                ],
+                [
+                  -71.028033,
+                  42.36905
+                ],
+                [
+                  -71.027852,
+                  42.369108
+                ],
+                [
+                  -71.027461,
+                  42.369514
+                ],
+                [
+                  -71.027084,
+                  42.369576
+                ],
+                [
+                  -71.026842,
+                  42.369478
+                ],
+                [
+                  -71.026673,
+                  42.369235
+                ],
+                [
+                  -71.026546,
+                  42.368312
+                ],
+                [
+                  -71.026381,
+                  42.367878
+                ],
+                [
+                  -71.026085,
+                  42.367474
+                ],
+                [
+                  -71.025727,
+                  42.36717
+                ],
+                [
+                  -71.024299,
+                  42.366404
+                ],
+                [
+                  -71.022319,
+                  42.365889
+                ],
+                [
+                  -71.019883,
+                  42.364853
+                ],
+                [
+                  -71.01937,
+                  42.364782
+                ],
+                [
+                  -71.018851,
+                  42.364889
+                ],
+                [
+                  -71.018546,
+                  42.365109
+                ],
+                [
+                  -71.017961,
+                  42.365836
+                ],
+                [
+                  -71.0171,
+                  42.366204
+                ],
+                [
+                  -71.017001,
+                  42.366367
+                ],
+                [
+                  -71.016767,
+                  42.366379
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-71.0304,42.3682;-71.0155,42.3655?overview=simplified&geometries=geojson&steps=false"
+          }
+        ],
+        "baseline_total_miles": 155.7,
+        "baseline_total_minutes": 196,
+        "planning_total_minutes": {
+          "low": 215,
+          "high": 315
+        },
+        "traffic_risk": "high",
+        "cap_minutes": 210,
+        "cap_status": "near-cap",
+        "fallback": "Leave Bridgeport early and return both cars before visiting Boston. Use transit or rideshare. Boston Public Library is the free backup, and there is no nightlife before the airport day.",
+        "traffic_note": "OSRM is a road-network baseline with no live traffic. Check the actual two-car ETA before departure and cut the replaceable attraction rather than exceed 210 active minutes."
+      },
+      "weather": {
+        "kind": "historical_normal",
+        "high_c": 17.1,
+        "low_c": 8.9,
+        "precipitation_probability_percent": 33.5,
+        "comfort_score": 3.7,
+        "station_id": "USW00014739",
+        "station_name": "BOSTON LOGAN INTL AP, MA US",
+        "station_role": "Boston Logan airport",
+        "source_id": "src-noaa-normals",
+        "forecast_status": "replace_with_live_forecast_10_days_before",
+        "note": "Climate normal, not a 2026 forecast. Durham is normally the warmest sleep; Boston is coolest, and mountain mornings can feel colder than the regional station value."
+      }
+    }
+  ],
+  "place_ids": [
+    "new-britain-art",
+    "wadsworth-atheneum",
+    "dia-beacon",
+    "bear-mountain-perkins",
+    "goggleworks",
+    "mid-atlantic-air",
+    "tanger-lancaster",
+    "shenandoah-valley-museum",
+    "stonewall-headquarters",
+    "natural-bridge",
+    "woodrow-wilson",
+    "duke-lemur-bts",
+    "duke-chapel-gardens",
+    "virginia-transportation",
+    "petersburg-battlefield",
+    "keystone-tractor",
+    "hotel-greene",
+    "richmond-orthodox",
+    "poe-museum",
+    "virginia-fine-arts",
+    "hagley",
+    "brandywine-art",
+    "met-cloisters",
+    "paterson-museum",
+    "gardner-museum",
+    "boston-public-library"
+  ],
+  "core_place_ids": [
+    "new-britain-art",
+    "dia-beacon",
+    "goggleworks",
+    "tanger-lancaster",
+    "shenandoah-valley-museum",
+    "natural-bridge",
+    "duke-lemur-bts",
+    "duke-chapel-gardens",
+    "petersburg-battlefield",
+    "hotel-greene",
+    "richmond-orthodox",
+    "poe-museum",
+    "hagley",
+    "met-cloisters",
+    "gardner-museum"
+  ],
+  "alternative_place_ids": [
+    "wadsworth-atheneum",
+    "bear-mountain-perkins",
+    "mid-atlantic-air",
+    "stonewall-headquarters",
+    "woodrow-wilson",
+    "virginia-transportation",
+    "keystone-tractor",
+    "virginia-fine-arts",
+    "brandywine-art",
+    "paterson-museum",
+    "boston-public-library"
+  ],
+  "replacement_place_ids": [
+    "wadsworth-atheneum",
+    "bear-mountain-perkins",
+    "mid-atlantic-air",
+    "stonewall-headquarters",
+    "woodrow-wilson",
+    "virginia-transportation",
+    "keystone-tractor",
+    "virginia-fine-arts",
+    "brandywine-art",
+    "paterson-museum",
+    "boston-public-library"
+  ],
+  "replacement_options": [
+    {
+      "id": "replacement-d1-wadsworth",
+      "day": 1,
+      "replacement_place_id": "wadsworth-atheneum",
+      "replaces_place_ids": [
+        "new-britain-art"
+      ],
+      "baseline_total_miles": 162.6,
+      "baseline_total_minutes": 203,
+      "delta_miles": -0.1,
+      "delta_minutes": -4,
+      "cap_minutes": 210,
+      "cap_status": "passes-baseline-cap"
+    },
+    {
+      "id": "replacement-d2-bear-mountain",
+      "day": 2,
+      "replacement_place_id": "bear-mountain-perkins",
+      "replaces_place_ids": [
+        "dia-beacon"
+      ],
+      "baseline_total_miles": 149.5,
+      "baseline_total_minutes": 204,
+      "delta_miles": -13.9,
+      "delta_minutes": -1,
+      "cap_minutes": 210,
+      "cap_status": "passes-baseline-cap"
+    },
+    {
+      "id": "replacement-d3-mid-atlantic-air",
+      "day": 3,
+      "replacement_place_id": "mid-atlantic-air",
+      "replaces_place_ids": [
+        "goggleworks"
+      ],
+      "baseline_total_miles": 79.7,
+      "baseline_total_minutes": 124,
+      "delta_miles": 3.7,
+      "delta_minutes": 8,
+      "cap_minutes": 210,
+      "cap_status": "passes-baseline-cap"
+    },
+    {
+      "id": "replacement-d4-stonewall",
+      "day": 4,
+      "replacement_place_id": "stonewall-headquarters",
+      "replaces_place_ids": [
+        "shenandoah-valley-museum"
+      ],
+      "baseline_total_miles": 155.3,
+      "baseline_total_minutes": 193,
+      "delta_miles": -2.6,
+      "delta_minutes": -6,
+      "cap_minutes": 210,
+      "cap_status": "passes-baseline-cap"
+    },
+    {
+      "id": "replacement-d5-woodrow",
+      "day": 5,
+      "replacement_place_id": "woodrow-wilson",
+      "replaces_place_ids": [
+        "natural-bridge"
+      ],
+      "baseline_total_miles": 181.4,
+      "baseline_total_minutes": 209,
+      "delta_miles": 2,
+      "delta_minutes": 3,
+      "cap_minutes": 210,
+      "cap_status": "passes-baseline-cap"
+    },
+    {
+      "id": "replacement-d6-virginia-transport",
+      "day": 6,
+      "replacement_place_id": "virginia-transportation",
+      "replaces_place_ids": [
+        "duke-lemur-bts"
+      ],
+      "baseline_total_miles": 140.6,
+      "baseline_total_minutes": 190,
+      "delta_miles": -1.6,
+      "delta_minutes": -11,
+      "cap_minutes": 210,
+      "cap_status": "passes-baseline-cap"
+    },
+    {
+      "id": "replacement-d7-keystone",
+      "day": 7,
+      "replacement_place_id": "keystone-tractor",
+      "replaces_place_ids": [
+        "petersburg-battlefield"
+      ],
+      "baseline_total_miles": 152.5,
+      "baseline_total_minutes": 176,
+      "delta_miles": -0.6,
+      "delta_minutes": -1,
+      "cap_minutes": 210,
+      "cap_status": "passes-baseline-cap"
+    },
+    {
+      "id": "replacement-d8-vmfa",
+      "day": 8,
+      "replacement_place_id": "virginia-fine-arts",
+      "replaces_place_ids": [
+        "poe-museum"
+      ],
+      "baseline_total_miles": 140.1,
+      "baseline_total_minutes": 178,
+      "delta_miles": -6.1,
+      "delta_minutes": -7,
+      "cap_minutes": 210,
+      "cap_status": "passes-baseline-cap"
+    },
+    {
+      "id": "replacement-d9-brandywine",
+      "day": 9,
+      "replacement_place_id": "brandywine-art",
+      "replaces_place_ids": [
+        "hagley"
+      ],
+      "baseline_total_miles": 152.9,
+      "baseline_total_minutes": 204,
+      "delta_miles": 7.7,
+      "delta_minutes": 9,
+      "cap_minutes": 210,
+      "cap_status": "passes-baseline-cap"
+    },
+    {
+      "id": "replacement-d10-paterson",
+      "day": 10,
+      "replacement_place_id": "paterson-museum",
+      "replaces_place_ids": [
+        "met-cloisters"
+      ],
+      "baseline_total_miles": 151.1,
+      "baseline_total_minutes": 202,
+      "delta_miles": 12.6,
+      "delta_minutes": 11,
+      "cap_minutes": 210,
+      "cap_status": "passes-baseline-cap"
+    },
+    {
+      "id": "replacement-d11-bpl",
+      "day": 11,
+      "replacement_place_id": "boston-public-library",
+      "replaces_place_ids": [
+        "gardner-museum"
+      ],
+      "baseline_total_miles": 155.7,
+      "baseline_total_minutes": 196,
+      "delta_miles": 0,
+      "delta_minutes": 0,
+      "cap_minutes": 210,
+      "cap_status": "passes-baseline-cap"
+    }
+  ],
+  "budget": {
+    "known_core_admission_floor_per_person_usd": 277,
+    "core_admissions_range_per_person_usd": [
+      275,
+      340
+    ],
+    "food_and_cafes_range_per_person_usd": [
+      550,
+      800
+    ],
+    "local_parking_tolls_range_per_person_usd": [
+      100,
+      190
+    ],
+    "optional_experiences_contingency_per_person_usd": [
+      75,
+      160
+    ],
+    "controllable_total_range_per_person_usd": [
+      1000,
+      1490
+    ],
+    "nightlife_excluded_from_target": true,
+    "note": "The private lemur tour contributes roughly $100 per person but the controllable range can remain near the $1,500 target before lodging, cars, fuel, nightlife and shopping."
+  },
+  "booking_priorities": [
+    {
+      "place_id": "duke-lemur-bts",
+      "urgency": "now",
+      "reason": "The route-defining private tour has limited 13:30 inventory, no walk-ins and exactly fits the four-person group."
+    },
+    {
+      "place_id": "richmond-orthodox",
+      "urgency": "reconfirm",
+      "reason": "Confirm October 11 Orthros, Divine Liturgy and visitor/Communion etiquette in the cathedral bulletin."
+    },
+    {
+      "place_id": "hagley",
+      "urgency": "holiday-confirm",
+      "reason": "October 12 is a holiday. Keep Hagley core only after direct confirmation; Brandywine is already measured."
+    },
+    {
+      "place_id": "hotel-greene",
+      "urgency": "week-of",
+      "reason": "Saturday evening can produce long waits and the venue is 21-plus after 17:00; confirm exact hours and arrival strategy."
+    },
+    {
+      "place_id": "gardner-museum",
+      "urgency": "early",
+      "reason": "Reserve an 11:30 Wednesday entry that leaves time to return both rental cars first."
+    },
+    {
+      "place_id": "dia-beacon",
+      "urgency": "early",
+      "reason": "Reserve Monday opening inventory to protect the 205-minute cap day."
+    }
+  ],
+  "validation": {
+    "date_count": 11,
+    "expected_date_count": 11,
+    "all_baseline_drive_days_at_or_below_cap": true,
+    "live_traffic_gated_days": [
+      1,
+      2,
+      5,
+      6
+    ],
+    "place_count": 26,
+    "image_count": 89,
+    "places_with_fewer_than_3_usable_images": [],
+    "replacement_option_count": 11,
+    "all_replacement_variants_at_or_below_cap": true,
+    "unfilled_place_ratings": 104,
+    "hard_closures_or_conflicts": [
+      "Duke Lemur Center is not promised without a confirmed four-person Behind the Scenes reservation; Virginia Museum of Transportation is the automatic measured swap.",
+      "Hagley's October 12 holiday operation must be confirmed; Brandywine replaces it rather than stacking.",
+      "Perkins Memorial Drive is weather- and operations-gated; Bear Mountain never replaces Dia unless the summit road is open.",
+      "Hotel Greene's Saturday wait and 21-plus evening policy require a same-week check; it occurs only after both cars are parked.",
+      "The Richmond parish bulletin controls October 11 service times; Orthros and Divine Liturgy are protected from tourism cuts.",
+      "Gardner happens only after both cars are returned at Logan; no Boston driving or parking is encoded.",
+      "No OSRM baseline includes live traffic; near-cap and gated days require live-ETA checks and attraction cuts."
+    ],
+    "route_lock_status": "research-complete-bookings-and-live-forecast-pending"
+  }
+}

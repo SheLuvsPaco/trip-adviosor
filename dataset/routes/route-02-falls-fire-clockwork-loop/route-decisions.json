@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0.0",
+  "route_id": "route-02",
+  "verified_at": "2026-08-21",
+  "purpose": "Preserve the experience, schedule and driving decisions behind Route 2 so later edits do not turn it into a generic Niagara itinerary or reintroduce a measured cap failure.",
+  "hard_cap_minutes": 210,
+  "design_rules": [
+    "Use overlooked towns and strange intermediate anchors to make the transfers part of the holiday.",
+    "Treat Niagara as a US-side apex; do not make the route depend on a Canada crossing or J-1 re-entry assumption.",
+    "Protect two intentionally social nights, two athletic/adrenaline anchors maximum, and quiet small-town recovery nights.",
+    "A hidden-gem option replaces an anchor; it is never added on top of an already full day.",
+    "Photogenic value must also deliver nature, architecture, craft or history rather than functioning as a photo-only category."
+  ],
+  "final_decisions": [
+    {
+      "id": "northampton-art-opening",
+      "decision": "Open with Smith's glasshouse, Three Sisters Sanctuary and a railway-tunnel cocktail in Northampton.",
+      "reason": "This gives the first Boston transfer three distinct moods without a second hotel move and establishes that Route 2 is about personal, non-mainstream places rather than only famous cities."
+    },
+    {
+      "id": "howe-plus-iroquois",
+      "decision": "Pair Howe Caverns with the nearby Iroquois Museum before Cooperstown.",
+      "reason": "The pairing balances spectacle with contemporary Haudenosaunee authorship and uses the same road corridor; it is stronger than adding another scenic overlook."
+    },
+    {
+      "id": "cooperstown-weird-history",
+      "decision": "Give the Cardiff Giant and Empire State Carousel separate rateable cards inside the Fenimore Farm visit.",
+      "reason": "The hoax and community-carved carousel are the magical reasons for the stop; hiding them under one generic museum rating would lose the group's real preference signal."
+    },
+    {
+      "id": "rochester-two-nights",
+      "decision": "Keep two Rochester nights and make October 9 the no-driving day.",
+      "reason": "The rest day supports George Eastman, ARTISANworks, House of Guitars and Radio Social without burnout, while the second hotel night reduces packing and protects the later Niagara days."
+    },
+    {
+      "id": "orthodox-niagara-sunday",
+      "decision": "Begin October 11 with Annunciation's Orthodox services, then use Niagara Power Vista, Maid of the Mist, Cave of the Winds and illumination as one layered Niagara day.",
+      "reason": "Church is integrated as a real priority rather than a token add-on, while Niagara is experienced from above, below, on the water and after dark without crossing the border."
+    },
+    {
+      "id": "east-greenbush-logistics-night",
+      "decision": "Use an Albany/East Greenbush lodging zone rather than sleeping west of Albany on October 13.",
+      "reason": "The east-side advance makes the final West Stockbridge stop and Boston Logan return fit the 210-minute no-traffic cap."
+    },
+    {
+      "id": "final-two-days-live-gated",
+      "decision": "Keep Day 10 at 210 baseline minutes and Day 11 at 207 only with explicit live-traffic gates and deletion rules.",
+      "reason": "Both days technically pass the static road-network cap but have no honest congestion margin; the Capitol walk and then TurnPark are the first cuts if live navigation exceeds 210 minutes."
+    }
+  ],
+  "candidate_research": {
+    "selected_hidden_gem_replacements": [
+      "Magic Wings Butterfly Conservatory",
+      "Clark Art Institute outdoor campus and trails only",
+      "Secret Caverns",
+      "Fly Creek Cider Mill",
+      "Museum of the Earth",
+      "The Strong National Museum of Play",
+      "Eternal Flame Falls",
+      "Old Fort Niagara",
+      "Forest Lawn and Blue Sky Mausoleum",
+      "Schenectady Stockade District",
+      "No. Six Depot Roastery and Gallery"
+    ],
+    "selection_note": "These survived a fit, operating-hours, date, geography and bed-to-bed driving check. They are substitutions with separate geometry and stay outside the Magic score until promoted."
+  },
+  "rejected_variants": [
+    {
+      "variant": "Hyde Hall on the Cooperstown-Ithaca day",
+      "measured_baseline_minutes": 251,
+      "status": "rejected-hard-cap"
+    },
+    {
+      "variant": "Graycliff on the Buffalo-Syracuse day",
+      "measured_baseline_minutes": 274,
+      "status": "rejected-hard-cap"
+    },
+    {
+      "variant": "Green Lakes State Park on the Syracuse-Albany day",
+      "measured_baseline_minutes": 221,
+      "status": "rejected-hard-cap"
+    },
+    {
+      "variant": "Yaddo Gardens",
+      "measured_baseline_minutes": null,
+      "status": "rejected-closure",
+      "note": "The gardens are closed until further notice after storm bridge damage."
+    },
+    {
+      "variant": "Silo City public tour on October 10",
+      "measured_baseline_minutes": null,
+      "status": "rejected-calendar-conflict",
+      "note": "No public tour is scheduled for the visit date; the grain-elevator landscape remains visible from Canalside."
+    },
+    {
+      "variant": "Canada-side Niagara",
+      "measured_baseline_minutes": null,
+      "status": "rejected-j1-border-risk",
+      "note": "Reconsider only after written confirmation of lawful Canadian entry and US re-entry for every traveler."
+    }
+  ],
+  "traffic_policy": {
+    "routing_baseline": "OSRM road-network duration without live traffic",
+    "planning_ranges": "Risk buffers, explicitly not traffic forecasts",
+    "live_check": "Recalculate every bed-to-bed sequence in live navigation on the travel date before departure.",
+    "rule": "If predicted driving exceeds 210 minutes, promote the documented replacement if it helps, remove the day's named optional stop, or go directly to the lodging city; never assume traffic away."
+  }
+}

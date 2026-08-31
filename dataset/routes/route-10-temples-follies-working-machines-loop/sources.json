@@ -1,0 +1,486 @@
+{
+  "schema_version": "1.0.0",
+  "route_id": "route-10",
+  "verified_at": "2026-08-24",
+  "sources": [
+    {
+      "id": "src-nemm",
+      "title": "New England Motorcycle Museum",
+      "source_type": "official",
+      "url": "https://www.newenglandmotorcyclemuseum.org/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Sunday hours",
+        "mill reuse",
+        "collection scale",
+        "address"
+      ]
+    },
+    {
+      "id": "src-nemm-price",
+      "title": "CTvisit - New England Motorcycle Museum",
+      "source_type": "government-tourism",
+      "url": "https://ctvisit.com/listings/new-england-motorcycle-museum",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "adult admission"
+      ]
+    },
+    {
+      "id": "src-hillstead",
+      "title": "Hill-Stead Museum - visit",
+      "source_type": "official",
+      "url": "https://hillstead.org/visit/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Sunday hours",
+        "guided access",
+        "admission",
+        "grounds"
+      ]
+    },
+    {
+      "id": "src-hillstead-about",
+      "title": "Hill-Stead Museum - about",
+      "source_type": "official",
+      "url": "https://hillstead.org/about/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Theodate Pope Riddle",
+        "architecture",
+        "collection"
+      ]
+    },
+    {
+      "id": "src-baps",
+      "title": "BAPS Swaminarayan Akshardham - visit",
+      "source_type": "official-faith-site",
+      "url": "https://usa.akshardham.org/visit",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Monday hours",
+        "free entry",
+        "tour availability",
+        "dress and visitor rules"
+      ]
+    },
+    {
+      "id": "src-sayen",
+      "title": "Hamilton Township - Sayen House and Gardens",
+      "source_type": "government",
+      "url": "https://www.hamiltonnj.com/sayengardens",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "daily access",
+        "free admission",
+        "garden features"
+      ]
+    },
+    {
+      "id": "src-hagley-hours",
+      "title": "Hagley - hours and tickets",
+      "source_type": "official",
+      "url": "https://www.hagley.org/hours-tickets",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Tuesday hours",
+        "Wednesday closure",
+        "admission"
+      ]
+    },
+    {
+      "id": "src-hagley-visit",
+      "title": "Hagley - visitor information",
+      "source_type": "official",
+      "url": "https://www.hagley.org/visitor-information",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "powder works",
+        "water power",
+        "demonstrations",
+        "235 acres"
+      ]
+    },
+    {
+      "id": "src-winterthur-hours",
+      "title": "Winterthur - hours",
+      "source_type": "official",
+      "url": "https://www.winterthur.org/view-hours/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Tuesday hours",
+        "house and garden access"
+      ]
+    },
+    {
+      "id": "src-winterthur-price",
+      "title": "Winterthur - admission packages",
+      "source_type": "official",
+      "url": "https://www.winterthur.org/visit/admission-packages/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "adult admission",
+        "two-day validity",
+        "included experiences"
+      ]
+    },
+    {
+      "id": "src-marine-hours",
+      "title": "National Museum of the Marine Corps - hours",
+      "source_type": "official-government",
+      "url": "https://www.usmcmuseum.com/hours.html",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "daily hours",
+        "free admission"
+      ]
+    },
+    {
+      "id": "src-marine-plan",
+      "title": "National Museum of the Marine Corps - plan your visit",
+      "source_type": "official-government",
+      "url": "https://www.usmcmuseum.com/plan-your-visit.html",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "recommended duration",
+        "visitor logistics",
+        "exhibits"
+      ]
+    },
+    {
+      "id": "src-government-island",
+      "title": "Virginia 250 - Government Island",
+      "source_type": "government",
+      "url": "https://www.va250.org/placestovisit-detail/?id=57",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "October hours",
+        "free admission",
+        "trail length",
+        "White House and Capitol stone"
+      ]
+    },
+    {
+      "id": "src-government-dhr",
+      "title": "Virginia DHR - Public Quarry at Government Island",
+      "source_type": "government",
+      "url": "https://www.dhr.virginia.gov/historic-registers/089-0103/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "quarry history",
+        "Aquia sandstone",
+        "national significance"
+      ]
+    },
+    {
+      "id": "src-agecroft",
+      "title": "Agecroft Hall - visit",
+      "source_type": "official",
+      "url": "https://www.agecrofthall.org/visit",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Thursday hours",
+        "admission",
+        "house and garden access"
+      ]
+    },
+    {
+      "id": "src-lewis-ginter",
+      "title": "Lewis Ginter Botanical Garden - hours and admissions",
+      "source_type": "official",
+      "url": "https://www.lewisginter.org/visit/hours-admissions/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "daily hours",
+        "adult admission",
+        "conservatory and gardens"
+      ]
+    },
+    {
+      "id": "src-taubman",
+      "title": "Taubman Museum of Art - visit",
+      "source_type": "official",
+      "url": "https://www.taubmanmuseum.org/visit/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Friday hours",
+        "free general admission",
+        "architecture"
+      ]
+    },
+    {
+      "id": "src-link-visit",
+      "title": "Historical Society of Western Virginia - visit",
+      "source_type": "official",
+      "url": "https://roanokehistory.org/visit/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Friday hours",
+        "admission",
+        "current location"
+      ]
+    },
+    {
+      "id": "src-link-collection",
+      "title": "O. Winston Link Museum",
+      "source_type": "official",
+      "url": "https://roanokehistory.org/o-winston-link-museum/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "night photography",
+        "steam-era sound recordings",
+        "collection scope"
+      ]
+    },
+    {
+      "id": "src-star",
+      "title": "City of Roanoke - Mill Mountain Park",
+      "source_type": "government",
+      "url": "https://www.playroanoke.com/parks-facilities/mill-mountain-park/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "star dimensions",
+        "overlooks",
+        "drive-up access"
+      ]
+    },
+    {
+      "id": "src-vmt",
+      "title": "Virginia Museum of Transportation",
+      "source_type": "official",
+      "url": "https://vmt.org/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Saturday hours",
+        "rail yard",
+        "locomotive and transport collections"
+      ]
+    },
+    {
+      "id": "src-pinball",
+      "title": "Roanoke Pinball Museum",
+      "source_type": "official",
+      "url": "https://roanokepinball.org/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Saturday hours",
+        "free-play admission model",
+        "address"
+      ]
+    },
+    {
+      "id": "src-pinball-about",
+      "title": "Roanoke Pinball Museum - about",
+      "source_type": "official",
+      "url": "https://roanokepinball.org/about-us-1",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "approximately 75 playable machines",
+        "1932-present range",
+        "physics-art-history mission"
+      ]
+    },
+    {
+      "id": "src-myrrh",
+      "title": "Holy Myrrhbearers Orthodox Christian Church",
+      "source_type": "official-parish",
+      "url": "https://holymyrrh.org/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Sunday Hours and Liturgy",
+        "ROCOR affiliation",
+        "visitor welcome"
+      ]
+    },
+    {
+      "id": "src-myrrh-directory",
+      "title": "ROCOR clergy and parish directory - Holy Myrrhbearers",
+      "source_type": "official-church",
+      "url": "https://directory.synod.com/listing/550/holy-myrrhbearers-orthodox-christian-church/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "canonical jurisdiction",
+        "current physical address",
+        "service time"
+      ]
+    },
+    {
+      "id": "src-harrisonburg-art",
+      "title": "Visit Harrisonburg - downtown public art tour",
+      "source_type": "official-tourism",
+      "url": "https://visitharrisonburgva.com/tours/downtown-public-art-tour/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "murals",
+        "sculptures",
+        "Arts and Cultural District"
+      ]
+    },
+    {
+      "id": "src-carrier",
+      "title": "James Madison University - Edith J. Carrier Arboretum",
+      "source_type": "official-university",
+      "url": "https://www.jmu.edu/arboretum/index.shtml",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "daily dawn-to-dusk access",
+        "free admission",
+        "110-acre expansion"
+      ]
+    },
+    {
+      "id": "src-aaca",
+      "title": "America's Transportation Experience - visit",
+      "source_type": "official",
+      "url": "https://atexpa.org/visit/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "holiday Monday hours",
+        "admission",
+        "parking",
+        "accessibility"
+      ]
+    },
+    {
+      "id": "src-civilwar",
+      "title": "National Civil War Museum - visit",
+      "source_type": "official",
+      "url": "https://www.nationalcivilwarmuseum.org/visit/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "holiday hours",
+        "admission",
+        "artifact count",
+        "content advisory"
+      ]
+    },
+    {
+      "id": "src-skylands",
+      "title": "New Jersey Botanical Garden - hours and admission",
+      "source_type": "official",
+      "url": "https://www.njbg.org/hours-admission/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Tuesday hours",
+        "free admission",
+        "historic registration",
+        "coordinates"
+      ]
+    },
+    {
+      "id": "src-skylands-state",
+      "title": "New Jersey DEP - Skylands Manor",
+      "source_type": "government",
+      "url": "https://dep.nj.gov/parksandforests/state-park/skylands-manor/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Tudor architecture",
+        "grounds access",
+        "manor tour limitations"
+      ]
+    },
+    {
+      "id": "src-pyramid",
+      "title": "Morris County Parks - Pyramid Mountain",
+      "source_type": "government",
+      "url": "https://www.morrisparks.net/parks_trails/pyramid-mountain-natural-historic-area/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "glacial erratics",
+        "trail rules",
+        "Tripod Rock"
+      ]
+    },
+    {
+      "id": "src-pyramid-map",
+      "title": "Morris County Parks - Tripod Rock suggested hike",
+      "source_type": "government",
+      "url": "https://www.morrisparks.net/wp-content/uploads/2023/04/Pyramid-Mountain-Suggested-Hike-Tripod-Rock-Trail-Map.pdf",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "official route map",
+        "trail safety"
+      ]
+    },
+    {
+      "id": "src-athenaeum",
+      "title": "Boston Athenaeum - visit",
+      "source_type": "official",
+      "url": "https://bostonathenaeum.org/visit/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Wednesday hours",
+        "one-day membership",
+        "first-floor admission",
+        "tour booking"
+      ]
+    },
+    {
+      "id": "src-waterworks",
+      "title": "Metropolitan Waterworks Museum - visit",
+      "source_type": "official",
+      "url": "https://waterworksmuseum.org/visit/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Wednesday hours",
+        "free admission",
+        "transport access",
+        "special-access limits"
+      ]
+    },
+    {
+      "id": "src-waterworks-engines",
+      "title": "Metropolitan Waterworks Museum",
+      "source_type": "official",
+      "url": "https://waterworksmuseum.org/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "three historic steam pumps",
+        "engineering and public-health interpretation"
+      ]
+    },
+    {
+      "id": "src-noaa-normals",
+      "title": "NOAA U.S. Climate Normals",
+      "source_type": "government",
+      "url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "1991-2020 normals methodology"
+      ]
+    },
+    {
+      "id": "src-osrm",
+      "title": "Open Source Routing Machine",
+      "source_type": "routing",
+      "url": "https://project-osrm.org/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "road-network baselines",
+        "no live traffic"
+      ]
+    },
+    {
+      "id": "src-forum-roanoke",
+      "title": "r/roanoke local discussions",
+      "source_type": "forum",
+      "url": "https://www.reddit.com/r/roanoke/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Taubman, Pinball and Star combination",
+        "local pacing cross-check"
+      ]
+    },
+    {
+      "id": "src-forum-nj",
+      "title": "r/newjersey local discussions",
+      "source_type": "forum",
+      "url": "https://www.reddit.com/r/newjersey/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Skylands fall atmosphere",
+        "weekday crowd cross-check"
+      ]
+    }
+  ]
+}

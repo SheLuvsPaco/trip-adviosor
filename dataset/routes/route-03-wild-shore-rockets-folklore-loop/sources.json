@@ -1,0 +1,526 @@
+{
+  "schema_version": "1.0.0",
+  "route_id": "route-03",
+  "verified_at": "2026-08-23",
+  "sources": [
+    {
+      "id": "src-florence",
+      "publisher": "Florence Griswold Museum",
+      "type": "official",
+      "url": "https://florencegriswoldmuseum.org/visit/",
+      "supports": [
+        "Sunday hours",
+        "art-colony history",
+        "admission"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-cross-sound",
+      "publisher": "Cross Sound Ferry",
+      "type": "official",
+      "url": "https://www.longislandferry.com/Schedules/ScheduleDeparture.aspx",
+      "supports": [
+        "vehicle service",
+        "80-minute crossing",
+        "reservation guidance"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-greenport",
+      "publisher": "Village of Greenport",
+      "type": "government",
+      "url": "https://www.villageofgreenport.org/mitchell-park",
+      "supports": [
+        "Mitchell Park and carousel"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-book-barn",
+      "publisher": "The Book Barn",
+      "type": "official",
+      "url": "https://www.bookbarnniantic.com/thingstodo",
+      "supports": [
+        "daily October hours",
+        "gardens and animals"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-north-ferry",
+      "publisher": "North Ferry",
+      "type": "official",
+      "url": "https://northferry.com/schedule.html",
+      "supports": [
+        "year-round frequency",
+        "no reservations"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-south-ferry",
+      "publisher": "South Ferry",
+      "type": "official",
+      "url": "https://southferry.com/",
+      "supports": [
+        "year-round service",
+        "fare and cash policy"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-mashomack",
+      "publisher": "The Nature Conservancy",
+      "type": "official",
+      "url": "https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/long-island-mashomack/",
+      "supports": [
+        "preserve scale",
+        "habitats",
+        "trail access"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-parrish",
+      "publisher": "Parrish Art Museum",
+      "type": "official",
+      "url": "https://parrishart.org/visit/",
+      "supports": [
+        "Monday hours",
+        "admission",
+        "architecture"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-big-duck",
+      "publisher": "Suffolk County Parks",
+      "type": "government",
+      "url": "https://www.suffolkcountyny.gov/Departments/Parks/Historic-Sites/The-Big-Duck",
+      "supports": [
+        "daily hours",
+        "roadside-architecture history"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-tanger",
+      "publisher": "Tanger Riverhead",
+      "type": "official",
+      "url": "https://www.tanger.com/riverhead/stores",
+      "supports": [
+        "store directory",
+        "Monday hours"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-aquarium",
+      "publisher": "Long Island Aquarium",
+      "type": "official",
+      "url": "https://www.longislandaquarium.com/plan-your-visit/facilities/",
+      "supports": [
+        "daily hours",
+        "100-plus exhibits"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-cradle",
+      "publisher": "Cradle of Aviation Museum",
+      "type": "official",
+      "url": "https://www.cradleofaviation.org/",
+      "supports": [
+        "Tuesday hours",
+        "admission",
+        "aviation collection"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-silverball",
+      "publisher": "Silverball Retro Arcade",
+      "type": "official",
+      "url": "https://silverballmuseum.com/asbury-park/",
+      "supports": [
+        "daily hours",
+        "free-play admission"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-asbury",
+      "publisher": "Asbury Park Music Foundation",
+      "type": "official-calendar",
+      "url": "https://asburypark.net/events.shtml",
+      "supports": [
+        "2026 venue calendar",
+        "music-scene context"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-ocean-grove",
+      "publisher": "Ocean Grove Camp Meeting Association",
+      "type": "official",
+      "url": "https://www.oceangrove.org/tour",
+      "supports": [
+        "self-guided landmark tour",
+        "Great Auditorium and tent city"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-lucy",
+      "publisher": "Lucy the Elephant",
+      "type": "official",
+      "url": "https://lucytheelephant.org/visiting/",
+      "supports": [
+        "Wednesday tours",
+        "hours and admission"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-nas",
+      "publisher": "NAS Wildwood Aviation Museum",
+      "type": "official",
+      "url": "https://usnasw.org/visit/",
+      "supports": [
+        "October daily hours",
+        "admission"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-cape-may-mac",
+      "publisher": "Cape May MAC",
+      "type": "official",
+      "url": "https://capemaymac.org/ghosts-mysteries/",
+      "supports": [
+        "ghost and oddities tour formats",
+        "Victorian history"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-cape-point",
+      "publisher": "New Jersey State Park Service",
+      "type": "government",
+      "url": "https://dep.nj.gov/parksandforests/state-park/cape-may-point-state-park/",
+      "supports": [
+        "daily gate hours",
+        "lighthouse and Battery 223"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-cmlf",
+      "publisher": "Cape May-Lewes Ferry",
+      "type": "official",
+      "url": "https://www.cmlf.com/schedules-fares/",
+      "supports": [
+        "2026 schedule",
+        "vehicle reservations",
+        "fares"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-fort-miles",
+      "publisher": "Fort Miles Museum",
+      "type": "official",
+      "url": "https://fortmilesmuseum.org/battery-519-tours-and-museum-hours/",
+      "supports": [
+        "Thursday hours",
+        "Battery 519 tours",
+        "admission"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-zwaanendael",
+      "publisher": "Delaware Historical and Cultural Affairs",
+      "type": "government",
+      "url": "https://history.delaware.gov/zwaanendael-museum/",
+      "supports": [
+        "museum identity",
+        "Dutch memorial architecture"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-assateague",
+      "publisher": "National Park Service",
+      "type": "government",
+      "url": "https://www.nps.gov/asis/planyourvisit/hours.htm",
+      "supports": [
+        "October hours",
+        "visitor center",
+        "wild-horse access"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-wallops",
+      "publisher": "NASA",
+      "type": "government",
+      "url": "https://www.nasa.gov/wallops/visitor-center/plan-your-visit/",
+      "supports": [
+        "Friday hours",
+        "free admission",
+        "mission-operations caveat"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-barrier",
+      "publisher": "Barrier Islands Center",
+      "type": "official",
+      "url": "https://barrierislandscenter.org/visit",
+      "supports": [
+        "Friday hours",
+        "free admission",
+        "island-culture collection"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-cbbt",
+      "publisher": "Chesapeake Bay Bridge-Tunnel",
+      "type": "official",
+      "url": "https://www.cbbt.com/",
+      "supports": [
+        "17-mile crossing",
+        "tolls",
+        "travel alerts"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-nauticus",
+      "publisher": "Nauticus",
+      "type": "official",
+      "url": "https://nauticus.org/visit/hours-tickets/",
+      "supports": [
+        "daily hours",
+        "USS Wisconsin access",
+        "admission"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-are",
+      "publisher": "Edgar Cayce A.R.E.",
+      "type": "official",
+      "url": "https://edgarcayce.org/about-us/location-hours/",
+      "supports": [
+        "Saturday hours",
+        "library and visitor center"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-poe",
+      "publisher": "Poe Museum",
+      "type": "official",
+      "url": "https://poemuseum.org/visit-us/",
+      "supports": [
+        "Saturday hours",
+        "admission",
+        "Enchanted Garden"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-hermitage",
+      "publisher": "Hermitage Museum and Gardens",
+      "type": "official",
+      "url": "https://thehermitagemuseum.org/visit/",
+      "supports": [
+        "museum and garden access"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-richmond-orthodox",
+      "publisher": "Saints Constantine and Helen Cathedral",
+      "type": "official",
+      "url": "https://www.vagocathedral.org/",
+      "supports": [
+        "Sunday services",
+        "address"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-bo",
+      "publisher": "B&O Railroad Museum",
+      "type": "official",
+      "url": "https://www.borail.org/visit-the-bo/plan-your-visit/faqs/",
+      "supports": [
+        "daily hours",
+        "admission",
+        "secure parking"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-bo-rides",
+      "publisher": "B&O Railroad Museum",
+      "type": "official",
+      "url": "https://www.borail.org/visit-the-bo/tours-experiences/train-rides/",
+      "supports": [
+        "2026 Mile One ride schedule"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-bmi",
+      "publisher": "Baltimore Museum of Industry",
+      "type": "official",
+      "url": "https://www.thebmi.org/visit/",
+      "supports": [
+        "Sunday hours",
+        "admission",
+        "public tours"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-mutter",
+      "publisher": "Mutter Museum",
+      "type": "official",
+      "url": "https://muttermuseum.org/about/overview/",
+      "supports": [
+        "Monday hours",
+        "medical-history collection",
+        "address"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-metuchen",
+      "publisher": "Metuchen Downtown Alliance",
+      "type": "official-district",
+      "url": "https://www.downtownmetuchen.org/",
+      "supports": [
+        "Main Street dining and downtown district"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-andalusia",
+      "publisher": "Andalusia Historic House, Gardens and Arboretum",
+      "type": "official",
+      "url": "https://andalusiapa.org/visit/",
+      "supports": [
+        "2026 Monday hours",
+        "admission",
+        "house and garden tours"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-sleepy",
+      "publisher": "Visit Sleepy Hollow",
+      "type": "official-tourism",
+      "url": "https://visitsleepyhollow.com/where-to-see-the-headless-horseman/",
+      "supports": [
+        "bridge, statue and folklore locations"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-old-dutch",
+      "publisher": "Old Dutch Church",
+      "type": "official-tourism",
+      "url": "https://visitsleepyhollow.com/see/old-dutch-church/",
+      "supports": [
+        "churchyard history",
+        "October access and 16:30 closing"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-cemetery",
+      "publisher": "Sleepy Hollow Cemetery",
+      "type": "official-tourism",
+      "url": "https://visitsleepyhollow.com/see/sleepy-hollow-cemetery/",
+      "supports": [
+        "daily hours",
+        "Washington Irving grave",
+        "visitor rules"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-blaze",
+      "publisher": "Historic Hudson Valley",
+      "type": "official-ticketing",
+      "url": "https://tickets.hudsonvalley.org/blaze-hudson-valley-2026/11638",
+      "supports": [
+        "October 13 date",
+        "timed admission",
+        "price and duration"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-rockefeller",
+      "publisher": "The Pocantico Center",
+      "type": "official",
+      "url": "https://www.rbf.org/pocantico/david-rockefeller-creative-arts-center",
+      "supports": [
+        "arts-center architecture and exhibitions"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-pez",
+      "publisher": "PEZ Candy",
+      "type": "official",
+      "url": "https://us.pez.com/pages/pez-visitor-center-hours-and-location",
+      "supports": [
+        "Wednesday hours",
+        "admission",
+        "production viewing"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-barker",
+      "publisher": "Barker Character, Comic and Cartoon Museum",
+      "type": "official",
+      "url": "https://www.barkermuseum.com/PlanYourVisit.aspx",
+      "supports": [
+        "2026 Wednesday hours",
+        "admission",
+        "collection access"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-noaa-normals",
+      "publisher": "NOAA National Centers for Environmental Information",
+      "type": "government-data",
+      "url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+      "supports": [
+        "1991-2020 daily climate normals"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-osrm",
+      "publisher": "Open Source Routing Machine",
+      "type": "routing",
+      "url": "https://project-osrm.org/",
+      "supports": [
+        "road-network distance and no-traffic baselines"
+      ],
+      "verified_at": "2026-08-23"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0.0",
+  "route_id": "route-04",
+  "verified_at": "2026-08-23",
+  "purpose": "Preserve the research, date and geometry decisions behind Route 4 so later edits do not turn it into a generic Acadia foliage drive, reintroduce the measured cap violations, or promise seasonal experiences that are closed on the actual visit date.",
+  "hard_cap_minutes": 210,
+  "design_rules": [
+    "Make this the first northern-New-England option and accept a lower weather score rather than duplicating Routes 1-3.",
+    "Combine every photogenic landscape with architecture, ecology, engineering, material culture, faith or history.",
+    "Use at most two optional social nights and no scheduled athletic or adrenaline anchor.",
+    "Protect Orthodox Divine Liturgy as a real Sunday commitment, not a sightseeing window.",
+    "A hidden-gem option replaces named anchors; it is never added on top of a full day.",
+    "Never advertise an interior, guided tour or seasonal operation that is unavailable on the exact October date.",
+    "Keep every core and replacement bed-to-bed road baseline at or below 210 minutes before traffic."
+  ],
+  "final_decisions": [
+    {
+      "id": "north-first-identity",
+      "decision": "Build the fourth loop through coastal Maine, Acadia, western Maine, Vermont and New Hampshire.",
+      "reason": "The first three routes already cover the capital corridor, Niagara and the warmer Atlantic coast. Maine and Vermont add the clearest new experience identity even though their weather normals score lower."
+    },
+    {
+      "id": "portsmouth-layered-opening",
+      "decision": "Open with Nubble Light, USS Albacore and Portsmouth's African Burying Ground rather than spending the first day on generic Portland transfer stops.",
+      "reason": "One afternoon moves from landmark coast to experimental engineering to a solemn evidence-based memorial, establishing the route's visual, technical and hidden-history layers immediately."
+    },
+    {
+      "id": "cryptozoology-location-corrected",
+      "decision": "Place the International Cryptozoology Museum at its new 490 Broadway, Bangor home on October 8.",
+      "reason": "The Portland and old Bangor addresses are permanently closed. The museum opened in Bangor on June 1, 2026, which also makes it a natural bridge from Acadia to the inland half of the loop."
+    },
+    {
+      "id": "acadia-short-intense",
+      "decision": "Use Cadillac sunrise, a selected Ocean Path section and a short Jordan Pond view rather than a long summit hike or full pond loop.",
+      "reason": "The sequence provides the iconic landscape at high intensity while remaining below the group's six-mile hike preference and leaving enough energy for Bangor's unusual museums."
+    },
+    {
+      "id": "exact-date-fall-for-stj",
+      "decision": "Anchor Saturday, October 10 to Fall for St. Johnsbury's confirmed 2026 festival, foliage train and Fairbanks Museum offer.",
+      "reason": "The exact date creates an experience that a static top-attractions list would miss; the train also makes foliage part of the day without adding road driving."
+    },
+    {
+      "id": "weeks-replaces-waterfall",
+      "decision": "Replace Screw Auger Falls with Weeks State Park on Day 7.",
+      "reason": "The waterfall version measured 227 road minutes. Weeks sits on the transfer line, has exact October 10 hours, a 1.6-mile auto road, restored house and 360-degree summit, and reduces the corrected baseline to 178 minutes."
+    },
+    {
+      "id": "hope-cemetery-moved-to-sunday",
+      "decision": "Move Hope Cemetery from Burlington-to-Woodstock Day 9 to early Sunday before Burlington Liturgy.",
+      "reason": "The original Day 9 measured 223 minutes. Montpelier-to-Barre-to-Burlington is geographically natural, leaves ample time before church, produces a 123-minute Day 8 and a 196-minute Day 9, and keeps the cemetery's labor-and-craft story."
+    },
+    {
+      "id": "orthodox-sunday-burlington",
+      "decision": "Attend Orthros and Divine Liturgy at Dormition Greek Orthodox Church on October 11 before Shelburne Museum.",
+      "reason": "The service schedule is compatible with a strategic three-hour Shelburne visit and gives the entire itinerary a sincere spiritual center without a Canada crossing."
+    },
+    {
+      "id": "ben-jerrys-honest-limitation",
+      "decision": "Treat Ben and Jerry's as a Flavor Graveyard, scoop-shop and public-mezzanine stop, not a guided factory tour.",
+      "reason": "The operator explicitly suspends guided tours October 9-12, including the group's October 12 visit. The card and schedule preserve the fun without manufacturing access."
+    },
+    {
+      "id": "saint-gaudens-tuesday-honesty",
+      "decision": "Use only the Saint-Gaudens sculpture grounds on Tuesday, October 13.",
+      "reason": "The visitor center, galleries and Aspet operate Thursday-Monday. The grounds remain worthwhile, but the dataset explicitly marks the buildings closed."
+    },
+    {
+      "id": "wright-finale",
+      "decision": "Finish with the 09:30 combined Zimmerman and Kalil house tour plus a focused Currier gallery sampler before Boston.",
+      "reason": "The architecture is a strong Viki/Gora finale, the exact 2026 Wednesday tour exists, and the 74-minute road baseline protects the Logan hotel and October 15 airport maximum."
+    }
+  ],
+  "selected_hidden_gem_replacements": [
+    "Woodman Museum",
+    "Desert of Maine",
+    "Maine Maritime Museum",
+    "Penobscot Marine Museum",
+    "Seal Cove Auto Museum",
+    "Colby College Museum of Art",
+    "Dog Mountain and Dog Chapel",
+    "Museum of Everyday Life",
+    "VINS Nature Center",
+    "Path of Life Sculpture Garden",
+    "SEE Science Center"
+  ],
+  "rejected_or_reworked_variants": [
+    {
+      "variant": "Boston-to-Asheville Appalachian loop",
+      "measured_baseline_minutes": null,
+      "status": "rejected-geometry",
+      "resolution": "Even aggressive overnight stepping consumed too many of the eleven days under the 210-minute bed-to-bed rule; reserve Asheville for a longer trip or a flight-based route."
+    },
+    {
+      "variant": "Screw Auger Falls before St. Johnsbury",
+      "measured_baseline_minutes": 227,
+      "status": "reworked-hard-cap",
+      "resolution": "Replace with exact-date-open Weeks State Park; corrected Day 7 is 178 minutes."
+    },
+    {
+      "variant": "Hope Cemetery on Burlington-to-Woodstock day",
+      "measured_baseline_minutes": 223,
+      "status": "reworked-hard-cap",
+      "resolution": "Move Hope Cemetery to Sunday morning; corrected Day 9 is 196 minutes."
+    },
+    {
+      "variant": "Mount Orne Covered Bridge as the Day 7 roadside stop",
+      "measured_baseline_minutes": null,
+      "status": "rejected-2026-construction-risk",
+      "resolution": "NHDOT planning documents place rehabilitation in 2025-2026 and current material indicates closure risk; Weeks State Park has explicit 2026 operations."
+    },
+    {
+      "variant": "Museum of Everyday Life added alongside Shelburne Museum",
+      "measured_baseline_minutes": 211,
+      "status": "reworked-replacement-only",
+      "resolution": "It replaces Hope Cemetery and Shelburne in its measured 206-minute variant; it is never stacked onto the core Sunday."
+    },
+    {
+      "variant": "Dog Mountain added after Weeks and the festival",
+      "measured_baseline_minutes": 239,
+      "status": "reworked-replacement-only",
+      "resolution": "Dog Mountain replaces the full Lancaster/St. Johnsbury cluster in a 183-minute variant."
+    }
+  ],
+  "traffic_policy": {
+    "routing_baseline": "OSRM road-network duration without live traffic",
+    "planning_ranges": "Risk buffers are planning bands, not forecasts.",
+    "live_check": "Recalculate the complete bed-to-bed sequence in live navigation before departure each morning.",
+    "strict_days": [4, 6, 7, 9],
+    "rule": "If a live estimate exceeds 210 minutes, remove the named supporting stop or use a shorter documented replacement; never assume congestion away."
+  },
+  "weather_policy": {
+    "source": "NOAA 1991-2020 daily normals",
+    "interpretation": "Historical planning baseline, never a 2026 forecast.",
+    "route_character": "Daytime normals are generally 14-18 C; inland lows near 3 C make this the coolest of the first four routes.",
+    "magic_weight_percent": 5,
+    "live_refresh": "Replace with Celsius forecasts about ten days before travel and continue refreshing through departure."
+  },
+  "image_policy": {
+    "target_images_per_place": 3,
+    "rule": "Every selected image must be cached locally, attributed, rights-labeled and visually reviewed. External editorial images may be used in the private planning prototype only and require licensing or replacement before public deployment."
+  }
+}

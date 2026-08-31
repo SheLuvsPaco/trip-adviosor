@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0.0",
+  "route_id": "route-08",
+  "locked_at": "2026-08-24",
+  "accepted": [
+    {
+      "decision": "Durham is the endpoint",
+      "reason": "The private Duke Lemur Center experience is rare enough to justify the distance and reaches the warmest climate normal of the route without forcing a Canada crossing or an over-cap sleep stage."
+    },
+    {
+      "decision": "The route stages through Danbury, Bethlehem, Lancaster, Winchester and Roanoke",
+      "reason": "Exact OSRM measurements keep every core day at or below 207 minutes while turning transit days into art, gardens, architecture and industrial stories."
+    },
+    {
+      "decision": "One outlet window is intentionally scheduled",
+      "reason": "Tanger Lancaster gives Viki a real fashion-outlet block without scattering shopping across the route or charging it to the shared budget."
+    },
+    {
+      "decision": "Richmond protects a full Orthodox Sunday",
+      "reason": "Orthros and Divine Liturgy remain the fixed anchor; Poe or VMFA is cut first if the service or traffic runs long."
+    },
+    {
+      "decision": "Hotel Greene is a light social night, not a big night out",
+      "reason": "Its theatrical mini-golf world satisfies the unusual-experience brief without creating club fatigue before Sunday church."
+    },
+    {
+      "decision": "Every day has one route-tested replacement",
+      "reason": "Each swap is measured independently at or below 209 minutes and is a replacement, never a hidden add-on."
+    },
+    {
+      "decision": "Boston's final museum happens after car return",
+      "reason": "Returning both cars before Gardner protects the October 15 airport requirement and avoids parking two vehicles in central Boston."
+    }
+  ],
+  "rejected": [
+    {
+      "option": "Raleigh, Wilson Whirligig Park and an exact Dax concert",
+      "reason": "Preliminary routing pushed consecutive endpoint days beyond the 210-minute bed-to-bed rule. An event is not magical if its schedule requires hiding road time."
+    },
+    {
+      "option": "Korner's Folly, Williamsburg or Jamestown detours",
+      "reason": "Each pulled the route sideways and either broke the drive cap or displaced the stronger lemur, Natural Bridge and Orthodox anchors."
+    },
+    {
+      "option": "Another Icon Museum or repeated Northeast anchor",
+      "reason": "Earlier routes already own those stories; Route 8 needed a distinct southbound identity."
+    },
+    {
+      "option": "Canada or Canadian Niagara",
+      "reason": "The route remains US-only with no J-1 re-entry dependency."
+    },
+    {
+      "option": "A second athletic or adrenaline stop",
+      "reason": "The route deliberately spends its energy budget on discovery, conservation, architecture and history. Hotel Greene is playful, not a heavy athletic demand."
+    },
+    {
+      "option": "Stacking hidden-gem replacements",
+      "reason": "Replacements rescue weather, energy or closures and remain excluded from Magic scoring until explicitly promoted."
+    }
+  ],
+  "traffic_policy": "OSRM baselines contain no traffic. Check live ETAs before every departure; days at or above 200 baseline minutes are live-traffic-gated, and no attraction justifies exceeding 210 active driving minutes.",
+  "weather_policy": "Daily Celsius values are NOAA 1991-2020 station normals, not forecasts. Weather carries only 5 percent of Magic score and must be replaced by a live forecast about ten days before departure.",
+  "image_policy": "Three to five local, visually reviewed images are stored per place with creator, source and rights metadata. Contextual images are labelled. Permission-required venue/editorial files are private-prototype-only until licensed or replaced."
+}

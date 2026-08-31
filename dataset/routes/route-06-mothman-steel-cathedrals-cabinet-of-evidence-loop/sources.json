@@ -1,0 +1,487 @@
+{
+  "schema_version": "1.0.0",
+  "route_id": "route-06",
+  "verified_at": "2026-08-23",
+  "sources": [
+    {
+      "id": "src-carousel",
+      "title": "New England Carousel Museum - hours and rates",
+      "source_type": "official",
+      "url": "https://www.thecarouselmuseum.org/hours-rates",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "Sunday hours",
+        "adult admission",
+        "collection access"
+      ]
+    },
+    {
+      "id": "src-witch",
+      "title": "Connecticut Office of Tourism - Witch's Dungeon",
+      "source_type": "government-tourism",
+      "url": "https://ctvisit.com/listings/original-witchs-dungeon-museum-classic-movie-museum",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "Sunday hours",
+        "admission",
+        "guided format"
+      ]
+    },
+    {
+      "id": "src-columcille",
+      "title": "Columcille Megalith Park - visiting the park",
+      "source_type": "official",
+      "url": "https://www.columcille.org/visitingthepark",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "dawn-dusk access",
+        "20-acre landscape",
+        "visitor rules"
+      ]
+    },
+    {
+      "id": "src-martin",
+      "title": "C. F. Martin & Co. - visit us",
+      "source_type": "official",
+      "url": "https://www.martinguitar.com/visit-us.html",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "Monday hours",
+        "museum",
+        "factory-tour reservation"
+      ]
+    },
+    {
+      "id": "src-army",
+      "title": "U.S. Army Center of Military History - Army Heritage",
+      "source_type": "government",
+      "url": "https://history.army.mil/Archives/Visit/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "Monday-Saturday hours",
+        "free admission",
+        "outdoor trail"
+      ]
+    },
+    {
+      "id": "src-psp",
+      "title": "Pennsylvania State Police Historical, Educational & Memorial Center",
+      "source_type": "official",
+      "url": "https://www.psp-hemc.org/wp/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "weekday hours",
+        "self-guided admission",
+        "collection"
+      ]
+    },
+    {
+      "id": "src-gravity",
+      "title": "Bedford County Visitors Bureau - Gravity Hill directions",
+      "source_type": "tourism",
+      "url": "https://discoverbedfordcounty.com/wp-content/uploads/2023/12/Gravity_Hill.pdf",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "exact coordinates",
+        "public-road etiquette",
+        "optical-illusion setup"
+      ]
+    },
+    {
+      "id": "src-quecreek",
+      "title": "Quecreek Mine Rescue Site",
+      "source_type": "official",
+      "url": "https://quecreekrescue.org/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "outdoor access",
+        "visitor-center uncertainty",
+        "rescue history"
+      ]
+    },
+    {
+      "id": "src-flight93",
+      "title": "National Park Service - Flight 93 visitor center",
+      "source_type": "government",
+      "url": "https://www.nps.gov/flni/planyourvisit/vc.htm",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "daily hours",
+        "free admission",
+        "visit duration"
+      ]
+    },
+    {
+      "id": "src-nationality",
+      "title": "University of Pittsburgh - Nationality Rooms tours",
+      "source_type": "official",
+      "url": "https://www.alumnionline.pitt.edu/s/1729/2-pittsburgh/interior.aspx?gid=2&pgid=4490&sid=1729",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "Thursday tour products",
+        "timed access",
+        "tour duration"
+      ]
+    },
+    {
+      "id": "src-postnatural",
+      "title": "Center for PostNatural History - visit",
+      "source_type": "official",
+      "url": "https://www.postnatural.org/visit",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "public hours",
+        "admission",
+        "appointment option"
+      ]
+    },
+    {
+      "id": "src-bicycle",
+      "title": "Bicycle Heaven - tickets",
+      "source_type": "official",
+      "url": "https://www.bicycleheaven.org/pages/buy-tickets",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "daily hours",
+        "admission",
+        "accessibility warning"
+      ]
+    },
+    {
+      "id": "src-randyland",
+      "title": "Visit Pittsburgh - Randyland",
+      "source_type": "tourism",
+      "url": "https://www.visitpittsburgh.com/directory/randyland/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "outdoor-art context",
+        "free access",
+        "call-ahead caution"
+      ]
+    },
+    {
+      "id": "src-churchbrew",
+      "title": "The Church Brew Works",
+      "source_type": "official",
+      "url": "https://churchbrew.com/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "Thursday hours",
+        "kitchen close",
+        "adaptive-reuse venue"
+      ]
+    },
+    {
+      "id": "src-wheeling-trail",
+      "title": "Visit Wheeling - Wheeling Heritage Trails",
+      "source_type": "tourism",
+      "url": "https://wheelingcvb.com/outdoors/wheeling-heritage-trails/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "riverfront trail",
+        "Heritage Port access"
+      ]
+    },
+    {
+      "id": "src-wheeling-bridge",
+      "title": "West Virginia DOT - Wheeling Suspension Bridge preservation",
+      "source_type": "government",
+      "url": "https://transportation.wv.gov/article/wvdoh-preserve-wheeling-suspension-bridge-0",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "current preservation status",
+        "pedestrian-use goal",
+        "no crossing promise"
+      ]
+    },
+    {
+      "id": "src-mothman",
+      "title": "Mothman Museum",
+      "source_type": "official",
+      "url": "https://www.mothmanmuseum.com/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "Friday hours",
+        "admission",
+        "collection"
+      ]
+    },
+    {
+      "id": "src-pointpleasant",
+      "title": "Visit Point Pleasant - see and do",
+      "source_type": "tourism",
+      "url": "https://visitpointpleasantwv.com/see-do/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "TNT-area context",
+        "Mothman sites",
+        "Farm Museum context"
+      ]
+    },
+    {
+      "id": "src-wvdnr",
+      "title": "West Virginia DNR - hunting seasons",
+      "source_type": "government",
+      "url": "https://wvdnr.gov/hunting-seasons/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "October hunting-season warning",
+        "WMA safety planning"
+      ]
+    },
+    {
+      "id": "src-farm",
+      "title": "West Virginia State Farm Museum",
+      "source_type": "official",
+      "url": "https://www.wvfarmmuseum.org/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "Friday hours",
+        "free admission",
+        "historic buildings"
+      ]
+    },
+    {
+      "id": "src-tuendiewei",
+      "title": "West Virginia State Parks - Tu-Endie-Wei history",
+      "source_type": "government",
+      "url": "https://wvstateparks.com/parks/tu-endie-wei-state-park/park-history/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "park access",
+        "Mansion House seasonal limit",
+        "battle history"
+      ]
+    },
+    {
+      "id": "src-flatwoods",
+      "title": "Braxton County - Flatwoods Monster Museum",
+      "source_type": "tourism",
+      "url": "https://braxtonwv.org/the-flatwoods-monster/visit-the-museum/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "Saturday hours",
+        "free admission",
+        "closure warning"
+      ]
+    },
+    {
+      "id": "src-bigfoot",
+      "title": "West Virginia Bigfoot Museum",
+      "source_type": "official",
+      "url": "https://wvbigfootmuseum.org/virtual-tour",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "Saturday hours",
+        "collection",
+        "virtual cross-check"
+      ]
+    },
+    {
+      "id": "src-tala",
+      "title": "Trans-Allegheny Lunatic Asylum - historic tours",
+      "source_type": "official",
+      "url": "https://trans-alleghenylunaticasylum.com/historic-tours/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "2026 season",
+        "history-only tour",
+        "price and timing"
+      ]
+    },
+    {
+      "id": "src-glass",
+      "title": "Museum of American Glass in West Virginia",
+      "source_type": "official",
+      "url": "https://magwv.org/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "Saturday hours",
+        "free admission",
+        "collection scope"
+      ]
+    },
+    {
+      "id": "src-assumption",
+      "title": "Assumption Greek Orthodox Church Morgantown",
+      "source_type": "official",
+      "url": "https://assumption.wv.goarch.org/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "canonical parish",
+        "address",
+        "welcoming visitors"
+      ]
+    },
+    {
+      "id": "src-assumption-directory",
+      "title": "Assembly of Canonical Orthodox Bishops parish directory",
+      "source_type": "canonical-directory",
+      "url": "https://www.assemblyofbishops.org/directories/parishes?jur=goa&searchType=jurisdiction",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "canonical jurisdiction",
+        "Morgantown parish listing"
+      ]
+    },
+    {
+      "id": "src-fortbedford",
+      "title": "Fort Bedford Museum - visit",
+      "source_type": "official",
+      "url": "https://www.fortbedfordmuseum.org/visit",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "fall Sunday hours",
+        "admission",
+        "museum access"
+      ]
+    },
+    {
+      "id": "src-coverlet",
+      "title": "National Museum of the American Coverlet",
+      "source_type": "official",
+      "url": "https://www.coverletmuseum.org/default.htm",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "Sunday hours",
+        "admission",
+        "collection scale"
+      ]
+    },
+    {
+      "id": "src-cabelas",
+      "title": "Cabela's Hamburg store",
+      "source_type": "official",
+      "url": "https://stores.cabelas.com/us/pa/hamburg/100-cabela-drive.html",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "Monday hours",
+        "250,000-square-foot destination",
+        "aquariums and museum displays"
+      ]
+    },
+    {
+      "id": "src-hamburg",
+      "title": "PA Discoveries - downtown Hamburg",
+      "source_type": "tourism-editorial",
+      "url": "https://padiscoveries.com/blog/downtown-discoveries-hamburg/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "historic core",
+        "architecture",
+        "public-art walk"
+      ]
+    },
+    {
+      "id": "src-tarrywile",
+      "title": "Tarrywile Park Authority - the park",
+      "source_type": "government",
+      "url": "https://tarrywile.com/the-park/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "sunrise-sunset access",
+        "722 acres",
+        "trail network"
+      ]
+    },
+    {
+      "id": "src-danbury",
+      "title": "CityCenter Danbury - walking tours",
+      "source_type": "local-nonprofit",
+      "url": "https://citycenterdanbury.com/explore-2/walking-tours/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "self-guided Museum in the Streets",
+        "outdoor access",
+        "downtown markers"
+      ]
+    },
+    {
+      "id": "src-moba",
+      "title": "Museum of Bad Art - locations",
+      "source_type": "official",
+      "url": "https://museumofbadart.org/location/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "Dorchester Brewing gallery",
+        "Wednesday hours",
+        "free admission"
+      ]
+    },
+    {
+      "id": "src-russell",
+      "title": "Paul S. Russell Museum - visit",
+      "source_type": "official",
+      "url": "https://www.russellmuseum.org/visit/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "Wednesday hours",
+        "free admission",
+        "three-level museum"
+      ]
+    },
+    {
+      "id": "src-mgh",
+      "title": "Massachusetts General Hospital - Ether Dome",
+      "source_type": "hospital",
+      "url": "https://www.massgeneral.org/museum/exhibits/ether-dome",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "weekday access",
+        "historic significance",
+        "meeting-closure warning"
+      ]
+    },
+    {
+      "id": "src-noaa-normals",
+      "title": "NOAA U.S. Climate Normals",
+      "source_type": "government",
+      "url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "1991-2020 normals methodology"
+      ]
+    },
+    {
+      "id": "src-osrm",
+      "title": "Open Source Routing Machine",
+      "source_type": "routing",
+      "url": "https://project-osrm.org/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "road-network baselines",
+        "no live traffic"
+      ]
+    },
+    {
+      "id": "src-forum-pittsburgh",
+      "title": "r/pittsburgh local oddities discussions",
+      "source_type": "forum",
+      "url": "https://www.reddit.com/r/pittsburgh/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "local cross-check of Bicycle Heaven, Nationality Rooms and Randyland"
+      ]
+    },
+    {
+      "id": "src-forum-wv",
+      "title": "r/WestVirginia local travel discussions",
+      "source_type": "forum",
+      "url": "https://www.reddit.com/r/WestVirginia/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "local cross-check of Point Pleasant, Weston and route pacing"
+      ]
+    },
+    {
+      "id": "src-forum-cryptids",
+      "title": "r/Cryptozoology field and museum discussions",
+      "source_type": "forum",
+      "url": "https://www.reddit.com/r/Cryptozoology/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "cryptid-stop expectation cross-check"
+      ]
+    }
+  ]
+}

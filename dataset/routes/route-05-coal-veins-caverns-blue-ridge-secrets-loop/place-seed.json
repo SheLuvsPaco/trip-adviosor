@@ -1,0 +1,1852 @@
+{
+  "schema_version": "1.0.0",
+  "route_id": "route-05",
+  "places": [
+    {
+      "id": "wadsworth-atheneum",
+      "name": "Wadsworth Atheneum Museum of Art",
+      "kind": "castle-art-museum",
+      "city": "Hartford",
+      "state": "CT",
+      "visit_date": "2026-10-04",
+      "summary": "A museum that looks like a Gothic castle from outside. Inside, five joined buildings hold American, European and modern art, together with cabinets of stranger objects.",
+      "why_go": "A castle full of art, where the next room is never what you expect. Everyone can follow their own thread through it.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's love of strong buildings, and for Stivka's interest in religious art. Gora can go deep on the history instead.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "unusual_creative",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-wadsworth"
+      ],
+      "reservation": "reserve-recommended",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Sunday open; last entry 16:30 and advance reservation is suggested, not required."
+      },
+      "cost": {
+        "amount_per_person": 22,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Wadsworth Atheneum Museum of Art"
+    },
+    {
+      "id": "holy-land-usa",
+      "name": "Holy Land USA & Stations Trail",
+      "kind": "folk-religious-landscape",
+      "city": "Waterbury",
+      "state": "CT",
+      "visit_date": "2026-10-04",
+      "summary": "A hillside above Waterbury covered with small hand-built models of biblical places. There is a giant lit cross and a new prayer trail with the Stations of the Cross. Volunteers rebuilt it all.",
+      "why_go": "Nobody expects this. A whole miniature Holy Land built by hand on a hill, strange and sincere at the same time.",
+      "best_for": [
+        "stivka",
+        "viki"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's photos and for Stivka, though this is a Catholic folk site, not an Orthodox one. We are clear about that.",
+      "categories": [
+        "orthodox_spiritual",
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "quiet_reset"
+      ],
+      "duration_minutes": 60,
+      "source_ids": [
+        "src-holy-land",
+        "src-holy-land-events"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "verified-public-space",
+        "note": "Open for self-guided public exploration in daylight only; steep and uneven ground, limited parking, and no after-sunset access."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Free public site; donation optional."
+      },
+      "priority": "anchor",
+      "address": "Holy Land USA & Stations Trail"
+    },
+    {
+      "id": "mark-twain-house",
+      "name": "The Mark Twain House & Museum",
+      "kind": "gothic-writer-house",
+      "city": "Hartford",
+      "state": "CT",
+      "visit_date": "2026-10-04",
+      "summary": "Mark Twain's 25-room red brick house, full of carved wood and patterned walls. He wrote several of his major books in the billiard room upstairs.",
+      "why_go": "One writer's house, one guided story, and the room where the books were actually written. More personal than a huge museum.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's love of decorated interiors, and for Gora, who wants the real person behind the famous name.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-mark-twain"
+      ],
+      "reservation": "reserve",
+      "hours": {
+        "opens": "09:30",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Open seven days in October with last house tour currently listed at 16:15; timed guided tour is required and can sell out."
+      },
+      "cost": {
+        "amount_per_person": 29,
+        "status": "estimate",
+        "note": "Planning estimate; choose an available timed house tour."
+      },
+      "priority": "replacement",
+      "replacement_reason": "A tighter human story and more theatrical interior when the group wants a guided house rather than a broad museum.",
+      "replacement": {
+        "day": 1,
+        "replaces_place_ids": [
+          "wadsworth-atheneum"
+        ],
+        "route_variant_id": "replacement-d1-mark-twain",
+        "reason": "A tighter human story and more theatrical interior when the group wants a guided house rather than a broad museum."
+      },
+      "address": "The Mark Twain House & Museum"
+    },
+    {
+      "id": "lackawanna-coal",
+      "name": "Lackawanna Coal Mine Tour",
+      "kind": "underground-industry",
+      "city": "Scranton",
+      "state": "PA",
+      "visit_date": "2026-10-05",
+      "summary": "A guided trip about 300 feet down into a real anthracite coal mine, walking the tunnels with guides who know the working history.",
+      "why_go": "You go down inside a real mine. This is the honest, uncomfortable labor history at the center of the whole route.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Gora's history and for Viki's unusual spaces. It is cool underground, so bring a layer.",
+      "categories": [
+        "hidden_history_folklore",
+        "unusual_creative"
+      ],
+      "duration_minutes": 105,
+      "source_ids": [
+        "src-lackawanna"
+      ],
+      "reservation": "walk-up-early",
+      "hours": {
+        "opens": "10:00",
+        "closes": "16:00",
+        "status": "verified-current",
+        "note": "Monday open in the 2026 pattern; last tour 14:30 and arrive by 14:00."
+      },
+      "cost": {
+        "amount_per_person": 12,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Lackawanna Coal Mine Tour"
+    },
+    {
+      "id": "steamtown",
+      "name": "Steamtown National Historic Site",
+      "kind": "rail-industry",
+      "city": "Scranton",
+      "state": "PA",
+      "visit_date": "2026-10-05",
+      "summary": "A working railway roundhouse with a turntable and a collection of steam locomotives, on the yards that made Scranton a rail city.",
+      "why_go": "Huge machines, a working turntable, and the story of the people who ran them. The scale alone is worth the stop.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Gora's industrial history and Viki's photos of very large machines.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_nature_photogenic"
+      ],
+      "duration_minutes": 100,
+      "source_ids": [
+        "src-steamtown"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "09:30",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Regular season includes Monday October 5."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Park admission is free; special rides cost extra."
+      },
+      "priority": "anchor",
+      "address": "Steamtown National Historic Site"
+    },
+    {
+      "id": "scranton-iron",
+      "name": "Scranton Iron Furnaces",
+      "kind": "industrial-ruins",
+      "city": "Scranton",
+      "state": "PA",
+      "visit_date": "2026-10-05",
+      "summary": "Four huge stone blast furnace stacks still stand beside the city, left from the Lackawanna iron works.",
+      "why_go": "Four giant stone ruins in the middle of a city, free to walk around, and best in evening light.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's photos and for Gora's interest in industry. Short, free and easy for everyone.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 35,
+      "source_ids": [
+        "src-scranton-iron"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "verified-public-space",
+        "note": "Grounds open dawn to dusk."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "supporting",
+      "address": "Scranton Iron Furnaces"
+    },
+    {
+      "id": "houdini-museum",
+      "name": "Houdini Museum",
+      "kind": "magic-cabinet",
+      "city": "Scranton",
+      "state": "PA",
+      "visit_date": "2026-10-05",
+      "summary": "A small and deliberately odd collection of Harry Houdini objects in an old Scranton building, shown with live magic.",
+      "why_go": "A personal, slightly chaotic museum with a live magic show. Much more intimate than the rail yard.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Viki's love of strange places and Paco's group fun. Gora gets the real history behind the tricks.",
+      "categories": [
+        "unusual_creative",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-houdini"
+      ],
+      "reservation": "call",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "call-to-confirm",
+        "note": "Year-round but date and show time require a direct phone confirmation."
+      },
+      "cost": {
+        "amount_per_person": 25,
+        "status": "estimate",
+        "note": "Planning estimate until direct confirmation."
+      },
+      "priority": "replacement",
+      "replacement_reason": "Use when weather is poor or the group wants one concentrated oddity instead of two industrial sites.",
+      "replacement": {
+        "day": 2,
+        "replaces_place_ids": [
+          "steamtown",
+          "scranton-iron"
+        ],
+        "route_variant_id": "replacement-d2-houdini",
+        "reason": "Use when weather is poor or the group wants one concentrated oddity instead of two industrial sites."
+      },
+      "address": "Houdini Museum"
+    },
+    {
+      "id": "watch-clock",
+      "name": "National Watch & Clock Museum",
+      "kind": "time-machine-museum",
+      "city": "Columbia",
+      "state": "PA",
+      "visit_date": "2026-10-06",
+      "summary": "Thousands of clocks and watches show how people learned to measure time, from huge tower clocks down to tiny precision watches.",
+      "why_go": "A whole museum about measuring time, from tower clocks to watches you could lose in your hand.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Gora's curiosity about how things work and Viki's eye for fine detail.",
+      "categories": [
+        "unusual_creative",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 100,
+      "source_ids": [
+        "src-watch-clock"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Tuesday in the September 7-November 30 fall schedule."
+      },
+      "cost": {
+        "amount_per_person": 15,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "National Watch & Clock Museum"
+    },
+    {
+      "id": "lancaster-central-market",
+      "name": "Lancaster Central Market",
+      "kind": "historic-food-hall",
+      "city": "Lancaster",
+      "state": "PA",
+      "visit_date": "2026-10-06",
+      "summary": "A market hall from 1889 in heavy Romanesque style, still working as the center of a real regional food economy.",
+      "why_go": "Lunch inside a beautiful old market hall, with real local food rather than a tourist version of it.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Viki's architecture and Paco's need for a stop where everyone picks their own food.",
+      "categories": [
+        "food_cafes",
+        "architecture_nature_photogenic",
+        "local_culture"
+      ],
+      "duration_minutes": 75,
+      "source_ids": [
+        "src-central-market"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "06:00",
+        "closes": "15:00",
+        "status": "verified-current",
+        "note": "Tuesday market day; arrive before 14:00 for full vendor choice."
+      },
+      "cost": {
+        "amount_per_person": 18,
+        "status": "estimate",
+        "note": "Flexible lunch allowance."
+      },
+      "priority": "anchor",
+      "address": "Lancaster Central Market"
+    },
+    {
+      "id": "lancaster-troll-market",
+      "name": "Lancaster Troll Market",
+      "kind": "curiosity-shop",
+      "city": "Lancaster",
+      "state": "PA",
+      "visit_date": "2026-10-06",
+      "summary": "A small shop full of fantasy and folklore objects: specimens, oddities and handmade things.",
+      "why_go": "A strange little shop full of things you will not find anywhere else. A deliberate break from serious history.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Viki above all. Everyone else gets a short, funny stop between two heavy museums.",
+      "categories": [
+        "unusual_creative",
+        "shopping_outlets",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 55,
+      "source_ids": [
+        "src-troll-market"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "11:00",
+        "closes": "18:00",
+        "status": "verified-current",
+        "note": "Tuesday open."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Browsing is free; shopping excluded."
+      },
+      "priority": "supporting",
+      "address": "Lancaster Troll Market"
+    },
+    {
+      "id": "wolf-sanctuary",
+      "name": "Wolf Sanctuary of Pennsylvania",
+      "kind": "wildlife-sanctuary",
+      "city": "Lititz",
+      "state": "PA",
+      "visit_date": "2026-10-06",
+      "summary": "A booked walk among rescued wolves and wolf-dogs, with guides who explain their behavior and how they are cared for.",
+      "why_go": "Real wolves, a few feet away, with people who know them. You must book ahead.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's animal photos and for Stivka's gentle side. Gora gets the science of how they live.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-wolves"
+      ],
+      "reservation": "reserve",
+      "hours": {
+        "opens": "10:00",
+        "closes": "11:30",
+        "status": "verified-current",
+        "note": "Tuesday public tour begins at 10:00; reservation required."
+      },
+      "cost": {
+        "amount_per_person": 25,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "replacement",
+      "replacement_reason": "Trade precision machines for a high-emotion wildlife encounter; requires an early Scranton departure.",
+      "replacement": {
+        "day": 3,
+        "replaces_place_ids": [
+          "watch-clock"
+        ],
+        "route_variant_id": "replacement-d3-wolves",
+        "reason": "Trade precision machines for a high-emotion wildlife encounter; requires an early Scranton departure."
+      },
+      "address": "Wolf Sanctuary of Pennsylvania"
+    },
+    {
+      "id": "ephrata-cloister",
+      "name": "Ephrata Cloister",
+      "kind": "radical-religious-settlement",
+      "city": "Ephrata",
+      "state": "PA",
+      "visit_date": "2026-10-07",
+      "summary": "Plain timber buildings from an 18th-century German religious community that lived without marriage and organized its life around music, printing and hard work.",
+      "why_go": "A community that chose silence, singing and celibacy, and built the plain wooden houses to match.",
+      "best_for": [
+        "stivka",
+        "gora"
+      ],
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Stivka's interest in serious faith and for Gora's interest in unusual American communities. Viki gets very stark buildings.",
+      "categories": [
+        "orthodox_spiritual",
+        "hidden_history_folklore",
+        "architecture_nature_photogenic"
+      ],
+      "duration_minutes": 100,
+      "source_ids": [
+        "src-ephrata"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "09:00",
+        "closes": "16:00",
+        "status": "verified-current",
+        "note": "Wednesday open under the current schedule."
+      },
+      "cost": {
+        "amount_per_person": 10,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Ephrata Cloister"
+    },
+    {
+      "id": "railroad-museum-pa",
+      "name": "Railroad Museum of Pennsylvania",
+      "kind": "rail-mega-museum",
+      "city": "Strasburg",
+      "state": "PA",
+      "visit_date": "2026-10-07",
+      "summary": "A hall the size of a cathedral, full of locomotives and railway carriages. It covers both the engineering and the working conditions behind it.",
+      "why_go": "Standing next to a steam locomotive indoors tells you more about its size than any photograph.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Gora's engineering interest and for Viki's very large interiors. No extra driving needed.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_nature_photogenic"
+      ],
+      "duration_minutes": 120,
+      "source_ids": [
+        "src-railroad-pa"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "16:00",
+        "status": "verified-current",
+        "note": "Wednesday open."
+      },
+      "cost": {
+        "amount_per_person": 10,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Railroad Museum of Pennsylvania"
+    },
+    {
+      "id": "eshelman-covered-bridge",
+      "name": "Eshelman's Mill Covered Bridge",
+      "kind": "covered-bridge",
+      "city": "Paradise",
+      "state": "PA",
+      "visit_date": "2026-10-07",
+      "summary": "A working one-lane covered bridge over Pequea Creek, reached on quiet back roads rather than a tourist strip.",
+      "why_go": "The classic Lancaster County photo, on a real road, away from the places that sell Amish life as a show.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's picture. For everyone, it is a short and respectful stop rather than a staged one.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "local_culture"
+      ],
+      "duration_minutes": 30,
+      "source_ids": [
+        "src-covered-bridges"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "public-road",
+        "note": "Public road; park only where legal and never block local traffic."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "supporting",
+      "address": "Eshelman's Mill Covered Bridge"
+    },
+    {
+      "id": "harrisburg-riverfront",
+      "name": "Harrisburg Riverfront & Walnut Street Bridge",
+      "kind": "riverfront-blue-hour",
+      "city": "Harrisburg",
+      "state": "PA",
+      "visit_date": "2026-10-07",
+      "summary": "A long park along the Susquehanna River facing City Island, with the broken remains of the 1890 Walnut Street truss bridge standing in the water.",
+      "why_go": "A half-collapsed iron bridge standing in a wide river at golden hour. Calm, free and very photogenic.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's photos and for everyone's need to walk after a day of museums.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "quiet_reset"
+      ],
+      "duration_minutes": 65,
+      "source_ids": [
+        "src-harrisburg-river"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "public-space",
+        "note": "Outdoor park; use daylight and normal city awareness."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "supporting",
+      "address": "Harrisburg Riverfront & Walnut Street Bridge"
+    },
+    {
+      "id": "turkey-hill-experience",
+      "name": "Turkey Hill Experience",
+      "kind": "food-lab",
+      "city": "Columbia",
+      "state": "PA",
+      "visit_date": "2026-10-07",
+      "summary": "A hands-on brand museum where you design your own ice cream flavor and packaging, with an optional lab where you make some.",
+      "why_go": "You invent an ice cream and then eat it. A light, social break when everyone is tired of museums.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Paco's group mood and Viki's creative side. Easy and fun for all four.",
+      "categories": [
+        "unusual_creative",
+        "food_cafes"
+      ],
+      "duration_minutes": 120,
+      "source_ids": [
+        "src-turkey-hill"
+      ],
+      "reservation": "reserve-lab",
+      "hours": {
+        "opens": "10:00",
+        "closes": "16:00",
+        "status": "verified-current",
+        "note": "Reconfirm exact October 7 entry windows."
+      },
+      "cost": {
+        "amount_per_person": 25,
+        "status": "estimate",
+        "note": "Experience plus lab planning allowance."
+      },
+      "priority": "replacement",
+      "replacement_reason": "Swap trains and bridge for an interactive flavor-making afternoon in poor weather.",
+      "replacement": {
+        "day": 4,
+        "replaces_place_ids": [
+          "railroad-museum-pa",
+          "eshelman-covered-bridge"
+        ],
+        "route_variant_id": "replacement-d4-turkey-hill",
+        "reason": "Swap trains and bridge for an interactive flavor-making afternoon in poor weather."
+      },
+      "address": "Turkey Hill Experience"
+    },
+    {
+      "id": "pa-capitol",
+      "name": "Pennsylvania State Capitol",
+      "kind": "civic-palace",
+      "city": "Harrisburg",
+      "state": "PA",
+      "visit_date": "2026-10-08",
+      "summary": "A Beaux-Arts parliament building whose inside is far richer than the outside suggests: a tiled dome, huge staircases and painted murals.",
+      "why_go": "From outside it looks ordinary. Inside there is a tiled dome and a staircase copied from the Paris Opera.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's decorated architecture and Gora's political history. Free to enter.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 75,
+      "source_ids": [
+        "src-pa-capitol"
+      ],
+      "reservation": "reserve-tour",
+      "hours": {
+        "opens": "07:00",
+        "closes": "18:00",
+        "status": "verified-current",
+        "note": "Weekday public access; reserve or join a morning guided tour."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Pennsylvania State Capitol"
+    },
+    {
+      "id": "antietam",
+      "name": "Antietam National Battlefield",
+      "kind": "battlefield-landscape",
+      "city": "Sharpsburg",
+      "state": "MD",
+      "visit_date": "2026-10-08",
+      "summary": "Quiet farm fields, lanes and a stone bridge hold the record of the bloodiest single day in American history.",
+      "why_go": "The landscape is peaceful now, and that is exactly what makes it hard. Nothing here is dramatized.",
+      "best_for": [
+        "gora",
+        "stivka"
+      ],
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Gora's careful history. For Stivka and Viki it is a calm, serious place rather than a spectacle.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_nature_photogenic",
+        "quiet_reset"
+      ],
+      "duration_minutes": 110,
+      "source_ids": [
+        "src-antietam"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "09:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Visitor center open daily; battlefield roads remain daylight-dependent."
+      },
+      "cost": {
+        "amount_per_person": 15,
+        "status": "verified-current",
+        "note": "Private vehicle pass planning amount."
+      },
+      "priority": "anchor",
+      "address": "Antietam National Battlefield"
+    },
+    {
+      "id": "harpers-lower-town",
+      "name": "Harpers Ferry Lower Town & The Point",
+      "kind": "confluence-history",
+      "city": "Harpers Ferry",
+      "state": "WV",
+      "visit_date": "2026-10-08",
+      "summary": "Steep brick streets run down to the point where the Potomac and Shenandoah rivers meet, under railway bridges and steep mountain walls.",
+      "why_go": "Two rivers meet between mountains, with a whole old town on the slope above. One of the best views of the trip.",
+      "best_for": [
+        "viki",
+        "gora",
+        "stivka"
+      ],
+      "secondary_for": [
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for everyone: nature for Viki, engineering and John Brown history for Gora, and a strong sunset for all four.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 95,
+      "source_ids": [
+        "src-harpers-hours"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "09:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Most staffed museums 09:00-17:00; park and shuttle from the visitor center."
+      },
+      "cost": {
+        "amount_per_person": 20,
+        "status": "verified-current",
+        "note": "Vehicle pass; confirm current fee."
+      },
+      "priority": "anchor",
+      "address": "Harpers Ferry Lower Town & The Point"
+    },
+    {
+      "id": "storer-college",
+      "name": "Storer College & Camp Hill",
+      "kind": "education-freedom-site",
+      "city": "Harpers Ferry",
+      "state": "WV",
+      "visit_date": "2026-10-08",
+      "summary": "On the hill above the town stand the remains of a college founded after the Civil War to educate people who had been enslaved. An early Niagara Movement meeting was held here.",
+      "why_go": "The postcard town is below; the harder and more important story is up on this hill. It deserves real time.",
+      "best_for": [
+        "gora",
+        "stivka"
+      ],
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Gora's search for the record underneath the tourist version. Stivka gets a story about faith and education.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_nature_photogenic"
+      ],
+      "duration_minutes": 45,
+      "source_ids": [
+        "src-harpers-hours"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "verified-current",
+        "note": "Outdoor Camp Hill walk; daylight."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "supporting",
+      "address": "Storer College & Camp Hill"
+    },
+    {
+      "id": "virginius-island",
+      "name": "Virginius Island Ruins Trail",
+      "kind": "industrial-ruins-trail",
+      "city": "Harpers Ferry",
+      "state": "WV",
+      "visit_date": "2026-10-08",
+      "summary": "An easy riverside path leads through the ruins of mills, canals, turbine pits and a rifle works, now overgrown by forest.",
+      "why_go": "Industrial ruins being slowly eaten by the forest, on a flat and easy path. Beautiful and unsettling at once.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's photos and for Gora's industrial evidence, with almost no climbing.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 55,
+      "source_ids": [
+        "src-harpers-trails"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "verified-current",
+        "note": "Daylight only; up to 2 miles round trip but use the compact 1-mile ruins loop."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "supporting",
+      "address": "Virginius Island Ruins Trail"
+    },
+    {
+      "id": "seton-shrine",
+      "name": "National Shrine of Saint Elizabeth Ann Seton",
+      "kind": "saint-history-shrine",
+      "city": "Emmitsburg",
+      "state": "MD",
+      "visit_date": "2026-10-08",
+      "summary": "A basilica, a museum and historic houses tell the story of Elizabeth Ann Seton, the first American-born Catholic saint, and the community she founded.",
+      "why_go": "A serious place of pilgrimage rather than another battlefield. It is Catholic, not Orthodox, and we say so plainly.",
+      "best_for": [
+        "stivka",
+        "viki"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Stivka's faith. Gora gets the story of how a religious community was actually built and run.",
+      "categories": [
+        "orthodox_spiritual",
+        "architecture_nature_photogenic",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-seton"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Daily; museum, basilica and historic areas have separate access patterns."
+      },
+      "cost": {
+        "amount_per_person": 12,
+        "status": "verified-current",
+        "note": "Planning admission; basilica prayer access may be free."
+      },
+      "priority": "replacement",
+      "replacement_reason": "Choose saint history and architecture over a second battlefield; explicitly Catholic, not an Orthodox service.",
+      "replacement": {
+        "day": 5,
+        "replaces_place_ids": [
+          "antietam"
+        ],
+        "route_variant_id": "replacement-d5-seton",
+        "reason": "Choose saint history and architecture over a second battlefield; explicitly Catholic, not an Orthodox service."
+      },
+      "address": "National Shrine of Saint Elizabeth Ann Seton"
+    },
+    {
+      "id": "luray-caverns",
+      "name": "Luray Caverns",
+      "kind": "show-cave",
+      "city": "Luray",
+      "state": "VA",
+      "visit_date": "2026-10-09",
+      "summary": "Enormous underground chambers, a mirror-still pool called Dream Lake, and an organ that plays by striking the rock formations themselves.",
+      "why_go": "An instrument that plays the cave. The chambers are the most theatrical underground space on the whole trip.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's surreal photos and for Gora's geology and acoustics. No hard walking.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "unusual_creative"
+      ],
+      "duration_minutes": 110,
+      "source_ids": [
+        "src-luray"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "09:00",
+        "closes": "18:00",
+        "status": "verified-current",
+        "note": "Daily after Labor Day through October 31."
+      },
+      "cost": {
+        "amount_per_person": 36,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Luray Caverns"
+    },
+    {
+      "id": "skyline-overlooks",
+      "name": "Skyline Drive Overlook Sequence",
+      "kind": "scenic-drive",
+      "city": "Shenandoah National Park",
+      "state": "VA",
+      "visit_date": "2026-10-09",
+      "summary": "A short section of Skyline Drive between Thornton Gap and Stony Man, stopping at viewpoints rather than driving the full 105 miles.",
+      "why_go": "The Blue Ridge in layers, from the car, at the best time of year for color. Short by design.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's landscapes. Keeping it short protects the driving limit and everyone's energy.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "quiet_reset"
+      ],
+      "duration_minutes": 60,
+      "source_ids": [
+        "src-skyline"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "verified-current",
+        "note": "Road generally open 24/7 but weather can close it without notice."
+      },
+      "cost": {
+        "amount_per_person": 30,
+        "status": "verified-current",
+        "note": "Shenandoah private-vehicle pass; shared across park stops."
+      },
+      "priority": "supporting",
+      "address": "Skyline Drive Overlook Sequence"
+    },
+    {
+      "id": "stony-man",
+      "name": "Stony Man Summit",
+      "kind": "short-summit-hike",
+      "city": "Shenandoah National Park",
+      "state": "VA",
+      "visit_date": "2026-10-09",
+      "summary": "A walk of about 1.6 miles reaches one of the widest views in Shenandoah National Park.",
+      "why_go": "One of the biggest views in the park for a short and gentle walk. This is one of only two real walks on the route.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Gora, who wants to move. Short enough that it does not punish anyone else.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "athletic_adrenaline"
+      ],
+      "duration_minutes": 80,
+      "source_ids": [
+        "src-stony-man"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "verified-current",
+        "note": "Daylight trail; avoid wet rock and crowded edges."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Covered by park pass."
+      },
+      "priority": "supporting",
+      "address": "Stony Man Summit"
+    },
+    {
+      "id": "charlottesville-downtown",
+      "name": "Charlottesville Downtown Mall",
+      "kind": "pedestrian-social-district",
+      "city": "Charlottesville",
+      "state": "VA",
+      "visit_date": "2026-10-09",
+      "summary": "A long brick street closed to cars, lined with independent restaurants, theaters, terraces and shops.",
+      "why_go": "Dinner where everyone chooses for themselves, outdoors, with no fixed plan after a day in the mountains.",
+      "best_for": [
+        "sheluvspaco",
+        "viki"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Paco's flexible evening and Viki's browsing. Nobody is forced into a club.",
+      "categories": [
+        "social_nightlife_live",
+        "food_cafes",
+        "architecture_nature_photogenic"
+      ],
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-cville-downtown"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "verified-current",
+        "note": "Public district; venue hours vary."
+      },
+      "cost": {
+        "amount_per_person": 45,
+        "status": "verified-current",
+        "note": "Dinner allowance only; nightlife excluded."
+      },
+      "priority": "anchor",
+      "address": "Charlottesville Downtown Mall"
+    },
+    {
+      "id": "shenandoah-caverns-fright",
+      "name": "Shenandoah Caverns + American Fright Night",
+      "kind": "cavern-night-event",
+      "city": "Quicksburg",
+      "state": "VA",
+      "visit_date": "2026-10-09",
+      "summary": "A quieter commercial cave that becomes a theatrical horror experience on this exact Friday night.",
+      "why_go": "A cave turned into a haunted attraction, on one specific night. Only worth it if the group wants that instead of a calm evening.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Stivka and Gora if the mood is right. It replaces Skyline color and a quiet dinner, so it is a real trade.",
+      "categories": [
+        "unusual_creative",
+        "social_nightlife_live"
+      ],
+      "duration_minutes": 160,
+      "source_ids": [
+        "src-shen-caverns"
+      ],
+      "reservation": "reserve",
+      "hours": {
+        "opens": "09:00",
+        "closes": "21:30",
+        "status": "verified-current",
+        "note": "Cavern last regular tour 16:00; Fright Night October 9 runs approximately 18:30-21:30."
+      },
+      "cost": {
+        "amount_per_person": 35,
+        "status": "verified-current",
+        "note": "Combined planning estimate; confirm event ticket."
+      },
+      "priority": "replacement",
+      "replacement_reason": "Exact-date spooky alternative; it creates a late Charlottesville arrival and replaces the whole daylight mountain program.",
+      "replacement": {
+        "day": 6,
+        "replaces_place_ids": [
+          "luray-caverns",
+          "skyline-overlooks",
+          "stony-man"
+        ],
+        "route_variant_id": "replacement-d6-shenandoah-fright",
+        "reason": "Exact-date spooky alternative; it creates a late Charlottesville arrival and replaces the whole daylight mountain program."
+      },
+      "address": "Shenandoah Caverns + American Fright Night"
+    },
+    {
+      "id": "monticello",
+      "name": "Monticello - From Slavery to Freedom",
+      "kind": "truth-centered-historic-house",
+      "city": "Charlottesville",
+      "state": "VA",
+      "visit_date": "2026-10-10",
+      "summary": "Thomas Jefferson's famous house, visited on a tour that centers on the lives, work and resistance of the people he enslaved there.",
+      "why_go": "The famous building, told through the people who were owned on the same ground. It is a harder and better visit than the usual one.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Gora's interest in the contradiction under the national story, and for Viki's architecture. Paco gets a real conversation for the group.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_nature_photogenic"
+      ],
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-monticello"
+      ],
+      "reservation": "reserve",
+      "hours": {
+        "opens": "08:30",
+        "closes": "17:30",
+        "status": "verified-current",
+        "note": "Hours vary by date; reserve the morning From Slavery to Freedom product."
+      },
+      "cost": {
+        "amount_per_person": 42,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Monticello - From Slavery to Freedom"
+    },
+    {
+      "id": "jefferson-school",
+      "name": "Jefferson School African American Heritage Center",
+      "kind": "community-history-center",
+      "city": "Charlottesville",
+      "state": "VA",
+      "visit_date": "2026-10-10",
+      "summary": "A former segregated school, now a center telling Charlottesville's Black history through exhibitions put together by the community itself.",
+      "why_go": "Monticello should not be the last word. This is the same history told by the city that still lives with it.",
+      "best_for": [
+        "gora",
+        "stivka"
+      ],
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Gora and for the whole group as a corrective. Short, serious and close to dinner.",
+      "categories": [
+        "hidden_history_folklore",
+        "local_culture"
+      ],
+      "duration_minutes": 65,
+      "source_ids": [
+        "src-jefferson-school"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "13:00",
+        "status": "verified-current",
+        "note": "Saturday only; protect this narrow window."
+      },
+      "cost": {
+        "amount_per_person": 10,
+        "status": "verified-current",
+        "note": "Suggested admission/donation planning amount."
+      },
+      "priority": "anchor",
+      "address": "Jefferson School African American Heritage Center"
+    },
+    {
+      "id": "kluge-ruhe",
+      "name": "Kluge-Ruhe Aboriginal Art Collection",
+      "kind": "indigenous-art-museum",
+      "city": "Charlottesville",
+      "state": "VA",
+      "visit_date": "2026-10-10",
+      "summary": "The only museum outside Australia devoted to Aboriginal Australian art. It is small, but nothing else like it exists in America.",
+      "why_go": "Bold, ancient and contemporary art from the other side of the world, in a small university museum in Virginia.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's love of strong color and pattern, and for Gora's interest in Indigenous voices and land rights.",
+      "categories": [
+        "unusual_creative",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 75,
+      "source_ids": [
+        "src-kluge"
+      ],
+      "reservation": "reserve-tour-optional",
+      "hours": {
+        "opens": "10:00",
+        "closes": "16:00",
+        "status": "verified-current",
+        "note": "Saturday; free tours at 10:30 and 13:30, reservation encouraged."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Kluge-Ruhe Aboriginal Art Collection"
+    },
+    {
+      "id": "ix-looking-glass",
+      "name": "IX Art Park & The Looking Glass",
+      "kind": "immersive-art-playground",
+      "city": "Charlottesville",
+      "state": "VA",
+      "visit_date": "2026-10-10",
+      "summary": "Murals and outdoor installations surround an indoor art space full of mirrors, color and things to walk through.",
+      "why_go": "The biggest pure visual hit of the day, and a chance to play rather than read labels before the concert.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Viki above all, and for Paco's group energy. Everyone gets to move around and enjoy themselves.",
+      "categories": [
+        "unusual_creative",
+        "architecture_nature_photogenic"
+      ],
+      "duration_minutes": 105,
+      "source_ids": [
+        "src-ix"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "18:00",
+        "status": "verified-current",
+        "note": "Saturday Looking Glass hours; outdoor art remains visible outside ticketed time."
+      },
+      "cost": {
+        "amount_per_person": 20,
+        "status": "verified-current",
+        "note": "Planning ticket amount."
+      },
+      "priority": "anchor",
+      "address": "IX Art Park & The Looking Glass"
+    },
+    {
+      "id": "morgan-wade-jefferson",
+      "name": "Morgan Wade at The Jefferson Theater",
+      "kind": "live-music-night",
+      "city": "Charlottesville",
+      "state": "VA",
+      "visit_date": "2026-10-10",
+      "summary": "The Virginia singer Morgan Wade, whose songs sit between country and rock, plays an ornate theatre from 1912 on this exact Saturday night.",
+      "why_go": "A real local artist in a beautiful old theatre, on the night we are there. Not a generic club.",
+      "best_for": [
+        "stivka",
+        "gora"
+      ],
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Stivka's rock side and Gora's interest in regional music. Viki gets a beautiful room.",
+      "categories": [
+        "social_nightlife_live",
+        "architecture_nature_photogenic"
+      ],
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-morgan-wade"
+      ],
+      "reservation": "book-when-on-sale",
+      "hours": {
+        "opens": "20:00",
+        "closes": "22:30",
+        "status": "verified-current",
+        "note": "Exact October 10 listing; doors and final ticket terms must be confirmed."
+      },
+      "cost": {
+        "amount_per_person": 55,
+        "status": "estimate",
+        "note": "Ticket planning estimate; nightlife spend excluded."
+      },
+      "priority": "anchor",
+      "address": "Morgan Wade at The Jefferson Theater"
+    },
+    {
+      "id": "exchange-hotel",
+      "name": "Exchange Hotel Civil War Medical Museum",
+      "kind": "field-hospital-museum",
+      "city": "Gordonsville",
+      "state": "VA",
+      "visit_date": "2026-10-10",
+      "summary": "A former railway hotel that became a Civil War receiving hospital. The medical rooms, the graffiti on the walls, and the human cost are all still there.",
+      "why_go": "A hospital where the wounded actually arrived, with their marks still on the walls. Small, dark and very direct.",
+      "best_for": [
+        "gora",
+        "stivka"
+      ],
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Gora when Monticello is fully booked or the group wants history without crowds.",
+      "categories": [
+        "hidden_history_folklore",
+        "unusual_creative"
+      ],
+      "duration_minutes": 120,
+      "source_ids": [
+        "src-exchange"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "16:00",
+        "status": "verified-current",
+        "note": "Saturday open."
+      },
+      "cost": {
+        "amount_per_person": 16,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "replacement",
+      "replacement_reason": "Trade the two-city history anchors for a compact, eerie field-hospital story; preserve Kluge, IX and the concert.",
+      "replacement": {
+        "day": 7,
+        "replaces_place_ids": [
+          "monticello",
+          "jefferson-school"
+        ],
+        "route_variant_id": "replacement-d7-exchange-hotel",
+        "reason": "Trade the two-city history anchors for a compact, eerie field-hospital story; preserve Kluge, IX and the concert."
+      },
+      "address": "Exchange Hotel Civil War Medical Museum"
+    },
+    {
+      "id": "transfiguration-orthodox",
+      "name": "Transfiguration Greek Orthodox Church",
+      "kind": "orthodox-sunday",
+      "city": "Charlottesville",
+      "state": "VA",
+      "visit_date": "2026-10-11",
+      "summary": "A real parish Sunday: Orthros and then the Divine Liturgy. We attend the service, we do not tour the building.",
+      "why_go": "Sunday stays a real Sunday before the long drive north, and all four of us share it.",
+      "best_for": [
+        "stivka",
+        "sheluvspaco",
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [],
+      "best_fit_note": "Good for Stivka above all, and shared ground for the whole group. We follow the parish and stay to the end.",
+      "categories": [
+        "orthodox_spiritual",
+        "local_culture"
+      ],
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-transfiguration"
+      ],
+      "reservation": "reconfirm-parish-calendar",
+      "hours": {
+        "opens": "09:00",
+        "closes": "11:30",
+        "status": "verified-current",
+        "note": "Current Sunday pattern is Orthros 09:00 and Divine Liturgy 10:00; reconfirm October calendar and contact parish about visitor etiquette."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Free worship; discreet donation optional."
+      },
+      "priority": "anchor",
+      "address": "Transfiguration Greek Orthodox Church"
+    },
+    {
+      "id": "civil-war-medicine",
+      "name": "National Museum of Civil War Medicine",
+      "kind": "medical-history-museum",
+      "city": "Frederick",
+      "state": "MD",
+      "visit_date": "2026-10-11",
+      "summary": "A focused museum about battlefield medicine: how the wounded were sorted and moved, how anesthesia was used, and which myths about it are wrong.",
+      "why_go": "Most of what people believe about Civil War surgery is wrong, and this museum says so with evidence.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Gora's evidence-first history. Everyone learns where modern emergency medicine came from.",
+      "categories": [
+        "hidden_history_folklore",
+        "unusual_creative"
+      ],
+      "duration_minutes": 105,
+      "source_ids": [
+        "src-civil-war-medicine"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "11:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Sunday open; protect a 15:15 latest arrival."
+      },
+      "cost": {
+        "amount_per_person": 15,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "National Museum of Civil War Medicine"
+    },
+    {
+      "id": "balls-bluff",
+      "name": "Ball's Bluff Battlefield & National Cemetery",
+      "kind": "river-bluff-history-trail",
+      "city": "Leesburg",
+      "state": "VA",
+      "visit_date": "2026-10-11",
+      "summary": "A one-mile woodland loop reaches a tiny national cemetery and the steep bluff above the Potomac. Bad information, makeshift boats and confused orders turned a small 1861 movement into a disaster.",
+      "why_go": "A small battle that went wrong in every possible way, on a quiet walk above the river. A good way to move after church.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Gora's interest in how myths get made, and for Viki's quiet autumn river view. Gentle walking for everyone.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_nature_photogenic",
+        "quiet_reset"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-balls-bluff"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "verified-current",
+        "note": "Park open dawn-dusk. The free Sunday tours are at 11:00 and 13:00, but this route arrives later and uses the official self-guided trail; terrain is moderately difficult."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Free regional park."
+      },
+      "priority": "replacement",
+      "replacement_reason": "Choose one evidence-rich outdoor story and Potomac overlook when the group needs air after church instead of another museum.",
+      "replacement": {
+        "day": 8,
+        "replaces_place_ids": [
+          "civil-war-medicine"
+        ],
+        "route_variant_id": "replacement-d8-balls-bluff",
+        "reason": "Choose one evidence-rich outdoor story and Potomac overlook when the group needs air after church instead of another museum."
+      },
+      "address": "Ball's Bluff Battlefield & National Cemetery"
+    },
+    {
+      "id": "burnside-plantation",
+      "name": "Burnside Plantation",
+      "kind": "moravian-farm-landscape",
+      "city": "Bethlehem",
+      "state": "PA",
+      "visit_date": "2026-10-12",
+      "summary": "A farm inside the city, with an 18th-century Moravian farmhouse, bank barns, an old orchard and one of the few surviving large horse-powered wheels in America.",
+      "why_go": "A working 18th-century farm still standing inside a modern city, open from dawn to dusk and free to walk.",
+      "best_for": [
+        "stivka",
+        "gora"
+      ],
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Gora's interest in old machinery and Stivka's Moravian history. It turns a long driving day into something real.",
+      "categories": [
+        "orthodox_spiritual",
+        "hidden_history_folklore",
+        "architecture_nature_photogenic",
+        "quiet_reset"
+      ],
+      "duration_minutes": 100,
+      "source_ids": [
+        "src-burnside"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "verified-current",
+        "note": "Grounds open dawn-dusk; buildings open only for events or prearranged tours."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Burnside Plantation"
+    },
+    {
+      "id": "illicks-mill",
+      "name": "Illick's Mill & Monocacy Creek",
+      "kind": "mill-trail",
+      "city": "Bethlehem",
+      "state": "PA",
+      "visit_date": "2026-10-12",
+      "summary": "A stone mill and a creek corridor with a fish passage, hidden inside modern Bethlehem beside a small green walkway.",
+      "why_go": "Moving water, stone and old industry in a short walk. Less to see than the farm, but easier and quieter.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's water and stone photos and for Gora's industrial detail. Short and restful.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "quiet_reset",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 65,
+      "source_ids": [
+        "src-illicks"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "verified-current",
+        "note": "Outdoor trail in daylight; mill interior is not promised."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "replacement",
+      "replacement_reason": "A shorter creek-and-mill reset on the same Bethlehem edge; no interior promise.",
+      "replacement": {
+        "day": 9,
+        "replaces_place_ids": [
+          "burnside-plantation"
+        ],
+        "route_variant_id": "replacement-d9-illicks-mill",
+        "reason": "A shorter creek-and-mill reset on the same Bethlehem edge; no interior promise."
+      },
+      "address": "Illick's Mill & Monocacy Creek"
+    },
+    {
+      "id": "fairfield-hills",
+      "name": "Fairfield Hills Adaptive-Reuse Campus",
+      "kind": "institutional-reuse-landscape",
+      "city": "Newtown",
+      "state": "CT",
+      "visit_date": "2026-10-13",
+      "summary": "A 1930s state psychiatric hospital campus, now partly reused as public space, with wide lawns, heavy brick buildings and walking trails.",
+      "why_go": "Enormous institutional buildings on open lawns, being slowly given back to the town. We treat it as public space, not as a haunted attraction.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's unusual architecture and Gora's interest in institutions. We visit it with respect.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "quiet_reset"
+      ],
+      "duration_minutes": 95,
+      "source_ids": [
+        "src-fairfield",
+        "src-fairfield-trails"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "08:00",
+        "closes": "18:00",
+        "status": "verified-current",
+        "note": "Public campus trails generally open 08:00-18:00; abandoned buildings are not open for entry."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Fairfield Hills Adaptive-Reuse Campus"
+    },
+    {
+      "id": "newtown-meeting-house",
+      "name": "Newtown Meeting House & Flagpole",
+      "kind": "meeting-house-streetscape",
+      "city": "Newtown",
+      "state": "CT",
+      "visit_date": "2026-10-13",
+      "summary": "A white meeting house on a hill facing Newtown's well-known flagpole in the middle of the road, in a preserved town center.",
+      "why_go": "A calm, handsome town center if the old hospital feels too heavy at the end of a long drive.",
+      "best_for": [
+        "stivka",
+        "viki"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's clean architecture and for Stivka's quiet stop. Gentle, and easy on everyone.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "orthodox_spiritual",
+        "quiet_reset"
+      ],
+      "duration_minutes": 55,
+      "source_ids": [
+        "src-newtown-meeting"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "verified-current",
+        "note": "Exterior and town-center walk; interior requires event or direct confirmation."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "replacement",
+      "replacement_reason": "Choose a calm meeting-house streetscape instead of institutional history; bed-to-bed driving is effectively unchanged.",
+      "replacement": {
+        "day": 10,
+        "replaces_place_ids": [
+          "fairfield-hills"
+        ],
+        "route_variant_id": "replacement-d10-newtown-meeting",
+        "reason": "Choose a calm meeting-house streetscape instead of institutional history; bed-to-bed driving is effectively unchanged."
+      },
+      "address": "Newtown Meeting House & Flagpole"
+    },
+    {
+      "id": "mapparium",
+      "name": "Mapparium Globe",
+      "kind": "immersive-stained-glass-map",
+      "city": "Boston",
+      "state": "MA",
+      "visit_date": "2026-10-14",
+      "summary": "A walkway passes through the inside of a three-story stained-glass globe showing the world as it was mapped in 1935. The sound behaves very strangely inside it.",
+      "why_go": "You walk inside the world. The glass shows borders that no longer exist, and a whisper carries right across the room.",
+      "best_for": [
+        "viki",
+        "gora",
+        "stivka"
+      ],
+      "secondary_for": [
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's photos, Gora's interest in changing borders, and Stivka's feeling for unusual sacred spaces.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "unusual_creative",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 80,
+      "source_ids": [
+        "src-mapparium"
+      ],
+      "reservation": "reserve",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Wednesday open; last tour 16:40. Photography is permitted only after the presentation under the venue policy."
+      },
+      "cost": {
+        "amount_per_person": 6,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Mapparium Globe"
+    },
+    {
+      "id": "worcester-arms-armor",
+      "name": "Worcester Art Museum - Arms & Armor Galleries",
+      "kind": "global-armor-gallery",
+      "city": "Worcester",
+      "state": "MA",
+      "visit_date": "2026-10-14",
+      "summary": "New galleries hold more than a thousand pieces of armor from the Higgins collection: European, Japanese and other traditions, with parts you can handle.",
+      "why_go": "A thousand pieces of real armor, some of which you can pick up. The best possible last stop for Gora.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Gora above all, and for Viki's dramatic display design. A solid backup if Boston traffic looks bad.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_nature_photogenic",
+        "unusual_creative"
+      ],
+      "duration_minutes": 120,
+      "source_ids": [
+        "src-worcester",
+        "src-worcester-armor"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "16:00",
+        "status": "verified-current",
+        "note": "Wednesday open; as of February 2026 timed armor reservations are no longer required."
+      },
+      "cost": {
+        "amount_per_person": 22,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "replacement",
+      "replacement_reason": "Use the easier I-84/I-90 stop when Boston traffic or Mapparium tickets threaten the protected Logan return.",
+      "replacement": {
+        "day": 11,
+        "replaces_place_ids": [
+          "mapparium"
+        ],
+        "route_variant_id": "replacement-d11-worcester-armor",
+        "reason": "Use the easier I-84/I-90 stop when Boston traffic or Mapparium tickets threaten the protected Logan return."
+      },
+      "address": "Worcester Art Museum - Arms & Armor Galleries"
+    }
+  ]
+}

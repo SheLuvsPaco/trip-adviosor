@@ -1,0 +1,194 @@
+{
+  "methodology": "NOAA/NCEI U.S. Climate Normals 1991-2020 daily normals; these are planning baselines, not forecasts.",
+  "dataset_url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+  "generated_at": "2026-08-24T04:03:53.866Z",
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-10-04",
+      "sleep_city": "Springfield, MA",
+      "station": "USW00014740",
+      "station_role": "Hartford-Springfield regional proxy",
+      "station_id": "USW00014740",
+      "station_name": "HARTFORD BRADLEY INTL AP, CT US",
+      "station_coordinates": [
+        -72.6825,
+        41.9381
+      ],
+      "normal_high_c": 20.2,
+      "normal_low_c": 8.1,
+      "measurable_precipitation_probability_percent": 33.3,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00014740.csv"
+    },
+    {
+      "day": 2,
+      "date": "2026-10-05",
+      "sleep_city": "Troy, NY",
+      "station": "USW00014735",
+      "station_role": "Albany-Troy regional station",
+      "station_id": "USW00014735",
+      "station_name": "ALBANY AP, NY US",
+      "station_coordinates": [
+        -73.8092,
+        42.7431
+      ],
+      "normal_high_c": 19,
+      "normal_low_c": 7.2,
+      "measurable_precipitation_probability_percent": 35.9,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00014735.csv"
+    },
+    {
+      "day": 3,
+      "date": "2026-10-06",
+      "sleep_city": "Syracuse, NY",
+      "station": "USW00014771",
+      "station_role": "Syracuse airport",
+      "station_id": "USW00014771",
+      "station_name": "SYRACUSE HANCOCK INTL AP, NY US",
+      "station_coordinates": [
+        -76.1039,
+        43.1111
+      ],
+      "normal_high_c": 17.9,
+      "normal_low_c": 7.6,
+      "measurable_precipitation_probability_percent": 45.6,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00014771.csv"
+    },
+    {
+      "day": 4,
+      "date": "2026-10-07",
+      "sleep_city": "Batavia, NY",
+      "station": "USW00014768",
+      "station_role": "Rochester-Batavia regional proxy",
+      "station_id": "USW00014768",
+      "station_name": "ROCHESTER GTR INTL AP, NY US",
+      "station_coordinates": [
+        -77.6767,
+        43.1167
+      ],
+      "normal_high_c": 18.3,
+      "normal_low_c": 7.8,
+      "measurable_precipitation_probability_percent": 42.2,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00014768.csv"
+    },
+    {
+      "day": 5,
+      "date": "2026-10-08",
+      "sleep_city": "Erie, PA",
+      "station": "USW00014860",
+      "station_role": "Erie airport",
+      "station_id": "USW00014860",
+      "station_name": "ERIE INTL AP, PA US",
+      "station_coordinates": [
+        -80.1825,
+        42.08
+      ],
+      "normal_high_c": 18.5,
+      "normal_low_c": 9.4,
+      "measurable_precipitation_probability_percent": 42.9,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00014860.csv"
+    },
+    {
+      "day": 6,
+      "date": "2026-10-09",
+      "sleep_city": "Cleveland, OH",
+      "station": "USW00014820",
+      "station_role": "Cleveland airport",
+      "station_id": "USW00014820",
+      "station_name": "CLEVELAND, OH US",
+      "station_coordinates": [
+        -81.86,
+        41.4131
+      ],
+      "normal_high_c": 19.2,
+      "normal_low_c": 9.3,
+      "measurable_precipitation_probability_percent": 37.1,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00014820.csv"
+    },
+    {
+      "day": 7,
+      "date": "2026-10-10",
+      "sleep_city": "Canonsburg, PA",
+      "station": "USW00094823",
+      "station_role": "Pittsburgh-Canonsburg regional proxy",
+      "station_id": "USW00094823",
+      "station_name": "PITTSBURGH INTL AP, PA US",
+      "station_coordinates": [
+        -80.2144,
+        40.4847
+      ],
+      "normal_high_c": 18.6,
+      "normal_low_c": 7.6,
+      "measurable_precipitation_probability_percent": 35.8,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00094823.csv"
+    },
+    {
+      "day": 8,
+      "date": "2026-10-11",
+      "sleep_city": "Breezewood, PA",
+      "station": "USW00014751",
+      "station_role": "Harrisburg-Breezewood regional proxy",
+      "station_id": "USW00014751",
+      "station_name": "HARRISBURG CPTL CY AP, PA US",
+      "station_coordinates": [
+        -76.8514,
+        40.2172
+      ],
+      "normal_high_c": 20.3,
+      "normal_low_c": 9.2,
+      "measurable_precipitation_probability_percent": 34.7,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00014751.csv"
+    },
+    {
+      "day": 9,
+      "date": "2026-10-12",
+      "sleep_city": "Allentown West, PA",
+      "station": "USW00014737",
+      "station_role": "Lehigh Valley airport",
+      "station_id": "USW00014737",
+      "station_name": "ALLENTOWN INTL AP, PA US",
+      "station_coordinates": [
+        -75.4492,
+        40.6508
+      ],
+      "normal_high_c": 19.4,
+      "normal_low_c": 7.3,
+      "measurable_precipitation_probability_percent": 32.7,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00014737.csv"
+    },
+    {
+      "day": 10,
+      "date": "2026-10-13",
+      "sleep_city": "Danbury, CT",
+      "station": "USW00094702",
+      "station_role": "Bridgeport-Danbury regional proxy",
+      "station_id": "USW00094702",
+      "station_name": "BRIDGEPORT SIKORSKY MEM AP, CT US",
+      "station_coordinates": [
+        -73.1289,
+        41.1583
+      ],
+      "normal_high_c": 18.6,
+      "normal_low_c": 9.6,
+      "measurable_precipitation_probability_percent": 31.7,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00094702.csv"
+    },
+    {
+      "day": 11,
+      "date": "2026-10-14",
+      "sleep_city": "Boston, MA",
+      "station": "USW00014739",
+      "station_role": "Boston Logan airport",
+      "station_id": "USW00014739",
+      "station_name": "BOSTON LOGAN INTL AP, MA US",
+      "station_coordinates": [
+        -71.0106,
+        42.3606
+      ],
+      "normal_high_c": 17.1,
+      "normal_low_c": 8.9,
+      "measurable_precipitation_probability_percent": 33.5,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00014739.csv"
+    }
+  ]
+}

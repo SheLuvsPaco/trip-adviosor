@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0.0",
+  "route_id": "route-03",
+  "verified_at": "2026-08-23",
+  "purpose": "Preserve the research, experience and geometry decisions behind Route 3 so later edits do not turn it into a generic I-95 coastal drive or reintroduce the measured driving-cap failures removed during planning.",
+  "hard_cap_minutes": 210,
+  "design_rules": [
+    "Make the coast itself part of the experience by using four ferry legs, barrier-island landscapes and the Chesapeake Bay Bridge-Tunnel instead of treating every transfer as highway time.",
+    "Lean south for the warmest route in the first three-route set while keeping every stop in the United States and avoiding a Canada re-entry dependency.",
+    "Use one planned music night, no forced club night and no scheduled athletic/adrenaline stop on this route.",
+    "A hidden-gem option replaces an anchor; it is never stacked onto an already full day.",
+    "Every photogenic stop must also deliver architecture, ecology, engineering, folklore, art or history.",
+    "Ferry crossing time is displayed as travel time but does not count as active driving under the 210-minute bed-to-bed driving cap."
+  ],
+  "final_decisions": [
+    {
+      "id": "ferry-stitched-opening",
+      "decision": "Open through Old Lyme, New London, Orient Point, Greenport and Shelter Island using Cross Sound, North Ferry and South Ferry.",
+      "reason": "The three short maritime transitions make the first two days feel like a holiday immediately and connect art, harbor architecture and Mashomack's marshes without repeating the Boston-New York interstate corridor."
+    },
+    {
+      "id": "asbury-real-music-night",
+      "decision": "Use Asbury Park for the route's only planned social night, but leave the venue calendar-gated.",
+      "reason": "Silverball and the boardwalk already work in any weather; a real rock or metal bill can then be selected 4-6 weeks before travel rather than inventing a generic nightlife stop."
+    },
+    {
+      "id": "cape-may-layering",
+      "decision": "Layer Lucy the Elephant, NAS Wildwood, Victorian Cape May and an actual October ghost or oddities departure across Day 4.",
+      "reason": "The sequence gives the group roadside surrealism, hands-on military history, architecture and folklore without adding adrenaline or requiring a long hike."
+    },
+    {
+      "id": "assateague-moved-to-day-five",
+      "decision": "Place Assateague golden hour after Berlin on the Cape May-to-Chincoteague day, not on the following Wallops-to-Norfolk day.",
+      "reason": "The original Day 6 concept measured 284 minutes of road driving. Moving Assateague to Day 5 produces final baselines of 182 minutes on Day 5 and 199 minutes on Day 6 while preserving horses, dunes, NASA and the Eastern Shore."
+    },
+    {
+      "id": "norfolk-airport-logistics",
+      "decision": "Sleep in the Norfolk airport/Military Highway zone after the Chesapeake crossing and use Richmond's West End the following night.",
+      "reason": "Those lodging zones keep the full Wallops-Eastern Shore-CBBT day under the cap and prevent the Norfolk-Virginia Beach-Poe transfer from becoming an unsafe hotel-to-hotel run."
+    },
+    {
+      "id": "richmond-orthodox-sunday",
+      "decision": "Begin Sunday, October 11 at Saints Constantine and Helen Greek Orthodox Cathedral in Richmond before continuing to Baltimore's B&O Railroad Museum.",
+      "reason": "The liturgy is treated as a real fixed anchor and the industrial-history stop still fits a 207-minute baseline day."
+    },
+    {
+      "id": "metuchen-reset-night",
+      "decision": "Use the Mutter Museum followed by a quiet Metuchen Main Street night on October 12.",
+      "reason": "Metuchen breaks the Philadelphia-to-Hudson transfer, supplies a low-stimulation evening and positions the group for Sleepy Hollow without repeating a large-city nightlife night."
+    },
+    {
+      "id": "exact-date-folklore-finale",
+      "decision": "Build October 13 around a parked-car Sleepy Hollow cluster and the exact 2026 Great Jack O'Lantern Blaze date.",
+      "reason": "The cemetery, Old Dutch Church, Headless Horseman site and timed Blaze combine literature, folklore, historic architecture and night photography in the route's strongest themed day."
+    },
+    {
+      "id": "final-two-days-live-gated",
+      "decision": "Keep Day 9 at 210 baseline minutes and Days 8 and 11 at 207 only with explicit live-traffic gates and deletion rules.",
+      "reason": "These days pass the static road-network cap but have little or no congestion margin; the optional town walk or replacement is cut before the hotel arrival or Boston airport night is compromised."
+    }
+  ],
+  "candidate_research": {
+    "selected_hidden_gem_replacements": [
+      "The Book Barn",
+      "Long Island Aquarium",
+      "Ocean Grove Great Auditorium and Tent City",
+      "Sunset Beach and SS Atlantus",
+      "Zwaanendael Museum",
+      "Cape Charles Historic District",
+      "Hermitage Museum and Gardens",
+      "Baltimore Museum of Industry",
+      "Andalusia Historic House, Gardens and Arboretum",
+      "David Rockefeller Creative Arts Center",
+      "Barker Character, Comic and Cartoon Museum"
+    ],
+    "selection_note": "Each option survived person-fit, operating-hours, visit-date, coordinates and replacement-geometry checks. They remain outside the Magic score until promoted into the itinerary."
+  },
+  "rejected_or_reworked_variants": [
+    {
+      "variant": "Assateague on the Wallops-to-Norfolk day",
+      "measured_baseline_minutes": 284,
+      "status": "reworked-hard-cap",
+      "resolution": "Move Assateague to Day 5 after Berlin; final Day 6 baseline is 199 minutes."
+    },
+    {
+      "variant": "Central Norfolk hotel followed by the full Virginia Beach and Richmond sequence",
+      "measured_baseline_minutes": null,
+      "status": "reworked-geometry",
+      "resolution": "Use the airport/Military Highway lodging zone, then a Richmond West End lodging zone."
+    },
+    {
+      "variant": "A Canada-side Niagara extension",
+      "measured_baseline_minutes": null,
+      "status": "rejected-j1-border-risk",
+      "resolution": "Route 3 remains US-only; revisit international options only after written confirmation for all four travelers."
+    },
+    {
+      "variant": "Adding an Assateague kayak, ropes course or other athletic anchor",
+      "measured_baseline_minutes": null,
+      "status": "rejected-burnout-and-balance",
+      "resolution": "Keep this route at zero scheduled athletic/adrenaline stops so the wider ten-route set can use the maximum only where it is exceptional."
+    }
+  ],
+  "traffic_policy": {
+    "routing_baseline": "OSRM road-network duration without live traffic",
+    "planning_ranges": "Risk buffers are planning bands, not traffic forecasts.",
+    "live_check": "Recalculate every bed-to-bed sequence in live navigation on the travel date before departure.",
+    "rule": "If predicted driving exceeds 210 minutes, promote the documented replacement if it reduces driving, remove the day's named optional stop, or go directly to the lodging city; never assume congestion away."
+  },
+  "image_policy": {
+    "reviewed_selected_images": 150,
+    "commons_images_with_recorded_license": 102,
+    "external_editorial_images_requiring_permission_or_replacement": 48,
+    "rule": "External images are acceptable for the private planning prototype but must be licensed, replaced or removed before a public deployment."
+  }
+}

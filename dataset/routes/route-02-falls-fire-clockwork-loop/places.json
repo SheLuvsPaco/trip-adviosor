@@ -1,0 +1,6246 @@
+{
+  "schema_version": "1.0.0",
+  "route_id": "route-02",
+  "places": [
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "08:00",
+        "closes": "18:00",
+        "status": "verified",
+        "note": "Official daily garden hours."
+      },
+      "cost": {
+        "amount_per_person": 20,
+        "status": "verified",
+        "note": "Adult entry."
+      },
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "categories": [
+        "architecture_photogenic",
+        "nature_photogenic",
+        "unusual_creative",
+        "hidden_history_folklore"
+      ],
+      "id": "three-sisters-sanctuary",
+      "name": "Three Sisters Sanctuary",
+      "kind": "environmental-art-garden",
+      "city": "Goshen",
+      "state": "MA",
+      "address": "188 Cape Street, Goshen, MA 01032",
+      "visit_date": "2026-10-04",
+      "summary": "Eight acres of hand-built garden art in the Berkshire hills: stone, water, flower beds, memorials and even a dragon cave. One man built it all by hand over many years, in memory of his daughter.",
+      "why_go": "This is not a normal sculpture park. It is one man's private world, strange and personal, and it opens the trip in a way nobody will forget.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Viki, who likes dreamlike photos, and for Stivka, who likes quiet places. The family story behind it gives everyone something to feel.",
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-three-sisters"
+      ],
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -72.8097182,
+        42.4724782
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-three-sisters-sanctuary-1",
+        "img-three-sisters-sanctuary-2",
+        "img-three-sisters-sanctuary-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "09:00",
+        "closes": "16:00",
+        "status": "verified",
+        "note": "Daily Lyman Conservatory hours."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified",
+        "note": "No admission charge."
+      },
+      "secondary_for": [
+        "sheluvspaco"
+      ],
+      "categories": [
+        "architecture_photogenic",
+        "nature_photogenic"
+      ],
+      "id": "smith-botanic-garden",
+      "name": "Lyman Conservatory & Smith Botanic Garden",
+      "kind": "botanic-conservatory",
+      "city": "Northampton",
+      "state": "MA",
+      "address": "16 College Lane, Northampton, MA 01063",
+      "visit_date": "2026-10-04",
+      "summary": "A glasshouse from 1895 at Smith College, free to enter. Inside there are rooms with different climates, from desert to rainforest, full of unusual plants. Outside there is a park with many kinds of trees.",
+      "why_go": "A warm green room full of strange plants, in the middle of a long driving day. Much better than a normal stop at the side of the road, and it costs nothing.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Viki's plant and glasshouse photos, and for Stivka, who prefers calm places.",
+      "duration_minutes": 60,
+      "priority": "supporting",
+      "source_ids": [
+        "src-smith"
+      ],
+      "country": "US",
+      "coordinates": [
+        -72.6399966,
+        42.3189684
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "openstreetmap_nominatim",
+      "image_ids": [
+        "img-smith-botanic-garden-1",
+        "img-smith-botanic-garden-2",
+        "img-smith-botanic-garden-3",
+        "img-smith-botanic-garden-4",
+        "img-smith-botanic-garden-5",
+        "img-smith-botanic-garden-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 3.4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "16:00",
+        "closes": "23:00",
+        "status": "map-verified",
+        "note": "Sunday hours; reconfirm before travel."
+      },
+      "cost": {
+        "amount_per_person": 25,
+        "status": "planning-estimate",
+        "note": "One drink plus food; nightlife spending is excluded from the route budget target."
+      },
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "categories": [
+        "architecture_photogenic",
+        "unusual_creative",
+        "live_social_nightlife"
+      ],
+      "id": "tunnel-bar-northampton",
+      "name": "The Tunnel Bar",
+      "kind": "cocktail-bar",
+      "city": "Northampton",
+      "state": "MA",
+      "address": "125 Pleasant Street, Northampton, MA 01060",
+      "visit_date": "2026-10-04",
+      "summary": "A cocktail bar built inside the old brick tunnel that passengers once used to walk under Northampton's railway station. It is long, narrow and completely underground.",
+      "why_go": "You drink in a railway tunnel under the old station. An easy, social first evening that does not turn into a late night before an early start.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "best_fit_note": "Good for Viki, who loves unusual rooms, and for Gora's social side. Paco gets a relaxed start to the trip.",
+      "duration_minutes": 90,
+      "priority": "supporting",
+      "source_ids": [
+        "src-tunnel",
+        "src-tunnel-maps"
+      ],
+      "country": "US",
+      "coordinates": [
+        -72.6274035,
+        42.3193898
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-tunnel-bar-northampton-1",
+        "img-tunnel-bar-northampton-2",
+        "img-tunnel-bar-northampton-3",
+        "img-tunnel-bar-northampton-4",
+        "img-tunnel-bar-northampton-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "recommended",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified",
+        "note": "Monday hours; Tuesday is closed."
+      },
+      "cost": {
+        "amount_per_person": 25,
+        "status": "verified",
+        "note": "Adult admission; some Turrell works require a no-cost reservation."
+      },
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "categories": [
+        "architecture_photogenic",
+        "unusual_creative",
+        "hidden_history_folklore"
+      ],
+      "id": "mass-moca",
+      "name": "MASS MoCA",
+      "kind": "contemporary-art-museum",
+      "city": "North Adams",
+      "state": "MA",
+      "address": "1040 MASS MoCA Way, North Adams, MA 01247",
+      "visit_date": "2026-10-05",
+      "summary": "A huge old factory of 24 buildings, now full of modern art. The works are made for whole rooms, not for walls: light, sound and color by artists such as James Turrell, Laurie Anderson and Sol LeWitt.",
+      "why_go": "Art the size of buildings, inside a factory the size of a village. You walk through it, and nobody expects you to behave like a gallery visitor.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Viki, who likes big unusual spaces and strong images. Stivka gets experimental sound and very large rooms.",
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-mass-moca",
+        "src-mass-moca-exhibitions"
+      ],
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -73.1158854,
+        42.7012857
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "openstreetmap_nominatim",
+      "image_ids": [
+        "img-mass-moca-1",
+        "img-mass-moca-2",
+        "img-mass-moca-3",
+        "img-mass-moca-4",
+        "img-mass-moca-5",
+        "img-mass-moca-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "07:00",
+        "closes": "18:15",
+        "status": "verified-seasonal",
+        "note": "Official policy is sunrise to sunset daily; displayed times are a planning daylight window."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified",
+        "note": "No admission charge."
+      },
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "categories": [
+        "architecture_photogenic",
+        "nature_photogenic",
+        "orthodox_spiritual"
+      ],
+      "id": "grafton-peace-pagoda",
+      "name": "Grafton Peace Pagoda",
+      "kind": "spiritual-landmark",
+      "city": "Petersburgh",
+      "state": "NY",
+      "address": "87 Crandall Road, Petersburgh, NY 12138",
+      "visit_date": "2026-10-05",
+      "summary": "A white Buddhist peace pagoda on a quiet wooded hill, built by the Japanese order Nipponzan Myohoji. Paths lead around it, and there are wide views over the valley.",
+      "why_go": "A calm, honest place of prayer between two cities, with almost no tourists. We visit with respect, not as a curiosity.",
+      "best_for": [
+        "stivka",
+        "viki"
+      ],
+      "best_fit_note": "Good for Stivka, who takes faith seriously, and for Viki, who likes buildings in nature.",
+      "duration_minutes": 60,
+      "source_ids": [
+        "src-grafton"
+      ],
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -73.4103466,
+        42.750208
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-grafton-peace-pagoda-1",
+        "img-grafton-peace-pagoda-2",
+        "img-grafton-peace-pagoda-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "07:00",
+        "closes": "18:15",
+        "status": "verified-seasonal",
+        "note": "Park is year-round; planning window stays within daylight."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified",
+        "note": "Springs are free; October 5 is a Monday, so the seasonal weekend/holiday vehicle fee does not apply."
+      },
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "categories": [
+        "nature_photogenic",
+        "unusual_creative",
+        "hidden_history_folklore"
+      ],
+      "id": "saratoga-mineral-springs",
+      "name": "Saratoga Mineral-Spring Tasting Walk",
+      "kind": "mineral-spring-walk",
+      "city": "Saratoga Springs",
+      "state": "NY",
+      "address": "Saratoga Spa State Park, Saratoga Springs, NY 12866",
+      "visit_date": "2026-10-05",
+      "summary": "A short walk between natural mineral springs in the town park. The water comes out of the ground with natural bubbles, and every spring tastes completely different. You can drink from them.",
+      "why_go": "You do not only look at a spa town, you taste it. Try Orenda, Hathorn and the others and see which one you can actually drink.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "best_fit_note": "Good for Viki, who enjoys strange experiences, and for Gora, who wants to know what is really under a polished resort story.",
+      "duration_minutes": 65,
+      "source_ids": [
+        "src-saratoga",
+        "src-saratoga-springs-map"
+      ],
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -73.8070547,
+        43.0537779
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-saratoga-mineral-springs-1",
+        "img-saratoga-mineral-springs-2",
+        "img-saratoga-mineral-springs-3",
+        "img-saratoga-mineral-springs-4",
+        "img-saratoga-mineral-springs-5",
+        "img-saratoga-mineral-springs-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "verified",
+        "note": "Public outdoor access during the scheduled window."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified",
+        "note": "No admission charge."
+      },
+      "secondary_for": [
+        "sheluvspaco"
+      ],
+      "categories": [
+        "architecture_photogenic",
+        "nature_photogenic",
+        "hidden_history_folklore"
+      ],
+      "id": "congress-park",
+      "name": "Congress Park & Canfield Casino",
+      "kind": "historic-park",
+      "city": "Saratoga Springs",
+      "state": "NY",
+      "address": "268 Broadway, Saratoga Springs, NY 12866",
+      "visit_date": "2026-10-05",
+      "summary": "A small park in the middle of Saratoga Springs with mineral springs, Italian gardens and marble statues. In the middle stands the old Canfield Casino, a rich and highly decorated gambling house.",
+      "why_go": "Money, gambling and health cures in one small park. It is beautiful at sunset, and the casino tells the part of the story the spa brochures leave out.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "best_fit_note": "Good for Viki's architecture photos and for Gora, who wants the real gambling history behind the elegant image.",
+      "duration_minutes": 60,
+      "priority": "supporting",
+      "source_ids": [
+        "src-congress"
+      ],
+      "country": "US",
+      "coordinates": [
+        -73.7843636,
+        43.0774545
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-congress-park-1",
+        "img-congress-park-2",
+        "img-congress-park-3",
+        "img-congress-park-4",
+        "img-congress-park-5",
+        "img-congress-park-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 3.4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "required",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "ticket-calendar-pending",
+        "note": "Traditional tour must be booked online; lock a 10:00 slot when October inventory opens."
+      },
+      "cost": {
+        "amount_per_person": 29.5,
+        "status": "verified-before-fees",
+        "note": "2026 adult base price; taxes and online fees extra."
+      },
+      "secondary_for": [
+        "sheluvspaco"
+      ],
+      "categories": [
+        "nature_photogenic",
+        "unusual_creative",
+        "athletic_adrenaline"
+      ],
+      "id": "howe-caverns",
+      "name": "Howe Caverns Traditional Tour",
+      "kind": "cave-tour",
+      "city": "Howes Cave",
+      "state": "NY",
+      "address": "255 Discovery Drive, Howes Cave, NY 12092",
+      "visit_date": "2026-10-06",
+      "summary": "A 90-minute walk through limestone passages deep under the ground. The tour includes a quarter-mile boat ride on an underground river, and there are 139 steps.",
+      "why_go": "You go down into the rock and then travel by boat on a river under the ground. Dramatic, but organised and safe enough for a driving day.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "best_fit_note": "Good for Gora, who likes geology and discovery, and for Viki, who wants places that look nothing like normal sightseeing.",
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-howe",
+        "src-howe-price",
+        "src-upstate-caves-forum"
+      ],
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -74.3987702,
+        42.6957642
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "openstreetmap_nominatim",
+      "image_ids": [
+        "img-howe-caverns-1",
+        "img-howe-caverns-2",
+        "img-howe-caverns-3",
+        "img-howe-caverns-4",
+        "img-howe-caverns-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 3.4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified",
+        "note": "May 1-October 31 Tuesday hours."
+      },
+      "cost": {
+        "amount_per_person": 8,
+        "status": "verified",
+        "note": "Adult admission."
+      },
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "categories": [
+        "architecture_photogenic",
+        "hidden_history_folklore",
+        "unusual_creative"
+      ],
+      "id": "iroquois-museum",
+      "name": "Iroquois Museum",
+      "kind": "indigenous-museum",
+      "city": "Howes Cave",
+      "state": "NY",
+      "address": "324 Caverns Road, Howes Cave, NY 12092",
+      "visit_date": "2026-10-06",
+      "summary": "A museum about the Haudenosaunee (Iroquois) people, in a building shaped like a traditional longhouse. It shows modern Native art together with history, and Native people decide how that history is told.",
+      "why_go": "Most road trips treat Native history as scenery or a short footnote. Here the people tell their own story, in their own building.",
+      "best_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Gora, who wants to look past the simple mainstream story, and for Stivka, who cares about belief and community.",
+      "duration_minutes": 75,
+      "source_ids": [
+        "src-iroquois"
+      ],
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -74.4079298,
+        42.6915897
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "openstreetmap_nominatim",
+      "image_ids": [
+        "img-iroquois-museum-1",
+        "img-iroquois-museum-2",
+        "img-iroquois-museum-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "verified",
+        "note": "Public outdoor access during the scheduled window."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified",
+        "note": "No admission charge."
+      },
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "categories": [
+        "nature_photogenic",
+        "hidden_history_folklore"
+      ],
+      "id": "cooperstown-lakefront",
+      "name": "Council Rock & Otsego Lakefront",
+      "kind": "lakefront-viewpoint",
+      "city": "Cooperstown",
+      "state": "NY",
+      "address": "River Street, Cooperstown, NY 13326",
+      "visit_date": "2026-10-06",
+      "summary": "A small park on the shore of Otsego Lake, where the Susquehanna River begins. Hills stand around the water, and in October the trees are turning color.",
+      "why_go": "Ten quiet minutes by the water before dinner. It lets Cooperstown feel like a real small town, not only a row of museums.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "best_fit_note": "Good for Viki's quiet lake photos, and for Gora, who needs a break after two museums.",
+      "duration_minutes": 40,
+      "priority": "supporting",
+      "source_ids": [
+        "src-cooperstown"
+      ],
+      "country": "US",
+      "coordinates": [
+        -74.920262,
+        42.7009845
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-cooperstown-lakefront-1",
+        "img-cooperstown-lakefront-2",
+        "img-cooperstown-lakefront-3",
+        "img-cooperstown-lakefront-4",
+        "img-cooperstown-lakefront-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "12:00",
+        "closes": "20:00",
+        "status": "verified",
+        "note": "Tuesday café, mercantile and taproom hours; brewery tours are weekend-only."
+      },
+      "cost": {
+        "amount_per_person": 30,
+        "status": "planning-estimate",
+        "note": "Food and one tasting; drinks are excluded from the route budget target."
+      },
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "categories": [
+        "architecture_photogenic",
+        "food_coffee_shopping",
+        "live_social_nightlife"
+      ],
+      "id": "brewery-ommegang",
+      "name": "Brewery Ommegang Farmstead Taproom",
+      "kind": "brewery-taproom",
+      "city": "Cooperstown",
+      "state": "NY",
+      "address": "656 County Highway 33, Cooperstown, NY 13326",
+      "visit_date": "2026-10-06",
+      "summary": "A Belgian-style brewery on a farm outside Cooperstown, with a large lawn, a restaurant and small glasses for tasting several beers.",
+      "why_go": "A relaxed evening with good beer and food on a farm. Social, but not a big night out, so the next morning still works.",
+      "best_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Gora's social side and for Stivka, who enjoys an easy beer evening. Viki still gets a beautiful farm setting.",
+      "duration_minutes": 120,
+      "priority": "supporting",
+      "source_ids": [
+        "src-ommegang",
+        "src-cooperstown"
+      ],
+      "country": "US",
+      "coordinates": [
+        -74.9452784,
+        42.6266748
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "openstreetmap_nominatim",
+      "image_ids": [
+        "img-brewery-ommegang-1",
+        "img-brewery-ommegang-2",
+        "img-brewery-ommegang-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "16:00",
+        "status": "verified-seasonal",
+        "note": "September 2-October 31 Wednesday hours; homepage may show broader summer hours, so use the dated seasonal schedule."
+      },
+      "cost": {
+        "amount_per_person": 17.5,
+        "status": "verified",
+        "note": "Admission also covers the Cardiff Giant and Empire State Carousel."
+      },
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "categories": [
+        "architecture_photogenic",
+        "hidden_history_folklore",
+        "unusual_creative"
+      ],
+      "id": "fenimore-farm",
+      "name": "Fenimore Farm & Country Village",
+      "kind": "living-history-museum",
+      "city": "Cooperstown",
+      "state": "NY",
+      "address": "5775 State Highway 80, Cooperstown, NY 13326",
+      "visit_date": "2026-10-07",
+      "summary": "A working farm and a rebuilt 19th-century village. Staff do the old jobs with real tools, and in autumn the village fills with handmade scarecrows.",
+      "why_go": "Not just old buildings: this is where the Cardiff Giant and the hand-carved carousel live, and both get their own stop.",
+      "best_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Gora, who likes history you can touch, and for Stivka, who is interested in older community life.",
+      "duration_minutes": 60,
+      "source_ids": [
+        "src-fenimore"
+      ],
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -74.9297208,
+        42.7123623
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-fenimore-farm-1",
+        "img-fenimore-farm-2",
+        "img-fenimore-farm-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "16:00",
+        "status": "verified",
+        "note": "Open during Fenimore Farm hours."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "included",
+        "note": "Included with Fenimore Farm admission."
+      },
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "categories": [
+        "hidden_history_folklore",
+        "unusual_creative"
+      ],
+      "id": "cardiff-giant",
+      "name": "The Cardiff Giant",
+      "kind": "historic-hoax",
+      "city": "Cooperstown",
+      "state": "NY",
+      "address": "Inside Fenimore Farm, 5775 State Highway 80, Cooperstown, NY 13326",
+      "visit_date": "2026-10-07",
+      "summary": "A ten-foot stone figure of a man, made in 1868 and buried so that people would find it. The maker was inspired by a line in the Bible about giants. Thousands paid to see it before it was proved false.",
+      "why_go": "One of the most successful fakes in American history. People believed it because they wanted to, and that is what makes it worth twenty minutes.",
+      "best_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Gora, who is interested in how truth gets bent, and for Stivka, because the Bible was used to sell the lie.",
+      "duration_minutes": 20,
+      "source_ids": [
+        "src-fenimore-explore"
+      ],
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -74.92951,
+        42.71204
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-cardiff-giant-1",
+        "img-cardiff-giant-2",
+        "img-cardiff-giant-3",
+        "img-cardiff-giant-4",
+        "img-cardiff-giant-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "16:00",
+        "status": "verified",
+        "note": "Open during Fenimore Farm hours."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "included",
+        "note": "Included with Fenimore Farm admission."
+      },
+      "secondary_for": [
+        "sheluvspaco",
+        "gora"
+      ],
+      "categories": [
+        "architecture_photogenic",
+        "hidden_history_folklore",
+        "unusual_creative"
+      ],
+      "id": "empire-state-carousel",
+      "name": "Empire State Carousel",
+      "kind": "folk-art-carousel",
+      "city": "Cooperstown",
+      "state": "NY",
+      "address": "Inside Fenimore Farm, 5775 State Highway 80, Cooperstown, NY 13326",
+      "visit_date": "2026-10-07",
+      "summary": "A carousel you can ride, built as a museum of New York State. It has 25 hand-carved animals and painted panels of local stories. More than 1,000 volunteers made it by hand.",
+      "why_go": "State history you can sit on and ride. A thousand people made it by hand, and it is far more fun than another glass case.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Viki, who likes playful images, and for Stivka, who appreciates craft, music and art made by a community.",
+      "duration_minutes": 25,
+      "source_ids": [
+        "src-fenimore-explore"
+      ],
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -74.93016,
+        42.71267
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-empire-state-carousel-1",
+        "img-empire-state-carousel-2",
+        "img-empire-state-carousel-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "07:10",
+        "closes": "18:35",
+        "status": "verified-seasonal",
+        "note": "Dawn-to-dusk park; all trails were open in the April 17, 2026 update. Recheck conditions."
+      },
+      "cost": {
+        "amount_per_person": 5,
+        "status": "derived",
+        "note": "Two $10 vehicle fees split four ways."
+      },
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "categories": [
+        "nature_photogenic"
+      ],
+      "id": "taughannock-falls",
+      "name": "Taughannock Falls Gorge Walk",
+      "kind": "waterfall-walk",
+      "city": "Trumansburg",
+      "state": "NY",
+      "address": "1740 Taughannock Boulevard, Trumansburg, NY 14886",
+      "visit_date": "2026-10-07",
+      "summary": "An easy walk of about 0.75 miles along a gorge to a waterfall 215 feet high. The water falls into a round stone bowl with very high walls.",
+      "why_go": "This waterfall is taller than the main drop at Niagara, but the walk to it is flat and calm. Big reward, small effort.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "best_fit_note": "Good for Viki's strongest autumn photos and for Gora's quiet side. The 1.5-mile round trip rests the group instead of tiring it.",
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-taughannock"
+      ],
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -76.59857,
+        42.53609
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-taughannock-falls-1",
+        "img-taughannock-falls-2",
+        "img-taughannock-falls-3",
+        "img-taughannock-falls-4",
+        "img-taughannock-falls-5",
+        "img-taughannock-falls-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "07:10",
+        "closes": "18:35",
+        "status": "verified-seasonal",
+        "note": "Grounds are free daily dawn to dusk; Welcome Center closes at 17:00."
+      },
+      "cost": {
+        "amount_per_person": 0.75,
+        "status": "derived",
+        "note": "Approximate share of one hour of ParkMobile parking for two cars; admission is free."
+      },
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "categories": [
+        "nature_photogenic",
+        "architecture_photogenic"
+      ],
+      "id": "cornell-botanic-gardens",
+      "name": "Cornell Botanic Gardens & Newman Arboretum",
+      "kind": "botanic-garden",
+      "city": "Ithaca",
+      "state": "NY",
+      "address": "124 Comstock Knoll Drive, Ithaca, NY 14850",
+      "visit_date": "2026-10-07",
+      "summary": "A large free garden and tree park belonging to Cornell University, with theme gardens, ponds and sculpture. It was planted to look its best in autumn.",
+      "why_go": "A calm, free end to a day full of museums, with no queue and no fixed time. Perfect in the last hour of daylight.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Viki's autumn colors and landscapes, and for Stivka, who likes a calm finish to the day.",
+      "duration_minutes": 50,
+      "priority": "supporting",
+      "source_ids": [
+        "src-cornell"
+      ],
+      "country": "US",
+      "coordinates": [
+        -76.4722793,
+        42.4495732
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-cornell-botanic-gardens-1",
+        "img-cornell-botanic-gardens-2",
+        "img-cornell-botanic-gardens-3",
+        "img-cornell-botanic-gardens-4",
+        "img-cornell-botanic-gardens-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "verified",
+        "note": "Public outdoor access during the scheduled window."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified",
+        "note": "No admission charge."
+      },
+      "secondary_for": [
+        "sheluvspaco"
+      ],
+      "categories": [
+        "nature_photogenic",
+        "unusual_creative"
+      ],
+      "id": "ithaca-falls",
+      "name": "Ithaca Falls at Lake Street",
+      "kind": "urban-waterfall",
+      "city": "Ithaca",
+      "state": "NY",
+      "address": "Lake Street, Ithaca, NY 14850",
+      "visit_date": "2026-10-08",
+      "summary": "A waterfall 150 feet high, almost inside the city. You park at the road and walk a few minutes to reach it.",
+      "why_go": "A big waterfall a few steps from the street, first thing in the morning. Very little effort for a very strong start to the day.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "best_fit_note": "Good for Viki's city-meets-nature photo, and for Gora, who wants fresh air without a long walk.",
+      "duration_minutes": 30,
+      "source_ids": [
+        "src-ithaca-gorges"
+      ],
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -76.4932497,
+        42.4526487
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-ithaca-falls-1",
+        "img-ithaca-falls-2",
+        "img-ithaca-falls-3",
+        "img-ithaca-falls-4",
+        "img-ithaca-falls-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 3.4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "recommended",
+      "hours": {
+        "opens": "09:00",
+        "closes": "17:00",
+        "status": "verified",
+        "note": "April-December daily hours."
+      },
+      "cost": {
+        "amount_per_person": 25,
+        "status": "verified",
+        "note": "Adult admission; valid two consecutive days."
+      },
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "categories": [
+        "architecture_photogenic",
+        "unusual_creative",
+        "hidden_history_folklore"
+      ],
+      "id": "corning-museum-of-glass",
+      "name": "Corning Museum of Glass",
+      "kind": "art-science-museum",
+      "city": "Corning",
+      "state": "NY",
+      "address": "1 Museum Way, Corning, NY 14830",
+      "visit_date": "2026-10-08",
+      "summary": "The most important glass museum in the world. It shows 3,500 years of glass, has live demonstrations where workers shape hot glass in front of you, and a bright modern wing for contemporary work.",
+      "why_go": "You watch people shape glowing hot glass by hand, then see everything humans have made from glass over 3,500 years.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "best_fit_note": "Good for Viki, who loves material and color, and for Gora, who wants to see how difficult things are actually made.",
+      "duration_minutes": 165,
+      "source_ids": [
+        "src-corning",
+        "src-corning-fall"
+      ],
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -77.0541641,
+        42.1497514
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "openstreetmap_nominatim",
+      "image_ids": [
+        "img-corning-museum-of-glass-1",
+        "img-corning-museum-of-glass-2",
+        "img-corning-museum-of-glass-3",
+        "img-corning-museum-of-glass-4",
+        "img-corning-museum-of-glass-5",
+        "img-corning-museum-of-glass-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "required",
+      "hours": {
+        "opens": "09:00",
+        "closes": "17:00",
+        "status": "verified",
+        "note": "Daily; advance slots frequently sell out."
+      },
+      "cost": {
+        "amount_per_person": 48,
+        "status": "planning-estimate",
+        "note": "Projects range from $13-$62; budget assumes a blown seasonal object."
+      },
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "categories": [
+        "unusual_creative",
+        "architecture_photogenic"
+      ],
+      "id": "make-your-own-glass",
+      "name": "Make Your Own Glass: Fall Object",
+      "kind": "hands-on-workshop",
+      "city": "Corning",
+      "state": "NY",
+      "address": "The Studio, 1 Museum Way, Corning, NY 14830",
+      "visit_date": "2026-10-08",
+      "summary": "A short guided session where each person shapes their own object from hot glass, with help from a glassmaker. You take it home with you.",
+      "why_go": "Everyone leaves with something they made with their own hands. Better than another photograph, and every object is different.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's creative side, and for Paco, who wants one shared moment where each person still makes something of their own.",
+      "duration_minutes": 45,
+      "source_ids": [
+        "src-corning-make",
+        "src-corning-fall"
+      ],
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -77.0561758,
+        42.1499845
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-make-your-own-glass-1",
+        "img-make-your-own-glass-2",
+        "img-make-your-own-glass-3",
+        "img-make-your-own-glass-4",
+        "img-make-your-own-glass-5",
+        "img-make-your-own-glass-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "verified",
+        "note": "Public outdoor access during the scheduled window."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified",
+        "note": "No admission charge."
+      },
+      "secondary_for": [
+        "sheluvspaco"
+      ],
+      "categories": [
+        "architecture_photogenic",
+        "nature_photogenic",
+        "hidden_history_folklore"
+      ],
+      "id": "rochester-high-falls",
+      "name": "High Falls & Pont de Rennes View",
+      "kind": "industrial-waterfall-view",
+      "city": "Rochester",
+      "state": "NY",
+      "address": "4 Cataract Street, Rochester, NY 14605",
+      "visit_date": "2026-10-08",
+      "summary": "A waterfall 96 feet high in the middle of Rochester, surrounded by old mills, bridges and brick factory walls. You see it from a footbridge.",
+      "why_go": "A big waterfall between factory walls. It shows you at once why the city was built here.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "best_fit_note": "Good for Viki, who photographs nature and industry together, and for Gora's interest in industrial history.",
+      "duration_minutes": 55,
+      "priority": "supporting",
+      "source_ids": [
+        "src-rochester-forum"
+      ],
+      "country": "US",
+      "coordinates": [
+        -77.6123226,
+        43.162487
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "openstreetmap_nominatim",
+      "image_ids": [
+        "img-rochester-high-falls-1",
+        "img-rochester-high-falls-2",
+        "img-rochester-high-falls-3",
+        "img-rochester-high-falls-4",
+        "img-rochester-high-falls-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 3.4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified",
+        "note": "Friday hours; Picturing Equality runs through November 8, 2026."
+      },
+      "cost": {
+        "amount_per_person": 23,
+        "status": "verified",
+        "note": "Adult museum admission."
+      },
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "categories": [
+        "architecture_photogenic",
+        "hidden_history_folklore",
+        "unusual_creative"
+      ],
+      "id": "george-eastman-museum",
+      "name": "George Eastman Museum",
+      "kind": "photography-film-museum",
+      "city": "Rochester",
+      "state": "NY",
+      "address": "900 East Avenue, Rochester, NY 14607",
+      "visit_date": "2026-10-09",
+      "summary": "The restored house and gardens of George Eastman, who founded Kodak. It holds one of the world's most important collections of photography and film. In 2026 there is an exhibition about the Lambda Network, the LGBT employee group at Kodak.",
+      "why_go": "A beautiful house and the whole history of photography in one place. The Kodak exhibition also shows the company's real inside story, not only its advertising.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "best_fit_note": "Good for Viki's photography, and for Gora, who is interested in the difference between a company's public image and the lives of its workers.",
+      "duration_minutes": 105,
+      "source_ids": [
+        "src-eastman"
+      ],
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -77.5798264,
+        43.1531296
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "openstreetmap_nominatim",
+      "image_ids": [
+        "img-george-eastman-museum-1",
+        "img-george-eastman-museum-2",
+        "img-george-eastman-museum-3",
+        "img-george-eastman-museum-4",
+        "img-george-eastman-museum-5",
+        "img-george-eastman-museum-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "12:00",
+        "closes": "17:00",
+        "status": "verified",
+        "note": "Public Friday-Sunday hours."
+      },
+      "cost": {
+        "amount_per_person": 15,
+        "status": "verified",
+        "note": "Adult admission."
+      },
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "categories": [
+        "architecture_photogenic",
+        "unusual_creative",
+        "hidden_history_folklore"
+      ],
+      "id": "artisanworks",
+      "name": "ARTISANworks",
+      "kind": "immersive-art-maze",
+      "city": "Rochester",
+      "state": "NY",
+      "address": "565 Blossom Road, Rochester, NY 14610",
+      "visit_date": "2026-10-09",
+      "summary": "An old factory filled from floor to ceiling with art, themed rooms, old fire engines, cars and working studios. There is no fixed route: you simply wander.",
+      "why_go": "People in Rochester call it the city's hidden gem. Nothing is tidy, and that is exactly why it is fun to explore.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Viki, who loves places that are full and unusual, and for Stivka, who likes music, craft and strong personality.",
+      "duration_minutes": 120,
+      "source_ids": [
+        "src-artisanworks",
+        "src-rochester-forum"
+      ],
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -77.5575191,
+        43.1492641
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "openstreetmap_nominatim",
+      "image_ids": [
+        "img-artisanworks-1",
+        "img-artisanworks-2",
+        "img-artisanworks-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "21:00",
+        "status": "verified",
+        "note": "Monday-Saturday hours."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified",
+        "note": "No admission charge."
+      },
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "categories": [
+        "unusual_creative",
+        "hidden_history_folklore",
+        "food_coffee_shopping"
+      ],
+      "id": "house-of-guitars",
+      "name": "House of Guitars",
+      "kind": "cult-music-store",
+      "city": "Rochester",
+      "state": "NY",
+      "address": "645 Titus Avenue, Rochester, NY 14617",
+      "visit_date": "2026-10-09",
+      "summary": "A famous and very untidy music shop: narrow stairs, old guitars, dusty rooms full of records, and walls covered with signed instruments.",
+      "why_go": "It is messy, dark and full of treasure. Local musicians call it a time capsule, and the fun is in the search.",
+      "best_for": [
+        "stivka",
+        "gora"
+      ],
+      "best_fit_note": "Good for Stivka's love of metal and rock, and for Gora, who enjoys digging through unsorted history for something real.",
+      "duration_minutes": 60,
+      "priority": "supporting",
+      "source_ids": [
+        "src-house-guitars",
+        "src-house-guitars-story",
+        "src-rochester-forum"
+      ],
+      "country": "US",
+      "coordinates": [
+        -77.599283,
+        43.2102317
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "openstreetmap_nominatim",
+      "image_ids": [
+        "img-house-of-guitars-1",
+        "img-house-of-guitars-2",
+        "img-house-of-guitars-3",
+        "img-house-of-guitars-4",
+        "img-house-of-guitars-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "recommended",
+      "hours": {
+        "opens": "16:30",
+        "closes": "24:00",
+        "status": "verified",
+        "note": "Friday hours; 21+ after 21:00."
+      },
+      "cost": {
+        "amount_per_person": 55,
+        "status": "planning-estimate",
+        "note": "Lane share, shoes, food and drinks; excluded from the route budget target as nightlife."
+      },
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "categories": [
+        "live_social_nightlife",
+        "unusual_creative"
+      ],
+      "id": "radio-social",
+      "name": "Radio Social Bowling Night",
+      "kind": "social-games-night",
+      "city": "Rochester",
+      "state": "NY",
+      "address": "20 Carlson Road, Rochester, NY 14610",
+      "visit_date": "2026-10-09",
+      "summary": "A large old industrial building turned into a place with bowling lanes, garden games, Mediterranean food, drinks and DJs. It is stylish but relaxed, and it is not a nightclub.",
+      "why_go": "The first big night out: bowling, food and music in one building. Everyone can join in without being pushed onto a dance floor.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "best_fit_note": "Good for Viki and Gora's social sides. Bowling and food let Stivka and Paco join in without a normal club night.",
+      "duration_minutes": 240,
+      "source_ids": [
+        "src-radio-social"
+      ],
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -77.5614512,
+        43.1504626
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "openstreetmap_nominatim",
+      "image_ids": [
+        "img-radio-social-1",
+        "img-radio-social-2",
+        "img-radio-social-3",
+        "img-radio-social-4"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "06:00",
+        "closes": "15:00",
+        "status": "verified",
+        "note": "Saturday market hours; October 10 is not a federal holiday."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified",
+        "note": "No admission charge."
+      },
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "categories": [
+        "food_coffee_shopping",
+        "architecture_photogenic",
+        "hidden_history_folklore"
+      ],
+      "id": "rochester-public-market",
+      "name": "Rochester Public Market",
+      "kind": "public-market",
+      "city": "Rochester",
+      "state": "NY",
+      "address": "280 North Union Street, Rochester, NY 14609",
+      "visit_date": "2026-10-10",
+      "summary": "A city market more than 120 years old. Under long open roofs there are fruit and vegetable stalls, bakeries, immigrant food stands and breakfast counters.",
+      "why_go": "Breakfast inside real Rochester life instead of a hotel dining room. Cheap, busy, and full of things to try.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "best_fit_note": "Good for Viki, who likes looking around markets, and for Gora, who enjoys meeting different people over simple food.",
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-rochester-market"
+      ],
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -77.588983,
+        43.1651548
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-rochester-public-market-1",
+        "img-rochester-public-market-2",
+        "img-rochester-public-market-3",
+        "img-rochester-public-market-4",
+        "img-rochester-public-market-5",
+        "img-rochester-public-market-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "06:00",
+        "closes": "23:00",
+        "status": "verified",
+        "note": "Drive between Middle Falls and Upper Falls/Arch Bridge: Trail 7 between them is permanently closed."
+      },
+      "cost": {
+        "amount_per_person": 5,
+        "status": "derived",
+        "note": "Two $10 vehicle fees split four ways; collected 09:00-17:00 through October 18."
+      },
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "categories": [
+        "nature_photogenic",
+        "architecture_photogenic"
+      ],
+      "id": "letchworth-falls",
+      "name": "Letchworth Three-Falls Drive",
+      "kind": "waterfall-scenic-drive",
+      "city": "Castile",
+      "state": "NY",
+      "address": "1 Letchworth State Park, Castile, NY 14427",
+      "visit_date": "2026-10-10",
+      "summary": "A drive along a deep river gorge with walls up to 600 feet high. You stop at the Upper and Middle Falls and at the tall Genesee Arch railway bridge.",
+      "why_go": "The best autumn colors of the whole trip, seen from viewpoints you drive to. Short walks only, no hard hiking.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "best_fit_note": "Good for Viki's most dramatic autumn photos and for Gora's quiet side. Everyone benefits from the very light walking.",
+      "duration_minutes": 165,
+      "source_ids": [
+        "src-letchworth"
+      ],
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -78.04432,
+        42.57877
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-letchworth-falls-1",
+        "img-letchworth-falls-2",
+        "img-letchworth-falls-3",
+        "img-letchworth-falls-4",
+        "img-letchworth-falls-5",
+        "img-letchworth-falls-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "verified",
+        "note": "Public outdoor access during the scheduled window."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified",
+        "note": "No admission charge."
+      },
+      "secondary_for": [
+        "sheluvspaco"
+      ],
+      "categories": [
+        "architecture_photogenic",
+        "nature_photogenic",
+        "hidden_history_folklore"
+      ],
+      "id": "buffalo-canalside",
+      "name": "Canalside & Grain-Elevator Skyline",
+      "kind": "waterfront-district",
+      "city": "Buffalo",
+      "state": "NY",
+      "address": "44 Prime Street, Buffalo, NY 14202",
+      "visit_date": "2026-10-10",
+      "summary": "Buffalo's waterfront, with old naval ships, the remains of the Erie Canal, lift bridges and enormous grain towers on the far bank.",
+      "why_go": "Small boats and giant grain towers in the same view. It shows you in one look what built this city.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "best_fit_note": "Good for Viki's industrial waterfront photos, and for Gora, who wants to see the machines behind a city's power.",
+      "duration_minutes": 90,
+      "priority": "supporting",
+      "source_ids": [
+        "src-canalside"
+      ],
+      "country": "US",
+      "coordinates": [
+        -78.8787618,
+        42.8757092
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "openstreetmap_nominatim",
+      "image_ids": [
+        "img-buffalo-canalside-1",
+        "img-buffalo-canalside-2",
+        "img-buffalo-canalside-3",
+        "img-buffalo-canalside-4",
+        "img-buffalo-canalside-5",
+        "img-buffalo-canalside-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 3.4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "check-later",
+      "hours": {
+        "opens": "20:00",
+        "closes": "24:00",
+        "status": "live-calendar-pending",
+        "note": "Choose the exact live set 4-6 weeks before travel; use rideshare and stay together between venues."
+      },
+      "cost": {
+        "amount_per_person": 65,
+        "status": "planning-estimate",
+        "note": "Cover, rideshare share, food and drinks; excluded from the target as nightlife."
+      },
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "categories": [
+        "live_social_nightlife",
+        "hidden_history_folklore"
+      ],
+      "id": "elmwood-essex-music-night",
+      "name": "Elmwood–Essex–Allentown Music Circuit",
+      "kind": "live-music-bar-circuit",
+      "city": "Buffalo",
+      "state": "NY",
+      "address": "Start at Essex Street Pub, 530 Rhode Island Street, Buffalo, NY 14213",
+      "visit_date": "2026-10-10",
+      "summary": "An evening in Buffalo's bar streets, built around Essex Street Pub and one live concert we check in advance at Nietzsche's or another Elmwood venue. We move between them by taxi.",
+      "why_go": "A real local music night, chosen in advance so we do not simply wander and hope. Bars, live music, and no big club.",
+      "best_for": [
+        "stivka",
+        "gora"
+      ],
+      "best_fit_note": "Good for Stivka if the concert is rock or metal, and for Gora, who likes a busy bar where you can still talk. Viki gets a whole neighborhood, not one room.",
+      "duration_minutes": 240,
+      "source_ids": [
+        "src-buffalo-nightlife"
+      ],
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -78.8827403,
+        42.9132991
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-elmwood-essex-music-night-1",
+        "img-elmwood-essex-music-night-2",
+        "img-elmwood-essex-music-night-3",
+        "img-elmwood-essex-music-night-4",
+        "img-elmwood-essex-music-night-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "08:45",
+        "closes": "11:30",
+        "status": "verified-recurring",
+        "note": "Sunday Orthros at 08:45 and Divine Liturgy at 10:00; confirm the October bulletin closer to travel."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "donation-optional",
+        "note": "No admission; optional offering."
+      },
+      "secondary_for": [
+        "gora",
+        "viki"
+      ],
+      "categories": [
+        "orthodox_spiritual",
+        "architecture_photogenic",
+        "hidden_history_folklore"
+      ],
+      "id": "annunciation-buffalo",
+      "name": "Orthros & Divine Liturgy at Annunciation",
+      "kind": "orthodox-church-service",
+      "city": "Buffalo",
+      "state": "NY",
+      "address": "146 West Utica Street, Buffalo, NY 14222",
+      "visit_date": "2026-10-11",
+      "summary": "Sunday morning worship in Buffalo's historic Greek Orthodox Church of the Annunciation. It begins with Orthros, the morning prayers, and continues into the Divine Liturgy.",
+      "why_go": "Sunday stays a real Sunday. This is part of our normal life on the trip, not a quick photo inside a church.",
+      "best_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Stivka's faith, and for Paco, who wants the trip to feel truly shared. It gives all four a calm centre before Niagara.",
+      "duration_minutes": 165,
+      "source_ids": [
+        "src-annunciation"
+      ],
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -78.8723741,
+        42.9111914
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-annunciation-buffalo-1",
+        "img-annunciation-buffalo-2",
+        "img-annunciation-buffalo-3",
+        "img-annunciation-buffalo-4",
+        "img-annunciation-buffalo-5",
+        "img-annunciation-buffalo-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 4,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "09:00",
+        "closes": "17:00",
+        "status": "verified",
+        "note": "Open daily except certain holidays; October 11 is not a listed closure."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified",
+        "note": "No admission charge."
+      },
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "categories": [
+        "architecture_photogenic",
+        "unusual_creative",
+        "hidden_history_folklore"
+      ],
+      "id": "niagara-power-vista",
+      "name": "Niagara Power Vista",
+      "kind": "interactive-power-museum",
+      "city": "Lewiston",
+      "state": "NY",
+      "address": "5777 Lewiston Road, Lewiston, NY 14092",
+      "visit_date": "2026-10-11",
+      "summary": "A free viewing platform high above the Niagara river, over New York's huge hydroelectric power station. Inside there are more than 50 hands-on exhibits, including a ride where you control a virtual power grid.",
+      "why_go": "See how Niagara is used before you see how it looks. Free, hands-on, and it makes the whole day make sense.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "best_fit_note": "Good for Gora, who wants the engineering behind the public story, and for Viki, who likes unusual buildings and high river views.",
+      "duration_minutes": 60,
+      "source_ids": [
+        "src-power-vista"
+      ],
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -79.0403111,
+        43.1401973
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-niagara-power-vista-1",
+        "img-niagara-power-vista-2",
+        "img-niagara-power-vista-3",
+        "img-niagara-power-vista-4",
+        "img-niagara-power-vista-5",
+        "img-niagara-power-vista-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "recommended",
+      "hours": {
+        "opens": "09:00",
+        "closes": "17:00",
+        "status": "verified-date-specific",
+        "note": "Official September 28-November 8 daily schedule; boarding remains first-come even with online tickets."
+      },
+      "cost": {
+        "amount_per_person": 30.25,
+        "status": "verified",
+        "note": "2026 adult ticket including the elevator."
+      },
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "categories": [
+        "nature_photogenic",
+        "athletic_adrenaline"
+      ],
+      "id": "maid-of-the-mist",
+      "name": "Maid of the Mist",
+      "kind": "boat-experience",
+      "city": "Niagara Falls",
+      "state": "NY",
+      "address": "332 Prospect Street, Niagara Falls, NY 14303",
+      "visit_date": "2026-10-11",
+      "summary": "An electric boat that goes from the American side right into the spray at the bottom of Niagara Falls.",
+      "why_go": "You cannot understand the size of Niagara from the edge. On the boat you feel it: noise, water and wind.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "best_fit_note": "Good for Viki's once-in-a-lifetime memory and for Gora, who loves raw natural force. Almost everyone enjoys this one.",
+      "duration_minutes": 75,
+      "source_ids": [
+        "src-maid"
+      ],
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -79.0689984,
+        43.0874934
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-maid-of-the-mist-1",
+        "img-maid-of-the-mist-2",
+        "img-maid-of-the-mist-3",
+        "img-maid-of-the-mist-4",
+        "img-maid-of-the-mist-5",
+        "img-maid-of-the-mist-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "09:00",
+        "closes": "18:15",
+        "status": "verified-date-specific",
+        "note": "October 10-11 schedule; last ticket at 18:15. Bring footwear that can get wet."
+      },
+      "cost": {
+        "amount_per_person": 23,
+        "status": "verified",
+        "note": "2026 adult in-season price; tickets sold on site."
+      },
+      "secondary_for": [
+        "sheluvspaco"
+      ],
+      "categories": [
+        "nature_photogenic",
+        "unusual_creative"
+      ],
+      "id": "cave-of-the-winds",
+      "name": "Cave of the Winds",
+      "kind": "waterfall-deck-experience",
+      "city": "Niagara Falls",
+      "state": "NY",
+      "address": "10 Goat Island Loop Road, Niagara Falls, NY 14303",
+      "visit_date": "2026-10-11",
+      "summary": "A lift takes you down beside Bridal Veil Falls, and wooden walkways bring you close enough to stand in the spray.",
+      "why_go": "The boat shows you the whole waterfall. Here you stand right under it. Two different experiences, not the same thing twice.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "best_fit_note": "Good for Gora's physical side and for Viki, who wants a memory she will feel. Stivka can stay on the lower decks if the spray is too much.",
+      "duration_minutes": 75,
+      "source_ids": [
+        "src-cave-winds"
+      ],
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -79.0708868,
+        43.0823618
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "openstreetmap_nominatim",
+      "image_ids": [
+        "img-cave-of-the-winds-1",
+        "img-cave-of-the-winds-2",
+        "img-cave-of-the-winds-3",
+        "img-cave-of-the-winds-4",
+        "img-cave-of-the-winds-5",
+        "img-cave-of-the-winds-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 3.4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "17:00",
+        "closes": "24:00",
+        "status": "verified-date-specific",
+        "note": "The public park walk begins at 17:00; illumination begins at 18:15 on October 1-15 and continues to 02:00. Route leaves by 19:00."
+      },
+      "cost": {
+        "amount_per_person": 5,
+        "status": "derived",
+        "note": "Two $10 park vehicle fees split four ways; walking access itself is free."
+      },
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "categories": [
+        "nature_photogenic",
+        "live_social_nightlife"
+      ],
+      "id": "goat-island-illumination",
+      "name": "Goat Island & Terrapin Point Illumination",
+      "kind": "night-waterfall-view",
+      "city": "Niagara Falls",
+      "state": "NY",
+      "address": "Goat Island Loop Road, Niagara Falls, NY 14303",
+      "visit_date": "2026-10-11",
+      "summary": "Paths around Goat Island in the last light of day, ending at Terrapin Point when the colored lights are switched on across the falls.",
+      "why_go": "The quiet end of the Niagara day: first gold light, then colored light on the water. Nothing to book and nothing to rush.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Viki's final famous photographs, and for Stivka, who prefers a slow calm finish after an intense day.",
+      "duration_minutes": 120,
+      "source_ids": [
+        "src-niagara-park",
+        "src-niagara-light"
+      ],
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -79.074433,
+        43.0800772
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "openstreetmap_nominatim",
+      "image_ids": [
+        "img-goat-island-illumination-1",
+        "img-goat-island-illumination-2",
+        "img-goat-island-illumination-3",
+        "img-goat-island-illumination-4",
+        "img-goat-island-illumination-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "required",
+      "hours": {
+        "opens": "09:30",
+        "closes": "16:00",
+        "status": "verified",
+        "note": "Monday hours; interior access is by tour. Arrive 15-20 minutes early."
+      },
+      "cost": {
+        "amount_per_person": 25,
+        "status": "verified",
+        "note": "75-minute Martin House Tour."
+      },
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "categories": [
+        "architecture_photogenic",
+        "hidden_history_folklore"
+      ],
+      "id": "martin-house",
+      "name": "Frank Lloyd Wright's Martin House",
+      "kind": "architecture-tour",
+      "city": "Buffalo",
+      "state": "NY",
+      "address": "125 Jewett Parkway, Buffalo, NY 14214",
+      "visit_date": "2026-10-12",
+      "summary": "A group of houses designed by Frank Lloyd Wright, now completely restored. There is decorated glass in the windows, a long covered walkway and a rebuilt glasshouse.",
+      "why_go": "One of Frank Lloyd Wright's greatest works, rebuilt over forty years after it was nearly lost. You see both the design and the repair.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "best_fit_note": "Good for Viki's eye for architecture, and for Gora, who is interested in the slow honest truth behind a 40-year rebuild.",
+      "duration_minutes": 75,
+      "source_ids": [
+        "src-martin",
+        "src-martin-tours"
+      ],
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -78.8480871,
+        42.9361233
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-martin-house-1",
+        "img-martin-house-2",
+        "img-martin-house-3",
+        "img-martin-house-4",
+        "img-martin-house-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "recommended",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-date-specific",
+        "note": "Open daily February-December; tours hourly 10:30-15:30. Indigenous Peoples' Day is not a listed closure."
+      },
+      "cost": {
+        "amount_per_person": 12,
+        "status": "verified",
+        "note": "Adult admission."
+      },
+      "secondary_for": [
+        "sheluvspaco",
+        "viki"
+      ],
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_photogenic"
+      ],
+      "id": "tr-inaugural-site",
+      "name": "Theodore Roosevelt Inaugural Site",
+      "kind": "guided-history-site",
+      "city": "Buffalo",
+      "state": "NY",
+      "address": "641 Delaware Avenue, Buffalo, NY 14202",
+      "visit_date": "2026-10-12",
+      "summary": "The house where Theodore Roosevelt became president, after McKinley was shot in Buffalo. You can only visit with a guide, and the visit lasts about an hour.",
+      "why_go": "One room, one hour, one sudden change of power. It is about that exact moment, not a long list of presidents.",
+      "best_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Gora, who likes real turning points in history, and for Stivka, who thinks about duty, death and responsibility.",
+      "duration_minutes": 60,
+      "source_ids": [
+        "src-tr"
+      ],
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -78.8726259,
+        42.9015679
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "openstreetmap_nominatim",
+      "image_ids": [
+        "img-tr-inaugural-site-1",
+        "img-tr-inaugural-site-2",
+        "img-tr-inaugural-site-3",
+        "img-tr-inaugural-site-4",
+        "img-tr-inaugural-site-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "16:00",
+        "closes": "22:00",
+        "status": "venue-dependent",
+        "note": "District is always accessible; select a Monday-open restaurant closer to travel."
+      },
+      "cost": {
+        "amount_per_person": 45,
+        "status": "planning-estimate",
+        "note": "Dinner and one drink; personal alcohol is excluded from the target."
+      },
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "categories": [
+        "architecture_photogenic",
+        "food_coffee_shopping",
+        "live_social_nightlife"
+      ],
+      "id": "armory-square",
+      "name": "Armory Square Slow Evening",
+      "kind": "historic-dining-district",
+      "city": "Syracuse",
+      "state": "NY",
+      "address": "Armory Square, Syracuse, NY 13202",
+      "visit_date": "2026-10-12",
+      "summary": "A small district of brick warehouse streets in Syracuse, now full of independent restaurants, bars and shops.",
+      "why_go": "A calm evening with a free choice of food. Monday is not a party night, so we keep it easy and rest.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "best_fit_note": "Good for Viki, who likes walking around a city, and for Gora's flexible social side. Everyone can split up briefly and meet again for dinner.",
+      "duration_minutes": 180,
+      "priority": "supporting",
+      "source_ids": [
+        "src-armory"
+      ],
+      "country": "US",
+      "coordinates": [
+        -76.155121,
+        43.0473694
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "openstreetmap_nominatim",
+      "image_ids": [
+        "img-armory-square-1",
+        "img-armory-square-2",
+        "img-armory-square-3",
+        "img-armory-square-4",
+        "img-armory-square-5",
+        "img-armory-square-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "16:00",
+        "status": "verified",
+        "note": "Daily hours; renovation work may affect parts of the 1850 building."
+      },
+      "cost": {
+        "amount_per_person": 12,
+        "status": "suggested-donation",
+        "note": "Pay what you wish; $12 recommended."
+      },
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "categories": [
+        "architecture_photogenic",
+        "hidden_history_folklore",
+        "unusual_creative"
+      ],
+      "id": "erie-canal-museum",
+      "name": "Erie Canal Museum & 1850 Weighlock",
+      "kind": "infrastructure-museum",
+      "city": "Syracuse",
+      "state": "NY",
+      "address": "318 Erie Boulevard East, Syracuse, NY 13202",
+      "visit_date": "2026-10-13",
+      "summary": "The last weighlock building left in the country, where canal boats were once weighed. Inside there is a full-size canal boat and exhibits about the technology, the workers and the canal that changed New York.",
+      "why_go": "The Erie Canal built this whole region. This building is the only one of its kind still standing, and you can walk inside the boat.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "best_fit_note": "Good for Gora's interest in infrastructure and workers, and for Viki, who likes reused old buildings. Paco gets low cost and a flexible hour.",
+      "duration_minutes": 60,
+      "source_ids": [
+        "src-erie"
+      ],
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -76.1487182,
+        43.0506446
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "openstreetmap_nominatim",
+      "image_ids": [
+        "img-erie-canal-museum-1",
+        "img-erie-canal-museum-2",
+        "img-erie-canal-museum-3",
+        "img-erie-canal-museum-4",
+        "img-erie-canal-museum-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "09:00",
+        "closes": "16:00",
+        "status": "verified",
+        "note": "Monday-Friday Discovery Center hours; preserve trails remain open 24/7."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified",
+        "note": "No admission charge."
+      },
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "categories": [
+        "nature_photogenic",
+        "hidden_history_folklore",
+        "unusual_creative"
+      ],
+      "id": "albany-pine-bush",
+      "name": "Albany Pine Bush Discovery Center",
+      "kind": "rare-ecosystem-center",
+      "city": "Albany",
+      "state": "NY",
+      "address": "195 New Karner Road, Albany, NY 12205",
+      "visit_date": "2026-10-13",
+      "summary": "A free visitor center and a short sandy path into one of the best remaining pine barrens on Earth. The sand comes from an ancient glacial lake, and the plants here need fire to survive.",
+      "why_go": "Sand dunes and a fire-dependent forest, in the suburbs of Albany. It looks like it belongs somewhere else completely.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "best_fit_note": "Good for Gora, who likes finding the real nature under ordinary land, and for Viki, who likes places that feel out of place.",
+      "duration_minutes": 70,
+      "source_ids": [
+        "src-pine",
+        "src-pine-forum"
+      ],
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -73.8675,
+        42.7031
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-albany-pine-bush-1",
+        "img-albany-pine-bush-2",
+        "img-albany-pine-bush-3",
+        "img-albany-pine-bush-4",
+        "img-albany-pine-bush-5",
+        "img-albany-pine-bush-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "07:00",
+        "closes": "18:00",
+        "status": "verified-partial",
+        "note": "The 14:00 guided tour is not compatible with the Pine Bush schedule; use the public plaza and exterior, and enter only if security/public hours permit. Do not promise the Million Dollar Staircase."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified",
+        "note": "No admission charge."
+      },
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "categories": [
+        "architecture_photogenic",
+        "hidden_history_folklore"
+      ],
+      "id": "ny-state-capitol-plaza",
+      "name": "New York State Capitol & Empire State Plaza",
+      "kind": "civic-architecture",
+      "city": "Albany",
+      "state": "NY",
+      "address": "State Street and Washington Avenue, Albany, NY 12224",
+      "visit_date": "2026-10-13",
+      "summary": "New York's parliament building, built in heavy carved stone with huge staircases. Next to it stands a completely different modern concrete plaza with a building shaped like an egg.",
+      "why_go": "Two kinds of government in stone, side by side: heavy 19th-century decoration and cold 20th-century concrete. The contrast is the point.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "best_fit_note": "Good for Viki, who likes strong architectural contrast, and for Gora's interest in politics. The outdoor walk is free and easy to shorten.",
+      "duration_minutes": 75,
+      "source_ids": [
+        "src-capitol"
+      ],
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -73.7576,
+        42.6526
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-ny-state-capitol-plaza-1",
+        "img-ny-state-capitol-plaza-2",
+        "img-ny-state-capitol-plaza-3",
+        "img-ny-state-capitol-plaza-4",
+        "img-ny-state-capitol-plaza-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified",
+        "note": "Wednesday-Monday hours; closed Tuesday."
+      },
+      "cost": {
+        "amount_per_person": 14,
+        "status": "verified",
+        "note": "Adult admission."
+      },
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "categories": [
+        "architecture_photogenic",
+        "nature_photogenic",
+        "unusual_creative"
+      ],
+      "id": "turnpark-art-space",
+      "name": "TurnPark Art Space",
+      "kind": "quarry-sculpture-park",
+      "city": "West Stockbridge",
+      "state": "MA",
+      "address": "2 Moscow Road, West Stockbridge, MA 01266",
+      "visit_date": "2026-10-14",
+      "summary": "A 16-acre marble and limestone quarry turned into an open-air sculpture park, with cliffs, meadows and very large artworks.",
+      "why_go": "The last stop of the trip: art and rock together, out in the open. Strong images, with none of the tiredness of another museum.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "best_fit_note": "Good for Viki's strange landscape photos and for Gora's quiet side. Paco gets a strong finish that still protects the drive to the airport.",
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-turnpark"
+      ],
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -73.3696888,
+        42.3326757
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-turnpark-art-space-1",
+        "img-turnpark-art-space-2",
+        "img-turnpark-art-space-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified",
+        "note": "Sunday hours; final admission 16:30."
+      },
+      "cost": {
+        "amount_per_person": 20,
+        "status": "verified",
+        "note": "Adult admission."
+      },
+      "secondary_for": [
+        "sheluvspaco"
+      ],
+      "categories": [
+        "nature_photogenic",
+        "unusual_creative"
+      ],
+      "id": "magic-wings",
+      "name": "Magic Wings Butterfly Conservatory",
+      "kind": "butterfly-conservatory",
+      "city": "South Deerfield",
+      "state": "MA",
+      "address": "281 Greenfield Road, South Deerfield, MA 01373",
+      "visit_date": "2026-10-04",
+      "summary": "A warm glasshouse with more than 4,000 butterflies flying free around you, plus tortoises, birds and reptiles among tropical plants.",
+      "why_go": "Butterflies landing on you in a warm glasshouse. It works in any weather and it is genuinely magical, not just an indoor museum.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Viki's color and close-up photos, and for Stivka's gentle side.",
+      "duration_minutes": 75,
+      "source_ids": [
+        "src-magic-wings"
+      ],
+      "replacement_reason": "Use if cold rain makes the outdoor sanctuary a weak opening.",
+      "priority": "replacement",
+      "replacement": {
+        "day": 1,
+        "replaces_place_ids": [
+          "three-sisters-sanctuary"
+        ],
+        "route_variant_id": "replacement-d1-magic-wings",
+        "reason": "Use if cold rain makes the outdoor sanctuary a weak opening.",
+        "route_variant": {
+          "id": "replacement-d1-magic-wings",
+          "day": 1,
+          "replacement_place_id": "magic-wings",
+          "replaces_place_ids": [
+            "three-sisters-sanctuary"
+          ],
+          "nodes": [
+            "boston-logan-rental",
+            "smith-botanic-garden",
+            "magic-wings",
+            "northampton-lodging"
+          ],
+          "node_sequence": [
+            "boston-logan-rental",
+            "smith-botanic-garden",
+            "magic-wings",
+            "northampton-lodging"
+          ],
+          "baseline_total_miles": 133.9,
+          "baseline_total_minutes": 175,
+          "delta_miles": -2.1,
+          "delta_minutes": -12,
+          "cap_minutes": 210,
+          "cap_status": "passes-baseline-cap",
+          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+          "legs": [
+            {
+              "id": "replacement-d1-magic-wings-leg-1",
+              "from": "boston-logan-rental",
+              "to": "smith-botanic-garden",
+              "distance_miles": 105.8,
+              "baseline_minutes": 132
+            },
+            {
+              "id": "replacement-d1-magic-wings-leg-2",
+              "from": "smith-botanic-garden",
+              "to": "magic-wings",
+              "distance_miles": 14.2,
+              "baseline_minutes": 22
+            },
+            {
+              "id": "replacement-d1-magic-wings-leg-3",
+              "from": "magic-wings",
+              "to": "northampton-lodging",
+              "distance_miles": 13.9,
+              "baseline_minutes": 21
+            }
+          ],
+          "geometry": {
+            "coordinates": [
+              [
+                -71.023514,
+                42.367084
+              ],
+              [
+                -71.037429,
+                42.346811
+              ],
+              [
+                -71.177949,
+                42.35787
+              ],
+              [
+                -71.315031,
+                42.33461
+              ],
+              [
+                -71.367832,
+                42.311489
+              ],
+              [
+                -71.412023,
+                42.315539
+              ],
+              [
+                -71.557712,
+                42.269721
+              ],
+              [
+                -71.618632,
+                42.229395
+              ],
+              [
+                -71.755983,
+                42.2211
+              ],
+              [
+                -72.062255,
+                42.12963
+              ],
+              [
+                -72.125546,
+                42.135283
+              ],
+              [
+                -72.213602,
+                42.182504
+              ],
+              [
+                -72.282382,
+                42.164903
+              ],
+              [
+                -72.318532,
+                42.17708
+              ],
+              [
+                -72.380572,
+                42.153946
+              ],
+              [
+                -72.448664,
+                42.17055
+              ],
+              [
+                -72.538734,
+                42.16158
+              ],
+              [
+                -72.586113,
+                42.169804
+              ],
+              [
+                -72.616208,
+                42.155187
+              ],
+              [
+                -72.637952,
+                42.154264
+              ],
+              [
+                -72.645376,
+                42.162633
+              ],
+              [
+                -72.636578,
+                42.228233
+              ],
+              [
+                -72.605481,
+                42.274963
+              ],
+              [
+                -72.628602,
+                42.293326
+              ],
+              [
+                -72.624157,
+                42.311569
+              ],
+              [
+                -72.640424,
+                42.318896
+              ],
+              [
+                -72.649245,
+                42.325216
+              ],
+              [
+                -72.637261,
+                42.337726
+              ],
+              [
+                -72.605425,
+                42.509808
+              ],
+              [
+                -72.642494,
+                42.347445
+              ],
+              [
+                -72.633278,
+                42.325702
+              ],
+              [
+                -72.640484,
+                42.319104
+              ]
+            ],
+            "type": "LineString"
+          },
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-71.0236,42.367;-72.6399966,42.3189684;-72.605779,42.5097749;-72.6412,42.319?overview=simplified&geometries=geojson&steps=false"
+        }
+      },
+      "country": "US",
+      "coordinates": [
+        -72.605779,
+        42.5097749
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-magic-wings-1",
+        "img-magic-wings-2",
+        "img-magic-wings-3",
+        "img-magic-wings-4",
+        "img-magic-wings-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 3.4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "09:00",
+        "closes": "17:00",
+        "status": "partial-closure",
+        "note": "Museum galleries are closed Monday; this replacement is the always-open outdoor campus and trails only, so promote it only if the group explicitly prefers architecture/nature to gallery art."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified",
+        "note": "Outdoor campus and trails are open to walkers at all times; galleries would be closed Monday."
+      },
+      "secondary_for": [
+        "sheluvspaco",
+        "gora"
+      ],
+      "categories": [
+        "architecture_photogenic",
+        "nature_photogenic",
+        "unusual_creative"
+      ],
+      "id": "clark-art-institute",
+      "name": "Clark Art Institute Campus",
+      "kind": "art-architecture-campus",
+      "city": "Williamstown",
+      "state": "MA",
+      "address": "225 South Street, Williamstown, MA 01267",
+      "visit_date": "2026-10-05",
+      "summary": "A quiet art campus with water pools and buildings by the Japanese architect Tadao Ando. There are forest paths outside, and inside a small but excellent collection of Old Master and Impressionist paintings.",
+      "why_go": "Calmer and more polished than MASS MoCA. This is a real choice of mood, not a weaker copy.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Viki's architecture and water reflections, and for Stivka, who prefers a calm art experience.",
+      "duration_minutes": 120,
+      "source_ids": [
+        "src-clark"
+      ],
+      "replacement_reason": "Outdoor architecture-and-landscape alternative when the group wants less gallery intensity.",
+      "priority": "replacement",
+      "replacement": {
+        "day": 2,
+        "replaces_place_ids": [
+          "mass-moca"
+        ],
+        "route_variant_id": "replacement-d2-clark",
+        "reason": "Outdoor architecture-and-landscape alternative when the group wants less gallery intensity.",
+        "route_variant": {
+          "id": "replacement-d2-clark",
+          "day": 2,
+          "replacement_place_id": "clark-art-institute",
+          "replaces_place_ids": [
+            "mass-moca"
+          ],
+          "nodes": [
+            "northampton-lodging",
+            "clark-art-institute",
+            "grafton-peace-pagoda",
+            "saratoga-lodging"
+          ],
+          "node_sequence": [
+            "northampton-lodging",
+            "clark-art-institute",
+            "grafton-peace-pagoda",
+            "saratoga-lodging"
+          ],
+          "baseline_total_miles": 109.2,
+          "baseline_total_minutes": 195,
+          "delta_miles": 0.3,
+          "delta_minutes": 4,
+          "cap_minutes": 210,
+          "cap_status": "passes-baseline-cap",
+          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+          "legs": [
+            {
+              "id": "replacement-d2-clark-leg-1",
+              "from": "northampton-lodging",
+              "to": "clark-art-institute",
+              "distance_miles": 49.6,
+              "baseline_minutes": 95
+            },
+            {
+              "id": "replacement-d2-clark-leg-2",
+              "from": "clark-art-institute",
+              "to": "grafton-peace-pagoda",
+              "distance_miles": 17.1,
+              "baseline_minutes": 31
+            },
+            {
+              "id": "replacement-d2-clark-leg-3",
+              "from": "grafton-peace-pagoda",
+              "to": "saratoga-lodging",
+              "distance_miles": 42.4,
+              "baseline_minutes": 69
+            }
+          ],
+          "geometry": {
+            "coordinates": [
+              [
+                -72.640484,
+                42.319104
+              ],
+              [
+                -72.689573,
+                42.349281
+              ],
+              [
+                -72.707297,
+                42.380553
+              ],
+              [
+                -72.775442,
+                42.417987
+              ],
+              [
+                -72.802629,
+                42.445894
+              ],
+              [
+                -72.834569,
+                42.455774
+              ],
+              [
+                -72.849114,
+                42.50244
+              ],
+              [
+                -72.861882,
+                42.494243
+              ],
+              [
+                -72.892044,
+                42.515661
+              ],
+              [
+                -72.921998,
+                42.516521
+              ],
+              [
+                -72.939765,
+                42.540581
+              ],
+              [
+                -72.979411,
+                42.542735
+              ],
+              [
+                -73.06288,
+                42.581068
+              ],
+              [
+                -73.094328,
+                42.579944
+              ],
+              [
+                -73.113061,
+                42.589131
+              ],
+              [
+                -73.120485,
+                42.620785
+              ],
+              [
+                -73.107928,
+                42.663237
+              ],
+              [
+                -73.111875,
+                42.700856
+              ],
+              [
+                -73.183465,
+                42.701701
+              ],
+              [
+                -73.207745,
+                42.713213
+              ],
+              [
+                -73.21332,
+                42.707413
+              ],
+              [
+                -73.209471,
+                42.713713
+              ],
+              [
+                -73.220941,
+                42.709633
+              ],
+              [
+                -73.231302,
+                42.686885
+              ],
+              [
+                -73.240679,
+                42.70419
+              ],
+              [
+                -73.277904,
+                42.723677
+              ],
+              [
+                -73.275068,
+                42.734965
+              ],
+              [
+                -73.289909,
+                42.746394
+              ],
+              [
+                -73.299203,
+                42.740454
+              ],
+              [
+                -73.345601,
+                42.751525
+              ],
+              [
+                -73.370365,
+                42.734333
+              ],
+              [
+                -73.40168,
+                42.7403
+              ],
+              [
+                -73.408647,
+                42.75032
+              ],
+              [
+                -73.410704,
+                42.767128
+              ],
+              [
+                -73.434763,
+                42.772638
+              ],
+              [
+                -73.488741,
+                42.759536
+              ],
+              [
+                -73.519693,
+                42.769439
+              ],
+              [
+                -73.549312,
+                42.74669
+              ],
+              [
+                -73.597052,
+                42.761318
+              ],
+              [
+                -73.616316,
+                42.757075
+              ],
+              [
+                -73.651395,
+                42.784561
+              ],
+              [
+                -73.681591,
+                42.791297
+              ],
+              [
+                -73.684784,
+                42.810911
+              ],
+              [
+                -73.712322,
+                42.827986
+              ],
+              [
+                -73.770419,
+                42.840252
+              ],
+              [
+                -73.780196,
+                42.894546
+              ],
+              [
+                -73.805188,
+                42.944271
+              ],
+              [
+                -73.784558,
+                43.083205
+              ]
+            ],
+            "type": "LineString"
+          },
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-72.6412,42.319;-73.2136571,42.7075528;-73.4103466,42.750208;-73.7846,43.0831?overview=simplified&geometries=geojson&steps=false"
+        }
+      },
+      "country": "US",
+      "coordinates": [
+        -73.2136571,
+        42.7075528
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-clark-art-institute-1",
+        "img-clark-art-institute-2",
+        "img-clark-art-institute-3",
+        "img-clark-art-institute-4",
+        "img-clark-art-institute-5",
+        "img-clark-art-institute-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified",
+        "note": "Open daily in 2026; tours hourly, no reservation."
+      },
+      "cost": {
+        "amount_per_person": 20,
+        "status": "verified-cash",
+        "note": "$20 cash; card payment adds $2 per adult."
+      },
+      "secondary_for": [
+        "sheluvspaco"
+      ],
+      "categories": [
+        "nature_photogenic",
+        "unusual_creative",
+        "athletic_adrenaline"
+      ],
+      "id": "secret-caverns",
+      "name": "Secret Caverns",
+      "kind": "independent-cave-tour",
+      "city": "Howes Cave",
+      "state": "NY",
+      "address": "671 Caverns Road, Howes Cave, NY 12092",
+      "visit_date": "2026-10-06",
+      "summary": "A smaller, rougher cave, famous for its hand-painted road signs. You go down 103 stone steps to an underground waterfall 100 feet high.",
+      "why_go": "No polish and no boat, but a much stronger ending: a 100-foot waterfall under the ground. It also costs less.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "best_fit_note": "Good for Gora, who prefers rough and unpackaged places, and for Viki's unusual waterfall photos.",
+      "duration_minutes": 60,
+      "source_ids": [
+        "src-secret",
+        "src-upstate-caves-forum"
+      ],
+      "replacement_reason": "Choose if the group values weird independent atmosphere and a giant underground waterfall over Howe's boat ride.",
+      "priority": "replacement",
+      "replacement": {
+        "day": 3,
+        "replaces_place_ids": [
+          "howe-caverns"
+        ],
+        "route_variant_id": "replacement-d3-secret-caverns",
+        "reason": "Choose if the group values weird independent atmosphere and a giant underground waterfall over Howe's boat ride.",
+        "route_variant": {
+          "id": "replacement-d3-secret-caverns",
+          "day": 3,
+          "replacement_place_id": "secret-caverns",
+          "replaces_place_ids": [
+            "howe-caverns"
+          ],
+          "nodes": [
+            "saratoga-lodging",
+            "secret-caverns",
+            "iroquois-museum",
+            "cooperstown-lodging"
+          ],
+          "node_sequence": [
+            "saratoga-lodging",
+            "secret-caverns",
+            "iroquois-museum",
+            "cooperstown-lodging"
+          ],
+          "baseline_total_miles": 96.2,
+          "baseline_total_minutes": 154,
+          "delta_miles": -0.9,
+          "delta_minutes": -1,
+          "cap_minutes": 210,
+          "cap_status": "passes-baseline-cap",
+          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+          "legs": [
+            {
+              "id": "replacement-d3-secret-caverns-leg-1",
+              "from": "saratoga-lodging",
+              "to": "secret-caverns",
+              "distance_miles": 53.2,
+              "baseline_minutes": 82
+            },
+            {
+              "id": "replacement-d3-secret-caverns-leg-2",
+              "from": "secret-caverns",
+              "to": "iroquois-museum",
+              "distance_miles": 1.9,
+              "baseline_minutes": 5
+            },
+            {
+              "id": "replacement-d3-secret-caverns-leg-3",
+              "from": "iroquois-museum",
+              "to": "cooperstown-lodging",
+              "distance_miles": 41.1,
+              "baseline_minutes": 67
+            }
+          ],
+          "geometry": {
+            "coordinates": [
+              [
+                -73.784558,
+                43.083205
+              ],
+              [
+                -73.787051,
+                43.075397
+              ],
+              [
+                -73.849476,
+                43.010727
+              ],
+              [
+                -73.84879,
+                43.002633
+              ],
+              [
+                -73.920068,
+                42.994854
+              ],
+              [
+                -73.94122,
+                42.979801
+              ],
+              [
+                -73.972067,
+                42.974226
+              ],
+              [
+                -74.029679,
+                42.973093
+              ],
+              [
+                -74.024268,
+                42.942222
+              ],
+              [
+                -74.013319,
+                42.928684
+              ],
+              [
+                -74.016582,
+                42.926759
+              ],
+              [
+                -74.011547,
+                42.914024
+              ],
+              [
+                -74.020644,
+                42.900256
+              ],
+              [
+                -74.024704,
+                42.868529
+              ],
+              [
+                -74.004846,
+                42.852633
+              ],
+              [
+                -74.006372,
+                42.840708
+              ],
+              [
+                -74.01715,
+                42.840472
+              ],
+              [
+                -74.011182,
+                42.832572
+              ],
+              [
+                -74.019569,
+                42.813749
+              ],
+              [
+                -74.016971,
+                42.790629
+              ],
+              [
+                -74.053702,
+                42.774347
+              ],
+              [
+                -74.094544,
+                42.770361
+              ],
+              [
+                -74.151109,
+                42.752118
+              ],
+              [
+                -74.195326,
+                42.728474
+              ],
+              [
+                -74.241249,
+                42.72372
+              ],
+              [
+                -74.262683,
+                42.71622
+              ],
+              [
+                -74.309092,
+                42.708061
+              ],
+              [
+                -74.314666,
+                42.710976
+              ],
+              [
+                -74.335302,
+                42.70526
+              ],
+              [
+                -74.337701,
+                42.717884
+              ],
+              [
+                -74.352073,
+                42.722007
+              ],
+              [
+                -74.391854,
+                42.709337
+              ],
+              [
+                -74.405391,
+                42.699846
+              ],
+              [
+                -74.408241,
+                42.691864
+              ],
+              [
+                -74.427055,
+                42.687497
+              ],
+              [
+                -74.434977,
+                42.681234
+              ],
+              [
+                -74.485368,
+                42.677809
+              ],
+              [
+                -74.506629,
+                42.702537
+              ],
+              [
+                -74.50175,
+                42.715793
+              ],
+              [
+                -74.508048,
+                42.72908
+              ],
+              [
+                -74.51874,
+                42.729238
+              ],
+              [
+                -74.529842,
+                42.739021
+              ],
+              [
+                -74.526748,
+                42.749032
+              ],
+              [
+                -74.532431,
+                42.760911
+              ],
+              [
+                -74.662418,
+                42.803824
+              ],
+              [
+                -74.703688,
+                42.810312
+              ],
+              [
+                -74.723561,
+                42.822501
+              ],
+              [
+                -74.739262,
+                42.821919
+              ],
+              [
+                -74.753607,
+                42.83178
+              ],
+              [
+                -74.805819,
+                42.830186
+              ],
+              [
+                -74.869966,
+                42.837741
+              ],
+              [
+                -74.901267,
+                42.812571
+              ],
+              [
+                -74.899901,
+                42.76933
+              ],
+              [
+                -74.90837,
+                42.7425
+              ],
+              [
+                -74.929677,
+                42.722323
+              ],
+              [
+                -74.929882,
+                42.706262
+              ],
+              [
+                -74.924238,
+                42.700588
+              ]
+            ],
+            "type": "LineString"
+          },
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-73.7846,43.0831;-74.391892,42.7093406;-74.4079298,42.6915897;-74.9243,42.7006?overview=simplified&geometries=geojson&steps=false"
+        }
+      },
+      "country": "US",
+      "coordinates": [
+        -74.391892,
+        42.7093406
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-secret-caverns-1",
+        "img-secret-caverns-2",
+        "img-secret-caverns-3",
+        "img-secret-caverns-4",
+        "img-secret-caverns-5",
+        "img-secret-caverns-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 3.4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "09:00",
+        "closes": "18:00",
+        "status": "verified-seasonal",
+        "note": "Current daily hours and fall pressing season; reconfirm the October pressing calendar."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified",
+        "note": "Self-guided mill visit is free; food, cider and shopping extra."
+      },
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "categories": [
+        "architecture_photogenic",
+        "food_coffee_shopping",
+        "hidden_history_folklore"
+      ],
+      "id": "fly-creek-cider-mill",
+      "name": "Fly Creek Cider Mill",
+      "kind": "working-water-mill",
+      "city": "Fly Creek",
+      "state": "NY",
+      "address": "288 Goose Street, Fly Creek, NY 13337",
+      "visit_date": "2026-10-07",
+      "summary": "An old mill that still presses apples using water power and original machinery. There is a tasting room, a mill pond, and you can walk around the working mill.",
+      "why_go": "Autumn, apples and old machines still turning. A slower and very local alternative in the Cooperstown countryside.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "best_fit_note": "Good for Viki's warm autumn atmosphere, and for Gora, who likes working machines and old ways of making things.",
+      "duration_minutes": 75,
+      "source_ids": [
+        "src-fly-creek",
+        "src-fly-creek-hours"
+      ],
+      "replacement_reason": "Replace the three Fenimore Farm cards when the group wants a lighter, food-centered start or farm admission does not feel worth it.",
+      "priority": "replacement",
+      "replacement": {
+        "day": 4,
+        "replaces_place_ids": [
+          "fenimore-farm",
+          "cardiff-giant",
+          "empire-state-carousel"
+        ],
+        "route_variant_id": "replacement-d4-fly-creek",
+        "reason": "Replace the three Fenimore Farm cards when the group wants a lighter, food-centered start or farm admission does not feel worth it.",
+        "route_variant": {
+          "id": "replacement-d4-fly-creek",
+          "day": 4,
+          "replacement_place_id": "fly-creek-cider-mill",
+          "replaces_place_ids": [
+            "fenimore-farm",
+            "cardiff-giant",
+            "empire-state-carousel"
+          ],
+          "nodes": [
+            "cooperstown-lodging",
+            "fly-creek-cider-mill",
+            "taughannock-falls",
+            "cornell-botanic-gardens",
+            "ithaca-lodging"
+          ],
+          "node_sequence": [
+            "cooperstown-lodging",
+            "fly-creek-cider-mill",
+            "taughannock-falls",
+            "cornell-botanic-gardens",
+            "ithaca-lodging"
+          ],
+          "baseline_total_miles": 131.1,
+          "baseline_total_minutes": 201,
+          "delta_miles": -4.5,
+          "delta_minutes": 0,
+          "cap_minutes": 210,
+          "cap_status": "passes-baseline-cap",
+          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+          "legs": [
+            {
+              "id": "replacement-d4-fly-creek-leg-1",
+              "from": "cooperstown-lodging",
+              "to": "fly-creek-cider-mill",
+              "distance_miles": 3.7,
+              "baseline_minutes": 7
+            },
+            {
+              "id": "replacement-d4-fly-creek-leg-2",
+              "from": "fly-creek-cider-mill",
+              "to": "taughannock-falls",
+              "distance_miles": 112.1,
+              "baseline_minutes": 163
+            },
+            {
+              "id": "replacement-d4-fly-creek-leg-3",
+              "from": "taughannock-falls",
+              "to": "cornell-botanic-gardens",
+              "distance_miles": 12.9,
+              "baseline_minutes": 25
+            },
+            {
+              "id": "replacement-d4-fly-creek-leg-4",
+              "from": "cornell-botanic-gardens",
+              "to": "ithaca-lodging",
+              "distance_miles": 2.4,
+              "baseline_minutes": 6
+            }
+          ],
+          "geometry": {
+            "coordinates": [
+              [
+                -74.924238,
+                42.700588
+              ],
+              [
+                -74.986438,
+                42.719012
+              ],
+              [
+                -75.015702,
+                42.735237
+              ],
+              [
+                -75.027443,
+                42.728325
+              ],
+              [
+                -75.056563,
+                42.733529
+              ],
+              [
+                -75.152848,
+                42.723139
+              ],
+              [
+                -75.192721,
+                42.70558
+              ],
+              [
+                -75.244012,
+                42.697745
+              ],
+              [
+                -75.239363,
+                42.685146
+              ],
+              [
+                -75.264336,
+                42.648174
+              ],
+              [
+                -75.301051,
+                42.627208
+              ],
+              [
+                -75.3323,
+                42.62431
+              ],
+              [
+                -75.339703,
+                42.571528
+              ],
+              [
+                -75.384936,
+                42.529603
+              ],
+              [
+                -75.451543,
+                42.556244
+              ],
+              [
+                -75.524243,
+                42.536673
+              ],
+              [
+                -75.52277,
+                42.506774
+              ],
+              [
+                -75.549558,
+                42.467601
+              ],
+              [
+                -75.5753,
+                42.460432
+              ],
+              [
+                -75.637526,
+                42.420205
+              ],
+              [
+                -75.636745,
+                42.384981
+              ],
+              [
+                -75.69066,
+                42.35825
+              ],
+              [
+                -75.746318,
+                42.349506
+              ],
+              [
+                -75.774133,
+                42.331923
+              ],
+              [
+                -75.806847,
+                42.349052
+              ],
+              [
+                -75.829572,
+                42.349985
+              ],
+              [
+                -75.890815,
+                42.338081
+              ],
+              [
+                -75.926355,
+                42.341474
+              ],
+              [
+                -75.947635,
+                42.32897
+              ],
+              [
+                -75.965741,
+                42.329125
+              ],
+              [
+                -76.020511,
+                42.35529
+              ],
+              [
+                -76.156401,
+                42.371917
+              ],
+              [
+                -76.202851,
+                42.355963
+              ],
+              [
+                -76.217833,
+                42.365764
+              ],
+              [
+                -76.238247,
+                42.361998
+              ],
+              [
+                -76.270606,
+                42.378705
+              ],
+              [
+                -76.305369,
+                42.379296
+              ],
+              [
+                -76.345421,
+                42.393959
+              ],
+              [
+                -76.410589,
+                42.396358
+              ],
+              [
+                -76.48953,
+                42.43924
+              ],
+              [
+                -76.512222,
+                42.439997
+              ],
+              [
+                -76.549936,
+                42.51422
+              ],
+              [
+                -76.56721,
+                42.5258
+              ],
+              [
+                -76.578703,
+                42.518591
+              ],
+              [
+                -76.599257,
+                42.535782
+              ],
+              [
+                -76.597095,
+                42.543894
+              ],
+              [
+                -76.549936,
+                42.51422
+              ],
+              [
+                -76.512286,
+                42.439518
+              ],
+              [
+                -76.481785,
+                42.4375
+              ],
+              [
+                -76.468708,
+                42.443848
+              ],
+              [
+                -76.472985,
+                42.448943
+              ],
+              [
+                -76.468708,
+                42.443848
+              ],
+              [
+                -76.481785,
+                42.4375
+              ],
+              [
+                -76.496466,
+                42.440268
+              ]
+            ],
+            "type": "LineString"
+          },
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-74.9243,42.7006;-74.9866,42.7186;-76.59857,42.53609;-76.4722793,42.4495732;-76.4966,42.4396?overview=simplified&geometries=geojson&steps=false"
+        }
+      },
+      "country": "US",
+      "coordinates": [
+        -74.9866,
+        42.7186
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-fly-creek-cider-mill-1",
+        "img-fly-creek-cider-mill-2",
+        "img-fly-creek-cider-mill-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified",
+        "note": "Thursday hours; Dino Zone closes 16:30."
+      },
+      "cost": {
+        "amount_per_person": 12.5,
+        "status": "verified",
+        "note": "Adult admission."
+      },
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "categories": [
+        "hidden_history_folklore",
+        "unusual_creative"
+      ],
+      "id": "museum-of-earth",
+      "name": "Museum of the Earth",
+      "kind": "paleontology-museum",
+      "city": "Ithaca",
+      "state": "NY",
+      "address": "1259 Trumansburg Road, Ithaca, NY 14850",
+      "visit_date": "2026-10-08",
+      "summary": "A small museum about the history of life on Earth. It has an almost complete mastodon, the 44-foot skeleton of a right whale, and many fossils. A 500-foot painted wall shows life through time.",
+      "why_go": "A calm science morning instead of the drive to Corning, and it saves almost an hour in the car.",
+      "best_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Gora's interest in deep time, and for Stivka, who likes talking about creation, time and the natural world.",
+      "duration_minutes": 105,
+      "source_ids": [
+        "src-earth"
+      ],
+      "replacement_reason": "Use for lower driving, lower cost, or when glassmaking slots are unavailable.",
+      "priority": "replacement",
+      "replacement": {
+        "day": 5,
+        "replaces_place_ids": [
+          "corning-museum-of-glass",
+          "make-your-own-glass"
+        ],
+        "route_variant_id": "replacement-d5-museum-earth",
+        "reason": "Use for lower driving, lower cost, or when glassmaking slots are unavailable.",
+        "route_variant": {
+          "id": "replacement-d5-museum-earth",
+          "day": 5,
+          "replacement_place_id": "museum-of-earth",
+          "replaces_place_ids": [
+            "corning-museum-of-glass",
+            "make-your-own-glass"
+          ],
+          "nodes": [
+            "ithaca-lodging",
+            "ithaca-falls",
+            "museum-of-earth",
+            "rochester-high-falls",
+            "rochester-lodging"
+          ],
+          "node_sequence": [
+            "ithaca-lodging",
+            "ithaca-falls",
+            "museum-of-earth",
+            "rochester-high-falls",
+            "rochester-lodging"
+          ],
+          "baseline_total_miles": 93.1,
+          "baseline_total_minutes": 138,
+          "delta_miles": -53.4,
+          "delta_minutes": -51,
+          "cap_minutes": 210,
+          "cap_status": "passes-baseline-cap",
+          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+          "legs": [
+            {
+              "id": "replacement-d5-museum-earth-leg-1",
+              "from": "ithaca-lodging",
+              "to": "ithaca-falls",
+              "distance_miles": 1.1,
+              "baseline_minutes": 3
+            },
+            {
+              "id": "replacement-d5-museum-earth-leg-2",
+              "from": "ithaca-falls",
+              "to": "museum-of-earth",
+              "distance_miles": 3.9,
+              "baseline_minutes": 10
+            },
+            {
+              "id": "replacement-d5-museum-earth-leg-3",
+              "from": "museum-of-earth",
+              "to": "rochester-high-falls",
+              "distance_miles": 87,
+              "baseline_minutes": 121
+            },
+            {
+              "id": "replacement-d5-museum-earth-leg-4",
+              "from": "rochester-high-falls",
+              "to": "rochester-lodging",
+              "distance_miles": 1.1,
+              "baseline_minutes": 3
+            }
+          ],
+          "geometry": {
+            "coordinates": [
+              [
+                -76.496466,
+                42.440268
+              ],
+              [
+                -76.494195,
+                42.452549
+              ],
+              [
+                -76.514408,
+                42.441021
+              ],
+              [
+                -76.536425,
+                42.466416
+              ],
+              [
+                -76.601067,
+                42.498311
+              ],
+              [
+                -76.681784,
+                42.5582
+              ],
+              [
+                -76.683731,
+                42.577082
+              ],
+              [
+                -76.704237,
+                42.59804
+              ],
+              [
+                -76.704311,
+                42.637129
+              ],
+              [
+                -76.744004,
+                42.67964
+              ],
+              [
+                -76.767145,
+                42.732176
+              ],
+              [
+                -76.769711,
+                42.764661
+              ],
+              [
+                -76.81565,
+                42.768546
+              ],
+              [
+                -76.810246,
+                42.80883
+              ],
+              [
+                -76.846139,
+                42.807662
+              ],
+              [
+                -76.862938,
+                42.916235
+              ],
+              [
+                -76.957214,
+                42.93553
+              ],
+              [
+                -76.982246,
+                42.95684
+              ],
+              [
+                -77.025943,
+                42.956447
+              ],
+              [
+                -77.089381,
+                42.973958
+              ],
+              [
+                -77.266374,
+                42.979739
+              ],
+              [
+                -77.424517,
+                43.000685
+              ],
+              [
+                -77.498394,
+                43.088847
+              ],
+              [
+                -77.507791,
+                43.117521
+              ],
+              [
+                -77.545689,
+                43.142839
+              ],
+              [
+                -77.597068,
+                43.142581
+              ],
+              [
+                -77.611906,
+                43.162726
+              ],
+              [
+                -77.600681,
+                43.157248
+              ]
+            ],
+            "type": "LineString"
+          },
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-76.4966,42.4396;-76.4932497,42.4526487;-76.5358098,42.4664805;-77.6123226,43.162487;-77.6004,43.1572?overview=simplified&geometries=geojson&steps=false"
+        }
+      },
+      "country": "US",
+      "coordinates": [
+        -76.5358098,
+        42.4664805
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-museum-of-earth-1",
+        "img-museum-of-earth-2",
+        "img-museum-of-earth-3",
+        "img-museum-of-earth-4",
+        "img-museum-of-earth-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "20:00",
+        "status": "verified",
+        "note": "Friday hours; admission is half-price after 16:00 if the day is rearranged."
+      },
+      "cost": {
+        "amount_per_person": 25,
+        "status": "verified-floor",
+        "note": "Standard one-day adult tickets start at $25."
+      },
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "categories": [
+        "unusual_creative",
+        "live_social_nightlife"
+      ],
+      "id": "strong-museum-play",
+      "name": "The Strong National Museum of Play",
+      "kind": "interactive-play-museum",
+      "city": "Rochester",
+      "state": "NY",
+      "address": "1 Manhattan Square Drive, Rochester, NY 14607",
+      "visit_date": "2026-10-09",
+      "summary": "A very large hands-on museum about play: video games, pinball machines, toys, comics, a butterfly garden and the World Video Game Hall of Fame.",
+      "why_go": "The safest choice when the group wants fun instead of strange art. Everyone finds something, and it is easy to split up.",
+      "best_for": [
+        "sheluvspaco",
+        "viki"
+      ],
+      "best_fit_note": "Good for Paco, who wants the whole group happy, and for Viki's curiosity. Games make it easy to separate and meet again.",
+      "duration_minutes": 180,
+      "source_ids": [
+        "src-strong"
+      ],
+      "replacement_reason": "Consensus rain-proof alternative replacing ARTISANworks and House of Guitars.",
+      "priority": "replacement",
+      "replacement": {
+        "day": 6,
+        "replaces_place_ids": [
+          "artisanworks",
+          "house-of-guitars"
+        ],
+        "route_variant_id": "replacement-d6-strong",
+        "reason": "Consensus rain-proof alternative replacing ARTISANworks and House of Guitars.",
+        "route_variant": {
+          "id": "replacement-d6-strong",
+          "day": 6,
+          "replacement_place_id": "strong-museum-play",
+          "replaces_place_ids": [
+            "artisanworks",
+            "house-of-guitars"
+          ],
+          "unchanged_drive": true,
+          "node_sequence": [],
+          "baseline_total_miles": 0,
+          "baseline_total_minutes": 0,
+          "delta_miles": 0,
+          "delta_minutes": 0,
+          "cap_minutes": 210,
+          "cap_status": "passes-baseline-cap",
+          "routing_note": "Parked-city replacement; bed-to-bed driving is unchanged.",
+          "legs": [],
+          "geometry": null
+        }
+      },
+      "country": "US",
+      "coordinates": [
+        -77.60087,
+        43.15269
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-strong-museum-play-1",
+        "img-strong-museum-play-2",
+        "img-strong-museum-play-3",
+        "img-strong-museum-play-4",
+        "img-strong-museum-play-5",
+        "img-strong-museum-play-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "07:00",
+        "closes": "18:30",
+        "status": "daylight-planning",
+        "note": "Use official trailhead; check mud, water and flame conditions. Do not relight or disturb the vent."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified",
+        "note": "No admission charge."
+      },
+      "secondary_for": [
+        "sheluvspaco"
+      ],
+      "categories": [
+        "nature_photogenic",
+        "hidden_history_folklore",
+        "athletic_adrenaline"
+      ],
+      "id": "eternal-flame-falls",
+      "name": "Eternal Flame Falls",
+      "kind": "short-waterfall-hike",
+      "city": "Orchard Park",
+      "state": "NY",
+      "address": "Chestnut Ridge Park, Route 277, Orchard Park, NY 14127",
+      "visit_date": "2026-10-10",
+      "summary": "A short walk through a gorge to a small waterfall with a real flame burning behind the water. Natural gas comes out of the rock and stays alight.",
+      "why_go": "A fire that burns behind a waterfall. It sounds like a story, but it is real. The path can be muddy and the flame sometimes goes out.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "best_fit_note": "Good for Gora, who likes rare natural events, and for Viki's unusual nature photos. It uses our second and last walking slot.",
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-eternal"
+      ],
+      "replacement_reason": "Use if the group wants less driving and a stranger short hike instead of Letchworth's grand scenic circuit.",
+      "priority": "replacement",
+      "replacement": {
+        "day": 7,
+        "replaces_place_ids": [
+          "letchworth-falls"
+        ],
+        "route_variant_id": "replacement-d7-eternal-flame",
+        "reason": "Use if the group wants less driving and a stranger short hike instead of Letchworth's grand scenic circuit.",
+        "route_variant": {
+          "id": "replacement-d7-eternal-flame",
+          "day": 7,
+          "replacement_place_id": "eternal-flame-falls",
+          "replaces_place_ids": [
+            "letchworth-falls"
+          ],
+          "nodes": [
+            "rochester-lodging",
+            "rochester-public-market",
+            "eternal-flame-falls",
+            "buffalo-canalside",
+            "buffalo-lodging"
+          ],
+          "node_sequence": [
+            "rochester-lodging",
+            "rochester-public-market",
+            "eternal-flame-falls",
+            "buffalo-canalside",
+            "buffalo-lodging"
+          ],
+          "baseline_total_miles": 109.9,
+          "baseline_total_minutes": 155,
+          "delta_miles": -13.5,
+          "delta_minutes": -32,
+          "cap_minutes": 210,
+          "cap_status": "passes-baseline-cap",
+          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+          "legs": [
+            {
+              "id": "replacement-d7-eternal-flame-leg-1",
+              "from": "rochester-lodging",
+              "to": "rochester-public-market",
+              "distance_miles": 1.1,
+              "baseline_minutes": 4
+            },
+            {
+              "id": "replacement-d7-eternal-flame-leg-2",
+              "from": "rochester-public-market",
+              "to": "eternal-flame-falls",
+              "distance_miles": 86.1,
+              "baseline_minutes": 110
+            },
+            {
+              "id": "replacement-d7-eternal-flame-leg-3",
+              "from": "eternal-flame-falls",
+              "to": "buffalo-canalside",
+              "distance_miles": 19.8,
+              "baseline_minutes": 33
+            },
+            {
+              "id": "replacement-d7-eternal-flame-leg-4",
+              "from": "buffalo-canalside",
+              "to": "buffalo-lodging",
+              "distance_miles": 2.8,
+              "baseline_minutes": 8
+            }
+          ],
+          "geometry": {
+            "coordinates": [
+              [
+                -77.600681,
+                43.157248
+              ],
+              [
+                -77.588936,
+                43.165214
+              ],
+              [
+                -77.593894,
+                43.160597
+              ],
+              [
+                -77.609838,
+                43.161679
+              ],
+              [
+                -77.620405,
+                43.15652
+              ],
+              [
+                -77.71296,
+                43.1578
+              ],
+              [
+                -77.717671,
+                43.153915
+              ],
+              [
+                -77.718928,
+                43.135704
+              ],
+              [
+                -77.729425,
+                43.125951
+              ],
+              [
+                -77.766394,
+                43.117099
+              ],
+              [
+                -77.798954,
+                43.096061
+              ],
+              [
+                -77.829322,
+                43.09435
+              ],
+              [
+                -77.867078,
+                43.098106
+              ],
+              [
+                -77.922427,
+                43.0857
+              ],
+              [
+                -77.932442,
+                43.078844
+              ],
+              [
+                -77.949123,
+                43.048091
+              ],
+              [
+                -77.966094,
+                43.029422
+              ],
+              [
+                -78.040072,
+                43.029809
+              ],
+              [
+                -78.099291,
+                43.013805
+              ],
+              [
+                -78.135977,
+                43.022339
+              ],
+              [
+                -78.392822,
+                43.010266
+              ],
+              [
+                -78.433081,
+                42.992712
+              ],
+              [
+                -78.499762,
+                42.979702
+              ],
+              [
+                -78.529836,
+                42.968648
+              ],
+              [
+                -78.609882,
+                42.950363
+              ],
+              [
+                -78.67178,
+                42.947459
+              ],
+              [
+                -78.760323,
+                42.951199
+              ],
+              [
+                -78.766497,
+                42.944223
+              ],
+              [
+                -78.768183,
+                42.884304
+              ],
+              [
+                -78.787945,
+                42.875092
+              ],
+              [
+                -78.791794,
+                42.866394
+              ],
+              [
+                -78.793071,
+                42.814298
+              ],
+              [
+                -78.778136,
+                42.801921
+              ],
+              [
+                -78.763588,
+                42.747387
+              ],
+              [
+                -78.748134,
+                42.748875
+              ],
+              [
+                -78.747085,
+                42.70127
+              ],
+              [
+                -78.753482,
+                42.700656
+              ],
+              [
+                -78.760206,
+                42.701355
+              ],
+              [
+                -78.747149,
+                42.700983
+              ],
+              [
+                -78.748134,
+                42.748875
+              ],
+              [
+                -78.761005,
+                42.751506
+              ],
+              [
+                -78.777691,
+                42.80305
+              ],
+              [
+                -78.791919,
+                42.813472
+              ],
+              [
+                -78.788248,
+                42.874946
+              ],
+              [
+                -78.809352,
+                42.876032
+              ],
+              [
+                -78.828813,
+                42.867995
+              ],
+              [
+                -78.870578,
+                42.876963
+              ],
+              [
+                -78.874589,
+                42.881675
+              ],
+              [
+                -78.878458,
+                42.875974
+              ],
+              [
+                -78.877798,
+                42.913185
+              ]
+            ],
+            "type": "LineString"
+          },
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-77.6004,43.1572;-77.588983,43.1651548;-78.75223,42.70167;-78.8787618,42.8757092;-78.8778,42.913?overview=simplified&geometries=geojson&steps=false"
+        }
+      },
+      "country": "US",
+      "coordinates": [
+        -78.75223,
+        42.70167
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-eternal-flame-falls-1",
+        "img-eternal-flame-falls-2",
+        "img-eternal-flame-falls-3",
+        "img-eternal-flame-falls-4",
+        "img-eternal-flame-falls-5",
+        "img-eternal-flame-falls-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 3.4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "16:00",
+        "status": "verified-date-specific",
+        "note": "Open daily September 1-October 15; ticket sales end 30 minutes before close."
+      },
+      "cost": {
+        "amount_per_person": 21,
+        "status": "verified",
+        "note": "2026 adult admission."
+      },
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "categories": [
+        "architecture_photogenic",
+        "hidden_history_folklore",
+        "nature_photogenic"
+      ],
+      "id": "old-fort-niagara",
+      "name": "Old Fort Niagara",
+      "kind": "living-history-fort",
+      "city": "Youngstown",
+      "state": "NY",
+      "address": "102 Morrow Plaza, Youngstown, NY 14174",
+      "visit_date": "2026-10-11",
+      "summary": "A fort at the mouth of the Niagara River with original 18th-century buildings. French, British, Native and American forces all held it over three hundred years.",
+      "why_go": "Real old buildings, real contested history, and a dramatic position on Lake Ontario. A good choice in bad weather, or if the boat is not for you.",
+      "best_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Gora's interest in military and power history, and for Stivka, who values old shared and sacred spaces. Viki gets the fort and the lake.",
+      "duration_minutes": 120,
+      "source_ids": [
+        "src-old-fort"
+      ],
+      "replacement_reason": "Replace Maid of the Mist and Cave of the Winds if cold, wind, queue tolerance or getting soaked makes them unattractive.",
+      "priority": "replacement",
+      "replacement": {
+        "day": 8,
+        "replaces_place_ids": [
+          "maid-of-the-mist",
+          "cave-of-the-winds"
+        ],
+        "route_variant_id": "replacement-d8-old-fort",
+        "reason": "Replace Maid of the Mist and Cave of the Winds if cold, wind, queue tolerance or getting soaked makes them unattractive.",
+        "route_variant": {
+          "id": "replacement-d8-old-fort",
+          "day": 8,
+          "replacement_place_id": "old-fort-niagara",
+          "replaces_place_ids": [
+            "maid-of-the-mist",
+            "cave-of-the-winds"
+          ],
+          "nodes": [
+            "buffalo-lodging",
+            "annunciation-buffalo",
+            "old-fort-niagara",
+            "niagara-power-vista",
+            "goat-island-illumination",
+            "buffalo-lodging"
+          ],
+          "node_sequence": [
+            "buffalo-lodging",
+            "annunciation-buffalo",
+            "old-fort-niagara",
+            "niagara-power-vista",
+            "goat-island-illumination",
+            "buffalo-lodging"
+          ],
+          "baseline_total_miles": 68.2,
+          "baseline_total_minutes": 121,
+          "delta_miles": 19.8,
+          "delta_minutes": 40,
+          "cap_minutes": 210,
+          "cap_status": "passes-baseline-cap",
+          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+          "legs": [
+            {
+              "id": "replacement-d8-old-fort-leg-1",
+              "from": "buffalo-lodging",
+              "to": "annunciation-buffalo",
+              "distance_miles": 0.4,
+              "baseline_minutes": 1
+            },
+            {
+              "id": "replacement-d8-old-fort-leg-2",
+              "from": "annunciation-buffalo",
+              "to": "old-fort-niagara",
+              "distance_miles": 32.7,
+              "baseline_minutes": 52
+            },
+            {
+              "id": "replacement-d8-old-fort-leg-3",
+              "from": "old-fort-niagara",
+              "to": "niagara-power-vista",
+              "distance_miles": 10.3,
+              "baseline_minutes": 19
+            },
+            {
+              "id": "replacement-d8-old-fort-leg-4",
+              "from": "niagara-power-vista",
+              "to": "goat-island-illumination",
+              "distance_miles": 5.4,
+              "baseline_minutes": 13
+            },
+            {
+              "id": "replacement-d8-old-fort-leg-5",
+              "from": "goat-island-illumination",
+              "to": "buffalo-lodging",
+              "distance_miles": 19.4,
+              "baseline_minutes": 36
+            }
+          ],
+          "geometry": {
+            "coordinates": [
+              [
+                -78.877798,
+                42.913185
+              ],
+              [
+                -78.872373,
+                42.91128
+              ],
+              [
+                -78.87106,
+                42.908879
+              ],
+              [
+                -78.881735,
+                42.908965
+              ],
+              [
+                -78.898967,
+                42.900143
+              ],
+              [
+                -78.898795,
+                42.92907
+              ],
+              [
+                -78.910605,
+                42.954794
+              ],
+              [
+                -78.921161,
+                42.964202
+              ],
+              [
+                -78.912211,
+                42.972618
+              ],
+              [
+                -78.910586,
+                42.98219
+              ],
+              [
+                -78.968455,
+                43.013991
+              ],
+              [
+                -78.989145,
+                43.043908
+              ],
+              [
+                -78.990633,
+                43.088158
+              ],
+              [
+                -78.982113,
+                43.102686
+              ],
+              [
+                -79.016018,
+                43.125444
+              ],
+              [
+                -79.02264,
+                43.145874
+              ],
+              [
+                -79.038117,
+                43.159916
+              ],
+              [
+                -79.029129,
+                43.170805
+              ],
+              [
+                -79.025908,
+                43.197048
+              ],
+              [
+                -79.0314,
+                43.26008
+              ],
+              [
+                -79.045585,
+                43.264869
+              ],
+              [
+                -79.060901,
+                43.262317
+              ],
+              [
+                -79.037865,
+                43.263633
+              ],
+              [
+                -79.031092,
+                43.252415
+              ],
+              [
+                -79.026337,
+                43.197536
+              ],
+              [
+                -79.02943,
+                43.171592
+              ],
+              [
+                -79.042771,
+                43.160215
+              ],
+              [
+                -79.039611,
+                43.140108
+              ],
+              [
+                -79.061783,
+                43.121695
+              ],
+              [
+                -79.055255,
+                43.104154
+              ],
+              [
+                -79.062245,
+                43.083687
+              ],
+              [
+                -79.072249,
+                43.080631
+              ],
+              [
+                -79.065034,
+                43.08022
+              ],
+              [
+                -79.061305,
+                43.084513
+              ],
+              [
+                -79.040859,
+                43.078302
+              ],
+              [
+                -78.991357,
+                43.075201
+              ],
+              [
+                -78.990123,
+                43.045389
+              ],
+              [
+                -78.971034,
+                43.016189
+              ],
+              [
+                -78.914,
+                42.986109
+              ],
+              [
+                -78.911319,
+                42.975107
+              ],
+              [
+                -78.921052,
+                42.963168
+              ],
+              [
+                -78.910561,
+                42.954441
+              ],
+              [
+                -78.897597,
+                42.9279
+              ],
+              [
+                -78.884731,
+                42.927817
+              ],
+              [
+                -78.885677,
+                42.915412
+              ],
+              [
+                -78.877798,
+                42.913185
+              ]
+            ],
+            "type": "LineString"
+          },
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-78.8778,42.913;-78.8723741,42.9111914;-79.0637,43.2624;-79.0403111,43.1401973;-79.074433,43.0800772;-78.8778,42.913?overview=simplified&geometries=geojson&steps=false"
+        }
+      },
+      "country": "US",
+      "coordinates": [
+        -79.0637,
+        43.2624
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-old-fort-niagara-1",
+        "img-old-fort-niagara-2",
+        "img-old-fort-niagara-3",
+        "img-old-fort-niagara-4",
+        "img-old-fort-niagara-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "08:00",
+        "closes": "19:00",
+        "status": "verified",
+        "note": "Daily gate hours; use Forest Lawn's free map/app and behave as visitors to an active cemetery."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified",
+        "note": "No admission charge."
+      },
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "categories": [
+        "architecture_photogenic",
+        "nature_photogenic",
+        "hidden_history_folklore"
+      ],
+      "id": "forest-lawn-blue-sky",
+      "name": "Forest Lawn: Blue Sky Mausoleum Walk",
+      "kind": "cemetery-architecture-walk",
+      "city": "Buffalo",
+      "state": "NY",
+      "address": "1990 Main Street, Buffalo, NY 14208",
+      "visit_date": "2026-10-12",
+      "summary": "A walk through Buffalo's old cemetery to the Blue Sky Mausoleum, designed by Frank Lloyd Wright and open to the sky. On the way there are a lake and many large 19th-century monuments.",
+      "why_go": "A Frank Lloyd Wright design with no roof, in a very quiet place. Cheaper, stranger and calmer than the guided house tour.",
+      "best_for": [
+        "stivka",
+        "viki"
+      ],
+      "best_fit_note": "Good for Stivka, who thinks about life and death, and for Viki's interest in natural architecture. Gora gets names and stories the city usually leaves out.",
+      "duration_minutes": 75,
+      "source_ids": [
+        "src-forest",
+        "src-blue-sky"
+      ],
+      "replacement_reason": "Quieter, free Wright-and-memorial alternative when the Martin House tour is sold out or the group needs reflection.",
+      "priority": "replacement",
+      "replacement": {
+        "day": 9,
+        "replaces_place_ids": [
+          "martin-house"
+        ],
+        "route_variant_id": "replacement-d9-blue-sky",
+        "reason": "Quieter, free Wright-and-memorial alternative when the Martin House tour is sold out or the group needs reflection.",
+        "route_variant": {
+          "id": "replacement-d9-blue-sky",
+          "day": 9,
+          "replacement_place_id": "forest-lawn-blue-sky",
+          "replaces_place_ids": [
+            "martin-house"
+          ],
+          "nodes": [
+            "buffalo-lodging",
+            "forest-lawn-blue-sky",
+            "tr-inaugural-site",
+            "syracuse-lodging"
+          ],
+          "node_sequence": [
+            "buffalo-lodging",
+            "forest-lawn-blue-sky",
+            "tr-inaugural-site",
+            "syracuse-lodging"
+          ],
+          "baseline_total_miles": 152.9,
+          "baseline_total_minutes": 193,
+          "delta_miles": -1.9,
+          "delta_minutes": -4,
+          "cap_minutes": 210,
+          "cap_status": "passes-baseline-cap",
+          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+          "legs": [
+            {
+              "id": "replacement-d9-blue-sky-leg-1",
+              "from": "buffalo-lodging",
+              "to": "forest-lawn-blue-sky",
+              "distance_miles": 1.6,
+              "baseline_minutes": 5
+            },
+            {
+              "id": "replacement-d9-blue-sky-leg-2",
+              "from": "forest-lawn-blue-sky",
+              "to": "tr-inaugural-site",
+              "distance_miles": 2.1,
+              "baseline_minutes": 7
+            },
+            {
+              "id": "replacement-d9-blue-sky-leg-3",
+              "from": "tr-inaugural-site",
+              "to": "syracuse-lodging",
+              "distance_miles": 149.1,
+              "baseline_minutes": 181
+            }
+          ],
+          "geometry": {
+            "coordinates": [
+              [
+                -78.877798,
+                42.913185
+              ],
+              [
+                -78.864586,
+                42.928782
+              ],
+              [
+                -78.87264,
+                42.901367
+              ],
+              [
+                -78.845431,
+                42.903694
+              ],
+              [
+                -78.832976,
+                42.929258
+              ],
+              [
+                -78.764412,
+                42.930294
+              ],
+              [
+                -78.758368,
+                42.951595
+              ],
+              [
+                -78.609784,
+                42.950101
+              ],
+              [
+                -78.433303,
+                42.99235
+              ],
+              [
+                -78.397485,
+                43.008893
+              ],
+              [
+                -78.135854,
+                43.022131
+              ],
+              [
+                -78.099056,
+                43.013462
+              ],
+              [
+                -78.036113,
+                43.029699
+              ],
+              [
+                -77.835478,
+                43.029608
+              ],
+              [
+                -77.782032,
+                43.044043
+              ],
+              [
+                -77.574535,
+                43.046937
+              ],
+              [
+                -77.416108,
+                42.998634
+              ],
+              [
+                -77.265968,
+                42.979358
+              ],
+              [
+                -77.092302,
+                42.973955
+              ],
+              [
+                -77.026749,
+                42.956326
+              ],
+              [
+                -76.970753,
+                42.954679
+              ],
+              [
+                -76.811992,
+                42.97319
+              ],
+              [
+                -76.714334,
+                43.001902
+              ],
+              [
+                -76.606387,
+                43.052589
+              ],
+              [
+                -76.459566,
+                43.080196
+              ],
+              [
+                -76.32341,
+                43.09008
+              ],
+              [
+                -76.284268,
+                43.105944
+              ],
+              [
+                -76.288788,
+                43.112158
+              ],
+              [
+                -76.246985,
+                43.10573
+              ],
+              [
+                -76.226678,
+                43.083269
+              ],
+              [
+                -76.154117,
+                43.04695
+              ]
+            ],
+            "type": "LineString"
+          },
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-78.8778,42.913;-78.8649,42.9286;-78.8726259,42.9015679;-76.1542,43.047?overview=simplified&geometries=geojson&steps=false"
+        }
+      },
+      "country": "US",
+      "coordinates": [
+        -78.8649,
+        42.9286
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-forest-lawn-blue-sky-1",
+        "img-forest-lawn-blue-sky-2",
+        "img-forest-lawn-blue-sky-3",
+        "img-forest-lawn-blue-sky-4",
+        "img-forest-lawn-blue-sky-5",
+        "img-forest-lawn-blue-sky-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "08:00",
+        "closes": "18:00",
+        "status": "public-neighborhood",
+        "note": "Public residential streets; use the official self-guided walk, keep voices low and do not enter private property."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified",
+        "note": "No admission charge."
+      },
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "categories": [
+        "architecture_photogenic",
+        "hidden_history_folklore"
+      ],
+      "id": "schenectady-stockade",
+      "name": "Schenectady Stockade Audio Walk",
+      "kind": "historic-neighborhood-walk",
+      "city": "Schenectady",
+      "state": "NY",
+      "address": "North Church and Front Streets, Schenectady, NY 12305",
+      "visit_date": "2026-10-13",
+      "summary": "A self-guided walk through the first historic district ever protected in New York State. People have lived on these streets for more than 300 years, and hundreds of old houses remain.",
+      "why_go": "Dutch streets, floods and three centuries of continuous life, with no museum queue. Easy on a long travel day.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "best_fit_note": "Good for Gora's layered regional history and for Viki's old colonial streets. It stays light on a long day.",
+      "duration_minutes": 60,
+      "source_ids": [
+        "src-stockade"
+      ],
+      "replacement_reason": "Route-safe human-history alternative if the group prefers architecture and settlement stories to the Pine Bush ecosystem.",
+      "priority": "replacement",
+      "replacement": {
+        "day": 10,
+        "replaces_place_ids": [
+          "albany-pine-bush"
+        ],
+        "route_variant_id": "replacement-d10-stockade",
+        "reason": "Route-safe human-history alternative if the group prefers architecture and settlement stories to the Pine Bush ecosystem.",
+        "route_variant": {
+          "id": "replacement-d10-stockade",
+          "day": 10,
+          "replacement_place_id": "schenectady-stockade",
+          "replaces_place_ids": [
+            "albany-pine-bush"
+          ],
+          "nodes": [
+            "syracuse-lodging",
+            "erie-canal-museum",
+            "schenectady-stockade",
+            "ny-state-capitol-plaza",
+            "albany-lodging"
+          ],
+          "node_sequence": [
+            "syracuse-lodging",
+            "erie-canal-museum",
+            "schenectady-stockade",
+            "ny-state-capitol-plaza",
+            "albany-lodging"
+          ],
+          "baseline_total_miles": 159.5,
+          "baseline_total_minutes": 206,
+          "delta_miles": -3.1,
+          "delta_minutes": -4,
+          "cap_minutes": 210,
+          "cap_status": "passes-baseline-cap",
+          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+          "legs": [
+            {
+              "id": "replacement-d10-stockade-leg-1",
+              "from": "syracuse-lodging",
+              "to": "erie-canal-museum",
+              "distance_miles": 0.5,
+              "baseline_minutes": 2
+            },
+            {
+              "id": "replacement-d10-stockade-leg-2",
+              "from": "erie-canal-museum",
+              "to": "schenectady-stockade",
+              "distance_miles": 127.8,
+              "baseline_minutes": 156
+            },
+            {
+              "id": "replacement-d10-stockade-leg-3",
+              "from": "schenectady-stockade",
+              "to": "ny-state-capitol-plaza",
+              "distance_miles": 18.7,
+              "baseline_minutes": 31
+            },
+            {
+              "id": "replacement-d10-stockade-leg-4",
+              "from": "ny-state-capitol-plaza",
+              "to": "albany-lodging",
+              "distance_miles": 12.5,
+              "baseline_minutes": 18
+            }
+          ],
+          "geometry": {
+            "coordinates": [
+              [
+                -76.154117,
+                43.04695
+              ],
+              [
+                -76.148723,
+                43.05046
+              ],
+              [
+                -76.082333,
+                43.0573
+              ],
+              [
+                -76.090674,
+                43.069197
+              ],
+              [
+                -76.083276,
+                43.093416
+              ],
+              [
+                -75.76145,
+                43.089958
+              ],
+              [
+                -75.610232,
+                43.125686
+              ],
+              [
+                -75.483271,
+                43.136066
+              ],
+              [
+                -75.387384,
+                43.122749
+              ],
+              [
+                -75.27343,
+                43.13689
+              ],
+              [
+                -75.115427,
+                43.081972
+              ],
+              [
+                -75.068841,
+                43.056322
+              ],
+              [
+                -75.042283,
+                43.03045
+              ],
+              [
+                -75.010951,
+                43.017937
+              ],
+              [
+                -74.884383,
+                43.004419
+              ],
+              [
+                -74.806084,
+                43.016833
+              ],
+              [
+                -74.727502,
+                42.990067
+              ],
+              [
+                -74.671621,
+                42.989244
+              ],
+              [
+                -74.636962,
+                42.959715
+              ],
+              [
+                -74.609256,
+                42.917315
+              ],
+              [
+                -74.585859,
+                42.906545
+              ],
+              [
+                -74.559563,
+                42.906311
+              ],
+              [
+                -74.525139,
+                42.893298
+              ],
+              [
+                -74.469894,
+                42.896005
+              ],
+              [
+                -74.379837,
+                42.948028
+              ],
+              [
+                -74.307388,
+                42.930105
+              ],
+              [
+                -74.242297,
+                42.932531
+              ],
+              [
+                -74.098703,
+                42.896577
+              ],
+              [
+                -74.046608,
+                42.869897
+              ],
+              [
+                -74.016007,
+                42.83921
+              ],
+              [
+                -74.001968,
+                42.838935
+              ],
+              [
+                -73.985549,
+                42.81594
+              ],
+              [
+                -73.950554,
+                42.811305
+              ],
+              [
+                -73.944987,
+                42.818199
+              ],
+              [
+                -73.94853,
+                42.805019
+              ],
+              [
+                -73.923422,
+                42.784183
+              ],
+              [
+                -73.934475,
+                42.752064
+              ],
+              [
+                -73.840833,
+                42.69549
+              ],
+              [
+                -73.765248,
+                42.67807
+              ],
+              [
+                -73.752255,
+                42.669071
+              ],
+              [
+                -73.764473,
+                42.658723
+              ],
+              [
+                -73.757979,
+                42.652248
+              ],
+              [
+                -73.732552,
+                42.666051
+              ],
+              [
+                -73.723532,
+                42.661693
+              ],
+              [
+                -73.691605,
+                42.619956
+              ],
+              [
+                -73.67785,
+                42.579837
+              ],
+              [
+                -73.698339,
+                42.626819
+              ]
+            ],
+            "type": "LineString"
+          },
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-76.1542,43.047;-76.1487182,43.0506446;-73.945,42.818;-73.7576,42.6526;-73.698,42.627?overview=simplified&geometries=geojson&steps=false"
+        }
+      },
+      "country": "US",
+      "coordinates": [
+        -73.945,
+        42.818
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-schenectady-stockade-1",
+        "img-schenectady-stockade-2",
+        "img-schenectady-stockade-3",
+        "img-schenectady-stockade-4",
+        "img-schenectady-stockade-5",
+        "img-schenectady-stockade-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "08:00",
+        "closes": "15:00",
+        "status": "verified",
+        "note": "Open seven days."
+      },
+      "cost": {
+        "amount_per_person": 18,
+        "status": "planning-estimate",
+        "note": "Coffee and light food; no admission."
+      },
+      "secondary_for": [
+        "stivka",
+        "gora"
+      ],
+      "categories": [
+        "architecture_photogenic",
+        "food_coffee_shopping",
+        "unusual_creative"
+      ],
+      "id": "six-depot",
+      "name": "No. Six Depot Roastery & Gallery",
+      "kind": "coffee-roastery-gallery",
+      "city": "West Stockbridge",
+      "state": "MA",
+      "address": "6 Depot Street, West Stockbridge, MA 01266",
+      "visit_date": "2026-10-14",
+      "summary": "A small coffee roastery, cafe and gallery inside the old railway station of West Stockbridge, looking towards Lenox Mountain.",
+      "why_go": "A warm, calm last stop if the weather is bad or the group is tired. Still a real place, not a coffee stop on the highway.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's love of small cafes, and for Paco, who needs to read the group's energy honestly on the last day.",
+      "duration_minutes": 75,
+      "source_ids": [
+        "src-six"
+      ],
+      "replacement_reason": "Use for rain, fatigue or a group vote for a warm slow finale instead of the outdoor quarry.",
+      "priority": "replacement",
+      "replacement": {
+        "day": 11,
+        "replaces_place_ids": [
+          "turnpark-art-space"
+        ],
+        "route_variant_id": "replacement-d11-six-depot",
+        "reason": "Use for rain, fatigue or a group vote for a warm slow finale instead of the outdoor quarry.",
+        "route_variant": {
+          "id": "replacement-d11-six-depot",
+          "day": 11,
+          "replacement_place_id": "six-depot",
+          "replaces_place_ids": [
+            "turnpark-art-space"
+          ],
+          "nodes": [
+            "albany-lodging",
+            "six-depot",
+            "boston-logan-hotel"
+          ],
+          "node_sequence": [
+            "albany-lodging",
+            "six-depot",
+            "boston-logan-hotel"
+          ],
+          "baseline_total_miles": 168.2,
+          "baseline_total_minutes": 205,
+          "delta_miles": -0.3,
+          "delta_minutes": -2,
+          "cap_minutes": 210,
+          "cap_status": "passes-baseline-cap",
+          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+          "legs": [
+            {
+              "id": "replacement-d11-six-depot-leg-1",
+              "from": "albany-lodging",
+              "to": "six-depot",
+              "distance_miles": 32.4,
+              "baseline_minutes": 42
+            },
+            {
+              "id": "replacement-d11-six-depot-leg-2",
+              "from": "six-depot",
+              "to": "boston-logan-hotel",
+              "distance_miles": 135.8,
+              "baseline_minutes": 163
+            }
+          ],
+          "geometry": {
+            "coordinates": [
+              [
+                -73.698339,
+                42.626819
+              ],
+              [
+                -73.677155,
+                42.590365
+              ],
+              [
+                -73.689358,
+                42.511853
+              ],
+              [
+                -73.672326,
+                42.480166
+              ],
+              [
+                -73.622923,
+                42.479149
+              ],
+              [
+                -73.557826,
+                42.442883
+              ],
+              [
+                -73.537593,
+                42.411822
+              ],
+              [
+                -73.494681,
+                42.389393
+              ],
+              [
+                -73.471614,
+                42.387221
+              ],
+              [
+                -73.456917,
+                42.368288
+              ],
+              [
+                -73.435755,
+                42.365685
+              ],
+              [
+                -73.394214,
+                42.337851
+              ],
+              [
+                -73.368324,
+                42.334115
+              ],
+              [
+                -73.345276,
+                42.305369
+              ],
+              [
+                -73.298103,
+                42.296991
+              ],
+              [
+                -73.192721,
+                42.300152
+              ],
+              [
+                -73.157793,
+                42.28879
+              ],
+              [
+                -73.111092,
+                42.248188
+              ],
+              [
+                -73.043996,
+                42.232895
+              ],
+              [
+                -72.994615,
+                42.237249
+              ],
+              [
+                -72.907853,
+                42.172748
+              ],
+              [
+                -72.759172,
+                42.154541
+              ],
+              [
+                -72.710805,
+                42.139943
+              ],
+              [
+                -72.617871,
+                42.154639
+              ],
+              [
+                -72.585608,
+                42.169495
+              ],
+              [
+                -72.538508,
+                42.161273
+              ],
+              [
+                -72.446582,
+                42.170118
+              ],
+              [
+                -72.380936,
+                42.153791
+              ],
+              [
+                -72.318375,
+                42.176958
+              ],
+              [
+                -72.282202,
+                42.164777
+              ],
+              [
+                -72.214319,
+                42.182393
+              ],
+              [
+                -72.125431,
+                42.135082
+              ],
+              [
+                -72.06268,
+                42.129487
+              ],
+              [
+                -71.756282,
+                42.220853
+              ],
+              [
+                -71.618119,
+                42.229365
+              ],
+              [
+                -71.557662,
+                42.269541
+              ],
+              [
+                -71.411699,
+                42.315475
+              ],
+              [
+                -71.368027,
+                42.311283
+              ],
+              [
+                -71.315058,
+                42.334425
+              ],
+              [
+                -71.178254,
+                42.357713
+              ],
+              [
+                -71.037544,
+                42.346671
+              ],
+              [
+                -71.027372,
+                42.368784
+              ],
+              [
+                -71.016767,
+                42.366379
+              ]
+            ],
+            "type": "LineString"
+          },
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-73.698,42.627;-73.3684757,42.3341038;-71.0155,42.3655?overview=simplified&geometries=geojson&steps=false"
+        }
+      },
+      "country": "US",
+      "coordinates": [
+        -73.3684757,
+        42.3341038
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-six-depot-1",
+        "img-six-depot-2",
+        "img-six-depot-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete"
+    }
+  ]
+}

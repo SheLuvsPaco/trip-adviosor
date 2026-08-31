@@ -1,0 +1,486 @@
+{
+  "schema_version": "1.0.0",
+  "route_id": "route-09",
+  "verified_at": "2026-08-24",
+  "sources": [
+    {
+      "id": "src-art-omi",
+      "title": "Art Omi - visit",
+      "source_type": "official",
+      "url": "https://artomi.org/visit/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "October hours",
+        "free admission",
+        "park scale",
+        "visitor registration"
+      ]
+    },
+    {
+      "id": "src-naumkeag",
+      "title": "The Trustees - Naumkeag",
+      "source_type": "official",
+      "url": "https://thetrustees.org/place/naumkeag/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "estate access",
+        "Blue Steps",
+        "property scale"
+      ]
+    },
+    {
+      "id": "src-naumkeag-halloween",
+      "title": "The Trustees - Halloween 2026",
+      "source_type": "official",
+      "url": "https://thetrustees.org/program/halloween/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "October 2026 event dates",
+        "timed ticket release",
+        "pumpkin display"
+      ]
+    },
+    {
+      "id": "src-kaleidoscope",
+      "title": "The Emerson - Kaleidoshow hours and admission",
+      "source_type": "official",
+      "url": "https://emersonresort.com/kaleidoscope/location-hours/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Monday hours",
+        "adult admission",
+        "immersive show"
+      ]
+    },
+    {
+      "id": "src-kaleidoscope-about",
+      "title": "The Emerson - Silo Kaleidoscope experience",
+      "source_type": "official",
+      "url": "https://emersonresort.com/silo-kaleidoscope-experience/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "silo dimensions",
+        "show duration",
+        "Guinness claim"
+      ]
+    },
+    {
+      "id": "src-opus40",
+      "title": "Opus 40 - visiting",
+      "source_type": "official",
+      "url": "https://opus40.org/visiting/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Monday hours",
+        "admission",
+        "earthwork scale",
+        "terrain"
+      ]
+    },
+    {
+      "id": "src-taber",
+      "title": "Thomas T. Taber Museum",
+      "source_type": "official",
+      "url": "https://tabermuseum.org/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Tuesday hours",
+        "admission",
+        "regional and toy-train collections"
+      ]
+    },
+    {
+      "id": "src-williamsport",
+      "title": "Visit Lycoming County - historic Williamsport",
+      "source_type": "tourism",
+      "url": "https://www.visitlycomingcounty.com/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Millionaires Row",
+        "Way's Garden",
+        "self-guided architecture"
+      ]
+    },
+    {
+      "id": "src-scripture",
+      "title": "Scripture Rocks Heritage Park",
+      "source_type": "official",
+      "url": "https://scripturerocks.com/contact-us/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "operator",
+        "address",
+        "historical interpretation"
+      ]
+    },
+    {
+      "id": "src-scripture-hours",
+      "title": "Brookville Chamber - Scripture Rocks",
+      "source_type": "regional-tourism",
+      "url": "https://brookvillechamber.com/directory/scripture-rocks-heritage-park/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "dawn-to-dusk season",
+        "free access",
+        "1.5-mile paths",
+        "carved-boulder count"
+      ]
+    },
+    {
+      "id": "src-punx",
+      "title": "Visit Punxsutawney",
+      "source_type": "official-tourism",
+      "url": "https://www.visitpunxsutawney.com/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Gobbler's Knob",
+        "Phil's Burrow",
+        "public folklore sites"
+      ]
+    },
+    {
+      "id": "src-bayernhof",
+      "title": "Bayernhof Museum",
+      "source_type": "official",
+      "url": "https://www.bayernhofmuseum.com/index.html",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "appointment tours",
+        "admission",
+        "music machines",
+        "hidden architecture"
+      ]
+    },
+    {
+      "id": "src-heinz",
+      "title": "Heinz History Center - visit",
+      "source_type": "official",
+      "url": "https://www.heinzhistorycenter.org/visit/heinz-history-center/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Thursday hours",
+        "admission",
+        "six floors",
+        "regional collections"
+      ]
+    },
+    {
+      "id": "src-cottrill",
+      "title": "Alan Cottrill Sculpture Studio - contact",
+      "source_type": "official",
+      "url": "https://www.alancottrill.com/contact",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Friday hours",
+        "no appointment",
+        "address"
+      ]
+    },
+    {
+      "id": "src-cottrill-tourism",
+      "title": "Visit Zanesville - Alan Cottrill Studio",
+      "source_type": "official-tourism",
+      "url": "https://www.visitzanesville.com/Explore/Destinations/105/Alan-Cottrill-Sculpture-Studio--Gallery/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "300-plus bronzes",
+        "working studio",
+        "visitor experience"
+      ]
+    },
+    {
+      "id": "src-ybridge",
+      "title": "Visit Zanesville - Y Bridge",
+      "source_type": "official-tourism",
+      "url": "https://www.visitzanesville.com/Explore/Destinations/175/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "bridge form",
+        "Putnam overlook",
+        "public access"
+      ]
+    },
+    {
+      "id": "src-otherworld",
+      "title": "Otherworld - tickets and hours",
+      "source_type": "official",
+      "url": "https://www.otherworld.com/main/tickets-and-hours",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Friday hours",
+        "online timed ticket",
+        "adult admission",
+        "free parking"
+      ]
+    },
+    {
+      "id": "src-cambridge-glass",
+      "title": "National Museum of Cambridge Glass",
+      "source_type": "official",
+      "url": "https://cambridgeglass.org/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Friday hours",
+        "season",
+        "glassmaking collection"
+      ]
+    },
+    {
+      "id": "src-butler",
+      "title": "Butler Institute of American Art",
+      "source_type": "official",
+      "url": "https://butlerart.com/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Saturday hours",
+        "free admission",
+        "American-art mission",
+        "2026 exhibitions"
+      ]
+    },
+    {
+      "id": "src-fellows",
+      "title": "Mill Creek MetroParks - Fellows Riverside Gardens",
+      "source_type": "government",
+      "url": "https://www.millcreekmetroparks.org/fellows-riverside-gardens/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "daily garden hours",
+        "free access",
+        "12-acre garden",
+        "fall roses"
+      ]
+    },
+    {
+      "id": "src-stnicholas",
+      "title": "St Nicholas Orthodox Church - service schedule",
+      "source_type": "official-parish",
+      "url": "https://www.stnicholasdubois.org/schedule",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Sunday Hours service",
+        "Divine Liturgy or Obednitsa with Communion",
+        "service time"
+      ]
+    },
+    {
+      "id": "src-stnicholas-oca",
+      "title": "Orthodox Church in America - St Nicholas DuBois",
+      "source_type": "official-church",
+      "url": "https://www.oca.org/parishes/oca-wp-dujsnc",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "canonical parish",
+        "service pattern",
+        "contact details"
+      ]
+    },
+    {
+      "id": "src-talleyrand",
+      "title": "Borough of Bellefonte - Talleyrand Park",
+      "source_type": "government",
+      "url": "https://bellefonte.net/departments/parks-rec/talleyrand-park/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Victorian context",
+        "waterfront walk",
+        "park features"
+      ]
+    },
+    {
+      "id": "src-bellefonte-art",
+      "title": "Bellefonte Art Museum",
+      "source_type": "official",
+      "url": "https://www.bellefontemuseum.org/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Sunday access",
+        "historic Linn House",
+        "regional exhibitions"
+      ]
+    },
+    {
+      "id": "src-columcille",
+      "title": "Columcille - visiting the park",
+      "source_type": "official",
+      "url": "https://www.columcille.org/visitingthepark",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "daily hours",
+        "90-plus stone settings",
+        "rough trails",
+        "no climbing",
+        "photo policy"
+      ]
+    },
+    {
+      "id": "src-columcille-history",
+      "title": "Columcille - refuge to megalithic park",
+      "source_type": "official",
+      "url": "https://www.columcille.org/refuge-to-megalithic-park",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "founding story",
+        "Celtic inspiration",
+        "stone-setting history"
+      ]
+    },
+    {
+      "id": "src-asapacker-events",
+      "title": "Asa Packer Mansion - October 2026",
+      "source_type": "official",
+      "url": "https://asapackermansion.com/events/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "2026 October opening",
+        "Monday access",
+        "tour frequency"
+      ]
+    },
+    {
+      "id": "src-asapacker-tour",
+      "title": "Asa Packer Mansion - tour information",
+      "source_type": "official",
+      "url": "https://asapackermansion.letartliveon.com/tour/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "admission",
+        "guided-only access",
+        "October duration",
+        "original contents"
+      ]
+    },
+    {
+      "id": "src-tarrywile",
+      "title": "Tarrywile Park - park information",
+      "source_type": "official",
+      "url": "https://tarrywile.com/the-park/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "daily sunrise-to-sunset access",
+        "free admission",
+        "722 acres",
+        "trail network"
+      ]
+    },
+    {
+      "id": "src-hearthstone",
+      "title": "Tarrywile - Hearthstone Castle",
+      "source_type": "official",
+      "url": "https://tarrywile.com/hearthstone-castle/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "1890s architecture",
+        "ruin status",
+        "fence and no-trespassing rule"
+      ]
+    },
+    {
+      "id": "src-aldrich",
+      "title": "The Aldrich - visit",
+      "source_type": "official",
+      "url": "https://thealdrich.org/visit",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Tuesday museum closure",
+        "admission",
+        "sculpture garden",
+        "parking"
+      ]
+    },
+    {
+      "id": "src-aldrich-garden",
+      "title": "CTvisit - Aldrich sculpture garden",
+      "source_type": "government-tourism",
+      "url": "https://ctvisit.com/listings/aldrich-contemporary-art-museum",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "free outdoor garden",
+        "daily dawn-to-dusk access",
+        "museum Tuesday closure"
+      ]
+    },
+    {
+      "id": "src-harvard",
+      "title": "Harvard Museums of Science and Culture - visit",
+      "source_type": "official",
+      "url": "https://hmsc.harvard.edu/visit/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Wednesday hours",
+        "July 2026 admission",
+        "combined Peabody entry",
+        "photography"
+      ]
+    },
+    {
+      "id": "src-harvard-collections",
+      "title": "Harvard Museum of Natural History",
+      "source_type": "official",
+      "url": "https://www.hmnh.harvard.edu/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Glass Flowers",
+        "minerals",
+        "paleontology",
+        "2026 exhibitions"
+      ]
+    },
+    {
+      "id": "src-mgh",
+      "title": "Mass General - Russell Museum and Ether Dome",
+      "source_type": "official",
+      "url": "https://www.massgeneral.org/museum",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Wednesday public hours",
+        "free admission",
+        "medical-history interpretation",
+        "Ether Dome"
+      ]
+    },
+    {
+      "id": "src-noaa-normals",
+      "title": "NOAA U.S. Climate Normals",
+      "source_type": "government",
+      "url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "1991-2020 normals methodology"
+      ]
+    },
+    {
+      "id": "src-osrm",
+      "title": "Open Source Routing Machine",
+      "source_type": "routing",
+      "url": "https://project-osrm.org/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "road-network baselines",
+        "no live traffic"
+      ]
+    },
+    {
+      "id": "src-forum-ohio",
+      "title": "r/Ohio and r/Columbus local discussions",
+      "source_type": "forum",
+      "url": "https://www.reddit.com/r/Ohio/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Otherworld value cross-check",
+        "Zanesville and Youngstown pacing"
+      ]
+    },
+    {
+      "id": "src-forum-pa",
+      "title": "r/Pennsylvania road-trip discussions",
+      "source_type": "forum",
+      "url": "https://www.reddit.com/r/Pennsylvania/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "small-town pacing",
+        "Poconos and central Pennsylvania cross-check"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4658 @@
+{
+  "schema_version": "1.0.0",
+  "route": {
+    "id": "route-07",
+    "slug": "kazoos-rock-mechanical-dreams-loop",
+    "name": "The Kazoos, Rock & Mechanical Dreams Loop",
+    "short_name": "Kazoos, Rock & Machines",
+    "status": "research-complete-bookings-pending",
+    "map_color": "#F97316",
+    "timezone": "America/New_York",
+    "start_date": "2026-10-04",
+    "end_date": "2026-10-14",
+    "airport_date": "2026-10-15",
+    "origin": {
+      "name": "Boston Logan Rental Car Center",
+      "coordinates": [
+        -71.0304,
+        42.3682
+      ]
+    },
+    "destination": {
+      "name": "Boston Logan hotel zone",
+      "coordinates": [
+        -71.0155,
+        42.3655
+      ]
+    },
+    "endpoint_city": "Cleveland, OH",
+    "direction": "Boston through Springfield, the Capital Region, Syracuse, Rochester, Eden and Erie to Cleveland; return through Canonsburg, Bedford, Allentown and Danbury",
+    "countries": [
+      "US"
+    ],
+    "canada_included": false,
+    "total_nights": 11,
+    "road_nights": 10,
+    "final_boston_nights": 1,
+    "baseline_total_miles": 1497,
+    "summary": "A sound-and-machinery loop that begins with museum choice, finds Uncle Sam's real grave, traces boxing and suffrage through small cities, then reaches a working kazoo factory, Lake Erie ecology and Cleveland's rock history. The exact Sugar show makes the endpoint count; Orthodox Sunday, giant trucks, roadside architecture and a 38-foot Uncle Sam turn the homeward line into a separate story."
+  },
+  "constraints": {
+    "travelers": 4,
+    "cars": 2,
+    "cars_follow_same_route": true,
+    "daily_drive_target_minutes": [
+      120,
+      180
+    ],
+    "daily_drive_hard_cap_minutes": 210,
+    "max_big_nights_out": 4,
+    "planned_big_nights_out": 1,
+    "max_athletic_adrenaline_spots": 2,
+    "planned_athletic_adrenaline_spots": 0,
+    "hike_soft_cap_miles": 6,
+    "lodging_rooms": [
+      {
+        "count": 1,
+        "beds": 1
+      },
+      {
+        "count": 1,
+        "beds": 2
+      }
+    ],
+    "lodging_priorities": [
+      "safe",
+      "clean",
+      "comfortable",
+      "two-room inventory",
+      "secure two-car parking"
+    ],
+    "visa_policy": "US-only; no Canada crossing or J-1 re-entry dependency.",
+    "budget_target_per_person_usd": 1500,
+    "budget_excludes": [
+      "lodging",
+      "rental cars",
+      "fuel",
+      "nightlife",
+      "personal shopping"
+    ]
+  },
+  "scoring": {
+    "scale": {
+      "min": 1,
+      "max": 5,
+      "increment": 0.5
+    },
+    "equal_traveler_weight": true,
+    "traveler_ids": [
+      "sheluvspaco",
+      "viki",
+      "gora",
+      "stivka"
+    ],
+    "route_component_weights_percent": {
+      "attraction_and_stop_ratings": 45,
+      "excitement_and_uniqueness": 20,
+      "driving_comfort": 15,
+      "traveler_fairness": 10,
+      "cost_and_value": 5,
+      "expected_weather": 5
+    },
+    "route_ratings": {
+      "sheluvspaco": null,
+      "viki": null,
+      "gora": null,
+      "stivka": null
+    },
+    "driving_comfort_ratings": {
+      "sheluvspaco": null,
+      "viki": null,
+      "gora": null,
+      "stivka": null
+    },
+    "overall_excitement_ratings": {
+      "sheluvspaco": null,
+      "viki": null,
+      "gora": null,
+      "stivka": null
+    },
+    "cost_value_ratings": {
+      "sheluvspaco": null,
+      "viki": null,
+      "gora": null,
+      "stivka": null
+    },
+    "weather_ratings": {
+      "sheluvspaco": null,
+      "viki": null,
+      "gora": null,
+      "stivka": null
+    },
+    "magic_score": null,
+    "magic_score_status": "awaiting_traveler_ratings",
+    "person_specific_route_scores": {
+      "sheluvspaco": null,
+      "viki": null,
+      "gora": null,
+      "stivka": null
+    }
+  },
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-10-04",
+      "sleep_city": "Springfield, MA",
+      "theme": "Five museums in one garden-sized campus",
+      "schedule": [
+        {
+          "start": "14:15",
+          "end": "16:45",
+          "place_id": "springfield-museums",
+          "priority": "anchor",
+          "reservation": "none"
+        }
+      ],
+      "lodging": {
+        "preferred_area": "Springfield downtown/Armory side with two clean rooms and bright two-car parking",
+        "fallback_area": "West Springfield only if the live Logan departure ETA is materially better",
+        "room_setup": "Two rooms: one 1-bed room and one 2-bed room",
+        "notes": "Strong suggestion only; manually verify recent safety, cleanliness, exact bed layout and secure parking for two cars."
+      },
+      "fallback": "The working assumption is that both cars leave Logan by 12:15 after the Nantucket-Hyannis-Boston transfer. If pickup slips past that, shorten the museum campus rather than speed; the Armory closes at 16:00 and is a preference swap, not a late-arrival rescue.",
+      "day_of_week": "Sunday",
+      "drive": {
+        "legs": [
+          {
+            "id": "d1-boston-logan-rental-to-springfield-museums",
+            "from": "boston-logan-rental",
+            "to": "springfield-museums",
+            "distance_meters": 147713,
+            "distance_miles": 91.8,
+            "baseline_seconds": 6855,
+            "baseline_minutes": 115,
+            "planning_minutes": {
+              "low": 125,
+              "high": 190
+            },
+            "traffic_risk": "high",
+            "mode": "driving",
+            "display_duration_minutes": 115,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -71.029421,
+                  42.367769
+                ],
+                [
+                  -71.037429,
+                  42.346811
+                ],
+                [
+                  -71.177949,
+                  42.35787
+                ],
+                [
+                  -71.315031,
+                  42.33461
+                ],
+                [
+                  -71.367832,
+                  42.311489
+                ],
+                [
+                  -71.412023,
+                  42.315539
+                ],
+                [
+                  -71.557712,
+                  42.269721
+                ],
+                [
+                  -71.618632,
+                  42.229395
+                ],
+                [
+                  -71.755983,
+                  42.2211
+                ],
+                [
+                  -72.059325,
+                  42.129954
+                ],
+                [
+                  -72.124859,
+                  42.135049
+                ],
+                [
+                  -72.2159,
+                  42.182517
+                ],
+                [
+                  -72.282382,
+                  42.164903
+                ],
+                [
+                  -72.318532,
+                  42.17708
+                ],
+                [
+                  -72.380572,
+                  42.153946
+                ],
+                [
+                  -72.447241,
+                  42.170514
+                ],
+                [
+                  -72.546138,
+                  42.164138
+                ],
+                [
+                  -72.55036,
+                  42.142222
+                ],
+                [
+                  -72.586281,
+                  42.104401
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-71.0304,42.3682;-72.5863149,42.1043685?overview=simplified&geometries=geojson&steps=false"
+          },
+          {
+            "id": "d1-springfield-museums-to-springfield-lodging",
+            "from": "springfield-museums",
+            "to": "springfield-lodging",
+            "distance_meters": 908,
+            "distance_miles": 0.6,
+            "baseline_seconds": 121,
+            "baseline_minutes": 3,
+            "planning_minutes": {
+              "low": 5,
+              "high": 15
+            },
+            "traffic_risk": "high",
+            "mode": "driving",
+            "display_duration_minutes": 3,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -72.586281,
+                  42.104401
+                ],
+                [
+                  -72.586195,
+                  42.104352
+                ],
+                [
+                  -72.58607,
+                  42.104475
+                ],
+                [
+                  -72.586683,
+                  42.10482
+                ],
+                [
+                  -72.58753,
+                  42.104057
+                ],
+                [
+                  -72.587949,
+                  42.104392
+                ],
+                [
+                  -72.588617,
+                  42.103843
+                ],
+                [
+                  -72.587286,
+                  42.102982
+                ],
+                [
+                  -72.585527,
+                  42.101988
+                ],
+                [
+                  -72.584979,
+                  42.101849
+                ],
+                [
+                  -72.58453,
+                  42.101821
+                ],
+                [
+                  -72.584171,
+                  42.101834
+                ],
+                [
+                  -72.583306,
+                  42.101962
+                ],
+                [
+                  -72.583318,
+                  42.101753
+                ],
+                [
+                  -72.583406,
+                  42.101766
+                ],
+                [
+                  -72.583643,
+                  42.101591
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-72.5863149,42.1043685;-72.584,42.1015?overview=simplified&geometries=geojson&steps=false"
+          }
+        ],
+        "baseline_total_miles": 92.3,
+        "baseline_total_minutes": 117,
+        "planning_total_minutes": {
+          "low": 130,
+          "high": 195
+        },
+        "traffic_risk": "high",
+        "cap_minutes": 210,
+        "cap_status": "comfortable",
+        "fallback": "The working assumption is that both cars leave Logan by 12:15 after the Nantucket-Hyannis-Boston transfer. If pickup slips past that, shorten the museum campus rather than speed; the Armory closes at 16:00 and is a preference swap, not a late-arrival rescue.",
+        "traffic_note": "OSRM is a road-network baseline with no live traffic; check the actual two-car ETA before departure and cut the replaceable attraction rather than exceed 210 active minutes."
+      },
+      "weather": {
+        "kind": "historical_normal",
+        "high_c": 20.2,
+        "low_c": 8.1,
+        "precipitation_probability_percent": 33.3,
+        "comfort_score": 4.2,
+        "station_id": "USW00014740",
+        "station_name": "HARTFORD BRADLEY INTL AP, CT US",
+        "station_role": "Hartford-Springfield regional proxy",
+        "source_id": "src-noaa-normals",
+        "forecast_status": "replace_with_live_forecast_10_days_before",
+        "note": "Climate normal, not a 2026 forecast. Lake Erie wind and inland-night temperatures can feel colder than the station values."
+      }
+    },
+    {
+      "day": 2,
+      "date": "2026-10-05",
+      "sleep_city": "Troy, NY",
+      "theme": "A waterfall city and the two faces of Uncle Sam",
+      "schedule": [
+        {
+          "start": "10:30",
+          "end": "11:40",
+          "place_id": "cohoes-falls",
+          "priority": "anchor",
+          "reservation": "none"
+        },
+        {
+          "start": "12:10",
+          "end": "14:05",
+          "place_id": "oakwood-troy",
+          "priority": "anchor",
+          "reservation": "none"
+        }
+      ],
+      "lodging": {
+        "preferred_area": "Troy downtown near walkable dinner with recent cleanliness reviews and secure parking",
+        "fallback_area": "Latham only if downtown two-room inventory is weak",
+        "room_setup": "Two rooms: one 1-bed room and one 2-bed room",
+        "notes": "Strong suggestion only; manually verify recent safety, cleanliness, exact bed layout and secure parking for two cars."
+      },
+      "fallback": "Use the year-round upper overlook if the lower falls stairs are wet. Saratoga Auto replaces both anchors in poor weather; do not stack all three.",
+      "day_of_week": "Monday",
+      "drive": {
+        "legs": [
+          {
+            "id": "d2-springfield-lodging-to-cohoes-falls",
+            "from": "springfield-lodging",
+            "to": "cohoes-falls",
+            "distance_meters": 150972,
+            "distance_miles": 93.8,
+            "baseline_seconds": 7108,
+            "baseline_minutes": 119,
+            "planning_minutes": {
+              "low": 125,
+              "high": 165
+            },
+            "traffic_risk": "medium",
+            "mode": "driving",
+            "display_duration_minutes": 119,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -72.583643,
+                  42.101591
+                ],
+                [
+                  -72.605549,
+                  42.110411
+                ],
+                [
+                  -72.609711,
+                  42.134656
+                ],
+                [
+                  -72.636088,
+                  42.139867
+                ],
+                [
+                  -72.644549,
+                  42.161637
+                ],
+                [
+                  -72.639745,
+                  42.15412
+                ],
+                [
+                  -72.694668,
+                  42.13902
+                ],
+                [
+                  -72.759029,
+                  42.154856
+                ],
+                [
+                  -72.906255,
+                  42.172582
+                ],
+                [
+                  -72.993536,
+                  42.236973
+                ],
+                [
+                  -73.043933,
+                  42.23304
+                ],
+                [
+                  -73.110157,
+                  42.248037
+                ],
+                [
+                  -73.162165,
+                  42.291201
+                ],
+                [
+                  -73.194316,
+                  42.300504
+                ],
+                [
+                  -73.297311,
+                  42.297751
+                ],
+                [
+                  -73.351982,
+                  42.307479
+                ],
+                [
+                  -73.368241,
+                  42.330514
+                ],
+                [
+                  -73.435765,
+                  42.366103
+                ],
+                [
+                  -73.455627,
+                  42.368417
+                ],
+                [
+                  -73.471608,
+                  42.389293
+                ],
+                [
+                  -73.49423,
+                  42.389646
+                ],
+                [
+                  -73.540926,
+                  42.414172
+                ],
+                [
+                  -73.556821,
+                  42.442375
+                ],
+                [
+                  -73.583778,
+                  42.459777
+                ],
+                [
+                  -73.629963,
+                  42.482427
+                ],
+                [
+                  -73.669731,
+                  42.483376
+                ],
+                [
+                  -73.688799,
+                  42.511584
+                ],
+                [
+                  -73.677209,
+                  42.592015
+                ],
+                [
+                  -73.731402,
+                  42.667329
+                ],
+                [
+                  -73.709832,
+                  42.694537
+                ],
+                [
+                  -73.698166,
+                  42.732233
+                ],
+                [
+                  -73.697784,
+                  42.7689
+                ],
+                [
+                  -73.711103,
+                  42.78583
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-72.584,42.1015;-73.7100667,42.7859806?overview=simplified&geometries=geojson&steps=false"
+          },
+          {
+            "id": "d2-cohoes-falls-to-oakwood-troy",
+            "from": "cohoes-falls",
+            "to": "oakwood-troy",
+            "distance_meters": 6333,
+            "distance_miles": 3.9,
+            "baseline_seconds": 898,
+            "baseline_minutes": 15,
+            "planning_minutes": {
+              "low": 20,
+              "high": 25
+            },
+            "traffic_risk": "medium",
+            "mode": "driving",
+            "display_duration_minutes": 15,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -73.711103,
+                  42.78583
+                ],
+                [
+                  -73.710941,
+                  42.785094
+                ],
+                [
+                  -73.710123,
+                  42.784171
+                ],
+                [
+                  -73.707166,
+                  42.783066
+                ],
+                [
+                  -73.702243,
+                  42.778358
+                ],
+                [
+                  -73.700807,
+                  42.777504
+                ],
+                [
+                  -73.700998,
+                  42.777113
+                ],
+                [
+                  -73.700252,
+                  42.775658
+                ],
+                [
+                  -73.700091,
+                  42.774436
+                ],
+                [
+                  -73.690194,
+                  42.773353
+                ],
+                [
+                  -73.678936,
+                  42.771015
+                ],
+                [
+                  -73.677795,
+                  42.773482
+                ],
+                [
+                  -73.670005,
+                  42.771589
+                ],
+                [
+                  -73.667764,
+                  42.773182
+                ],
+                [
+                  -73.667356,
+                  42.770969
+                ],
+                [
+                  -73.667585,
+                  42.768805
+                ],
+                [
+                  -73.667072,
+                  42.767937
+                ],
+                [
+                  -73.667491,
+                  42.766736
+                ],
+                [
+                  -73.666834,
+                  42.765561
+                ],
+                [
+                  -73.665896,
+                  42.765115
+                ],
+                [
+                  -73.665853,
+                  42.764673
+                ],
+                [
+                  -73.667102,
+                  42.76369
+                ],
+                [
+                  -73.666618,
+                  42.761557
+                ],
+                [
+                  -73.666836,
+                  42.761059
+                ],
+                [
+                  -73.667516,
+                  42.761094
+                ],
+                [
+                  -73.667475,
+                  42.762107
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-73.7100667,42.7859806;-73.6680166,42.7624063?overview=simplified&geometries=geojson&steps=false"
+          },
+          {
+            "id": "d2-oakwood-troy-to-troy-lodging",
+            "from": "oakwood-troy",
+            "to": "troy-lodging",
+            "distance_meters": 4562,
+            "distance_miles": 2.8,
+            "baseline_seconds": 666,
+            "baseline_minutes": 12,
+            "planning_minutes": {
+              "low": 15,
+              "high": 25
+            },
+            "traffic_risk": "medium",
+            "mode": "driving",
+            "display_duration_minutes": 12,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -73.667475,
+                  42.762107
+                ],
+                [
+                  -73.667727,
+                  42.760806
+                ],
+                [
+                  -73.668148,
+                  42.760751
+                ],
+                [
+                  -73.668332,
+                  42.760089
+                ],
+                [
+                  -73.669004,
+                  42.759892
+                ],
+                [
+                  -73.670071,
+                  42.758996
+                ],
+                [
+                  -73.670126,
+                  42.756209
+                ],
+                [
+                  -73.670977,
+                  42.754785
+                ],
+                [
+                  -73.67059,
+                  42.752782
+                ],
+                [
+                  -73.671758,
+                  42.748688
+                ],
+                [
+                  -73.677366,
+                  42.743118
+                ],
+                [
+                  -73.679409,
+                  42.740573
+                ],
+                [
+                  -73.67975,
+                  42.739528
+                ],
+                [
+                  -73.683115,
+                  42.73964
+                ],
+                [
+                  -73.682757,
+                  42.738726
+                ],
+                [
+                  -73.683274,
+                  42.73694
+                ],
+                [
+                  -73.684643,
+                  42.735432
+                ],
+                [
+                  -73.685996,
+                  42.733099
+                ],
+                [
+                  -73.686817,
+                  42.729597
+                ],
+                [
+                  -73.685976,
+                  42.729494
+                ],
+                [
+                  -73.686338,
+                  42.728402
+                ],
+                [
+                  -73.686797,
+                  42.728428
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-73.6680166,42.7624063;-73.6868,42.7284?overview=simplified&geometries=geojson&steps=false"
+          }
+        ],
+        "baseline_total_miles": 100.6,
+        "baseline_total_minutes": 145,
+        "planning_total_minutes": {
+          "low": 155,
+          "high": 200
+        },
+        "traffic_risk": "medium",
+        "cap_minutes": 210,
+        "cap_status": "comfortable",
+        "fallback": "Use the year-round upper overlook if the lower falls stairs are wet. Saratoga Auto replaces both anchors in poor weather; do not stack all three.",
+        "traffic_note": "OSRM is a road-network baseline with no live traffic; check the actual two-car ETA before departure and cut the replaceable attraction rather than exceed 210 active minutes."
+      },
+      "weather": {
+        "kind": "historical_normal",
+        "high_c": 19,
+        "low_c": 7.2,
+        "precipitation_probability_percent": 35.9,
+        "comfort_score": 4.5,
+        "station_id": "USW00014735",
+        "station_name": "ALBANY AP, NY US",
+        "station_role": "Albany-Troy regional station",
+        "source_id": "src-noaa-normals",
+        "forecast_status": "replace_with_live_forecast_10_days_before",
+        "note": "Climate normal, not a 2026 forecast. Lake Erie wind and inland-night temperatures can feel colder than the station values."
+      }
+    },
+    {
+      "day": 3,
+      "date": "2026-10-06",
+      "sleep_city": "Syracuse, NY",
+      "theme": "The small-town world capital of boxing",
+      "schedule": [
+        {
+          "start": "12:00",
+          "end": "14:00",
+          "place_id": "boxing-hof",
+          "priority": "anchor",
+          "reservation": "none"
+        }
+      ],
+      "lodging": {
+        "preferred_area": "Syracuse downtown/Armory Square with two-room inventory and secure garage",
+        "fallback_area": "East Syracuse near I-90 for a quieter, easier morning exit",
+        "room_setup": "Two rooms: one 1-bed room and one 2-bed room",
+        "notes": "Strong suggestion only; manually verify recent safety, cleanliness, exact bed layout and secure parking for two cars."
+      },
+      "fallback": "Chittenango Falls is the foliage swap when the group needs open air. Use only the top overlook in heavy rain or slippery conditions.",
+      "day_of_week": "Tuesday",
+      "drive": {
+        "legs": [
+          {
+            "id": "d3-troy-lodging-to-boxing-hof",
+            "from": "troy-lodging",
+            "to": "boxing-hof",
+            "distance_meters": 203727,
+            "distance_miles": 126.6,
+            "baseline_seconds": 9120,
+            "baseline_minutes": 152,
+            "planning_minutes": {
+              "low": 160,
+              "high": 210
+            },
+            "traffic_risk": "medium",
+            "mode": "driving",
+            "display_duration_minutes": 152,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -73.686797,
+                  42.728428
+                ],
+                [
+                  -73.681773,
+                  42.739699
+                ],
+                [
+                  -73.765272,
+                  42.764072
+                ],
+                [
+                  -73.790042,
+                  42.732029
+                ],
+                [
+                  -73.841801,
+                  42.696767
+                ],
+                [
+                  -73.929831,
+                  42.7522
+                ],
+                [
+                  -74.011458,
+                  42.784544
+                ],
+                [
+                  -74.013526,
+                  42.839705
+                ],
+                [
+                  -74.046581,
+                  42.870136
+                ],
+                [
+                  -74.102382,
+                  42.898084
+                ],
+                [
+                  -74.240027,
+                  42.932356
+                ],
+                [
+                  -74.307464,
+                  42.930301
+                ],
+                [
+                  -74.379342,
+                  42.948271
+                ],
+                [
+                  -74.467036,
+                  42.897028
+                ],
+                [
+                  -74.529915,
+                  42.894179
+                ],
+                [
+                  -74.60664,
+                  42.915416
+                ],
+                [
+                  -74.63663,
+                  42.959759
+                ],
+                [
+                  -74.671535,
+                  42.989464
+                ],
+                [
+                  -74.72518,
+                  42.989935
+                ],
+                [
+                  -74.806093,
+                  43.017109
+                ],
+                [
+                  -74.884663,
+                  43.004662
+                ],
+                [
+                  -75.01044,
+                  43.018013
+                ],
+                [
+                  -75.042041,
+                  43.030564
+                ],
+                [
+                  -75.067642,
+                  43.055813
+                ],
+                [
+                  -75.115508,
+                  43.082277
+                ],
+                [
+                  -75.272213,
+                  43.136892
+                ],
+                [
+                  -75.387334,
+                  43.122974
+                ],
+                [
+                  -75.482681,
+                  43.136306
+                ],
+                [
+                  -75.609651,
+                  43.125938
+                ],
+                [
+                  -75.727241,
+                  43.101361
+                ],
+                [
+                  -75.749678,
+                  43.089886
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-73.6868,42.7284;-75.7501454,43.0896405?overview=simplified&geometries=geojson&steps=false"
+          },
+          {
+            "id": "d3-boxing-hof-to-syracuse-lodging",
+            "from": "boxing-hof",
+            "to": "syracuse-lodging",
+            "distance_meters": 39846,
+            "distance_miles": 24.8,
+            "baseline_seconds": 2056,
+            "baseline_minutes": 35,
+            "planning_minutes": {
+              "low": 40,
+              "high": 55
+            },
+            "traffic_risk": "medium",
+            "mode": "driving",
+            "display_duration_minutes": 35,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -75.749678,
+                  43.089886
+                ],
+                [
+                  -75.750636,
+                  43.087807
+                ],
+                [
+                  -75.746365,
+                  43.090758
+                ],
+                [
+                  -75.74617,
+                  43.094705
+                ],
+                [
+                  -75.748723,
+                  43.092239
+                ],
+                [
+                  -75.761825,
+                  43.090164
+                ],
+                [
+                  -75.846844,
+                  43.095949
+                ],
+                [
+                  -75.922643,
+                  43.091467
+                ],
+                [
+                  -76.038624,
+                  43.095022
+                ],
+                [
+                  -76.0446,
+                  43.098379
+                ],
+                [
+                  -76.054985,
+                  43.098391
+                ],
+                [
+                  -76.052026,
+                  43.062313
+                ],
+                [
+                  -76.054058,
+                  43.05882
+                ],
+                [
+                  -76.060991,
+                  43.056977
+                ],
+                [
+                  -76.095079,
+                  43.059525
+                ],
+                [
+                  -76.128664,
+                  43.051714
+                ],
+                [
+                  -76.145564,
+                  43.051771
+                ],
+                [
+                  -76.1474,
+                  43.048093
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-75.7501454,43.0896405;-76.1474,43.0481?overview=simplified&geometries=geojson&steps=false"
+          }
+        ],
+        "baseline_total_miles": 151.3,
+        "baseline_total_minutes": 187,
+        "planning_total_minutes": {
+          "low": 200,
+          "high": 255
+        },
+        "traffic_risk": "medium",
+        "cap_minutes": 210,
+        "cap_status": "near-cap",
+        "fallback": "Chittenango Falls is the foliage swap when the group needs open air. Use only the top overlook in heavy rain or slippery conditions.",
+        "traffic_note": "OSRM is a road-network baseline with no live traffic; check the actual two-car ETA before departure and cut the replaceable attraction rather than exceed 210 active minutes."
+      },
+      "weather": {
+        "kind": "historical_normal",
+        "high_c": 17.9,
+        "low_c": 7.6,
+        "precipitation_probability_percent": 45.6,
+        "comfort_score": 4,
+        "station_id": "USW00014771",
+        "station_name": "SYRACUSE HANCOCK INTL AP, NY US",
+        "station_role": "Syracuse airport",
+        "source_id": "src-noaa-normals",
+        "forecast_status": "replace_with_live_forecast_10_days_before",
+        "note": "Climate normal, not a 2026 forecast. Lake Erie wind and inland-night temperatures can feel colder than the station values."
+      }
+    },
+    {
+      "day": 4,
+      "date": "2026-10-07",
+      "sleep_city": "Batavia, NY",
+      "theme": "Suffrage decisions, graves and a quiet Victorian landscape",
+      "schedule": [
+        {
+          "start": "11:30",
+          "end": "13:00",
+          "place_id": "anthony-house",
+          "priority": "anchor",
+          "reservation": "reserve-recommended"
+        },
+        {
+          "start": "13:20",
+          "end": "14:35",
+          "place_id": "mount-hope-rochester",
+          "priority": "anchor",
+          "reservation": "none"
+        }
+      ],
+      "lodging": {
+        "preferred_area": "Batavia I-90 corridor with two clean rooms and lighted parking",
+        "fallback_area": "Le Roy only if the bed layout and recent reviews are clearly stronger",
+        "room_setup": "Two rooms: one 1-bed room and one 2-bed room",
+        "notes": "Strong suggestion only; manually verify recent safety, cleanliness, exact bed layout and secure parking for two cars."
+      },
+      "fallback": "Reserve the Anthony tour. If rain or tour inventory breaks the pair, choose RMSC and verify the Tesla-coil show time; never stack RMSC onto the two core stops.",
+      "day_of_week": "Wednesday",
+      "drive": {
+        "legs": [
+          {
+            "id": "d4-syracuse-lodging-to-anthony-house",
+            "from": "syracuse-lodging",
+            "to": "anthony-house",
+            "distance_meters": 140466,
+            "distance_miles": 87.3,
+            "baseline_seconds": 6504,
+            "baseline_minutes": 109,
+            "planning_minutes": {
+              "low": 115,
+              "high": 150
+            },
+            "traffic_risk": "medium",
+            "mode": "driving",
+            "display_duration_minutes": 109,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -76.1474,
+                  43.048093
+                ],
+                [
+                  -76.196747,
+                  43.065761
+                ],
+                [
+                  -76.246859,
+                  43.105856
+                ],
+                [
+                  -76.289057,
+                  43.114512
+                ],
+                [
+                  -76.288372,
+                  43.107243
+                ],
+                [
+                  -76.323192,
+                  43.09035
+                ],
+                [
+                  -76.459628,
+                  43.080507
+                ],
+                [
+                  -76.606717,
+                  43.052727
+                ],
+                [
+                  -76.71453,
+                  43.002039
+                ],
+                [
+                  -76.821119,
+                  42.971443
+                ],
+                [
+                  -76.909273,
+                  42.958812
+                ],
+                [
+                  -77.022578,
+                  42.95608
+                ],
+                [
+                  -77.091315,
+                  42.97422
+                ],
+                [
+                  -77.266374,
+                  42.979739
+                ],
+                [
+                  -77.424517,
+                  43.000685
+                ],
+                [
+                  -77.498394,
+                  43.088847
+                ],
+                [
+                  -77.508226,
+                  43.117879
+                ],
+                [
+                  -77.545408,
+                  43.142757
+                ],
+                [
+                  -77.594258,
+                  43.141876
+                ],
+                [
+                  -77.628004,
+                  43.153367
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-76.1474,43.0481;-77.6280045,43.1532425?overview=simplified&geometries=geojson&steps=false"
+          },
+          {
+            "id": "d4-anthony-house-to-mount-hope-rochester",
+            "from": "anthony-house",
+            "to": "mount-hope-rochester",
+            "distance_meters": 4654,
+            "distance_miles": 2.9,
+            "baseline_seconds": 552,
+            "baseline_minutes": 10,
+            "planning_minutes": {
+              "low": 15,
+              "high": 20
+            },
+            "traffic_risk": "medium",
+            "mode": "driving",
+            "display_duration_minutes": 10,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -77.628004,
+                  43.153367
+                ],
+                [
+                  -77.627758,
+                  43.153366
+                ],
+                [
+                  -77.627726,
+                  43.152248
+                ],
+                [
+                  -77.628972,
+                  43.151941
+                ],
+                [
+                  -77.629016,
+                  43.146611
+                ],
+                [
+                  -77.620018,
+                  43.146609
+                ],
+                [
+                  -77.618271,
+                  43.143667
+                ],
+                [
+                  -77.616134,
+                  43.142718
+                ],
+                [
+                  -77.613449,
+                  43.14088
+                ],
+                [
+                  -77.614526,
+                  43.138402
+                ],
+                [
+                  -77.613276,
+                  43.132385
+                ],
+                [
+                  -77.615927,
+                  43.127685
+                ],
+                [
+                  -77.61701,
+                  43.127602
+                ],
+                [
+                  -77.617203,
+                  43.127234
+                ],
+                [
+                  -77.619391,
+                  43.127611
+                ],
+                [
+                  -77.618088,
+                  43.129954
+                ],
+                [
+                  -77.618819,
+                  43.129924
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-77.6280045,43.1532425;-77.618824,43.1299725?overview=simplified&geometries=geojson&steps=false"
+          },
+          {
+            "id": "d4-mount-hope-rochester-to-batavia-lodging",
+            "from": "mount-hope-rochester",
+            "to": "batavia-lodging",
+            "distance_meters": 53857,
+            "distance_miles": 33.5,
+            "baseline_seconds": 3061,
+            "baseline_minutes": 52,
+            "planning_minutes": {
+              "low": 55,
+              "high": 75
+            },
+            "traffic_risk": "medium",
+            "mode": "driving",
+            "display_duration_minutes": 52,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -77.618819,
+                  43.129924
+                ],
+                [
+                  -77.62114,
+                  43.125637
+                ],
+                [
+                  -77.629198,
+                  43.12315
+                ],
+                [
+                  -77.639329,
+                  43.125739
+                ],
+                [
+                  -77.646649,
+                  43.122909
+                ],
+                [
+                  -77.658179,
+                  43.127453
+                ],
+                [
+                  -77.66792,
+                  43.141296
+                ],
+                [
+                  -77.666465,
+                  43.140065
+                ],
+                [
+                  -77.70141,
+                  43.126572
+                ],
+                [
+                  -77.722071,
+                  43.133826
+                ],
+                [
+                  -77.73498,
+                  43.123037
+                ],
+                [
+                  -77.768136,
+                  43.11634
+                ],
+                [
+                  -77.792588,
+                  43.099229
+                ],
+                [
+                  -77.801496,
+                  43.095301
+                ],
+                [
+                  -77.829322,
+                  43.09435
+                ],
+                [
+                  -77.867078,
+                  43.098106
+                ],
+                [
+                  -77.92026,
+                  43.086319
+                ],
+                [
+                  -77.928268,
+                  43.082838
+                ],
+                [
+                  -77.937276,
+                  43.074858
+                ],
+                [
+                  -77.959113,
+                  43.071095
+                ],
+                [
+                  -78.020873,
+                  43.041351
+                ],
+                [
+                  -78.100521,
+                  43.019922
+                ],
+                [
+                  -78.164295,
+                  42.99495
+                ],
+                [
+                  -78.187602,
+                  42.998129
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-77.618824,43.1299725;-78.1875,42.9984?overview=simplified&geometries=geojson&steps=false"
+          }
+        ],
+        "baseline_total_miles": 123.6,
+        "baseline_total_minutes": 169,
+        "planning_total_minutes": {
+          "low": 180,
+          "high": 230
+        },
+        "traffic_risk": "medium",
+        "cap_minutes": 210,
+        "cap_status": "comfortable",
+        "fallback": "Reserve the Anthony tour. If rain or tour inventory breaks the pair, choose RMSC and verify the Tesla-coil show time; never stack RMSC onto the two core stops.",
+        "traffic_note": "OSRM is a road-network baseline with no live traffic; check the actual two-car ETA before departure and cut the replaceable attraction rather than exceed 210 active minutes."
+      },
+      "weather": {
+        "kind": "historical_normal",
+        "high_c": 18.3,
+        "low_c": 7.8,
+        "precipitation_probability_percent": 42.2,
+        "comfort_score": 4.3,
+        "station_id": "USW00014768",
+        "station_name": "ROCHESTER GTR INTL AP, NY US",
+        "station_role": "Rochester-Batavia regional proxy",
+        "source_id": "src-noaa-normals",
+        "forecast_status": "replace_with_live_forecast_10_days_before",
+        "note": "Climate normal, not a 2026 forecast. Lake Erie wind and inland-night temperatures can feel colder than the station values."
+      }
+    },
+    {
+      "day": 5,
+      "date": "2026-10-08",
+      "sleep_city": "Erie, PA",
+      "theme": "Make a kazoo, then look across an inland sea",
+      "schedule": [
+        {
+          "start": "10:00",
+          "end": "11:25",
+          "place_id": "eden-kazoo",
+          "priority": "anchor",
+          "reservation": "call-day-before"
+        },
+        {
+          "start": "14:10",
+          "end": "15:55",
+          "place_id": "trec-presque-isle",
+          "priority": "anchor",
+          "reservation": "none"
+        }
+      ],
+      "lodging": {
+        "preferred_area": "Erie bayfront or west side with secure parking and two clean rooms",
+        "fallback_area": "Presque Isle gateway only if Friday's live Cleveland ETA stays protected",
+        "room_setup": "Two rooms: one 1-bed room and one 2-bed room",
+        "notes": "Strong suggestion only; manually verify recent safety, cleanliness, exact bed layout and secure parking for two cars."
+      },
+      "fallback": "Call the kazoo factory Wednesday to confirm machinery. TREC closes at 16:00. Erie Maritime replaces TREC only after direct hours confirmation; it is never an extra.",
+      "day_of_week": "Thursday",
+      "drive": {
+        "legs": [
+          {
+            "id": "d5-batavia-lodging-to-eden-kazoo",
+            "from": "batavia-lodging",
+            "to": "eden-kazoo",
+            "distance_meters": 91054,
+            "distance_miles": 56.6,
+            "baseline_seconds": 4683,
+            "baseline_minutes": 79,
+            "planning_minutes": {
+              "low": 85,
+              "high": 110
+            },
+            "traffic_risk": "medium",
+            "mode": "driving",
+            "display_duration_minutes": 79,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -78.187602,
+                  42.998129
+                ],
+                [
+                  -78.192114,
+                  43.000114
+                ],
+                [
+                  -78.192146,
+                  43.015633
+                ],
+                [
+                  -78.184956,
+                  43.020726
+                ],
+                [
+                  -78.392822,
+                  43.010266
+                ],
+                [
+                  -78.433081,
+                  42.992712
+                ],
+                [
+                  -78.499762,
+                  42.979702
+                ],
+                [
+                  -78.529836,
+                  42.968648
+                ],
+                [
+                  -78.609882,
+                  42.950363
+                ],
+                [
+                  -78.67178,
+                  42.947459
+                ],
+                [
+                  -78.761929,
+                  42.950439
+                ],
+                [
+                  -78.766497,
+                  42.944223
+                ],
+                [
+                  -78.768183,
+                  42.884304
+                ],
+                [
+                  -78.787945,
+                  42.875092
+                ],
+                [
+                  -78.791794,
+                  42.866394
+                ],
+                [
+                  -78.79184,
+                  42.816716
+                ],
+                [
+                  -78.815547,
+                  42.800669
+                ],
+                [
+                  -78.819019,
+                  42.765279
+                ],
+                [
+                  -78.837043,
+                  42.746902
+                ],
+                [
+                  -78.848695,
+                  42.742847
+                ],
+                [
+                  -78.835292,
+                  42.731399
+                ],
+                [
+                  -78.839094,
+                  42.71662
+                ],
+                [
+                  -78.856885,
+                  42.692141
+                ],
+                [
+                  -78.89053,
+                  42.663415
+                ],
+                [
+                  -78.898308,
+                  42.649256
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-78.1875,42.9984;-78.8983928,42.6491077?overview=simplified&geometries=geojson&steps=false"
+          },
+          {
+            "id": "d5-eden-kazoo-to-trec-presque-isle",
+            "from": "eden-kazoo",
+            "to": "trec-presque-isle",
+            "distance_meters": 130249,
+            "distance_miles": 80.9,
+            "baseline_seconds": 6451,
+            "baseline_minutes": 108,
+            "planning_minutes": {
+              "low": 115,
+              "high": 150
+            },
+            "traffic_risk": "medium",
+            "mode": "driving",
+            "display_duration_minutes": 108,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -78.898308,
+                  42.649256
+                ],
+                [
+                  -78.896926,
+                  42.652405
+                ],
+                [
+                  -78.911558,
+                  42.659252
+                ],
+                [
+                  -78.954936,
+                  42.652506
+                ],
+                [
+                  -78.962024,
+                  42.661301
+                ],
+                [
+                  -79.027651,
+                  42.604654
+                ],
+                [
+                  -79.081252,
+                  42.573912
+                ],
+                [
+                  -79.149917,
+                  42.519404
+                ],
+                [
+                  -79.164894,
+                  42.513141
+                ],
+                [
+                  -79.202111,
+                  42.511085
+                ],
+                [
+                  -79.236297,
+                  42.497316
+                ],
+                [
+                  -79.297486,
+                  42.464133
+                ],
+                [
+                  -79.366845,
+                  42.455053
+                ],
+                [
+                  -79.407598,
+                  42.416799
+                ],
+                [
+                  -79.437666,
+                  42.410317
+                ],
+                [
+                  -79.541271,
+                  42.353985
+                ],
+                [
+                  -79.579165,
+                  42.341476
+                ],
+                [
+                  -79.621136,
+                  42.313911
+                ],
+                [
+                  -79.755427,
+                  42.257582
+                ],
+                [
+                  -79.77685,
+                  42.239509
+                ],
+                [
+                  -79.78565,
+                  42.223723
+                ],
+                [
+                  -79.849602,
+                  42.170227
+                ],
+                [
+                  -79.963859,
+                  42.119105
+                ],
+                [
+                  -79.986866,
+                  42.125202
+                ],
+                [
+                  -80.016799,
+                  42.122274
+                ],
+                [
+                  -80.058084,
+                  42.125794
+                ],
+                [
+                  -80.079302,
+                  42.117964
+                ],
+                [
+                  -80.082673,
+                  42.123
+                ],
+                [
+                  -80.145603,
+                  42.099762
+                ],
+                [
+                  -80.153938,
+                  42.109624
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-78.8983928,42.6491077;-80.1540595,42.1100038?overview=simplified&geometries=geojson&steps=false"
+          },
+          {
+            "id": "d5-trec-presque-isle-to-erie-lodging",
+            "from": "trec-presque-isle",
+            "to": "erie-lodging",
+            "distance_meters": 8137,
+            "distance_miles": 5.1,
+            "baseline_seconds": 736,
+            "baseline_minutes": 13,
+            "planning_minutes": {
+              "low": 15,
+              "high": 25
+            },
+            "traffic_risk": "medium",
+            "mode": "driving",
+            "display_duration_minutes": 13,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -80.153938,
+                  42.109624
+                ],
+                [
+                  -80.154364,
+                  42.109282
+                ],
+                [
+                  -80.153391,
+                  42.107982
+                ],
+                [
+                  -80.15367,
+                  42.107694
+                ],
+                [
+                  -80.148378,
+                  42.104042
+                ],
+                [
+                  -80.145603,
+                  42.099762
+                ],
+                [
+                  -80.081303,
+                  42.123509
+                ],
+                [
+                  -80.084597,
+                  42.128449
+                ],
+                [
+                  -80.082512,
+                  42.129219
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-80.1540595,42.1100038;-80.0825,42.1292?overview=simplified&geometries=geojson&steps=false"
+          }
+        ],
+        "baseline_total_miles": 142.6,
+        "baseline_total_minutes": 198,
+        "planning_total_minutes": {
+          "low": 210,
+          "high": 270
+        },
+        "traffic_risk": "medium",
+        "cap_minutes": 210,
+        "cap_status": "near-cap",
+        "fallback": "Call the kazoo factory Wednesday to confirm machinery. TREC closes at 16:00. Erie Maritime replaces TREC only after direct hours confirmation; it is never an extra.",
+        "traffic_note": "OSRM is a road-network baseline with no live traffic; check the actual two-car ETA before departure and cut the replaceable attraction rather than exceed 210 active minutes."
+      },
+      "weather": {
+        "kind": "historical_normal",
+        "high_c": 18.5,
+        "low_c": 9.4,
+        "precipitation_probability_percent": 42.9,
+        "comfort_score": 3.7,
+        "station_id": "USW00014860",
+        "station_name": "ERIE INTL AP, PA US",
+        "station_role": "Erie airport",
+        "source_id": "src-noaa-normals",
+        "forecast_status": "replace_with_live_forecast_10_days_before",
+        "note": "Climate normal, not a 2026 forecast. Lake Erie wind and inland-night temperatures can feel colder than the station values."
+      }
+    },
+    {
+      "day": 6,
+      "date": "2026-10-09",
+      "sleep_city": "Cleveland, OH",
+      "theme": "Rock artifacts, film mythology, an occult cabinet and the one earned big night",
+      "schedule": [
+        {
+          "start": "10:45",
+          "end": "13:15",
+          "place_id": "rock-hall",
+          "priority": "anchor",
+          "reservation": "reserve"
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "place_id": "christmas-story-house",
+          "priority": "anchor",
+          "reservation": "reserve"
+        },
+        {
+          "start": "15:25",
+          "end": "16:20",
+          "place_id": "buckland-museum",
+          "priority": "anchor",
+          "reservation": "reserve"
+        },
+        {
+          "start": "20:00",
+          "end": "23:00",
+          "place_id": "sugar-agora",
+          "priority": "anchor",
+          "reservation": "reserve-now"
+        }
+      ],
+      "lodging": {
+        "preferred_area": "Cleveland downtown with two rooms, secure garage and a short rideshare to Agora",
+        "fallback_area": "University Circle only if concert transport and two-car overnight parking are explicit",
+        "room_setup": "Two rooms: one 1-bed room and one 2-bed room",
+        "notes": "Strong suggestion only; manually verify recent safety, cleanliness, exact bed layout and secure parking for two cars."
+      },
+      "fallback": "Book Rock Hall, the film-house tour and Sugar first. Buckland is accepted only with a real timed ticket; Crawford is the measured Friday swap. Park both cars before dinner and use rideshare for the show.",
+      "day_of_week": "Friday",
+      "drive": {
+        "legs": [
+          {
+            "id": "d6-erie-lodging-to-rock-hall",
+            "from": "erie-lodging",
+            "to": "rock-hall",
+            "distance_meters": 163656,
+            "distance_miles": 101.7,
+            "baseline_seconds": 7259,
+            "baseline_minutes": 121,
+            "planning_minutes": {
+              "low": 130,
+              "high": 165
+            },
+            "traffic_risk": "medium",
+            "mode": "driving",
+            "display_duration_minutes": 121,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -80.082512,
+                  42.129219
+                ],
+                [
+                  -80.079943,
+                  42.124013
+                ],
+                [
+                  -80.122316,
+                  42.109367
+                ],
+                [
+                  -80.105594,
+                  42.06727
+                ],
+                [
+                  -80.13457,
+                  42.026415
+                ],
+                [
+                  -80.219233,
+                  42.013136
+                ],
+                [
+                  -80.38564,
+                  41.946598
+                ],
+                [
+                  -80.508112,
+                  41.942818
+                ],
+                [
+                  -80.658185,
+                  41.885359
+                ],
+                [
+                  -80.74022,
+                  41.832346
+                ],
+                [
+                  -80.791757,
+                  41.826469
+                ],
+                [
+                  -80.877655,
+                  41.775044
+                ],
+                [
+                  -81.046244,
+                  41.759614
+                ],
+                [
+                  -81.124985,
+                  41.722861
+                ],
+                [
+                  -81.165661,
+                  41.714538
+                ],
+                [
+                  -81.291445,
+                  41.651023
+                ],
+                [
+                  -81.377628,
+                  41.639527
+                ],
+                [
+                  -81.450222,
+                  41.592069
+                ],
+                [
+                  -81.482326,
+                  41.590278
+                ],
+                [
+                  -81.496571,
+                  41.605539
+                ],
+                [
+                  -81.695067,
+                  41.508762
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-80.0825,42.1292;-81.6954068,41.5084983?overview=simplified&geometries=geojson&steps=false"
+          },
+          {
+            "id": "d6-rock-hall-to-christmas-story-house",
+            "from": "rock-hall",
+            "to": "christmas-story-house",
+            "distance_meters": 5759,
+            "distance_miles": 3.6,
+            "baseline_seconds": 610,
+            "baseline_minutes": 11,
+            "planning_minutes": {
+              "low": 15,
+              "high": 20
+            },
+            "traffic_risk": "medium",
+            "mode": "driving",
+            "display_duration_minutes": 11,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -81.695067,
+                  41.508762
+                ],
+                [
+                  -81.694672,
+                  41.509074
+                ],
+                [
+                  -81.68245,
+                  41.495209
+                ],
+                [
+                  -81.682628,
+                  41.494908
+                ],
+                [
+                  -81.685706,
+                  41.493389
+                ],
+                [
+                  -81.687793,
+                  41.491657
+                ],
+                [
+                  -81.690675,
+                  41.487184
+                ],
+                [
+                  -81.692657,
+                  41.483207
+                ],
+                [
+                  -81.693354,
+                  41.482903
+                ],
+                [
+                  -81.693855,
+                  41.483389
+                ],
+                [
+                  -81.693534,
+                  41.483735
+                ],
+                [
+                  -81.692544,
+                  41.483809
+                ],
+                [
+                  -81.691372,
+                  41.482255
+                ],
+                [
+                  -81.691201,
+                  41.47004
+                ],
+                [
+                  -81.688824,
+                  41.470084
+                ],
+                [
+                  -81.687632,
+                  41.468723
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-81.6954068,41.5084983;-81.6874123,41.4687248?overview=simplified&geometries=geojson&steps=false"
+          },
+          {
+            "id": "d6-christmas-story-house-to-buckland-museum",
+            "from": "christmas-story-house",
+            "to": "buckland-museum",
+            "distance_meters": 4832,
+            "distance_miles": 3,
+            "baseline_seconds": 491,
+            "baseline_minutes": 9,
+            "planning_minutes": {
+              "low": 10,
+              "high": 20
+            },
+            "traffic_risk": "medium",
+            "mode": "driving",
+            "display_duration_minutes": 9,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -81.687632,
+                  41.468723
+                ],
+                [
+                  -81.687622,
+                  41.468031
+                ],
+                [
+                  -81.691182,
+                  41.46798
+                ],
+                [
+                  -81.691431,
+                  41.465565
+                ],
+                [
+                  -81.694321,
+                  41.464619
+                ],
+                [
+                  -81.694834,
+                  41.460974
+                ],
+                [
+                  -81.69438,
+                  41.459674
+                ],
+                [
+                  -81.691795,
+                  41.45735
+                ],
+                [
+                  -81.691138,
+                  41.45492
+                ],
+                [
+                  -81.689172,
+                  41.454047
+                ],
+                [
+                  -81.688246,
+                  41.454061
+                ],
+                [
+                  -81.687755,
+                  41.453052
+                ],
+                [
+                  -81.687645,
+                  41.446411
+                ],
+                [
+                  -81.689123,
+                  41.446427
+                ],
+                [
+                  -81.693365,
+                  41.445615
+                ],
+                [
+                  -81.693872,
+                  41.44499
+                ],
+                [
+                  -81.693987,
+                  41.442955
+                ],
+                [
+                  -81.695908,
+                  41.439264
+                ],
+                [
+                  -81.699288,
+                  41.437971
+                ],
+                [
+                  -81.699639,
+                  41.438221
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-81.6874123,41.4687248;-81.6997569,41.4381207?overview=simplified&geometries=geojson&steps=false"
+          },
+          {
+            "id": "d6-buckland-museum-to-sugar-agora",
+            "from": "buckland-museum",
+            "to": "sugar-agora",
+            "distance_meters": 9878,
+            "distance_miles": 6.1,
+            "baseline_seconds": 776,
+            "baseline_minutes": 13,
+            "planning_minutes": {
+              "low": 15,
+              "high": 25
+            },
+            "traffic_risk": "medium",
+            "mode": "driving",
+            "display_duration_minutes": 13,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -81.699639,
+                  41.438221
+                ],
+                [
+                  -81.704912,
+                  41.441669
+                ],
+                [
+                  -81.702977,
+                  41.44517
+                ],
+                [
+                  -81.701098,
+                  41.456059
+                ],
+                [
+                  -81.696171,
+                  41.458393
+                ],
+                [
+                  -81.694296,
+                  41.460782
+                ],
+                [
+                  -81.692667,
+                  41.468456
+                ],
+                [
+                  -81.692941,
+                  41.479239
+                ],
+                [
+                  -81.691147,
+                  41.485366
+                ],
+                [
+                  -81.688362,
+                  41.490288
+                ],
+                [
+                  -81.68464,
+                  41.493485
+                ],
+                [
+                  -81.678983,
+                  41.495532
+                ],
+                [
+                  -81.673032,
+                  41.498504
+                ],
+                [
+                  -81.670097,
+                  41.499585
+                ],
+                [
+                  -81.657398,
+                  41.500997
+                ],
+                [
+                  -81.657678,
+                  41.50222
+                ],
+                [
+                  -81.653779,
+                  41.502689
+                ],
+                [
+                  -81.653618,
+                  41.503232
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-81.6997569,41.4381207;-81.6536566,41.5034443?overview=simplified&geometries=geojson&steps=false"
+          },
+          {
+            "id": "d6-sugar-agora-to-cleveland-lodging",
+            "from": "sugar-agora",
+            "to": "cleveland-lodging",
+            "distance_meters": 3636,
+            "distance_miles": 2.3,
+            "baseline_seconds": 390,
+            "baseline_minutes": 7,
+            "planning_minutes": {
+              "low": 10,
+              "high": 15
+            },
+            "traffic_risk": "medium",
+            "mode": "driving",
+            "display_duration_minutes": 7,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -81.653618,
+                  41.503232
+                ],
+                [
+                  -81.654104,
+                  41.503182
+                ],
+                [
+                  -81.653996,
+                  41.502665
+                ],
+                [
+                  -81.657678,
+                  41.50222
+                ],
+                [
+                  -81.657398,
+                  41.500997
+                ],
+                [
+                  -81.674575,
+                  41.499076
+                ],
+                [
+                  -81.678945,
+                  41.49763
+                ],
+                [
+                  -81.680806,
+                  41.499669
+                ],
+                [
+                  -81.690651,
+                  41.498193
+                ],
+                [
+                  -81.691116,
+                  41.499256
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-81.6536566,41.5034443;-81.6908,41.4993?overview=simplified&geometries=geojson&steps=false"
+          }
+        ],
+        "baseline_total_miles": 116.7,
+        "baseline_total_minutes": 159,
+        "planning_total_minutes": {
+          "low": 170,
+          "high": 215
+        },
+        "traffic_risk": "medium",
+        "cap_minutes": 210,
+        "cap_status": "comfortable",
+        "fallback": "Book Rock Hall, the film-house tour and Sugar first. Buckland is accepted only with a real timed ticket; Crawford is the measured Friday swap. Park both cars before dinner and use rideshare for the show.",
+        "traffic_note": "OSRM is a road-network baseline with no live traffic; check the actual two-car ETA before departure and cut the replaceable attraction rather than exceed 210 active minutes."
+      },
+      "weather": {
+        "kind": "historical_normal",
+        "high_c": 19.2,
+        "low_c": 9.3,
+        "precipitation_probability_percent": 37.1,
+        "comfort_score": 4.4,
+        "station_id": "USW00014820",
+        "station_name": "CLEVELAND, OH US",
+        "station_role": "Cleveland airport",
+        "source_id": "src-noaa-normals",
+        "forecast_status": "replace_with_live_forecast_10_days_before",
+        "note": "Climate normal, not a 2026 forecast. Lake Erie wind and inland-night temperatures can feel colder than the station values."
+      }
+    },
+    {
+      "day": 7,
+      "date": "2026-10-10",
+      "sleep_city": "Canonsburg, PA",
+      "theme": "One luminous Cleveland morning, then the return arc begins",
+      "schedule": [
+        {
+          "start": "10:00",
+          "end": "12:30",
+          "place_id": "cleveland-art",
+          "priority": "anchor",
+          "reservation": "none"
+        }
+      ],
+      "lodging": {
+        "preferred_area": "Canonsburg/Southpointe with two clean rooms, quiet night and easy church access",
+        "fallback_area": "Washington north only if All Saints remains within a short Sunday drive",
+        "room_setup": "Two rooms: one 1-bed room and one 2-bed room",
+        "notes": "Strong suggestion only; manually verify recent safety, cleanliness, exact bed layout and secure parking for two cars."
+      },
+      "fallback": "Do not add a second Cleveland museum after the concert night. Lake View and the Haserot Angel are the quieter replacement; confirm gates and preserve cemetery etiquette.",
+      "day_of_week": "Saturday",
+      "drive": {
+        "legs": [
+          {
+            "id": "d7-cleveland-lodging-to-cleveland-art",
+            "from": "cleveland-lodging",
+            "to": "cleveland-art",
+            "distance_meters": 7930,
+            "distance_miles": 4.9,
+            "baseline_seconds": 792,
+            "baseline_minutes": 14,
+            "planning_minutes": {
+              "low": 15,
+              "high": 25
+            },
+            "traffic_risk": "medium",
+            "mode": "driving",
+            "display_duration_minutes": 14,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -81.691116,
+                  41.499256
+                ],
+                [
+                  -81.691198,
+                  41.499581
+                ],
+                [
+                  -81.68444,
+                  41.500488
+                ],
+                [
+                  -81.685027,
+                  41.502248
+                ],
+                [
+                  -81.683714,
+                  41.502907
+                ],
+                [
+                  -81.66838,
+                  41.504466
+                ],
+                [
+                  -81.662387,
+                  41.504742
+                ],
+                [
+                  -81.648273,
+                  41.506597
+                ],
+                [
+                  -81.646302,
+                  41.506578
+                ],
+                [
+                  -81.640567,
+                  41.505883
+                ],
+                [
+                  -81.633768,
+                  41.506008
+                ],
+                [
+                  -81.629861,
+                  41.505702
+                ],
+                [
+                  -81.613026,
+                  41.505452
+                ],
+                [
+                  -81.612161,
+                  41.505216
+                ],
+                [
+                  -81.61217,
+                  41.506705
+                ],
+                [
+                  -81.614321,
+                  41.508007
+                ],
+                [
+                  -81.614781,
+                  41.509552
+                ],
+                [
+                  -81.614266,
+                  41.510503
+                ],
+                [
+                  -81.613681,
+                  41.510209
+                ],
+                [
+                  -81.612596,
+                  41.510291
+                ],
+                [
+                  -81.611756,
+                  41.509603
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-81.6908,41.4993;-81.6117367,41.5090438?overview=simplified&geometries=geojson&steps=false"
+          },
+          {
+            "id": "d7-cleveland-art-to-southpointe-lodging",
+            "from": "cleveland-art",
+            "to": "southpointe-lodging",
+            "distance_meters": 224939,
+            "distance_miles": 139.8,
+            "baseline_seconds": 10327,
+            "baseline_minutes": 173,
+            "planning_minutes": {
+              "low": 185,
+              "high": 235
+            },
+            "traffic_risk": "medium",
+            "mode": "driving",
+            "display_duration_minutes": 173,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -81.611756,
+                  41.509603
+                ],
+                [
+                  -81.602902,
+                  41.483893
+                ],
+                [
+                  -81.58889,
+                  41.483558
+                ],
+                [
+                  -81.565011,
+                  41.466433
+                ],
+                [
+                  -81.564886,
+                  41.42422
+                ],
+                [
+                  -81.53001,
+                  41.42385
+                ],
+                [
+                  -81.507805,
+                  41.40924
+                ],
+                [
+                  -81.511761,
+                  41.351098
+                ],
+                [
+                  -81.369102,
+                  41.252437
+                ],
+                [
+                  -80.985823,
+                  41.238981
+                ],
+                [
+                  -80.822048,
+                  41.091232
+                ],
+                [
+                  -80.630719,
+                  40.948961
+                ],
+                [
+                  -80.431225,
+                  40.885979
+                ],
+                [
+                  -80.402898,
+                  40.867668
+                ],
+                [
+                  -80.390894,
+                  40.844814
+                ],
+                [
+                  -80.370183,
+                  40.837529
+                ],
+                [
+                  -80.35607,
+                  40.784518
+                ],
+                [
+                  -80.375808,
+                  40.710117
+                ],
+                [
+                  -80.333853,
+                  40.683117
+                ],
+                [
+                  -80.323565,
+                  40.6639
+                ],
+                [
+                  -80.324966,
+                  40.623944
+                ],
+                [
+                  -80.298044,
+                  40.599006
+                ],
+                [
+                  -80.272467,
+                  40.542395
+                ],
+                [
+                  -80.283051,
+                  40.501956
+                ],
+                [
+                  -80.271281,
+                  40.488316
+                ],
+                [
+                  -80.305558,
+                  40.455669
+                ],
+                [
+                  -80.317529,
+                  40.419059
+                ],
+                [
+                  -80.256957,
+                  40.360461
+                ],
+                [
+                  -80.21886,
+                  40.362644
+                ],
+                [
+                  -80.148737,
+                  40.322892
+                ],
+                [
+                  -80.161029,
+                  40.270535
+                ],
+                [
+                  -80.164022,
+                  40.277462
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-81.6117367,41.5090438;-80.164,40.2775?overview=simplified&geometries=geojson&steps=false"
+          }
+        ],
+        "baseline_total_miles": 144.7,
+        "baseline_total_minutes": 186,
+        "planning_total_minutes": {
+          "low": 200,
+          "high": 255
+        },
+        "traffic_risk": "medium",
+        "cap_minutes": 210,
+        "cap_status": "near-cap",
+        "fallback": "Do not add a second Cleveland museum after the concert night. Lake View and the Haserot Angel are the quieter replacement; confirm gates and preserve cemetery etiquette.",
+        "traffic_note": "OSRM is a road-network baseline with no live traffic; check the actual two-car ETA before departure and cut the replaceable attraction rather than exceed 210 active minutes."
+      },
+      "weather": {
+        "kind": "historical_normal",
+        "high_c": 18.6,
+        "low_c": 7.6,
+        "precipitation_probability_percent": 35.8,
+        "comfort_score": 3.9,
+        "station_id": "USW00094823",
+        "station_name": "PITTSBURGH INTL AP, PA US",
+        "station_role": "Pittsburgh-Canonsburg regional proxy",
+        "source_id": "src-noaa-normals",
+        "forecast_status": "replace_with_live_forecast_10_days_before",
+        "note": "Climate normal, not a 2026 forecast. Lake Erie wind and inland-night temperatures can feel colder than the station values."
+      }
+    },
+    {
+      "day": 8,
+      "date": "2026-10-11",
+      "sleep_city": "McConnellsburg, PA",
+      "theme": "Full Orthodox Sunday and one perfect piece of roadside America",
+      "schedule": [
+        {
+          "start": "09:00",
+          "end": "12:00",
+          "place_id": "all-saints-canonsburg",
+          "priority": "anchor",
+          "reservation": "reconfirm-parish"
+        },
+        {
+          "start": "14:45",
+          "end": "15:20",
+          "place_id": "bedford-coffee-pot",
+          "priority": "anchor",
+          "reservation": "none"
+        }
+      ],
+      "lodging": {
+        "preferred_area": "McConnellsburg west side in a small inn with two confirmed clean rooms and off-street parking",
+        "fallback_area": "Breezewood only if Mack is automatically replaced by the Fish Hatchery on Monday",
+        "room_setup": "Two rooms: one 1-bed room and one 2-bed room",
+        "notes": "Strong suggestion only; manually verify recent safety, cleanliness, exact bed layout and secure parking for two cars."
+      },
+      "fallback": "This is a 209-minute baseline day. Confirm Orthros, Liturgy and visitor etiquette; church is never shortened. Cut the Coffee Pot when the live bed-to-bed ETA exceeds 210. Old Bedford Village is a replacement only when traffic and energy genuinely permit.",
+      "day_of_week": "Sunday",
+      "drive": {
+        "legs": [
+          {
+            "id": "d8-southpointe-lodging-to-all-saints-canonsburg",
+            "from": "southpointe-lodging",
+            "to": "all-saints-canonsburg",
+            "distance_meters": 1760,
+            "distance_miles": 1.1,
+            "baseline_seconds": 249,
+            "baseline_minutes": 5,
+            "planning_minutes": {
+              "low": 10,
+              "high": 20
+            },
+            "traffic_risk": "high",
+            "mode": "driving",
+            "display_duration_minutes": 5,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -80.164022,
+                  40.277462
+                ],
+                [
+                  -80.164484,
+                  40.27762
+                ],
+                [
+                  -80.164826,
+                  40.276972
+                ],
+                [
+                  -80.165276,
+                  40.276482
+                ],
+                [
+                  -80.164147,
+                  40.2759
+                ],
+                [
+                  -80.163557,
+                  40.275306
+                ],
+                [
+                  -80.163401,
+                  40.275011
+                ],
+                [
+                  -80.163273,
+                  40.274339
+                ],
+                [
+                  -80.163361,
+                  40.273986
+                ],
+                [
+                  -80.163517,
+                  40.273882
+                ],
+                [
+                  -80.163479,
+                  40.273727
+                ],
+                [
+                  -80.163358,
+                  40.273675
+                ],
+                [
+                  -80.163031,
+                  40.273706
+                ],
+                [
+                  -80.161427,
+                  40.273061
+                ],
+                [
+                  -80.162066,
+                  40.271768
+                ],
+                [
+                  -80.162123,
+                  40.271394
+                ],
+                [
+                  -80.161966,
+                  40.271129
+                ],
+                [
+                  -80.16135,
+                  40.270708
+                ],
+                [
+                  -80.161029,
+                  40.270535
+                ],
+                [
+                  -80.159586,
+                  40.27271
+                ],
+                [
+                  -80.159118,
+                  40.273144
+                ],
+                [
+                  -80.158795,
+                  40.273333
+                ],
+                [
+                  -80.158285,
+                  40.273568
+                ],
+                [
+                  -80.157905,
+                  40.273623
+                ],
+                [
+                  -80.156477,
+                  40.273654
+                ],
+                [
+                  -80.156439,
+                  40.273139
+                ],
+                [
+                  -80.156745,
+                  40.273146
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-80.164,40.2775;-80.1568468,40.272971?overview=simplified&geometries=geojson&steps=false"
+          },
+          {
+            "id": "d8-all-saints-canonsburg-to-bedford-coffee-pot",
+            "from": "all-saints-canonsburg",
+            "to": "bedford-coffee-pot",
+            "distance_meters": 187856,
+            "distance_miles": 116.7,
+            "baseline_seconds": 9134,
+            "baseline_minutes": 153,
+            "planning_minutes": {
+              "low": 170,
+              "high": 250
+            },
+            "traffic_risk": "high",
+            "mode": "driving",
+            "display_duration_minutes": 153,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -80.156745,
+                  40.273146
+                ],
+                [
+                  -80.174999,
+                  40.261859
+                ],
+                [
+                  -80.170564,
+                  40.252523
+                ],
+                [
+                  -80.180618,
+                  40.242077
+                ],
+                [
+                  -80.152334,
+                  40.218442
+                ],
+                [
+                  -80.133994,
+                  40.214228
+                ],
+                [
+                  -80.083933,
+                  40.166367
+                ],
+                [
+                  -80.038028,
+                  40.156127
+                ],
+                [
+                  -80.005598,
+                  40.13329
+                ],
+                [
+                  -79.966244,
+                  40.130897
+                ],
+                [
+                  -79.921455,
+                  40.109821
+                ],
+                [
+                  -79.89777,
+                  40.107618
+                ],
+                [
+                  -79.855332,
+                  40.13943
+                ],
+                [
+                  -79.825051,
+                  40.140078
+                ],
+                [
+                  -79.733689,
+                  40.167776
+                ],
+                [
+                  -79.688034,
+                  40.192597
+                ],
+                [
+                  -79.67404,
+                  40.211113
+                ],
+                [
+                  -79.600342,
+                  40.219781
+                ],
+                [
+                  -79.60785,
+                  40.224794
+                ],
+                [
+                  -79.466243,
+                  40.151863
+                ],
+                [
+                  -79.433686,
+                  40.154882
+                ],
+                [
+                  -79.379038,
+                  40.108247
+                ],
+                [
+                  -79.290083,
+                  40.128643
+                ],
+                [
+                  -79.235904,
+                  40.104174
+                ],
+                [
+                  -79.205346,
+                  40.103363
+                ],
+                [
+                  -79.197254,
+                  40.085815
+                ],
+                [
+                  -79.143588,
+                  40.064942
+                ],
+                [
+                  -79.046985,
+                  40.000352
+                ],
+                [
+                  -78.87477,
+                  39.968997
+                ],
+                [
+                  -78.847659,
+                  39.957079
+                ],
+                [
+                  -78.834171,
+                  39.964168
+                ],
+                [
+                  -78.815665,
+                  39.955288
+                ],
+                [
+                  -78.783135,
+                  39.987038
+                ],
+                [
+                  -78.752816,
+                  39.977078
+                ],
+                [
+                  -78.709885,
+                  39.985151
+                ],
+                [
+                  -78.677725,
+                  40.0095
+                ],
+                [
+                  -78.61783,
+                  40.01934
+                ],
+                [
+                  -78.603327,
+                  40.009019
+                ],
+                [
+                  -78.55638,
+                  40.047071
+                ],
+                [
+                  -78.514313,
+                  40.049346
+                ],
+                [
+                  -78.519133,
+                  40.058254
+                ],
+                [
+                  -78.51755,
+                  40.023081
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-80.1568468,40.272971;-78.5173529,40.022906?overview=simplified&geometries=geojson&steps=false"
+          },
+          {
+            "id": "d8-bedford-coffee-pot-to-mcconnellsburg-lodging",
+            "from": "bedford-coffee-pot",
+            "to": "mcconnellsburg-lodging",
+            "distance_meters": 56270,
+            "distance_miles": 35,
+            "baseline_seconds": 3133,
+            "baseline_minutes": 53,
+            "planning_minutes": {
+              "low": 60,
+              "high": 95
+            },
+            "traffic_risk": "high",
+            "mode": "driving",
+            "display_duration_minutes": 53,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -78.51755,
+                  40.023081
+                ],
+                [
+                  -78.513428,
+                  40.021249
+                ],
+                [
+                  -78.51555,
+                  40.019124
+                ],
+                [
+                  -78.511258,
+                  40.023805
+                ],
+                [
+                  -78.505961,
+                  40.021208
+                ],
+                [
+                  -78.47751,
+                  40.018527
+                ],
+                [
+                  -78.471164,
+                  40.014262
+                ],
+                [
+                  -78.455004,
+                  40.02512
+                ],
+                [
+                  -78.440942,
+                  40.025418
+                ],
+                [
+                  -78.405669,
+                  40.019565
+                ],
+                [
+                  -78.39536,
+                  40.012081
+                ],
+                [
+                  -78.384329,
+                  40.009838
+                ],
+                [
+                  -78.380401,
+                  40.012009
+                ],
+                [
+                  -78.37739,
+                  40.025245
+                ],
+                [
+                  -78.371452,
+                  40.027463
+                ],
+                [
+                  -78.35011,
+                  40.020102
+                ],
+                [
+                  -78.330365,
+                  40.018979
+                ],
+                [
+                  -78.31246,
+                  40.008129
+                ],
+                [
+                  -78.303259,
+                  40.007471
+                ],
+                [
+                  -78.290739,
+                  39.998014
+                ],
+                [
+                  -78.273138,
+                  39.992052
+                ],
+                [
+                  -78.266123,
+                  39.99731
+                ],
+                [
+                  -78.257767,
+                  39.995213
+                ],
+                [
+                  -78.249533,
+                  39.998988
+                ],
+                [
+                  -78.22433,
+                  39.999297
+                ],
+                [
+                  -78.214376,
+                  40.004448
+                ],
+                [
+                  -78.210231,
+                  40.010341
+                ],
+                [
+                  -78.184483,
+                  40.020505
+                ],
+                [
+                  -78.172054,
+                  40.021673
+                ],
+                [
+                  -78.144352,
+                  40.014105
+                ],
+                [
+                  -78.128426,
+                  40.017678
+                ],
+                [
+                  -78.12077,
+                  40.016905
+                ],
+                [
+                  -78.107284,
+                  40.008749
+                ],
+                [
+                  -78.096948,
+                  39.997568
+                ],
+                [
+                  -78.081734,
+                  39.991632
+                ],
+                [
+                  -78.047875,
+                  39.985939
+                ],
+                [
+                  -78.04716,
+                  39.982631
+                ],
+                [
+                  -78.038828,
+                  39.975673
+                ],
+                [
+                  -78.024505,
+                  39.970768
+                ],
+                [
+                  -78.024446,
+                  39.953906
+                ],
+                [
+                  -78.019708,
+                  39.940366
+                ],
+                [
+                  -78.015788,
+                  39.936781
+                ],
+                [
+                  -78.017002,
+                  39.932967
+                ],
+                [
+                  -78.024049,
+                  39.932656
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-78.5173529,40.022906;-78.025,39.935?overview=simplified&geometries=geojson&steps=false"
+          }
+        ],
+        "baseline_total_miles": 152.8,
+        "baseline_total_minutes": 209,
+        "planning_total_minutes": {
+          "low": 230,
+          "high": 335
+        },
+        "traffic_risk": "high",
+        "cap_minutes": 210,
+        "cap_status": "live-traffic-gated",
+        "fallback": "This is a 209-minute baseline day. Confirm Orthros, Liturgy and visitor etiquette; church is never shortened. Cut the Coffee Pot when the live bed-to-bed ETA exceeds 210. Old Bedford Village is a replacement only when traffic and energy genuinely permit.",
+        "traffic_note": "OSRM is a road-network baseline with no live traffic; check the actual two-car ETA before departure and cut the replaceable attraction rather than exceed 210 active minutes."
+      },
+      "weather": {
+        "kind": "historical_normal",
+        "high_c": 20.3,
+        "low_c": 9.2,
+        "precipitation_probability_percent": 34.7,
+        "comfort_score": 3.8,
+        "station_id": "USW00014751",
+        "station_name": "HARRISBURG CPTL CY AP, PA US",
+        "station_role": "Harrisburg-Breezewood regional proxy",
+        "source_id": "src-noaa-normals",
+        "forecast_status": "replace_with_live_forecast_10_days_before",
+        "note": "Climate normal, not a 2026 forecast. Lake Erie wind and inland-night temperatures can feel colder than the station values."
+      }
+    },
+    {
+      "day": 9,
+      "date": "2026-10-12",
+      "sleep_city": "Allentown, PA",
+      "theme": "Heavy machines, volunteer memory and the Bulldog",
+      "schedule": [
+        {
+          "start": "13:00",
+          "end": "14:30",
+          "place_id": "mack-museum",
+          "priority": "anchor",
+          "reservation": "reserve-and-holiday-confirm"
+        }
+      ],
+      "lodging": {
+        "preferred_area": "South Allentown/Lehigh Parkway side with two-room inventory and secure parking",
+        "fallback_area": "Emmaus only if the exact hotel pin keeps the measured day at or below 210",
+        "room_setup": "Two rooms: one 1-bed room and one 2-bed room",
+        "notes": "Strong suggestion only; manually verify recent safety, cleanliness, exact bed layout and secure parking for two cars."
+      },
+      "fallback": "October 12 is a holiday: Mack exists in the plan only if four slots appear in the official reservation calendar. Otherwise use the Fish Hatchery replacement automatically. If McConnellsburg lacks two acceptable rooms and the group sleeps in Breezewood, Mack is also automatically replaced to protect the cap.",
+      "day_of_week": "Monday",
+      "drive": {
+        "legs": [
+          {
+            "id": "d9-mcconnellsburg-lodging-to-mack-museum",
+            "from": "mcconnellsburg-lodging",
+            "to": "mack-museum",
+            "distance_meters": 248624,
+            "distance_miles": 154.5,
+            "baseline_seconds": 11824,
+            "baseline_minutes": 198,
+            "planning_minutes": {
+              "low": 215,
+              "high": 320
+            },
+            "traffic_risk": "high",
+            "mode": "driving",
+            "display_duration_minutes": 198,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -78.024049,
+                  39.932656
+                ],
+                [
+                  -77.999052,
+                  39.93256
+                ],
+                [
+                  -77.978761,
+                  39.960779
+                ],
+                [
+                  -77.962117,
+                  40.00454
+                ],
+                [
+                  -77.96944,
+                  40.034573
+                ],
+                [
+                  -77.953389,
+                  40.058106
+                ],
+                [
+                  -77.87953,
+                  40.076524
+                ],
+                [
+                  -77.861252,
+                  40.091267
+                ],
+                [
+                  -77.82904,
+                  40.087059
+                ],
+                [
+                  -77.704516,
+                  40.157954
+                ],
+                [
+                  -77.68536,
+                  40.159551
+                ],
+                [
+                  -77.642884,
+                  40.142637
+                ],
+                [
+                  -77.599563,
+                  40.164884
+                ],
+                [
+                  -77.376594,
+                  40.2022
+                ],
+                [
+                  -77.244514,
+                  40.207612
+                ],
+                [
+                  -77.15634,
+                  40.225936
+                ],
+                [
+                  -77.083473,
+                  40.245924
+                ],
+                [
+                  -77.038436,
+                  40.271077
+                ],
+                [
+                  -76.987214,
+                  40.276396
+                ],
+                [
+                  -76.975079,
+                  40.298942
+                ],
+                [
+                  -76.926343,
+                  40.31604
+                ],
+                [
+                  -76.855927,
+                  40.301735
+                ],
+                [
+                  -76.808745,
+                  40.32496
+                ],
+                [
+                  -76.760162,
+                  40.331401
+                ],
+                [
+                  -76.588569,
+                  40.413281
+                ],
+                [
+                  -76.504481,
+                  40.429043
+                ],
+                [
+                  -76.460483,
+                  40.447838
+                ],
+                [
+                  -76.400846,
+                  40.451343
+                ],
+                [
+                  -76.107116,
+                  40.516521
+                ],
+                [
+                  -75.959703,
+                  40.570818
+                ],
+                [
+                  -75.724145,
+                  40.581371
+                ],
+                [
+                  -75.651469,
+                  40.575097
+                ],
+                [
+                  -75.589252,
+                  40.58909
+                ],
+                [
+                  -75.517839,
+                  40.562209
+                ],
+                [
+                  -75.49401,
+                  40.572308
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-78.025,39.935;-75.4944108,40.5721574?overview=simplified&geometries=geojson&steps=false"
+          },
+          {
+            "id": "d9-mack-museum-to-allentown-parkway-lodging",
+            "from": "mack-museum",
+            "to": "allentown-parkway-lodging",
+            "distance_meters": 3595,
+            "distance_miles": 2.2,
+            "baseline_seconds": 515,
+            "baseline_minutes": 9,
+            "planning_minutes": {
+              "low": 10,
+              "high": 25
+            },
+            "traffic_risk": "high",
+            "mode": "driving",
+            "display_duration_minutes": 9,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -75.49401,
+                  40.572308
+                ],
+                [
+                  -75.494095,
+                  40.572855
+                ],
+                [
+                  -75.494553,
+                  40.572931
+                ],
+                [
+                  -75.494689,
+                  40.573839
+                ],
+                [
+                  -75.49505,
+                  40.573819
+                ],
+                [
+                  -75.496605,
+                  40.571789
+                ],
+                [
+                  -75.496782,
+                  40.570305
+                ],
+                [
+                  -75.495968,
+                  40.56888
+                ],
+                [
+                  -75.49795,
+                  40.567688
+                ],
+                [
+                  -75.498649,
+                  40.56785
+                ],
+                [
+                  -75.496861,
+                  40.56485
+                ],
+                [
+                  -75.495247,
+                  40.563124
+                ],
+                [
+                  -75.493571,
+                  40.56194
+                ],
+                [
+                  -75.48784,
+                  40.55882
+                ],
+                [
+                  -75.491148,
+                  40.552522
+                ],
+                [
+                  -75.491395,
+                  40.551433
+                ],
+                [
+                  -75.490411,
+                  40.551377
+                ],
+                [
+                  -75.491018,
+                  40.55125
+                ],
+                [
+                  -75.491101,
+                  40.550994
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-75.4944108,40.5721574;-75.491,40.551?overview=simplified&geometries=geojson&steps=false"
+          }
+        ],
+        "baseline_total_miles": 156.7,
+        "baseline_total_minutes": 206,
+        "planning_total_minutes": {
+          "low": 225,
+          "high": 330
+        },
+        "traffic_risk": "high",
+        "cap_minutes": 210,
+        "cap_status": "live-traffic-gated",
+        "fallback": "October 12 is a holiday: Mack exists in the plan only if four slots appear in the official reservation calendar. Otherwise use the Fish Hatchery replacement automatically. If McConnellsburg lacks two acceptable rooms and the group sleeps in Breezewood, Mack is also automatically replaced to protect the cap.",
+        "traffic_note": "OSRM is a road-network baseline with no live traffic; check the actual two-car ETA before departure and cut the replaceable attraction rather than exceed 210 active minutes."
+      },
+      "weather": {
+        "kind": "historical_normal",
+        "high_c": 19.4,
+        "low_c": 7.3,
+        "precipitation_probability_percent": 32.7,
+        "comfort_score": 3.6,
+        "station_id": "USW00014737",
+        "station_name": "ALLENTOWN INTL AP, PA US",
+        "station_role": "Lehigh Valley airport",
+        "source_id": "src-noaa-normals",
+        "forecast_status": "replace_with_live_forecast_10_days_before",
+        "note": "Climate normal, not a 2026 forecast. Lake Erie wind and inland-night temperatures can feel colder than the station values."
+      }
+    },
+    {
+      "day": 10,
+      "date": "2026-10-13",
+      "sleep_city": "Danbury, CT",
+      "theme": "The real Uncle Sam becomes a 38-foot carnival giant",
+      "schedule": [
+        {
+          "start": "12:15",
+          "end": "12:50",
+          "place_id": "uncle-sam-danbury",
+          "priority": "anchor",
+          "reservation": "none"
+        }
+      ],
+      "lodging": {
+        "preferred_area": "Danbury downtown with two clean rooms and secure parking",
+        "fallback_area": "Danbury Fair/I-84 only when using the carousel replacement",
+        "room_setup": "Two rooms: one 1-bed room and one 2-bed room",
+        "notes": "Strong suggestion only; manually verify recent safety, cleanliness, exact bed layout and secure parking for two cars."
+      },
+      "fallback": "The Railway Museum is closed Tuesday; photograph only the exterior statue from the public parking area. In rain, replace it with the mall carousel and a controlled shopping window rather than stacking both.",
+      "day_of_week": "Tuesday",
+      "drive": {
+        "legs": [
+          {
+            "id": "d10-allentown-parkway-lodging-to-uncle-sam-danbury",
+            "from": "allentown-parkway-lodging",
+            "to": "uncle-sam-danbury",
+            "distance_meters": 247432,
+            "distance_miles": 153.7,
+            "baseline_seconds": 11889,
+            "baseline_minutes": 199,
+            "planning_minutes": {
+              "low": 215,
+              "high": 320
+            },
+            "traffic_risk": "high",
+            "mode": "driving",
+            "display_duration_minutes": 199,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -75.491101,
+                  40.550994
+                ],
+                [
+                  -75.48317,
+                  40.563937
+                ],
+                [
+                  -75.429213,
+                  40.554795
+                ],
+                [
+                  -75.38147,
+                  40.586843
+                ],
+                [
+                  -75.302964,
+                  40.604855
+                ],
+                [
+                  -75.231325,
+                  40.666878
+                ],
+                [
+                  -75.19257,
+                  40.676676
+                ],
+                [
+                  -75.180516,
+                  40.674763
+                ],
+                [
+                  -75.162364,
+                  40.650479
+                ],
+                [
+                  -75.13597,
+                  40.66925
+                ],
+                [
+                  -75.111959,
+                  40.672144
+                ],
+                [
+                  -75.06658,
+                  40.659245
+                ],
+                [
+                  -75.046646,
+                  40.661514
+                ],
+                [
+                  -75.034203,
+                  40.651143
+                ],
+                [
+                  -74.974761,
+                  40.63542
+                ],
+                [
+                  -74.918294,
+                  40.631197
+                ],
+                [
+                  -74.783025,
+                  40.651718
+                ],
+                [
+                  -74.684157,
+                  40.642697
+                ],
+                [
+                  -74.501441,
+                  40.646813
+                ],
+                [
+                  -74.421207,
+                  40.663003
+                ],
+                [
+                  -74.36933,
+                  40.696621
+                ],
+                [
+                  -74.326939,
+                  40.710965
+                ],
+                [
+                  -74.280003,
+                  40.713915
+                ],
+                [
+                  -74.240621,
+                  40.704919
+                ],
+                [
+                  -74.213269,
+                  40.71638
+                ],
+                [
+                  -74.151596,
+                  40.705483
+                ],
+                [
+                  -74.134832,
+                  40.716993
+                ],
+                [
+                  -74.09546,
+                  40.78265
+                ],
+                [
+                  -74.037024,
+                  40.820895
+                ],
+                [
+                  -74.016562,
+                  40.845111
+                ],
+                [
+                  -73.995832,
+                  40.841738
+                ],
+                [
+                  -73.977499,
+                  40.858415
+                ],
+                [
+                  -73.925547,
+                  40.844422
+                ],
+                [
+                  -73.856401,
+                  40.929965
+                ],
+                [
+                  -73.816015,
+                  40.922655
+                ],
+                [
+                  -73.79685,
+                  40.958529
+                ],
+                [
+                  -73.750168,
+                  40.977751
+                ],
+                [
+                  -73.721097,
+                  41.003912
+                ],
+                [
+                  -73.715217,
+                  41.019611
+                ],
+                [
+                  -73.728451,
+                  41.057123
+                ],
+                [
+                  -73.688933,
+                  41.157199
+                ],
+                [
+                  -73.685032,
+                  41.219299
+                ],
+                [
+                  -73.672643,
+                  41.247337
+                ],
+                [
+                  -73.685872,
+                  41.26973
+                ],
+                [
+                  -73.654019,
+                  41.343781
+                ],
+                [
+                  -73.595402,
+                  41.388385
+                ],
+                [
+                  -73.57697,
+                  41.382868
+                ],
+                [
+                  -73.529152,
+                  41.392724
+                ],
+                [
+                  -73.48422,
+                  41.38348
+                ],
+                [
+                  -73.450269,
+                  41.397947
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-75.491,40.551;-73.4500683,41.3979253?overview=simplified&geometries=geojson&steps=false"
+          },
+          {
+            "id": "d10-uncle-sam-danbury-to-danbury-downtown-lodging",
+            "from": "uncle-sam-danbury",
+            "to": "danbury-downtown-lodging",
+            "distance_meters": 1075,
+            "distance_miles": 0.7,
+            "baseline_seconds": 118,
+            "baseline_minutes": 2,
+            "planning_minutes": {
+              "low": 5,
+              "high": 15
+            },
+            "traffic_risk": "high",
+            "mode": "driving",
+            "display_duration_minutes": 2,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -73.450269,
+                  41.397947
+                ],
+                [
+                  -73.45053,
+                  41.398136
+                ],
+                [
+                  -73.450307,
+                  41.398271
+                ],
+                [
+                  -73.450495,
+                  41.398449
+                ],
+                [
+                  -73.450072,
+                  41.39857
+                ],
+                [
+                  -73.449955,
+                  41.398424
+                ],
+                [
+                  -73.450891,
+                  41.397898
+                ],
+                [
+                  -73.450986,
+                  41.396737
+                ],
+                [
+                  -73.450864,
+                  41.396373
+                ],
+                [
+                  -73.450719,
+                  41.396198
+                ],
+                [
+                  -73.449637,
+                  41.395136
+                ],
+                [
+                  -73.450796,
+                  41.39412
+                ],
+                [
+                  -73.452219,
+                  41.393238
+                ],
+                [
+                  -73.452883,
+                  41.392957
+                ],
+                [
+                  -73.453167,
+                  41.392854
+                ],
+                [
+                  -73.453431,
+                  41.39323
+                ],
+                [
+                  -73.453822,
+                  41.393599
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-73.4500683,41.3979253;-73.454,41.3935?overview=simplified&geometries=geojson&steps=false"
+          }
+        ],
+        "baseline_total_miles": 154.4,
+        "baseline_total_minutes": 201,
+        "planning_total_minutes": {
+          "low": 220,
+          "high": 325
+        },
+        "traffic_risk": "high",
+        "cap_minutes": 210,
+        "cap_status": "live-traffic-gated",
+        "fallback": "The Railway Museum is closed Tuesday; photograph only the exterior statue from the public parking area. In rain, replace it with the mall carousel and a controlled shopping window rather than stacking both.",
+        "traffic_note": "OSRM is a road-network baseline with no live traffic; check the actual two-car ETA before departure and cut the replaceable attraction rather than exceed 210 active minutes."
+      },
+      "weather": {
+        "kind": "historical_normal",
+        "high_c": 18.6,
+        "low_c": 9.6,
+        "precipitation_probability_percent": 31.7,
+        "comfort_score": 3.6,
+        "station_id": "USW00094702",
+        "station_name": "BRIDGEPORT SIKORSKY MEM AP, CT US",
+        "station_role": "Bridgeport-Danbury regional proxy",
+        "source_id": "src-noaa-normals",
+        "forecast_status": "replace_with_live_forecast_10_days_before",
+        "note": "Climate normal, not a 2026 forecast. Lake Erie wind and inland-night temperatures can feel colder than the station values."
+      }
+    },
+    {
+      "day": 11,
+      "date": "2026-10-14",
+      "sleep_city": "Boston, MA",
+      "theme": "Return both cars, then end inside a machine dream",
+      "schedule": [
+        {
+          "start": "12:30",
+          "end": "15:00",
+          "place_id": "mit-museum",
+          "priority": "anchor",
+          "reservation": "reserve-recommended"
+        }
+      ],
+      "lodging": {
+        "preferred_area": "Logan airport hotel with confirmed early October 15 shuttle",
+        "fallback_area": "East Boston or Revere only with a verified airport transfer and the required two-room setup",
+        "room_setup": "Two rooms: one 1-bed room and one 2-bed room",
+        "notes": "Strong suggestion only; manually verify recent safety, cleanliness, exact bed layout and secure parking for two cars."
+      },
+      "fallback": "Leave Danbury early, return both cars before any Cambridge stop, then use transit. Harvard Art Museums is the free quieter swap with unchanged road mileage. No nightlife is planned on the airport-eve night.",
+      "day_of_week": "Wednesday",
+      "drive": {
+        "legs": [
+          {
+            "id": "d11-danbury-downtown-lodging-to-boston-logan-return",
+            "from": "danbury-downtown-lodging",
+            "to": "boston-logan-return",
+            "distance_meters": 257672,
+            "distance_miles": 160.1,
+            "baseline_seconds": 11933,
+            "baseline_minutes": 199,
+            "planning_minutes": {
+              "low": 215,
+              "high": 320
+            },
+            "traffic_risk": "high",
+            "mode": "driving",
+            "display_duration_minutes": 199,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -73.453822,
+                  41.393599
+                ],
+                [
+                  -73.375158,
+                  41.42476
+                ],
+                [
+                  -73.314981,
+                  41.429154
+                ],
+                [
+                  -73.266881,
+                  41.414283
+                ],
+                [
+                  -73.247039,
+                  41.433901
+                ],
+                [
+                  -73.24781,
+                  41.450627
+                ],
+                [
+                  -73.213033,
+                  41.475636
+                ],
+                [
+                  -73.092168,
+                  41.522378
+                ],
+                [
+                  -73.067748,
+                  41.547956
+                ],
+                [
+                  -73.032767,
+                  41.551416
+                ],
+                [
+                  -73.004141,
+                  41.537966
+                ],
+                [
+                  -72.944699,
+                  41.542718
+                ],
+                [
+                  -72.899968,
+                  41.580202
+                ],
+                [
+                  -72.894352,
+                  41.617775
+                ],
+                [
+                  -72.844024,
+                  41.668812
+                ],
+                [
+                  -72.82161,
+                  41.670111
+                ],
+                [
+                  -72.791134,
+                  41.72213
+                ],
+                [
+                  -72.757863,
+                  41.727479
+                ],
+                [
+                  -72.732649,
+                  41.748849
+                ],
+                [
+                  -72.704745,
+                  41.749947
+                ],
+                [
+                  -72.680507,
+                  41.770944
+                ],
+                [
+                  -72.633961,
+                  41.763195
+                ],
+                [
+                  -72.577718,
+                  41.7743
+                ],
+                [
+                  -72.552615,
+                  41.801379
+                ],
+                [
+                  -72.469261,
+                  41.830939
+                ],
+                [
+                  -72.429894,
+                  41.854297
+                ],
+                [
+                  -72.374059,
+                  41.857029
+                ],
+                [
+                  -72.205035,
+                  41.948201
+                ],
+                [
+                  -72.062321,
+                  42.128856
+                ],
+                [
+                  -71.756836,
+                  42.220728
+                ],
+                [
+                  -71.618119,
+                  42.229365
+                ],
+                [
+                  -71.557662,
+                  42.269541
+                ],
+                [
+                  -71.411977,
+                  42.315412
+                ],
+                [
+                  -71.368027,
+                  42.311283
+                ],
+                [
+                  -71.315058,
+                  42.334425
+                ],
+                [
+                  -71.178254,
+                  42.357713
+                ],
+                [
+                  -71.037544,
+                  42.346671
+                ],
+                [
+                  -71.025581,
+                  42.358706
+                ],
+                [
+                  -71.029421,
+                  42.367769
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-73.454,41.3935;-71.0304,42.3682?overview=simplified&geometries=geojson&steps=false"
+          },
+          {
+            "id": "d11-boston-logan-return-to-boston-logan-hotel",
+            "from": "boston-logan-return",
+            "to": "boston-logan-hotel",
+            "distance_meters": 1824,
+            "distance_miles": 1.1,
+            "baseline_seconds": 221,
+            "baseline_minutes": 4,
+            "planning_minutes": {
+              "low": 5,
+              "high": 20
+            },
+            "traffic_risk": "high",
+            "mode": "driving",
+            "display_duration_minutes": 4,
+            "counts_toward_drive_cap": true,
+            "geometry": {
+              "coordinates": [
+                [
+                  -71.029421,
+                  42.367769
+                ],
+                [
+                  -71.02961,
+                  42.367518
+                ],
+                [
+                  -71.029577,
+                  42.367362
+                ],
+                [
+                  -71.028114,
+                  42.366661
+                ],
+                [
+                  -71.027786,
+                  42.36704
+                ],
+                [
+                  -71.028379,
+                  42.367289
+                ],
+                [
+                  -71.028631,
+                  42.367466
+                ],
+                [
+                  -71.028806,
+                  42.367745
+                ],
+                [
+                  -71.028808,
+                  42.36805
+                ],
+                [
+                  -71.028033,
+                  42.36905
+                ],
+                [
+                  -71.027852,
+                  42.369108
+                ],
+                [
+                  -71.027461,
+                  42.369514
+                ],
+                [
+                  -71.027084,
+                  42.369576
+                ],
+                [
+                  -71.026842,
+                  42.369478
+                ],
+                [
+                  -71.026673,
+                  42.369235
+                ],
+                [
+                  -71.026546,
+                  42.368312
+                ],
+                [
+                  -71.026381,
+                  42.367878
+                ],
+                [
+                  -71.026085,
+                  42.367474
+                ],
+                [
+                  -71.025727,
+                  42.36717
+                ],
+                [
+                  -71.024299,
+                  42.366404
+                ],
+                [
+                  -71.022319,
+                  42.365889
+                ],
+                [
+                  -71.019883,
+                  42.364853
+                ],
+                [
+                  -71.01937,
+                  42.364782
+                ],
+                [
+                  -71.018851,
+                  42.364889
+                ],
+                [
+                  -71.018546,
+                  42.365109
+                ],
+                [
+                  -71.017961,
+                  42.365836
+                ],
+                [
+                  -71.0171,
+                  42.366204
+                ],
+                [
+                  -71.017001,
+                  42.366367
+                ],
+                [
+                  -71.016767,
+                  42.366379
+                ]
+              ],
+              "type": "LineString"
+            },
+            "routing_source": "https://router.project-osrm.org/route/v1/driving/-71.0304,42.3682;-71.0155,42.3655?overview=simplified&geometries=geojson&steps=false"
+          }
+        ],
+        "baseline_total_miles": 161.2,
+        "baseline_total_minutes": 203,
+        "planning_total_minutes": {
+          "low": 220,
+          "high": 325
+        },
+        "traffic_risk": "high",
+        "cap_minutes": 210,
+        "cap_status": "live-traffic-gated",
+        "fallback": "Leave Danbury early, return both cars before any Cambridge stop, then use transit. Harvard Art Museums is the free quieter swap with unchanged road mileage. No nightlife is planned on the airport-eve night.",
+        "traffic_note": "OSRM is a road-network baseline with no live traffic; check the actual two-car ETA before departure and cut the replaceable attraction rather than exceed 210 active minutes."
+      },
+      "weather": {
+        "kind": "historical_normal",
+        "high_c": 17.1,
+        "low_c": 8.9,
+        "precipitation_probability_percent": 33.5,
+        "comfort_score": 3.5,
+        "station_id": "USW00014739",
+        "station_name": "BOSTON LOGAN INTL AP, MA US",
+        "station_role": "Boston Logan airport",
+        "source_id": "src-noaa-normals",
+        "forecast_status": "replace_with_live_forecast_10_days_before",
+        "note": "Climate normal, not a 2026 forecast. Lake Erie wind and inland-night temperatures can feel colder than the station values."
+      }
+    }
+  ],
+  "place_ids": [
+    "springfield-museums",
+    "springfield-armory",
+    "cohoes-falls",
+    "oakwood-troy",
+    "saratoga-auto",
+    "boxing-hof",
+    "chittenango-falls",
+    "anthony-house",
+    "mount-hope-rochester",
+    "rmsc-electricity",
+    "eden-kazoo",
+    "trec-presque-isle",
+    "erie-maritime",
+    "rock-hall",
+    "christmas-story-house",
+    "buckland-museum",
+    "sugar-agora",
+    "crawford-auto",
+    "cleveland-art",
+    "lake-view-haserot",
+    "all-saints-canonsburg",
+    "bedford-coffee-pot",
+    "old-bedford-village",
+    "mack-museum",
+    "allentown-fish-hatchery",
+    "uncle-sam-danbury",
+    "danbury-fair-carousel",
+    "mit-museum",
+    "harvard-art"
+  ],
+  "core_place_ids": [
+    "springfield-museums",
+    "cohoes-falls",
+    "oakwood-troy",
+    "boxing-hof",
+    "anthony-house",
+    "mount-hope-rochester",
+    "eden-kazoo",
+    "trec-presque-isle",
+    "rock-hall",
+    "christmas-story-house",
+    "buckland-museum",
+    "sugar-agora",
+    "cleveland-art",
+    "all-saints-canonsburg",
+    "bedford-coffee-pot",
+    "mack-museum",
+    "uncle-sam-danbury",
+    "mit-museum"
+  ],
+  "alternative_place_ids": [
+    "springfield-armory",
+    "saratoga-auto",
+    "chittenango-falls",
+    "rmsc-electricity",
+    "erie-maritime",
+    "crawford-auto",
+    "lake-view-haserot",
+    "old-bedford-village",
+    "allentown-fish-hatchery",
+    "danbury-fair-carousel",
+    "harvard-art"
+  ],
+  "replacement_place_ids": [
+    "springfield-armory",
+    "saratoga-auto",
+    "chittenango-falls",
+    "rmsc-electricity",
+    "erie-maritime",
+    "crawford-auto",
+    "lake-view-haserot",
+    "old-bedford-village",
+    "allentown-fish-hatchery",
+    "danbury-fair-carousel",
+    "harvard-art"
+  ],
+  "replacement_options": [
+    {
+      "id": "replacement-d1-springfield-armory",
+      "day": 1,
+      "replacement_place_id": "springfield-armory",
+      "replaces_place_ids": [
+        "springfield-museums"
+      ],
+      "baseline_total_miles": 92.6,
+      "baseline_total_minutes": 119,
+      "delta_miles": 0.3,
+      "delta_minutes": 2,
+      "cap_minutes": 210,
+      "cap_status": "passes-baseline-cap"
+    },
+    {
+      "id": "replacement-d2-saratoga-auto",
+      "day": 2,
+      "replacement_place_id": "saratoga-auto",
+      "replaces_place_ids": [
+        "cohoes-falls",
+        "oakwood-troy"
+      ],
+      "baseline_total_miles": 145.4,
+      "baseline_total_minutes": 188,
+      "delta_miles": 44.8,
+      "delta_minutes": 43,
+      "cap_minutes": 210,
+      "cap_status": "passes-baseline-cap"
+    },
+    {
+      "id": "replacement-d3-chittenango-falls",
+      "day": 3,
+      "replacement_place_id": "chittenango-falls",
+      "replaces_place_ids": [
+        "boxing-hof"
+      ],
+      "baseline_total_miles": 159.1,
+      "baseline_total_minutes": 205,
+      "delta_miles": 7.8,
+      "delta_minutes": 18,
+      "cap_minutes": 210,
+      "cap_status": "passes-baseline-cap"
+    },
+    {
+      "id": "replacement-d4-rmsc-electricity",
+      "day": 4,
+      "replacement_place_id": "rmsc-electricity",
+      "replaces_place_ids": [
+        "anthony-house",
+        "mount-hope-rochester"
+      ],
+      "baseline_total_miles": 120.4,
+      "baseline_total_minutes": 155,
+      "delta_miles": -3.2,
+      "delta_minutes": -14,
+      "cap_minutes": 210,
+      "cap_status": "passes-baseline-cap"
+    },
+    {
+      "id": "replacement-d5-erie-maritime",
+      "day": 5,
+      "replacement_place_id": "erie-maritime",
+      "replaces_place_ids": [
+        "trec-presque-isle"
+      ],
+      "baseline_total_miles": 134.3,
+      "baseline_total_minutes": 179,
+      "delta_miles": -8.3,
+      "delta_minutes": -19,
+      "cap_minutes": 210,
+      "cap_status": "passes-baseline-cap"
+    },
+    {
+      "id": "replacement-d6-crawford-auto",
+      "day": 6,
+      "replacement_place_id": "crawford-auto",
+      "replaces_place_ids": [
+        "buckland-museum"
+      ],
+      "baseline_total_miles": 117.2,
+      "baseline_total_minutes": 162,
+      "delta_miles": 0.5,
+      "delta_minutes": 3,
+      "cap_minutes": 210,
+      "cap_status": "passes-baseline-cap"
+    },
+    {
+      "id": "replacement-d7-lake-view-haserot",
+      "day": 7,
+      "replacement_place_id": "lake-view-haserot",
+      "replaces_place_ids": [
+        "cleveland-art"
+      ],
+      "baseline_total_miles": 145.9,
+      "baseline_total_minutes": 192,
+      "delta_miles": 1.2,
+      "delta_minutes": 6,
+      "cap_minutes": 210,
+      "cap_status": "passes-baseline-cap"
+    },
+    {
+      "id": "replacement-d8-old-bedford-village",
+      "day": 8,
+      "replacement_place_id": "old-bedford-village",
+      "replaces_place_ids": [
+        "bedford-coffee-pot"
+      ],
+      "baseline_total_miles": 151,
+      "baseline_total_minutes": 204,
+      "delta_miles": -1.8,
+      "delta_minutes": -5,
+      "cap_minutes": 210,
+      "cap_status": "passes-baseline-cap"
+    },
+    {
+      "id": "replacement-d9-allentown-fish-hatchery",
+      "day": 9,
+      "replacement_place_id": "allentown-fish-hatchery",
+      "replaces_place_ids": [
+        "mack-museum"
+      ],
+      "baseline_total_miles": 155.3,
+      "baseline_total_minutes": 196,
+      "delta_miles": -1.4,
+      "delta_minutes": -10,
+      "cap_minutes": 210,
+      "cap_status": "passes-baseline-cap"
+    },
+    {
+      "id": "replacement-d10-danbury-carousel",
+      "day": 10,
+      "replacement_place_id": "danbury-fair-carousel",
+      "replaces_place_ids": [
+        "uncle-sam-danbury"
+      ],
+      "baseline_total_miles": 152.6,
+      "baseline_total_minutes": 198,
+      "delta_miles": -1.8,
+      "delta_minutes": -3,
+      "cap_minutes": 210,
+      "cap_status": "passes-baseline-cap"
+    },
+    {
+      "id": "replacement-d11-harvard-art",
+      "day": 11,
+      "replacement_place_id": "harvard-art",
+      "replaces_place_ids": [
+        "mit-museum"
+      ],
+      "baseline_total_miles": 161.2,
+      "baseline_total_minutes": 203,
+      "delta_miles": 0,
+      "delta_minutes": 0,
+      "cap_minutes": 210,
+      "cap_status": "passes-baseline-cap"
+    }
+  ],
+  "budget": {
+    "known_core_admission_floor_per_person_usd": 121,
+    "core_admissions_range_per_person_usd": [
+      140,
+      220
+    ],
+    "food_and_cafes_range_per_person_usd": [
+      550,
+      800
+    ],
+    "local_parking_tolls_range_per_person_usd": [
+      95,
+      190
+    ],
+    "optional_experiences_contingency_per_person_usd": [
+      100,
+      220
+    ],
+    "controllable_total_range_per_person_usd": [
+      885,
+      1430
+    ],
+    "nightlife_excluded_from_target": true,
+    "note": "The controllable range remains under $1,500 before lodging, cars, fuel, nightlife and shopping. Sugar tickets are nightlife and intentionally excluded."
+  },
+  "booking_priorities": [
+    {
+      "place_id": "sugar-agora",
+      "urgency": "now",
+      "reason": "Exact Friday October 9 event; buy four tickets before building the Cleveland day around it."
+    },
+    {
+      "place_id": "mack-museum",
+      "urgency": "calendar-gated",
+      "reason": "October 12 is a holiday. Promote the stop only when the official reservation calendar exposes four confirmed slots."
+    },
+    {
+      "place_id": "anthony-house",
+      "urgency": "early",
+      "reason": "Choose a docent-led Wednesday slot that preserves Mount Hope and the Batavia stage."
+    },
+    {
+      "place_id": "buckland-museum",
+      "urgency": "reconfirm",
+      "reason": "Official hours are not published as a stable table; use only real October 9 timed inventory, otherwise Crawford is automatic."
+    },
+    {
+      "place_id": "all-saints-canonsburg",
+      "urgency": "reconfirm",
+      "reason": "Confirm October 11 Orthros/Liturgy times and visitor/Communion etiquette in the parish bulletin."
+    },
+    {
+      "place_id": "eden-kazoo",
+      "urgency": "day-before-call",
+      "reason": "Confirm Thursday machinery activity; the museum can open while the production floor is quiet."
+    }
+  ],
+  "validation": {
+    "date_count": 11,
+    "expected_date_count": 11,
+    "all_baseline_drive_days_at_or_below_cap": true,
+    "live_traffic_gated_days": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "place_count": 29,
+    "image_count": 87,
+    "places_with_fewer_than_3_usable_images": [],
+    "replacement_option_count": 11,
+    "all_replacement_variants_at_or_below_cap": true,
+    "unfilled_place_ratings": 116,
+    "hard_closures_or_conflicts": [
+      "Mack's October 12 tour is not assumed: it is a federal holiday and the reservation calendar is authoritative; Fish Hatchery is the automatic swap.",
+      "Buckland has no stable official weekly-hours table; Crawford replaces it unless a real October 9 timed ticket exists.",
+      "The Danbury Railway Museum is closed Tuesday; only the public exterior Uncle Sam statue is scheduled.",
+      "Erie Maritime Museum replacement hours must be confirmed directly before promotion.",
+      "MIT Museum happens only after both cars are returned at Logan; no Cambridge driving or parking is encoded.",
+      "No OSRM baseline includes live traffic; near-cap days require live-ETA gating and stop cuts."
+    ],
+    "route_lock_status": "research-complete-bookings-and-live-forecast-pending"
+  }
+}

@@ -1,0 +1,447 @@
+{
+  "schema_version": "1.0.0",
+  "route_id": "route-07",
+  "verified_at": "2026-08-24",
+  "sources": [
+    {
+      "id": "src-springfield",
+      "title": "Springfield Museums - hours and admission",
+      "source_type": "official",
+      "url": "https://springfieldmuseums.org/hours-and-admission/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Sunday hours",
+        "five-museum ticket",
+        "adult admission"
+      ]
+    },
+    {
+      "id": "src-armory",
+      "title": "National Park Service - Springfield Armory hours",
+      "source_type": "government",
+      "url": "https://www.nps.gov/spar/planyourvisit/hours.htm",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Sunday operation",
+        "free access",
+        "visitor hours"
+      ]
+    },
+    {
+      "id": "src-cohoes",
+      "title": "City of Cohoes - Falls View Park",
+      "source_type": "government",
+      "url": "https://www.cohoes-ny.gov/314/Overlook-Park-Falls-View-Park",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "seasonal hours",
+        "legal overlooks",
+        "riverbed prohibition"
+      ]
+    },
+    {
+      "id": "src-oakwood",
+      "title": "Oakwood Cemetery Troy - visitor policies and history",
+      "source_type": "official",
+      "url": "https://www.oakwoodcemetery.org/general-policies",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "daily grounds hours",
+        "active-cemetery etiquette",
+        "visitor rules"
+      ]
+    },
+    {
+      "id": "src-saratoga-auto",
+      "title": "Saratoga Automobile Museum - plan your visit",
+      "source_type": "official",
+      "url": "https://www.saratogaautomuseum.org/plan-your-visit",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "October Monday hours",
+        "adult admission",
+        "parking and exhibit-change warning"
+      ]
+    },
+    {
+      "id": "src-boxing",
+      "title": "International Boxing Hall of Fame - plan your visit",
+      "source_type": "official",
+      "url": "https://boxhall.wixsite.com/ibhof/plan-your-visit",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Tuesday hours",
+        "adult admission",
+        "museum location"
+      ]
+    },
+    {
+      "id": "src-chittenango",
+      "title": "New York State Parks - Chittenango Falls",
+      "source_type": "government",
+      "url": "https://parks.ny.gov/parks/chittenangofalls/getting-there.aspx",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "sunrise-sunset access",
+        "167-foot waterfall",
+        "trail lengths and seasonal fees"
+      ]
+    },
+    {
+      "id": "src-anthony",
+      "title": "National Susan B. Anthony Museum & House - visit",
+      "source_type": "official",
+      "url": "https://susanb.org/hours-admissions-directions/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Wednesday hours",
+        "docent-led format",
+        "adult admission"
+      ]
+    },
+    {
+      "id": "src-mount-hope",
+      "title": "City of Rochester - Mount Hope Cemetery",
+      "source_type": "government",
+      "url": "https://www.cityofrochester.gov/locations/mount-hope-cemetery",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "seasonal daily hours",
+        "Victorian cemetery history",
+        "Douglass and Anthony graves"
+      ]
+    },
+    {
+      "id": "src-rmsc",
+      "title": "Rochester Museum & Science Center - hours and admission",
+      "source_type": "official",
+      "url": "https://rmsc.org/museum-science-center/hours-admission/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Wednesday hours",
+        "adult admission",
+        "school-year schedule"
+      ]
+    },
+    {
+      "id": "src-rmsc-tesla",
+      "title": "RMSC - Electricity Theater",
+      "source_type": "official",
+      "url": "https://rmsc.org/exhibits/electricity-theater/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "twin six-foot Tesla coils",
+        "show format",
+        "included admission"
+      ]
+    },
+    {
+      "id": "src-kazoo",
+      "title": "Original American Kazoo Company",
+      "source_type": "official",
+      "url": "https://www.edenkazoo.com/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Thursday factory operation",
+        "self-guided tour",
+        "make-a-kazoo experience"
+      ]
+    },
+    {
+      "id": "src-trec",
+      "title": "Pennsylvania DCNR - Tom Ridge Environmental Center",
+      "source_type": "government",
+      "url": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/presque-isle-state-park/trec",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "October daily hours",
+        "free exhibits",
+        "observation tower"
+      ]
+    },
+    {
+      "id": "src-erie-maritime",
+      "title": "Erie Maritime Museum - visit",
+      "source_type": "official",
+      "url": "https://www.eriemaritimemuseum.org/admission",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "museum access",
+        "paid admission",
+        "exact-date confirmation requirement"
+      ]
+    },
+    {
+      "id": "src-rockhall",
+      "title": "Rock & Roll Hall of Fame - visit",
+      "source_type": "official",
+      "url": "https://rockhall.com/visit/embed/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Friday hours",
+        "adult admission",
+        "visitor planning"
+      ]
+    },
+    {
+      "id": "src-christmas",
+      "title": "A Christmas Story House - hours and admission",
+      "source_type": "official",
+      "url": "https://housefromachristmasstory.com/hours-and-admission/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "daily hours",
+        "guided duration",
+        "ticketing"
+      ]
+    },
+    {
+      "id": "src-buckland",
+      "title": "Buckland Museum - plan your visit",
+      "source_type": "official",
+      "url": "https://bucklandmuseum.org/plan-your-visit/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "admission",
+        "45-minute average visit",
+        "200-plus artifacts"
+      ]
+    },
+    {
+      "id": "src-sugar",
+      "title": "AEG Presents - Sugar at the Agora",
+      "source_type": "official-ticketing",
+      "url": "https://cleveland.aegpresents.com/events/detail/?event_id=1300881",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "October 9 2026 date",
+        "7pm doors",
+        "8pm all-ages show"
+      ]
+    },
+    {
+      "id": "src-crawford",
+      "title": "Western Reserve Historical Society - Cleveland History Center",
+      "source_type": "official",
+      "url": "https://www.wrhs.org/plan-visit/places-to-visit/cleveland-history-center",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Friday hours",
+        "Crawford collection",
+        "admission"
+      ]
+    },
+    {
+      "id": "src-cma",
+      "title": "Cleveland Museum of Art - plan your visit",
+      "source_type": "official",
+      "url": "https://www.clevelandart.org/plan-your-visit",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Saturday hours",
+        "free general admission",
+        "visitor access"
+      ]
+    },
+    {
+      "id": "src-lakeview",
+      "title": "Lake View Cemetery - visitor information",
+      "source_type": "official",
+      "url": "https://www.lakeviewcemetery.com/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "public historic landscape",
+        "active-cemetery context",
+        "same-day gate confirmation"
+      ]
+    },
+    {
+      "id": "src-haserot",
+      "title": "Cleveland Historical - Lake View and Haserot Angel",
+      "source_type": "university-local-history",
+      "url": "https://clevelandhistorical.org/items/show/76",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Angel identification",
+        "garden-cemetery history",
+        "visitor context"
+      ]
+    },
+    {
+      "id": "src-all-saints",
+      "title": "All Saints Greek Orthodox Church Canonsburg",
+      "source_type": "official-parish",
+      "url": "https://www.allsaintscbg.org/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "canonical parish",
+        "address",
+        "2026 bulletin and contact channel"
+      ]
+    },
+    {
+      "id": "src-goarch-pittsburgh",
+      "title": "Greek Orthodox Metropolis of Pittsburgh - communities",
+      "source_type": "canonical-directory",
+      "url": "https://www.pittsburgh.goarch.org/communities",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "canonical jurisdiction",
+        "Canonsburg parish listing"
+      ]
+    },
+    {
+      "id": "src-coffee-pot",
+      "title": "VisitPA - Koontz Coffee Pot",
+      "source_type": "government-tourism",
+      "url": "https://www.visitpa.com/listing/koontz-coffee-pot/1342/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "1920s roadside structure",
+        "Lincoln Highway context",
+        "exterior visit"
+      ]
+    },
+    {
+      "id": "src-old-bedford",
+      "title": "Bedford County Chamber - Old Bedford Village",
+      "source_type": "local-tourism",
+      "url": "https://members.bedfordcountychamber.com/list/member/old-bedford-village-bedford-1492",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "October Sunday hours",
+        "historic village",
+        "seasonal access"
+      ]
+    },
+    {
+      "id": "src-mack",
+      "title": "Mack Trucks Historical Museum",
+      "source_type": "official",
+      "url": "https://www.macktruckshistoricalmuseum.org/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Monday tour pattern",
+        "reservation-first calendar",
+        "free admission and suggested donation"
+      ]
+    },
+    {
+      "id": "src-fish-hatchery",
+      "title": "City of Allentown Parks - Fish Hatchery",
+      "source_type": "government",
+      "url": "https://allentownpa.myrec.com/info/facilities/details.aspx?FacilityID=14801",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "public facility",
+        "exact address",
+        "outdoor access"
+      ]
+    },
+    {
+      "id": "src-uncle-sam",
+      "title": "Danbury Railway Museum - World's Tallest Uncle Sam",
+      "source_type": "official",
+      "url": "https://www.danburyrail.org/unclesam",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "38-foot statue",
+        "Great Danbury Fair history",
+        "parking-lot location"
+      ]
+    },
+    {
+      "id": "src-danbury-fair",
+      "title": "Danbury Fair - hours and services",
+      "source_type": "official",
+      "url": "https://www.danburyfairmall.com/hours",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Tuesday mall hours",
+        "carousel service listing",
+        "retail fallback"
+      ]
+    },
+    {
+      "id": "src-mit",
+      "title": "MIT Museum - admission",
+      "source_type": "official",
+      "url": "https://mitmuseum.mit.edu/admission-desk/prices",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "adult admission",
+        "science and technology museum",
+        "Cambridge location"
+      ]
+    },
+    {
+      "id": "src-mit-arts",
+      "title": "MIT Arts - MIT Museum",
+      "source_type": "official",
+      "url": "https://arts.mit.edu/exhibitions/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "daily 10-5 hours",
+        "collections",
+        "museum scope"
+      ]
+    },
+    {
+      "id": "src-harvard",
+      "title": "Harvard Art Museums - visit",
+      "source_type": "official",
+      "url": "https://harvardartmuseums.org/visit",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Wednesday hours",
+        "free admission",
+        "Calderwood Courtyard"
+      ]
+    },
+    {
+      "id": "src-noaa-normals",
+      "title": "NOAA U.S. Climate Normals",
+      "source_type": "government",
+      "url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "1991-2020 normals methodology"
+      ]
+    },
+    {
+      "id": "src-osrm",
+      "title": "Open Source Routing Machine",
+      "source_type": "routing",
+      "url": "https://project-osrm.org/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "road-network baselines",
+        "no live traffic"
+      ]
+    },
+    {
+      "id": "src-forum-upstate",
+      "title": "r/upstate_new_york local hidden-gem discussions",
+      "source_type": "forum",
+      "url": "https://www.reddit.com/r/upstate_new_york/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Cazenovia and Chittenango cross-check",
+        "Mount Hope cross-check",
+        "I-90 pacing"
+      ]
+    },
+    {
+      "id": "src-forum-cleveland",
+      "title": "r/Cleveland local hidden-place discussions",
+      "source_type": "forum",
+      "url": "https://www.reddit.com/r/Cleveland/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Buckland Museum cross-check",
+        "Lake View cross-check",
+        "Cleveland pacing"
+      ]
+    }
+  ]
+}

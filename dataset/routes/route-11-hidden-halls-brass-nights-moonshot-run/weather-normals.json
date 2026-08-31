@@ -1,0 +1,194 @@
+{
+  "methodology": "NOAA/NCEI U.S. Climate Normals 1991-2020 daily normals; these are planning baselines, not forecasts.",
+  "dataset_url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+  "generated_at": "2026-08-25T00:46:03.316Z",
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-10-04",
+      "sleep_city": "New Haven, CT",
+      "station": "USW00094702",
+      "station_role": "Bridgeport-New Haven coastal proxy",
+      "station_id": "USW00094702",
+      "station_name": "BRIDGEPORT SIKORSKY MEM AP, CT US",
+      "station_coordinates": [
+        -73.1289,
+        41.1583
+      ],
+      "normal_high_c": 20.4,
+      "normal_low_c": 11.6,
+      "measurable_precipitation_probability_percent": 31.2,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00094702.csv"
+    },
+    {
+      "day": 2,
+      "date": "2026-10-05",
+      "sleep_city": "Philadelphia, PA",
+      "station": "USW00013739",
+      "station_role": "Philadelphia International Airport",
+      "station_id": "USW00013739",
+      "station_name": "PHILADELPHIA INTL AP, PA US",
+      "station_coordinates": [
+        -75.2311,
+        39.8683
+      ],
+      "normal_high_c": 21.9,
+      "normal_low_c": 12,
+      "measurable_precipitation_probability_percent": 31.5,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00013739.csv"
+    },
+    {
+      "day": 3,
+      "date": "2026-10-06",
+      "sleep_city": "Shepherdstown, WV",
+      "station": "USW00093738",
+      "station_role": "Washington Dulles-Shepherdstown regional proxy",
+      "station_id": "USW00093738",
+      "station_name": "WASHINGTON DC DULLES AP, VA US",
+      "station_coordinates": [
+        -77.4636,
+        38.9408
+      ],
+      "normal_high_c": 21.9,
+      "normal_low_c": 9.6,
+      "measurable_precipitation_probability_percent": 27.6,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00093738.csv"
+    },
+    {
+      "day": 4,
+      "date": "2026-10-07",
+      "sleep_city": "Roanoke, VA",
+      "station": "USW00013741",
+      "station_role": "Roanoke Airport",
+      "station_id": "USW00013741",
+      "station_name": "ROANOKE RGNL AP, VA US",
+      "station_coordinates": [
+        -79.9742,
+        37.3169
+      ],
+      "normal_high_c": 22.8,
+      "normal_low_c": 10.7,
+      "measurable_precipitation_probability_percent": 27.1,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00013741.csv"
+    },
+    {
+      "day": 5,
+      "date": "2026-10-08",
+      "sleep_city": "Asheville, NC",
+      "station": "USW00003812",
+      "station_role": "Asheville Regional Airport",
+      "station_id": "USW00003812",
+      "station_name": "ASHEVILLE RGNL AP, NC US",
+      "station_coordinates": [
+        -82.5375,
+        35.4319
+      ],
+      "normal_high_c": 22.3,
+      "normal_low_c": 9.8,
+      "measurable_precipitation_probability_percent": 27.1,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00003812.csv"
+    },
+    {
+      "day": 6,
+      "date": "2026-10-09",
+      "sleep_city": "Atlanta, GA",
+      "station": "USW00013874",
+      "station_role": "Atlanta Hartsfield Airport",
+      "station_id": "USW00013874",
+      "station_name": "ATLANTA HARTSFIELD INTL AP, GA US",
+      "station_coordinates": [
+        -84.4417,
+        33.63
+      ],
+      "normal_high_c": 24.9,
+      "normal_low_c": 14.3,
+      "measurable_precipitation_probability_percent": 22.6,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00013874.csv"
+    },
+    {
+      "day": 7,
+      "date": "2026-10-10",
+      "sleep_city": "Greenville, AL",
+      "station": "USW00013895",
+      "station_role": "Montgomery-Greenville regional proxy",
+      "station_id": "USW00013895",
+      "station_name": "MONTGOMERY AP, AL US",
+      "station_coordinates": [
+        -86.4075,
+        32.2997
+      ],
+      "normal_high_c": 28,
+      "normal_low_c": 14.1,
+      "measurable_precipitation_probability_percent": 21.1,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00013895.csv"
+    },
+    {
+      "day": 8,
+      "date": "2026-10-11",
+      "sleep_city": "New Orleans, LA",
+      "station": "USW00012916",
+      "station_role": "New Orleans International Airport",
+      "station_id": "USW00012916",
+      "station_name": "NEW ORLEANS INTL AP, LA US",
+      "station_coordinates": [
+        -90.2511,
+        29.9933
+      ],
+      "normal_high_c": 27.9,
+      "normal_low_c": 19.1,
+      "measurable_precipitation_probability_percent": 23.6,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00012916.csv"
+    },
+    {
+      "day": 9,
+      "date": "2026-10-12",
+      "sleep_city": "New Orleans, LA",
+      "station": "USW00012916",
+      "station_role": "New Orleans International Airport",
+      "station_id": "USW00012916",
+      "station_name": "NEW ORLEANS INTL AP, LA US",
+      "station_coordinates": [
+        -90.2511,
+        29.9933
+      ],
+      "normal_high_c": 27.8,
+      "normal_low_c": 18.9,
+      "measurable_precipitation_probability_percent": 23.5,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00012916.csv"
+    },
+    {
+      "day": 10,
+      "date": "2026-10-13",
+      "sleep_city": "Lafayette, LA",
+      "station": "USW00013976",
+      "station_role": "Lafayette Regional Airport",
+      "station_id": "USW00013976",
+      "station_name": "LAFAYETTE RGNL AP, LA US",
+      "station_coordinates": [
+        -91.9875,
+        30.205
+      ],
+      "normal_high_c": 28,
+      "normal_low_c": 16.3,
+      "measurable_precipitation_probability_percent": 24.8,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00013976.csv"
+    },
+    {
+      "day": 11,
+      "date": "2026-10-14",
+      "sleep_city": "Houston, TX",
+      "station": "USW00012918",
+      "station_role": "Houston Hobby Airport",
+      "station_id": "USW00012918",
+      "station_name": "HOUSTON HOBBY AP, TX US",
+      "station_coordinates": [
+        -95.2819,
+        29.6381
+      ],
+      "normal_high_c": 28.3,
+      "normal_low_c": 18.2,
+      "measurable_precipitation_probability_percent": 24.1,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00012918.csv"
+    }
+  ]
+}

@@ -1,0 +1,1167 @@
+{
+  "schema_version": "1.0.0",
+  "route_id": "route-09",
+  "places": [
+    {
+      "id": "art-omi",
+      "name": "Art Omi Sculpture & Architecture Park",
+      "kind": "landscape-scale-contemporary-art",
+      "city": "Ghent",
+      "state": "NY",
+      "visit_date": "2026-10-04",
+      "summary": "More than sixty big artworks stand in fields and woods across this 120-acre park. You walk between them at your own pace, with no gallery walls.",
+      "why_go": "It is a relaxed but interesting way to start the trip. Everyone can explore in a different direction and meet up later.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Viki, who can photograph art set in nature, and for Paco, who likes an easy, relaxed start. Gora enjoys studying how the pieces are built.",
+      "categories": [
+        "unusual_creative",
+        "architecture_nature_photogenic",
+        "quiet_reset"
+      ],
+      "duration_minutes": 115,
+      "source_ids": [
+        "src-art-omi"
+      ],
+      "reservation": "vehicle-registration",
+      "hours": {
+        "opens": "09:00",
+        "closes": "dusk",
+        "status": "verified-current",
+        "note": "Visitor center closes at 17:00; the park remains open to dusk on Sunday. Register both vehicles and use the short loop because sunset is early."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Free with a suggested $15 donation."
+      },
+      "priority": "anchor",
+      "address": "Art Omi Sculpture & Architecture Park"
+    },
+    {
+      "id": "naumkeag-pumpkin",
+      "name": "Naumkeag Blue Steps & Daytime Pumpkin Walk",
+      "kind": "gilded-estate-and-seasonal-design",
+      "city": "Stockbridge",
+      "state": "MA",
+      "visit_date": "2026-10-04",
+      "summary": "This grand old house has a famous blue staircase called the Blue Steps, set inside a carefully designed garden. In October, about a thousand pumpkins fill the grounds.",
+      "why_go": "Choose this warm, colorful option if the weather turns and you want a softer first day.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "gora"
+      ],
+      "best_fit_note": "Good for Viki's photos and Stivka's love of a calm garden. A warm backup when the weather turns.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "unusual_creative",
+        "local_culture"
+      ],
+      "duration_minutes": 120,
+      "source_ids": [
+        "src-naumkeag",
+        "src-naumkeag-halloween"
+      ],
+      "reservation": "reserve-after-august-26",
+      "hours": {
+        "opens": "12:00",
+        "closes": "16:00",
+        "status": "verified-current",
+        "note": "October 4 is in the confirmed 2026 Wednesday-Sunday event run, but the exact daytime timed slot is not released until August 26; select an early-afternoon ticket that preserves Ghent."
+      },
+      "cost": {
+        "amount_per_person": 35,
+        "status": "date-confirmed-price-pending",
+        "note": "Planning allowance until 2026 timed-ticket pricing is released."
+      },
+      "priority": "replacement",
+      "replacement_reason": "A ticketed Gilded Age garden-and-pumpkin swap if Art Omi is muddy or the group wants a more designed first photograph.",
+      "replacement": {
+        "day": 1,
+        "replaces_place_ids": [
+          "art-omi"
+        ],
+        "route_variant_id": "replacement-d1-naumkeag",
+        "reason": "A ticketed Gilded Age garden-and-pumpkin swap if Art Omi is muddy or the group wants a more designed first photograph."
+      },
+      "address": "Naumkeag Blue Steps & Daytime Pumpkin Walk"
+    },
+    {
+      "id": "worlds-largest-kaleidoscope",
+      "name": "World's Largest Kaleidoscope & Kaleidostore",
+      "kind": "silo-sized-optical-show",
+      "city": "Mount Tremper",
+      "state": "NY",
+      "visit_date": "2026-10-05",
+      "summary": "An old grain silo was turned into a giant kaleidoscope. You lean back inside it while huge mirrors and lights make a moving picture show about twenty minutes long.",
+      "why_go": "It is short, strange, and fun for everyone. Nobody expects a roadside stop like this.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Viki's colors and Paco's sense of fun. Gora enjoys the mirrors and the mechanics behind the show.",
+      "categories": [
+        "unusual_creative",
+        "local_culture",
+        "architecture_nature_photogenic"
+      ],
+      "duration_minutes": 75,
+      "source_ids": [
+        "src-kaleidoscope",
+        "src-kaleidoscope-about"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Open Thursday-Monday. The show is about twenty minutes; allow time for the artist kaleidoscopes and restored dairy-barn shops."
+      },
+      "cost": {
+        "amount_per_person": 5,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "anchor",
+      "address": "World's Largest Kaleidoscope & Kaleidostore"
+    },
+    {
+      "id": "opus-40",
+      "name": "Opus 40",
+      "kind": "monumental-bluestone-earthwork",
+      "city": "Saugerties",
+      "state": "NY",
+      "visit_date": "2026-10-05",
+      "summary": "One man spent decades stacking local stone into ramps, walls, and platforms across 6.5 acres. Walking through it feels like exploring ancient ruins, but it was built by hand in modern times.",
+      "why_go": "Choose this bigger outdoor option when the group wants to walk around real stonework instead of a short indoor show.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's photos and Gora's love of real engineering. A good choice when everyone wants to walk and explore instead of watching a short show.",
+      "categories": [
+        "unusual_creative",
+        "architecture_nature_photogenic",
+        "athletic_adrenaline"
+      ],
+      "duration_minutes": 120,
+      "source_ids": [
+        "src-opus40"
+      ],
+      "reservation": "weather-check",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Monday hours with last entry at 16:00. Stone is uneven and can be slippery; use sturdy shoes and skip in heavy rain."
+      },
+      "cost": {
+        "amount_per_person": 20,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "replacement",
+      "replacement_reason": "A larger outdoor art-and-landscape swap when the group wants movement and scale rather than a short indoor show.",
+      "replacement": {
+        "day": 2,
+        "replaces_place_ids": [
+          "worlds-largest-kaleidoscope"
+        ],
+        "route_variant_id": "replacement-d2-opus-40",
+        "reason": "A larger outdoor art-and-landscape swap when the group wants movement and scale rather than a short indoor show."
+      },
+      "address": "Opus 40"
+    },
+    {
+      "id": "taber-museum",
+      "name": "Thomas T. Taber Museum",
+      "kind": "regional-history-and-railroad-obsession",
+      "city": "Williamsport",
+      "state": "PA",
+      "visit_date": "2026-10-06",
+      "summary": "This small county museum tells the story of local history, lumber, and factory life. It also holds one of Pennsylvania's largest toy train collections, more than three hundred trains.",
+      "why_go": "It looks quiet from outside but has a fun surprise inside. The toy trains give everyone a break from serious history.",
+      "best_for": [
+        "gora"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka",
+        "viki"
+      ],
+      "best_fit_note": "Good for Gora, who enjoys real local history and the toy trains. A calm, easy stop after a long drive.",
+      "categories": [
+        "hidden_history_folklore",
+        "unusual_creative",
+        "local_culture"
+      ],
+      "duration_minutes": 120,
+      "source_ids": [
+        "src-taber"
+      ],
+      "reservation": "call-week-before",
+      "hours": {
+        "opens": "09:30",
+        "closes": "16:00",
+        "status": "verified-current",
+        "note": "Tuesday hours. The route targets 12:00-14:00; confirm that the train gallery is operating before leaving Hancock."
+      },
+      "cost": {
+        "amount_per_person": 12,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "anchor",
+      "address": "Thomas T. Taber Museum"
+    },
+    {
+      "id": "millionaires-row",
+      "name": "Millionaires' Row & Way's Garden Circuit",
+      "kind": "lumber-era-architecture-walk",
+      "city": "Williamsport",
+      "state": "PA",
+      "visit_date": "2026-10-06",
+      "summary": "A short walk down West Fourth Street passes grand old houses built by lumber families long ago. The walk ends in Way's Garden, a calm park with paths and a fountain.",
+      "why_go": "Choose this free outdoor walk instead of the train museum if you want fresh air and old architecture without driving further.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's architecture photos and Gora's interest in how the town grew rich. Free and easy after a long drive.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "quiet_reset"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-williamsport"
+      ],
+      "reservation": "weather-check",
+      "hours": {
+        "opens": "dawn",
+        "closes": "dusk",
+        "status": "verified-current",
+        "note": "Public sidewalks and park; view houses from the street, respect residents and keep the circuit to about 1.5 miles."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "replacement",
+      "replacement_reason": "A zero-reservation outdoor architecture swap if the museum or train gallery cannot be confirmed.",
+      "replacement": {
+        "day": 3,
+        "replaces_place_ids": [
+          "taber-museum"
+        ],
+        "route_variant_id": "replacement-d3-millionaires-row",
+        "reason": "A zero-reservation outdoor architecture swap if the museum or train gallery cannot be confirmed."
+      },
+      "address": "Millionaires' Row & Way's Garden Circuit"
+    },
+    {
+      "id": "scripture-rocks",
+      "name": "Scripture Rocks Heritage Park",
+      "kind": "outsider-scripture-landscape",
+      "city": "Brookville",
+      "state": "PA",
+      "visit_date": "2026-10-07",
+      "summary": "A forest path winds past more than sixty large rocks. Each one was carved with Bible verses in the early 1900s by a man named Douglas Stahlman.",
+      "why_go": "It is a strange and quiet place that mixes faith, history, and nature. The story behind it is honest, including the hard parts of the man's life.",
+      "best_for": [
+        "stivka",
+        "gora"
+      ],
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Stivka's quiet reflection and Gora's interest in the man's real story. Viki gets strange and striking photos.",
+      "categories": [
+        "orthodox_spiritual",
+        "hidden_history_folklore",
+        "architecture_nature_photogenic",
+        "unusual_creative"
+      ],
+      "duration_minutes": 105,
+      "source_ids": [
+        "src-scripture",
+        "src-scripture-hours"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "dawn",
+        "closes": "dusk",
+        "status": "verified-current",
+        "note": "Open April-October, dawn to dusk. Gravel paths can be wet; interpret Stahlman's mental-health history carefully and do not treat the inscriptions as Orthodox teaching."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Free; donation supports the historical society."
+      },
+      "priority": "anchor",
+      "address": "Scripture Rocks Heritage Park"
+    },
+    {
+      "id": "punxsutawney-folklore",
+      "name": "Gobbler's Knob & Phil's Burrow Folklore Circuit",
+      "kind": "living-american-weather-folklore",
+      "city": "Punxsutawney",
+      "state": "PA",
+      "visit_date": "2026-10-07",
+      "summary": "This is the real town from the famous groundhog weather tradition. You can see Gobbler's Knob, where the yearly announcement happens, and painted groundhog statues around town.",
+      "why_go": "It is a fun, easy stop, not a serious history lesson. Everyone gets a laugh and a good photo.",
+      "best_for": [
+        "sheluvspaco",
+        "viki"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Paco's sense of humor and Viki's fun photos. Gora enjoys seeing how a small town built its own legend.",
+      "categories": [
+        "hidden_history_folklore",
+        "unusual_creative",
+        "local_culture"
+      ],
+      "duration_minutes": 105,
+      "source_ids": [
+        "src-punx"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "dawn",
+        "closes": "dusk",
+        "status": "verified-current",
+        "note": "Outdoor sites are public on Wednesday. The Weather Discovery Center is closed Wednesday and is not promised or silently added."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "replacement",
+      "replacement_reason": "A longer but cap-tested folklore swap if trail weather makes Scripture Rocks unsafe.",
+      "replacement": {
+        "day": 4,
+        "replaces_place_ids": [
+          "scripture-rocks"
+        ],
+        "route_variant_id": "replacement-d4-punxsutawney",
+        "reason": "A longer but cap-tested folklore swap if trail weather makes Scripture Rocks unsafe."
+      },
+      "address": "Gobbler's Knob & Phil's Burrow Folklore Circuit"
+    },
+    {
+      "id": "bayernhof",
+      "name": "Bayernhof Museum",
+      "kind": "secret-house-of-music-machines",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "visit_date": "2026-10-08",
+      "summary": "This huge hidden mansion has secret passages and strange rooms built just for fun. A guide shows you a private collection of machines that play music by themselves, like organs and music boxes.",
+      "why_go": "This is one of the most surprising stops on the whole trip. Only twelve people can join each tour, so book it early.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Gora's love of machines and Viki's love of strange rooms. Stivka enjoys the music, and Paco enjoys the constant surprises.",
+      "categories": [
+        "unusual_creative",
+        "hidden_history_folklore",
+        "architecture_nature_photogenic"
+      ],
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-bayernhof"
+      ],
+      "reservation": "reserve-now",
+      "hours": {
+        "opens": "10:00",
+        "closes": "16:00",
+        "status": "verified-current",
+        "note": "Tours are by advance appointment, normally daily except major holidays; only twelve visitors fit. Secure a Thursday morning slot before treating Route 9 as bookable."
+      },
+      "cost": {
+        "amount_per_person": 10,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "anchor",
+      "address": "Bayernhof Museum"
+    },
+    {
+      "id": "heinz-history",
+      "name": "Senator John Heinz History Center",
+      "kind": "six-floor-western-pa-history",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "visit_date": "2026-10-08",
+      "summary": "Six floors inside an old ice warehouse hold real objects from the region's history: factories, sports, immigration, and even the actual set from Mister Rogers' TV show.",
+      "why_go": "Choose this large museum if the small Bayernhof tour cannot be booked. There is enough here for a full visit on its own.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Gora's real history and Viki's design eye. A safe backup with plenty to see on its own.",
+      "categories": [
+        "hidden_history_folklore",
+        "local_culture",
+        "unusual_creative"
+      ],
+      "duration_minutes": 180,
+      "source_ids": [
+        "src-heinz"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Open daily. Select two or three floors rather than attempting the entire museum before Wheeling."
+      },
+      "cost": {
+        "amount_per_person": 20,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "replacement",
+      "replacement_reason": "The large, dependable history alternative when the small Bayernhof appointment is unavailable.",
+      "replacement": {
+        "day": 5,
+        "replaces_place_ids": [
+          "bayernhof"
+        ],
+        "route_variant_id": "replacement-d5-heinz",
+        "reason": "The large, dependable history alternative when the small Bayernhof appointment is unavailable."
+      },
+      "address": "Senator John Heinz History Center"
+    },
+    {
+      "id": "alan-cottrill",
+      "name": "Alan Cottrill Sculpture Studio & Gallery",
+      "kind": "working-bronze-artist-labyrinth",
+      "city": "Zanesville",
+      "state": "OH",
+      "visit_date": "2026-10-09",
+      "summary": "Hundreds of bronze statues fill two floors of this working art studio. You can often see the artists shaping clay or working with metal while you walk through.",
+      "why_go": "It feels alive, not like a quiet museum. You get to see real work happening, not just finished art behind glass.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Gora's respect for craft and Viki's love of a busy, visual space. Paco enjoys meeting real working artists.",
+      "categories": [
+        "unusual_creative",
+        "hidden_history_folklore",
+        "local_culture"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-cottrill",
+        "src-cottrill-tourism"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "09:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Friday hours; no appointment is required for four people, but call if access to active work matters."
+      },
+      "cost": {
+        "amount_per_person": 2,
+        "status": "donation-planning",
+        "note": "Admission is not posted as a fixed fee; allow a respectful donation."
+      },
+      "priority": "anchor",
+      "address": "Alan Cottrill Sculpture Studio & Gallery"
+    },
+    {
+      "id": "y-bridge",
+      "name": "Zanesville Y Bridge & Putnam Overlook",
+      "kind": "three-way-river-bridge",
+      "city": "Zanesville",
+      "state": "OH",
+      "visit_date": "2026-10-09",
+      "summary": "This unusual bridge crosses two rivers at once, so drivers can actually turn in the middle of it. The best way to understand its shape is from the hill above town.",
+      "why_go": "It only takes fifteen minutes but gives a fun, easy-to-understand view of a strange piece of engineering.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Viki's photos and Gora's curiosity about how it works. A quick and easy stop for everyone.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "unusual_creative",
+        "local_culture"
+      ],
+      "duration_minutes": 35,
+      "source_ids": [
+        "src-ybridge"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "dawn",
+        "closes": "dusk",
+        "status": "verified-current",
+        "note": "Public road and overlook. Photograph only from legal pull-offs and sidewalks; never stop on the bridge."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "supporting",
+      "address": "Zanesville Y Bridge & Putnam Overlook"
+    },
+    {
+      "id": "otherworld",
+      "name": "Otherworld Columbus",
+      "kind": "interactive-surreal-art-world",
+      "city": "Columbus",
+      "state": "OH",
+      "visit_date": "2026-10-09",
+      "summary": "Dozens of glowing, strange rooms connect together inside an old store building. You walk through a forest of light, hidden doors, and odd creatures, solving small puzzles along the way.",
+      "why_go": "This is the most exciting, unusual stop of the day. Everyone can explore together and find a favorite room.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Viki's photos and Paco's sense of fun. Gora enjoys finding the hidden puzzles and secret doors.",
+      "categories": [
+        "unusual_creative",
+        "architecture_nature_photogenic",
+        "social_nightlife_live"
+      ],
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-otherworld",
+        "src-forum-ohio"
+      ],
+      "reservation": "reserve",
+      "hours": {
+        "opens": "10:00",
+        "closes": "22:00",
+        "status": "verified-current",
+        "note": "Friday hours. Buy an online-only timed ticket around 15:30; puzzles can extend the visit, so leave before fatigue makes dinner unpleasant."
+      },
+      "cost": {
+        "amount_per_person": 30,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "anchor",
+      "address": "Otherworld Columbus"
+    },
+    {
+      "id": "cambridge-glass",
+      "name": "National Museum of Cambridge Glass",
+      "kind": "color-glass-and-making-history",
+      "city": "Cambridge",
+      "state": "OH",
+      "visit_date": "2026-10-09",
+      "summary": "This museum holds thousands of pieces of colorful glass made by a famous local glass company. Hands-on displays show how the glass was shaped, cut, and colored.",
+      "why_go": "Choose this quieter, craft-focused stop instead of Otherworld if the group wants color and history instead of another big sensory experience.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's love of color and Gora's interest in how things are made. A calmer choice than Otherworld.",
+      "categories": [
+        "unusual_creative",
+        "hidden_history_folklore",
+        "local_culture"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-cambridge-glass"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "16:00",
+        "status": "verified-current",
+        "note": "Open Wednesday-Saturday April-October. This replacement changes the visit sequence: glass first, then Cottrill and the Y Bridge; do not also visit Otherworld."
+      },
+      "cost": {
+        "amount_per_person": 7,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "replacement",
+      "replacement_reason": "A quieter craft-and-industry replacement when Otherworld tickets, sensory load or cost do not fit.",
+      "replacement": {
+        "day": 6,
+        "replaces_place_ids": [
+          "otherworld"
+        ],
+        "route_variant_id": "replacement-d6-cambridge-glass",
+        "reason": "A quieter craft-and-industry replacement when Otherworld tickets, sensory load or cost do not fit."
+      },
+      "address": "National Museum of Cambridge Glass"
+    },
+    {
+      "id": "butler-institute",
+      "name": "Butler Institute of American Art",
+      "kind": "free-american-art-museum",
+      "city": "Youngstown",
+      "state": "OH",
+      "visit_date": "2026-10-10",
+      "summary": "This large art museum was one of the first in America built only for American art. Entry is completely free, and the building itself is grand and historic.",
+      "why_go": "It gives real art and architecture without any cost. A relaxed stop after a long day of driving.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's art and architecture eye and Gora's interest in American history. Free, so nobody feels rushed.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "quiet_reset"
+      ],
+      "duration_minutes": 135,
+      "source_ids": [
+        "src-butler"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "11:00",
+        "closes": "16:00",
+        "status": "verified-current",
+        "note": "Saturday hours. Arrive close to opening after the long Polaris drive and choose permanent highlights plus one 2026 exhibition."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "anchor",
+      "address": "Butler Institute of American Art"
+    },
+    {
+      "id": "fellows-riverside",
+      "name": "Fellows Riverside Gardens",
+      "kind": "free-city-garden-overlook",
+      "city": "Youngstown",
+      "state": "OH",
+      "visit_date": "2026-10-10",
+      "summary": "This twelve-acre garden sits on a hill above a lake, filled with flower beds, paths, and wide views. Roses often still bloom here into November.",
+      "why_go": "Choose this free outdoor garden instead of another museum when the group wants fresh air and color.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "gora"
+      ],
+      "best_fit_note": "Good for Viki's photos and Stivka's quiet moment outdoors. Free and easy after days of museums.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "quiet_reset"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-fellows"
+      ],
+      "reservation": "weather-check",
+      "hours": {
+        "opens": "sunrise",
+        "closes": "sunset",
+        "status": "verified-current",
+        "note": "Gardens are free and open daily; the visitor center is open Saturday 10:00-17:00. Garden Café is closed for redevelopment in 2026."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "replacement",
+      "replacement_reason": "A lower-energy outdoor replacement when fall weather is beautiful or museum fatigue appears.",
+      "replacement": {
+        "day": 7,
+        "replaces_place_ids": [
+          "butler-institute"
+        ],
+        "route_variant_id": "replacement-d7-fellows",
+        "reason": "A lower-energy outdoor replacement when fall weather is beautiful or museum fatigue appears."
+      },
+      "address": "Fellows Riverside Gardens"
+    },
+    {
+      "id": "st-nicholas-dubois",
+      "name": "Protected Orthodox Sunday at St Nicholas Orthodox Church",
+      "kind": "canonical-orthodox-worship",
+      "city": "DuBois",
+      "state": "PA",
+      "visit_date": "2026-10-11",
+      "summary": "This small Orthodox church protects Sunday morning worship in the middle of the trip. Morning prayers begin at 9:40, followed by a full service at 10:00.",
+      "why_go": "This stop matters most for Stivka, and the whole group shares it together. The small church feels warm and personal.",
+      "best_for": [
+        "stivka"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "viki",
+        "gora"
+      ],
+      "best_fit_note": "Good for Stivka above all, and a shared calm morning for the whole group. Small and personal rather than grand.",
+      "categories": [
+        "orthodox_spiritual",
+        "quiet_reset",
+        "local_culture"
+      ],
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-stnicholas",
+        "src-stnicholas-oca"
+      ],
+      "reservation": "parish-confirm",
+      "hours": {
+        "opens": "09:40",
+        "closes": "12:00",
+        "status": "verified-current",
+        "note": "Officially the 10:00 service alternates between Divine Liturgy and Obednitsa with Communion. Call the parish and confirm October 11; the dataset never falsely promises full Liturgy."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Free; make a respectful offering if appropriate."
+      },
+      "priority": "anchor",
+      "address": "Protected Orthodox Sunday at St Nicholas Orthodox Church"
+    },
+    {
+      "id": "bellefonte-victorian",
+      "name": "Bellefonte Victorian & Talleyrand Waterfront Walk",
+      "kind": "victorian-small-town-reset",
+      "city": "Bellefonte",
+      "state": "PA",
+      "visit_date": "2026-10-11",
+      "summary": "A short walk along the water and past an old train station leads into a town full of pretty old houses and iron details. It feels like stepping back in time.",
+      "why_go": "After church and driving, this gives everyone a calm, easy walk with pretty views and no pressure.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's architecture photos and Stivka's quiet walk. A gentle way to end a busy Sunday.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "quiet_reset",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 105,
+      "source_ids": [
+        "src-talleyrand"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "dawn",
+        "closes": "dusk",
+        "status": "verified-current",
+        "note": "Public park and sidewalks. Keep the walk compact after the drive; the buildings are private unless explicitly open."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "anchor",
+      "address": "Bellefonte Victorian & Talleyrand Waterfront Walk"
+    },
+    {
+      "id": "bellefonte-art",
+      "name": "Bellefonte Art Museum in the Linn House",
+      "kind": "small-town-art-in-victorian-house",
+      "city": "Bellefonte",
+      "state": "PA",
+      "visit_date": "2026-10-11",
+      "summary": "This small art museum sits inside an old stone house built in 1810. Local and regional art fills the rooms of the historic home.",
+      "why_go": "Choose this indoor option instead of the outdoor walk if the weather turns bad on Sunday.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's love of old buildings and Stivka's calm mood. The right choice on a rainy Sunday.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "local_culture",
+        "quiet_reset"
+      ],
+      "duration_minutes": 75,
+      "source_ids": [
+        "src-bellefonte-art"
+      ],
+      "reservation": "reconfirm-exhibitions",
+      "hours": {
+        "opens": "12:00",
+        "closes": "16:30",
+        "status": "verified-current",
+        "note": "Typical Sunday access; exhibition turnover can close galleries, so verify October 11 directly."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Free; donation encouraged."
+      },
+      "priority": "replacement",
+      "replacement_reason": "The indoor, low-walking substitute after the same protected Orthodox service and unchanged drive.",
+      "replacement": {
+        "day": 8,
+        "replaces_place_ids": [
+          "bellefonte-victorian"
+        ],
+        "route_variant_id": "replacement-d8-bellefonte-art",
+        "reason": "The indoor, low-walking substitute after the same protected Orthodox service and unchanged drive."
+      },
+      "address": "Bellefonte Art Museum in the Linn House"
+    },
+    {
+      "id": "columcille",
+      "name": "Columcille Megalith Park",
+      "kind": "celtic-inspired-stone-sanctuary",
+      "city": "Bangor",
+      "state": "PA",
+      "visit_date": "2026-10-12",
+      "summary": "More than ninety large standing stones are arranged across twenty acres of forest. People built it as a peaceful place to think, not to copy an ancient site.",
+      "why_go": "This might be the most magical spot on the whole trip. It feels ancient, but the true story of how it was built is honest and modern.",
+      "best_for": [
+        "stivka",
+        "viki"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Stivka's quiet spirit and Viki's photos of ancient-looking stones. Gora appreciates the honest, modern story behind it.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "quiet_reset",
+        "hidden_history_folklore",
+        "unusual_creative"
+      ],
+      "duration_minutes": 135,
+      "source_ids": [
+        "src-columcille",
+        "src-columcille-history"
+      ],
+      "reservation": "weather-check",
+      "hours": {
+        "opens": "dawn",
+        "closes": "dusk",
+        "status": "verified-current",
+        "note": "Open daily. Trails are rough and unpaved; never climb stones. Personal photos are allowed, but website/commercial reuse requires written permission."
+      },
+      "cost": {
+        "amount_per_person": 5,
+        "status": "verified-current",
+        "note": "No fixed admission; plan a donation."
+      },
+      "priority": "anchor",
+      "address": "Columcille Megalith Park"
+    },
+    {
+      "id": "asa-packer",
+      "name": "Asa Packer Mansion",
+      "kind": "intact-industrial-magnate-house",
+      "city": "Jim Thorpe",
+      "state": "PA",
+      "visit_date": "2026-10-12",
+      "summary": "This grand 1861 mansion still holds its original furniture and decorations. A guide walks you through the eighteen rooms in about thirty minutes.",
+      "why_go": "Choose this indoor mansion tour instead of the stone park if the weather is bad or the group wants less walking.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's love of grand interiors and Gora's interest in the family's real power and money. Short and easy on a busy holiday Monday.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "local_culture"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-asapacker-events",
+        "src-asapacker-tour"
+      ],
+      "reservation": "holiday-confirm",
+      "hours": {
+        "opens": "11:00",
+        "closes": "15:30",
+        "status": "verified-current",
+        "note": "Officially open throughout October 2026 except Tuesdays. October tours are about thirty minutes and first-come, first-served; arrive early on the holiday Monday."
+      },
+      "cost": {
+        "amount_per_person": 13,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "replacement",
+      "replacement_reason": "The exact cap-tested indoor alternative for rain, poor footing or a desire for industrial-era interiors.",
+      "replacement": {
+        "day": 9,
+        "replaces_place_ids": [
+          "columcille"
+        ],
+        "route_variant_id": "replacement-d9-asa-packer",
+        "reason": "The exact cap-tested indoor alternative for rain, poor footing or a desire for industrial-era interiors."
+      },
+      "address": "Asa Packer Mansion"
+    },
+    {
+      "id": "tarrywile",
+      "name": "Tarrywile Mansion, Park & Hearthstone Exterior",
+      "kind": "municipal-estate-and-fenced-castle-ruin",
+      "city": "Danbury",
+      "state": "CT",
+      "visit_date": "2026-10-13",
+      "summary": "This large park holds an old mansion, ponds, and walking paths. From a safe distance, you can also see the outside of Hearthstone Castle, a roofless ruin now closed off with fencing.",
+      "why_go": "It is a calm, pretty stop with a strange twist: a real castle that was never finished and is now falling apart.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's photos of the mansion and the ponds. Gora finds the story of the failed castle honestly interesting.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "quiet_reset"
+      ],
+      "duration_minutes": 135,
+      "source_ids": [
+        "src-tarrywile",
+        "src-hearthstone"
+      ],
+      "reservation": "weather-check",
+      "hours": {
+        "opens": "sunrise",
+        "closes": "sunset",
+        "status": "verified-current",
+        "note": "Park is free and open daily weather permitting. Hearthstone is a dangerous ruin: remain outside every fence, obey closures and never trespass. This is a short mansion/pond/exterior circuit, not a 21-mile hike."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "anchor",
+      "address": "Tarrywile Mansion, Park & Hearthstone Exterior"
+    },
+    {
+      "id": "aldrich",
+      "name": "Aldrich Outdoor Sculpture Garden",
+      "kind": "free-contemporary-sculpture-garden",
+      "city": "Ridgefield",
+      "state": "CT",
+      "visit_date": "2026-10-13",
+      "summary": "This free outdoor sculpture garden sits beside an old town street. Since the museum itself is closed on Tuesdays, only the outdoor art is open to visit.",
+      "why_go": "Choose this short, free stop if the ground at Tarrywile is too wet or muddy for walking.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Viki's photos and Paco's easy pace. A short, free stop when the group needs less walking.",
+      "categories": [
+        "unusual_creative",
+        "architecture_nature_photogenic",
+        "quiet_reset"
+      ],
+      "duration_minutes": 75,
+      "source_ids": [
+        "src-aldrich",
+        "src-aldrich-garden"
+      ],
+      "reservation": "same-day-gate-check",
+      "hours": {
+        "opens": "dawn",
+        "closes": "dusk",
+        "status": "verified-current",
+        "note": "The museum is CLOSED Tuesday. Only use the free outdoor sculpture garden if daily public access remains posted; verify the gate on October 13 and never advertise gallery entry."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "replacement",
+      "replacement_reason": "A compact outdoor-art substitute, route-tested at 200 minutes, if Tarrywile is muddy or the group needs less walking.",
+      "replacement": {
+        "day": 10,
+        "replaces_place_ids": [
+          "tarrywile"
+        ],
+        "route_variant_id": "replacement-d10-aldrich-garden",
+        "reason": "A compact outdoor-art substitute, route-tested at 200 minutes, if Tarrywile is muddy or the group needs less walking."
+      },
+      "address": "Aldrich Outdoor Sculpture Garden"
+    },
+    {
+      "id": "harvard-natural-history",
+      "name": "Harvard Museum of Natural History & Glass Flowers",
+      "kind": "scientific-wonder-cabinet",
+      "city": "Cambridge",
+      "state": "MA",
+      "visit_date": "2026-10-14",
+      "summary": "Delicate glass flowers that look completely real sit beside rocks, fossils, and stuffed animals. Skilled artists made the glass flowers so carefully that they still amaze scientists today.",
+      "why_go": "This is a strong last stop for the whole group. Everyone finds something different to enjoy here.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's love of beautiful, delicate art and Gora's interest in real science. A strong finish for the whole group.",
+      "categories": [
+        "unusual_creative",
+        "hidden_history_folklore",
+        "architecture_nature_photogenic"
+      ],
+      "duration_minutes": 180,
+      "source_ids": [
+        "src-harvard",
+        "src-harvard-collections"
+      ],
+      "reservation": "reserve-recommended",
+      "hours": {
+        "opens": "09:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Open daily. Enter around 12:00 only after both cars are returned at Logan; one ticket also includes the Peabody, but do not attempt both collections exhaustively."
+      },
+      "cost": {
+        "amount_per_person": 20,
+        "status": "verified-current",
+        "note": "Official adult rate effective July 1, 2026."
+      },
+      "priority": "anchor",
+      "address": "Harvard Museum of Natural History & Glass Flowers"
+    },
+    {
+      "id": "ether-dome",
+      "name": "Russell Museum & Ether Dome",
+      "kind": "medical-innovation-and-ethical-history",
+      "city": "Boston",
+      "state": "MA",
+      "visit_date": "2026-10-14",
+      "summary": "This free museum tells the story of medicine at a real hospital. It leads to a famous old surgery room where doctors first showed the world that pain during surgery could be stopped.",
+      "why_go": "Choose this shorter, free stop if a long museum visit feels like too much on the last day.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Gora's interest in real history and Viki's photos of the old surgery room. Short and free on a busy last day.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_nature_photogenic",
+        "unusual_creative"
+      ],
+      "duration_minutes": 120,
+      "source_ids": [
+        "src-mgh"
+      ],
+      "reservation": "call-week-before",
+      "hours": {
+        "opens": "10:00",
+        "closes": "14:00",
+        "status": "verified-current",
+        "note": "Russell Museum is open Wednesday 10:00-14:00. Confirm public Ether Dome access with staff; this is a working hospital, so patient care, privacy and security override sightseeing."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before travel."
+      },
+      "priority": "replacement",
+      "replacement_reason": "A shorter free medical-history finale after the same car return, with unchanged road mileage.",
+      "replacement": {
+        "day": 11,
+        "replaces_place_ids": [
+          "harvard-natural-history"
+        ],
+        "route_variant_id": "replacement-d11-ether-dome",
+        "reason": "A shorter free medical-history finale after the same car return, with unchanged road mileage."
+      },
+      "address": "Russell Museum & Ether Dome"
+    }
+  ]
+}

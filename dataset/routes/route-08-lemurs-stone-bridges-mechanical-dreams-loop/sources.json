@@ -1,0 +1,477 @@
+{
+  "schema_version": "1.0.0",
+  "route_id": "route-08",
+  "verified_at": "2026-08-24",
+  "sources": [
+    {
+      "id": "src-nbmaa",
+      "title": "New Britain Museum of American Art - visit",
+      "source_type": "official",
+      "url": "https://www.nbmaa.org/visit",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Sunday hours",
+        "adult admission",
+        "American-art collection"
+      ]
+    },
+    {
+      "id": "src-wadsworth",
+      "title": "Wadsworth Atheneum - visit",
+      "source_type": "official",
+      "url": "https://www.thewadsworth.org/visit/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Sunday hours",
+        "adult admission",
+        "visitor access"
+      ]
+    },
+    {
+      "id": "src-dia",
+      "title": "Dia Beacon - visit",
+      "source_type": "official",
+      "url": "https://www.diaart.org/visit/visit-our-locations-sites/dia-beacon-beacon-united-states/main/5",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Monday hours",
+        "adult admission",
+        "advance ticket advice",
+        "factory setting"
+      ]
+    },
+    {
+      "id": "src-bear",
+      "title": "New York State Parks - Bear Mountain",
+      "source_type": "government",
+      "url": "https://parks.ny.gov/visit/state-parks/bear-mountain-state-park",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "park hours",
+        "Perkins Drive season",
+        "vehicle fee",
+        "weather dependency"
+      ]
+    },
+    {
+      "id": "src-goggle",
+      "title": "GoggleWorks - visit",
+      "source_type": "official",
+      "url": "https://goggleworks.org/visit/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "daily hours",
+        "free admission",
+        "former factory",
+        "working studios"
+      ]
+    },
+    {
+      "id": "src-maam",
+      "title": "Mid-Atlantic Air Museum - visitor information",
+      "source_type": "official",
+      "url": "https://maam.org/contact/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Tuesday hours",
+        "guided format",
+        "adult admission"
+      ]
+    },
+    {
+      "id": "src-tanger",
+      "title": "Tanger Lancaster - stores",
+      "source_type": "official",
+      "url": "https://www.tanger.com/lancaster/stores",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Tuesday hours",
+        "outlet directory",
+        "shopping access"
+      ]
+    },
+    {
+      "id": "src-msv",
+      "title": "Museum of the Shenandoah Valley - visit",
+      "source_type": "official",
+      "url": "https://www.themsv.org/visit/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Wednesday access",
+        "galleries and gardens",
+        "trails",
+        "admission"
+      ]
+    },
+    {
+      "id": "src-stonewall",
+      "title": "Shenandoah At War - Jackson's Headquarters",
+      "source_type": "regional-heritage",
+      "url": "https://www.shenandoahatwar.org/jacksons-headquarters",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "seasonal daily hours",
+        "adult admission",
+        "historic-house collection"
+      ]
+    },
+    {
+      "id": "src-natural-bridge",
+      "title": "Virginia State Parks - Natural Bridge",
+      "source_type": "government",
+      "url": "https://www.dcr.virginia.gov/state-parks/natural-bridge",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "daily access",
+        "visitor-center hours",
+        "stairs and accessibility",
+        "trail"
+      ]
+    },
+    {
+      "id": "src-natural-bridge-fee",
+      "title": "Virginia State Parks - 2026 Natural Bridge admission",
+      "source_type": "government",
+      "url": "https://www.dcr.virginia.gov/state-parks/blog/natural-bridge-state-park-adjusts-admission-fee-2026",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "2026 adult admission"
+      ]
+    },
+    {
+      "id": "src-wilson",
+      "title": "Woodrow Wilson Presidential Library - tickets and tours",
+      "source_type": "official",
+      "url": "https://www.woodrowwilson.org/tickets-tours",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Thursday access",
+        "adult admission",
+        "museum and birthplace tour"
+      ]
+    },
+    {
+      "id": "src-wilson-slavery",
+      "title": "Woodrow Wilson Presidential Library - Slavery in Wilson's Birthplace",
+      "source_type": "official",
+      "url": "https://www.woodrowwilson.org/slavery-in-wilsons-birthplace",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "special guided tour",
+        "Thursday timing",
+        "interpretive scope"
+      ]
+    },
+    {
+      "id": "src-lemur",
+      "title": "Duke Lemur Center - Behind the Scenes tour",
+      "source_type": "official",
+      "url": "https://lemur.duke.edu/2022-bts-tour/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "private group size",
+        "tour duration",
+        "price",
+        "reservation requirement",
+        "aye-aye access"
+      ]
+    },
+    {
+      "id": "src-duke-chapel",
+      "title": "Duke University Chapel - plan a visit",
+      "source_type": "official",
+      "url": "https://chapel.duke.edu/visit-events/plan-visit/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Friday hours",
+        "visitor access",
+        "parking"
+      ]
+    },
+    {
+      "id": "src-duke-gardens",
+      "title": "Sarah P. Duke Gardens - visit",
+      "source_type": "official",
+      "url": "https://gardens.duke.edu/visit/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "daily grounds hours",
+        "free admission",
+        "visitor-center hours"
+      ]
+    },
+    {
+      "id": "src-vmt",
+      "title": "Virginia Museum of Transportation - visit",
+      "source_type": "official",
+      "url": "https://www.vmt.org/visit",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Friday hours",
+        "transport collection",
+        "rail-yard access"
+      ]
+    },
+    {
+      "id": "src-petersburg-hours",
+      "title": "National Park Service - Petersburg hours",
+      "source_type": "government",
+      "url": "https://www.nps.gov/pete/planyourvisit/hours.htm",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Eastern Front hours",
+        "visitor-center access"
+      ]
+    },
+    {
+      "id": "src-petersburg-fees",
+      "title": "National Park Service - Petersburg fees",
+      "source_type": "government",
+      "url": "https://www.nps.gov/pete/planyourvisit/fees.htm",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "fee-free access"
+      ]
+    },
+    {
+      "id": "src-petersburg-history",
+      "title": "National Park Service - Petersburg history",
+      "source_type": "government",
+      "url": "https://www.nps.gov/pete/learn/historyculture/index.htm",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "siege context",
+        "US Colored Troops",
+        "civilian and slavery context"
+      ]
+    },
+    {
+      "id": "src-keystone",
+      "title": "Keystone Truck and Tractor Museum - visit",
+      "source_type": "official",
+      "url": "https://keystonetractorworks.com/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "daily hours",
+        "adult admission",
+        "collection scale"
+      ]
+    },
+    {
+      "id": "src-hotel-greene",
+      "title": "Hotel Greene - story and course",
+      "source_type": "official",
+      "url": "https://www.hotelgreene.com/story",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "fictional 1930s hotel concept",
+        "13-hole indoor course",
+        "visitor format"
+      ]
+    },
+    {
+      "id": "src-hotel-greene-faq",
+      "title": "Hotel Greene - reservations and FAQ",
+      "source_type": "official",
+      "url": "https://www.hotelgreene.com/brunch-reservations",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "weekend reservation pattern",
+        "Saturday wait warning",
+        "course duration",
+        "21-plus evening policy"
+      ]
+    },
+    {
+      "id": "src-richmond-orthodox",
+      "title": "Saints Constantine and Helen Greek Orthodox Cathedral",
+      "source_type": "official-parish",
+      "url": "https://www.vagocathedral.org/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Sunday Orthros",
+        "Sunday Divine Liturgy",
+        "canonical parish",
+        "address"
+      ]
+    },
+    {
+      "id": "src-poe",
+      "title": "Poe Museum - visit",
+      "source_type": "official",
+      "url": "https://poemuseum.org/visit-us/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Sunday hours",
+        "adult admission",
+        "collection and garden"
+      ]
+    },
+    {
+      "id": "src-vmfa",
+      "title": "Virginia Museum of Fine Arts - visit",
+      "source_type": "official",
+      "url": "https://vmfa.museum/visit/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Sunday hours",
+        "free general admission",
+        "visitor access"
+      ]
+    },
+    {
+      "id": "src-hagley",
+      "title": "Hagley Museum - hours and tickets",
+      "source_type": "official",
+      "url": "https://www.hagley.org/hours-tickets",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Monday hours",
+        "last entry",
+        "adult admission",
+        "holiday confirmation"
+      ]
+    },
+    {
+      "id": "src-hagley-history",
+      "title": "Hagley Museum - visitor information",
+      "source_type": "official",
+      "url": "https://www.hagley.org/visitor-information",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "powder works",
+        "water power",
+        "workers community",
+        "235-acre site"
+      ]
+    },
+    {
+      "id": "src-brandywine",
+      "title": "Brandywine Museum of Art - hours and admission",
+      "source_type": "official",
+      "url": "https://www.brandywine.org/museum/visit/hours-admission",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Monday hours",
+        "adult admission",
+        "Wyeth collection"
+      ]
+    },
+    {
+      "id": "src-cloisters",
+      "title": "The Met Cloisters - plan a visit",
+      "source_type": "official",
+      "url": "https://www.metmuseum.org/plan-your-visit/met-cloisters",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Tuesday hours",
+        "adult admission",
+        "parking",
+        "medieval art and gardens"
+      ]
+    },
+    {
+      "id": "src-paterson",
+      "title": "Paterson Museum - visitor services",
+      "source_type": "government",
+      "url": "https://patersonmuseum.com/services/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Tuesday hours",
+        "address",
+        "industrial collection"
+      ]
+    },
+    {
+      "id": "src-gardner",
+      "title": "Isabella Stewart Gardner Museum - visit",
+      "source_type": "official",
+      "url": "https://www.gardnermuseum.org/visit",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Wednesday hours",
+        "adult admission",
+        "advance tickets"
+      ]
+    },
+    {
+      "id": "src-gardner-theft",
+      "title": "Gardner Museum - Theft Walk",
+      "source_type": "official",
+      "url": "https://www.gardnermuseum.org/audioguide/english/theft-walk",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "1990 theft",
+        "13 missing works",
+        "audio-tour duration"
+      ]
+    },
+    {
+      "id": "src-bpl",
+      "title": "Boston Public Library - art and architecture tours",
+      "source_type": "government",
+      "url": "https://www.bpl.org/art-tours/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "free self-guided tour",
+        "McKim architecture",
+        "audio-guide duration"
+      ]
+    },
+    {
+      "id": "src-noaa-normals",
+      "title": "NOAA U.S. Climate Normals",
+      "source_type": "government",
+      "url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "1991-2020 normals methodology"
+      ]
+    },
+    {
+      "id": "src-osrm",
+      "title": "Open Source Routing Machine",
+      "source_type": "routing",
+      "url": "https://project-osrm.org/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "road-network baselines",
+        "no live traffic"
+      ]
+    },
+    {
+      "id": "src-forum-bullcity",
+      "title": "r/bullcity local discussions",
+      "source_type": "forum",
+      "url": "https://www.reddit.com/r/bullcity/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Durham pacing cross-check",
+        "Duke-area practical context"
+      ]
+    },
+    {
+      "id": "src-forum-rva",
+      "title": "r/rva local discussions",
+      "source_type": "forum",
+      "url": "https://www.reddit.com/r/rva/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Hotel Greene cross-check",
+        "Richmond pacing",
+        "Poe and VMFA cross-check"
+      ]
+    },
+    {
+      "id": "src-forum-virginia",
+      "title": "r/Virginia road-trip discussions",
+      "source_type": "forum",
+      "url": "https://www.reddit.com/r/Virginia/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Natural Bridge cross-check",
+        "Shenandoah and Roanoke pacing"
+      ]
+    }
+  ]
+}

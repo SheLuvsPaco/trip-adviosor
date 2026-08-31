@@ -1,0 +1,194 @@
+{
+  "methodology": "NOAA/NCEI U.S. Climate Normals 1991-2020 daily normals; these are planning baselines, not forecasts.",
+  "dataset_url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+  "generated_at": "2026-08-23T19:00:36.968Z",
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-10-04",
+      "sleep_city": "Danbury, CT",
+      "station": "USW00094702",
+      "station_role": "Bridgeport-Danbury regional proxy",
+      "station_id": "USW00094702",
+      "station_name": "BRIDGEPORT SIKORSKY MEM AP, CT US",
+      "station_coordinates": [
+        -73.1289,
+        41.1583
+      ],
+      "normal_high_c": 20.4,
+      "normal_low_c": 11.6,
+      "measurable_precipitation_probability_percent": 31.2,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00094702.csv"
+    },
+    {
+      "day": 2,
+      "date": "2026-10-05",
+      "sleep_city": "Scranton, PA",
+      "station": "USW00014777",
+      "station_role": "Wilkes-Barre/Scranton airport",
+      "station_id": "USW00014777",
+      "station_name": "WILKES-BARRE INTL AP, PA US",
+      "station_coordinates": [
+        -75.7269,
+        41.3336
+      ],
+      "normal_high_c": 19.7,
+      "normal_low_c": 8.3,
+      "measurable_precipitation_probability_percent": 35.2,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00014777.csv"
+    },
+    {
+      "day": 3,
+      "date": "2026-10-06",
+      "sleep_city": "Lancaster, PA",
+      "station": "USW00014751",
+      "station_role": "Harrisburg-Lancaster proxy",
+      "station_id": "USW00014751",
+      "station_name": "HARRISBURG CPTL CY AP, PA US",
+      "station_coordinates": [
+        -76.8514,
+        40.2172
+      ],
+      "normal_high_c": 21.4,
+      "normal_low_c": 10.3,
+      "measurable_precipitation_probability_percent": 34.8,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00014751.csv"
+    },
+    {
+      "day": 4,
+      "date": "2026-10-07",
+      "sleep_city": "Harrisburg, PA",
+      "station": "USW00014751",
+      "station_role": "Harrisburg airport",
+      "station_id": "USW00014751",
+      "station_name": "HARRISBURG CPTL CY AP, PA US",
+      "station_coordinates": [
+        -76.8514,
+        40.2172
+      ],
+      "normal_high_c": 21.2,
+      "normal_low_c": 10.1,
+      "measurable_precipitation_probability_percent": 34.8,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00014751.csv"
+    },
+    {
+      "day": 5,
+      "date": "2026-10-08",
+      "sleep_city": "Winchester, VA",
+      "station": "USW00093738",
+      "station_role": "Dulles-Winchester regional proxy",
+      "station_id": "USW00093738",
+      "station_name": "WASHINGTON DC DULLES AP, VA US",
+      "station_coordinates": [
+        -77.4636,
+        38.9408
+      ],
+      "normal_high_c": 21.5,
+      "normal_low_c": 9.1,
+      "measurable_precipitation_probability_percent": 27.5,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00093738.csv"
+    },
+    {
+      "day": 6,
+      "date": "2026-10-09",
+      "sleep_city": "Charlottesville, VA",
+      "station": "USW00093736",
+      "station_role": "Charlottesville airport",
+      "station_id": "USW00093736",
+      "station_name": "CHARLOTTESVILLE AP, VA US",
+      "station_coordinates": [
+        -78.453,
+        38.1386
+      ],
+      "normal_high_c": 22.8,
+      "normal_low_c": 10.3,
+      "measurable_precipitation_probability_percent": 31,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00093736.csv"
+    },
+    {
+      "day": 7,
+      "date": "2026-10-10",
+      "sleep_city": "Charlottesville, VA",
+      "station": "USW00093736",
+      "station_role": "Charlottesville airport",
+      "station_id": "USW00093736",
+      "station_name": "CHARLOTTESVILLE AP, VA US",
+      "station_coordinates": [
+        -78.453,
+        38.1386
+      ],
+      "normal_high_c": 22.7,
+      "normal_low_c": 10.1,
+      "measurable_precipitation_probability_percent": 30.8,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00093736.csv"
+    },
+    {
+      "day": 8,
+      "date": "2026-10-11",
+      "sleep_city": "Frederick, MD",
+      "station": "USW00093738",
+      "station_role": "Dulles-Frederick regional proxy",
+      "station_id": "USW00093738",
+      "station_name": "WASHINGTON DC DULLES AP, VA US",
+      "station_coordinates": [
+        -77.4636,
+        38.9408
+      ],
+      "normal_high_c": 20.9,
+      "normal_low_c": 8.4,
+      "measurable_precipitation_probability_percent": 27.4,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00093738.csv"
+    },
+    {
+      "day": 9,
+      "date": "2026-10-12",
+      "sleep_city": "Bethlehem, PA",
+      "station": "USW00014737",
+      "station_role": "Lehigh Valley airport",
+      "station_id": "USW00014737",
+      "station_name": "ALLENTOWN INTL AP, PA US",
+      "station_coordinates": [
+        -75.4492,
+        40.6508
+      ],
+      "normal_high_c": 19.4,
+      "normal_low_c": 7.3,
+      "measurable_precipitation_probability_percent": 32.7,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00014737.csv"
+    },
+    {
+      "day": 10,
+      "date": "2026-10-13",
+      "sleep_city": "Newtown, CT",
+      "station": "USW00094702",
+      "station_role": "Bridgeport-Newtown regional proxy",
+      "station_id": "USW00094702",
+      "station_name": "BRIDGEPORT SIKORSKY MEM AP, CT US",
+      "station_coordinates": [
+        -73.1289,
+        41.1583
+      ],
+      "normal_high_c": 18.6,
+      "normal_low_c": 9.6,
+      "measurable_precipitation_probability_percent": 31.7,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00094702.csv"
+    },
+    {
+      "day": 11,
+      "date": "2026-10-14",
+      "sleep_city": "Boston, MA",
+      "station": "USW00014739",
+      "station_role": "Boston Logan airport",
+      "station_id": "USW00014739",
+      "station_name": "BOSTON LOGAN INTL AP, MA US",
+      "station_coordinates": [
+        -71.0106,
+        42.3606
+      ],
+      "normal_high_c": 17.1,
+      "normal_low_c": 8.9,
+      "measurable_precipitation_probability_percent": 33.5,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00014739.csv"
+    }
+  ]
+}

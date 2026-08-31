@@ -1,0 +1,575 @@
+{
+  "schema_version": "1.0.0",
+  "route_id": "route-05",
+  "verified_at": "2026-08-23",
+  "sources": [
+    {
+      "id": "src-wadsworth",
+      "title": "Wadsworth Atheneum Museum of Art",
+      "source_type": "official",
+      "url": "https://www.thewadsworth.org/visit/hours-admission/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "Sunday hours",
+        "admission",
+        "advance-reservation policy"
+      ]
+    },
+    {
+      "id": "src-holy-land",
+      "title": "Holy Land USA",
+      "source_type": "official",
+      "url": "https://www.holylandwaterbury.org/faqs",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "daylight public access",
+        "address",
+        "no after-sunset access"
+      ]
+    },
+    {
+      "id": "src-holy-land-events",
+      "title": "Holy Land USA - 2026 Events",
+      "source_type": "official",
+      "url": "https://www.holylandwaterbury.org/events",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "August 2026 Stations trail and three-cross dedication",
+        "footwear and parking caution"
+      ]
+    },
+    {
+      "id": "src-mark-twain",
+      "title": "The Mark Twain House & Museum",
+      "source_type": "official",
+      "url": "https://marktwainhouse.org/visit/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "guided-tour-only interior",
+        "advance booking",
+        "seven-day operation and last tour"
+      ]
+    },
+    {
+      "id": "src-lackawanna",
+      "title": "Lackawanna County",
+      "source_type": "government",
+      "url": "https://www.lackawannaconnect.com/news/coal-mine-tour-open-for-season-on-april-2-2026-03-26",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "2026 operating days",
+        "last tour",
+        "arrival rule"
+      ]
+    },
+    {
+      "id": "src-steamtown",
+      "title": "National Park Service - Steamtown",
+      "source_type": "government",
+      "url": "https://www.nps.gov/stea/learn/management/lawsandpolicies.htm",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "2026 regular season",
+        "hours",
+        "admission"
+      ]
+    },
+    {
+      "id": "src-scranton-iron",
+      "title": "Pennsylvania Historical and Museum Commission",
+      "source_type": "government",
+      "url": "https://www.pa.gov/agencies/phmc/historic-sites-and-museums/industrial-heritage-trail/scranton-iron",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "site history",
+        "dawn-dusk access"
+      ]
+    },
+    {
+      "id": "src-houdini",
+      "title": "Houdini Museum",
+      "source_type": "official",
+      "url": "https://www.houdinimuseum.net/contact-10",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "year-round operation",
+        "call-ahead requirement"
+      ]
+    },
+    {
+      "id": "src-watch-clock",
+      "title": "National Association of Watch and Clock Collectors",
+      "source_type": "official",
+      "url": "https://www.nawcc.org/visit/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "fall hours",
+        "admission",
+        "collection"
+      ]
+    },
+    {
+      "id": "src-central-market",
+      "title": "Lancaster Central Market",
+      "source_type": "official",
+      "url": "https://centralmarketlancaster.com/visit/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "Tuesday hours",
+        "vendor market"
+      ]
+    },
+    {
+      "id": "src-troll-market",
+      "title": "Lancaster Troll Market",
+      "source_type": "official",
+      "url": "https://www.lancastertrollmarket.com/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "Tuesday hours",
+        "curiosity shop"
+      ]
+    },
+    {
+      "id": "src-wolves",
+      "title": "Wolf Sanctuary of PA",
+      "source_type": "official",
+      "url": "https://wolfsanctuarypa.org/tours-events/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "Tuesday public tour",
+        "reservation",
+        "price"
+      ]
+    },
+    {
+      "id": "src-ephrata",
+      "title": "Ephrata Cloister",
+      "source_type": "official",
+      "url": "https://ephratacloister.org/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "Wednesday hours",
+        "historic interpretation"
+      ]
+    },
+    {
+      "id": "src-railroad-pa",
+      "title": "Railroad Museum of Pennsylvania",
+      "source_type": "government",
+      "url": "https://www.rrmuseumpa.org/visit/hours-admissions",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "Wednesday hours",
+        "admission",
+        "collection"
+      ]
+    },
+    {
+      "id": "src-covered-bridges",
+      "title": "Lancaster County",
+      "source_type": "government",
+      "url": "https://co.lancaster.pa.us/1526/Covered-Bridges",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "bridge identity",
+        "driving caution"
+      ]
+    },
+    {
+      "id": "src-harrisburg-river",
+      "title": "City of Harrisburg - Riverfront Park",
+      "source_type": "government",
+      "url": "https://harrisburg.recdesk.com/Community/Facility/Detail?facilityId=65",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "public riverfront",
+        "Walnut Street Bridge plaza"
+      ]
+    },
+    {
+      "id": "src-turkey-hill",
+      "title": "Turkey Hill Experience",
+      "source_type": "official",
+      "url": "https://www.turkeyhillexperience.com/plan-your-visit/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "hours",
+        "interactive experience",
+        "admission"
+      ]
+    },
+    {
+      "id": "src-pa-capitol",
+      "title": "Pennsylvania Department of General Services",
+      "source_type": "government",
+      "url": "https://www.pa.gov/agencies/dgs/visit-the-capitol-complex",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "weekday access",
+        "tour logistics"
+      ]
+    },
+    {
+      "id": "src-antietam",
+      "title": "National Park Service - Antietam",
+      "source_type": "government",
+      "url": "https://www.nps.gov/anti/planyourvisit/hours.htm",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "visitor center hours",
+        "battlefield access"
+      ]
+    },
+    {
+      "id": "src-harpers-hours",
+      "title": "National Park Service - Harpers Ferry",
+      "source_type": "government",
+      "url": "https://www.nps.gov/hafe/planyourvisit/hours.htm?fullweb=1",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "museum hours",
+        "shuttle window"
+      ]
+    },
+    {
+      "id": "src-harpers-trails",
+      "title": "National Park Service - Virginius Island",
+      "source_type": "government",
+      "url": "https://home.nps.gov/hafe/planyourvisit/virginius-island-trail.htm",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "trail distance",
+        "industrial ruins",
+        "daylight access"
+      ]
+    },
+    {
+      "id": "src-seton",
+      "title": "National Shrine of Saint Elizabeth Ann Seton",
+      "source_type": "official",
+      "url": "https://setonshrine.org/hours-directions/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "daily hours",
+        "museum and historic homes"
+      ]
+    },
+    {
+      "id": "src-luray",
+      "title": "Luray Caverns",
+      "source_type": "official",
+      "url": "https://luraycaverns.com/plan/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "October hours",
+        "admission"
+      ]
+    },
+    {
+      "id": "src-skyline",
+      "title": "National Park Service - Skyline Drive",
+      "source_type": "government",
+      "url": "https://www.nps.gov/shen/planyourvisit/driving-skyline-drive.htm",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "road speed",
+        "weather closures",
+        "drive time"
+      ]
+    },
+    {
+      "id": "src-stony-man",
+      "title": "National Park Service - Stony Man",
+      "source_type": "government",
+      "url": "https://www.nps.gov/thingstodo/hike-stony-man.htm",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "trail length",
+        "difficulty",
+        "summit access"
+      ]
+    },
+    {
+      "id": "src-cville-downtown",
+      "title": "Friends of Charlottesville Downtown",
+      "source_type": "nonprofit",
+      "url": "https://www.downtowncharlottesville.com/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "pedestrian mall",
+        "dining and live scene"
+      ]
+    },
+    {
+      "id": "src-shen-caverns",
+      "title": "Shenandoah Caverns",
+      "source_type": "official",
+      "url": "https://shenandoahcaverns.com/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "fall hours",
+        "October 9 Fright Night"
+      ]
+    },
+    {
+      "id": "src-monticello",
+      "title": "Thomas Jefferson Foundation - Monticello",
+      "source_type": "official",
+      "url": "https://www.monticello.org/visit/hours",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "hours",
+        "From Slavery to Freedom tour",
+        "admission"
+      ]
+    },
+    {
+      "id": "src-jefferson-school",
+      "title": "Jefferson School African American Heritage Center",
+      "source_type": "official",
+      "url": "https://jeffschoolheritagecenter.org/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "Saturday hours",
+        "local Black history"
+      ]
+    },
+    {
+      "id": "src-kluge",
+      "title": "Kluge-Ruhe Aboriginal Art Collection",
+      "source_type": "official",
+      "url": "https://kluge-ruhe.org/plan-your-visit/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "Tuesday-Sunday hours",
+        "free tours",
+        "collection scope"
+      ]
+    },
+    {
+      "id": "src-ix",
+      "title": "IX Art Park",
+      "source_type": "official",
+      "url": "https://www.ixartpark.org/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "Saturday hours",
+        "Looking Glass",
+        "public art"
+      ]
+    },
+    {
+      "id": "src-morgan-wade",
+      "title": "Charlottesville Events Calendar",
+      "source_type": "tourism",
+      "url": "https://events.searchcharlottesville.com/cal?category=2351",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "Morgan Wade October 10 2026",
+        "20:00 show"
+      ]
+    },
+    {
+      "id": "src-exchange",
+      "title": "Exchange Hotel Civil War Medical Museum",
+      "source_type": "official",
+      "url": "https://theexchangehotelmuseum.org/hours-of-operation",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "Saturday hours",
+        "admission"
+      ]
+    },
+    {
+      "id": "src-transfiguration",
+      "title": "Transfiguration Greek Orthodox Church",
+      "source_type": "official",
+      "url": "https://www.transfiguration.va.goarch.org/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "Sunday Orthros",
+        "Divine Liturgy",
+        "address"
+      ]
+    },
+    {
+      "id": "src-civil-war-medicine",
+      "title": "National Museum of Civil War Medicine",
+      "source_type": "official",
+      "url": "https://www.civilwarmed.org/nmcwm/plan/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "Sunday hours",
+        "admission",
+        "museum scope"
+      ]
+    },
+    {
+      "id": "src-balls-bluff",
+      "title": "NOVA Parks - Ball's Bluff Battlefield",
+      "source_type": "government",
+      "url": "https://www.novaparks.com/parks/balls-bluff-battlefield",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "dawn-dusk access",
+        "interpretive trail",
+        "cemetery and bluff"
+      ]
+    },
+    {
+      "id": "src-burnside",
+      "title": "Historic Bethlehem Museums and Sites",
+      "source_type": "nonprofit",
+      "url": "https://www.historicbethlehem.org/visit-us/museums-sites/burnside-plantation/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "dawn-dusk grounds",
+        "Moravian farm history",
+        "horse-power wheel"
+      ]
+    },
+    {
+      "id": "src-illicks",
+      "title": "Wildlands Conservancy - Monocacy Way",
+      "source_type": "nonprofit",
+      "url": "https://www.wildlandspa.org/preserve/monocacy-way/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "mill and creek context",
+        "public trail"
+      ]
+    },
+    {
+      "id": "src-fairfield",
+      "title": "Town of Newtown - Fairfield Hills",
+      "source_type": "government",
+      "url": "https://www.newtown-ct.gov/fairfield-hills-campus/pages/background-information",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "hospital-campus history",
+        "architecture",
+        "public reuse"
+      ]
+    },
+    {
+      "id": "src-fairfield-trails",
+      "title": "Town of Newtown - Start Walking",
+      "source_type": "government",
+      "url": "https://www.newtown-ct.gov/health-department/pages/start-walking",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "paved trails",
+        "fruit trail",
+        "public access"
+      ]
+    },
+    {
+      "id": "src-newtown-meeting",
+      "title": "Newtown Meeting House",
+      "source_type": "official",
+      "url": "https://www.newtownmeetinghouse.com/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "historic meeting house",
+        "visitor contact"
+      ]
+    },
+    {
+      "id": "src-mapparium",
+      "title": "Christian Science - Mapparium visitor information",
+      "source_type": "official",
+      "url": "https://www.christianscience.com/the-mother-church-in-boston/how-do-you-see-the-world-experience/how-do-you-see-the-world-visitor-information",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "Wednesday hours",
+        "ticket price",
+        "photography policy"
+      ]
+    },
+    {
+      "id": "src-worcester",
+      "title": "Worcester Art Museum",
+      "source_type": "official",
+      "url": "https://www.worcesterart.org/visit/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "Wednesday hours",
+        "admission",
+        "arms and armor access"
+      ]
+    },
+    {
+      "id": "src-worcester-armor",
+      "title": "Worcester Art Museum - Arms and Armor",
+      "source_type": "official",
+      "url": "https://www.worcesterart.org/collection/arms-and-armor/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "collection size",
+        "new galleries"
+      ]
+    },
+    {
+      "id": "src-noaa-normals",
+      "title": "NOAA U.S. Climate Normals",
+      "source_type": "government",
+      "url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "1991-2020 normals methodology"
+      ]
+    },
+    {
+      "id": "src-osrm",
+      "title": "OSRM",
+      "source_type": "routing",
+      "url": "https://project-osrm.org/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "road-network baselines",
+        "no live traffic"
+      ]
+    },
+    {
+      "id": "src-forum-scranton",
+      "title": "r/Scranton local discussion",
+      "source_type": "forum",
+      "url": "https://www.reddit.com/r/Scranton/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "local cross-check of coal mine and Steamtown"
+      ]
+    },
+    {
+      "id": "src-forum-lancaster",
+      "title": "r/lancaster local discussion",
+      "source_type": "forum",
+      "url": "https://www.reddit.com/r/lancaster/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "local cross-check of market and non-tourist-trap stops"
+      ]
+    },
+    {
+      "id": "src-forum-shenandoah",
+      "title": "r/Shenandoah local discussion",
+      "source_type": "forum",
+      "url": "https://www.reddit.com/r/Shenandoah/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "October crowd and early-start cross-check"
+      ]
+    },
+    {
+      "id": "src-forum-cville",
+      "title": "r/Charlottesville local discussion",
+      "source_type": "forum",
+      "url": "https://www.reddit.com/r/Charlottesville/",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "IX, Kluge-Ruhe and live-scene cross-check"
+      ]
+    }
+  ]
+}

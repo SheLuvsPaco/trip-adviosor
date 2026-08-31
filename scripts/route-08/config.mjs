@@ -1,0 +1,143 @@
+export const ROUTE_ID = "route-08";
+export const ROUTE_SLUG = "route-08-lemurs-stone-bridges-mechanical-dreams-loop";
+export const ROUTE_NAME = "The Lemurs, Stone Bridges & Mechanical Dreams Loop";
+export const PEOPLE = ["sheluvspaco", "viki", "gora", "stivka"];
+
+const p = (id, geocode, images) => ({ id, geocode, images });
+
+export const places = [
+  p("new-britain-art", "New Britain Museum of American Art, 56 Lexington Street, New Britain, Connecticut", ["New Britain Museum of American Art", "New Britain Museum American Art interior", "New Britain Museum American Art collection"]),
+  p("wadsworth-atheneum", "Wadsworth Atheneum Museum of Art, 600 Main Street, Hartford, Connecticut", ["Wadsworth Atheneum Hartford", "Wadsworth Atheneum interior", "Wadsworth Atheneum Morgan Great Hall"]),
+  p("dia-beacon", "Dia Beacon, 3 Beekman Street, Beacon, New York", ["Dia Beacon exterior", "Dia Beacon interior", "Dia Beacon Richard Serra"]),
+  p("bear-mountain-perkins", "Perkins Memorial Tower, Bear Mountain State Park, New York", ["Perkins Memorial Tower Bear Mountain", "Bear Mountain Perkins overlook", "Bear Mountain Hudson River autumn"]),
+  p("goggleworks", "GoggleWorks Center for the Arts, 201 Washington Street, Reading, Pennsylvania", ["GoggleWorks Reading Pennsylvania", "GoggleWorks interior artist studios", "GoggleWorks hot glass"]),
+  p("mid-atlantic-air", "Mid-Atlantic Air Museum, 110 Air Museum Drive, Reading, Pennsylvania", ["Mid Atlantic Air Museum Reading", "Mid Atlantic Air Museum aircraft", "Mid Atlantic Air Museum interior"]),
+  p("tanger-lancaster", "Tanger Outlets Lancaster, 311 Stanley K Tanger Boulevard, Lancaster, Pennsylvania", ["Tanger Outlets Lancaster Pennsylvania", "Tanger Lancaster outlet stores", "Tanger Lancaster exterior"]),
+  p("shenandoah-valley-museum", "Museum of the Shenandoah Valley, 901 Amherst Street, Winchester, Virginia", ["Museum of Shenandoah Valley", "Glen Burnie gardens Winchester", "Museum Shenandoah Valley galleries"]),
+  p("stonewall-headquarters", "Stonewall Jackson Headquarters Museum, 415 North Braddock Street, Winchester, Virginia", ["Stonewall Jackson Headquarters Winchester", "Stonewall Jackson Headquarters interior Winchester", "Stonewall Jackson Headquarters museum"]),
+  p("natural-bridge", "Natural Bridge State Park Visitor Center, 6477 South Lee Highway, Natural Bridge, Virginia", ["Natural Bridge Virginia State Park", "Natural Bridge Cedar Creek Trail", "Natural Bridge Virginia autumn"]),
+  p("woodrow-wilson", "Woodrow Wilson Presidential Library, 230 East Frederick Street, Staunton, Virginia", ["Woodrow Wilson Presidential Library Staunton", "Woodrow Wilson birthplace Staunton", "Woodrow Wilson museum Pierce Arrow"]),
+  p("duke-lemur-bts", "Duke Lemur Center, 3705 Erwin Road, Durham, North Carolina", ["Duke Lemur Center lemurs", "Duke Lemur Center aye aye", "Duke Lemur Center behind the scenes"]),
+  p("duke-chapel-gardens", "Duke University Chapel, 401 Chapel Drive, Durham, North Carolina", ["Duke University Chapel", "Sarah P Duke Gardens terraces", "Duke Chapel interior stained glass"]),
+  p("virginia-transportation", "Virginia Museum of Transportation, 303 Norfolk Avenue Southwest, Roanoke, Virginia", ["Virginia Museum of Transportation Roanoke", "Norfolk Western 611 Roanoke", "Virginia Museum Transportation railyard"]),
+  p("petersburg-battlefield", "Petersburg National Battlefield Eastern Front Visitor Center, 5001 Siege Road, Petersburg, Virginia", ["Petersburg National Battlefield Eastern Front", "Petersburg Battlefield Crater", "Petersburg National Battlefield earthworks"]),
+  p("keystone-tractor", "Keystone Truck and Tractor Museum, 880 West Roslyn Road, Colonial Heights, Virginia", ["Keystone Truck Tractor Museum", "Keystone Tractor Museum interior", "Keystone antique trucks tractors"]),
+  p("hotel-greene", "Hotel Greene, 508 East Franklin Street, Richmond, Virginia", ["Hotel Greene Richmond miniature golf", "Hotel Greene Richmond interior", "Hotel Greene Richmond lobby"]),
+  p("richmond-orthodox", "Saints Constantine and Helen Greek Orthodox Cathedral, 30 Malvern Avenue, Richmond, Virginia", ["Saints Constantine Helen Greek Orthodox Richmond", "Greek Orthodox Cathedral Richmond interior", "Saints Constantine Helen Richmond iconostasis"]),
+  p("poe-museum", "Poe Museum, 1914 East Main Street, Richmond, Virginia", ["Poe Museum Richmond", "Poe Museum Enchanted Garden", "Poe Museum Old Stone House"]),
+  p("virginia-fine-arts", "Virginia Museum of Fine Arts, 200 North Arthur Ashe Boulevard, Richmond, Virginia", ["Virginia Museum Fine Arts Richmond", "VMFA sculpture garden", "Virginia Museum Fine Arts interior"]),
+  p("hagley", "Hagley Museum, 200 Hagley Creek Road, Wilmington, Delaware", ["Hagley Museum powder yard", "Hagley Museum water wheel", "Eleutherian Mills Hagley"]),
+  p("brandywine-art", "Brandywine Museum of Art, 1 Hoffmans Mill Road, Chadds Ford, Pennsylvania", ["Brandywine Museum of Art", "Brandywine Museum interior Wyeth", "Brandywine Museum river"]),
+  p("met-cloisters", "The Met Cloisters, 99 Margaret Corbin Drive, New York, New York", ["Met Cloisters exterior", "Met Cloisters interior", "Met Cloisters garden"]),
+  p("paterson-museum", "Paterson Museum, 2 Market Street, Paterson, New Jersey", ["Paterson Museum locomotive", "Paterson Museum Colt", "Paterson Museum interior"]),
+  p("gardner-museum", "Isabella Stewart Gardner Museum, 25 Evans Way, Boston, Massachusetts", ["Isabella Stewart Gardner Museum courtyard", "Gardner Museum Dutch Room", "Isabella Stewart Gardner Museum exterior"]),
+  p("boston-public-library", "Boston Public Library Central, 700 Boylston Street, Boston, Massachusetts", ["Boston Public Library Bates Hall", "Boston Public Library courtyard", "Boston Public Library murals"])
+];
+
+export const contextualImagePlaces = new Set([
+  "new-britain-art", "wadsworth-atheneum", "dia-beacon", "goggleworks", "mid-atlantic-air",
+  "tanger-lancaster", "shenandoah-valley-museum", "stonewall-headquarters", "woodrow-wilson",
+  "duke-lemur-bts", "virginia-transportation", "keystone-tractor", "richmond-orthodox",
+  "hotel-greene", "poe-museum", "virginia-fine-arts", "paterson-museum"
+]);
+
+export const preferredCommonsFiles = {
+  "natural-bridge": ["File:Natural Bridge VA.jpg"],
+  "duke-chapel-gardens": ["File:Duke Chapel 2016.jpg"],
+  "met-cloisters": ["File:The Cloisters at Fort Tryon Park.jpg"],
+  "gardner-museum": ["File:Isabella Stewart Gardner Museum Courtyard.jpg"],
+  "boston-public-library": ["File:Bates Hall, Boston Public Library.jpg"]
+};
+
+// Longitude, latitude. Pins target visitor entrances, parking areas or the
+// named feature rather than city centroids.
+export const manualCoordinates = {
+  "new-britain-art": [-72.7916536, 41.6642765],
+  "wadsworth-atheneum": [-72.6741, 41.7638],
+  "dia-beacon": [-73.9826016, 41.5001712],
+  "bear-mountain-perkins": [-73.9857, 41.3127],
+  "goggleworks": [-75.9333189, 40.3373521],
+  "mid-atlantic-air": [-75.9666110, 40.3816940],
+  "tanger-lancaster": [-76.2186193, 40.0238818],
+  "shenandoah-valley-museum": [-78.1798736, 39.1854199],
+  "stonewall-headquarters": [-78.1659169, 39.1894269],
+  "natural-bridge": [-79.5437403, 37.6285465],
+  "woodrow-wilson": [-79.0686717, 38.1504009],
+  "duke-lemur-bts": [-78.9623365, 35.9941971],
+  "duke-chapel-gardens": [-78.9402861, 36.0018682],
+  "virginia-transportation": [-79.9468241, 37.2731542],
+  "petersburg-battlefield": [-77.3831660, 37.2187215],
+  "keystone-tractor": [-77.3944402, 37.2484957],
+  "hotel-greene": [-77.4381780, 37.5410590],
+  "richmond-orthodox": [-77.4934947, 37.5614073],
+  "poe-museum": [-77.4260748, 37.5321579],
+  "virginia-fine-arts": [-77.4748956, 37.5560585],
+  "hagley": [-75.5778439, 39.7749007],
+  "brandywine-art": [-75.5930380, 39.8699798],
+  "met-cloisters": [-73.9319228, 40.8648684],
+  "paterson-museum": [-74.1788927, 40.9135320],
+  "gardner-museum": [-71.0991538, 42.3382450],
+  "boston-public-library": [-71.0786547, 42.3493298]
+};
+
+export const lodgingNodes = {
+  "boston-logan-rental": { name: "Boston Logan Rental Car Center", coordinates: [-71.0304, 42.3682] },
+  "danbury-west-lodging": { name: "West Danbury/Ridgebury I-84 lodging zone", coordinates: [-73.5000, 41.3900] },
+  "bethlehem-lodging": { name: "Historic Bethlehem lodging zone", coordinates: [-75.3824373, 40.6201695] },
+  "lancaster-east-lodging": { name: "East Lancaster lodging zone", coordinates: [-76.2126863, 40.0247942] },
+  "winchester-lodging": { name: "Winchester west lodging zone", coordinates: [-78.1676, 39.1857] },
+  "roanoke-downtown-lodging": { name: "Downtown Roanoke lodging zone", coordinates: [-79.9468241, 37.2731542] },
+  "durham-lodging": { name: "Downtown Durham lodging zone", coordinates: [-78.9087291, 35.9967428] },
+  "richmond-lodging": { name: "Richmond Monroe Ward lodging zone", coordinates: [-77.4466130, 37.5453393] },
+  "annapolis-lodging": { name: "Annapolis hotel corridor", coordinates: [-76.5472304, 38.9825918] },
+  "bensalem-lodging": { name: "Bensalem I-95 lodging zone", coordinates: [-74.9600, 40.1050] },
+  "bridgeport-lodging": { name: "Bridgeport/Fairfield lodging zone", coordinates: [-73.1952, 41.1865] },
+  "boston-logan-return": { name: "Boston Logan Rental Car Center return", coordinates: [-71.0304, 42.3682] },
+  "boston-logan-hotel": { name: "Boston Logan hotel zone", coordinates: [-71.0155, 42.3655] }
+};
+
+export const manualLegs = {};
+
+export const dayRoutes = [
+  { day: 1, risk: "high", node_ids: ["boston-logan-rental", "new-britain-art", "danbury-west-lodging"] },
+  { day: 2, risk: "high", node_ids: ["danbury-west-lodging", "dia-beacon", "bethlehem-lodging"] },
+  { day: 3, risk: "medium", node_ids: ["bethlehem-lodging", "goggleworks", "tanger-lancaster", "lancaster-east-lodging"] },
+  { day: 4, risk: "high", node_ids: ["lancaster-east-lodging", "shenandoah-valley-museum", "winchester-lodging"] },
+  { day: 5, risk: "high", node_ids: ["winchester-lodging", "natural-bridge", "roanoke-downtown-lodging"] },
+  { day: 6, risk: "high", node_ids: ["roanoke-downtown-lodging", "duke-lemur-bts", "duke-chapel-gardens", "durham-lodging"] },
+  { day: 7, risk: "high", node_ids: ["durham-lodging", "petersburg-battlefield", "richmond-lodging"] },
+  { day: 8, risk: "high", node_ids: ["richmond-lodging", "richmond-orthodox", "poe-museum", "annapolis-lodging"] },
+  { day: 9, risk: "high", node_ids: ["annapolis-lodging", "hagley", "bensalem-lodging"] },
+  { day: 10, risk: "high", node_ids: ["bensalem-lodging", "met-cloisters", "bridgeport-lodging"] },
+  { day: 11, risk: "high", node_ids: ["bridgeport-lodging", "boston-logan-return", "boston-logan-hotel"] }
+];
+
+export const replacementVariants = [
+  { id: "replacement-d1-wadsworth", day: 1, replacement_place_id: "wadsworth-atheneum", replaces_place_ids: ["new-britain-art"], nodes: ["boston-logan-rental", "wadsworth-atheneum", "danbury-west-lodging"] },
+  { id: "replacement-d2-bear-mountain", day: 2, replacement_place_id: "bear-mountain-perkins", replaces_place_ids: ["dia-beacon"], nodes: ["danbury-west-lodging", "bear-mountain-perkins", "bethlehem-lodging"] },
+  { id: "replacement-d3-mid-atlantic-air", day: 3, replacement_place_id: "mid-atlantic-air", replaces_place_ids: ["goggleworks"], nodes: ["bethlehem-lodging", "mid-atlantic-air", "tanger-lancaster", "lancaster-east-lodging"] },
+  { id: "replacement-d4-stonewall", day: 4, replacement_place_id: "stonewall-headquarters", replaces_place_ids: ["shenandoah-valley-museum"], nodes: ["lancaster-east-lodging", "stonewall-headquarters", "winchester-lodging"] },
+  { id: "replacement-d5-woodrow", day: 5, replacement_place_id: "woodrow-wilson", replaces_place_ids: ["natural-bridge"], nodes: ["winchester-lodging", "woodrow-wilson", "roanoke-downtown-lodging"] },
+  { id: "replacement-d6-virginia-transport", day: 6, replacement_place_id: "virginia-transportation", replaces_place_ids: ["duke-lemur-bts"], nodes: ["roanoke-downtown-lodging", "virginia-transportation", "duke-chapel-gardens", "durham-lodging"] },
+  { id: "replacement-d7-keystone", day: 7, replacement_place_id: "keystone-tractor", replaces_place_ids: ["petersburg-battlefield"], nodes: ["durham-lodging", "keystone-tractor", "richmond-lodging"] },
+  { id: "replacement-d8-vmfa", day: 8, replacement_place_id: "virginia-fine-arts", replaces_place_ids: ["poe-museum"], nodes: ["richmond-lodging", "richmond-orthodox", "virginia-fine-arts", "annapolis-lodging"] },
+  { id: "replacement-d9-brandywine", day: 9, replacement_place_id: "brandywine-art", replaces_place_ids: ["hagley"], nodes: ["annapolis-lodging", "brandywine-art", "bensalem-lodging"] },
+  { id: "replacement-d10-paterson", day: 10, replacement_place_id: "paterson-museum", replaces_place_ids: ["met-cloisters"], nodes: ["bensalem-lodging", "paterson-museum", "bridgeport-lodging"] },
+  { id: "replacement-d11-bpl", day: 11, replacement_place_id: "boston-public-library", replaces_place_ids: ["gardner-museum"], unchanged_drive: true }
+];
+
+export const weatherRequests = [
+  { day: 1, date: "2026-10-04", sleep_city: "Danbury, CT", station: "USW00094702", station_role: "Bridgeport-Danbury regional proxy" },
+  { day: 2, date: "2026-10-05", sleep_city: "Bethlehem, PA", station: "USW00014737", station_role: "Lehigh Valley airport" },
+  { day: 3, date: "2026-10-06", sleep_city: "Lancaster, PA", station: "USW00014751", station_role: "Harrisburg-Lancaster regional proxy" },
+  { day: 4, date: "2026-10-07", sleep_city: "Winchester, VA", station: "USW00093738", station_role: "Dulles-Winchester regional proxy" },
+  { day: 5, date: "2026-10-08", sleep_city: "Roanoke, VA", station: "USW00013741", station_role: "Roanoke airport" },
+  { day: 6, date: "2026-10-09", sleep_city: "Durham, NC", station: "USW00013722", station_role: "Raleigh-Durham airport" },
+  { day: 7, date: "2026-10-10", sleep_city: "Richmond, VA", station: "USW00013740", station_role: "Richmond airport" },
+  { day: 8, date: "2026-10-11", sleep_city: "Annapolis, MD", station: "USW00093721", station_role: "Baltimore-Washington airport regional proxy" },
+  { day: 9, date: "2026-10-12", sleep_city: "Bensalem, PA", station: "USW00013739", station_role: "Philadelphia-Bensalem regional proxy" },
+  { day: 10, date: "2026-10-13", sleep_city: "Bridgeport, CT", station: "USW00094702", station_role: "Bridgeport airport" },
+  { day: 11, date: "2026-10-14", sleep_city: "Boston, MA", station: "USW00014739", station_role: "Boston Logan airport" }
+];
+
+export const verifiedAt = "2026-08-24";

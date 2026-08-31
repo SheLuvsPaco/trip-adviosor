@@ -1,0 +1,194 @@
+{
+  "methodology": "NOAA/NCEI U.S. Climate Normals 1991-2020 daily normals; these are planning baselines, not forecasts.",
+  "dataset_url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+  "generated_at": "2026-08-23T17:22:01.122Z",
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-10-04",
+      "sleep_city": "Portsmouth, NH",
+      "station": "USW00014764",
+      "station_role": "Portland-Portsmouth coastal proxy",
+      "station_id": "USW00014764",
+      "station_name": "PORTLAND INTL JETPORT, ME US",
+      "station_coordinates": [
+        -70.3003,
+        43.6497
+      ],
+      "normal_high_c": 17.7,
+      "normal_low_c": 7.3,
+      "measurable_precipitation_probability_percent": 33,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00014764.csv"
+    },
+    {
+      "day": 2,
+      "date": "2026-10-05",
+      "sleep_city": "Portland, ME",
+      "station": "USW00014764",
+      "station_role": "Portland airport",
+      "station_id": "USW00014764",
+      "station_name": "PORTLAND INTL JETPORT, ME US",
+      "station_coordinates": [
+        -70.3003,
+        43.6497
+      ],
+      "normal_high_c": 17.5,
+      "normal_low_c": 7.1,
+      "measurable_precipitation_probability_percent": 33.1,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00014764.csv"
+    },
+    {
+      "day": 3,
+      "date": "2026-10-06",
+      "sleep_city": "Rockland, ME",
+      "station": "USW00014764",
+      "station_role": "Portland-midcoast regional proxy",
+      "station_id": "USW00014764",
+      "station_name": "PORTLAND INTL JETPORT, ME US",
+      "station_coordinates": [
+        -70.3003,
+        43.6497
+      ],
+      "normal_high_c": 17.3,
+      "normal_low_c": 6.8,
+      "measurable_precipitation_probability_percent": 33.3,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00014764.csv"
+    },
+    {
+      "day": 4,
+      "date": "2026-10-07",
+      "sleep_city": "Bar Harbor, ME",
+      "station": "USW00014606",
+      "station_role": "Bangor-Mount Desert regional proxy",
+      "station_id": "USW00014606",
+      "station_name": "BANGOR INTL AP, ME US",
+      "station_coordinates": [
+        -68.8186,
+        44.7978
+      ],
+      "normal_high_c": 16.6,
+      "normal_low_c": 4.9,
+      "measurable_precipitation_probability_percent": 35.2,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00014606.csv"
+    },
+    {
+      "day": 5,
+      "date": "2026-10-08",
+      "sleep_city": "Bangor, ME",
+      "station": "USW00014606",
+      "station_role": "Bangor airport",
+      "station_id": "USW00014606",
+      "station_name": "BANGOR INTL AP, ME US",
+      "station_coordinates": [
+        -68.8186,
+        44.7978
+      ],
+      "normal_high_c": 16.3,
+      "normal_low_c": 4.8,
+      "measurable_precipitation_probability_percent": 35.4,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00014606.csv"
+    },
+    {
+      "day": 6,
+      "date": "2026-10-09",
+      "sleep_city": "Bethel, ME",
+      "station": "USW00014745",
+      "station_role": "Concord-western Maine regional proxy",
+      "station_id": "USW00014745",
+      "station_name": "CONCORD MUNI AP, NH US",
+      "station_coordinates": [
+        -71.5011,
+        43.1953
+      ],
+      "normal_high_c": 17.6,
+      "normal_low_c": 4.4,
+      "measurable_precipitation_probability_percent": 33.8,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00014745.csv"
+    },
+    {
+      "day": 7,
+      "date": "2026-10-10",
+      "sleep_city": "Montpelier, VT",
+      "station": "USW00094705",
+      "station_role": "Montpelier airport",
+      "station_id": "USW00094705",
+      "station_name": "BARRE MONTPELIER AP, VT US",
+      "station_coordinates": [
+        -72.5794,
+        44.2033
+      ],
+      "normal_high_c": 14.3,
+      "normal_low_c": 3.1,
+      "measurable_precipitation_probability_percent": 43.8,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00094705.csv"
+    },
+    {
+      "day": 8,
+      "date": "2026-10-11",
+      "sleep_city": "Burlington, VT",
+      "station": "USW00014742",
+      "station_role": "Burlington airport",
+      "station_id": "USW00014742",
+      "station_name": "BURLINGTON INTL AP, VT US",
+      "station_coordinates": [
+        -73.15,
+        44.4683
+      ],
+      "normal_high_c": 16.1,
+      "normal_low_c": 6.3,
+      "measurable_precipitation_probability_percent": 41.3,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00014742.csv"
+    },
+    {
+      "day": 9,
+      "date": "2026-10-12",
+      "sleep_city": "Woodstock, VT",
+      "station": "USW00094765",
+      "station_role": "Lebanon-Woodstock regional proxy",
+      "station_id": "USW00094765",
+      "station_name": "LEBANON MUNI AP, NH US",
+      "station_coordinates": [
+        -72.3047,
+        43.6264
+      ],
+      "normal_high_c": 16.4,
+      "normal_low_c": 3.8,
+      "measurable_precipitation_probability_percent": 42.5,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00094765.csv"
+    },
+    {
+      "day": 10,
+      "date": "2026-10-13",
+      "sleep_city": "Manchester, NH",
+      "station": "USW00014745",
+      "station_role": "Concord-Manchester regional proxy",
+      "station_id": "USW00014745",
+      "station_name": "CONCORD MUNI AP, NH US",
+      "station_coordinates": [
+        -71.5011,
+        43.1953
+      ],
+      "normal_high_c": 16.7,
+      "normal_low_c": 3.7,
+      "measurable_precipitation_probability_percent": 33.9,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00014745.csv"
+    },
+    {
+      "day": 11,
+      "date": "2026-10-14",
+      "sleep_city": "Boston, MA",
+      "station": "USW00014739",
+      "station_role": "Boston Logan airport",
+      "station_id": "USW00014739",
+      "station_name": "BOSTON LOGAN INTL AP, MA US",
+      "station_coordinates": [
+        -71.0106,
+        42.3606
+      ],
+      "normal_high_c": 17.1,
+      "normal_low_c": 8.9,
+      "measurable_precipitation_probability_percent": 33.5,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00014739.csv"
+    }
+  ]
+}

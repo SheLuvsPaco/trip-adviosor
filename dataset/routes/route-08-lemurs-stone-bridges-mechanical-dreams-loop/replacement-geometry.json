@@ -1,0 +1,3129 @@
+{
+  "schema_version": "1.0.0",
+  "route_id": "route-08",
+  "generated_at": "2026-08-24T18:04:26.233Z",
+  "routing_engine": "OSRM",
+  "traffic_included": false,
+  "variants": [
+    {
+      "id": "replacement-d1-wadsworth",
+      "day": 1,
+      "replacement_place_id": "wadsworth-atheneum",
+      "replaces_place_ids": [
+        "new-britain-art"
+      ],
+      "nodes": [
+        "boston-logan-rental",
+        "wadsworth-atheneum",
+        "danbury-west-lodging"
+      ],
+      "node_sequence": [
+        "boston-logan-rental",
+        "wadsworth-atheneum",
+        "danbury-west-lodging"
+      ],
+      "baseline_total_miles": 162.6,
+      "baseline_total_minutes": 203,
+      "delta_miles": -0.1,
+      "delta_minutes": -4,
+      "cap_minutes": 210,
+      "cap_status": "passes-baseline-cap",
+      "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+      "non_driving_travel_minutes": 0,
+      "total_travel_minutes_excluding_queues": 203,
+      "legs": [
+        {
+          "id": "replacement-d1-wadsworth-leg-1",
+          "from": "boston-logan-rental",
+          "to": "wadsworth-atheneum",
+          "mode": "driving",
+          "distance_miles": 102.6,
+          "baseline_minutes": 126,
+          "display_duration_minutes": 126,
+          "counts_toward_drive_cap": true
+        },
+        {
+          "id": "replacement-d1-wadsworth-leg-2",
+          "from": "wadsworth-atheneum",
+          "to": "danbury-west-lodging",
+          "mode": "driving",
+          "distance_miles": 60,
+          "baseline_minutes": 77,
+          "display_duration_minutes": 77,
+          "counts_toward_drive_cap": true
+        }
+      ],
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -71.029421,
+              42.367769
+            ],
+            [
+              -71.037429,
+              42.346811
+            ],
+            [
+              -71.177949,
+              42.35787
+            ],
+            [
+              -71.315031,
+              42.33461
+            ],
+            [
+              -71.367832,
+              42.311489
+            ],
+            [
+              -71.412023,
+              42.315539
+            ],
+            [
+              -71.557712,
+              42.269721
+            ],
+            [
+              -71.618632,
+              42.229395
+            ],
+            [
+              -71.755983,
+              42.2211
+            ],
+            [
+              -72.060614,
+              42.131196
+            ],
+            [
+              -72.202145,
+              41.950927
+            ],
+            [
+              -72.257431,
+              41.925367
+            ],
+            [
+              -72.292256,
+              41.895456
+            ],
+            [
+              -72.375311,
+              41.85683
+            ],
+            [
+              -72.431229,
+              41.854117
+            ],
+            [
+              -72.46889,
+              41.831455
+            ],
+            [
+              -72.553905,
+              41.801581
+            ],
+            [
+              -72.578184,
+              41.774468
+            ],
+            [
+              -72.673994,
+              41.763781
+            ]
+          ],
+          [
+            [
+              -72.673994,
+              41.763781
+            ],
+            [
+              -72.68236,
+              41.76793
+            ],
+            [
+              -72.691536,
+              41.765075
+            ],
+            [
+              -72.705191,
+              41.750485
+            ],
+            [
+              -72.734319,
+              41.748656
+            ],
+            [
+              -72.740642,
+              41.736664
+            ],
+            [
+              -72.758226,
+              41.72756
+            ],
+            [
+              -72.793869,
+              41.721529
+            ],
+            [
+              -72.82252,
+              41.6712
+            ],
+            [
+              -72.844361,
+              41.669418
+            ],
+            [
+              -72.869236,
+              41.63596
+            ],
+            [
+              -72.894193,
+              41.618503
+            ],
+            [
+              -72.903671,
+              41.596298
+            ],
+            [
+              -72.899906,
+              41.581776
+            ],
+            [
+              -72.916054,
+              41.561167
+            ],
+            [
+              -72.945229,
+              41.542707
+            ],
+            [
+              -72.96337,
+              41.536568
+            ],
+            [
+              -72.9843,
+              41.543983
+            ],
+            [
+              -73.004448,
+              41.538187
+            ],
+            [
+              -73.020656,
+              41.541143
+            ],
+            [
+              -73.032565,
+              41.551615
+            ],
+            [
+              -73.067557,
+              41.548233
+            ],
+            [
+              -73.085708,
+              41.537581
+            ],
+            [
+              -73.092348,
+              41.522696
+            ],
+            [
+              -73.138366,
+              41.50898
+            ],
+            [
+              -73.163613,
+              41.49338
+            ],
+            [
+              -73.212686,
+              41.476296
+            ],
+            [
+              -73.248145,
+              41.450771
+            ],
+            [
+              -73.2476,
+              41.43384
+            ],
+            [
+              -73.266752,
+              41.415255
+            ],
+            [
+              -73.289385,
+              41.417327
+            ],
+            [
+              -73.314484,
+              41.429437
+            ],
+            [
+              -73.362572,
+              41.422615
+            ],
+            [
+              -73.374777,
+              41.424994
+            ],
+            [
+              -73.410031,
+              41.414031
+            ],
+            [
+              -73.424652,
+              41.418455
+            ],
+            [
+              -73.45225,
+              41.411441
+            ],
+            [
+              -73.476178,
+              41.397694
+            ],
+            [
+              -73.48055,
+              41.384867
+            ],
+            [
+              -73.499966,
+              41.389986
+            ]
+          ]
+        ]
+      },
+      "routing_source": [
+        "https://router.project-osrm.org/route/v1/driving/-71.0304,42.3682;-72.6741,41.7638?overview=simplified&geometries=geojson&steps=false",
+        "https://router.project-osrm.org/route/v1/driving/-72.6741,41.7638;-73.5,41.39?overview=simplified&geometries=geojson&steps=false"
+      ]
+    },
+    {
+      "id": "replacement-d2-bear-mountain",
+      "day": 2,
+      "replacement_place_id": "bear-mountain-perkins",
+      "replaces_place_ids": [
+        "dia-beacon"
+      ],
+      "nodes": [
+        "danbury-west-lodging",
+        "bear-mountain-perkins",
+        "bethlehem-lodging"
+      ],
+      "node_sequence": [
+        "danbury-west-lodging",
+        "bear-mountain-perkins",
+        "bethlehem-lodging"
+      ],
+      "baseline_total_miles": 149.5,
+      "baseline_total_minutes": 204,
+      "delta_miles": -13.9,
+      "delta_minutes": -1,
+      "cap_minutes": 210,
+      "cap_status": "passes-baseline-cap",
+      "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+      "non_driving_travel_minutes": 0,
+      "total_travel_minutes_excluding_queues": 204,
+      "legs": [
+        {
+          "id": "replacement-d2-bear-mountain-leg-1",
+          "from": "danbury-west-lodging",
+          "to": "bear-mountain-perkins",
+          "mode": "driving",
+          "distance_miles": 36.9,
+          "baseline_minutes": 60,
+          "display_duration_minutes": 60,
+          "counts_toward_drive_cap": true
+        },
+        {
+          "id": "replacement-d2-bear-mountain-leg-2",
+          "from": "bear-mountain-perkins",
+          "to": "bethlehem-lodging",
+          "mode": "driving",
+          "distance_miles": 112.6,
+          "baseline_minutes": 145,
+          "display_duration_minutes": 145,
+          "counts_toward_drive_cap": true
+        }
+      ],
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -73.499966,
+              41.389986
+            ],
+            [
+              -73.513955,
+              41.394455
+            ],
+            [
+              -73.521653,
+              41.391479
+            ],
+            [
+              -73.532513,
+              41.392623
+            ],
+            [
+              -73.555954,
+              41.385438
+            ],
+            [
+              -73.578825,
+              41.383462
+            ],
+            [
+              -73.594141,
+              41.388796
+            ],
+            [
+              -73.596938,
+              41.392245
+            ],
+            [
+              -73.600501,
+              41.391901
+            ],
+            [
+              -73.604216,
+              41.377303
+            ],
+            [
+              -73.624372,
+              41.367708
+            ],
+            [
+              -73.655298,
+              41.342614
+            ],
+            [
+              -73.659183,
+              41.331452
+            ],
+            [
+              -73.658591,
+              41.322571
+            ],
+            [
+              -73.674143,
+              41.306927
+            ],
+            [
+              -73.677977,
+              41.288038
+            ],
+            [
+              -73.686051,
+              41.269971
+            ],
+            [
+              -73.684898,
+              41.264202
+            ],
+            [
+              -73.696202,
+              41.266788
+            ],
+            [
+              -73.724703,
+              41.282616
+            ],
+            [
+              -73.745844,
+              41.278734
+            ],
+            [
+              -73.753131,
+              41.287365
+            ],
+            [
+              -73.776541,
+              41.286026
+            ],
+            [
+              -73.787979,
+              41.279203
+            ],
+            [
+              -73.7938,
+              41.281512
+            ],
+            [
+              -73.800832,
+              41.294827
+            ],
+            [
+              -73.843571,
+              41.289339
+            ],
+            [
+              -73.877387,
+              41.295159
+            ],
+            [
+              -73.89138,
+              41.303288
+            ],
+            [
+              -73.907233,
+              41.298454
+            ],
+            [
+              -73.923703,
+              41.302262
+            ],
+            [
+              -73.933424,
+              41.295888
+            ],
+            [
+              -73.935461,
+              41.298236
+            ],
+            [
+              -73.949789,
+              41.298418
+            ],
+            [
+              -73.952553,
+              41.303924
+            ],
+            [
+              -73.960491,
+              41.303844
+            ],
+            [
+              -73.966246,
+              41.306709
+            ],
+            [
+              -73.965321,
+              41.312605
+            ],
+            [
+              -73.971324,
+              41.312112
+            ],
+            [
+              -73.979549,
+              41.319829
+            ],
+            [
+              -73.991737,
+              41.320605
+            ],
+            [
+              -73.986237,
+              41.312462
+            ]
+          ],
+          [
+            [
+              -73.986237,
+              41.312462
+            ],
+            [
+              -73.995738,
+              41.322882
+            ],
+            [
+              -74.00968,
+              41.321979
+            ],
+            [
+              -74.031921,
+              41.304562
+            ],
+            [
+              -74.02595,
+              41.288271
+            ],
+            [
+              -74.044747,
+              41.255399
+            ],
+            [
+              -74.028959,
+              41.241595
+            ],
+            [
+              -74.040511,
+              41.185804
+            ],
+            [
+              -74.077581,
+              41.177891
+            ],
+            [
+              -74.154894,
+              41.117135
+            ],
+            [
+              -74.151071,
+              41.102992
+            ],
+            [
+              -74.201955,
+              41.071008
+            ],
+            [
+              -74.237587,
+              41.028163
+            ],
+            [
+              -74.28979,
+              41.024821
+            ],
+            [
+              -74.362953,
+              40.921337
+            ],
+            [
+              -74.414594,
+              40.899025
+            ],
+            [
+              -74.419151,
+              40.860856
+            ],
+            [
+              -74.478183,
+              40.774762
+            ],
+            [
+              -74.521752,
+              40.758598
+            ],
+            [
+              -74.570365,
+              40.693669
+            ],
+            [
+              -74.636561,
+              40.667236
+            ],
+            [
+              -74.648197,
+              40.643811
+            ],
+            [
+              -74.78312,
+              40.652163
+            ],
+            [
+              -74.921033,
+              40.6315
+            ],
+            [
+              -74.974202,
+              40.635578
+            ],
+            [
+              -75.034048,
+              40.651242
+            ],
+            [
+              -75.046321,
+              40.661714
+            ],
+            [
+              -75.066478,
+              40.65953
+            ],
+            [
+              -75.111442,
+              40.672362
+            ],
+            [
+              -75.135798,
+              40.669667
+            ],
+            [
+              -75.161998,
+              40.650692
+            ],
+            [
+              -75.189936,
+              40.677111
+            ],
+            [
+              -75.231025,
+              40.667367
+            ],
+            [
+              -75.274408,
+              40.637334
+            ],
+            [
+              -75.299342,
+              40.607334
+            ],
+            [
+              -75.324065,
+              40.596424
+            ],
+            [
+              -75.340205,
+              40.5982
+            ],
+            [
+              -75.339703,
+              40.609514
+            ],
+            [
+              -75.35796,
+              40.613534
+            ],
+            [
+              -75.360156,
+              40.621973
+            ],
+            [
+              -75.382699,
+              40.620175
+            ]
+          ]
+        ]
+      },
+      "routing_source": [
+        "https://router.project-osrm.org/route/v1/driving/-73.5,41.39;-73.9857,41.3127?overview=simplified&geometries=geojson&steps=false",
+        "https://router.project-osrm.org/route/v1/driving/-73.9857,41.3127;-75.3824373,40.6201695?overview=simplified&geometries=geojson&steps=false"
+      ]
+    },
+    {
+      "id": "replacement-d3-mid-atlantic-air",
+      "day": 3,
+      "replacement_place_id": "mid-atlantic-air",
+      "replaces_place_ids": [
+        "goggleworks"
+      ],
+      "nodes": [
+        "bethlehem-lodging",
+        "mid-atlantic-air",
+        "tanger-lancaster",
+        "lancaster-east-lodging"
+      ],
+      "node_sequence": [
+        "bethlehem-lodging",
+        "mid-atlantic-air",
+        "tanger-lancaster",
+        "lancaster-east-lodging"
+      ],
+      "baseline_total_miles": 79.7,
+      "baseline_total_minutes": 124,
+      "delta_miles": 3.7,
+      "delta_minutes": 8,
+      "cap_minutes": 210,
+      "cap_status": "passes-baseline-cap",
+      "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+      "non_driving_travel_minutes": 0,
+      "total_travel_minutes_excluding_queues": 124,
+      "legs": [
+        {
+          "id": "replacement-d3-mid-atlantic-air-leg-1",
+          "from": "bethlehem-lodging",
+          "to": "mid-atlantic-air",
+          "mode": "driving",
+          "distance_miles": 40.8,
+          "baseline_minutes": 66,
+          "display_duration_minutes": 66,
+          "counts_toward_drive_cap": true
+        },
+        {
+          "id": "replacement-d3-mid-atlantic-air-leg-2",
+          "from": "mid-atlantic-air",
+          "to": "tanger-lancaster",
+          "mode": "driving",
+          "distance_miles": 38.3,
+          "baseline_minutes": 55,
+          "display_duration_minutes": 55,
+          "counts_toward_drive_cap": true
+        },
+        {
+          "id": "replacement-d3-mid-atlantic-air-leg-3",
+          "from": "tanger-lancaster",
+          "to": "lancaster-east-lodging",
+          "mode": "driving",
+          "distance_miles": 0.6,
+          "baseline_minutes": 3,
+          "display_duration_minutes": 3,
+          "counts_toward_drive_cap": true
+        }
+      ],
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -75.382699,
+              40.620175
+            ],
+            [
+              -75.381955,
+              40.622377
+            ],
+            [
+              -75.420985,
+              40.623908
+            ],
+            [
+              -75.443744,
+              40.616265
+            ],
+            [
+              -75.453007,
+              40.606756
+            ],
+            [
+              -75.457799,
+              40.607669
+            ],
+            [
+              -75.510858,
+              40.591439
+            ],
+            [
+              -75.516734,
+              40.584335
+            ],
+            [
+              -75.52294,
+              40.583063
+            ],
+            [
+              -75.527171,
+              40.577602
+            ],
+            [
+              -75.543434,
+              40.570797
+            ],
+            [
+              -75.553156,
+              40.570025
+            ],
+            [
+              -75.571732,
+              40.564009
+            ],
+            [
+              -75.596784,
+              40.564302
+            ],
+            [
+              -75.619326,
+              40.553779
+            ],
+            [
+              -75.622373,
+              40.542276
+            ],
+            [
+              -75.626006,
+              40.53964
+            ],
+            [
+              -75.677181,
+              40.544406
+            ],
+            [
+              -75.706869,
+              40.541375
+            ],
+            [
+              -75.758776,
+              40.531354
+            ],
+            [
+              -75.767908,
+              40.531409
+            ],
+            [
+              -75.784099,
+              40.526145
+            ],
+            [
+              -75.805553,
+              40.504507
+            ],
+            [
+              -75.809871,
+              40.496668
+            ],
+            [
+              -75.854045,
+              40.478157
+            ],
+            [
+              -75.871469,
+              40.462435
+            ],
+            [
+              -75.902907,
+              40.445787
+            ],
+            [
+              -75.91258,
+              40.430814
+            ],
+            [
+              -75.931265,
+              40.415045
+            ],
+            [
+              -75.966156,
+              40.397845
+            ],
+            [
+              -75.986679,
+              40.384016
+            ],
+            [
+              -75.983738,
+              40.380887
+            ],
+            [
+              -75.979165,
+              40.386423
+            ],
+            [
+              -75.966705,
+              40.382026
+            ]
+          ],
+          [
+            [
+              -75.966705,
+              40.382026
+            ],
+            [
+              -75.979165,
+              40.386423
+            ],
+            [
+              -75.983606,
+              40.380964
+            ],
+            [
+              -75.985418,
+              40.384552
+            ],
+            [
+              -75.991209,
+              40.366052
+            ],
+            [
+              -75.962405,
+              40.349637
+            ],
+            [
+              -75.967654,
+              40.334594
+            ],
+            [
+              -75.995086,
+              40.316161
+            ],
+            [
+              -76.000337,
+              40.297185
+            ],
+            [
+              -76.031595,
+              40.267231
+            ],
+            [
+              -76.040532,
+              40.24111
+            ],
+            [
+              -76.056615,
+              40.226951
+            ],
+            [
+              -76.116586,
+              40.205813
+            ],
+            [
+              -76.12747,
+              40.185363
+            ],
+            [
+              -76.148827,
+              40.171164
+            ],
+            [
+              -76.155487,
+              40.156148
+            ],
+            [
+              -76.203458,
+              40.140216
+            ],
+            [
+              -76.225124,
+              40.120251
+            ],
+            [
+              -76.254864,
+              40.103737
+            ],
+            [
+              -76.291426,
+              40.06716
+            ],
+            [
+              -76.250718,
+              40.047546
+            ],
+            [
+              -76.240242,
+              40.031027
+            ],
+            [
+              -76.21865,
+              40.02371
+            ]
+          ],
+          [
+            [
+              -76.21865,
+              40.02371
+            ],
+            [
+              -76.219285,
+              40.023765
+            ],
+            [
+              -76.219623,
+              40.023661
+            ],
+            [
+              -76.219813,
+              40.024047
+            ],
+            [
+              -76.219343,
+              40.024194
+            ],
+            [
+              -76.217549,
+              40.024021
+            ],
+            [
+              -76.217389,
+              40.024119
+            ],
+            [
+              -76.217348,
+              40.024183
+            ],
+            [
+              -76.21724,
+              40.024858
+            ],
+            [
+              -76.214698,
+              40.025479
+            ],
+            [
+              -76.21427,
+              40.025483
+            ],
+            [
+              -76.214134,
+              40.025621
+            ],
+            [
+              -76.214024,
+              40.025861
+            ],
+            [
+              -76.213104,
+              40.025874
+            ],
+            [
+              -76.212944,
+              40.025753
+            ],
+            [
+              -76.212879,
+              40.02564
+            ],
+            [
+              -76.212905,
+              40.025236
+            ],
+            [
+              -76.212544,
+              40.025046
+            ],
+            [
+              -76.212452,
+              40.024863
+            ]
+          ]
+        ]
+      },
+      "routing_source": [
+        "https://router.project-osrm.org/route/v1/driving/-75.3824373,40.6201695;-75.966611,40.381694?overview=simplified&geometries=geojson&steps=false",
+        "https://router.project-osrm.org/route/v1/driving/-75.966611,40.381694;-76.2186193,40.0238818?overview=simplified&geometries=geojson&steps=false",
+        "https://router.project-osrm.org/route/v1/driving/-76.2186193,40.0238818;-76.2126863,40.0247942?overview=simplified&geometries=geojson&steps=false"
+      ]
+    },
+    {
+      "id": "replacement-d4-stonewall",
+      "day": 4,
+      "replacement_place_id": "stonewall-headquarters",
+      "replaces_place_ids": [
+        "shenandoah-valley-museum"
+      ],
+      "nodes": [
+        "lancaster-east-lodging",
+        "stonewall-headquarters",
+        "winchester-lodging"
+      ],
+      "node_sequence": [
+        "lancaster-east-lodging",
+        "stonewall-headquarters",
+        "winchester-lodging"
+      ],
+      "baseline_total_miles": 155.3,
+      "baseline_total_minutes": 193,
+      "delta_miles": -2.6,
+      "delta_minutes": -6,
+      "cap_minutes": 210,
+      "cap_status": "passes-baseline-cap",
+      "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+      "non_driving_travel_minutes": 0,
+      "total_travel_minutes_excluding_queues": 193,
+      "legs": [
+        {
+          "id": "replacement-d4-stonewall-leg-1",
+          "from": "lancaster-east-lodging",
+          "to": "stonewall-headquarters",
+          "mode": "driving",
+          "distance_miles": 154.7,
+          "baseline_minutes": 191,
+          "display_duration_minutes": 191,
+          "counts_toward_drive_cap": true
+        },
+        {
+          "id": "replacement-d4-stonewall-leg-2",
+          "from": "stonewall-headquarters",
+          "to": "winchester-lodging",
+          "mode": "driving",
+          "distance_miles": 0.6,
+          "baseline_minutes": 2,
+          "display_duration_minutes": 2,
+          "counts_toward_drive_cap": true
+        }
+      ],
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -76.212452,
+              40.024863
+            ],
+            [
+              -76.239464,
+              40.032198
+            ],
+            [
+              -76.251015,
+              40.047843
+            ],
+            [
+              -76.288649,
+              40.067474
+            ],
+            [
+              -76.370759,
+              40.084529
+            ],
+            [
+              -76.48138,
+              40.130088
+            ],
+            [
+              -76.539999,
+              40.132971
+            ],
+            [
+              -76.61466,
+              40.188338
+            ],
+            [
+              -76.688602,
+              40.195303
+            ],
+            [
+              -76.717009,
+              40.224103
+            ],
+            [
+              -76.780862,
+              40.22306
+            ],
+            [
+              -76.816421,
+              40.197504
+            ],
+            [
+              -76.875527,
+              40.212224
+            ],
+            [
+              -76.923784,
+              40.195895
+            ],
+            [
+              -76.972047,
+              40.195504
+            ],
+            [
+              -77.022911,
+              40.196627
+            ],
+            [
+              -77.155036,
+              40.22972
+            ],
+            [
+              -77.206842,
+              40.187981
+            ],
+            [
+              -77.243276,
+              40.183272
+            ],
+            [
+              -77.476182,
+              40.063803
+            ],
+            [
+              -77.498042,
+              40.036647
+            ],
+            [
+              -77.565788,
+              39.98635
+            ],
+            [
+              -77.584194,
+              39.952514
+            ],
+            [
+              -77.611822,
+              39.948565
+            ],
+            [
+              -77.631998,
+              39.933914
+            ],
+            [
+              -77.668706,
+              39.893087
+            ],
+            [
+              -77.69885,
+              39.829122
+            ],
+            [
+              -77.728962,
+              39.752736
+            ],
+            [
+              -77.726921,
+              39.727083
+            ],
+            [
+              -77.742848,
+              39.710436
+            ],
+            [
+              -77.733376,
+              39.688351
+            ],
+            [
+              -77.738119,
+              39.666044
+            ],
+            [
+              -77.813868,
+              39.589242
+            ],
+            [
+              -77.879905,
+              39.578653
+            ],
+            [
+              -77.936386,
+              39.509521
+            ],
+            [
+              -77.973896,
+              39.488509
+            ],
+            [
+              -77.989985,
+              39.468581
+            ],
+            [
+              -77.99012,
+              39.438328
+            ],
+            [
+              -78.025529,
+              39.405117
+            ],
+            [
+              -78.101989,
+              39.255468
+            ],
+            [
+              -78.13453,
+              39.231093
+            ],
+            [
+              -78.165868,
+              39.189621
+            ]
+          ],
+          [
+            [
+              -78.165868,
+              39.189621
+            ],
+            [
+              -78.165921,
+              39.189735
+            ],
+            [
+              -78.165493,
+              39.190878
+            ],
+            [
+              -78.164733,
+              39.190704
+            ],
+            [
+              -78.166765,
+              39.185412
+            ],
+            [
+              -78.167636,
+              39.185614
+            ]
+          ]
+        ]
+      },
+      "routing_source": [
+        "https://router.project-osrm.org/route/v1/driving/-76.2126863,40.0247942;-78.1659169,39.1894269?overview=simplified&geometries=geojson&steps=false",
+        "https://router.project-osrm.org/route/v1/driving/-78.1659169,39.1894269;-78.1676,39.1857?overview=simplified&geometries=geojson&steps=false"
+      ]
+    },
+    {
+      "id": "replacement-d5-woodrow",
+      "day": 5,
+      "replacement_place_id": "woodrow-wilson",
+      "replaces_place_ids": [
+        "natural-bridge"
+      ],
+      "nodes": [
+        "winchester-lodging",
+        "woodrow-wilson",
+        "roanoke-downtown-lodging"
+      ],
+      "node_sequence": [
+        "winchester-lodging",
+        "woodrow-wilson",
+        "roanoke-downtown-lodging"
+      ],
+      "baseline_total_miles": 181.4,
+      "baseline_total_minutes": 209,
+      "delta_miles": 2,
+      "delta_minutes": 3,
+      "cap_minutes": 210,
+      "cap_status": "passes-baseline-cap",
+      "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+      "non_driving_travel_minutes": 0,
+      "total_travel_minutes_excluding_queues": 209,
+      "legs": [
+        {
+          "id": "replacement-d5-woodrow-leg-1",
+          "from": "winchester-lodging",
+          "to": "woodrow-wilson",
+          "mode": "driving",
+          "distance_miles": 94.9,
+          "baseline_minutes": 109,
+          "display_duration_minutes": 109,
+          "counts_toward_drive_cap": true
+        },
+        {
+          "id": "replacement-d5-woodrow-leg-2",
+          "from": "woodrow-wilson",
+          "to": "roanoke-downtown-lodging",
+          "mode": "driving",
+          "distance_miles": 86.5,
+          "baseline_minutes": 100,
+          "display_duration_minutes": 100,
+          "counts_toward_drive_cap": true
+        }
+      ],
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -78.167636,
+              39.185614
+            ],
+            [
+              -78.159357,
+              39.163019
+            ],
+            [
+              -78.171309,
+              39.143073
+            ],
+            [
+              -78.212497,
+              39.08477
+            ],
+            [
+              -78.269481,
+              39.028405
+            ],
+            [
+              -78.30797,
+              39.00589
+            ],
+            [
+              -78.356324,
+              39.015178
+            ],
+            [
+              -78.413576,
+              38.988611
+            ],
+            [
+              -78.48319,
+              38.928242
+            ],
+            [
+              -78.538814,
+              38.855277
+            ],
+            [
+              -78.600857,
+              38.807913
+            ],
+            [
+              -78.61849,
+              38.77631
+            ],
+            [
+              -78.650235,
+              38.748196
+            ],
+            [
+              -78.660903,
+              38.71846
+            ],
+            [
+              -78.656508,
+              38.688627
+            ],
+            [
+              -78.681706,
+              38.640189
+            ],
+            [
+              -78.824592,
+              38.461873
+            ],
+            [
+              -78.909078,
+              38.4001
+            ],
+            [
+              -78.933698,
+              38.345256
+            ],
+            [
+              -78.938545,
+              38.268083
+            ],
+            [
+              -78.990122,
+              38.216623
+            ],
+            [
+              -79.00355,
+              38.173843
+            ],
+            [
+              -79.011812,
+              38.168009
+            ],
+            [
+              -79.032034,
+              38.181068
+            ],
+            [
+              -79.051515,
+              38.155713
+            ],
+            [
+              -79.068581,
+              38.15042
+            ]
+          ],
+          [
+            [
+              -79.068581,
+              38.15042
+            ],
+            [
+              -79.062979,
+              38.107818
+            ],
+            [
+              -79.08248,
+              38.080798
+            ],
+            [
+              -79.169245,
+              38.006809
+            ],
+            [
+              -79.221345,
+              37.93929
+            ],
+            [
+              -79.278866,
+              37.889913
+            ],
+            [
+              -79.362667,
+              37.849834
+            ],
+            [
+              -79.43638,
+              37.723983
+            ],
+            [
+              -79.510038,
+              37.668146
+            ],
+            [
+              -79.552917,
+              37.650076
+            ],
+            [
+              -79.592391,
+              37.613532
+            ],
+            [
+              -79.614507,
+              37.609339
+            ],
+            [
+              -79.669526,
+              37.544326
+            ],
+            [
+              -79.861424,
+              37.445686
+            ],
+            [
+              -79.915673,
+              37.37221
+            ],
+            [
+              -79.970601,
+              37.360049
+            ],
+            [
+              -79.996949,
+              37.342233
+            ],
+            [
+              -79.970657,
+              37.305597
+            ],
+            [
+              -79.9401,
+              37.288971
+            ],
+            [
+              -79.946848,
+              37.272806
+            ]
+          ]
+        ]
+      },
+      "routing_source": [
+        "https://router.project-osrm.org/route/v1/driving/-78.1676,39.1857;-79.0686717,38.1504009?overview=simplified&geometries=geojson&steps=false",
+        "https://router.project-osrm.org/route/v1/driving/-79.0686717,38.1504009;-79.9468241,37.2731542?overview=simplified&geometries=geojson&steps=false"
+      ]
+    },
+    {
+      "id": "replacement-d6-virginia-transport",
+      "day": 6,
+      "replacement_place_id": "virginia-transportation",
+      "replaces_place_ids": [
+        "duke-lemur-bts"
+      ],
+      "nodes": [
+        "roanoke-downtown-lodging",
+        "virginia-transportation",
+        "duke-chapel-gardens",
+        "durham-lodging"
+      ],
+      "node_sequence": [
+        "roanoke-downtown-lodging",
+        "virginia-transportation",
+        "duke-chapel-gardens",
+        "durham-lodging"
+      ],
+      "baseline_total_miles": 140.6,
+      "baseline_total_minutes": 190,
+      "delta_miles": -1.6,
+      "delta_minutes": -11,
+      "cap_minutes": 210,
+      "cap_status": "passes-baseline-cap",
+      "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+      "non_driving_travel_minutes": 0,
+      "total_travel_minutes_excluding_queues": 190,
+      "legs": [
+        {
+          "id": "replacement-d6-virginia-transport-leg-1",
+          "from": "roanoke-downtown-lodging",
+          "to": "virginia-transportation",
+          "mode": "driving",
+          "distance_miles": 0,
+          "baseline_minutes": 0,
+          "display_duration_minutes": 0,
+          "counts_toward_drive_cap": true
+        },
+        {
+          "id": "replacement-d6-virginia-transport-leg-2",
+          "from": "virginia-transportation",
+          "to": "duke-chapel-gardens",
+          "mode": "driving",
+          "distance_miles": 138,
+          "baseline_minutes": 182,
+          "display_duration_minutes": 182,
+          "counts_toward_drive_cap": true
+        },
+        {
+          "id": "replacement-d6-virginia-transport-leg-3",
+          "from": "duke-chapel-gardens",
+          "to": "durham-lodging",
+          "mode": "driving",
+          "distance_miles": 2.6,
+          "baseline_minutes": 8,
+          "display_duration_minutes": 8,
+          "counts_toward_drive_cap": true
+        }
+      ],
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -79.946848,
+              37.272806
+            ],
+            [
+              -79.946848,
+              37.272806
+            ]
+          ],
+          [
+            [
+              -79.946848,
+              37.272806
+            ],
+            [
+              -79.946988,
+              37.258769
+            ],
+            [
+              -79.975917,
+              37.234913
+            ],
+            [
+              -79.935268,
+              37.179872
+            ],
+            [
+              -79.972815,
+              37.134046
+            ],
+            [
+              -79.93585,
+              37.090072
+            ],
+            [
+              -79.885519,
+              37.063609
+            ],
+            [
+              -79.87517,
+              37.040308
+            ],
+            [
+              -79.882249,
+              37.020828
+            ],
+            [
+              -79.86945,
+              36.997157
+            ],
+            [
+              -79.881841,
+              36.949113
+            ],
+            [
+              -79.864797,
+              36.914473
+            ],
+            [
+              -79.876841,
+              36.853257
+            ],
+            [
+              -79.917283,
+              36.841297
+            ],
+            [
+              -79.938751,
+              36.809699
+            ],
+            [
+              -79.937946,
+              36.727046
+            ],
+            [
+              -79.95582,
+              36.718614
+            ],
+            [
+              -79.957269,
+              36.705587
+            ],
+            [
+              -79.918733,
+              36.650352
+            ],
+            [
+              -79.860371,
+              36.621799
+            ],
+            [
+              -79.86317,
+              36.579
+            ],
+            [
+              -79.802632,
+              36.534879
+            ],
+            [
+              -79.752982,
+              36.523268
+            ],
+            [
+              -79.738275,
+              36.476362
+            ],
+            [
+              -79.660005,
+              36.378755
+            ],
+            [
+              -79.6287,
+              36.360402
+            ],
+            [
+              -79.643915,
+              36.327625
+            ],
+            [
+              -79.613563,
+              36.291495
+            ],
+            [
+              -79.598145,
+              36.283031
+            ],
+            [
+              -79.54282,
+              36.283955
+            ],
+            [
+              -79.521456,
+              36.268399
+            ],
+            [
+              -79.511296,
+              36.165979
+            ],
+            [
+              -79.477615,
+              36.113182
+            ],
+            [
+              -79.383215,
+              36.062819
+            ],
+            [
+              -79.22494,
+              36.079219
+            ],
+            [
+              -79.161434,
+              36.072975
+            ],
+            [
+              -79.129557,
+              36.059175
+            ],
+            [
+              -79.082238,
+              36.058859
+            ],
+            [
+              -79.024422,
+              36.03916
+            ],
+            [
+              -78.973104,
+              36.036451
+            ],
+            [
+              -78.952585,
+              36.01564
+            ],
+            [
+              -78.954142,
+              36.004524
+            ],
+            [
+              -78.940881,
+              36.001632
+            ]
+          ],
+          [
+            [
+              -78.940881,
+              36.001632
+            ],
+            [
+              -78.942122,
+              36.002596
+            ],
+            [
+              -78.944166,
+              36.000081
+            ],
+            [
+              -78.942055,
+              35.999381
+            ],
+            [
+              -78.939722,
+              35.998209
+            ],
+            [
+              -78.939064,
+              35.997734
+            ],
+            [
+              -78.937017,
+              35.997187
+            ],
+            [
+              -78.935617,
+              35.99632
+            ],
+            [
+              -78.934395,
+              35.99699
+            ],
+            [
+              -78.931551,
+              35.998079
+            ],
+            [
+              -78.930204,
+              35.9984
+            ],
+            [
+              -78.927011,
+              35.997928
+            ],
+            [
+              -78.923539,
+              35.997013
+            ],
+            [
+              -78.921671,
+              35.996716
+            ],
+            [
+              -78.917872,
+              35.996694
+            ],
+            [
+              -78.910273,
+              35.996976
+            ],
+            [
+              -78.91032,
+              35.995477
+            ],
+            [
+              -78.908796,
+              35.995494
+            ],
+            [
+              -78.908802,
+              35.996743
+            ]
+          ]
+        ]
+      },
+      "routing_source": [
+        "https://router.project-osrm.org/route/v1/driving/-79.9468241,37.2731542;-79.9468241,37.2731542?overview=simplified&geometries=geojson&steps=false",
+        "https://router.project-osrm.org/route/v1/driving/-79.9468241,37.2731542;-78.9402861,36.0018682?overview=simplified&geometries=geojson&steps=false",
+        "https://router.project-osrm.org/route/v1/driving/-78.9402861,36.0018682;-78.9087291,35.9967428?overview=simplified&geometries=geojson&steps=false"
+      ]
+    },
+    {
+      "id": "replacement-d7-keystone",
+      "day": 7,
+      "replacement_place_id": "keystone-tractor",
+      "replaces_place_ids": [
+        "petersburg-battlefield"
+      ],
+      "nodes": [
+        "durham-lodging",
+        "keystone-tractor",
+        "richmond-lodging"
+      ],
+      "node_sequence": [
+        "durham-lodging",
+        "keystone-tractor",
+        "richmond-lodging"
+      ],
+      "baseline_total_miles": 152.5,
+      "baseline_total_minutes": 176,
+      "delta_miles": -0.6,
+      "delta_minutes": -1,
+      "cap_minutes": 210,
+      "cap_status": "passes-baseline-cap",
+      "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+      "non_driving_travel_minutes": 0,
+      "total_travel_minutes_excluding_queues": 176,
+      "legs": [
+        {
+          "id": "replacement-d7-keystone-leg-1",
+          "from": "durham-lodging",
+          "to": "keystone-tractor",
+          "mode": "driving",
+          "distance_miles": 129.9,
+          "baseline_minutes": 145,
+          "display_duration_minutes": 145,
+          "counts_toward_drive_cap": true
+        },
+        {
+          "id": "replacement-d7-keystone-leg-2",
+          "from": "keystone-tractor",
+          "to": "richmond-lodging",
+          "mode": "driving",
+          "distance_miles": 22.6,
+          "baseline_minutes": 31,
+          "display_duration_minutes": 31,
+          "counts_toward_drive_cap": true
+        }
+      ],
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -78.908802,
+              35.996743
+            ],
+            [
+              -78.905007,
+              36.019058
+            ],
+            [
+              -78.869653,
+              36.013903
+            ],
+            [
+              -78.768502,
+              36.0782
+            ],
+            [
+              -78.742536,
+              36.126258
+            ],
+            [
+              -78.676282,
+              36.208122
+            ],
+            [
+              -78.580745,
+              36.295282
+            ],
+            [
+              -78.526354,
+              36.320488
+            ],
+            [
+              -78.4623,
+              36.320953
+            ],
+            [
+              -78.39733,
+              36.345032
+            ],
+            [
+              -78.360838,
+              36.370389
+            ],
+            [
+              -78.23725,
+              36.478173
+            ],
+            [
+              -78.185097,
+              36.542557
+            ],
+            [
+              -78.17577,
+              36.573335
+            ],
+            [
+              -78.143053,
+              36.617315
+            ],
+            [
+              -78.130037,
+              36.672704
+            ],
+            [
+              -78.089849,
+              36.75575
+            ],
+            [
+              -78.020265,
+              36.778946
+            ],
+            [
+              -77.91185,
+              36.846771
+            ],
+            [
+              -77.865367,
+              36.850872
+            ],
+            [
+              -77.834579,
+              36.866099
+            ],
+            [
+              -77.73155,
+              36.940135
+            ],
+            [
+              -77.689647,
+              36.991552
+            ],
+            [
+              -77.561456,
+              37.081649
+            ],
+            [
+              -77.523635,
+              37.122315
+            ],
+            [
+              -77.484936,
+              37.192993
+            ],
+            [
+              -77.418323,
+              37.199202
+            ],
+            [
+              -77.390864,
+              37.218013
+            ],
+            [
+              -77.393716,
+              37.24865
+            ]
+          ],
+          [
+            [
+              -77.393716,
+              37.24865
+            ],
+            [
+              -77.398185,
+              37.252665
+            ],
+            [
+              -77.395909,
+              37.257715
+            ],
+            [
+              -77.398836,
+              37.260726
+            ],
+            [
+              -77.388516,
+              37.283732
+            ],
+            [
+              -77.39133,
+              37.30067
+            ],
+            [
+              -77.400397,
+              37.316562
+            ],
+            [
+              -77.399706,
+              37.329376
+            ],
+            [
+              -77.40553,
+              37.34177
+            ],
+            [
+              -77.403672,
+              37.368415
+            ],
+            [
+              -77.40777,
+              37.376839
+            ],
+            [
+              -77.422346,
+              37.391665
+            ],
+            [
+              -77.431632,
+              37.433153
+            ],
+            [
+              -77.422978,
+              37.447664
+            ],
+            [
+              -77.43249,
+              37.49021
+            ],
+            [
+              -77.424734,
+              37.513084
+            ],
+            [
+              -77.429261,
+              37.531794
+            ],
+            [
+              -77.448961,
+              37.543058
+            ],
+            [
+              -77.448686,
+              37.546987
+            ],
+            [
+              -77.446781,
+              37.545436
+            ]
+          ]
+        ]
+      },
+      "routing_source": [
+        "https://router.project-osrm.org/route/v1/driving/-78.9087291,35.9967428;-77.3944402,37.2484957?overview=simplified&geometries=geojson&steps=false",
+        "https://router.project-osrm.org/route/v1/driving/-77.3944402,37.2484957;-77.446613,37.5453393?overview=simplified&geometries=geojson&steps=false"
+      ]
+    },
+    {
+      "id": "replacement-d8-vmfa",
+      "day": 8,
+      "replacement_place_id": "virginia-fine-arts",
+      "replaces_place_ids": [
+        "poe-museum"
+      ],
+      "nodes": [
+        "richmond-lodging",
+        "richmond-orthodox",
+        "virginia-fine-arts",
+        "annapolis-lodging"
+      ],
+      "node_sequence": [
+        "richmond-lodging",
+        "richmond-orthodox",
+        "virginia-fine-arts",
+        "annapolis-lodging"
+      ],
+      "baseline_total_miles": 140.1,
+      "baseline_total_minutes": 178,
+      "delta_miles": -6.1,
+      "delta_minutes": -7,
+      "cap_minutes": 210,
+      "cap_status": "passes-baseline-cap",
+      "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+      "non_driving_travel_minutes": 0,
+      "total_travel_minutes_excluding_queues": 178,
+      "legs": [
+        {
+          "id": "replacement-d8-vmfa-leg-1",
+          "from": "richmond-lodging",
+          "to": "richmond-orthodox",
+          "mode": "driving",
+          "distance_miles": 3.8,
+          "baseline_minutes": 8,
+          "display_duration_minutes": 8,
+          "counts_toward_drive_cap": true
+        },
+        {
+          "id": "replacement-d8-vmfa-leg-2",
+          "from": "richmond-orthodox",
+          "to": "virginia-fine-arts",
+          "mode": "driving",
+          "distance_miles": 1.5,
+          "baseline_minutes": 5,
+          "display_duration_minutes": 5,
+          "counts_toward_drive_cap": true
+        },
+        {
+          "id": "replacement-d8-vmfa-leg-3",
+          "from": "virginia-fine-arts",
+          "to": "annapolis-lodging",
+          "mode": "driving",
+          "distance_miles": 134.7,
+          "baseline_minutes": 165,
+          "display_duration_minutes": 165,
+          "counts_toward_drive_cap": true
+        }
+      ],
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -77.446781,
+              37.545436
+            ],
+            [
+              -77.446543,
+              37.545695
+            ],
+            [
+              -77.445336,
+              37.544974
+            ],
+            [
+              -77.447412,
+              37.542777
+            ],
+            [
+              -77.447894,
+              37.543077
+            ],
+            [
+              -77.448877,
+              37.542646
+            ],
+            [
+              -77.45518,
+              37.543008
+            ],
+            [
+              -77.457014,
+              37.543414
+            ],
+            [
+              -77.468822,
+              37.547642
+            ],
+            [
+              -77.474811,
+              37.548121
+            ],
+            [
+              -77.478542,
+              37.549277
+            ],
+            [
+              -77.481125,
+              37.550268
+            ],
+            [
+              -77.483287,
+              37.55181
+            ],
+            [
+              -77.488367,
+              37.553647
+            ],
+            [
+              -77.489536,
+              37.554557
+            ],
+            [
+              -77.489862,
+              37.55622
+            ],
+            [
+              -77.488928,
+              37.55906
+            ],
+            [
+              -77.487355,
+              37.560709
+            ],
+            [
+              -77.486415,
+              37.560557
+            ],
+            [
+              -77.486991,
+              37.559493
+            ],
+            [
+              -77.492431,
+              37.562091
+            ],
+            [
+              -77.492858,
+              37.561516
+            ],
+            [
+              -77.493274,
+              37.561708
+            ]
+          ],
+          [
+            [
+              -77.493274,
+              37.561708
+            ],
+            [
+              -77.493676,
+              37.561894
+            ],
+            [
+              -77.493794,
+              37.561733
+            ],
+            [
+              -77.493984,
+              37.561821
+            ],
+            [
+              -77.49385,
+              37.562002
+            ],
+            [
+              -77.494444,
+              37.562277
+            ],
+            [
+              -77.494059,
+              37.56279
+            ],
+            [
+              -77.487128,
+              37.559468
+            ],
+            [
+              -77.474319,
+              37.554913
+            ],
+            [
+              -77.473704,
+              37.556052
+            ],
+            [
+              -77.474223,
+              37.556559
+            ],
+            [
+              -77.474557,
+              37.556675
+            ]
+          ],
+          [
+            [
+              -77.474557,
+              37.556675
+            ],
+            [
+              -77.44379,
+              37.618587
+            ],
+            [
+              -77.458503,
+              37.917283
+            ],
+            [
+              -77.49183,
+              37.97177
+            ],
+            [
+              -77.517116,
+              38.090635
+            ],
+            [
+              -77.497658,
+              38.333974
+            ],
+            [
+              -77.435112,
+              38.397625
+            ],
+            [
+              -77.275563,
+              38.663032
+            ],
+            [
+              -77.230255,
+              38.680745
+            ],
+            [
+              -77.158774,
+              38.805535
+            ],
+            [
+              -77.028683,
+              38.881808
+            ],
+            [
+              -76.969135,
+              38.876321
+            ],
+            [
+              -76.880131,
+              38.943496
+            ],
+            [
+              -76.763744,
+              38.945707
+            ],
+            [
+              -76.546942,
+              38.982414
+            ]
+          ]
+        ]
+      },
+      "routing_source": [
+        "https://router.project-osrm.org/route/v1/driving/-77.446613,37.5453393;-77.4934947,37.5614073?overview=simplified&geometries=geojson&steps=false",
+        "https://router.project-osrm.org/route/v1/driving/-77.4934947,37.5614073;-77.4748956,37.5560585?overview=simplified&geometries=geojson&steps=false",
+        "https://router.project-osrm.org/route/v1/driving/-77.4748956,37.5560585;-76.5472304,38.9825918?overview=simplified&geometries=geojson&steps=false"
+      ]
+    },
+    {
+      "id": "replacement-d9-brandywine",
+      "day": 9,
+      "replacement_place_id": "brandywine-art",
+      "replaces_place_ids": [
+        "hagley"
+      ],
+      "nodes": [
+        "annapolis-lodging",
+        "brandywine-art",
+        "bensalem-lodging"
+      ],
+      "node_sequence": [
+        "annapolis-lodging",
+        "brandywine-art",
+        "bensalem-lodging"
+      ],
+      "baseline_total_miles": 152.9,
+      "baseline_total_minutes": 204,
+      "delta_miles": 7.7,
+      "delta_minutes": 9,
+      "cap_minutes": 210,
+      "cap_status": "passes-baseline-cap",
+      "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+      "non_driving_travel_minutes": 0,
+      "total_travel_minutes_excluding_queues": 204,
+      "legs": [
+        {
+          "id": "replacement-d9-brandywine-leg-1",
+          "from": "annapolis-lodging",
+          "to": "brandywine-art",
+          "mode": "driving",
+          "distance_miles": 103.7,
+          "baseline_minutes": 134,
+          "display_duration_minutes": 134,
+          "counts_toward_drive_cap": true
+        },
+        {
+          "id": "replacement-d9-brandywine-leg-2",
+          "from": "brandywine-art",
+          "to": "bensalem-lodging",
+          "mode": "driving",
+          "distance_miles": 49.2,
+          "baseline_minutes": 70,
+          "display_duration_minutes": 70,
+          "counts_toward_drive_cap": true
+        }
+      ],
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -76.546942,
+              38.982414
+            ],
+            [
+              -76.575354,
+              38.985561
+            ],
+            [
+              -76.611496,
+              39.010248
+            ],
+            [
+              -76.613619,
+              39.04031
+            ],
+            [
+              -76.640533,
+              39.064253
+            ],
+            [
+              -76.624645,
+              39.086801
+            ],
+            [
+              -76.64545,
+              39.15669
+            ],
+            [
+              -76.623396,
+              39.229733
+            ],
+            [
+              -76.613401,
+              39.239506
+            ],
+            [
+              -76.578977,
+              39.242659
+            ],
+            [
+              -76.512484,
+              39.34285
+            ],
+            [
+              -76.456599,
+              39.372205
+            ],
+            [
+              -76.371735,
+              39.440113
+            ],
+            [
+              -76.340911,
+              39.4427
+            ],
+            [
+              -76.244223,
+              39.486992
+            ],
+            [
+              -76.132189,
+              39.574895
+            ],
+            [
+              -76.076434,
+              39.586444
+            ],
+            [
+              -75.925883,
+              39.645241
+            ],
+            [
+              -75.783965,
+              39.639082
+            ],
+            [
+              -75.704124,
+              39.654483
+            ],
+            [
+              -75.659685,
+              39.682556
+            ],
+            [
+              -75.599244,
+              39.698794
+            ],
+            [
+              -75.621276,
+              39.734003
+            ],
+            [
+              -75.587318,
+              39.773003
+            ],
+            [
+              -75.586227,
+              39.813521
+            ],
+            [
+              -75.600354,
+              39.82809
+            ],
+            [
+              -75.592668,
+              39.870129
+            ]
+          ],
+          [
+            [
+              -75.592668,
+              39.870129
+            ],
+            [
+              -75.585621,
+              39.873148
+            ],
+            [
+              -75.557503,
+              39.876033
+            ],
+            [
+              -75.517343,
+              39.889129
+            ],
+            [
+              -75.509588,
+              39.889336
+            ],
+            [
+              -75.49381,
+              39.896697
+            ],
+            [
+              -75.479168,
+              39.896224
+            ],
+            [
+              -75.462991,
+              39.899932
+            ],
+            [
+              -75.443106,
+              39.911169
+            ],
+            [
+              -75.418444,
+              39.915309
+            ],
+            [
+              -75.411662,
+              39.923881
+            ],
+            [
+              -75.394165,
+              39.935351
+            ],
+            [
+              -75.362698,
+              39.936844
+            ],
+            [
+              -75.360976,
+              39.939593
+            ],
+            [
+              -75.347196,
+              39.94626
+            ],
+            [
+              -75.335579,
+              39.955766
+            ],
+            [
+              -75.333999,
+              39.964147
+            ],
+            [
+              -75.341174,
+              39.975123
+            ],
+            [
+              -75.338514,
+              39.984248
+            ],
+            [
+              -75.354075,
+              40.006677
+            ],
+            [
+              -75.363084,
+              40.026112
+            ],
+            [
+              -75.362758,
+              40.030807
+            ],
+            [
+              -75.352694,
+              40.038901
+            ],
+            [
+              -75.345389,
+              40.05051
+            ],
+            [
+              -75.323236,
+              40.061448
+            ],
+            [
+              -75.321587,
+              40.07518
+            ],
+            [
+              -75.31144,
+              40.082738
+            ],
+            [
+              -75.304451,
+              40.094309
+            ],
+            [
+              -75.291564,
+              40.100337
+            ],
+            [
+              -75.288061,
+              40.106599
+            ],
+            [
+              -75.272753,
+              40.113618
+            ],
+            [
+              -75.253271,
+              40.119718
+            ],
+            [
+              -75.175494,
+              40.136692
+            ],
+            [
+              -75.123796,
+              40.16106
+            ],
+            [
+              -75.104252,
+              40.163252
+            ],
+            [
+              -75.052864,
+              40.163294
+            ],
+            [
+              -75.006611,
+              40.14457
+            ],
+            [
+              -74.988883,
+              40.135297
+            ],
+            [
+              -74.964097,
+              40.130183
+            ],
+            [
+              -74.962113,
+              40.12143
+            ],
+            [
+              -74.953567,
+              40.110965
+            ],
+            [
+              -74.959879,
+              40.104929
+            ]
+          ]
+        ]
+      },
+      "routing_source": [
+        "https://router.project-osrm.org/route/v1/driving/-76.5472304,38.9825918;-75.593038,39.8699798?overview=simplified&geometries=geojson&steps=false",
+        "https://router.project-osrm.org/route/v1/driving/-75.593038,39.8699798;-74.96,40.105?overview=simplified&geometries=geojson&steps=false"
+      ]
+    },
+    {
+      "id": "replacement-d10-paterson",
+      "day": 10,
+      "replacement_place_id": "paterson-museum",
+      "replaces_place_ids": [
+        "met-cloisters"
+      ],
+      "nodes": [
+        "bensalem-lodging",
+        "paterson-museum",
+        "bridgeport-lodging"
+      ],
+      "node_sequence": [
+        "bensalem-lodging",
+        "paterson-museum",
+        "bridgeport-lodging"
+      ],
+      "baseline_total_miles": 151.1,
+      "baseline_total_minutes": 202,
+      "delta_miles": 12.6,
+      "delta_minutes": 11,
+      "cap_minutes": 210,
+      "cap_status": "passes-baseline-cap",
+      "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
+      "non_driving_travel_minutes": 0,
+      "total_travel_minutes_excluding_queues": 202,
+      "legs": [
+        {
+          "id": "replacement-d10-paterson-leg-1",
+          "from": "bensalem-lodging",
+          "to": "paterson-museum",
+          "mode": "driving",
+          "distance_miles": 84.5,
+          "baseline_minutes": 108,
+          "display_duration_minutes": 108,
+          "counts_toward_drive_cap": true
+        },
+        {
+          "id": "replacement-d10-paterson-leg-2",
+          "from": "paterson-museum",
+          "to": "bridgeport-lodging",
+          "mode": "driving",
+          "distance_miles": 66.6,
+          "baseline_minutes": 93,
+          "display_duration_minutes": 93,
+          "counts_toward_drive_cap": true
+        }
+      ],
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -74.959879,
+              40.104929
+            ],
+            [
+              -74.953567,
+              40.110965
+            ],
+            [
+              -74.963,
+              40.129833
+            ],
+            [
+              -74.892465,
+              40.129057
+            ],
+            [
+              -74.776359,
+              40.096074
+            ],
+            [
+              -74.729802,
+              40.097837
+            ],
+            [
+              -74.646773,
+              40.166638
+            ],
+            [
+              -74.519807,
+              40.247384
+            ],
+            [
+              -74.447693,
+              40.413245
+            ],
+            [
+              -74.402122,
+              40.481985
+            ],
+            [
+              -74.36198,
+              40.517388
+            ],
+            [
+              -74.296203,
+              40.541375
+            ],
+            [
+              -74.30792,
+              40.540682
+            ],
+            [
+              -74.330401,
+              40.581734
+            ],
+            [
+              -74.288802,
+              40.642016
+            ],
+            [
+              -74.27696,
+              40.682291
+            ],
+            [
+              -74.22228,
+              40.730846
+            ],
+            [
+              -74.180167,
+              40.811197
+            ],
+            [
+              -74.165771,
+              40.880662
+            ],
+            [
+              -74.179152,
+              40.913436
+            ]
+          ],
+          [
+            [
+              -74.179152,
+              40.913436
+            ],
+            [
+              -74.172314,
+              40.906453
+            ],
+            [
+              -74.146901,
+              40.900526
+            ],
+            [
+              -74.113478,
+              40.904175
+            ],
+            [
+              -74.084954,
+              40.901267
+            ],
+            [
+              -74.053009,
+              40.867723
+            ],
+            [
+              -74.01147,
+              40.864212
+            ],
+            [
+              -74.001044,
+              40.867455
+            ],
+            [
+              -73.96828,
+              40.854633
+            ],
+            [
+              -73.925711,
+              40.844792
+            ],
+            [
+              -73.892311,
+              40.843318
+            ],
+            [
+              -73.845171,
+              40.828143
+            ],
+            [
+              -73.835789,
+              40.829094
+            ],
+            [
+              -73.824712,
+              40.835624
+            ],
+            [
+              -73.827282,
+              40.86061
+            ],
+            [
+              -73.814788,
+              40.886072
+            ],
+            [
+              -73.802584,
+              40.887437
+            ],
+            [
+              -73.791013,
+              40.906411
+            ],
+            [
+              -73.751579,
+              40.941004
+            ],
+            [
+              -73.740173,
+              40.96003
+            ],
+            [
+              -73.728984,
+              40.965197
+            ],
+            [
+              -73.722626,
+              40.974086
+            ],
+            [
+              -73.703204,
+              40.974966
+            ],
+            [
+              -73.682306,
+              40.986753
+            ],
+            [
+              -73.666778,
+              40.988116
+            ],
+            [
+              -73.635097,
+              41.017752
+            ],
+            [
+              -73.603666,
+              41.027298
+            ],
+            [
+              -73.594138,
+              41.035668
+            ],
+            [
+              -73.568916,
+              41.04436
+            ],
+            [
+              -73.539983,
+              41.048147
+            ],
+            [
+              -73.514473,
+              41.056831
+            ],
+            [
+              -73.502911,
+              41.067527
+            ],
+            [
+              -73.467813,
+              41.074478
+            ],
+            [
+              -73.457098,
+              41.087917
+            ],
+            [
+              -73.428502,
+              41.104618
+            ],
+            [
+              -73.406059,
+              41.108531
+            ],
+            [
+              -73.377075,
+              41.120131
+            ],
+            [
+              -73.34052,
+              41.123371
+            ],
+            [
+              -73.323173,
+              41.120477
+            ],
+            [
+              -73.303152,
+              41.126717
+            ],
+            [
+              -73.284436,
+              41.141029
+            ],
+            [
+              -73.249844,
+              41.149511
+            ],
+            [
+              -73.228147,
+              41.174351
+            ],
+            [
+              -73.199934,
+              41.189088
+            ],
+            [
+              -73.195262,
+              41.186183
+            ]
+          ]
+        ]
+      },
+      "routing_source": [
+        "https://router.project-osrm.org/route/v1/driving/-74.96,40.105;-74.1788927,40.913532?overview=simplified&geometries=geojson&steps=false",
+        "https://router.project-osrm.org/route/v1/driving/-74.1788927,40.913532;-73.1952,41.1865?overview=simplified&geometries=geojson&steps=false"
+      ]
+    },
+    {
+      "id": "replacement-d11-bpl",
+      "day": 11,
+      "replacement_place_id": "boston-public-library",
+      "replaces_place_ids": [
+        "gardner-museum"
+      ],
+      "unchanged_drive": true,
+      "node_sequence": [],
+      "baseline_total_miles": 155.7,
+      "baseline_total_minutes": 196,
+      "delta_miles": 0,
+      "delta_minutes": 0,
+      "cap_minutes": 210,
+      "cap_status": "passes-baseline-cap",
+      "routing_note": "Parked-city replacement; bed-to-bed driving is unchanged.",
+      "legs": [],
+      "geometry": null
+    }
+  ]
+}

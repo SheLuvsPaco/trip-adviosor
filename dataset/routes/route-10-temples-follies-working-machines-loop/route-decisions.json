@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0.0",
+  "route_id": "route-10",
+  "locked_at": "2026-08-24",
+  "accepted": [
+    {
+      "decision": "Roanoke is the endpoint",
+      "reason": "Its sculptural museum, neon mountain star, Link night photography and working rail heritage produce a coherent reveal while allowing a fully different Shenandoah-Hershey return."
+    },
+    {
+      "decision": "Route 10 joins faith, architecture and machines",
+      "reason": "The stops are not a random best-of list: each asks how belief, industry, transport, memory or wealth becomes physical space."
+    },
+    {
+      "decision": "All eleven hidden gems are now main stops",
+      "reason": "The route order and three overnight zones were re-measured so all 24 places appear in the daily story without duplicate alternative cards."
+    },
+    {
+      "decision": "Every expanded day stays inside the driving cap",
+      "reason": "The combined OSRM baselines run from 128 to 210 minutes. East Milford, Baltimore east and north Richmond keep the tight days legal."
+    },
+    {
+      "decision": "Orthodox Sunday is protected",
+      "reason": "Sleeping near Mount Crawford makes worship the immovable first event; the optional short Harrisonburg layer flexes around it."
+    },
+    {
+      "decision": "The endpoint day is intentionally spacious",
+      "reason": "About 136 baseline minutes leaves time for Taubman, Winston Link, the sunset Star and an unhurried Roanoke dinner."
+    },
+    {
+      "decision": "The return ends after both cars are returned",
+      "reason": "Waterworks and the Athenaeum both happen by transit or rideshare after the car return, protecting the October 15 airport deadline."
+    }
+  ],
+  "rejected": [
+    {
+      "option": "Asheville as the endpoint",
+      "reason": "The northbound sleep-to-sleep chain cannot return by October 14 without breaking the 210-minute cap or reducing the route to drive-only days."
+    },
+    {
+      "option": "Morris Museum on Tuesday",
+      "reason": "Its official schedule is closed Tuesday; Skylands supplies a legal, open and more photogenic core."
+    },
+    {
+      "option": "Franklin Mineral Museum on Tuesday",
+      "reason": "Its posted schedule is closed Tuesday and cannot support the measured return day."
+    },
+    {
+      "option": "Skylands manor interior on Tuesday",
+      "reason": "Interior tours are offered only on select Sundays, so the dataset promises only exterior and garden access."
+    },
+    {
+      "option": "Driving to Pyramid Mountain after Skylands",
+      "reason": "The reverse order adds about 37 baseline minutes. Hiking first keeps the expanded day under the cap."
+    }
+  ],
+  "traffic_policy": "OSRM baselines contain no traffic. Check live ETAs before every departure; days at or above 200 baseline minutes are live-traffic-gated, and no attraction justifies exceeding 210 active driving minutes.",
+  "weather_policy": "Daily Celsius values are NOAA 1991-2020 station normals, not forecasts. Weather carries only 5 percent of Magic score and must be replaced by a live forecast about ten days before departure.",
+  "image_policy": "Three to five local, visually reviewed real images are stored per place with creator, source and rights metadata. Contextual images are labelled. Permission-required venue/editorial files are private-prototype-only until licensed or replaced."
+}

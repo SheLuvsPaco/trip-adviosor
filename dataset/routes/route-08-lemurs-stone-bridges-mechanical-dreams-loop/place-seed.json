@@ -1,0 +1,1208 @@
+{
+  "schema_version": "1.0.0",
+  "route_id": "route-08",
+  "places": [
+    {
+      "id": "new-britain-art",
+      "name": "New Britain Museum of American Art",
+      "kind": "american-art-museum",
+      "city": "New Britain",
+      "state": "CT",
+      "visit_date": "2026-10-04",
+      "summary": "This bright museum tells the story of American art from early furniture and paintings to modern work. It was the first museum created only for American art.",
+      "why_go": "It is an easy first stop after a long travel morning. The art is colorful, varied, and simple to enjoy even if the group arrives late.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Best for viki and gora: It is an easy first stop after a long travel morning. The art is colorful, varied, and simple to enjoy even if the group arrives late.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "local_culture"
+      ],
+      "duration_minutes": 140,
+      "source_ids": [
+        "src-nbmaa"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Sunday hours. Last useful arrival is about 15:00; shorten galleries rather than moving the sleep stop."
+      },
+      "cost": {
+        "amount_per_person": 22,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "New Britain Museum of American Art"
+    },
+    {
+      "id": "wadsworth-atheneum",
+      "name": "Wadsworth Atheneum Museum of Art",
+      "kind": "historic-encyclopedic-art-museum",
+      "city": "Hartford",
+      "state": "CT",
+      "visit_date": "2026-10-04",
+      "summary": "This castle-like museum joins several old buildings in downtown Hartford. Inside are European paintings, historic rooms, beautiful objects, and modern art.",
+      "why_go": "Choose it for grand architecture and a wider mix of art than New Britain.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and stivka: Choose it for grand architecture and a wider mix of art than New Britain.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "quiet_reset"
+      ],
+      "duration_minutes": 130,
+      "source_ids": [
+        "src-wadsworth"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Sunday hours; exact galleries can rotate or close, so check the day's notices."
+      },
+      "cost": {
+        "amount_per_person": 22,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "replacement",
+      "replacement_reason": "A more architectural, encyclopedic first-day museum with an independently cap-tested route.",
+      "replacement": {
+        "day": 1,
+        "replaces_place_ids": [
+          "new-britain-art"
+        ],
+        "route_variant_id": "replacement-d1-wadsworth",
+        "reason": "A more architectural, encyclopedic first-day museum with an independently cap-tested route."
+      },
+      "address": "Wadsworth Atheneum Museum of Art"
+    },
+    {
+      "id": "dia-beacon",
+      "name": "Dia Beacon",
+      "kind": "monumental-contemporary-art-factory",
+      "city": "Beacon",
+      "state": "NY",
+      "visit_date": "2026-10-05",
+      "summary": "A huge former factory is now filled with giant steel, light, and space-based art. Tall windows bring natural light across the wide open rooms.",
+      "why_go": "The building and the art both feel enormous. It is a strong stop for photos, design, and the clever use of industrial space.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Best for viki and gora: The building and the art both feel enormous. It is a strong stop for photos, design, and the clever use of industrial space.",
+      "categories": [
+        "unusual_creative",
+        "architecture_nature_photogenic",
+        "quiet_reset"
+      ],
+      "duration_minutes": 135,
+      "source_ids": [
+        "src-dia"
+      ],
+      "reservation": "reserve-recommended",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Monday is one of Dia Beacon's normal open days. Advance timed tickets are recommended."
+      },
+      "cost": {
+        "amount_per_person": 25,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Dia Beacon"
+    },
+    {
+      "id": "bear-mountain-perkins",
+      "name": "Perkins Memorial Tower at Bear Mountain",
+      "kind": "hudson-highlands-overlook",
+      "city": "Bear Mountain",
+      "state": "NY",
+      "visit_date": "2026-10-05",
+      "summary": "A short mountain road leads to a stone lookout tower above the Hudson River. In October, the view is filled with forest, hills, and fall color.",
+      "why_go": "Choose it on a clear day for a huge outdoor view without a long hike.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and stivka: Choose it on a clear day for a huge outdoor view without a long hike.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "quiet_reset"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-bear"
+      ],
+      "reservation": "same-day-road-check",
+      "hours": {
+        "opens": "06:00",
+        "closes": "19:30",
+        "status": "weather-gated",
+        "note": "Park is open dawn to dusk; Perkins Memorial Drive normally runs April 1-November 30 only when weather and operations permit."
+      },
+      "cost": {
+        "amount_per_person": 2.5,
+        "status": "verified-current",
+        "note": "$10 vehicle fee split four ways; parking policy can change."
+      },
+      "priority": "replacement",
+      "replacement_reason": "A foliage-and-view swap when the group wants nature more than contemporary art; road opening is mandatory.",
+      "replacement": {
+        "day": 2,
+        "replaces_place_ids": [
+          "dia-beacon"
+        ],
+        "route_variant_id": "replacement-d2-bear-mountain",
+        "reason": "A foliage-and-view swap when the group wants nature more than contemporary art; road opening is mandatory."
+      },
+      "address": "Perkins Memorial Tower at Bear Mountain"
+    },
+    {
+      "id": "goggleworks",
+      "name": "GoggleWorks Center for the Arts",
+      "kind": "working-arts-factory",
+      "city": "Reading",
+      "state": "PA",
+      "visit_date": "2026-10-06",
+      "summary": "An old factory now holds working studios for glass, pottery, metal, film, and other arts. Visitors can often watch artists make things.",
+      "why_go": "You see the tools and the work, not only finished art. Admission is free, so the visit can stay relaxed.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Best for viki and gora: You see the tools and the work, not only finished art. Admission is free, so the visit can stay relaxed.",
+      "categories": [
+        "unusual_creative",
+        "architecture_nature_photogenic",
+        "local_culture"
+      ],
+      "duration_minutes": 120,
+      "source_ids": [
+        "src-goggle"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "09:00",
+        "closes": "21:00",
+        "status": "verified-current",
+        "note": "Daily building hours. Individual artists and live demonstrations are not guaranteed; check the event calendar for October 6."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "GoggleWorks Center for the Arts"
+    },
+    {
+      "id": "mid-atlantic-air",
+      "name": "Mid-Atlantic Air Museum",
+      "kind": "guided-aviation-history",
+      "city": "Reading",
+      "state": "PA",
+      "visit_date": "2026-10-06",
+      "summary": "A guide leads you through historic aircraft and active restoration work at Reading's old airfield. The stories focus on both the machines and the people who used them.",
+      "why_go": "Choose it when the group wants aircraft and engineering more than working art studios.",
+      "best_for": [
+        "gora",
+        "stivka"
+      ],
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for gora and stivka: Choose it when the group wants aircraft and engineering more than working art studios.",
+      "categories": [
+        "hidden_history_folklore",
+        "unusual_creative",
+        "local_culture"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-maam"
+      ],
+      "reservation": "arrive-before-14:30",
+      "hours": {
+        "opens": "09:30",
+        "closes": "16:00",
+        "status": "verified-current",
+        "note": "Tuesday hours; guided tours last about 90 minutes and the last begins at 15:00."
+      },
+      "cost": {
+        "amount_per_person": 10,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "replacement",
+      "replacement_reason": "A guided aviation-and-restoration alternative; Tanger remains the same day's second stop.",
+      "replacement": {
+        "day": 3,
+        "replaces_place_ids": [
+          "goggleworks"
+        ],
+        "route_variant_id": "replacement-d3-mid-atlantic-air",
+        "reason": "A guided aviation-and-restoration alternative; Tanger remains the same day's second stop."
+      },
+      "address": "Mid-Atlantic Air Museum"
+    },
+    {
+      "id": "tanger-lancaster",
+      "name": "Tanger Outlets Lancaster",
+      "kind": "controlled-outlet-shopping-window",
+      "city": "Lancaster",
+      "state": "PA",
+      "visit_date": "2026-10-06",
+      "summary": "This large outdoor outlet center brings many fashion brands into one easy stop. The schedule gives the group three hours to compare shops without adding another retail stop later.",
+      "why_go": "This is Viki's main shopping window. The others can shop, rest with coffee, or split up without moving the cars.",
+      "best_for": [
+        "viki"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Best for viki: This is Viki's main shopping window. The others can shop, rest with coffee, or split up without moving the cars.",
+      "categories": [
+        "shopping_outlets",
+        "social_nightlife_live"
+      ],
+      "duration_minutes": 180,
+      "source_ids": [
+        "src-tanger"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "20:00",
+        "status": "verified-current",
+        "note": "Tuesday center hours; individual stores may differ."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Entry is free; personal shopping is excluded from the route budget."
+      },
+      "priority": "anchor",
+      "address": "Tanger Outlets Lancaster"
+    },
+    {
+      "id": "shenandoah-valley-museum",
+      "name": "Museum of the Shenandoah Valley",
+      "kind": "art-gardens-and-regional-history",
+      "city": "Winchester",
+      "state": "VA",
+      "visit_date": "2026-10-07",
+      "summary": "Art galleries, a historic house, formal gardens, and easy trails tell the story of the Shenandoah Valley. The group can choose indoor rooms or outdoor space.",
+      "why_go": "It offers history, gardens, art, and a calm pace in one place, so everyone gets something different.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and gora: It offers history, gardens, art, and a calm pace in one place, so everyone gets something different.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "quiet_reset"
+      ],
+      "duration_minutes": 210,
+      "source_ids": [
+        "src-msv",
+        "src-forum-virginia"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Wednesday galleries and gardens; trails generally open earlier to dusk. Confirm seasonal house access."
+      },
+      "cost": {
+        "amount_per_person": 15,
+        "status": "verified-current",
+        "note": "Planning price from current visitor material; reconfirm the 2026 ticket."
+      },
+      "priority": "anchor",
+      "address": "Museum of the Shenandoah Valley"
+    },
+    {
+      "id": "stonewall-headquarters",
+      "name": "Stonewall Jackson's Headquarters Museum",
+      "kind": "civil-war-command-house",
+      "city": "Winchester",
+      "state": "VA",
+      "visit_date": "2026-10-07",
+      "summary": "This small 1854 house holds objects used by Stonewall Jackson and his staff during the Civil War. The rooms show how military plans were made at a human scale.",
+      "why_go": "Choose it for a shorter history visit. Question any hero story and remember the enslaved people and civilians who are often missing from it.",
+      "best_for": [
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for gora: Choose it for a shorter history visit. Question any hero story and remember the enslaved people and civilians who are often missing from it.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_nature_photogenic"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-stonewall"
+      ],
+      "reservation": "reconfirm-guided-entry",
+      "hours": {
+        "opens": "10:00",
+        "closes": "16:00",
+        "status": "verified-current",
+        "note": "Open daily April 1-October 31; guided access can limit capacity."
+      },
+      "cost": {
+        "amount_per_person": 10,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "replacement",
+      "replacement_reason": "A compact primary-object alternative for the group that wants concentrated military history rather than gardens and regional art.",
+      "replacement": {
+        "day": 4,
+        "replaces_place_ids": [
+          "shenandoah-valley-museum"
+        ],
+        "route_variant_id": "replacement-d4-stonewall",
+        "reason": "A compact primary-object alternative for the group that wants concentrated military history rather than gardens and regional art."
+      },
+      "address": "Stonewall Jackson's Headquarters Museum"
+    },
+    {
+      "id": "natural-bridge",
+      "name": "Natural Bridge State Park",
+      "kind": "limestone-arch-and-creek-walk",
+      "city": "Natural Bridge",
+      "state": "VA",
+      "visit_date": "2026-10-08",
+      "summary": "A river flows under a natural stone arch taller than a 20-story building. A forest path leads beneath the bridge for the full view.",
+      "why_go": "This is Route 08's biggest natural sight. The walk is short, but standing under the stone arch feels unforgettable.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and stivka: This is Route 08's biggest natural sight. The walk is short, but standing under the stone arch feels unforgettable.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "quiet_reset",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-natural-bridge",
+        "src-natural-bridge-fee",
+        "src-forum-virginia"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "08:00",
+        "closes": "18:00",
+        "status": "verified-current",
+        "note": "Park opens daily at 08:00 and the visitor center normally runs 10:00-18:00. The standard entry has 137 stairs; request the accessible shuttle/route if needed."
+      },
+      "cost": {
+        "amount_per_person": 9,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Natural Bridge State Park"
+    },
+    {
+      "id": "woodrow-wilson",
+      "name": "Woodrow Wilson Presidential Library & Birthplace",
+      "kind": "presidency-and-contested-legacy",
+      "city": "Staunton",
+      "state": "VA",
+      "visit_date": "2026-10-08",
+      "summary": "A birthplace, museum, war trench, and old presidential car explain Woodrow Wilson's life and presidency. The story also covers racism and the people his policies excluded.",
+      "why_go": "Choose it only for the honest tour about slavery, race, and Wilson's full record, not a simple hero story.",
+      "best_for": [
+        "gora"
+      ],
+      "secondary_for": [
+        "viki",
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for gora: Choose it only for the honest tour about slavery, race, and Wilson's full record, not a simple hero story.",
+      "categories": [
+        "hidden_history_folklore",
+        "local_culture",
+        "architecture_nature_photogenic"
+      ],
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-wilson",
+        "src-wilson-slavery"
+      ],
+      "reservation": "reserve-special-tour",
+      "hours": {
+        "opens": "09:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "General Thursday access is expected. The special Slavery in Wilson's Birthplace tour has been offered Thursday at 13:00; book only against real October 8 inventory."
+      },
+      "cost": {
+        "amount_per_person": 25,
+        "status": "verified-current",
+        "note": "Planning price for the deeper special tour; general admission is currently lower."
+      },
+      "priority": "replacement",
+      "replacement_reason": "The intellectually demanding weatherproof substitute when the special critical tour is genuinely available.",
+      "replacement": {
+        "day": 5,
+        "replaces_place_ids": [
+          "natural-bridge"
+        ],
+        "route_variant_id": "replacement-d5-woodrow",
+        "reason": "The intellectually demanding weatherproof substitute when the special critical tour is genuinely available."
+      },
+      "address": "Woodrow Wilson Presidential Library & Birthplace"
+    },
+    {
+      "id": "duke-lemur-bts",
+      "name": "Duke Lemur Center Behind the Scenes Tour",
+      "kind": "private-conservation-animal-tour",
+      "city": "Durham",
+      "state": "NC",
+      "visit_date": "2026-10-09",
+      "summary": "A private two-hour tour enters the working world of Duke Lemur Center. Staff may introduce the group to rare lemurs and the strange night-loving aye-aye.",
+      "why_go": "This is the magic at the center of Route 08: rare animals, real conservation work, and one small private group of four.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and gora: This is the magic at the center of Route 08: rare animals, real conservation work, and one small private group of four.",
+      "categories": [
+        "unusual_creative",
+        "architecture_nature_photogenic",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 120,
+      "source_ids": [
+        "src-lemur",
+        "src-forum-bullcity"
+      ],
+      "reservation": "reserve-now",
+      "hours": {
+        "opens": "13:30",
+        "closes": "15:30",
+        "status": "verified-current",
+        "note": "Target the private 13:30 Behind the Scenes slot. No walk-ins; dates and animal access depend on staff, welfare and availability."
+      },
+      "cost": {
+        "amount_per_person": 100,
+        "status": "verified-current",
+        "note": "$400 plus tax for a private group of one to four, divided four ways."
+      },
+      "priority": "anchor",
+      "address": "Duke Lemur Center Behind the Scenes Tour"
+    },
+    {
+      "id": "duke-chapel-gardens",
+      "name": "Duke Chapel & Sarah P. Duke Gardens",
+      "kind": "gothic-chapel-and-botanical-reset",
+      "city": "Durham",
+      "state": "NC",
+      "visit_date": "2026-10-09",
+      "summary": "Duke's tall stone chapel has stained glass, carved details, and a huge organ. Nearby gardens add flowers, ponds, paths, and quiet places to sit.",
+      "why_go": "The group can choose architecture, nature, or a short rest after the lemur tour.",
+      "best_for": [
+        "stivka",
+        "viki"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for stivka and viki: The group can choose architecture, nature, or a short rest after the lemur tour.",
+      "categories": [
+        "orthodox_spiritual",
+        "architecture_nature_photogenic",
+        "quiet_reset"
+      ],
+      "duration_minutes": 130,
+      "source_ids": [
+        "src-duke-chapel",
+        "src-duke-gardens"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "20:00",
+        "status": "verified-current",
+        "note": "Chapel is normally open daily 10:00-20:00 but may close for services; gardens open 08:00 to sunset. Use only legal paid campus parking."
+      },
+      "cost": {
+        "amount_per_person": 2,
+        "status": "verified-current",
+        "note": "Gardens and chapel are free; allow roughly $2 per hour for campus parking."
+      },
+      "priority": "supporting",
+      "address": "Duke Chapel & Sarah P. Duke Gardens"
+    },
+    {
+      "id": "virginia-transportation",
+      "name": "Virginia Museum of Transportation",
+      "kind": "rail-and-road-machinery-museum",
+      "city": "Roanoke",
+      "state": "VA",
+      "visit_date": "2026-10-09",
+      "summary": "A century-old train station opens onto a yard full of steam, diesel, and electric locomotives. Cars, buses, and other machines complete the story.",
+      "why_go": "This is the strong no-reservation backup when the lemur tour is unavailable. The giant trains still create a memorable day.",
+      "best_for": [
+        "gora"
+      ],
+      "secondary_for": [
+        "viki",
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for gora: This is the strong no-reservation backup when the lemur tour is unavailable. The giant trains still create a memorable day.",
+      "categories": [
+        "hidden_history_folklore",
+        "unusual_creative",
+        "architecture_nature_photogenic"
+      ],
+      "duration_minutes": 120,
+      "source_ids": [
+        "src-vmt"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Friday hours; outdoor rail-yard access and individual vehicles can change with restoration work."
+      },
+      "cost": {
+        "amount_per_person": 14,
+        "status": "reconfirm-required",
+        "note": "Planning estimate; verify current adult admission before promotion."
+      },
+      "priority": "replacement",
+      "replacement_reason": "The no-reservation machinery fallback if the private lemur tour cannot be booked; Duke Chapel and Gardens remain.",
+      "replacement": {
+        "day": 6,
+        "replaces_place_ids": [
+          "duke-lemur-bts"
+        ],
+        "route_variant_id": "replacement-d6-virginia-transport",
+        "reason": "The no-reservation machinery fallback if the private lemur tour cannot be booked; Duke Chapel and Gardens remain."
+      },
+      "address": "Virginia Museum of Transportation"
+    },
+    {
+      "id": "petersburg-battlefield",
+      "name": "Petersburg National Battlefield: Eastern Front",
+      "kind": "siege-landscape-and-civil-war-history",
+      "city": "Petersburg",
+      "state": "VA",
+      "visit_date": "2026-10-10",
+      "summary": "Old earth walls, cannon positions, and the Crater remain from the 9.5-month Siege of Petersburg. About 70,000 people were killed, wounded, or missing during the campaign.",
+      "why_go": "The visit explains the land and the battle while keeping Black soldiers, enslaved people, and local civilians in the story.",
+      "best_for": [
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for gora: The visit explains the land and the battle while keeping Black soldiers, enslaved people, and local civilians in the story.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_nature_photogenic",
+        "quiet_reset"
+      ],
+      "duration_minutes": 180,
+      "source_ids": [
+        "src-petersburg-hours",
+        "src-petersburg-fees",
+        "src-petersburg-history"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "09:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Eastern Front Visitor Center daily hours. Use the compact driving-and-short-walk sequence; no long battlefield hike is required."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Petersburg National Battlefield: Eastern Front"
+    },
+    {
+      "id": "keystone-tractor",
+      "name": "Keystone Truck & Tractor Museum",
+      "kind": "massive-private-machinery-collection",
+      "city": "Colonial Heights",
+      "state": "VA",
+      "visit_date": "2026-10-10",
+      "summary": "A giant indoor collection holds more than 1,000 tractors, trucks, engines, signs, and pieces of old roadside America. The museum covers about 130,000 square feet.",
+      "why_go": "Choose it in bad weather for the route's biggest machine collection. It feels personal and surprising, not like a polished company showroom.",
+      "best_for": [
+        "gora"
+      ],
+      "secondary_for": [
+        "viki",
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for gora: Choose it in bad weather for the route's biggest machine collection. It feels personal and surprising, not like a polished company showroom.",
+      "categories": [
+        "unusual_creative",
+        "hidden_history_folklore",
+        "local_culture"
+      ],
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-keystone"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "09:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Open daily; the on-site grill closes earlier and is not assumed in the schedule."
+      },
+      "cost": {
+        "amount_per_person": 15,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "replacement",
+      "replacement_reason": "A weatherproof machinery alternative that is independently route-tested; it does not add to the battlefield.",
+      "replacement": {
+        "day": 7,
+        "replaces_place_ids": [
+          "petersburg-battlefield"
+        ],
+        "route_variant_id": "replacement-d7-keystone",
+        "reason": "A weatherproof machinery alternative that is independently route-tested; it does not add to the battlefield."
+      },
+      "address": "Keystone Truck & Tractor Museum"
+    },
+    {
+      "id": "hotel-greene",
+      "name": "Hotel Greene",
+      "kind": "theatrical-indoor-mini-golf",
+      "city": "Richmond",
+      "state": "VA",
+      "visit_date": "2026-10-10",
+      "summary": "A 13-hole mini-golf course hides inside a made-up 1930s hotel. Dark halls, old luggage, portraits, and strange stories make the game feel like theater.",
+      "why_go": "It is a playful social night in a beautiful, unusual building without the noise or long hours of a club.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Best for viki and sheluvspaco: It is a playful social night in a beautiful, unusual building without the noise or long hours of a club.",
+      "categories": [
+        "unusual_creative",
+        "social_nightlife_live",
+        "architecture_nature_photogenic"
+      ],
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-hotel-greene",
+        "src-hotel-greene-faq",
+        "src-forum-rva"
+      ],
+      "reservation": "same-day-wait-check",
+      "hours": {
+        "opens": "10:00",
+        "closes": "24:00",
+        "status": "verified-current",
+        "note": "Current Saturday planning span; the route uses only 18:00-20:30. Official guidance warns of substantial Saturday waits, and exact October hours plus the 21-plus after-17:00 policy must be reconfirmed."
+      },
+      "cost": {
+        "amount_per_person": 15,
+        "status": "verified-current",
+        "note": "Planning estimate for the course; dinner, drinks and nightlife remain excluded."
+      },
+      "priority": "anchor",
+      "address": "Hotel Greene"
+    },
+    {
+      "id": "richmond-orthodox",
+      "name": "Saints Constantine & Helen Greek Orthodox Cathedral",
+      "kind": "full-orthodox-sunday",
+      "city": "Richmond",
+      "state": "VA",
+      "visit_date": "2026-10-11",
+      "summary": "Join Sunday morning prayers and Divine Liturgy inside Richmond's Greek Orthodox cathedral. This is an active church service, not only an architecture stop.",
+      "why_go": "It is the most important stop for Stivka and a meaningful shared morning for all four travelers.",
+      "best_for": [
+        "stivka"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "viki",
+        "gora"
+      ],
+      "best_fit_note": "Best for stivka: It is the most important stop for Stivka and a meaningful shared morning for all four travelers.",
+      "categories": [
+        "orthodox_spiritual",
+        "architecture_nature_photogenic",
+        "quiet_reset"
+      ],
+      "duration_minutes": 195,
+      "source_ids": [
+        "src-richmond-orthodox"
+      ],
+      "reservation": "reconfirm-parish",
+      "hours": {
+        "opens": "08:15",
+        "closes": "11:30",
+        "status": "verified-current",
+        "note": "Current Sunday pattern is Orthros 08:15 and Divine Liturgy 09:30. Confirm the October 11 bulletin and ask about visitor and Communion etiquette."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Free; make a respectful offering if desired."
+      },
+      "priority": "anchor",
+      "address": "Saints Constantine & Helen Greek Orthodox Cathedral"
+    },
+    {
+      "id": "poe-museum",
+      "name": "The Poe Museum & Enchanted Garden",
+      "kind": "literary-house-and-gothic-garden",
+      "city": "Richmond",
+      "state": "VA",
+      "visit_date": "2026-10-11",
+      "summary": "The Old Stone House, Poe's personal objects, a dark garden, and two black cats create a small Gothic world. The museum tells his story without feeling like a long school lesson.",
+      "why_go": "It brings together strange history, a beautiful garden, original objects, and a little humor after church.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and gora: It brings together strange history, a beautiful garden, original objects, and a little humor after church.",
+      "categories": [
+        "unusual_creative",
+        "architecture_nature_photogenic",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-poe",
+        "src-forum-rva"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "11:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Sunday hours; arrive soon after Liturgy and keep the visit compact to protect Annapolis."
+      },
+      "cost": {
+        "amount_per_person": 12,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "The Poe Museum & Enchanted Garden"
+    },
+    {
+      "id": "virginia-fine-arts",
+      "name": "Virginia Museum of Fine Arts",
+      "kind": "free-world-art-museum",
+      "city": "Richmond",
+      "state": "VA",
+      "visit_date": "2026-10-11",
+      "summary": "This free museum holds Faberge objects, Art Nouveau design, African and Asian art, and modern work. Outdoor sculpture and bright galleries make a short visit easy.",
+      "why_go": "Choose it when Poe is crowded or the weather is poor. The group can focus on only the rooms that look most interesting.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and stivka: Choose it when Poe is crowded or the weather is poor. The group can focus on only the rooms that look most interesting.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "quiet_reset"
+      ],
+      "duration_minutes": 105,
+      "source_ids": [
+        "src-vmfa"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Sunday hours; general admission is free, while special exhibitions may require timed paid tickets."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "replacement",
+      "replacement_reason": "A free, weatherproof art-and-sacred-object swap after the same protected Orthodox service.",
+      "replacement": {
+        "day": 8,
+        "replaces_place_ids": [
+          "poe-museum"
+        ],
+        "route_variant_id": "replacement-d8-vmfa",
+        "reason": "A free, weatherproof art-and-sacred-object swap after the same protected Orthodox service."
+      },
+      "address": "Virginia Museum of Fine Arts"
+    },
+    {
+      "id": "hagley",
+      "name": "Hagley Museum & Library",
+      "kind": "water-powered-industrial-landscape",
+      "city": "Wilmington",
+      "state": "DE",
+      "visit_date": "2026-10-12",
+      "summary": "Old gunpowder mills, water wheels, machines, worker homes, and gardens stretch along the Brandywine River. This was the first major DuPont industrial site.",
+      "why_go": "The place shows how water, machines, workers, and one company shaped a whole valley. It feels like finding a factory town inside the woods.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for gora and viki: The place shows how water, machines, workers, and one company shaped a whole valley. It feels like finding a factory town inside the woods.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_nature_photogenic",
+        "unusual_creative"
+      ],
+      "duration_minutes": 210,
+      "source_ids": [
+        "src-hagley",
+        "src-hagley-history"
+      ],
+      "reservation": "holiday-confirm",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Monday hours with last entry at 16:00; arrive by 10:00-10:15. October 12 is a holiday, so exact operation must be confirmed directly."
+      },
+      "cost": {
+        "amount_per_person": 22,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Hagley Museum & Library"
+    },
+    {
+      "id": "brandywine-art",
+      "name": "Brandywine Museum of Art",
+      "kind": "wyeth-art-and-river-mill",
+      "city": "Chadds Ford",
+      "state": "PA",
+      "visit_date": "2026-10-12",
+      "summary": "A former river mill now holds paintings by the Wyeth family and other American artists. Windows and paths connect the art to the Brandywine River outside.",
+      "why_go": "Choose it for a shorter and calmer mix of art, old industry, river views, and fall color.",
+      "best_for": [
+        "viki"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki: Choose it for a shorter and calmer mix of art, old industry, river views, and fall color.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "quiet_reset",
+        "local_culture"
+      ],
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-brandywine"
+      ],
+      "reservation": "holiday-confirm",
+      "hours": {
+        "opens": "09:30",
+        "closes": "16:30",
+        "status": "verified-current",
+        "note": "Open Wednesday-Monday through November 13; the museum is normally open Monday, but reconfirm holiday operation."
+      },
+      "cost": {
+        "amount_per_person": 20,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "replacement",
+      "replacement_reason": "The shorter art-and-river-mill alternative if Hagley closes for the holiday or the group needs less walking.",
+      "replacement": {
+        "day": 9,
+        "replaces_place_ids": [
+          "hagley"
+        ],
+        "route_variant_id": "replacement-d9-brandywine",
+        "reason": "The shorter art-and-river-mill alternative if Hagley closes for the holiday or the group needs less walking."
+      },
+      "address": "Brandywine Museum of Art"
+    },
+    {
+      "id": "met-cloisters",
+      "name": "The Met Cloisters",
+      "kind": "medieval-art-architecture-and-gardens",
+      "city": "New York",
+      "state": "NY",
+      "visit_date": "2026-10-13",
+      "summary": "Medieval stone rooms, chapels, gardens, and covered walks sit high above the Hudson River. Tapestries, sculpture, and sacred art fill the spaces.",
+      "why_go": "It gives Stivka sacred art, Viki architecture and gardens, Gora deep history, and Paco a calm pace in one stop.",
+      "best_for": [
+        "stivka",
+        "viki"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for stivka and viki: It gives Stivka sacred art, Viki architecture and gardens, Gora deep history, and Paco a calm pace in one stop.",
+      "categories": [
+        "orthodox_spiritual",
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "quiet_reset"
+      ],
+      "duration_minutes": 180,
+      "source_ids": [
+        "src-cloisters"
+      ],
+      "reservation": "reserve-recommended",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Tuesday hours. Free park parking exists but fills; two cars travel together and leave before afternoon traffic builds."
+      },
+      "cost": {
+        "amount_per_person": 30,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "The Met Cloisters"
+    },
+    {
+      "id": "paterson-museum",
+      "name": "Paterson Museum in the Thomas Rogers Locomotive Works",
+      "kind": "industrial-city-museum",
+      "city": "Paterson",
+      "state": "NJ",
+      "visit_date": "2026-10-13",
+      "summary": "A former locomotive factory now holds steam engines, Colt firearms, silk machines, minerals, and local inventions. The exhibits explain how Great Falls powered the city.",
+      "why_go": "Choose it when New York traffic or parking makes the Cloisters too difficult. The raw factory setting keeps the stop visually strong.",
+      "best_for": [
+        "gora"
+      ],
+      "secondary_for": [
+        "viki",
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for gora: Choose it when New York traffic or parking makes the Cloisters too difficult. The raw factory setting keeps the stop visually strong.",
+      "categories": [
+        "hidden_history_folklore",
+        "unusual_creative",
+        "architecture_nature_photogenic"
+      ],
+      "duration_minutes": 120,
+      "source_ids": [
+        "src-paterson"
+      ],
+      "reservation": "call-day-before",
+      "hours": {
+        "opens": "09:30",
+        "closes": "16:30",
+        "status": "verified-current",
+        "note": "Tuesday municipal museum hours; call before travel because city facilities can close for staffing or events."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "reconfirm-required",
+        "note": "Current public listing does not expose a stable fee; treat as free/suggested donation and reconfirm."
+      },
+      "priority": "replacement",
+      "replacement_reason": "A lower-cost industrial-history alternative when Manhattan traffic or museum energy makes the Cloisters unattractive.",
+      "replacement": {
+        "day": 10,
+        "replaces_place_ids": [
+          "met-cloisters"
+        ],
+        "route_variant_id": "replacement-d10-paterson",
+        "reason": "A lower-cost industrial-history alternative when Manhattan traffic or museum energy makes the Cloisters unattractive."
+      },
+      "address": "Paterson Museum in the Thomas Rogers Locomotive Works"
+    },
+    {
+      "id": "gardner-museum",
+      "name": "Isabella Stewart Gardner Museum & Theft Walk",
+      "kind": "personal-art-palace-and-unsolved-theft",
+      "city": "Boston",
+      "state": "MA",
+      "visit_date": "2026-10-14",
+      "summary": "A palace built like old Venice surrounds a courtyard full of flowers. Art fills every room, while empty frames mark 13 works stolen in 1990 and never found.",
+      "why_go": "The final stop mixes a beautiful building, world art, and a true unsolved mystery after both cars are returned.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and gora: The final stop mixes a beautiful building, world art, and a true unsolved mystery after both cars are returned.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "unusual_creative"
+      ],
+      "duration_minutes": 210,
+      "source_ids": [
+        "src-gardner",
+        "src-gardner-theft"
+      ],
+      "reservation": "reserve",
+      "hours": {
+        "opens": "11:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Wednesday hours. Reserve an 11:30 entry; visit only after both rental cars are returned at Logan and use transit/rideshare."
+      },
+      "cost": {
+        "amount_per_person": 25,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "anchor",
+      "address": "Isabella Stewart Gardner Museum & Theft Walk"
+    },
+    {
+      "id": "boston-public-library",
+      "name": "Boston Public Library McKim Building",
+      "kind": "free-architecture-and-mural-palace",
+      "city": "Boston",
+      "state": "MA",
+      "visit_date": "2026-10-14",
+      "summary": "A huge reading room, marble stairs, murals, and a Renaissance courtyard turn this working library into a free architecture walk.",
+      "why_go": "Choose it for a flexible, peaceful final afternoon when Gardner tickets are gone or the group wants less museum time.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for viki and stivka: Choose it for a flexible, peaceful final afternoon when Gardner tickets are gone or the group wants less museum time.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "quiet_reset",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 120,
+      "source_ids": [
+        "src-bpl"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "09:00",
+        "closes": "20:00",
+        "status": "verified-current",
+        "note": "Wednesday planning hours for Central Library; confirm exact October 14 building and room closures. A free 30-minute self-guided audio tour is available."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "replacement",
+      "replacement_reason": "The free, flexible post-car-return substitute with unchanged road mileage.",
+      "replacement": {
+        "day": 11,
+        "replaces_place_ids": [
+          "gardner-museum"
+        ],
+        "route_variant_id": "replacement-d11-bpl",
+        "reason": "The free, flexible post-car-return substitute with unchanged road mileage."
+      },
+      "address": "Boston Public Library McKim Building"
+    }
+  ]
+}
