@@ -47,8 +47,31 @@ export const places = [
   p("fairfield-hills", "Fairfield Hills Campus, 3 Primrose Street, Newtown, Connecticut", ["Fairfield Hills Campus Newtown Connecticut", "Fairfield Hills Hospital buildings", "Fairfield Hills walking trail autumn"]),
   p("newtown-meeting-house", "Newtown Meeting House, 31 Main Street, Newtown, Connecticut", ["Newtown Meeting House Connecticut", "Newtown Connecticut flagpole Main Street", "Newtown Meeting House interior"]),
   p("mapparium", "Mapparium, 210 Massachusetts Avenue, Boston, Massachusetts", ["Mapparium Boston stained glass globe", "Mapparium interior Boston", "Christian Science Plaza Boston Mapparium"]),
-  p("worcester-arms-armor", "Worcester Art Museum, 55 Salisbury Street, Worcester, Massachusetts", ["Worcester Art Museum arms armor", "Higgins Armory Worcester Art Museum", "Worcester Art Museum armor galleries"])
+  p("worcester-arms-armor", "Worcester Art Museum, 55 Salisbury Street, Worcester, Massachusetts", ["Worcester Art Museum arms armor", "Higgins Armory Worcester Art Museum", "Worcester Art Museum armor galleries"]),
+  p("rock-house-reservation", "Rock House Reservation, West Brookfield, Massachusetts", ["Rock House Reservation rock shelter", "West Brookfield Massachusetts rock house", "glacial rock chamber Massachusetts"]),
+  p("eckley-miners-village", "Eckley Miners Village, Weatherly, Pennsylvania", ["Eckley Miners Village coal patch", "Eckley Pennsylvania company town", "anthracite coal patch village"]),
+  p("hickory-run-boulder-field", "Boulder Field, Hickory Run State Park, White Haven, Pennsylvania", ["Hickory Run Boulder Field", "Pennsylvania boulder field national natural landmark", "Hickory Run State Park boulders"]),
+  p("strasburg-rail-road", "Strasburg Rail Road, 301 Gap Road, Ronks, Pennsylvania", ["Strasburg Rail Road steam locomotive", "Strasburg steam train Lancaster", "Pennsylvania steam excursion"]),
+  p("skyland-horseback", "Skyland Stables, Skyline Drive mile 42.5, Shenandoah National Park, Virginia", ["Skyland Stables horseback Shenandoah", "Shenandoah trail ride horses", "Blue Ridge horseback trail"]),
+  p("bearfence-scramble", "Bearfence Mountain Trail, Skyline Drive mile 56.4, Shenandoah National Park, Virginia", ["Bearfence Mountain rock scramble", "Bearfence summit view Shenandoah", "Shenandoah quartzite scramble"]),
+  p("blue-ridge-tunnel", "Claudius Crozet Blue Ridge Tunnel, Afton, Virginia", ["Blue Ridge Tunnel Afton portal", "Crozet tunnel Virginia", "unlit railroad tunnel Virginia"]),
+  p("davinci-escape-room", "Unlocked History Escape Rooms, Charlottesville, Virginia", ["Unlocked History Escape Rooms Charlottesville", "Da Vinci escape room Virginia", "escape room Renaissance set"]),
+  p("leesburg-outlets", "Leesburg Premium Outlets, 241 Fort Evans Road NE, Leesburg, Virginia", ["Leesburg Premium Outlets", "Leesburg Virginia outlet shopping", "premium outlets designer storefronts"]),
+  p("catoctin-furnace", "Catoctin Furnace Historic District, Thurmont, Maryland", ["Catoctin Furnace iron stack", "Catoctin Furnace Maryland ruins", "Catoctin iron trail cemetery"]),
+  p("lehigh-gorge-railway", "Lehigh Gorge Scenic Railway, 1 Susquehanna Street, Jim Thorpe, Pennsylvania", ["Lehigh Gorge Scenic Railway foliage", "Jim Thorpe train gorge", "open air rail car Pennsylvania"]),
+  p("walkway-over-hudson", "Walkway Over the Hudson, Poughkeepsie, New York", ["Walkway Over the Hudson bridge", "Poughkeepsie railroad bridge walkway", "Hudson Valley pedestrian bridge"]),
+  p("mine-hill-preserve", "Mine Hill Preserve, Roxbury, Connecticut", ["Mine Hill Preserve Shepaug furnace", "Roxbury Connecticut iron furnace", "Mine Hill quarry Connecticut"]),
+  p("dinosaur-footprints", "Dinosaur Footprints Reservation, Holyoke, Massachusetts", ["Dinosaur Footprints Reservation Holyoke", "Connecticut Valley dinosaur tracks", "Jurassic trackway Massachusetts"])
 ];
+
+// Places introduced by the Energy Rebuild V2 (Route05_Under_The_Mountain_Inside_The_Machine_Rebuild.md).
+// The legacy V1 builder ignores these; scripts/route-05-energy/build.mjs owns their records.
+export const energyRebuildPlaceIds = new Set([
+  "rock-house-reservation", "eckley-miners-village", "hickory-run-boulder-field",
+  "strasburg-rail-road", "skyland-horseback", "bearfence-scramble", "blue-ridge-tunnel",
+  "davinci-escape-room", "leesburg-outlets", "catoctin-furnace", "lehigh-gorge-railway",
+  "walkway-over-hudson", "mine-hill-preserve", "dinosaur-footprints"
+]);
 
 export const contextualImagePlaces = new Set([
   "holy-land-usa", "lancaster-troll-market", "eshelman-covered-bridge", "harrisburg-riverfront",
@@ -98,6 +121,25 @@ export const manualCoordinates = {
   "mapparium": [-71.0873, 42.3440], "worcester-arms-armor": [-71.8020, 42.2730]
 };
 
+// Energy Rebuild V2 coordinates, geocoded 2026-09-01. Four are town or park centroids because the
+// exact site is not in Nominatim; OSRM snaps them to the nearest road, which is fine for routing.
+Object.assign(manualCoordinates, {
+  "rock-house-reservation": [-72.1985, 42.2713],
+  "eckley-miners-village": [-75.8624, 40.9934],
+  "hickory-run-boulder-field": [-75.6810, 41.0221],   // park centroid
+  "strasburg-rail-road": [-76.1841, 39.9832],         // Strasburg borough centroid
+  "skyland-horseback": [-78.3820, 38.5937],
+  "bearfence-scramble": [-78.4651, 38.4472],
+  "blue-ridge-tunnel": [-78.8586, 38.0333],
+  "davinci-escape-room": [-78.4767, 38.0293],         // Charlottesville centroid
+  "leesburg-outlets": [-77.5392, 39.1067],
+  "catoctin-furnace": [-77.4197, 39.6097],
+  "lehigh-gorge-railway": [-75.7374, 40.8633],
+  "walkway-over-hudson": [-73.9418, 41.7106],
+  "mine-hill-preserve": [-73.3415, 41.5685],
+  "dinosaur-footprints": [-72.6076, 42.2071]          // Holyoke centroid
+});
+
 export const lodgingNodes = {
   "boston-logan-rental": { name: "Boston Logan Rental Car Center", coordinates: [-71.0304, 42.3682] },
   "danbury-lodging": { name: "Danbury west/I-84 lodging zone", coordinates: [-73.4540, 41.3948] },
@@ -109,6 +151,10 @@ export const lodgingNodes = {
   "charlottesville-lodging": { name: "Charlottesville downtown lodging zone", coordinates: [-78.4819, 38.0293] },
   "frederick-lodging": { name: "Frederick historic district lodging zone", coordinates: [-77.4108, 39.4143] },
   "bethlehem-lodging": { name: "Bethlehem Burnside/airport lodging zone", coordinates: [-75.3950, 40.6370] },
+  "milford-pa-break": { name: "Milford, PA Delaware River comfort break", coordinates: [-74.8021, 41.3223] },
+  "warrenton-break": { name: "Warrenton, VA US-29 comfort break", coordinates: [-77.7953, 38.7134] },
+  "leesburg-lodging": { name: "Leesburg historic district lodging zone", coordinates: [-77.5646, 39.1155] },
+  "stroudsburg-lodging": { name: "Stroudsburg downtown lodging zone", coordinates: [-75.1947, 40.9864] },
   "newtown-lodging": { name: "Newtown Fairfield Hills lodging zone", coordinates: [-73.3036, 41.4141] },
   "boston-logan-return": { name: "Boston Logan Rental Car Center return", coordinates: [-71.0304, 42.3682] },
   "boston-logan-hotel": { name: "Boston Logan hotel zone", coordinates: [-71.0155, 42.3655] }
@@ -116,17 +162,17 @@ export const lodgingNodes = {
 
 export const manualLegs = {};
 export const dayRoutes = [
-  { day: 1, risk: "high", node_ids: ["boston-logan-rental", "wadsworth-atheneum", "holy-land-usa", "danbury-lodging"] },
-  { day: 2, risk: "medium", node_ids: ["danbury-lodging", "lackawanna-coal", "steamtown", "scranton-iron", "scranton-lodging"] },
-  { day: 3, risk: "medium", node_ids: ["scranton-lodging", "watch-clock", "lancaster-central-market", "lancaster-troll-market", "lancaster-lodging"] },
-  { day: 4, risk: "low", node_ids: ["lancaster-lodging", "ephrata-cloister", "railroad-museum-pa", "eshelman-covered-bridge", "harrisburg-riverfront", "harrisburg-lodging"] },
-  { day: 5, risk: "medium", node_ids: ["harrisburg-lodging", "pa-capitol", "antietam", "harpers-visitor-parking", "winchester-lodging"] },
-  { day: 6, risk: "medium", node_ids: ["winchester-lodging", "luray-caverns", "stony-man", "charlottesville-downtown", "charlottesville-lodging"] },
-  { day: 7, risk: "low", node_ids: ["charlottesville-lodging", "monticello", "jefferson-school", "kluge-ruhe", "ix-looking-glass", "morgan-wade-jefferson", "charlottesville-lodging"] },
-  { day: 8, risk: "medium", node_ids: ["charlottesville-lodging", "transfiguration-orthodox", "civil-war-medicine", "frederick-lodging"] },
-  { day: 9, risk: "high", node_ids: ["frederick-lodging", "burnside-plantation", "bethlehem-lodging"] },
-  { day: 10, risk: "high", node_ids: ["bethlehem-lodging", "fairfield-hills", "newtown-lodging"] },
-  { day: 11, risk: "high", node_ids: ["newtown-lodging", "mapparium", "boston-logan-return", "boston-logan-hotel"] }
+  { day: 1, risk: "high", node_ids: ["boston-logan-rental", "rock-house-reservation", "holy-land-usa", "danbury-lodging"] },
+  { day: 2, risk: "medium", node_ids: ["danbury-lodging", "milford-pa-break", "lackawanna-coal", "scranton-iron", "scranton-lodging"] },
+  { day: 3, risk: "medium", node_ids: ["scranton-lodging", "eckley-miners-village", "hickory-run-boulder-field", "lancaster-lodging"] },
+  { day: 4, risk: "low", node_ids: ["lancaster-lodging", "strasburg-rail-road", "ephrata-cloister", "harrisburg-lodging"] },
+  { day: 5, risk: "medium", node_ids: ["harrisburg-lodging", "harpers-visitor-parking", "winchester-lodging"] },
+  { day: 6, risk: "medium", node_ids: ["winchester-lodging", "luray-caverns", "skyland-horseback", "bearfence-scramble", "charlottesville-lodging"] },
+  { day: 7, risk: "low", node_ids: ["charlottesville-lodging", "blue-ridge-tunnel", "monticello", "davinci-escape-room", "charlottesville-lodging"] },
+  { day: 8, risk: "medium", node_ids: ["charlottesville-lodging", "transfiguration-orthodox", "warrenton-break", "leesburg-outlets", "leesburg-lodging"] },
+  { day: 9, risk: "high", node_ids: ["leesburg-lodging", "catoctin-furnace", "harrisburg-riverfront", "lehigh-gorge-railway", "stroudsburg-lodging"] },
+  { day: 10, risk: "high", node_ids: ["stroudsburg-lodging", "walkway-over-hudson", "mine-hill-preserve", "newtown-lodging"] },
+  { day: 11, risk: "high", node_ids: ["newtown-lodging", "dinosaur-footprints", "mapparium", "boston-logan-return", "boston-logan-hotel"] }
 ];
 
 export const replacementVariants = [
@@ -151,8 +197,8 @@ export const weatherRequests = [
   { day: 5, date: "2026-10-08", sleep_city: "Winchester, VA", station: "USW00093738", station_role: "Dulles-Winchester regional proxy" },
   { day: 6, date: "2026-10-09", sleep_city: "Charlottesville, VA", station: "USW00093736", station_role: "Charlottesville airport" },
   { day: 7, date: "2026-10-10", sleep_city: "Charlottesville, VA", station: "USW00093736", station_role: "Charlottesville airport" },
-  { day: 8, date: "2026-10-11", sleep_city: "Frederick, MD", station: "USW00093738", station_role: "Dulles-Frederick regional proxy" },
-  { day: 9, date: "2026-10-12", sleep_city: "Bethlehem, PA", station: "USW00014737", station_role: "Lehigh Valley airport" },
+  { day: 8, date: "2026-10-11", sleep_city: "Leesburg, VA", station: "USW00093738", station_role: "Dulles-Frederick regional proxy" },
+  { day: 9, date: "2026-10-12", sleep_city: "Stroudsburg, PA", station: "USW00014737", station_role: "Lehigh Valley airport" },
   { day: 10, date: "2026-10-13", sleep_city: "Newtown, CT", station: "USW00094702", station_role: "Bridgeport-Newtown regional proxy" },
   { day: 11, date: "2026-10-14", sleep_city: "Boston, MA", station: "USW00014739", station_role: "Boston Logan airport" }
 ];

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "route_id": "route-02",
-  "verified_at": "2026-08-21",
+  "verified_at": "2026-08-31",
   "sources": [
     {
       "id": "src-three-sisters",
@@ -243,18 +243,6 @@
         "October daily hours",
         "admission",
         "hot-glass demonstrations"
-      ],
-      "verified_at": "2026-08-21"
-    },
-    {
-      "id": "src-corning-make",
-      "publisher": "Corning Museum of Glass",
-      "type": "official",
-      "url": "https://glassmaking.cmog.org/make-your-own-glass",
-      "supports": [
-        "studio hours",
-        "advance-reservation advice",
-        "separate experience"
       ],
       "verified_at": "2026-08-21"
     },
@@ -715,24 +703,180 @@
       "verified_at": "2026-08-21"
     },
     {
-      "id": "src-noaa-normals",
-      "publisher": "NOAA National Centers for Environmental Information",
-      "type": "government-data",
-      "url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+      "id": "src-v2-revolution-rail",
+      "publisher": "Revolution Rail Co.",
+      "type": "official",
+      "url": "https://www.revrail.com/hadley-run",
       "supports": [
-        "1991-2020 daily climate normals"
+        "7-mile Hadley Run",
+        "two-hour duration",
+        "500-foot and 90-foot bridge",
+        "quad price"
       ],
-      "verified_at": "2026-08-21"
+      "verified_at": "2026-08-31"
     },
     {
-      "id": "src-osrm",
-      "publisher": "Open Source Routing Machine",
-      "type": "routing",
-      "url": "https://project-osrm.org/",
+      "id": "src-v2-bat-mill",
+      "publisher": "Leatherstocking Hand-Split Billet Co.",
+      "type": "official",
+      "url": "https://leatherstockinghandsplits.com/wood-bat-mill-tour/",
       "supports": [
-        "road-network distance and no-traffic duration baselines"
+        "working mill tour",
+        "one-hour duration",
+        "$50 admission",
+        "physical and accessibility notes"
       ],
-      "verified_at": "2026-08-21"
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v2-cayuga-cruise",
+      "publisher": "Discover Cayuga Lake",
+      "type": "official",
+      "url": "https://discovercayugalake.org/",
+      "supports": [
+        "2026 fall foliage schedule",
+        "Ithaca dock",
+        "October operation"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v2-watkins",
+      "publisher": "New York State Parks",
+      "type": "government",
+      "url": "https://parks.ny.gov/parks/watkinsglen",
+      "supports": [
+        "Gorge Trail",
+        "seasonal closure",
+        "trail difficulty"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v2-pumpkin-pendant",
+      "publisher": "Corning Museum of Glass",
+      "type": "official",
+      "url": "https://glassmaking.cmog.org/myog/pumpkin-pendant",
+      "supports": [
+        "Sep 12-Nov 29 dates",
+        "$32 price",
+        "flameworking",
+        "shipping"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v2-nut-house",
+      "publisher": "Nut House Escape Rooms",
+      "type": "official",
+      "url": "https://www.nuthouseescaperooms.com/",
+      "supports": [
+        "The Hacker W.I.T.C.H.",
+        "4-10 players",
+        "private rooms",
+        "dynamic pricing"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v2-balloons",
+      "publisher": "Balloons Over Letchworth / Liberty Balloon Co.",
+      "type": "official",
+      "url": "https://www.libertyballoon.com/",
+      "supports": [
+        "2026 booking",
+        "$445 starting price",
+        "weather dependency"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v2-mount-morris",
+      "publisher": "Recreation.gov / U.S. Army Corps of Engineers",
+      "type": "government",
+      "url": "https://www.recreation.gov/ticket/facility/10087801",
+      "supports": [
+        "guided dam tour",
+        "$1 reservation fee",
+        "rolling booking window",
+        "physical requirements"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v2-fashion-outlets",
+      "publisher": "Fashion Outlets of Niagara Falls USA",
+      "type": "official",
+      "url": "https://www.fashionoutletsniagara.com/hours",
+      "supports": [
+        "Saturday hours",
+        "address"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v2-whirlpool",
+      "publisher": "Whirlpool Jet Boat Tours",
+      "type": "official",
+      "url": "https://whirlpooljet.com/get-wet/get-wet-usa/",
+      "supports": [
+        "Lewiston departure",
+        "45-minute route",
+        "$68.95 base",
+        "6% surcharge",
+        "restrictions"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v2-lockport",
+      "publisher": "Lockport Locks & Erie Canal Cruises",
+      "type": "official",
+      "url": "https://www.lockportlocks.com/daily-cruises.html",
+      "supports": [
+        "2026 fall schedule",
+        "12:30 cruise",
+        "$26 adult",
+        "lock-through experience"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v2-montezuma",
+      "publisher": "U.S. Fish & Wildlife Service",
+      "type": "government",
+      "url": "https://www.fws.gov/refuge/montezuma",
+      "supports": [
+        "Wildlife Drive season",
+        "vehicle rules",
+        "hours",
+        "migration habitat"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v2-moss",
+      "publisher": "City of Little Falls",
+      "type": "government",
+      "url": "https://thisislittlefalls.com/moss-island/",
+      "supports": [
+        "Moss Island access",
+        "pothole geology",
+        "Lock E17 context"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v2-thacher",
+      "publisher": "New York State Parks",
+      "type": "government",
+      "url": "https://parks.ny.gov/visit/state-parks/thacher-state-park",
+      "supports": [
+        "Indian Ladder Trail",
+        "Helderberg geology",
+        "seasonal conditions"
+      ],
+      "verified_at": "2026-08-31"
     }
   ]
 }

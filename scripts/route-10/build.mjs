@@ -7,6 +7,7 @@ import {
   ROUTE_ID, ROUTE_NAME, ROUTE_SLUG
 } from "./config.mjs";
 import { dayPlans, seedPlaces, sourceRows, verifiedAt } from "./content.mjs";
+import { buildEnergyRoute10 } from "../route-10-energy/build.mjs";
 
 const ROOT = process.cwd();
 const ROUTE_DIR = path.join(ROOT, "dataset", "routes", ROUTE_SLUG);
@@ -26,6 +27,10 @@ function scheduleItem([start, end, place_id, priority], placeById) {
 }
 
 async function main() {
+  await buildEnergyRoute10({ root: ROOT, routeDir: ROUTE_DIR });
+  return;
+
+  // Legacy Route 10 builder retained below as historical implementation context.
   const [research, weather, geometry, replacements] = await Promise.all([
     readFile(path.join(ROUTE_DIR, "research-raw.json"), "utf8").then(JSON.parse),
     readFile(path.join(ROUTE_DIR, "weather-normals.json"), "utf8").then(JSON.parse),

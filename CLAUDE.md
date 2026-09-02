@@ -9,7 +9,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 The repo has two halves that meet at `dataset/`:
 
 1. **A data pipeline** (`scripts/`) — Node ESM collectors + builders that turn hand-authored route configs into validated, self-contained route packages. This is where most of the repo's mass and history lives.
-2. **A Vite/React client** (`src/`) that renders those packages. Routes **01 and 02 are built and viewable**; the other nine are researched but not yet wired in. `UI_VISION_AND_IMPLEMENTATION.md` specifies the full eleven-route product it is meant to become.
+2. **A Vite/React client** (`src/`) that renders those packages. All eleven routes are wired into the client; routes 01-08 have been rebuilt to their "energized" V2 briefs from `Energy Rebuild Routes/`.
 
 There is no git history and no package manifest for the pipeline — `package.json` only covers the client.
 
@@ -22,7 +22,7 @@ npm run build               # production build to dist/ (copies ~1200 local imag
 npm run preview
 
 # Data pipeline (run from repo root, Node 22 / current LTS)
-node scripts/route-08/build.mjs                                    # rebuild a route package (route-02..route-11)
+node scripts/route-08/build.mjs                                    # rebuild a route package (route-02..route-10)
 node scripts/build-route-package.mjs                               # legacy route-01 builder
 node scripts/route-01/curate-images.mjs [placeId...]               # network: replace route-01 carousel images with reviewed Commons files
 node scripts/route-02/curate-images.mjs [placeId...]               # same, for route-02 (5-6 images per place)
@@ -78,12 +78,12 @@ Per-route scripts drifted over time: routes 02–05 use `import-external-images.
 
 - Coordinates are WGS84 `[longitude, latitude]` everywhere, matching GeoJSON. IDs and route slugs are lowercase kebab-case and are **never reused** for a different entity.
 - Every route is exactly 11 days, `2026-10-04` → `2026-10-14`, airport date `2026-10-15`, with consecutive dates and non-overlapping schedule windows. The validator enforces all of this.
-- Driving caps: 210 baseline minutes/day for the comparison routes. **Route 11 is structurally different** — a premium one-way Boston→Houston run with an authorized 330-minute ceiling that never returns to Boston. Never render it as a normal loop, and never fold its exceptions into the standard cap.
+- Driving caps: 210 baseline minutes/day for the comparison routes.
 - OSRM durations are road-network baselines with **no live traffic**; planning ranges are judgment buffers. NOAA values are historical normals, not a forecast. The UI must never imply either is live.
 - Every place needs ≥3 local images, each with creator, license, license URL, source page, and an existing local file. 306 of the 1,221 images carry `rights_status: "permission-required-before-public-deployment"` / `production_usable: false` — these are private-prototype-only and must never be presented as cleared for public use.
 - Traveler ratings ship empty (`null` for all four); `researcher_person_fit` is a separate researcher prediction and is not a vote.
 - Each day's hidden gem is a **one-for-one replacement**, not an extra stop: it sits outside Magic scoring (`included_in_magic_score: false`) until confirmed, and swapping it must visibly re-measure miles, time, and cap status.
-- Magic score weights are fixed at attractions 45% / excitement 20% / driving comfort 15% / fairness 10% / cost 5% / weather 5%, with equal per-traveler votes and equal per-entity means (so more stops ≠ higher score). Full spec in `UI_VISION_AND_IMPLEMENTATION.md` §6.
+- Magic score weights are fixed at attractions 45% / excitement 20% / driving comfort 15% / fairness 10% / cost 5% / weather 5%, with equal per-traveler votes and equal per-entity means (so more stops ≠ higher score).
 
 ## Client notes (`src/main.jsx`)
 
@@ -93,14 +93,14 @@ One ~1300-line file plus `src/styles.css`. [src/routes.js](src/routes.js) static
 
 Ratings persist to `localStorage` under `detour-atlas-route-01-ratings`; view/day/place live in the query string via `replaceState`. `window.__detourAtlasRoot` is reused so HMR does not double-mount.
 
-The vision doc (§11.5) lists known schema drift to normalize at the app boundary — open-vocabulary `kind`, reservation and cap-status strings, category aliases, `day.title ?? day.theme`, route-11's non-IANA route-level timezone — and warns against coding exhaustive unions over them.
+Known schema drift to normalize at the app boundary — open-vocabulary `kind`, reservation and cap-status strings, category aliases, and `day.title ?? day.theme` — and warns against coding exhaustive unions over them.
 
 ## Design direction
 
-`.impeccable.md` is the design contract: map-first editorial travel atlas, deep graphite/night-ocean over warm paper, brass accents, serif display + sans UI + sparse mono for operational metadata. Explicitly not a SaaS dashboard, booking marketplace, card grid, sci-fi HUD, or Google Maps imitation. Color has exactly one job per hue: route identity, Magic/premium emphasis, or risk status. `UI_VISION_AND_IMPLEMENTATION.md` §19 lists the full anti-pattern list.
+`.impeccable.md` is the design contract: map-first editorial travel atlas, deep graphite/night-ocean over warm paper, brass accents, serif display + sans UI + sparse mono for operational metadata. Explicitly not a SaaS dashboard, booking marketplace, card grid, sci-fi HUD, or Google Maps imitation. Color has exactly one job per hue: route identity, Magic/premium emphasis, or risk status.
 
 ## Related files
 
 - `AGENTS.md` — repository guidelines (style, commit/PR conventions).
-- `UI_VISION_AND_IMPLEMENTATION.md` — the 1900-line product/UI source of truth: IA, screen specs, scoring, map behavior, accessibility, build order, definition of done.
+- `newroutewire.md` — end-to-end procedure for wiring an energized (V2) route: config, collectors, the two-phase image workflow, builder, validation, manifest, deploy.
 - `dataset/README.md`, `dataset/schema/route-package.schema.json` — dataset conventions and JSON Schema.

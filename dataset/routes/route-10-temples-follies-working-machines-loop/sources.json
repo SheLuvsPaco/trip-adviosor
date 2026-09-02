@@ -481,6 +481,447 @@
         "Skylands fall atmosphere",
         "weekday crowd cross-check"
       ]
+    },
+    {
+      "id": "src-old-newgate",
+      "title": "Old New-Gate Prison & Copper Mine - Connecticut DECD",
+      "source_kind": "government",
+      "url": "https://portal.ct.gov/ecd-oldnewgateprison",
+      "supports": [
+        "October event",
+        "underground access",
+        "admission",
+        "address"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-herrs",
+      "title": "Herr's - factory tour",
+      "source_kind": "official",
+      "url": "https://www.herrs.com/pages/tours",
+      "supports": [
+        "tour schedule",
+        "booking",
+        "admission",
+        "production line"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-rush-hour",
+      "title": "Rush Hour - The Game Show",
+      "source_kind": "official",
+      "url": "https://www.rushhourescape.com/",
+      "supports": [
+        "session format",
+        "group booking",
+        "price",
+        "Fredericksburg location"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-belle-isle",
+      "title": "James River Park System - Belle Isle",
+      "source_kind": "government",
+      "url": "https://jamesriverpark.org/parks-belle-isle/",
+      "supports": [
+        "free access",
+        "footbridge",
+        "quarry pond",
+        "hydro ruins"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-gnome-raven",
+      "title": "Gnome & Raven Escape Rooms",
+      "source_kind": "official",
+      "url": "https://www.gnomeandraven.com/",
+      "supports": [
+        "room list",
+        "Thursday hours",
+        "price",
+        "Richmond location"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-vir-kart",
+      "title": "Virginia International Raceway - karting",
+      "source_kind": "official",
+      "url": "https://virnow.com/karting/",
+      "supports": [
+        "kart speed",
+        "per-race price",
+        "booking",
+        "Alton location"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-natural-chimneys",
+      "title": "Augusta County Parks - Natural Chimneys",
+      "source_kind": "government",
+      "url": "https://www.co.augusta.va.us/government/parks-recreation/natural-chimneys",
+      "supports": [
+        "free day use",
+        "tower height",
+        "hours"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-st-mary-chambersburg",
+      "title": "St. Mary Orthodox Church, Chambersburg",
+      "source_kind": "official-faith-site",
+      "url": "https://www.stmaryorthodoxchurch.org/",
+      "supports": [
+        "Sunday Divine Liturgy 10:00",
+        "address",
+        "visitor guidance"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-ebt",
+      "title": "East Broad Top Railroad - tickets",
+      "source_kind": "official",
+      "url": "https://eastbroadtop.com/tickets/",
+      "supports": [
+        "shop tour price",
+        "train price",
+        "October operating dates",
+        "departure times"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-ebt-shops",
+      "title": "East Broad Top Railroad - the shops",
+      "source_kind": "official",
+      "url": "https://eastbroadtop.com/history/",
+      "supports": [
+        "line shaft shop",
+        "machine tools",
+        "national historic landmark"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-martin",
+      "title": "C. F. Martin & Co. - factory tour",
+      "source_kind": "official",
+      "url": "https://www.martinguitar.com/martin-experience/factory-tour.html",
+      "supports": [
+        "tour schedule",
+        "price",
+        "factory floor",
+        "Nazareth address"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-hickory-run",
+      "title": "Pennsylvania DCNR - Hickory Run State Park",
+      "source_kind": "government",
+      "url": "https://www.dcnr.pa.gov/StateParks/FindAPark/HickoryRunStatePark/",
+      "supports": [
+        "Boulder Field",
+        "national natural landmark",
+        "free access",
+        "access road"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-pocono-outlets",
+      "title": "Pocono Premium Outlets",
+      "source_kind": "official",
+      "url": "https://www.premiumoutlets.com/outlet/pocono",
+      "supports": [
+        "hours",
+        "location",
+        "no admission"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-13th-hour",
+      "title": "13th Hour Escape Rooms",
+      "source_kind": "official",
+      "url": "https://13thhour.com/escape-rooms/",
+      "supports": [
+        "The Campground",
+        "price",
+        "booking",
+        "Wharton location"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-mine-hill",
+      "title": "Roxbury Land Trust - Mine Hill Preserve",
+      "source_kind": "nonprofit-steward",
+      "url": "https://roxburylandtrust.org/mine-hill-preserve/",
+      "supports": [
+        "furnace",
+        "quarry",
+        "free access",
+        "trail conditions"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-bell-works",
+      "title": "Bell Works Holmdel",
+      "source_kind": "official",
+      "url": "https://bell.works/new-jersey/",
+      "supports": [
+        "public atrium",
+        "Saarinen building",
+        "hours"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-puzzleconnect",
+      "title": "PuzzleConnect",
+      "source_kind": "official",
+      "url": "https://www.puzzleconnect.com/",
+      "supports": [
+        "room list",
+        "price",
+        "New Jersey location"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-brandywine-creek",
+      "title": "Delaware State Parks - Brandywine Creek",
+      "source_kind": "government",
+      "url": "https://destateparks.com/Woodlands/BrandywineCreek",
+      "supports": [
+        "trails",
+        "entry fee",
+        "hours"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-cryptologic",
+      "title": "National Cryptologic Museum",
+      "source_kind": "government",
+      "url": "https://www.nsa.gov/museum/",
+      "supports": [
+        "free admission",
+        "Enigma",
+        "open days"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-falmouth",
+      "title": "Stafford County - Historic Port of Falmouth",
+      "source_kind": "government",
+      "url": "https://staffordcountyva.gov/",
+      "supports": [
+        "riverfront park",
+        "colonial port",
+        "free access"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-tredegar",
+      "title": "American Civil War Museum - Historic Tredegar",
+      "source_kind": "official",
+      "url": "https://acwm.org/visit/historic-tredegar/",
+      "supports": [
+        "ironworks site",
+        "riverfront",
+        "exterior access"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-danville-science",
+      "title": "Danville Science Center",
+      "source_kind": "official",
+      "url": "https://www.dsc.smv.org/",
+      "supports": [
+        "admission",
+        "dome",
+        "hours"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-danville-river",
+      "title": "Danville River District",
+      "source_kind": "government-tourism",
+      "url": "https://www.visitdanvilleva.com/river-district/",
+      "supports": [
+        "tobacco warehouses",
+        "walkable district"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-black-dog",
+      "title": "Black Dog Salvage",
+      "source_kind": "official",
+      "url": "https://blackdogsalvage.com/",
+      "supports": [
+        "warehouse size",
+        "hours",
+        "Roanoke location"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-explore-park",
+      "title": "Explore Park, Roanoke",
+      "source_kind": "government",
+      "url": "https://roanokecountyparks.com/216/Explore-Park",
+      "supports": [
+        "mountain bike trails",
+        "treetop quest",
+        "hours"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-reddish-knob",
+      "title": "George Washington National Forest - Reddish Knob",
+      "source_kind": "government",
+      "url": "https://www.fs.usda.gov/gwj",
+      "supports": [
+        "overlook access",
+        "road conditions"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-rockhill-trolley",
+      "title": "Rockhill Trolley Museum",
+      "source_kind": "official",
+      "url": "https://www.rockhilltrolley.org/",
+      "supports": [
+        "operating days",
+        "admission",
+        "location opposite EBT"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-pine-grove",
+      "title": "Pennsylvania DCNR - Pine Grove Furnace State Park",
+      "source_kind": "government",
+      "url": "https://www.dcnr.pa.gov/StateParks/FindAPark/PineGroveFurnaceStatePark/",
+      "supports": [
+        "iron furnace",
+        "Pole Steeple trail",
+        "free access"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-kings-gap",
+      "title": "Pennsylvania DCNR - Kings Gap",
+      "source_kind": "government",
+      "url": "https://www.dcnr.pa.gov/StateParks/FindAPark/KingsGapEnvironmentalEducationCenter/",
+      "supports": [
+        "mansion",
+        "scree",
+        "charcoal hearths",
+        "free access"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-trough-creek",
+      "title": "Pennsylvania DCNR - Trough Creek State Park",
+      "source_kind": "government",
+      "url": "https://www.dcnr.pa.gov/StateParks/FindAPark/TroughCreekStatePark/",
+      "supports": [
+        "Balanced Rock",
+        "suspension bridge",
+        "Rainbow Falls"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-allegrippis",
+      "title": "US Army Corps - Raystown Lake Allegrippis Trails",
+      "source_kind": "government",
+      "url": "https://www.nab.usace.army.mil/Missions/Civil-Works/Raystown/",
+      "supports": [
+        "trail system",
+        "free access"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-yuengling",
+      "title": "D. G. Yuengling & Son - brewery tours",
+      "source_kind": "official",
+      "url": "https://www.yuengling.com/visit/pottsville-brewery/",
+      "supports": [
+        "free tour",
+        "caves",
+        "schedule"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-skirmish",
+      "title": "Skirmish Paintball",
+      "source_kind": "official",
+      "url": "https://www.skirmish.com/",
+      "supports": [
+        "field size",
+        "pricing",
+        "preregistration"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-pocono-utv",
+      "title": "Pocono Outdoor Adventure Tours",
+      "source_kind": "official",
+      "url": "https://poconooutdooradventuretours.com/",
+      "supports": [
+        "UTV price",
+        "year-round operation",
+        "booking"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-bushkill",
+      "title": "Bushkill Falls",
+      "source_kind": "official",
+      "url": "https://www.visitbushkillfalls.com/",
+      "supports": [
+        "admission",
+        "trail system",
+        "eight waterfalls"
+      ],
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "src-five-wits",
+      "title": "5 Wits West Nyack",
+      "source_kind": "official",
+      "url": "https://www.5-wits.com/west-nyack",
+      "supports": [
+        "format",
+        "hours",
+        "Palisades Center location"
+      ],
+      "checked_at": "2026-09-01"
     }
   ]
 }

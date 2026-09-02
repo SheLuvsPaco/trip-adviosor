@@ -6,7 +6,9 @@ import {
   contextualImagePlaces, lodgingNodes, manualCoordinates, PEOPLE, places as placeConfig,
   ROUTE_ID, ROUTE_NAME, ROUTE_SLUG
 } from "./config.mjs";
+import { buildEnergyRoute08 } from "../route-08-energy/build.mjs";
 import { dayPlans, seedPlaces, sourceRows, verifiedAt } from "./content.mjs";
+import { mergeRouteExpansion } from "../lib/merge-route-expansion.mjs";
 
 const ROOT = process.cwd();
 const ROUTE_DIR = path.join(ROOT, "dataset", "routes", ROUTE_SLUG);
@@ -26,6 +28,10 @@ function scheduleItem([start, end, place_id, priority], placeById) {
 }
 
 async function main() {
+  await buildEnergyRoute08({ root: ROOT, routeDir: ROUTE_DIR });
+  return;
+
+  // Legacy Route 08 builder retained below as historical implementation context.
   const [research, weather, geometry, replacements] = await Promise.all([
     readFile(path.join(ROUTE_DIR, "research-raw.json"), "utf8").then(JSON.parse),
     readFile(path.join(ROUTE_DIR, "weather-normals.json"), "utf8").then(JSON.parse),
@@ -246,7 +252,8 @@ async function main() {
     writeFile(path.join(ROUTE_DIR, "route.geojson"), `${JSON.stringify(geojson, null, 2)}\n`),
     writeFile(path.join(ROUTE_DIR, "route-decisions.json"), `${JSON.stringify(decisions, null, 2)}\n`)
   ]);
-  console.log(`Built ${ROUTE_NAME}: ${productionPlaces.length} places, ${images.length} images, ${days.length} days.`);
+  const result = await mergeRouteExpansion({ root: ROOT, routeDir: ROUTE_DIR, routeId: ROUTE_ID, routeSlug: ROUTE_SLUG });
+  console.log(`Built ${ROUTE_NAME}: ${result.placeCount} places, ${result.imageCount} images, ${result.dayCount} days.`);
 }
 
 main().catch((error) => { console.error(error); process.exitCode = 1; });

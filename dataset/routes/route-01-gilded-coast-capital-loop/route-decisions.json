@@ -1,83 +1,42 @@
 {
   "schema_version": "1.0.0",
   "route_id": "route-01",
-  "verified_at": "2026-08-21",
-  "purpose": "Preserve routing decisions and rejected variants so future route edits do not accidentally reintroduce a known drive-cap failure.",
-  "hard_cap_minutes": 210,
-  "final_decisions": [
-    {
-      "id": "sleep-gettysburg-not-frederick",
-      "decision": "Frederick remains a Day 8 dinner stop, but the overnight is Gettysburg.",
-      "reason": "The original Frederick-Gettysburg-Bethlehem Day 9 routed at 221 baseline minutes. Continuing to Gettysburg on Day 8 converts the final Day 8 drive to 118 minutes and the final Day 9 drive to 198 minutes."
-    },
-    {
-      "id": "baltimore-not-core-on-festival-day",
-      "decision": "Federal Hill and AVAM are retained as rated alternatives but removed from the October 10 core schedule.",
-      "reason": "Philadelphia-Baltimore-Washington routed at 195 baseline minutes before urban parking and traffic, leaving an unsafe margin before Snallygaster's fixed 14:00 entry. Direct Philadelphia-Washington is 186 baseline minutes."
-    },
-    {
-      "id": "easton-advances-return",
-      "decision": "After Bethlehem, drive 22 baseline minutes to sleep in Easton.",
-      "reason": "The Easton advance balances Days 9-11 without sacrificing Gettysburg or SteelStacks and makes Paterson/Southbury feasible."
-    },
-    {
-      "id": "paterson-midpoint",
-      "decision": "Use Paterson Great Falls as the only scheduled Day 10 attraction.",
-      "reason": "It splits Easton-Southbury into 88- and 118-minute legs while keeping the full bed-to-bed baseline at 205 minutes."
-    },
-    {
-      "id": "southbury-logistics-night",
-      "decision": "Sleep near I-84 in Southbury rather than Beacon, Litchfield, Danbury or central Waterbury.",
-      "reason": "Southbury balances the last two days at 205 and 200 baseline minutes while prioritizing clean, safe two-room lodging and easy parking."
-    },
-    {
-      "id": "carousel-and-sturbridge-final-day",
-      "decision": "Schedule the New England Carousel Museum and Old Sturbridge Village on October 14.",
-      "reason": "The final drive remains 200 baseline minutes and reaches the Boston Logan hotel zone around 17:00 under the planned schedule."
-    }
+  "verified_at": "2026-08-31",
+  "purpose": "Replace museum-heavy repetition with varied physical, scenic, social, sacred and immersive interaction while selectively restoring only exceptional legacy anchors.",
+  "retained_legacy_core": [
+    "castle-hill-lighthouse",
+    "cliff-walk",
+    "newport-car-museum",
+    "woodbury-common",
+    "dumbo-brooklyn-bridge-park",
+    "st-nicholas-wtc",
+    "oculus",
+    "roosevelt-island-tram",
+    "elfreths-alley",
+    "eastern-state",
+    "avam",
+    "lincoln-memorial",
+    "st-nicholas-cathedral-dc",
+    "gettysburg-battlefield",
+    "paterson-great-falls",
+    "old-sturbridge-village"
   ],
-  "rejected_variants": [
-    {
-      "variant": "Frederick-Gettysburg-Bethlehem in one day",
-      "measured_baseline_minutes": 221,
-      "status": "rejected-hard-cap"
-    },
-    {
-      "variant": "Beacon-Mark Twain House-Boston",
-      "measured_baseline_minutes": 247,
-      "status": "rejected-hard-cap"
-    },
-    {
-      "variant": "Bethlehem-Da Vinci-Delaware Water Gap-Beacon",
-      "measured_baseline_minutes": 209,
-      "status": "rejected-no-traffic-margin-and-unworkable-final-return"
-    },
-    {
-      "variant": "Bethlehem-Delaware Water Gap-White Memorial-Litchfield",
-      "measured_baseline_minutes": 271,
-      "status": "rejected-hard-cap"
-    },
-    {
-      "variant": "Easton-Tarrywile-Southington",
-      "measured_baseline_minutes": 234,
-      "status": "rejected-hard-cap"
-    },
-    {
-      "variant": "Gettysburg-Reading Pagoda-Bethlehem",
-      "measured_baseline_minutes": 209,
-      "status": "rejected-insufficient-buffer"
-    },
-    {
-      "variant": "Canada or Ontario Niagara component",
-      "measured_baseline_minutes": null,
-      "status": "rejected-j1-border-risk",
-      "note": "Route 1 remains US-only. Reconsider only after written visa/re-entry confirmation."
-    }
+  "retained_legacy_optional": [
+    "submarine-force-museum",
+    "steelstacks",
+    "reading-terminal-market"
   ],
-  "traffic_policy": {
-    "routing_baseline": "OSRM road-network duration without live traffic",
-    "planning_ranges": "Risk buffers, explicitly not traffic forecasts",
-    "live_check": "Recalculate in Google Maps or the production directions provider on the travel date before departure.",
-    "rule": "If predicted driving exceeds 210 minutes, use the day's documented fallback, leave outside the congestion window, or remove an optional stop; never silently assume faster traffic."
-  }
+  "legacy_selection_reasoning": {
+    "newport-car-museum": "Restored as the user's explicit example: automotive design, real machines and driving simulators make it an active visual museum rather than a reading-heavy stop.",
+    "avam": "Restored because outsider art, kinetic sculpture and the building itself provide color and discovery between iFLY and DC.",
+    "steelstacks": "Retained as a free, unscored Day 9 option after karting. Exact routing reaches 212 minutes, so it appears beneath the main stops and must not be added without another cut.",
+    "submarine-force-museum": "Retained as the Day 2 bad-weather substitution for Napatree. The 193-minute swap is route-safe; adding both reaches 212 minutes and is not allowed.",
+    "reading-terminal-market": "Promoted into the main Day 6 schedule because the cars remain parked and it adds no route driving. It remains an optional, unscored food flex."
+  },
+  "unscheduled_energy_alternative": {
+    "purgatory-chasm": "Kept with its complete five-image card as a Day 11 route-redesign option. Current OSRM routing measures 247 minutes when added, 27 minutes beyond the authorized 220-minute limit, so it appears beneath the main stops rather than in the baseline."
+  },
+  "rejected_legacy_pattern": "Generic museums, repeated historic interiors, scheduled meals and fixed nightlife remain removed from core.",
+  "traffic_policy": "OSRM is a frozen road-network baseline without traffic. Cut flexible content before exceeding 210 active driving minutes.",
+  "image_policy": "Existing legacy attributions are preserved. Every new place has five visually reviewed exact-place images marked permission-required for private-prototype use only."
 }

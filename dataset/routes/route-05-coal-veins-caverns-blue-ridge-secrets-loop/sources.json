@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "route_id": "route-05",
-  "verified_at": "2026-08-23",
+  "verified_at": "2026-09-01",
   "sources": [
     {
       "id": "src-wadsworth",
@@ -511,65 +511,247 @@
       ]
     },
     {
-      "id": "src-noaa-normals",
-      "title": "NOAA U.S. Climate Normals",
-      "source_type": "government",
-      "url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
-      "verified_at": "2026-08-23",
-      "claims": [
-        "1991-2020 normals methodology"
-      ]
+      "id": "src-v5-rock-house",
+      "publisher": "Trustees of Reservations — Rock House Reservation",
+      "type": "land-trust",
+      "url": "https://thetrustees.org/place/rock-house-reservation/",
+      "supports": [
+        "glacial rock shelter",
+        "free access",
+        "short trail network"
+      ],
+      "verified_at": "2026-09-01"
     },
     {
-      "id": "src-osrm",
-      "title": "OSRM",
-      "source_type": "routing",
-      "url": "https://project-osrm.org/",
-      "verified_at": "2026-08-23",
-      "claims": [
-        "road-network baselines",
-        "no live traffic"
-      ]
+      "id": "src-v5-eckley",
+      "publisher": "Eckley Miners' Village",
+      "type": "official",
+      "url": "https://www.eckleyminers.org/",
+      "supports": [
+        "anthracite coal-patch village",
+        "Tuesday museum closure",
+        "village walkable dawn to dusk"
+      ],
+      "verified_at": "2026-09-01"
     },
     {
-      "id": "src-forum-scranton",
-      "title": "r/Scranton local discussion",
-      "source_type": "forum",
-      "url": "https://www.reddit.com/r/Scranton/",
-      "verified_at": "2026-08-23",
-      "claims": [
-        "local cross-check of coal mine and Steamtown"
-      ]
+      "id": "src-v5-hickory-run",
+      "publisher": "Pennsylvania DCNR — Hickory Run State Park",
+      "type": "government",
+      "url": "https://www.dcnr.pa.gov/StateParks/FindAPark/HickoryRunStatePark/",
+      "supports": [
+        "Boulder Field National Natural Landmark",
+        "free access",
+        "uneven footing"
+      ],
+      "verified_at": "2026-09-01"
     },
     {
-      "id": "src-forum-lancaster",
-      "title": "r/lancaster local discussion",
-      "source_type": "forum",
-      "url": "https://www.reddit.com/r/lancaster/",
-      "verified_at": "2026-08-23",
-      "claims": [
-        "local cross-check of market and non-tourist-trap stops"
-      ]
+      "id": "src-v5-strasburg",
+      "publisher": "Strasburg Rail Road",
+      "type": "official",
+      "url": "https://www.strasburgrailroad.com/",
+      "supports": [
+        "live steam excursion",
+        "October operation",
+        "coach fares"
+      ],
+      "verified_at": "2026-09-01"
     },
     {
-      "id": "src-forum-shenandoah",
-      "title": "r/Shenandoah local discussion",
-      "source_type": "forum",
-      "url": "https://www.reddit.com/r/Shenandoah/",
-      "verified_at": "2026-08-23",
-      "claims": [
-        "October crowd and early-start cross-check"
-      ]
+      "id": "src-v5-ephrata",
+      "publisher": "Pennsylvania Historical and Museum Commission — Ephrata Cloister",
+      "type": "government",
+      "url": "https://www.ephratacloister.org/",
+      "supports": [
+        "eighteenth-century religious settlement",
+        "site tour",
+        "adult admission"
+      ],
+      "verified_at": "2026-09-01"
     },
     {
-      "id": "src-forum-cville",
-      "title": "r/Charlottesville local discussion",
-      "source_type": "forum",
-      "url": "https://www.reddit.com/r/Charlottesville/",
-      "verified_at": "2026-08-23",
-      "claims": [
-        "IX, Kluge-Ruhe and live-scene cross-check"
-      ]
+      "id": "src-v5-harpers",
+      "publisher": "National Park Service — Harpers Ferry",
+      "type": "government",
+      "url": "https://www.nps.gov/hafe/planyourvisit/fees.htm",
+      "supports": [
+        "$20 per private vehicle",
+        "visitor-center shuttle",
+        "Lower Town and Virginius Island access"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v5-luray",
+      "publisher": "Luray Caverns",
+      "type": "official",
+      "url": "https://luraycaverns.com/",
+      "supports": [
+        "guided cavern tour",
+        "adult admission",
+        "year-round operation"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v5-shenandoah",
+      "publisher": "National Park Service — Shenandoah",
+      "type": "government",
+      "url": "https://www.nps.gov/shen/planyourvisit/fees.htm",
+      "supports": [
+        "$30 per private vehicle for seven days",
+        "Skyline Drive overlooks",
+        "Bearfence and Stony Man trailheads"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v5-skyland",
+      "publisher": "Skyland Stables, Shenandoah National Park",
+      "type": "official",
+      "url": "https://www.goshenandoah.com/things-to-do/horseback-riding",
+      "supports": [
+        "guided trail ride",
+        "no riding experience required",
+        "weight and age limits"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v5-bearfence",
+      "publisher": "National Park Service — Bearfence Mountain",
+      "type": "government",
+      "url": "https://www.nps.gov/shen/planyourvisit/bearfence-mountain.htm",
+      "supports": [
+        "rock scramble",
+        "360-degree view",
+        "not recommended when wet"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v5-blue-ridge-tunnel",
+      "publisher": "Nelson County — Claudius Crozet Blue Ridge Tunnel",
+      "type": "government",
+      "url": "https://www.nelsoncounty-va.gov/blueridgetunnel/",
+      "supports": [
+        "4,273-foot unlit tunnel",
+        "headlamp required",
+        "sunrise to sunset",
+        "free"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v5-monticello",
+      "publisher": "Thomas Jefferson Foundation — Monticello",
+      "type": "official",
+      "url": "https://www.monticello.org/",
+      "supports": [
+        "From Slavery to Freedom guided tour",
+        "landscape-based interpretation",
+        "timed ticket"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v5-unlocked-history",
+      "publisher": "Unlocked History Escape Rooms",
+      "type": "official",
+      "url": "https://www.unlockedhistory.com/",
+      "supports": [
+        "Da Vinci's Discovery room",
+        "four-player compatible",
+        "strong enthusiast reputation"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v5-leesburg-outlets",
+      "publisher": "Leesburg Premium Outlets",
+      "type": "official",
+      "url": "https://www.premiumoutlets.com/outlet/leesburg",
+      "supports": [
+        "100+ stores",
+        "free admission",
+        "designer mix"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v5-catoctin",
+      "publisher": "Catoctin Furnace Historical Society",
+      "type": "official",
+      "url": "https://catoctinfurnace.org/",
+      "supports": [
+        "iron furnace ruins",
+        "Iron Trail",
+        "African American cemetery",
+        "open when the museum is closed"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v5-lehigh-gorge",
+      "publisher": "Lehigh Gorge Scenic Railway",
+      "type": "official",
+      "url": "https://www.lgsry.com/",
+      "supports": [
+        "open-air car",
+        "2026 foliage-season operation",
+        "Jim Thorpe departure",
+        "adult fare"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v5-walkway",
+      "publisher": "Walkway Over the Hudson State Historic Park",
+      "type": "government",
+      "url": "https://walkway.org/",
+      "supports": [
+        "former railroad bridge",
+        "free pedestrian access",
+        "Poughkeepsie and Highland ends"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v5-mine-hill",
+      "publisher": "Roxbury Land Trust — Mine Hill Preserve",
+      "type": "land-trust",
+      "url": "https://roxburylandtrust.org/mine-hill/",
+      "supports": [
+        "Shepaug iron furnace",
+        "quarry and mine portals",
+        "free hiking"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v5-dinosaur-footprints",
+      "publisher": "Trustees of Reservations — Dinosaur Footprints",
+      "type": "land-trust",
+      "url": "https://thetrustees.org/place/dinosaur-footprints/",
+      "supports": [
+        "in-situ Jurassic trackway",
+        "free roadside access",
+        "Connecticut Valley geology"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v5-mapparium",
+      "publisher": "Mary Baker Eddy Library — Mapparium",
+      "type": "official",
+      "url": "https://www.marybakereddylibrary.org/project/mapparium/",
+      "supports": [
+        "stained-glass globe",
+        "short guided experience",
+        "adult admission"
+      ],
+      "verified_at": "2026-09-01"
     }
   ]
 }

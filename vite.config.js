@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import { access, cp, readFile, stat } from 'node:fs/promises';
+import { constants } from 'node:fs';
+import { access, copyFile, mkdir, readFile, stat } from 'node:fs/promises';
 import path from 'node:path';
 
 const builtRouteDirectories = [
@@ -14,7 +15,6 @@ const builtRouteDirectories = [
   'route-08-lemurs-stone-bridges-mechanical-dreams-loop',
   'route-09-kaleidoscopes-scripture-stones-secret-machines-loop',
   'route-10-temples-follies-working-machines-loop',
-  'route-11-hidden-halls-brass-nights-moonshot-run',
 ];
 
 async function routeHeroPreloads() {
@@ -63,15 +63,33 @@ function copyRouteAssets() {
       }
     },
     async closeBundle() {
-      const copies = [['assets/optimized', 'dist/assets/optimized']];
-      for (const [source, destination] of copies) {
-        try {
-          await access(source);
-          await cp(source, destination, { recursive: true, force: true });
-        } catch (error) {
-          if (error.code !== 'ENOENT') throw error;
+      const copyJobs = [];
+      for (const routeDirectory of builtRouteDirectories) {
+        const images = JSON.parse(await readFile(path.join('dataset/routes', routeDirectory, 'images.json'), 'utf8')).images;
+        const destinationDirectory = path.join('dist/assets/optimized/routes', routeDirectory);
+        await mkdir(destinationDirectory, { recursive: true });
+        const names = new Set();
+        for (const image of images) {
+          const stem = path.basename(image.local_path, path.extname(image.local_path));
+          names.add(`${stem}.webp`);
+          names.add(`${stem}-thumb.webp`);
+        }
+        for (const name of names) {
+          copyJobs.push({
+            source: path.join('assets/optimized/routes', routeDirectory, name),
+            destination: path.join(destinationDirectory, name),
+          });
         }
       }
+      let cursor = 0;
+      async function worker() {
+        while (cursor < copyJobs.length) {
+          const job = copyJobs[cursor];
+          cursor += 1;
+          await copyFile(job.source, job.destination, constants.COPYFILE_FICLONE);
+        }
+      }
+      await Promise.all(Array.from({ length: 16 }, () => worker()));
     },
     async transformIndexHtml(html) {
       const heroes = await routeHeroPreloads();

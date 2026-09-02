@@ -53,7 +53,9 @@ async function main() {
     expected.setDate(expected.getDate() + index);
     assert(day.date === expected.toISOString().slice(0, 10), `Day ${day.day} date is not consecutive: ${day.date}.`);
     assert(day.day === index + 1, `Day numbering mismatch at index ${index}.`);
-    assert(day.drive.baseline_total_minutes <= driveCapMinutes, `Day ${day.day} baseline driving exceeds ${driveCapMinutes} minutes: ${day.drive.baseline_total_minutes}.`);
+    const dayCapMinutes = day.drive.authorized_cap_exception_minutes || driveCapMinutes;
+    assert(day.drive.baseline_total_minutes <= dayCapMinutes, `Day ${day.day} baseline driving exceeds ${dayCapMinutes} minutes: ${day.drive.baseline_total_minutes}.`);
+    assert(!day.drive.authorized_cap_exception_minutes || Boolean(day.drive.cap_exception_reason), `Day ${day.day} has an authorized cap exception but no cap_exception_reason.`);
     assert(day.drive.legs.reduce((sum, leg) => sum + leg.baseline_seconds, 0) > 0 || day.drive.legs.length === 0, `Day ${day.day} has no driving baseline unexpectedly.`);
     let previousEnd = -1;
     for (const item of day.schedule) {

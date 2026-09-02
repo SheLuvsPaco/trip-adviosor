@@ -1,6 +1,7 @@
 {
   "schema_version": "1.0.0",
   "route_id": "route-05",
+  "generated_from": "Energy Rebuild Routes/Route05_Under_The_Mountain_Inside_The_Machine_Rebuild.md",
   "places": [
     {
       "id": "wadsworth-atheneum",
@@ -41,8 +42,53 @@
         "status": "verified-current",
         "note": "Adult planning price; reconfirm before booking."
       },
-      "priority": "anchor",
-      "address": "Wadsworth Atheneum Museum of Art"
+      "priority": "archive",
+      "address": "Wadsworth Atheneum Museum of Art",
+      "country": "US",
+      "coordinates": [
+        -72.6734,
+        41.7638
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-wadsworth-atheneum-1",
+        "img-wadsworth-atheneum-2",
+        "img-wadsworth-atheneum-3",
+        "img-wadsworth-atheneum-4",
+        "img-wadsworth-atheneum-5",
+        "img-wadsworth-atheneum-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "included_in_magic_default": false,
+      "core_status": "archive",
+      "original_status": "remove-archive",
+      "energy_rebuild_role": "preserved-revision-history",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "skip_mode": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "skip_strategy": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "operational_risk": "reconfirm-if-activated",
+      "operational_confidence": "reconfirm-if-activated"
     },
     {
       "id": "holy-land-usa",
@@ -61,7 +107,7 @@
         "gora",
         "sheluvspaco"
       ],
-      "best_fit_note": "Good for Viki's photos and for Stivka, though this is a Catholic folk site, not an Orthodox one. We are clear about that.",
+      "best_fit_note": "Primary fit: stivka, viki. An outdoor hillside of folk-religious sculpture; the Stations route can be shortened.",
       "categories": [
         "orthodox_spiritual",
         "architecture_nature_photogenic",
@@ -82,62 +128,86 @@
       },
       "cost": {
         "amount_per_person": 0,
-        "status": "verified-current",
-        "note": "Free public site; donation optional."
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
       },
       "priority": "anchor",
-      "address": "Holy Land USA & Stations Trail"
-    },
-    {
-      "id": "mark-twain-house",
-      "name": "The Mark Twain House & Museum",
-      "kind": "gothic-writer-house",
-      "city": "Hartford",
-      "state": "CT",
-      "visit_date": "2026-10-04",
-      "summary": "Mark Twain's 25-room red brick house, full of carved wood and patterned walls. He wrote several of his major books in the billiard room upstairs.",
-      "why_go": "One writer's house, one guided story, and the room where the books were actually written. More personal than a huge museum.",
-      "best_for": [
-        "viki",
-        "gora"
+      "address": "Holy Land USA & Stations Trail",
+      "country": "US",
+      "coordinates": [
+        -73.0299116,
+        41.549133
       ],
-      "secondary_for": [
-        "stivka",
-        "sheluvspaco"
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-holy-land-usa-1",
+        "img-holy-land-usa-2",
+        "img-holy-land-usa-3"
       ],
-      "best_fit_note": "Good for Viki's love of decorated interiors, and for Gora, who wants the real person behind the famous name.",
-      "categories": [
-        "architecture_nature_photogenic",
-        "hidden_history_folklore",
-        "unusual_creative"
-      ],
-      "duration_minutes": 90,
-      "source_ids": [
-        "src-mark-twain"
-      ],
-      "reservation": "reserve",
-      "hours": {
-        "opens": "09:30",
-        "closes": "17:00",
-        "status": "verified-current",
-        "note": "Open seven days in October with last house tour currently listed at 16:15; timed guided tour is required and can sell out."
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
       },
-      "cost": {
-        "amount_per_person": 29,
-        "status": "estimate",
-        "note": "Planning estimate; choose an available timed house tour."
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
       },
-      "priority": "replacement",
-      "replacement_reason": "A tighter human story and more theatrical interior when the group wants a guided house rather than a broad museum.",
-      "replacement": {
-        "day": 1,
-        "replaces_place_ids": [
-          "wadsworth-atheneum"
-        ],
-        "route_variant_id": "replacement-d1-mark-twain",
-        "reason": "A tighter human story and more theatrical interior when the group wants a guided house rather than a broad museum."
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "included_in_magic_default": true,
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "sacred-spiritual",
+      "texture": "WEIRD",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "booking_conflict": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "partial_participation_possible": true,
+        "rare_animal": false,
+        "hands_on_making": false,
+        "traditional_escape_room": false,
+        "photo_heavy": true
       },
-      "address": "The Mark Twain House & Museum"
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-09-01",
+      "physical_level": "easy",
+      "skip_mode": "An outdoor hillside of folk-religious sculpture; the Stations route can be shortened.",
+      "skip_strategy": "An outdoor hillside of folk-religious sculpture; the Stations route can be shortened.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "yellow",
+      "operational_risk": "yellow",
+      "fallback_ids": [],
+      "fallback_place_id": null
     },
     {
       "id": "lackawanna-coal",
@@ -150,13 +220,13 @@
       "why_go": "You go down inside a real mine. This is the honest, uncomfortable labor history at the center of the whole route.",
       "best_for": [
         "gora",
-        "viki"
+        "stivka"
       ],
       "secondary_for": [
-        "stivka",
+        "viki",
         "sheluvspaco"
       ],
-      "best_fit_note": "Good for Gora's history and for Viki's unusual spaces. It is cool underground, so bring a layer.",
+      "best_fit_note": "Primary fit: gora, stivka. The mine car descends roughly 300 feet; anyone uncomfortable underground can stay at the visitor centre.",
       "categories": [
         "hidden_history_folklore",
         "unusual_creative"
@@ -165,7 +235,7 @@
       "source_ids": [
         "src-lackawanna"
       ],
-      "reservation": "walk-up-early",
+      "reservation": "required",
       "hours": {
         "opens": "10:00",
         "closes": "16:00",
@@ -174,11 +244,88 @@
       },
       "cost": {
         "amount_per_person": 12,
-        "status": "verified-current",
-        "note": "Adult planning price; reconfirm before booking."
+        "low": 12,
+        "high": 12,
+        "amount_per_group": 48,
+        "price_type": "per-person",
+        "status": "verified",
+        "note": ""
       },
       "priority": "anchor",
-      "address": "Lackawanna Coal Mine Tour"
+      "address": "Lackawanna Coal Mine Tour",
+      "country": "US",
+      "coordinates": [
+        -75.7155,
+        41.4173
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-lackawanna-coal-1",
+        "img-lackawanna-coal-2",
+        "img-lackawanna-coal-3",
+        "img-lackawanna-coal-4",
+        "img-lackawanna-coal-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "included_in_magic_default": true,
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "underground-industrial-infrastructure",
+      "texture": "EXPLORE",
+      "interaction_score": 4,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "wet_surface_risk": false,
+        "booking_required": true,
+        "booking_conflict": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "partial_participation_possible": true,
+        "rare_animal": false,
+        "hands_on_making": false,
+        "traditional_escape_room": false,
+        "photo_heavy": true
+      },
+      "viki_fit": 4,
+      "gora_fit": 5,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "per-person",
+      "price_per_person_low": 12,
+      "price_per_person_high": 12,
+      "price_per_group": 48,
+      "price_last_checked": "2026-09-01",
+      "physical_level": "light-moderate",
+      "skip_mode": "The mine car descends roughly 300 feet; anyone uncomfortable underground can stay at the visitor centre.",
+      "skip_strategy": "The mine car descends roughly 300 feet; anyone uncomfortable underground can stay at the visitor centre.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "yellow",
+      "operational_risk": "yellow",
+      "fallback_ids": [],
+      "fallback_place_id": null
     },
     {
       "id": "steamtown",
@@ -218,8 +365,52 @@
         "status": "verified-current",
         "note": "Park admission is free; special rides cost extra."
       },
-      "priority": "anchor",
-      "address": "Steamtown National Historic Site"
+      "priority": "optional",
+      "address": "Steamtown National Historic Site",
+      "country": "US",
+      "coordinates": [
+        -75.6716,
+        41.408
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-steamtown-1",
+        "img-steamtown-2",
+        "img-steamtown-3",
+        "img-steamtown-4",
+        "img-steamtown-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "included_in_magic_default": false,
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "skip_mode": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "skip_strategy": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "operational_risk": "reconfirm-if-activated",
+      "operational_confidence": "reconfirm-if-activated"
     },
     {
       "id": "scranton-iron",
@@ -231,14 +422,14 @@
       "summary": "Four huge stone blast furnace stacks still stand beside the city, left from the Lackawanna iron works.",
       "why_go": "Four giant stone ruins in the middle of a city, free to walk around, and best in evening light.",
       "best_for": [
-        "viki",
-        "gora"
-      ],
-      "secondary_for": [
-        "stivka",
+        "gora",
         "sheluvspaco"
       ],
-      "best_fit_note": "Good for Viki's photos and for Gora's interest in industry. Short, free and easy for everyone.",
+      "secondary_for": [
+        "viki",
+        "stivka"
+      ],
+      "best_fit_note": "Primary fit: gora, sheluvspaco. Open-air blast-furnace ruins walked at whatever pace suits.",
       "categories": [
         "architecture_nature_photogenic",
         "hidden_history_folklore"
@@ -256,62 +447,89 @@
       },
       "cost": {
         "amount_per_person": 0,
-        "status": "verified-current",
-        "note": "Adult planning price; reconfirm before booking."
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
       },
-      "priority": "supporting",
-      "address": "Scranton Iron Furnaces"
-    },
-    {
-      "id": "houdini-museum",
-      "name": "Houdini Museum",
-      "kind": "magic-cabinet",
-      "city": "Scranton",
-      "state": "PA",
-      "visit_date": "2026-10-05",
-      "summary": "A small and deliberately odd collection of Harry Houdini objects in an old Scranton building, shown with live magic.",
-      "why_go": "A personal, slightly chaotic museum with a live magic show. Much more intimate than the rail yard.",
-      "best_for": [
-        "viki",
-        "sheluvspaco"
+      "priority": "anchor",
+      "address": "Scranton Iron Furnaces",
+      "country": "US",
+      "coordinates": [
+        -75.6623,
+        41.404
       ],
-      "secondary_for": [
-        "gora",
-        "stivka"
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-scranton-iron-1",
+        "img-scranton-iron-2",
+        "img-scranton-iron-3",
+        "img-scranton-iron-4",
+        "img-scranton-iron-5",
+        "img-scranton-iron-6"
       ],
-      "best_fit_note": "Good for Viki's love of strange places and Paco's group fun. Gora gets the real history behind the tricks.",
-      "categories": [
-        "unusual_creative",
-        "hidden_history_folklore"
-      ],
-      "duration_minutes": 150,
-      "source_ids": [
-        "src-houdini"
-      ],
-      "reservation": "call",
-      "hours": {
-        "opens": null,
-        "closes": null,
-        "status": "call-to-confirm",
-        "note": "Year-round but date and show time require a direct phone confirmation."
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
       },
-      "cost": {
-        "amount_per_person": 25,
-        "status": "estimate",
-        "note": "Planning estimate until direct confirmation."
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 4
       },
-      "priority": "replacement",
-      "replacement_reason": "Use when weather is poor or the group wants one concentrated oddity instead of two industrial sites.",
-      "replacement": {
-        "day": 2,
-        "replaces_place_ids": [
-          "steamtown",
-          "scranton-iron"
-        ],
-        "route_variant_id": "replacement-d2-houdini",
-        "reason": "Use when weather is poor or the group wants one concentrated oddity instead of two industrial sites."
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "included_in_magic_default": true,
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "underground-industrial-infrastructure",
+      "texture": "DISCOVER",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "booking_conflict": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "partial_participation_possible": true,
+        "rare_animal": false,
+        "hands_on_making": false,
+        "traditional_escape_room": false,
+        "photo_heavy": false
       },
-      "address": "Houdini Museum"
+      "viki_fit": 4,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 5,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-09-01",
+      "physical_level": "easy",
+      "skip_mode": "Open-air blast-furnace ruins walked at whatever pace suits.",
+      "skip_strategy": "Open-air blast-furnace ruins walked at whatever pace suits.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "green",
+      "operational_risk": "green",
+      "fallback_ids": [],
+      "fallback_place_id": null
     },
     {
       "id": "watch-clock",
@@ -351,8 +569,53 @@
         "status": "verified-current",
         "note": "Adult planning price; reconfirm before booking."
       },
-      "priority": "anchor",
-      "address": "National Watch & Clock Museum"
+      "priority": "archive",
+      "address": "National Watch & Clock Museum",
+      "country": "US",
+      "coordinates": [
+        -76.5022,
+        40.037
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-watch-clock-1",
+        "img-watch-clock-2",
+        "img-watch-clock-3",
+        "img-watch-clock-4",
+        "img-watch-clock-5",
+        "img-watch-clock-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "included_in_magic_default": false,
+      "core_status": "archive",
+      "original_status": "remove-archive",
+      "energy_rebuild_role": "preserved-revision-history",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "skip_mode": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "skip_strategy": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "operational_risk": "reconfirm-if-activated",
+      "operational_confidence": "reconfirm-if-activated"
     },
     {
       "id": "lancaster-central-market",
@@ -393,8 +656,53 @@
         "status": "estimate",
         "note": "Flexible lunch allowance."
       },
-      "priority": "anchor",
-      "address": "Lancaster Central Market"
+      "priority": "optional-social",
+      "address": "Lancaster Central Market",
+      "country": "US",
+      "coordinates": [
+        -76.3065,
+        40.0383
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-lancaster-central-market-1",
+        "img-lancaster-central-market-2",
+        "img-lancaster-central-market-3",
+        "img-lancaster-central-market-4",
+        "img-lancaster-central-market-5",
+        "img-lancaster-central-market-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "included_in_magic_default": false,
+      "core_status": "optional-social",
+      "original_status": "keep-optional-social",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "skip_mode": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "skip_strategy": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "operational_risk": "reconfirm-if-activated",
+      "operational_confidence": "reconfirm-if-activated"
     },
     {
       "id": "lancaster-troll-market",
@@ -435,58 +743,50 @@
         "status": "verified-current",
         "note": "Browsing is free; shopping excluded."
       },
-      "priority": "supporting",
-      "address": "Lancaster Troll Market"
-    },
-    {
-      "id": "wolf-sanctuary",
-      "name": "Wolf Sanctuary of Pennsylvania",
-      "kind": "wildlife-sanctuary",
-      "city": "Lititz",
-      "state": "PA",
-      "visit_date": "2026-10-06",
-      "summary": "A booked walk among rescued wolves and wolf-dogs, with guides who explain their behavior and how they are cared for.",
-      "why_go": "Real wolves, a few feet away, with people who know them. You must book ahead.",
-      "best_for": [
-        "viki",
-        "gora"
+      "priority": "flex",
+      "address": "Lancaster Troll Market",
+      "country": "US",
+      "coordinates": [
+        -76.3069,
+        40.039
       ],
-      "secondary_for": [
-        "stivka",
-        "sheluvspaco"
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-lancaster-troll-market-1",
+        "img-lancaster-troll-market-2",
+        "img-lancaster-troll-market-3"
       ],
-      "best_fit_note": "Good for Viki's animal photos and for Stivka's gentle side. Gora gets the science of how they live.",
-      "categories": [
-        "architecture_nature_photogenic",
-        "unusual_creative"
-      ],
-      "duration_minutes": 90,
-      "source_ids": [
-        "src-wolves"
-      ],
-      "reservation": "reserve",
-      "hours": {
-        "opens": "10:00",
-        "closes": "11:30",
-        "status": "verified-current",
-        "note": "Tuesday public tour begins at 10:00; reservation required."
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
       },
-      "cost": {
-        "amount_per_person": 25,
-        "status": "verified-current",
-        "note": "Adult planning price; reconfirm before booking."
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
       },
-      "priority": "replacement",
-      "replacement_reason": "Trade precision machines for a high-emotion wildlife encounter; requires an early Scranton departure.",
-      "replacement": {
-        "day": 3,
-        "replaces_place_ids": [
-          "watch-clock"
-        ],
-        "route_variant_id": "replacement-d3-wolves",
-        "reason": "Trade precision machines for a high-emotion wildlife encounter; requires an early Scranton departure."
-      },
-      "address": "Wolf Sanctuary of Pennsylvania"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "included_in_magic_default": false,
+      "core_status": "flex",
+      "original_status": "demote-flex",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "skip_mode": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "skip_strategy": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "operational_risk": "reconfirm-if-activated",
+      "operational_confidence": "reconfirm-if-activated"
     },
     {
       "id": "ephrata-cloister",
@@ -499,13 +799,13 @@
       "why_go": "A community that chose silence, singing and celibacy, and built the plain wooden houses to match.",
       "best_for": [
         "stivka",
-        "gora"
+        "viki"
       ],
       "secondary_for": [
-        "viki",
+        "gora",
         "sheluvspaco"
       ],
-      "best_fit_note": "Good for Stivka's interest in serious faith and for Gora's interest in unusual American communities. Viki gets very stark buildings.",
+      "best_fit_note": "Primary fit: stivka, viki. A compact site walk through the eighteenth-century settlement buildings.",
       "categories": [
         "orthodox_spiritual",
         "hidden_history_folklore",
@@ -513,7 +813,8 @@
       ],
       "duration_minutes": 100,
       "source_ids": [
-        "src-ephrata"
+        "src-ephrata",
+        "src-v5-ephrata"
       ],
       "reservation": "none",
       "hours": {
@@ -523,12 +824,90 @@
         "note": "Wednesday open under the current schedule."
       },
       "cost": {
-        "amount_per_person": 10,
-        "status": "verified-current",
-        "note": "Adult planning price; reconfirm before booking."
+        "amount_per_person": 12.4,
+        "low": 12.4,
+        "high": 12.4,
+        "amount_per_group": 49.6,
+        "price_type": "per-person",
+        "status": "verified",
+        "note": ""
       },
       "priority": "anchor",
-      "address": "Ephrata Cloister"
+      "address": "Ephrata Cloister",
+      "country": "US",
+      "coordinates": [
+        -76.1887,
+        40.1834
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-ephrata-cloister-1",
+        "img-ephrata-cloister-2",
+        "img-ephrata-cloister-3",
+        "img-ephrata-cloister-4",
+        "img-ephrata-cloister-5",
+        "img-ephrata-cloister-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "included_in_magic_default": true,
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "sacred-spiritual",
+      "texture": "DISCOVER",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "booking_conflict": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "partial_participation_possible": true,
+        "rare_animal": false,
+        "hands_on_making": false,
+        "traditional_escape_room": false,
+        "photo_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "per-person",
+      "price_per_person_low": 12.4,
+      "price_per_person_high": 12.4,
+      "price_per_group": 49.6,
+      "price_last_checked": "2026-09-01",
+      "physical_level": "easy",
+      "skip_mode": "A compact site walk through the eighteenth-century settlement buildings.",
+      "skip_strategy": "A compact site walk through the eighteenth-century settlement buildings.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "green",
+      "operational_risk": "green",
+      "fallback_ids": [],
+      "fallback_place_id": null
     },
     {
       "id": "railroad-museum-pa",
@@ -568,8 +947,53 @@
         "status": "verified-current",
         "note": "Adult planning price; reconfirm before booking."
       },
-      "priority": "anchor",
-      "address": "Railroad Museum of Pennsylvania"
+      "priority": "optional",
+      "address": "Railroad Museum of Pennsylvania",
+      "country": "US",
+      "coordinates": [
+        -76.1606,
+        39.9822
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-railroad-museum-pa-1",
+        "img-railroad-museum-pa-2",
+        "img-railroad-museum-pa-3",
+        "img-railroad-museum-pa-4",
+        "img-railroad-museum-pa-5",
+        "img-railroad-museum-pa-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "included_in_magic_default": false,
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "skip_mode": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "skip_strategy": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "operational_risk": "reconfirm-if-activated",
+      "operational_confidence": "reconfirm-if-activated"
     },
     {
       "id": "eshelman-covered-bridge",
@@ -609,8 +1033,53 @@
         "status": "verified-current",
         "note": "Adult planning price; reconfirm before booking."
       },
-      "priority": "supporting",
-      "address": "Eshelman's Mill Covered Bridge"
+      "priority": "flex",
+      "address": "Eshelman's Mill Covered Bridge",
+      "country": "US",
+      "coordinates": [
+        -76.1518,
+        39.9727
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-eshelman-covered-bridge-1",
+        "img-eshelman-covered-bridge-2",
+        "img-eshelman-covered-bridge-3",
+        "img-eshelman-covered-bridge-4",
+        "img-eshelman-covered-bridge-5",
+        "img-eshelman-covered-bridge-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "included_in_magic_default": false,
+      "core_status": "flex",
+      "original_status": "demote-flex",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "skip_mode": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "skip_strategy": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "operational_risk": "reconfirm-if-activated",
+      "operational_confidence": "reconfirm-if-activated"
     },
     {
       "id": "harrisburg-riverfront",
@@ -618,7 +1087,7 @@
       "kind": "riverfront-blue-hour",
       "city": "Harrisburg",
       "state": "PA",
-      "visit_date": "2026-10-07",
+      "visit_date": "2026-10-12",
       "summary": "A long park along the Susquehanna River facing City Island, with the broken remains of the 1890 Walnut Street truss bridge standing in the water.",
       "why_go": "A half-collapsed iron bridge standing in a wide river at golden hour. Calm, free and very photogenic.",
       "best_for": [
@@ -629,7 +1098,7 @@
         "gora",
         "sheluvspaco"
       ],
-      "best_fit_note": "Good for Viki's photos and for everyone's need to walk after a day of museums.",
+      "best_fit_note": "Primary fit: viki, stivka. A deliberate 45-minute river reset moved here from Day 4 to break the drive.",
       "categories": [
         "architecture_nature_photogenic",
         "quiet_reset"
@@ -647,62 +1116,89 @@
       },
       "cost": {
         "amount_per_person": 0,
-        "status": "verified-current",
-        "note": "Adult planning price; reconfirm before booking."
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
       },
-      "priority": "supporting",
-      "address": "Harrisburg Riverfront & Walnut Street Bridge"
-    },
-    {
-      "id": "turkey-hill-experience",
-      "name": "Turkey Hill Experience",
-      "kind": "food-lab",
-      "city": "Columbia",
-      "state": "PA",
-      "visit_date": "2026-10-07",
-      "summary": "A hands-on brand museum where you design your own ice cream flavor and packaging, with an optional lab where you make some.",
-      "why_go": "You invent an ice cream and then eat it. A light, social break when everyone is tired of museums.",
-      "best_for": [
-        "viki",
-        "sheluvspaco"
+      "priority": "anchor",
+      "address": "Harrisburg Riverfront & Walnut Street Bridge",
+      "country": "US",
+      "coordinates": [
+        -76.886,
+        40.2604
       ],
-      "secondary_for": [
-        "gora",
-        "stivka"
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-harrisburg-riverfront-1",
+        "img-harrisburg-riverfront-2",
+        "img-harrisburg-riverfront-3",
+        "img-harrisburg-riverfront-4",
+        "img-harrisburg-riverfront-5",
+        "img-harrisburg-riverfront-6"
       ],
-      "best_fit_note": "Good for Paco's group mood and Viki's creative side. Easy and fun for all four.",
-      "categories": [
-        "unusual_creative",
-        "food_cafes"
-      ],
-      "duration_minutes": 120,
-      "source_ids": [
-        "src-turkey-hill"
-      ],
-      "reservation": "reserve-lab",
-      "hours": {
-        "opens": "10:00",
-        "closes": "16:00",
-        "status": "verified-current",
-        "note": "Reconfirm exact October 7 entry windows."
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
       },
-      "cost": {
-        "amount_per_person": 25,
-        "status": "estimate",
-        "note": "Experience plus lab planning allowance."
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
       },
-      "priority": "replacement",
-      "replacement_reason": "Swap trains and bridge for an interactive flavor-making afternoon in poor weather.",
-      "replacement": {
-        "day": 4,
-        "replaces_place_ids": [
-          "railroad-museum-pa",
-          "eshelman-covered-bridge"
-        ],
-        "route_variant_id": "replacement-d4-turkey-hill",
-        "reason": "Swap trains and bridge for an interactive flavor-making afternoon in poor weather."
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "included_in_magic_default": true,
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "nature-geology-scenic",
+      "texture": "RELAX",
+      "interaction_score": 1,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "booking_conflict": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "partial_participation_possible": true,
+        "rare_animal": false,
+        "hands_on_making": false,
+        "traditional_escape_room": false,
+        "photo_heavy": false
       },
-      "address": "Turkey Hill Experience"
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-09-01",
+      "physical_level": "easy",
+      "skip_mode": "A deliberate 45-minute river reset moved here from Day 4 to break the drive.",
+      "skip_strategy": "A deliberate 45-minute river reset moved here from Day 4 to break the drive.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "green",
+      "operational_risk": "green",
+      "fallback_ids": [],
+      "fallback_place_id": null
     },
     {
       "id": "pa-capitol",
@@ -742,8 +1238,53 @@
         "status": "verified-current",
         "note": "Adult planning price; reconfirm before booking."
       },
-      "priority": "anchor",
-      "address": "Pennsylvania State Capitol"
+      "priority": "flex",
+      "address": "Pennsylvania State Capitol",
+      "country": "US",
+      "coordinates": [
+        -76.8837,
+        40.2644
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-pa-capitol-1",
+        "img-pa-capitol-2",
+        "img-pa-capitol-3",
+        "img-pa-capitol-4",
+        "img-pa-capitol-5",
+        "img-pa-capitol-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "included_in_magic_default": false,
+      "core_status": "flex",
+      "original_status": "demote-flex",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "skip_mode": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "skip_strategy": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "operational_risk": "reconfirm-if-activated",
+      "operational_confidence": "reconfirm-if-activated"
     },
     {
       "id": "antietam",
@@ -784,8 +1325,53 @@
         "status": "verified-current",
         "note": "Private vehicle pass planning amount."
       },
-      "priority": "anchor",
-      "address": "Antietam National Battlefield"
+      "priority": "optional",
+      "address": "Antietam National Battlefield",
+      "country": "US",
+      "coordinates": [
+        -77.7447,
+        39.468
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-antietam-1",
+        "img-antietam-2",
+        "img-antietam-3",
+        "img-antietam-4",
+        "img-antietam-5",
+        "img-antietam-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "included_in_magic_default": false,
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "skip_mode": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "skip_strategy": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "operational_risk": "reconfirm-if-activated",
+      "operational_confidence": "reconfirm-if-activated"
     },
     {
       "id": "harpers-lower-town",
@@ -797,21 +1383,22 @@
       "summary": "Steep brick streets run down to the point where the Potomac and Shenandoah rivers meet, under railway bridges and steep mountain walls.",
       "why_go": "Two rivers meet between mountains, with a whole old town on the slope above. One of the best views of the trip.",
       "best_for": [
-        "viki",
         "gora",
         "stivka"
       ],
       "secondary_for": [
+        "viki",
         "sheluvspaco"
       ],
-      "best_fit_note": "Good for everyone: nature for Viki, engineering and John Brown history for Gora, and a strong sunset for all four.",
+      "best_fit_note": "Primary fit: gora, stivka. The Point and Lower Town are walkable at any pace from the shuttle.",
       "categories": [
         "architecture_nature_photogenic",
         "hidden_history_folklore"
       ],
       "duration_minutes": 95,
       "source_ids": [
-        "src-harpers-hours"
+        "src-harpers-hours",
+        "src-v5-harpers"
       ],
       "reservation": "none",
       "hours": {
@@ -821,12 +1408,90 @@
         "note": "Most staffed museums 09:00-17:00; park and shuttle from the visitor center."
       },
       "cost": {
-        "amount_per_person": 20,
-        "status": "verified-current",
-        "note": "Vehicle pass; confirm current fee."
+        "amount_per_person": 10,
+        "low": 10,
+        "high": 10,
+        "amount_per_group": 40,
+        "price_type": "group-share",
+        "status": "verified",
+        "note": "Two $20 private-vehicle entries shared by four."
       },
       "priority": "anchor",
-      "address": "Harpers Ferry Lower Town & The Point"
+      "address": "Harpers Ferry Lower Town & The Point",
+      "country": "US",
+      "coordinates": [
+        -77.7389,
+        39.3232
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-harpers-lower-town-1",
+        "img-harpers-lower-town-2",
+        "img-harpers-lower-town-3",
+        "img-harpers-lower-town-4",
+        "img-harpers-lower-town-5",
+        "img-harpers-lower-town-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "included_in_magic_default": true,
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "high-impact-history-culture",
+      "texture": "EXPLORE",
+      "interaction_score": 3,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "booking_conflict": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "partial_participation_possible": true,
+        "rare_animal": false,
+        "hands_on_making": false,
+        "traditional_escape_room": false,
+        "photo_heavy": true
+      },
+      "viki_fit": 4,
+      "gora_fit": 5,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "group-share",
+      "price_per_person_low": 10,
+      "price_per_person_high": 10,
+      "price_per_group": 40,
+      "price_last_checked": "2026-09-01",
+      "physical_level": "light-moderate",
+      "skip_mode": "The Point and Lower Town are walkable at any pace from the shuttle.",
+      "skip_strategy": "The Point and Lower Town are walkable at any pace from the shuttle.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "green",
+      "operational_risk": "green",
+      "fallback_ids": [],
+      "fallback_place_id": null
     },
     {
       "id": "storer-college",
@@ -838,14 +1503,14 @@
       "summary": "On the hill above the town stand the remains of a college founded after the Civil War to educate people who had been enslaved. An early Niagara Movement meeting was held here.",
       "why_go": "The postcard town is below; the harder and more important story is up on this hill. It deserves real time.",
       "best_for": [
-        "gora",
-        "stivka"
+        "stivka",
+        "gora"
       ],
       "secondary_for": [
         "viki",
         "sheluvspaco"
       ],
-      "best_fit_note": "Good for Gora's search for the record underneath the tourist version. Stivka gets a story about faith and education.",
+      "best_fit_note": "Primary fit: stivka, gora. An uphill walk from Lower Town; the shuttle reaches Camp Hill directly.",
       "categories": [
         "hidden_history_folklore",
         "architecture_nature_photogenic"
@@ -863,11 +1528,86 @@
       },
       "cost": {
         "amount_per_person": 0,
-        "status": "verified-current",
-        "note": "Adult planning price; reconfirm before booking."
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
       },
-      "priority": "supporting",
-      "address": "Storer College & Camp Hill"
+      "priority": "anchor",
+      "address": "Storer College & Camp Hill",
+      "country": "US",
+      "coordinates": [
+        -77.7411,
+        39.324
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-storer-college-1",
+        "img-storer-college-2",
+        "img-storer-college-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "included_in_magic_default": true,
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "high-impact-history-culture",
+      "texture": "LEARN",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "booking_conflict": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "partial_participation_possible": true,
+        "rare_animal": false,
+        "hands_on_making": false,
+        "traditional_escape_room": false,
+        "photo_heavy": false
+      },
+      "viki_fit": 4,
+      "gora_fit": 5,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-09-01",
+      "physical_level": "easy",
+      "skip_mode": "An uphill walk from Lower Town; the shuttle reaches Camp Hill directly.",
+      "skip_strategy": "An uphill walk from Lower Town; the shuttle reaches Camp Hill directly.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "green",
+      "operational_risk": "green",
+      "fallback_ids": [],
+      "fallback_place_id": null
     },
     {
       "id": "virginius-island",
@@ -879,14 +1619,14 @@
       "summary": "An easy riverside path leads through the ruins of mills, canals, turbine pits and a rifle works, now overgrown by forest.",
       "why_go": "Industrial ruins being slowly eaten by the forest, on a flat and easy path. Beautiful and unsettling at once.",
       "best_for": [
-        "viki",
-        "gora"
+        "gora",
+        "viki"
       ],
       "secondary_for": [
-        "stivka",
-        "sheluvspaco"
+        "sheluvspaco",
+        "stivka"
       ],
-      "best_fit_note": "Good for Viki's photos and for Gora's industrial evidence, with almost no climbing.",
+      "best_fit_note": "Primary fit: gora, viki. A flat riverside ruins trail; it floods, so check conditions rather than forcing it.",
       "categories": [
         "architecture_nature_photogenic",
         "hidden_history_folklore"
@@ -904,62 +1644,86 @@
       },
       "cost": {
         "amount_per_person": 0,
-        "status": "verified-current",
-        "note": "Adult planning price; reconfirm before booking."
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
       },
-      "priority": "supporting",
-      "address": "Virginius Island Ruins Trail"
-    },
-    {
-      "id": "seton-shrine",
-      "name": "National Shrine of Saint Elizabeth Ann Seton",
-      "kind": "saint-history-shrine",
-      "city": "Emmitsburg",
-      "state": "MD",
-      "visit_date": "2026-10-08",
-      "summary": "A basilica, a museum and historic houses tell the story of Elizabeth Ann Seton, the first American-born Catholic saint, and the community she founded.",
-      "why_go": "A serious place of pilgrimage rather than another battlefield. It is Catholic, not Orthodox, and we say so plainly.",
-      "best_for": [
-        "stivka",
-        "viki"
+      "priority": "anchor",
+      "address": "Virginius Island Ruins Trail",
+      "country": "US",
+      "coordinates": [
+        -77.7392,
+        39.3215
       ],
-      "secondary_for": [
-        "gora",
-        "sheluvspaco"
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-virginius-island-1",
+        "img-virginius-island-2",
+        "img-virginius-island-3"
       ],
-      "best_fit_note": "Good for Stivka's faith. Gora gets the story of how a religious community was actually built and run.",
-      "categories": [
-        "orthodox_spiritual",
-        "architecture_nature_photogenic",
-        "hidden_history_folklore"
-      ],
-      "duration_minutes": 90,
-      "source_ids": [
-        "src-seton"
-      ],
-      "reservation": "none",
-      "hours": {
-        "opens": "10:00",
-        "closes": "17:00",
-        "status": "verified-current",
-        "note": "Daily; museum, basilica and historic areas have separate access patterns."
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
       },
-      "cost": {
-        "amount_per_person": 12,
-        "status": "verified-current",
-        "note": "Planning admission; basilica prayer access may be free."
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
       },
-      "priority": "replacement",
-      "replacement_reason": "Choose saint history and architecture over a second battlefield; explicitly Catholic, not an Orthodox service.",
-      "replacement": {
-        "day": 5,
-        "replaces_place_ids": [
-          "antietam"
-        ],
-        "route_variant_id": "replacement-d5-seton",
-        "reason": "Choose saint history and architecture over a second battlefield; explicitly Catholic, not an Orthodox service."
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "included_in_magic_default": true,
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "underground-industrial-infrastructure",
+      "texture": "EXPLORE",
+      "interaction_score": 3,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "booking_conflict": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "partial_participation_possible": true,
+        "rare_animal": false,
+        "hands_on_making": false,
+        "traditional_escape_room": false,
+        "photo_heavy": true
       },
-      "address": "National Shrine of Saint Elizabeth Ann Seton"
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-09-01",
+      "physical_level": "light-moderate",
+      "skip_mode": "A flat riverside ruins trail; it floods, so check conditions rather than forcing it.",
+      "skip_strategy": "A flat riverside ruins trail; it floods, so check conditions rather than forcing it.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "yellow",
+      "operational_risk": "yellow",
+      "fallback_ids": [],
+      "fallback_place_id": null
     },
     {
       "id": "luray-caverns",
@@ -972,20 +1736,21 @@
       "why_go": "An instrument that plays the cave. The chambers are the most theatrical underground space on the whole trip.",
       "best_for": [
         "viki",
-        "gora"
+        "stivka"
       ],
       "secondary_for": [
-        "stivka",
+        "gora",
         "sheluvspaco"
       ],
-      "best_fit_note": "Good for Viki's surreal photos and for Gora's geology and acoustics. No hard walking.",
+      "best_fit_note": "Primary fit: viki, stivka. A paved, lit, guided cavern route with no scrambling.",
       "categories": [
         "architecture_nature_photogenic",
         "unusual_creative"
       ],
       "duration_minutes": 110,
       "source_ids": [
-        "src-luray"
+        "src-luray",
+        "src-v5-luray"
       ],
       "reservation": "none",
       "hours": {
@@ -995,12 +1760,90 @@
         "note": "Daily after Labor Day through October 31."
       },
       "cost": {
-        "amount_per_person": 36,
-        "status": "verified-current",
-        "note": "Adult planning price; reconfirm before booking."
+        "amount_per_person": 34,
+        "low": 34,
+        "high": 34,
+        "amount_per_group": 136,
+        "price_type": "per-person",
+        "status": "verified",
+        "note": ""
       },
       "priority": "anchor",
-      "address": "Luray Caverns"
+      "address": "Luray Caverns",
+      "country": "US",
+      "coordinates": [
+        -78.4836,
+        38.6633
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-luray-caverns-1",
+        "img-luray-caverns-2",
+        "img-luray-caverns-3",
+        "img-luray-caverns-4",
+        "img-luray-caverns-5",
+        "img-luray-caverns-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "included_in_magic_default": true,
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "nature-geology-scenic",
+      "texture": "AWE",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "booking_conflict": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "partial_participation_possible": true,
+        "rare_animal": false,
+        "hands_on_making": false,
+        "traditional_escape_room": false,
+        "photo_heavy": true
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "per-person",
+      "price_per_person_low": 34,
+      "price_per_person_high": 34,
+      "price_per_group": 136,
+      "price_last_checked": "2026-09-01",
+      "physical_level": "easy",
+      "skip_mode": "A paved, lit, guided cavern route with no scrambling.",
+      "skip_strategy": "A paved, lit, guided cavern route with no scrambling.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "green",
+      "operational_risk": "green",
+      "fallback_ids": [],
+      "fallback_place_id": null
     },
     {
       "id": "skyline-overlooks",
@@ -1019,14 +1862,15 @@
         "gora",
         "sheluvspaco"
       ],
-      "best_fit_note": "Good for Viki's landscapes. Keeping it short protects the driving limit and everyone's energy.",
+      "best_fit_note": "Primary fit: viki, stivka. Selected high-value overlooks only; this is a driving sequence, not a hike.",
       "categories": [
         "architecture_nature_photogenic",
         "quiet_reset"
       ],
       "duration_minutes": 60,
       "source_ids": [
-        "src-skyline"
+        "src-skyline",
+        "src-v5-shenandoah"
       ],
       "reservation": "none",
       "hours": {
@@ -1036,12 +1880,90 @@
         "note": "Road generally open 24/7 but weather can close it without notice."
       },
       "cost": {
-        "amount_per_person": 30,
-        "status": "verified-current",
-        "note": "Shenandoah private-vehicle pass; shared across park stops."
+        "amount_per_person": 15,
+        "low": 15,
+        "high": 15,
+        "amount_per_group": 60,
+        "price_type": "group-share",
+        "status": "verified",
+        "note": "Two $30 Shenandoah vehicle passes shared by four."
       },
-      "priority": "supporting",
-      "address": "Skyline Drive Overlook Sequence"
+      "priority": "anchor",
+      "address": "Skyline Drive Overlook Sequence",
+      "country": "US",
+      "coordinates": [
+        -78.292,
+        38.6254
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-skyline-overlooks-1",
+        "img-skyline-overlooks-2",
+        "img-skyline-overlooks-3",
+        "img-skyline-overlooks-4",
+        "img-skyline-overlooks-5",
+        "img-skyline-overlooks-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "included_in_magic_default": true,
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "nature-geology-scenic",
+      "texture": "RELAX",
+      "interaction_score": 1,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "booking_conflict": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "partial_participation_possible": true,
+        "rare_animal": false,
+        "hands_on_making": false,
+        "traditional_escape_room": false,
+        "photo_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "group-share",
+      "price_per_person_low": 15,
+      "price_per_person_high": 15,
+      "price_per_group": 60,
+      "price_last_checked": "2026-09-01",
+      "physical_level": "easy",
+      "skip_mode": "Selected high-value overlooks only; this is a driving sequence, not a hike.",
+      "skip_strategy": "Selected high-value overlooks only; this is a driving sequence, not a hike.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "green",
+      "operational_risk": "green",
+      "fallback_ids": [],
+      "fallback_place_id": null
     },
     {
       "id": "stony-man",
@@ -1081,8 +2003,53 @@
         "status": "verified-current",
         "note": "Covered by park pass."
       },
-      "priority": "supporting",
-      "address": "Stony Man Summit"
+      "priority": "optional",
+      "address": "Stony Man Summit",
+      "country": "US",
+      "coordinates": [
+        -78.2815,
+        38.599
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-stony-man-1",
+        "img-stony-man-2",
+        "img-stony-man-3",
+        "img-stony-man-4",
+        "img-stony-man-5",
+        "img-stony-man-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "included_in_magic_default": false,
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "skip_mode": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "skip_strategy": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "operational_risk": "reconfirm-if-activated",
+      "operational_confidence": "reconfirm-if-activated"
     },
     {
       "id": "charlottesville-downtown",
@@ -1123,60 +2090,53 @@
         "status": "verified-current",
         "note": "Dinner allowance only; nightlife excluded."
       },
-      "priority": "anchor",
-      "address": "Charlottesville Downtown Mall"
-    },
-    {
-      "id": "shenandoah-caverns-fright",
-      "name": "Shenandoah Caverns + American Fright Night",
-      "kind": "cavern-night-event",
-      "city": "Quicksburg",
-      "state": "VA",
-      "visit_date": "2026-10-09",
-      "summary": "A quieter commercial cave that becomes a theatrical horror experience on this exact Friday night.",
-      "why_go": "A cave turned into a haunted attraction, on one specific night. Only worth it if the group wants that instead of a calm evening.",
-      "best_for": [
-        "viki",
-        "gora"
+      "priority": "flex",
+      "address": "Charlottesville Downtown Mall",
+      "country": "US",
+      "coordinates": [
+        -78.4819,
+        38.03
       ],
-      "secondary_for": [
-        "sheluvspaco",
-        "stivka"
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-charlottesville-downtown-1",
+        "img-charlottesville-downtown-2",
+        "img-charlottesville-downtown-3",
+        "img-charlottesville-downtown-4",
+        "img-charlottesville-downtown-5",
+        "img-charlottesville-downtown-6"
       ],
-      "best_fit_note": "Good for Stivka and Gora if the mood is right. It replaces Skyline color and a quiet dinner, so it is a real trade.",
-      "categories": [
-        "unusual_creative",
-        "social_nightlife_live"
-      ],
-      "duration_minutes": 160,
-      "source_ids": [
-        "src-shen-caverns"
-      ],
-      "reservation": "reserve",
-      "hours": {
-        "opens": "09:00",
-        "closes": "21:30",
-        "status": "verified-current",
-        "note": "Cavern last regular tour 16:00; Fright Night October 9 runs approximately 18:30-21:30."
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
       },
-      "cost": {
-        "amount_per_person": 35,
-        "status": "verified-current",
-        "note": "Combined planning estimate; confirm event ticket."
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
       },
-      "priority": "replacement",
-      "replacement_reason": "Exact-date spooky alternative; it creates a late Charlottesville arrival and replaces the whole daylight mountain program.",
-      "replacement": {
-        "day": 6,
-        "replaces_place_ids": [
-          "luray-caverns",
-          "skyline-overlooks",
-          "stony-man"
-        ],
-        "route_variant_id": "replacement-d6-shenandoah-fright",
-        "reason": "Exact-date spooky alternative; it creates a late Charlottesville arrival and replaces the whole daylight mountain program."
-      },
-      "address": "Shenandoah Caverns + American Fright Night"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "included_in_magic_default": false,
+      "core_status": "flex",
+      "original_status": "demote-flex",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "skip_mode": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "skip_strategy": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "operational_risk": "reconfirm-if-activated",
+      "operational_confidence": "reconfirm-if-activated"
     },
     {
       "id": "monticello",
@@ -1189,22 +2149,23 @@
       "why_go": "The famous building, told through the people who were owned on the same ground. It is a harder and better visit than the usual one.",
       "best_for": [
         "gora",
-        "viki"
+        "stivka"
       ],
       "secondary_for": [
-        "stivka",
+        "viki",
         "sheluvspaco"
       ],
-      "best_fit_note": "Good for Gora's interest in the contradiction under the national story, and for Viki's architecture. Paco gets a real conversation for the group.",
+      "best_fit_note": "Primary fit: gora, stivka. A guided outdoor landscape tour; the pace is set by the guide.",
       "categories": [
         "hidden_history_folklore",
         "architecture_nature_photogenic"
       ],
       "duration_minutes": 150,
       "source_ids": [
-        "src-monticello"
+        "src-monticello",
+        "src-v5-monticello"
       ],
-      "reservation": "reserve",
+      "reservation": "required",
       "hours": {
         "opens": "08:30",
         "closes": "17:30",
@@ -1212,12 +2173,89 @@
         "note": "Hours vary by date; reserve the morning From Slavery to Freedom product."
       },
       "cost": {
-        "amount_per_person": 42,
-        "status": "verified-current",
-        "note": "Adult planning price; reconfirm before booking."
+        "amount_per_person": 47,
+        "low": 47,
+        "high": 47,
+        "amount_per_group": 188,
+        "price_type": "per-person",
+        "status": "verified",
+        "note": ""
       },
       "priority": "anchor",
-      "address": "Monticello - From Slavery to Freedom"
+      "address": "Monticello - From Slavery to Freedom",
+      "country": "US",
+      "coordinates": [
+        -78.4529,
+        38.0322
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-monticello-1",
+        "img-monticello-2",
+        "img-monticello-3",
+        "img-monticello-4",
+        "img-monticello-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "included_in_magic_default": true,
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "high-impact-history-culture",
+      "texture": "LEARN",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "wet_surface_risk": false,
+        "booking_required": true,
+        "booking_conflict": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "partial_participation_possible": true,
+        "rare_animal": false,
+        "hands_on_making": false,
+        "traditional_escape_room": false,
+        "photo_heavy": false
+      },
+      "viki_fit": 4,
+      "gora_fit": 5,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "per-person",
+      "price_per_person_low": 47,
+      "price_per_person_high": 47,
+      "price_per_group": 188,
+      "price_last_checked": "2026-09-01",
+      "physical_level": "easy",
+      "skip_mode": "A guided outdoor landscape tour; the pace is set by the guide.",
+      "skip_strategy": "A guided outdoor landscape tour; the pace is set by the guide.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "yellow",
+      "operational_risk": "yellow",
+      "fallback_ids": [],
+      "fallback_place_id": null
     },
     {
       "id": "jefferson-school",
@@ -1257,8 +2295,50 @@
         "status": "verified-current",
         "note": "Suggested admission/donation planning amount."
       },
-      "priority": "anchor",
-      "address": "Jefferson School African American Heritage Center"
+      "priority": "optional",
+      "address": "Jefferson School African American Heritage Center",
+      "country": "US",
+      "coordinates": [
+        -78.4936,
+        38.031
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-jefferson-school-1",
+        "img-jefferson-school-2",
+        "img-jefferson-school-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "included_in_magic_default": false,
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "skip_mode": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "skip_strategy": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "operational_risk": "reconfirm-if-activated",
+      "operational_confidence": "reconfirm-if-activated"
     },
     {
       "id": "kluge-ruhe",
@@ -1298,8 +2378,53 @@
         "status": "verified-current",
         "note": "Adult planning price; reconfirm before booking."
       },
-      "priority": "anchor",
-      "address": "Kluge-Ruhe Aboriginal Art Collection"
+      "priority": "archive",
+      "address": "Kluge-Ruhe Aboriginal Art Collection",
+      "country": "US",
+      "coordinates": [
+        -78.4534,
+        37.9804
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-kluge-ruhe-1",
+        "img-kluge-ruhe-2",
+        "img-kluge-ruhe-3",
+        "img-kluge-ruhe-4",
+        "img-kluge-ruhe-5",
+        "img-kluge-ruhe-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "included_in_magic_default": false,
+      "core_status": "archive",
+      "original_status": "remove-archive",
+      "energy_rebuild_role": "preserved-revision-history",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "skip_mode": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "skip_strategy": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "operational_risk": "reconfirm-if-activated",
+      "operational_confidence": "reconfirm-if-activated"
     },
     {
       "id": "ix-looking-glass",
@@ -1339,8 +2464,50 @@
         "status": "verified-current",
         "note": "Planning ticket amount."
       },
-      "priority": "anchor",
-      "address": "IX Art Park & The Looking Glass"
+      "priority": "optional",
+      "address": "IX Art Park & The Looking Glass",
+      "country": "US",
+      "coordinates": [
+        -78.4832,
+        38.0233
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-ix-looking-glass-1",
+        "img-ix-looking-glass-2",
+        "img-ix-looking-glass-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "included_in_magic_default": false,
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "skip_mode": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "skip_strategy": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "operational_risk": "reconfirm-if-activated",
+      "operational_confidence": "reconfirm-if-activated"
     },
     {
       "id": "morgan-wade-jefferson",
@@ -1380,59 +2547,53 @@
         "status": "estimate",
         "note": "Ticket planning estimate; nightlife spend excluded."
       },
-      "priority": "anchor",
-      "address": "Morgan Wade at The Jefferson Theater"
-    },
-    {
-      "id": "exchange-hotel",
-      "name": "Exchange Hotel Civil War Medical Museum",
-      "kind": "field-hospital-museum",
-      "city": "Gordonsville",
-      "state": "VA",
-      "visit_date": "2026-10-10",
-      "summary": "A former railway hotel that became a Civil War receiving hospital. The medical rooms, the graffiti on the walls, and the human cost are all still there.",
-      "why_go": "A hospital where the wounded actually arrived, with their marks still on the walls. Small, dark and very direct.",
-      "best_for": [
-        "gora",
-        "stivka"
+      "priority": "optional-social",
+      "address": "Morgan Wade at The Jefferson Theater",
+      "country": "US",
+      "coordinates": [
+        -78.4836,
+        38.0311
       ],
-      "secondary_for": [
-        "viki",
-        "sheluvspaco"
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-morgan-wade-jefferson-1",
+        "img-morgan-wade-jefferson-2",
+        "img-morgan-wade-jefferson-3",
+        "img-morgan-wade-jefferson-4",
+        "img-morgan-wade-jefferson-5",
+        "img-morgan-wade-jefferson-6"
       ],
-      "best_fit_note": "Good for Gora when Monticello is fully booked or the group wants history without crowds.",
-      "categories": [
-        "hidden_history_folklore",
-        "unusual_creative"
-      ],
-      "duration_minutes": 120,
-      "source_ids": [
-        "src-exchange"
-      ],
-      "reservation": "none",
-      "hours": {
-        "opens": "10:00",
-        "closes": "16:00",
-        "status": "verified-current",
-        "note": "Saturday open."
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
       },
-      "cost": {
-        "amount_per_person": 16,
-        "status": "verified-current",
-        "note": "Adult planning price; reconfirm before booking."
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
       },
-      "priority": "replacement",
-      "replacement_reason": "Trade the two-city history anchors for a compact, eerie field-hospital story; preserve Kluge, IX and the concert.",
-      "replacement": {
-        "day": 7,
-        "replaces_place_ids": [
-          "monticello",
-          "jefferson-school"
-        ],
-        "route_variant_id": "replacement-d7-exchange-hotel",
-        "reason": "Trade the two-city history anchors for a compact, eerie field-hospital story; preserve Kluge, IX and the concert."
-      },
-      "address": "Exchange Hotel Civil War Medical Museum"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "included_in_magic_default": false,
+      "core_status": "optional-social",
+      "original_status": "keep-optional-social",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "skip_mode": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "skip_strategy": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "operational_risk": "reconfirm-if-activated",
+      "operational_confidence": "reconfirm-if-activated"
     },
     {
       "id": "transfiguration-orthodox",
@@ -1444,13 +2605,14 @@
       "summary": "A real parish Sunday: Orthros and then the Divine Liturgy. We attend the service, we do not tour the building.",
       "why_go": "Sunday stays a real Sunday before the long drive north, and all four of us share it.",
       "best_for": [
-        "stivka",
-        "sheluvspaco",
-        "viki",
-        "gora"
+        "stivka"
       ],
-      "secondary_for": [],
-      "best_fit_note": "Good for Stivka above all, and shared ground for the whole group. We follow the parish and stay to the end.",
+      "secondary_for": [
+        "viki",
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: stivka. Protect the liturgy rather than treating it as an architecture stop.",
       "categories": [
         "orthodox_spiritual",
         "local_culture"
@@ -1459,7 +2621,7 @@
       "source_ids": [
         "src-transfiguration"
       ],
-      "reservation": "reconfirm-parish-calendar",
+      "reservation": "none",
       "hours": {
         "opens": "09:00",
         "closes": "11:30",
@@ -1468,11 +2630,86 @@
       },
       "cost": {
         "amount_per_person": 0,
-        "status": "verified-current",
-        "note": "Free worship; discreet donation optional."
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
       },
       "priority": "anchor",
-      "address": "Transfiguration Greek Orthodox Church"
+      "address": "Transfiguration Greek Orthodox Church",
+      "country": "US",
+      "coordinates": [
+        -78.4797,
+        38.036
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-transfiguration-orthodox-1",
+        "img-transfiguration-orthodox-2",
+        "img-transfiguration-orthodox-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "included_in_magic_default": true,
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "sacred-spiritual",
+      "texture": "WORSHIP",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "booking_conflict": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "partial_participation_possible": true,
+        "rare_animal": false,
+        "hands_on_making": false,
+        "traditional_escape_room": false,
+        "photo_heavy": false
+      },
+      "viki_fit": 4,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-09-01",
+      "physical_level": "easy",
+      "skip_mode": "Protect the liturgy rather than treating it as an architecture stop.",
+      "skip_strategy": "Protect the liturgy rather than treating it as an architecture stop.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "green",
+      "operational_risk": "green",
+      "fallback_ids": [],
+      "fallback_place_id": null
     },
     {
       "id": "civil-war-medicine",
@@ -1512,59 +2749,53 @@
         "status": "verified-current",
         "note": "Adult planning price; reconfirm before booking."
       },
-      "priority": "anchor",
-      "address": "National Museum of Civil War Medicine"
-    },
-    {
-      "id": "balls-bluff",
-      "name": "Ball's Bluff Battlefield & National Cemetery",
-      "kind": "river-bluff-history-trail",
-      "city": "Leesburg",
-      "state": "VA",
-      "visit_date": "2026-10-11",
-      "summary": "A one-mile woodland loop reaches a tiny national cemetery and the steep bluff above the Potomac. Bad information, makeshift boats and confused orders turned a small 1861 movement into a disaster.",
-      "why_go": "A small battle that went wrong in every possible way, on a quiet walk above the river. A good way to move after church.",
-      "best_for": [
-        "gora",
-        "viki"
+      "priority": "optional",
+      "address": "National Museum of Civil War Medicine",
+      "country": "US",
+      "coordinates": [
+        -77.4107,
+        39.4154
       ],
-      "secondary_for": [
-        "stivka",
-        "sheluvspaco"
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-civil-war-medicine-1",
+        "img-civil-war-medicine-2",
+        "img-civil-war-medicine-3",
+        "img-civil-war-medicine-4",
+        "img-civil-war-medicine-5",
+        "img-civil-war-medicine-6"
       ],
-      "best_fit_note": "Good for Gora's interest in how myths get made, and for Viki's quiet autumn river view. Gentle walking for everyone.",
-      "categories": [
-        "hidden_history_folklore",
-        "architecture_nature_photogenic",
-        "quiet_reset"
-      ],
-      "duration_minutes": 90,
-      "source_ids": [
-        "src-balls-bluff"
-      ],
-      "reservation": "none",
-      "hours": {
-        "opens": null,
-        "closes": null,
-        "status": "verified-current",
-        "note": "Park open dawn-dusk. The free Sunday tours are at 11:00 and 13:00, but this route arrives later and uses the official self-guided trail; terrain is moderately difficult."
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
       },
-      "cost": {
-        "amount_per_person": 0,
-        "status": "verified-current",
-        "note": "Free regional park."
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
       },
-      "priority": "replacement",
-      "replacement_reason": "Choose one evidence-rich outdoor story and Potomac overlook when the group needs air after church instead of another museum.",
-      "replacement": {
-        "day": 8,
-        "replaces_place_ids": [
-          "civil-war-medicine"
-        ],
-        "route_variant_id": "replacement-d8-balls-bluff",
-        "reason": "Choose one evidence-rich outdoor story and Potomac overlook when the group needs air after church instead of another museum."
-      },
-      "address": "Ball's Bluff Battlefield & National Cemetery"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "included_in_magic_default": false,
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "skip_mode": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "skip_strategy": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "operational_risk": "reconfirm-if-activated",
+      "operational_confidence": "reconfirm-if-activated"
     },
     {
       "id": "burnside-plantation",
@@ -1606,59 +2837,53 @@
         "status": "verified-current",
         "note": "Adult planning price; reconfirm before booking."
       },
-      "priority": "anchor",
-      "address": "Burnside Plantation"
-    },
-    {
-      "id": "illicks-mill",
-      "name": "Illick's Mill & Monocacy Creek",
-      "kind": "mill-trail",
-      "city": "Bethlehem",
-      "state": "PA",
-      "visit_date": "2026-10-12",
-      "summary": "A stone mill and a creek corridor with a fish passage, hidden inside modern Bethlehem beside a small green walkway.",
-      "why_go": "Moving water, stone and old industry in a short walk. Less to see than the farm, but easier and quieter.",
-      "best_for": [
-        "viki",
-        "stivka"
+      "priority": "archive",
+      "address": "Burnside Plantation",
+      "country": "US",
+      "coordinates": [
+        -75.395,
+        40.637
       ],
-      "secondary_for": [
-        "gora",
-        "sheluvspaco"
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-burnside-plantation-1",
+        "img-burnside-plantation-2",
+        "img-burnside-plantation-3",
+        "img-burnside-plantation-4",
+        "img-burnside-plantation-5",
+        "img-burnside-plantation-6"
       ],
-      "best_fit_note": "Good for Viki's water and stone photos and for Gora's industrial detail. Short and restful.",
-      "categories": [
-        "architecture_nature_photogenic",
-        "quiet_reset",
-        "hidden_history_folklore"
-      ],
-      "duration_minutes": 65,
-      "source_ids": [
-        "src-illicks"
-      ],
-      "reservation": "none",
-      "hours": {
-        "opens": null,
-        "closes": null,
-        "status": "verified-current",
-        "note": "Outdoor trail in daylight; mill interior is not promised."
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
       },
-      "cost": {
-        "amount_per_person": 0,
-        "status": "verified-current",
-        "note": "Adult planning price; reconfirm before booking."
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
       },
-      "priority": "replacement",
-      "replacement_reason": "A shorter creek-and-mill reset on the same Bethlehem edge; no interior promise.",
-      "replacement": {
-        "day": 9,
-        "replaces_place_ids": [
-          "burnside-plantation"
-        ],
-        "route_variant_id": "replacement-d9-illicks-mill",
-        "reason": "A shorter creek-and-mill reset on the same Bethlehem edge; no interior promise."
-      },
-      "address": "Illick's Mill & Monocacy Creek"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "included_in_magic_default": false,
+      "core_status": "archive",
+      "original_status": "remove-archive",
+      "energy_rebuild_role": "preserved-revision-history",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "skip_mode": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "skip_strategy": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "operational_risk": "reconfirm-if-activated",
+      "operational_confidence": "reconfirm-if-activated"
     },
     {
       "id": "fairfield-hills",
@@ -1700,8 +2925,952 @@
         "status": "verified-current",
         "note": "Adult planning price; reconfirm before booking."
       },
+      "priority": "flex",
+      "address": "Fairfield Hills Adaptive-Reuse Campus",
+      "country": "US",
+      "coordinates": [
+        -73.3036,
+        41.4141
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-fairfield-hills-1",
+        "img-fairfield-hills-2",
+        "img-fairfield-hills-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "included_in_magic_default": false,
+      "core_status": "flex",
+      "original_status": "demote-flex",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "skip_mode": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "skip_strategy": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "operational_risk": "reconfirm-if-activated",
+      "operational_confidence": "reconfirm-if-activated"
+    },
+    {
+      "id": "mapparium",
+      "name": "Mapparium Globe",
+      "kind": "immersive-stained-glass-map",
+      "city": "Boston",
+      "state": "MA",
+      "visit_date": "2026-10-14",
+      "summary": "A walkway passes through the inside of a three-story stained-glass globe showing the world as it was mapped in 1935. The sound behaves very strangely inside it.",
+      "why_go": "You walk inside the world. The glass shows borders that no longer exist, and a whisper carries right across the room.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: viki, stivka. A short walk through the stained-glass globe; fully indoors and seated waiting.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "unusual_creative",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 80,
+      "source_ids": [
+        "src-mapparium",
+        "src-v5-mapparium"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Wednesday open; last tour 16:40. Photography is permitted only after the presentation under the venue policy."
+      },
+      "cost": {
+        "amount_per_person": 6,
+        "low": 6,
+        "high": 6,
+        "amount_per_group": 24,
+        "price_type": "per-person",
+        "status": "verified",
+        "note": ""
+      },
       "priority": "anchor",
-      "address": "Fairfield Hills Adaptive-Reuse Campus"
+      "address": "Mapparium Globe",
+      "country": "US",
+      "coordinates": [
+        -71.0873,
+        42.344
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-mapparium-1",
+        "img-mapparium-2",
+        "img-mapparium-3",
+        "img-mapparium-4",
+        "img-mapparium-5",
+        "img-mapparium-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "included_in_magic_default": true,
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "immersive-curiosity",
+      "texture": "AWE",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "booking_conflict": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "partial_participation_possible": true,
+        "rare_animal": false,
+        "hands_on_making": false,
+        "traditional_escape_room": false,
+        "photo_heavy": true
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "per-person",
+      "price_per_person_low": 6,
+      "price_per_person_high": 6,
+      "price_per_group": 24,
+      "price_last_checked": "2026-09-01",
+      "physical_level": "easy",
+      "skip_mode": "A short walk through the stained-glass globe; fully indoors and seated waiting.",
+      "skip_strategy": "A short walk through the stained-glass globe; fully indoors and seated waiting.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "green",
+      "operational_risk": "green",
+      "fallback_ids": [],
+      "fallback_place_id": null
+    },
+    {
+      "id": "mark-twain-house",
+      "name": "The Mark Twain House & Museum",
+      "kind": "gothic-writer-house",
+      "city": "Hartford",
+      "state": "CT",
+      "visit_date": "2026-10-04",
+      "summary": "Mark Twain's 25-room red brick house, full of carved wood and patterned walls. He wrote several of his major books in the billiard room upstairs.",
+      "why_go": "One writer's house, one guided story, and the room where the books were actually written. More personal than a huge museum.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's love of decorated interiors, and for Gora, who wants the real person behind the famous name.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore",
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-mark-twain"
+      ],
+      "reservation": "reserve",
+      "hours": {
+        "opens": "09:30",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Open seven days in October with last house tour currently listed at 16:15; timed guided tour is required and can sell out."
+      },
+      "cost": {
+        "amount_per_person": 29,
+        "status": "estimate",
+        "note": "Planning estimate; choose an available timed house tour."
+      },
+      "priority": "alternative",
+      "replacement_reason": "A tighter human story and more theatrical interior when the group wants a guided house rather than a broad museum.",
+      "address": "The Mark Twain House & Museum",
+      "country": "US",
+      "coordinates": [
+        -72.7004,
+        41.7671
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-mark-twain-house-1",
+        "img-mark-twain-house-2",
+        "img-mark-twain-house-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "included_in_magic_default": false,
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "skip_mode": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "skip_strategy": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "operational_risk": "reconfirm-if-activated",
+      "operational_confidence": "reconfirm-if-activated"
+    },
+    {
+      "id": "houdini-museum",
+      "name": "Houdini Museum",
+      "kind": "magic-cabinet",
+      "city": "Scranton",
+      "state": "PA",
+      "visit_date": "2026-10-05",
+      "summary": "A small and deliberately odd collection of Harry Houdini objects in an old Scranton building, shown with live magic.",
+      "why_go": "A personal, slightly chaotic museum with a live magic show. Much more intimate than the rail yard.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Viki's love of strange places and Paco's group fun. Gora gets the real history behind the tricks.",
+      "categories": [
+        "unusual_creative",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-houdini"
+      ],
+      "reservation": "call",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "call-to-confirm",
+        "note": "Year-round but date and show time require a direct phone confirmation."
+      },
+      "cost": {
+        "amount_per_person": 25,
+        "status": "estimate",
+        "note": "Planning estimate until direct confirmation."
+      },
+      "priority": "alternative",
+      "replacement_reason": "Use when weather is poor or the group wants one concentrated oddity instead of two industrial sites.",
+      "address": "Houdini Museum",
+      "country": "US",
+      "coordinates": [
+        -75.678,
+        41.4404
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-houdini-museum-1",
+        "img-houdini-museum-2",
+        "img-houdini-museum-3",
+        "img-houdini-museum-4",
+        "img-houdini-museum-5",
+        "img-houdini-museum-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "included_in_magic_default": false,
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "skip_mode": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "skip_strategy": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "operational_risk": "reconfirm-if-activated",
+      "operational_confidence": "reconfirm-if-activated"
+    },
+    {
+      "id": "wolf-sanctuary",
+      "name": "Wolf Sanctuary of Pennsylvania",
+      "kind": "wildlife-sanctuary",
+      "city": "Lititz",
+      "state": "PA",
+      "visit_date": "2026-10-06",
+      "summary": "A booked walk among rescued wolves and wolf-dogs, with guides who explain their behavior and how they are cared for.",
+      "why_go": "Real wolves, a few feet away, with people who know them. You must book ahead.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's animal photos and for Stivka's gentle side. Gora gets the science of how they live.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-wolves"
+      ],
+      "reservation": "reserve",
+      "hours": {
+        "opens": "10:00",
+        "closes": "11:30",
+        "status": "verified-current",
+        "note": "Tuesday public tour begins at 10:00; reservation required."
+      },
+      "cost": {
+        "amount_per_person": 25,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "alternative",
+      "replacement_reason": "Trade precision machines for a high-emotion wildlife encounter; requires an early Scranton departure.",
+      "address": "Wolf Sanctuary of Pennsylvania",
+      "country": "US",
+      "coordinates": [
+        -76.3412,
+        40.2145
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-wolf-sanctuary-1",
+        "img-wolf-sanctuary-2",
+        "img-wolf-sanctuary-3",
+        "img-wolf-sanctuary-4",
+        "img-wolf-sanctuary-5",
+        "img-wolf-sanctuary-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "included_in_magic_default": false,
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "skip_mode": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "skip_strategy": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "operational_risk": "reconfirm-if-activated",
+      "operational_confidence": "reconfirm-if-activated"
+    },
+    {
+      "id": "turkey-hill-experience",
+      "name": "Turkey Hill Experience",
+      "kind": "food-lab",
+      "city": "Columbia",
+      "state": "PA",
+      "visit_date": "2026-10-06",
+      "summary": "A hands-on brand museum where you design your own ice cream flavor and packaging, with an optional lab where you make some.",
+      "why_go": "You invent an ice cream and then eat it. A light, social break when everyone is tired of museums.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Paco's group mood and Viki's creative side. Easy and fun for all four.",
+      "categories": [
+        "unusual_creative",
+        "food_cafes"
+      ],
+      "duration_minutes": 120,
+      "source_ids": [
+        "src-turkey-hill"
+      ],
+      "reservation": "reserve-lab",
+      "hours": {
+        "opens": "10:00",
+        "closes": "16:00",
+        "status": "verified-current",
+        "note": "Reconfirm exact October 7 entry windows."
+      },
+      "cost": {
+        "amount_per_person": 25,
+        "status": "estimate",
+        "note": "Experience plus lab planning allowance."
+      },
+      "priority": "alternative",
+      "replacement_reason": "Swap trains and bridge for an interactive flavor-making afternoon in poor weather.",
+      "address": "Turkey Hill Experience",
+      "country": "US",
+      "coordinates": [
+        -76.495,
+        40.0407
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-turkey-hill-experience-1",
+        "img-turkey-hill-experience-2",
+        "img-turkey-hill-experience-3",
+        "img-turkey-hill-experience-4",
+        "img-turkey-hill-experience-5",
+        "img-turkey-hill-experience-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "included_in_magic_default": false,
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "skip_mode": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "skip_strategy": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "operational_risk": "reconfirm-if-activated",
+      "operational_confidence": "reconfirm-if-activated"
+    },
+    {
+      "id": "seton-shrine",
+      "name": "National Shrine of Saint Elizabeth Ann Seton",
+      "kind": "saint-history-shrine",
+      "city": "Emmitsburg",
+      "state": "MD",
+      "visit_date": "2026-10-08",
+      "summary": "A basilica, a museum and historic houses tell the story of Elizabeth Ann Seton, the first American-born Catholic saint, and the community she founded.",
+      "why_go": "A serious place of pilgrimage rather than another battlefield. It is Catholic, not Orthodox, and we say so plainly.",
+      "best_for": [
+        "stivka",
+        "viki"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Stivka's faith. Gora gets the story of how a religious community was actually built and run.",
+      "categories": [
+        "orthodox_spiritual",
+        "architecture_nature_photogenic",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-seton"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Daily; museum, basilica and historic areas have separate access patterns."
+      },
+      "cost": {
+        "amount_per_person": 12,
+        "status": "verified-current",
+        "note": "Planning admission; basilica prayer access may be free."
+      },
+      "priority": "alternative",
+      "replacement_reason": "Choose saint history and architecture over a second battlefield; explicitly Catholic, not an Orthodox service.",
+      "address": "National Shrine of Saint Elizabeth Ann Seton",
+      "country": "US",
+      "coordinates": [
+        -77.325,
+        39.6993
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-seton-shrine-1",
+        "img-seton-shrine-2",
+        "img-seton-shrine-3",
+        "img-seton-shrine-4",
+        "img-seton-shrine-5",
+        "img-seton-shrine-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "included_in_magic_default": false,
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "skip_mode": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "skip_strategy": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "operational_risk": "reconfirm-if-activated",
+      "operational_confidence": "reconfirm-if-activated"
+    },
+    {
+      "id": "shenandoah-caverns-fright",
+      "name": "Shenandoah Caverns + American Fright Night",
+      "kind": "cavern-night-event",
+      "city": "Quicksburg",
+      "state": "VA",
+      "visit_date": "2026-10-09",
+      "summary": "A quieter commercial cave that becomes a theatrical horror experience on this exact Friday night.",
+      "why_go": "A cave turned into a haunted attraction, on one specific night. Only worth it if the group wants that instead of a calm evening.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Stivka and Gora if the mood is right. It replaces Skyline color and a quiet dinner, so it is a real trade.",
+      "categories": [
+        "unusual_creative",
+        "social_nightlife_live"
+      ],
+      "duration_minutes": 160,
+      "source_ids": [
+        "src-shen-caverns"
+      ],
+      "reservation": "reserve",
+      "hours": {
+        "opens": "09:00",
+        "closes": "21:30",
+        "status": "verified-current",
+        "note": "Cavern last regular tour 16:00; Fright Night October 9 runs approximately 18:30-21:30."
+      },
+      "cost": {
+        "amount_per_person": 35,
+        "status": "verified-current",
+        "note": "Combined planning estimate; confirm event ticket."
+      },
+      "priority": "alternative",
+      "replacement_reason": "Exact-date spooky alternative; it creates a late Charlottesville arrival and replaces the whole daylight mountain program.",
+      "address": "Shenandoah Caverns + American Fright Night",
+      "country": "US",
+      "coordinates": [
+        -78.6809,
+        38.614
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-shenandoah-caverns-fright-1",
+        "img-shenandoah-caverns-fright-2",
+        "img-shenandoah-caverns-fright-3",
+        "img-shenandoah-caverns-fright-4",
+        "img-shenandoah-caverns-fright-5",
+        "img-shenandoah-caverns-fright-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "included_in_magic_default": false,
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "skip_mode": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "skip_strategy": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "operational_risk": "reconfirm-if-activated",
+      "operational_confidence": "reconfirm-if-activated"
+    },
+    {
+      "id": "exchange-hotel",
+      "name": "Exchange Hotel Civil War Medical Museum",
+      "kind": "field-hospital-museum",
+      "city": "Gordonsville",
+      "state": "VA",
+      "visit_date": "2026-10-10",
+      "summary": "A former railway hotel that became a Civil War receiving hospital. The medical rooms, the graffiti on the walls, and the human cost are all still there.",
+      "why_go": "A hospital where the wounded actually arrived, with their marks still on the walls. Small, dark and very direct.",
+      "best_for": [
+        "gora",
+        "stivka"
+      ],
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Gora when Monticello is fully booked or the group wants history without crowds.",
+      "categories": [
+        "hidden_history_folklore",
+        "unusual_creative"
+      ],
+      "duration_minutes": 120,
+      "source_ids": [
+        "src-exchange"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "16:00",
+        "status": "verified-current",
+        "note": "Saturday open."
+      },
+      "cost": {
+        "amount_per_person": 16,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "alternative",
+      "replacement_reason": "Trade the two-city history anchors for a compact, eerie field-hospital story; preserve Kluge, IX and the concert.",
+      "address": "Exchange Hotel Civil War Medical Museum",
+      "country": "US",
+      "coordinates": [
+        -78.187,
+        38.1331
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-exchange-hotel-1",
+        "img-exchange-hotel-2",
+        "img-exchange-hotel-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "included_in_magic_default": false,
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "skip_mode": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "skip_strategy": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "operational_risk": "reconfirm-if-activated",
+      "operational_confidence": "reconfirm-if-activated"
+    },
+    {
+      "id": "balls-bluff",
+      "name": "Ball's Bluff Battlefield & National Cemetery",
+      "kind": "river-bluff-history-trail",
+      "city": "Leesburg",
+      "state": "VA",
+      "visit_date": "2026-10-11",
+      "summary": "A one-mile woodland loop reaches a tiny national cemetery and the steep bluff above the Potomac. Bad information, makeshift boats and confused orders turned a small 1861 movement into a disaster.",
+      "why_go": "A small battle that went wrong in every possible way, on a quiet walk above the river. A good way to move after church.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Gora's interest in how myths get made, and for Viki's quiet autumn river view. Gentle walking for everyone.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_nature_photogenic",
+        "quiet_reset"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-balls-bluff"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "verified-current",
+        "note": "Park open dawn-dusk. The free Sunday tours are at 11:00 and 13:00, but this route arrives later and uses the official self-guided trail; terrain is moderately difficult."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Free regional park."
+      },
+      "priority": "alternative",
+      "replacement_reason": "Choose one evidence-rich outdoor story and Potomac overlook when the group needs air after church instead of another museum.",
+      "address": "Ball's Bluff Battlefield & National Cemetery",
+      "country": "US",
+      "coordinates": [
+        -77.5297,
+        39.1303
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-balls-bluff-1",
+        "img-balls-bluff-2",
+        "img-balls-bluff-3",
+        "img-balls-bluff-4",
+        "img-balls-bluff-5",
+        "img-balls-bluff-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "included_in_magic_default": false,
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "skip_mode": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "skip_strategy": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "operational_risk": "reconfirm-if-activated",
+      "operational_confidence": "reconfirm-if-activated"
+    },
+    {
+      "id": "illicks-mill",
+      "name": "Illick's Mill & Monocacy Creek",
+      "kind": "mill-trail",
+      "city": "Bethlehem",
+      "state": "PA",
+      "visit_date": "2026-10-12",
+      "summary": "A stone mill and a creek corridor with a fish passage, hidden inside modern Bethlehem beside a small green walkway.",
+      "why_go": "Moving water, stone and old industry in a short walk. Less to see than the farm, but easier and quieter.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's water and stone photos and for Gora's industrial detail. Short and restful.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "quiet_reset",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 65,
+      "source_ids": [
+        "src-illicks"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "verified-current",
+        "note": "Outdoor trail in daylight; mill interior is not promised."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "alternative",
+      "replacement_reason": "A shorter creek-and-mill reset on the same Bethlehem edge; no interior promise.",
+      "address": "Illick's Mill & Monocacy Creek",
+      "country": "US",
+      "coordinates": [
+        -75.404,
+        40.6518
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-illicks-mill-1",
+        "img-illicks-mill-2",
+        "img-illicks-mill-3",
+        "img-illicks-mill-4",
+        "img-illicks-mill-5",
+        "img-illicks-mill-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "included_in_magic_default": false,
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "skip_mode": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "skip_strategy": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "operational_risk": "reconfirm-if-activated",
+      "operational_confidence": "reconfirm-if-activated"
     },
     {
       "id": "newtown-meeting-house",
@@ -1742,59 +3911,54 @@
         "status": "verified-current",
         "note": "Adult planning price; reconfirm before booking."
       },
-      "priority": "replacement",
+      "priority": "alternative",
       "replacement_reason": "Choose a calm meeting-house streetscape instead of institutional history; bed-to-bed driving is effectively unchanged.",
-      "replacement": {
-        "day": 10,
-        "replaces_place_ids": [
-          "fairfield-hills"
-        ],
-        "route_variant_id": "replacement-d10-newtown-meeting",
-        "reason": "Choose a calm meeting-house streetscape instead of institutional history; bed-to-bed driving is effectively unchanged."
+      "address": "Newtown Meeting House & Flagpole",
+      "country": "US",
+      "coordinates": [
+        -73.3031,
+        41.4149
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-newtown-meeting-house-1",
+        "img-newtown-meeting-house-2",
+        "img-newtown-meeting-house-3",
+        "img-newtown-meeting-house-4",
+        "img-newtown-meeting-house-5",
+        "img-newtown-meeting-house-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
       },
-      "address": "Newtown Meeting House & Flagpole"
-    },
-    {
-      "id": "mapparium",
-      "name": "Mapparium Globe",
-      "kind": "immersive-stained-glass-map",
-      "city": "Boston",
-      "state": "MA",
-      "visit_date": "2026-10-14",
-      "summary": "A walkway passes through the inside of a three-story stained-glass globe showing the world as it was mapped in 1935. The sound behaves very strangely inside it.",
-      "why_go": "You walk inside the world. The glass shows borders that no longer exist, and a whisper carries right across the room.",
-      "best_for": [
-        "viki",
-        "gora",
-        "stivka"
-      ],
-      "secondary_for": [
-        "sheluvspaco"
-      ],
-      "best_fit_note": "Good for Viki's photos, Gora's interest in changing borders, and Stivka's feeling for unusual sacred spaces.",
-      "categories": [
-        "architecture_nature_photogenic",
-        "unusual_creative",
-        "hidden_history_folklore"
-      ],
-      "duration_minutes": 80,
-      "source_ids": [
-        "src-mapparium"
-      ],
-      "reservation": "reserve",
-      "hours": {
-        "opens": "10:00",
-        "closes": "17:00",
-        "status": "verified-current",
-        "note": "Wednesday open; last tour 16:40. Photography is permitted only after the presentation under the venue policy."
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
       },
-      "cost": {
-        "amount_per_person": 6,
-        "status": "verified-current",
-        "note": "Adult planning price; reconfirm before booking."
-      },
-      "priority": "anchor",
-      "address": "Mapparium Globe"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "included_in_magic_default": false,
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "skip_mode": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "skip_strategy": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "operational_risk": "reconfirm-if-activated",
+      "operational_confidence": "reconfirm-if-activated"
     },
     {
       "id": "worcester-arms-armor",
@@ -1836,17 +4000,1670 @@
         "status": "verified-current",
         "note": "Adult planning price; reconfirm before booking."
       },
-      "priority": "replacement",
+      "priority": "alternative",
       "replacement_reason": "Use the easier I-84/I-90 stop when Boston traffic or Mapparium tickets threaten the protected Logan return.",
-      "replacement": {
-        "day": 11,
-        "replaces_place_ids": [
-          "mapparium"
-        ],
-        "route_variant_id": "replacement-d11-worcester-armor",
-        "reason": "Use the easier I-84/I-90 stop when Boston traffic or Mapparium tickets threaten the protected Logan return."
+      "address": "Worcester Art Museum - Arms & Armor Galleries",
+      "country": "US",
+      "coordinates": [
+        -71.802,
+        42.273
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-worcester-arms-armor-1",
+        "img-worcester-arms-armor-2",
+        "img-worcester-arms-armor-3",
+        "img-worcester-arms-armor-4",
+        "img-worcester-arms-armor-5",
+        "img-worcester-arms-armor-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
       },
-      "address": "Worcester Art Museum - Arms & Armor Galleries"
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "included_in_magic_default": false,
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "skip_mode": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "skip_strategy": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "operational_risk": "reconfirm-if-activated",
+      "operational_confidence": "reconfirm-if-activated"
+    },
+    {
+      "name": "Rock House Reservation",
+      "kind": "glacial-rock-shelter",
+      "city": "West Brookfield",
+      "state": "MA",
+      "address": "Rock House Reservation, West Brookfield, MA 01585",
+      "summary": "A glacial rock chamber used as a shelter for thousands of years, with a small pond and short trails around it.",
+      "why_go": "It opens the route with geology you physically walk into instead of an indoor art block.",
+      "id": "rock-house-reservation",
+      "country": "US",
+      "visit_date": "2026-10-04",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Primary fit: gora, viki. A short walk to the rock shelter; turn back whenever the group has seen it.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
+      },
+      "source_ids": [
+        "src-v5-rock-house"
+      ],
+      "coordinates": [
+        -72.1985,
+        42.2713
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "included_in_magic_default": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "nature-geology-scenic",
+      "texture": "WILD",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "booking_conflict": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "partial_participation_possible": true,
+        "rare_animal": false,
+        "hands_on_making": false,
+        "traditional_escape_room": false,
+        "photo_heavy": true
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-09-01",
+      "physical_level": "easy",
+      "skip_mode": "A short walk to the rock shelter; turn back whenever the group has seen it.",
+      "skip_strategy": "A short walk to the rock shelter; turn back whenever the group has seen it.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "green",
+      "operational_risk": "green",
+      "fallback_ids": [],
+      "fallback_place_id": null,
+      "data_status": "complete",
+      "image_ids": [
+        "img-rock-house-reservation-1",
+        "img-rock-house-reservation-2",
+        "img-rock-house-reservation-3"
+      ]
+    },
+    {
+      "name": "Eckley Miners' Village",
+      "kind": "coal-patch-village",
+      "city": "Weatherly",
+      "state": "PA",
+      "address": "Eckley Miners' Village, Weatherly, PA 18255",
+      "summary": "A preserved anthracite company town whose street of miners' houses can be walked or driven even when the museum is shut.",
+      "why_go": "A real worker settlement replaces a display collection, and the Tuesday museum closure costs the route nothing.",
+      "id": "eckley-miners-village",
+      "country": "US",
+      "visit_date": "2026-10-06",
+      "best_for": [
+        "gora",
+        "stivka"
+      ],
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: gora, stivka. The museum is closed on Tuesdays, so this is the exterior company-town walk; drive it if the weather turns.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
+      },
+      "source_ids": [
+        "src-v5-eckley"
+      ],
+      "coordinates": [
+        -75.8624,
+        40.9934
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "included_in_magic_default": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "underground-industrial-infrastructure",
+      "texture": "EXPLORE",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "booking_conflict": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "partial_participation_possible": true,
+        "rare_animal": false,
+        "hands_on_making": false,
+        "traditional_escape_room": false,
+        "photo_heavy": true
+      },
+      "viki_fit": 4,
+      "gora_fit": 5,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-09-01",
+      "physical_level": "easy",
+      "skip_mode": "The museum is closed on Tuesdays, so this is the exterior company-town walk; drive it if the weather turns.",
+      "skip_strategy": "The museum is closed on Tuesdays, so this is the exterior company-town walk; drive it if the weather turns.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "yellow",
+      "operational_risk": "yellow",
+      "fallback_ids": [],
+      "fallback_place_id": null,
+      "data_status": "complete",
+      "image_ids": [
+        "img-eckley-miners-village-1",
+        "img-eckley-miners-village-2",
+        "img-eckley-miners-village-3"
+      ]
+    },
+    {
+      "name": "Hickory Run Boulder Field",
+      "kind": "boulder-field",
+      "city": "White Haven",
+      "state": "PA",
+      "address": "Boulder Field, Hickory Run State Park, White Haven, PA 18661",
+      "summary": "A sixteen-acre National Natural Landmark of bare glacial boulders, crossed on hands and feet rather than viewed from a rail.",
+      "why_go": "Physical, strange and highly photogenic, and it changes the day's texture completely after the coal village.",
+      "id": "hickory-run-boulder-field",
+      "country": "US",
+      "visit_date": "2026-10-06",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Primary fit: gora, viki. The field can be viewed from its edge; only go out onto the boulders as far as feels safe.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
+      },
+      "source_ids": [
+        "src-v5-hickory-run"
+      ],
+      "coordinates": [
+        -75.681,
+        41.0221
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "included_in_magic_default": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "nature-geology-scenic",
+      "texture": "MOVE",
+      "interaction_score": 4,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": true,
+        "booking_required": false,
+        "booking_conflict": false,
+        "traffic_gated": false,
+        "high_physicality": true,
+        "partial_participation_possible": true,
+        "rare_animal": false,
+        "hands_on_making": false,
+        "traditional_escape_room": false,
+        "photo_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-09-01",
+      "physical_level": "moderate-high",
+      "skip_mode": "The field can be viewed from its edge; only go out onto the boulders as far as feels safe.",
+      "skip_strategy": "The field can be viewed from its edge; only go out onto the boulders as far as feels safe.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "yellow",
+      "operational_risk": "yellow",
+      "fallback_ids": [],
+      "fallback_place_id": null,
+      "data_status": "complete",
+      "image_ids": [
+        "img-hickory-run-boulder-field-1",
+        "img-hickory-run-boulder-field-2",
+        "img-hickory-run-boulder-field-3"
+      ]
+    },
+    {
+      "name": "Strasburg Rail Road",
+      "kind": "steam-excursion",
+      "city": "Ronks",
+      "state": "PA",
+      "address": "Strasburg Rail Road, 301 Gap Road, Ronks, PA 17572",
+      "summary": "A working steam excursion through Lancaster County farmland behind a genuine coal-fired locomotive.",
+      "why_go": "Machinery in motion beats the same machinery behind glass, which is why it takes the rail slot from the museum.",
+      "id": "strasburg-rail-road",
+      "country": "US",
+      "visit_date": "2026-10-07",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Primary fit: gora, viki. A seated coach excursion behind live steam; no physical demand.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "required",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 30,
+        "low": 30,
+        "high": 30,
+        "amount_per_group": 120,
+        "price_type": "per-person",
+        "status": "verified",
+        "note": ""
+      },
+      "source_ids": [
+        "src-v5-strasburg"
+      ],
+      "coordinates": [
+        -76.1841,
+        39.9832
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "included_in_magic_default": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "underground-industrial-infrastructure",
+      "texture": "AWE",
+      "interaction_score": 3,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "wet_surface_risk": false,
+        "booking_required": true,
+        "booking_conflict": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "partial_participation_possible": true,
+        "rare_animal": false,
+        "hands_on_making": false,
+        "traditional_escape_room": false,
+        "photo_heavy": true
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "per-person",
+      "price_per_person_low": 30,
+      "price_per_person_high": 30,
+      "price_per_group": 120,
+      "price_last_checked": "2026-09-01",
+      "physical_level": "light-moderate",
+      "skip_mode": "A seated coach excursion behind live steam; no physical demand.",
+      "skip_strategy": "A seated coach excursion behind live steam; no physical demand.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "yellow",
+      "operational_risk": "yellow",
+      "fallback_ids": [
+        "railroad-museum-pa"
+      ],
+      "fallback_place_id": "railroad-museum-pa",
+      "data_status": "complete",
+      "image_ids": [
+        "img-strasburg-rail-road-1",
+        "img-strasburg-rail-road-2",
+        "img-strasburg-rail-road-3"
+      ]
+    },
+    {
+      "name": "Skyland Stables Trail Ride",
+      "kind": "guided-trail-ride",
+      "city": "Shenandoah National Park",
+      "state": "VA",
+      "address": "Skyland Stables, Skyline Drive mile 42.5, Shenandoah National Park, VA 22835",
+      "summary": "A guided trail ride out of Skyland with no riding experience required.",
+      "why_go": "A distinctive way to move through Shenandoah that nothing else on the eleven routes offers.",
+      "id": "skyland-horseback",
+      "country": "US",
+      "visit_date": "2026-10-09",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Primary fit: viki, gora. No riding experience is required, but check the operator's current weight and age limits before booking.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "required",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 91.99,
+        "low": 91.99,
+        "high": 100.6,
+        "amount_per_group": 367.96,
+        "price_type": "per-person-plus-tax",
+        "status": "planning-range",
+        "note": "Guided trail ride before Virginia sales tax."
+      },
+      "source_ids": [
+        "src-v5-skyland"
+      ],
+      "coordinates": [
+        -78.382,
+        38.5937
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "included_in_magic_default": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "active-mountain-adventure",
+      "texture": "MOVE",
+      "interaction_score": 4,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": false,
+        "booking_required": true,
+        "booking_conflict": false,
+        "traffic_gated": false,
+        "high_physicality": true,
+        "partial_participation_possible": true,
+        "rare_animal": false,
+        "hands_on_making": false,
+        "traditional_escape_room": false,
+        "photo_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "per-person-plus-tax",
+      "price_per_person_low": 91.99,
+      "price_per_person_high": 100.6,
+      "price_per_group": 367.96,
+      "price_last_checked": "2026-09-01",
+      "physical_level": "moderate-high",
+      "skip_mode": "No riding experience is required, but check the operator's current weight and age limits before booking.",
+      "skip_strategy": "No riding experience is required, but check the operator's current weight and age limits before booking.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "yellow",
+      "operational_risk": "yellow",
+      "fallback_ids": [
+        "stony-man"
+      ],
+      "fallback_place_id": "stony-man",
+      "data_status": "complete",
+      "image_ids": [
+        "img-skyland-horseback-1",
+        "img-skyland-horseback-2",
+        "img-skyland-horseback-3"
+      ]
+    },
+    {
+      "name": "Bearfence Mountain Scramble",
+      "kind": "rock-scramble",
+      "city": "Shenandoah National Park",
+      "state": "VA",
+      "address": "Bearfence Mountain Trail, Skyline Drive mile 56.4, Shenandoah National Park, VA 22835",
+      "summary": "A short quartzite scramble to a genuine 360-degree summit view.",
+      "why_go": "It delivers Old Rag's drama without Old Rag's time cost, and Stony Man is the documented easier alternative.",
+      "id": "bearfence-scramble",
+      "country": "US",
+      "visit_date": "2026-10-09",
+      "best_for": [
+        "gora"
+      ],
+      "secondary_for": [
+        "viki",
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Primary fit: gora. Stony Man is the documented no-scramble alternative with a comparable view.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
+      },
+      "source_ids": [
+        "src-v5-bearfence"
+      ],
+      "coordinates": [
+        -78.4651,
+        38.4472
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "included_in_magic_default": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "active-mountain-adventure",
+      "texture": "MOVE",
+      "interaction_score": 4,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": true,
+        "booking_required": false,
+        "booking_conflict": false,
+        "traffic_gated": false,
+        "high_physicality": true,
+        "partial_participation_possible": true,
+        "rare_animal": false,
+        "hands_on_making": false,
+        "traditional_escape_room": false,
+        "photo_heavy": false
+      },
+      "viki_fit": 4,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-09-01",
+      "physical_level": "moderate-high",
+      "skip_mode": "Stony Man is the documented no-scramble alternative with a comparable view.",
+      "skip_strategy": "Stony Man is the documented no-scramble alternative with a comparable view.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "yellow",
+      "operational_risk": "yellow",
+      "fallback_ids": [
+        "stony-man"
+      ],
+      "fallback_place_id": "stony-man",
+      "data_status": "complete",
+      "image_ids": [
+        "img-bearfence-scramble-1",
+        "img-bearfence-scramble-2",
+        "img-bearfence-scramble-3"
+      ]
+    },
+    {
+      "name": "Claudius Crozet Blue Ridge Tunnel",
+      "kind": "unlit-rail-tunnel",
+      "city": "Afton",
+      "state": "VA",
+      "address": "Blue Ridge Tunnel, Afton, VA 22920",
+      "summary": "A 4,273-foot unlit nineteenth-century rail tunnel walked by headlamp through the mountain.",
+      "why_go": "Hidden infrastructure you physically pass through is exactly the route's DNA, and it is free and open sunrise to sunset.",
+      "id": "blue-ridge-tunnel",
+      "country": "US",
+      "visit_date": "2026-10-10",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Primary fit: gora, viki. Walk in as far as the group is comfortable; headlamps are required and the floor is uneven.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
+      },
+      "source_ids": [
+        "src-v5-blue-ridge-tunnel"
+      ],
+      "coordinates": [
+        -78.8586,
+        38.0333
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "included_in_magic_default": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "underground-industrial-infrastructure",
+      "texture": "DISCOVER",
+      "interaction_score": 3,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "booking_conflict": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "partial_participation_possible": true,
+        "rare_animal": false,
+        "hands_on_making": false,
+        "traditional_escape_room": false,
+        "photo_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-09-01",
+      "physical_level": "light-moderate",
+      "skip_mode": "Walk in as far as the group is comfortable; headlamps are required and the floor is uneven.",
+      "skip_strategy": "Walk in as far as the group is comfortable; headlamps are required and the floor is uneven.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "green",
+      "operational_risk": "green",
+      "fallback_ids": [],
+      "fallback_place_id": null,
+      "data_status": "complete",
+      "image_ids": [
+        "img-blue-ridge-tunnel-1",
+        "img-blue-ridge-tunnel-2",
+        "img-blue-ridge-tunnel-3"
+      ]
+    },
+    {
+      "name": "Unlocked History — Da Vinci's Discovery",
+      "kind": "escape-room",
+      "city": "Charlottesville",
+      "state": "VA",
+      "address": "Unlocked History Escape Rooms, Charlottesville, VA 22902",
+      "summary": "A built Renaissance workshop room sized for four players with a strong enthusiast reputation.",
+      "why_go": "One exceptional solve block rather than general immersive-art filler.",
+      "id": "davinci-escape-room",
+      "country": "US",
+      "visit_date": "2026-10-10",
+      "best_for": [
+        "sheluvspaco",
+        "gora"
+      ],
+      "secondary_for": [
+        "viki",
+        "stivka"
+      ],
+      "best_fit_note": "Primary fit: sheluvspaco, gora. The route's single traditional escape room, sized for four.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "required",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 30,
+        "low": 30,
+        "high": 30,
+        "amount_per_group": 120,
+        "price_type": "per-person",
+        "status": "verified",
+        "note": ""
+      },
+      "source_ids": [
+        "src-v5-unlocked-history"
+      ],
+      "coordinates": [
+        -78.4767,
+        38.0293
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "included_in_magic_default": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "interactive-puzzle",
+      "texture": "SOLVE",
+      "interaction_score": 3,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "wet_surface_risk": false,
+        "booking_required": true,
+        "booking_conflict": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "partial_participation_possible": true,
+        "rare_animal": false,
+        "hands_on_making": false,
+        "traditional_escape_room": true,
+        "photo_heavy": false
+      },
+      "viki_fit": 4,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 5,
+      "price_type": "per-person",
+      "price_per_person_low": 30,
+      "price_per_person_high": 30,
+      "price_per_group": 120,
+      "price_last_checked": "2026-09-01",
+      "physical_level": "light-moderate",
+      "skip_mode": "The route's single traditional escape room, sized for four.",
+      "skip_strategy": "The route's single traditional escape room, sized for four.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "yellow",
+      "operational_risk": "yellow",
+      "fallback_ids": [],
+      "fallback_place_id": null,
+      "data_status": "complete",
+      "image_ids": [
+        "img-davinci-escape-room-1",
+        "img-davinci-escape-room-2",
+        "img-davinci-escape-room-3"
+      ]
+    },
+    {
+      "name": "Leesburg Premium Outlets",
+      "kind": "outlet-shopping",
+      "city": "Leesburg",
+      "state": "VA",
+      "address": "Leesburg Premium Outlets, 241 Fort Evans Road NE, Leesburg, VA 20176",
+      "summary": "More than a hundred stores with a strong designer mix, taken as one protected afternoon block.",
+      "why_go": "It gives Viki a real shopping chapter and simultaneously solves the Charlottesville-to-north driving problem.",
+      "id": "leesburg-outlets",
+      "country": "US",
+      "visit_date": "2026-10-11",
+      "best_for": [
+        "viki"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: viki. Free to enter; purchases are excluded from the route total.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
+      },
+      "source_ids": [
+        "src-v5-leesburg-outlets"
+      ],
+      "coordinates": [
+        -77.5392,
+        39.1067
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "included_in_magic_default": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "shopping",
+      "texture": "SHOP",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "booking_conflict": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "partial_participation_possible": true,
+        "rare_animal": false,
+        "hands_on_making": false,
+        "traditional_escape_room": false,
+        "photo_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-09-01",
+      "physical_level": "easy",
+      "skip_mode": "Free to enter; purchases are excluded from the route total.",
+      "skip_strategy": "Free to enter; purchases are excluded from the route total.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "green",
+      "operational_risk": "green",
+      "fallback_ids": [],
+      "fallback_place_id": null,
+      "data_status": "complete",
+      "image_ids": [
+        "img-leesburg-outlets-1",
+        "img-leesburg-outlets-2",
+        "img-leesburg-outlets-3"
+      ]
+    },
+    {
+      "name": "Catoctin Furnace & African American Cemetery",
+      "kind": "iron-furnace-ruins",
+      "city": "Thurmont",
+      "state": "MD",
+      "address": "Catoctin Furnace Historic District, Thurmont, MD 21788",
+      "summary": "Stone furnace stacks, the Iron Trail and the cemetery of the enslaved and free Black ironworkers who ran them.",
+      "why_go": "Industrial ruins and labour truth in one short walk that stays open when the museum is closed.",
+      "id": "catoctin-furnace",
+      "country": "US",
+      "visit_date": "2026-10-12",
+      "best_for": [
+        "gora",
+        "stivka"
+      ],
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: gora, stivka. The Iron Trail and cemetery are open even when the museum is not; the walk is short and flat.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
+      },
+      "source_ids": [
+        "src-v5-catoctin"
+      ],
+      "coordinates": [
+        -77.4197,
+        39.6097
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "included_in_magic_default": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "underground-industrial-infrastructure",
+      "texture": "LEARN",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "booking_conflict": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "partial_participation_possible": true,
+        "rare_animal": false,
+        "hands_on_making": false,
+        "traditional_escape_room": false,
+        "photo_heavy": false
+      },
+      "viki_fit": 4,
+      "gora_fit": 5,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-09-01",
+      "physical_level": "easy",
+      "skip_mode": "The Iron Trail and cemetery are open even when the museum is not; the walk is short and flat.",
+      "skip_strategy": "The Iron Trail and cemetery are open even when the museum is not; the walk is short and flat.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "green",
+      "operational_risk": "green",
+      "fallback_ids": [],
+      "fallback_place_id": null,
+      "data_status": "complete",
+      "image_ids": [
+        "img-catoctin-furnace-1",
+        "img-catoctin-furnace-2",
+        "img-catoctin-furnace-3"
+      ]
+    },
+    {
+      "name": "Lehigh Gorge Scenic Railway",
+      "kind": "open-air-foliage-train",
+      "city": "Jim Thorpe",
+      "state": "PA",
+      "address": "Lehigh Gorge Scenic Railway, 1 Susquehanna Street, Jim Thorpe, PA 18229",
+      "summary": "An open-air car through the Lehigh Gorge during the exact 2026 foliage-season operating window.",
+      "why_go": "Moving foliage seen from an open car is a different experience from photographing a hillside from a pull-off.",
+      "id": "lehigh-gorge-railway",
+      "country": "US",
+      "visit_date": "2026-10-12",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: viki, stivka. Choose the open-air car for the gorge; enclosed seating is available if it is cold.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "required",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 28,
+        "low": 28,
+        "high": 28,
+        "amount_per_group": 112,
+        "price_type": "per-person",
+        "status": "verified",
+        "note": ""
+      },
+      "source_ids": [
+        "src-v5-lehigh-gorge"
+      ],
+      "coordinates": [
+        -75.7374,
+        40.8633
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "included_in_magic_default": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "scenic-rail-transport",
+      "texture": "AWE",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": false,
+        "booking_required": true,
+        "booking_conflict": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "partial_participation_possible": true,
+        "rare_animal": false,
+        "hands_on_making": false,
+        "traditional_escape_room": false,
+        "photo_heavy": true
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "per-person",
+      "price_per_person_low": 28,
+      "price_per_person_high": 28,
+      "price_per_group": 112,
+      "price_last_checked": "2026-09-01",
+      "physical_level": "easy",
+      "skip_mode": "Choose the open-air car for the gorge; enclosed seating is available if it is cold.",
+      "skip_strategy": "Choose the open-air car for the gorge; enclosed seating is available if it is cold.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "yellow",
+      "operational_risk": "yellow",
+      "fallback_ids": [],
+      "fallback_place_id": null,
+      "data_status": "complete",
+      "image_ids": [
+        "img-lehigh-gorge-railway-1",
+        "img-lehigh-gorge-railway-2",
+        "img-lehigh-gorge-railway-3"
+      ]
+    },
+    {
+      "name": "Walkway Over the Hudson",
+      "kind": "rail-bridge-walkway",
+      "city": "Poughkeepsie",
+      "state": "NY",
+      "address": "Walkway Over the Hudson, Poughkeepsie, NY 12601",
+      "summary": "A former railroad bridge turned pedestrian deck, high above the Hudson and free to cross.",
+      "why_go": "Active railroad infrastructure that also breaks the long return drive exactly where the route needs it.",
+      "id": "walkway-over-hudson",
+      "country": "US",
+      "visit_date": "2026-10-13",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Primary fit: viki, gora. Walk out as far as the group wants; the deck is flat and fully accessible.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
+      },
+      "source_ids": [
+        "src-v5-walkway"
+      ],
+      "coordinates": [
+        -73.9418,
+        41.7106
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "included_in_magic_default": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "underground-industrial-infrastructure",
+      "texture": "MOVE",
+      "interaction_score": 3,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "booking_conflict": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "partial_participation_possible": true,
+        "rare_animal": false,
+        "hands_on_making": false,
+        "traditional_escape_room": false,
+        "photo_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-09-01",
+      "physical_level": "light-moderate",
+      "skip_mode": "Walk out as far as the group wants; the deck is flat and fully accessible.",
+      "skip_strategy": "Walk out as far as the group wants; the deck is flat and fully accessible.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "green",
+      "operational_risk": "green",
+      "fallback_ids": [],
+      "fallback_place_id": null,
+      "data_status": "complete",
+      "image_ids": [
+        "img-walkway-over-hudson-1",
+        "img-walkway-over-hudson-2",
+        "img-walkway-over-hudson-3"
+      ]
+    },
+    {
+      "name": "Mine Hill Preserve",
+      "kind": "iron-furnace-and-quarry",
+      "city": "Roxbury",
+      "state": "CT",
+      "address": "Mine Hill Preserve, Roxbury, CT 06783",
+      "summary": "The Shepaug iron furnace, granite quarry faces and mine portals on one free hiking preserve.",
+      "why_go": "Furnace, quarry and mine in a single site is the cleanest possible close to the route's industrial thread.",
+      "id": "mine-hill-preserve",
+      "country": "US",
+      "visit_date": "2026-10-13",
+      "best_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "viki",
+        "stivka"
+      ],
+      "best_fit_note": "Primary fit: gora, sheluvspaco. The furnace sits near the trailhead; the quarry and mine portals are the longer optional loop.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
+      },
+      "source_ids": [
+        "src-v5-mine-hill"
+      ],
+      "coordinates": [
+        -73.3415,
+        41.5685
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "included_in_magic_default": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "underground-industrial-infrastructure",
+      "texture": "EXPLORE",
+      "interaction_score": 3,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "booking_conflict": false,
+        "traffic_gated": false,
+        "high_physicality": true,
+        "partial_participation_possible": true,
+        "rare_animal": false,
+        "hands_on_making": false,
+        "traditional_escape_room": false,
+        "photo_heavy": true
+      },
+      "viki_fit": 4,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 5,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-09-01",
+      "physical_level": "moderate-high",
+      "skip_mode": "The furnace sits near the trailhead; the quarry and mine portals are the longer optional loop.",
+      "skip_strategy": "The furnace sits near the trailhead; the quarry and mine portals are the longer optional loop.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "green",
+      "operational_risk": "green",
+      "fallback_ids": [],
+      "fallback_place_id": null,
+      "data_status": "complete",
+      "image_ids": [
+        "img-mine-hill-preserve-1",
+        "img-mine-hill-preserve-2",
+        "img-mine-hill-preserve-3"
+      ]
+    },
+    {
+      "name": "Dinosaur Footprints Reservation",
+      "kind": "in-situ-trackway",
+      "city": "Holyoke",
+      "state": "MA",
+      "address": "Dinosaur Footprints Reservation, Holyoke, MA 01040",
+      "summary": "An exposed sandstone ledge carrying early Jurassic tracks in the position the animals left them.",
+      "why_go": "Fast, free deep-time geology on the return line, and a clean pairing with the Mapparium finale.",
+      "id": "dinosaur-footprints",
+      "country": "US",
+      "visit_date": "2026-10-14",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Primary fit: gora, viki. A short roadside stop onto the trackway ledge.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
+      },
+      "source_ids": [
+        "src-v5-dinosaur-footprints"
+      ],
+      "coordinates": [
+        -72.6076,
+        42.2071
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "included_in_magic_default": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "nature-geology-scenic",
+      "texture": "WEIRD",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "booking_conflict": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "partial_participation_possible": true,
+        "rare_animal": false,
+        "hands_on_making": false,
+        "traditional_escape_room": false,
+        "photo_heavy": true
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-09-01",
+      "physical_level": "easy",
+      "skip_mode": "A short roadside stop onto the trackway ledge.",
+      "skip_strategy": "A short roadside stop onto the trackway ledge.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "green",
+      "operational_risk": "green",
+      "fallback_ids": [],
+      "fallback_place_id": null,
+      "data_status": "complete",
+      "image_ids": [
+        "img-dinosaur-footprints-1",
+        "img-dinosaur-footprints-2",
+        "img-dinosaur-footprints-3"
+      ]
     }
   ]
 }

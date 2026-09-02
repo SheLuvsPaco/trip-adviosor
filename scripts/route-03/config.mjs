@@ -32,7 +32,7 @@ export const places = [
   p("great-dune-tower", "Observation Tower, Fort Miles, Cape Henlopen State Park, Lewes, Delaware", ["Cape Henlopen observation tower", "Fort Miles fire control tower", "Cape Henlopen great dune"]),
   p("berlin-historic", "Atlantic Hotel, 2 North Main Street, Berlin, Maryland", ["Berlin Maryland Main Street", "Atlantic Hotel Berlin Maryland", "Berlin Maryland historic district"]),
   p("zwaanendael", "Zwaanendael Museum, 102 Kings Highway, Lewes, Delaware", ["Zwaanendael Museum", "Zwaanendael Museum interior", "Lewes Delaware Dutch architecture"]),
-  p("assateague", "Assateague Island National Seashore, 7206 National Seashore Lane, Berlin, Maryland", ["Assateague wild horses Maryland", "Assateague Island dunes", "Assateague Island National Seashore"]),
+  p("assateague", "Chincoteague National Wildlife Refuge, 8231 Beach Road, Chincoteague, Virginia", ["Chincoteague wild ponies wildlife loop", "Chincoteague National Wildlife Refuge", "Assateague Virginia ponies marsh"]),
   p("nasa-wallops", "NASA Wallops Visitor Center, 175 Chincoteague Road, Wallops Island, Virginia", ["NASA Wallops Visitor Center", "Wallops sounding rocket", "NASA Wallops exhibits"]),
   p("barrier-islands-center", "Barrier Islands Center, 7295 Young Street, Machipongo, Virginia", ["Barrier Islands Center Machipongo", "Barrier Islands Center Virginia", "Machipongo Almshouse museum"]),
   p("chesapeake-bridge-tunnel", "Chesapeake Bay Bridge-Tunnel, Virginia", ["Chesapeake Bay Bridge Tunnel", "Chesapeake Bay Bridge Tunnel aerial", "Chesapeake Bay Bridge Tunnel sunset"]),
@@ -56,7 +56,28 @@ export const places = [
   p("rockefeller-arts", "David Rockefeller Creative Arts Center, 200 Lake Road, Tarrytown, New York", ["David Rockefeller Creative Arts Center", "Pocantico Center architecture", "Rockefeller Pocantico art center"]),
   p("pez-visitor-center", "PEZ Visitor Center, 35 Prindle Hill Road, Orange, Connecticut", ["PEZ Visitor Center", "largest PEZ dispenser", "PEZ factory Orange Connecticut"]),
   p("barker-cartoon-museum", "Barker Character Comic and Cartoon Museum, 1188 Highland Avenue, Cheshire, Connecticut", ["Barker Character Comic Cartoon Museum", "Barker Museum Cheshire toys", "Barker cartoon museum Connecticut"])
+,
+  p("uss-nautilus-museum", "Submarine Force Museum, 1 Crystal Lake Road, Groton, Connecticut", ["USS Nautilus Groton submarine museum", "Submarine Force Museum Nautilus", "USS Nautilus SSN-571 pier"]),
+  p("fire-island-lighthouse", "Fire Island Lighthouse, Robert Moses State Park, Fire Island, New York", ["Fire Island Lighthouse tower", "Fire Island Lighthouse boardwalk", "Fire Island barrier beach Robert Moses"]),
+  p("revolution-rail-cape-may", "Revolution Rail Cape May, 609 Lafayette Street, Cape May, New Jersey", ["Revolution Rail Cape May railbike", "Cape May railbike Garrett preserve", "Cape May Station railbikes"]),
+  p("cape-may-lighthouse", "Cape May Lighthouse, Cape May Point State Park, New Jersey", ["Cape May Lighthouse tower", "Cape May Point State Park lighthouse", "Cape May Lighthouse night"]),
+  p("assateague-pony-kayak", "Assateague Explorer, Curtis Merritt Harbor of Refuge, 6262 Marlin Street, Chincoteague, Virginia", ["Assateague Explorer kayak wild ponies", "Chincoteague kayak backwater ponies", "Assateague ponies lighthouse Chincoteague"]),
+  p("kiptopeke-concrete-ships", "Kiptopeke State Park, 3540 Kiptopeke Drive, Cape Charles, Virginia", ["Kiptopeke concrete ships breakwater", "Kiptopeke State Park concrete fleet", "Kiptopeke breakwater sunset migration"]),
+  p("richmond-capitol-ghost-tour", "Virginia State Capitol, 1000 Bank Street, Richmond, Virginia", ["Haunted Capitol Hill Richmond ghost tour", "Virginia State Capitol night", "Monumental Church Richmond"]),
+  p("neabsco-creek-boardwalk", "Neabsco Creek Boardwalk, 15125 Blackburn Road, Woodbridge, Virginia", ["Neabsco Creek Boardwalk", "Neabsco Creek wetland boardwalk aerial", "Neabsco Creek Boardwalk entrance"]),
+  p("maryland-renaissance-festival", "Maryland Renaissance Festival, 1821 Crownsville Road, Annapolis, Maryland", ["Maryland Renaissance Festival jousting", "Maryland Renaissance Festival village", "Maryland Renaissance Festival blacksmith"]),
+  p("mullica-cedar-paddle", "Pinelands Adventures, 1005 Atsion Road, Shamong, New Jersey", ["Pinelands Adventures Mullica River kayak", "Mullica River cedar water Pine Barrens", "Pinelands Adventures Atsion launch"]),
+  p("schooner-argia", "Steamboat Wharf, 15 Holmes Street, Mystic, Connecticut", ["Schooner ARGIA Mystic under sail", "ARGIA Mystic passengers deck", "ARGIA schooner aerial Mystic"])
 ];
+
+// Places introduced by the Energy Rebuild V2 (Route03_Atlantic_Edge_Rebuild_With_Costs.md).
+// The legacy V1 builder ignores these; scripts/route-03-energy/build.mjs owns their records.
+export const energyRebuildPlaceIds = new Set([
+  "uss-nautilus-museum", "fire-island-lighthouse", "revolution-rail-cape-may",
+  "cape-may-lighthouse", "assateague-pony-kayak", "kiptopeke-concrete-ships",
+  "richmond-capitol-ghost-tour", "neabsco-creek-boardwalk", "maryland-renaissance-festival",
+  "mullica-cedar-paddle", "schooner-argia"
+]);
 
 export const contextualImagePlaces = new Set([
   "cross-sound-ferry", "north-ferry", "south-ferry", "tanger-riverhead", "asbury-live-music",
@@ -119,7 +140,7 @@ export const manualCoordinates = {
   "cape-may-ghosts": [-74.9170, 38.9313], "sunset-beach-atlantus": [-74.9697, 38.9441],
   "cape-may-lewes-ferry": [-74.9597, 38.9687], "fort-miles": [-75.0949, 38.7758],
   "great-dune-tower": [-75.0915, 38.7768], "berlin-historic": [-75.2174, 38.3229],
-  "assateague": [-75.1572, 38.2508], "nasa-wallops": [-75.4665, 37.9333],
+  "assateague": [-75.3283, 37.9449], "nasa-wallops": [-75.4665, 37.9333],
   "barrier-islands-center": [-75.9948, 37.4030], "chesapeake-bridge-tunnel": [-76.0800, 37.0300],
   "norfolk-pagoda": [-76.2964, 36.8505], "cape-charles": [-76.0174, 37.2679],
   "nauticus-wisconsin": [-76.2951, 36.8477], "edgar-cayce-are": [-75.9850, 36.8910],
@@ -131,7 +152,13 @@ export const manualCoordinates = {
   "sleepy-hollow-cemetery": [-73.8603, 41.0954], "old-dutch-church": [-73.8610, 41.0904],
   "headless-horseman": [-73.8615, 41.0916], "pumpkin-blaze": [-73.8765, 41.1917],
   "rockefeller-arts": [-73.8374, 41.0930],
-  "pez-visitor-center": [-72.9971, 41.2638], "barker-cartoon-museum": [-72.8940, 41.5314]
+  "pez-visitor-center": [-72.9971, 41.2638], "barker-cartoon-museum": [-72.8940, 41.5314],
+  "uss-nautilus-museum": [-72.0871, 41.3875], "fire-island-lighthouse": [-73.2237, 40.6306],
+  "revolution-rail-cape-may": [-74.9226, 38.9352], "cape-may-lighthouse": [-74.9604, 38.9330],
+  "assateague-pony-kayak": [-75.3806, 37.9036], "kiptopeke-concrete-ships": [-75.9770, 37.1642],
+  "richmond-capitol-ghost-tour": [-77.4336, 37.5388], "neabsco-creek-boardwalk": [-77.2766, 38.6112],
+  "maryland-renaissance-festival": [-76.5838, 39.0018], "mullica-cedar-paddle": [-74.7285, 39.7420],
+  "schooner-argia": [-71.9708, 41.3538]
 };
 
 export const lodgingNodes = {
@@ -146,6 +173,8 @@ export const lodgingNodes = {
   "white-marsh-lodging": { name: "Baltimore Northeast I-95 lodging zone", coordinates: [-76.4950, 39.3250] },
   "bridgewater-lodging": { name: "Metuchen Main Street lodging zone", coordinates: [-74.3607, 40.5420] },
   "milford-lodging": { name: "Fairfield I-95 lodging zone", coordinates: [-73.2400, 41.1770] },
+  "annapolis-lodging": { name: "Annapolis waterfront lodging zone", coordinates: [-76.4928, 38.9786] },
+  "middletown-de-break": { name: "Middletown-Odessa DE-1 corridor comfort break", coordinates: [-75.6900, 39.4600] },
   "boston-logan-hotel": { name: "Boston Logan hotel zone", coordinates: [-71.0155, 42.3655] },
   "new-london-terminal": { name: "Cross Sound Ferry New London terminal", coordinates: [-72.0946, 41.3554] },
   "orient-terminal": { name: "Cross Sound Ferry Orient Point terminal", coordinates: [-72.2418, 41.1536] },
@@ -164,17 +193,17 @@ export const manualLegs = {
 };
 
 export const dayRoutes = [
-  { day: 1, risk: "high", node_ids: ["boston-logan-rental", "florence-griswold", "new-london-terminal", "orient-terminal", "greenport-lodging"] },
-  { day: 2, risk: "low", node_ids: ["greenport-lodging", "north-ferry-greenport", "north-ferry-shelter", "mashomack-preserve", "south-ferry-shelter", "south-ferry-north-haven", "parrish-art-museum", "big-duck", "tanger-riverhead", "riverhead-lodging"] },
-  { day: 3, risk: "high", node_ids: ["riverhead-lodging", "cradle-of-aviation", "asbury-lodging"] },
-  { day: 4, risk: "medium", node_ids: ["asbury-lodging", "lucy-elephant", "nas-wildwood", "cape-may-lodging"] },
-  { day: 5, risk: "low", node_ids: ["cape-may-lodging", "cape-may-lewes-ferry", "lewes-terminal", "fort-miles", "great-dune-tower", "berlin-historic", "assateague", "chincoteague-lodging"] },
-  { day: 6, risk: "low", node_ids: ["chincoteague-lodging", "nasa-wallops", "barrier-islands-center", "norfolk-lodging"] },
-  { day: 7, risk: "medium", node_ids: ["norfolk-lodging", "norfolk-pagoda", "nauticus-wisconsin", "edgar-cayce-are", "vibe-neptune", "poe-museum-richmond", "richmond-west-lodging"] },
-  { day: 8, risk: "high", node_ids: ["richmond-west-lodging", "richmond-orthodox", "bo-railroad", "white-marsh-lodging"] },
-  { day: 9, risk: "high", node_ids: ["white-marsh-lodging", "mutter-museum", "bridgewater-lodging"] },
+  { day: 1, risk: "high", node_ids: ["boston-logan-rental", "uss-nautilus-museum", "new-london-terminal", "orient-terminal", "greenport-lodging"] },
+  { day: 2, risk: "low", node_ids: ["greenport-lodging", "north-ferry-greenport", "north-ferry-shelter", "mashomack-preserve", "south-ferry-shelter", "south-ferry-north-haven", "tanger-riverhead", "riverhead-lodging"] },
+  { day: 3, risk: "high", node_ids: ["riverhead-lodging", "fire-island-lighthouse", "asbury-lodging"] },
+  { day: 4, risk: "medium", node_ids: ["asbury-lodging", "lucy-elephant", "revolution-rail-cape-may", "cape-may-lighthouse", "cape-may-lodging"] },
+  { day: 5, risk: "low", node_ids: ["cape-may-lodging", "cape-may-lewes-ferry", "lewes-terminal", "fort-miles", "assateague", "chincoteague-lodging"] },
+  { day: 6, risk: "low", node_ids: ["chincoteague-lodging", "assateague-pony-kayak", "nasa-wallops", "kiptopeke-concrete-ships", "chesapeake-bridge-tunnel", "norfolk-lodging"] },
+  { day: 7, risk: "medium", node_ids: ["norfolk-lodging", "nauticus-wisconsin", "richmond-capitol-ghost-tour", "richmond-west-lodging"] },
+  { day: 8, risk: "high", node_ids: ["richmond-west-lodging", "richmond-orthodox", "neabsco-creek-boardwalk", "maryland-renaissance-festival", "annapolis-lodging"] },
+  { day: 9, risk: "high", node_ids: ["annapolis-lodging", "middletown-de-break", "mullica-cedar-paddle", "bridgewater-lodging"] },
   { day: 10, risk: "high", node_ids: ["bridgewater-lodging", "sleepy-hollow-cemetery", "pumpkin-blaze", "milford-lodging"] },
-  { day: 11, risk: "high", node_ids: ["milford-lodging", "pez-visitor-center", "boston-logan-hotel"] }
+  { day: 11, risk: "high", node_ids: ["milford-lodging", "schooner-argia", "boston-logan-hotel"] }
 ];
 
 export const replacementVariants = [
@@ -199,8 +228,8 @@ export const weatherRequests = [
   { day: 5, date: "2026-10-08", sleep_city: "Chincoteague, VA", station: "USW00093786", station_role: "Ocean City-Chincoteague coastal proxy" },
   { day: 6, date: "2026-10-09", sleep_city: "Norfolk, VA", station: "USW00013737", station_role: "Norfolk airport" },
   { day: 7, date: "2026-10-10", sleep_city: "Richmond, VA", station: "USW00013740", station_role: "Richmond airport" },
-  { day: 8, date: "2026-10-11", sleep_city: "Baltimore East, MD", station: "USW00093721", station_role: "Baltimore airport regional proxy" },
-  { day: 9, date: "2026-10-12", sleep_city: "Bridgewater, NJ", station: "USW00014734", station_role: "Newark-central New Jersey proxy" },
+  { day: 8, date: "2026-10-11", sleep_city: "Annapolis, MD", station: "USW00093721", station_role: "Baltimore-Annapolis regional proxy" },
+  { day: 9, date: "2026-10-12", sleep_city: "Metuchen, NJ", station: "USW00014734", station_role: "Newark-central New Jersey proxy" },
   { day: 10, date: "2026-10-13", sleep_city: "Fairfield, CT", station: "USW00014758", station_role: "New Haven-Fairfield coastal proxy" },
   { day: 11, date: "2026-10-14", sleep_city: "Boston, MA", station: "USW00014739", station_role: "Boston Logan airport" }
 ];

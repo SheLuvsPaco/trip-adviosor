@@ -90,7 +90,63 @@ const groups = {
     ["https://s.hdnux.com/photos/73/73/33/15709907/4/rawImage.jpg", "https://www.thehour.com/wilton/article/Day-Tripping-Cartoon-museum-offers-trip-down-memory-lane-12987483.php", "Hearst Connecticut Media", "Dense cases of lunchboxes, toys and pop-culture characters at Barker Museum"],
     ["https://townsquare.media/site/677/files/2022/08/attachment-facebook-pic-01-1.jpg?q=75&w=1200", "https://i95rock.com/cheshire-ct-museum-is-a-unique-pop-culture-roadside-attraction/", "I-95 Rock", "Vintage lunchboxes, action figures and character memorabilia"],
     ["https://ctvisit.com/sites/default/files/styles/social_media_1200x630/public/bc%20hero%20image_0.jpg?itok=c6pjj1lV", "https://ctvisit.com/listings/barker-character-comic-cartoon-museum", "Connecticut Office of Tourism", "Barker Museum's colorful character and antique-toy collection"]
+  ]  ,
+  "uss-nautilus-museum": [
+    ["https://ctvisit.com/sites/default/files/styles/social_media_1200x630/public/15111219528_73ce2b0bb2_o.jpg?itok=883mkjAU", "https://ctvisit.com/listings/historic-ship-nautilus-submarine-force-museum-0", "Connecticut Office of Tourism", "USS Nautilus (SSN-571) moored at the Submarine Force Museum pier in Groton"],
+    ["https://www.thamesriverheritagepark.org/new/wp-content/uploads/2026/01/nautilus_museum_2026.jpg", "https://www.thamesriverheritagepark.org/submarine-force-museum/", "Thames River Heritage Park", "The Submarine Force Museum building and the Nautilus pier on the Thames River"],
+    ["https://seahistory.org/wp-content/uploads/Submarine-Force-Museum-USS-Nautilus.jpg", "https://seahistory.org/museums-sites/uss-nautilus-submarine-force-museum/", "National Maritime Historical Society", "USS Nautilus, the world's first operational nuclear-powered submarine, underway"]
+  ],
+  "fire-island-lighthouse": [
+    ["https://static.wixstatic.com/media/2c120d_d8e8efc2cd9c4357b9acbb73c2fef44a~mv2.jpg", "https://fireislandlighthouse.com/visit/", "Fire Island Lighthouse Preservation Society", "The Fire Island Lighthouse tower and keepers quarters above the dunes"],
+    ["https://static.wixstatic.com/media/9bf8c5_ba1ded4dc9964a41a9544deec99c8b37~mv2.jpeg", "https://fireislandlighthouse.com/visit/", "Fire Island Lighthouse Preservation Society", "The barrier-beach boardwalk running through dune scrub toward the tower"],
+    ["https://static.wixstatic.com/media/2c120d_5100dc9fd52943379511393355f50949~mv2.jpg", "https://fireislandlighthouse.com/visit/", "Fire Island Lighthouse Preservation Society", "Fire Island Inlet and the western barrier-island landscape from the air"]
+  ],
+  "revolution-rail-cape-may": [
+    ["https://images.squarespace-cdn.com/content/v1/63d6550585aa7959f6c07186/085c4a6f-2ad4-47af-9855-bc27dbf28dde/RevRail+014.jpg", "https://www.revrail.com/cape-may-run", "Revolution Rail Co.", "The railbike fleet staged outside Cape May Station before a run"],
+    ["https://images.squarespace-cdn.com/content/v1/63d6550585aa7959f6c07186/1cdf41e7-02ad-4492-b5b2-70c22db5a136/RevRail+030.jpg", "https://www.revrail.com/cape-may-run", "Revolution Rail Co.", "Riders pedalling railbikes through wildflower and migration habitat"],
+    ["https://images.squarespace-cdn.com/content/v1/63d6550585aa7959f6c07186/6d3573aa-dae4-488f-965d-9e9fbce1f97b/RevRail+003.jpg", "https://www.revrail.com/cape-may-run", "Revolution Rail Co.", "The rail line crossing preserved Cape May marsh toward the canal"]
+  ],
+  "cape-may-lighthouse": [
+    ["https://capemaymac.org/wp-content/uploads/2020/02/Lighthouse_horizontal-header_1500x700.png", "https://capemaymac.org/experience/cape-may-lighthouse/", "Cape May MAC", "The Cape May Lighthouse tower above Cape May Point State Park"],
+    ["https://capemaymac.org/wp-content/uploads/2022/05/stairway-stars-600.jpg", "https://capemaymac.org/experience/cape-may-lighthouse/", "Cape May MAC", "The 199-step tower rising into a deep blue evening sky"],
+    ["https://capemaymac.org/wp-content/uploads/2021/04/Full-Moon-Lighthouse-Climb-scaled-e1709860224109-600x600.jpg", "https://capemaymac.org/experience/cape-may-lighthouse/", "Cape May MAC", "The lit Cape May Lighthouse beam under a full moon"]
+  ],
+  "assateague-pony-kayak": [
+    ["https://assateagueexplorer.com/wp-content/uploads/2022/03/assateague-kayak-tour-A32R2002-35kb.jpg", "https://assateagueexplorer.com/", "Assateague Explorer", "A guided tandem kayak paddling alongside wild ponies in the Assateague backwaters"],
+    ["https://assateagueexplorer.com/wp-content/uploads/2022/03/assateague-ponies-and-lighthouse-MG-8865-2-70kb-900x468.jpg", "https://assateagueexplorer.com/", "Assateague Explorer", "Wild ponies in the shallows below the Assateague lighthouse"],
+    ["https://assateagueexplorer.com/wp-content/uploads/2022/03/pony-cruise-IMG-2112-A-70kb-900x468.jpg", "https://assateagueexplorer.com/", "Assateague Explorer", "The operator's wildlife boat tour, the documented same-area fallback, viewing a pony band"]
+  ],
+  "kiptopeke-concrete-ships": [
+    ["https://c1.staticflickr.com/1/942/41936587450_dd497400c0_z.jpg", "https://www.dcr.virginia.gov/state-parks/blog/kiptopekes-breakwater", "Virginia State Parks", "One of the nine WWII concrete ships forming the Kiptopeke breakwater"],
+    ["https://c2.staticflickr.com/2/1837/43696973932_cc19ec4f3d_z.jpg", "https://www.dcr.virginia.gov/state-parks/blog/kiptopekes-breakwater", "Virginia State Parks", "The weathered bow of a concrete ship standing off the Kiptopeke beach"],
+    ["https://live.staticflickr.com/65535/49084233983_f4e4b800c4_b.jpg", "https://www.dcr.virginia.gov/state-parks/blog/5-things-to-experience-at-kiptopeke-state-park", "Virginia State Parks", "Sunset over the concrete fleet and the Chesapeake migration corridor"]
+  ],
+  "richmond-capitol-ghost-tour": [
+    ["https://www.hauntsofrichmond.com/wp-content/uploads/2026/03/virginia-state-capitol-haunted-capitol-hill-1024x768.jpeg", "https://hauntsofrichmond.com/", "Haunts of Richmond", "A Haunted Capitol Hill tour group on the Virginia State Capitol steps after dark"],
+    ["https://www.hauntsofrichmond.com/wp-content/uploads/2026/03/virginia-state-capitol-1024x768.jpg", "https://hauntsofrichmond.com/", "Haunts of Richmond", "The Virginia State Capitol lit at night on the tour route"],
+    ["https://www.hauntsofrichmond.com/wp-content/uploads/2026/01/monumentalchurch-1024x760.jpg", "https://hauntsofrichmond.com/", "Haunts of Richmond", "Monumental Church, built over the 1811 Richmond Theatre fire the tour recounts"]
+  ],
+  "neabsco-creek-boardwalk": [
+    ["https://www.vaco.org/wp-content/uploads/2019/08/NeabscoCreekBoardwalk.jpg", "https://www.vaco.org/virginia-county/visit-prince-william-county-and-the-neabsco-creek-boardwalk/", "Virginia Association of Counties", "The signed entrance and first deck of the Neabsco Creek Boardwalk"],
+    ["https://www.vaco.org/wp-content/uploads/2019/08/NeabscoCreekBoardwalk3.jpg", "https://www.vaco.org/virginia-county/visit-prince-william-county-and-the-neabsco-creek-boardwalk/", "Virginia Association of Counties", "The boardwalk curving out over the Neabsco Creek wetland"],
+    ["https://assets.simpleviewinc.com/simpleview/image/upload/crm/pwmva/neabsco-crk-boardwalk-7-19-18-2-pwt-987b10085056a36_987b117a-5056-a36a-07ac50597bc58f5d.jpg", "https://www.visitpwc.com/listing/neabsco-creek-boardwalk/1648/", "Visit Prince William", "The 3,300-foot boardwalk crossing the marsh, seen from the air"]
+  ],
+  "maryland-renaissance-festival": [
+    ["https://rennfest.com/wp-content/uploads/2026/03/Michael.Baker11-Knights-Engaging-First-Place-Best-Photo-1024x683.jpg", "https://rennfest.com/photos/", "Maryland Renaissance Festival", "Armoured knights engaging in the festival joust before the crowd"],
+    ["https://rennfest.com/wp-content/uploads/2026/03/0518-mdrf-090625-LF-Third-Place-Best-Photo-1024x683.jpg", "https://rennfest.com/photos/", "Maryland Renaissance Festival", "A packed woodland stage inside the festival's English-village grounds"],
+    ["https://rennfest.com/wp-content/uploads/2026/03/Eric.Harkleroad-Best-Photo4-Second-Place-Character.jpg", "https://rennfest.com/photos/", "Maryland Renaissance Festival", "A festival blacksmith working hot iron at the anvil"]
+  ],
+  "mullica-cedar-paddle": [
+    ["https://www.pinelandsadventures.org/wp/wp-content/uploads/2026/04/Solo-Kayaker-Adventures.jpg", "https://www.pinelandsadventures.org/", "Pinelands Adventures", "A paddler on the narrow tea-coloured cedar water of the Mullica River"],
+    ["https://www.pinelandsadventures.org/wp/wp-content/uploads/2026/04/Kayak-Slider-Image-web.jpg", "https://www.pinelandsadventures.org/", "Pinelands Adventures", "The operator's canoe and kayak fleet drawn up at the Atsion launch"],
+    ["https://www.pinelandsadventures.org/wp/wp-content/uploads/2021/03/river-wetlands-aerial.jpg", "https://www.pinelandsadventures.org/", "Pinelands Adventures", "Pine Barrens river meanders and cedar wetlands from the air"]
+  ],
+  "schooner-argia": [
+    ["https://www.argiamystic.com/App_Themes/ArgiaMystic/Images/Content/PublicSails_TopImage.jpg", "https://www.argiamystic.com/Argia_PublicSails.aspx", "Argia Mystic Cruises", "The schooner ARGIA under full sail with passengers aboard off Mystic"],
+    ["https://ctvisit.com/sites/default/files/media/2025-04/Jack%20sailing%20past%20N%20Dumpling.jpg", "https://ctvisit.com/listings/argia-mystic-cruises", "Connecticut Office of Tourism", "Guests on ARGIA's deck as she sails past North Dumpling Light"],
+    ["https://ctvisit.com/sites/default/files/media/2025-04/DJI_0256-crop1.jpg", "https://ctvisit.com/listings/argia-mystic-cruises", "Connecticut Office of Tourism", "ARGIA working to windward in protected Mystic waters, seen from above"]
   ]
+
 };
 
 function safeName(value) {

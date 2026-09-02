@@ -31,10 +31,51 @@ export const places = [
   p("met-cloisters", "The Met Cloisters, 99 Margaret Corbin Drive, New York, New York", ["Met Cloisters exterior", "Met Cloisters interior", "Met Cloisters garden"]),
   p("paterson-museum", "Paterson Museum, 2 Market Street, Paterson, New Jersey", ["Paterson Museum locomotive", "Paterson Museum Colt", "Paterson Museum interior"]),
   p("gardner-museum", "Isabella Stewart Gardner Museum, 25 Evans Way, Boston, Massachusetts", ["Isabella Stewart Gardner Museum courtyard", "Gardner Museum Dutch Room", "Isabella Stewart Gardner Museum exterior"]),
-  p("boston-public-library", "Boston Public Library Central, 700 Boylston Street, Boston, Massachusetts", ["Boston Public Library Bates Hall", "Boston Public Library courtyard", "Boston Public Library murals"])
+  p("boston-public-library", "Boston Public Library Central, 700 Boylston Street, Boston, Massachusetts", ["Boston Public Library Bates Hall", "Boston Public Library courtyard", "Boston Public Library murals"]),
+  p("pocahontas-island", "Pocahontas Island Historic District, Rolfe Street, Petersburg, Virginia", ["Pocahontas Island Petersburg", "Appomattox River Petersburg", "Pocahontas Island historic district"]),
+  p("ragged-mountain", "Ragged Mountain Memorial Preserve, 599 Wigwam Road, Southington, Connecticut", ["Ragged Mountain Connecticut traprock", "Ragged Mountain Memorial Preserve", "Connecticut basalt ridge"]),
+  p("steep-rock", "Steep Rock Preserve, 2 Tunnel Road, Washington Depot, Connecticut", ["Steep Rock Preserve tunnel", "Shepaug River Connecticut", "Shepaug railroad tunnel"]),
+  p("mt-tammany", "Mount Tammany, Dunnfield Creek Natural Area, Hardwick Township, New Jersey", ["Mount Tammany Delaware Water Gap", "Red Dot Trail New Jersey", "Delaware Water Gap ridge"]),
+  p("crane-manor", "Clue IQ, 103 South Carroll Street, Frederick, Maryland", ["Clue IQ Crane Manor escape room", "Frederick Maryland escape room", "escape room puzzle set"]),
+  p("blandy-farm", "Blandy Experimental Farm, 400 Blandy Farm Lane, Boyce, Virginia", ["State Arboretum of Virginia Blandy", "Blandy Experimental Farm arboretum", "Virginia arboretum grounds"]),
+  p("little-stony-man-climb", "Little Stony Man, Skyline Drive mile 41.7, Shenandoah National Park, Virginia", ["Little Stony Man cliffs Shenandoah", "Shenandoah greenstone climbing", "Stony Man Skyline Drive"]),
+  p("devils-marbleyard", "Devils Marbleyard, Belfast Trail, Natural Bridge Station, Virginia", ["Devils Marbleyard boulder field", "Belfast Trail Virginia quartzite", "James River Face Wilderness"]),
+  p("fairy-stone-hunt", "Fairy Stone State Park, 967 Fairystone Lake Drive, Stuart, Virginia", ["Fairy Stone State Park Virginia", "staurolite fairy stone", "Fairy Stone Lake"]),
+  p("james-river-rafting", "RVA Paddlesports, 1511 Brook Road, Richmond, Virginia", ["James River Richmond rafting", "Lower James whitewater Richmond", "Belle Isle rapids Richmond"]),
+  p("fredericksburg-riverfront", "Fredericksburg Riverfront Park, 701 Sophia Street, Fredericksburg, Virginia", ["Rappahannock River Fredericksburg", "Fredericksburg riverfront park", "Rappahannock riverbank Virginia"]),
+  p("bombay-hook", "Bombay Hook National Wildlife Refuge, 2591 Whitehall Neck Road, Smyrna, Delaware", ["Bombay Hook National Wildlife Refuge", "Bombay Hook salt marsh", "Delaware Atlantic Flyway marsh"]),
+  p("jersey-gardens", "The Mills at Jersey Gardens, 651 Kapkowski Road, Elizabeth, New Jersey", ["Mills at Jersey Gardens", "Jersey Gardens outlet mall", "Elizabeth New Jersey outlets"]),
+  p("big-snow-american-dream", "Big SNOW American Dream, 1 American Dream Way, East Rutherford, New Jersey", ["Big SNOW American Dream indoor slope", "American Dream indoor ski", "indoor real snow New Jersey"]),
+  p("dinosaur-state-park", "Dinosaur State Park, 400 West Street, Rocky Hill, Connecticut", ["Dinosaur State Park trackway", "Eubrontes footprint Connecticut", "Dinosaur State Park dome"]),
+  p("captured-lv-mayan", "Captured LV, Bethlehem, Pennsylvania", ["Bethlehem Pennsylvania downtown", "Lehigh Valley escape room", "Bethlehem Main Street"]),
+  p("wolf-sanctuary-pa", "Wolf Sanctuary of PA, 465 Speedwell Forge Road, Lititz, Pennsylvania", ["Wolf Sanctuary of PA", "wolf sanctuary Pennsylvania", "gray wolf rescue"]),
+  p("lakota-wolf-preserve", "Lakota Wolf Preserve, 89 Mount Pleasant Road, Columbia, New Jersey", ["Lakota Wolf Preserve", "wolf preserve New Jersey", "wolf observation area"]),
+  p("ringing-rocks-park", "Ringing Rocks Park, Upper Black Eddy, Pennsylvania", ["Ringing Rocks Park boulder field", "Ringing Rocks Pennsylvania", "Bucks County boulder field"]),
+  p("escape-on-queen", "Escape on Queen, North Queen Street, Lancaster, Pennsylvania", ["Escape on Queen Lancaster", "Lancaster Pennsylvania escape room", "escape room set"]),
+  p("blue-ridge-tunnel", "Blue Ridge Tunnel, Afton, Virginia", ["Blue Ridge Tunnel Crozet", "Blue Ridge Tunnel Afton", "unlit railroad tunnel Virginia"]),
+  p("natural-chimneys", "Natural Chimneys, Mount Solon, Virginia", ["Natural Chimneys Virginia", "Cyclopean Towers Virginia", "limestone towers Mount Solon"]),
+  p("duke-walking-with-lemurs", "Duke Lemur Center, 3705 Erwin Road, Durham, North Carolina", ["Duke Lemur Center lemurs", "ring-tailed lemur Duke", "lemur forest enclosure"]),
+  p("carolina-tiger-rescue", "Carolina Tiger Rescue, 1940 Hanks Chapel Road, Pittsboro, North Carolina", ["Carolina Tiger Rescue tiger", "tiger sanctuary North Carolina", "big cat rescue enclosure"]),
+  p("hidden-gems-zelderon", "Hidden Gems Escape, Richmond, Virginia", ["Hidden Gems Escape Richmond", "Richmond Virginia escape room", "escape room interior"]),
+  p("gnome-raven-magic-lamp", "Gnome & Raven, Richmond, Virginia", ["Gnome and Raven Richmond", "immersive escape room Richmond", "themed escape room set"]),
+  p("bam-kazam", "Bam Kazam, American Dream, East Rutherford, New Jersey", ["Bam Kazam American Dream", "American Dream East Rutherford", "challenge room New Jersey"])
 ];
 
+// Places introduced by the Energy Rebuild V2 (Route08_Lemurs_Living_Stone_Strange_Worlds_Rebuild.md).
+// The legacy V1 builder ignores these; scripts/route-08-energy/build.mjs owns their records.
+export const energyRebuildPlaceIds = new Set([
+  "ragged-mountain", "steep-rock", "mt-tammany", "crane-manor", "blandy-farm",
+  "little-stony-man-climb", "devils-marbleyard", "fairy-stone-hunt", "james-river-rafting",
+  "fredericksburg-riverfront", "bombay-hook", "jersey-gardens", "big-snow-american-dream",
+  "dinosaur-state-park", "captured-lv-mayan", "wolf-sanctuary-pa", "lakota-wolf-preserve",
+  "ringing-rocks-park", "escape-on-queen", "blue-ridge-tunnel", "natural-chimneys",
+  "duke-walking-with-lemurs", "carolina-tiger-rescue", "hidden-gems-zelderon",
+  "gnome-raven-magic-lamp", "bam-kazam"
+]);
+
 export const contextualImagePlaces = new Set([
+  "jersey-gardens", "captured-lv-mayan", "bam-kazam", "wolf-sanctuary-pa", "lakota-wolf-preserve",
+  "escape-on-queen", "hidden-gems-zelderon", "gnome-raven-magic-lamp",
   "new-britain-art", "wadsworth-atheneum", "dia-beacon", "goggleworks", "mid-atlantic-air",
   "tanger-lancaster", "shenandoah-valley-museum", "stonewall-headquarters", "woodrow-wilson",
   "duke-lemur-bts", "virginia-transportation", "keystone-tractor", "richmond-orthodox",
@@ -80,15 +121,44 @@ export const manualCoordinates = {
   "boston-public-library": [-71.0786547, 42.3493298]
 };
 
+// Energy Rebuild V2 coordinates, geocoded 2026-09-01. The four marked approximate could not be
+// resolved by Nominatim and use researched street addresses instead.
+Object.assign(manualCoordinates, {
+  "ragged-mountain": [-72.8102, 41.6296], "steep-rock": [-73.3269, 41.6144],
+  // Mt. Tammany routes to the Dunnfield Creek trailhead parking on I-80, not the summit:
+  // the summit pin forced OSRM into a 213-minute detour.
+  "mt-tammany": [-75.1270, 40.9720],
+  "crane-manor": [-77.4083, 39.4114],
+  "blandy-farm": [-78.0655, 39.0607],
+  "little-stony-man-climb": [-78.3800, 38.5919],       // approximate: Skyland, Skyline Drive mile 41.7
+  "devils-marbleyard": [-79.4719, 37.5811], "fairy-stone-hunt": [-80.0857, 36.7882],
+  "james-river-rafting": [-77.4445, 37.5567], "fredericksburg-riverfront": [-77.4567, 38.3013],
+  "bombay-hook": [-75.4373, 39.2424], "jersey-gardens": [-74.1736, 40.6628],
+  "big-snow-american-dream": [-74.0702, 40.8085], "dinosaur-state-park": [-72.6565, 41.6503],
+  "captured-lv-mayan": [-75.3787, 40.6179],
+  "wolf-sanctuary-pa": [-76.3547, 40.1858],            // approximate: 465 Speedwell Forge Rd, Lititz
+  "lakota-wolf-preserve": [-75.0169, 40.9264],         // approximate: 89 Mount Pleasant Rd, Columbia
+  "ringing-rocks-park": [-75.1296, 40.5643], "escape-on-queen": [-76.3059, 40.0392],
+  "blue-ridge-tunnel": [-78.8586, 38.0333], "natural-chimneys": [-79.0828, 38.3579],
+  "duke-walking-with-lemurs": [-78.9430, 36.0060], "carolina-tiger-rescue": [-79.1146, 35.7110],
+  "hidden-gems-zelderon": [-77.4343, 37.5385],
+  "gnome-raven-magic-lamp": [-77.4700, 37.5600],       // approximate: Richmond, Scott's Addition area
+  "bam-kazam": [-74.0702, 40.8085],
+  "pocahontas-island": [-77.4020, 37.2390]
+});
+
 export const lodgingNodes = {
   "boston-logan-rental": { name: "Boston Logan Rental Car Center", coordinates: [-71.0304, 42.3682] },
   "danbury-west-lodging": { name: "West Danbury/Ridgebury I-84 lodging zone", coordinates: [-73.5000, 41.3900] },
   "bethlehem-lodging": { name: "Historic Bethlehem lodging zone", coordinates: [-75.3824373, 40.6201695] },
   "lancaster-east-lodging": { name: "East Lancaster lodging zone", coordinates: [-76.2126863, 40.0247942] },
   "winchester-lodging": { name: "Winchester west lodging zone", coordinates: [-78.1676, 39.1857] },
+  "milford-pa-break": { name: "Milford, PA Delaware River comfort break", coordinates: [-74.8021, 41.3223] },
+  "staunton-lodging": { name: "Staunton downtown lodging zone", coordinates: [-79.0726, 38.1496] },
   "roanoke-downtown-lodging": { name: "Downtown Roanoke lodging zone", coordinates: [-79.9468241, 37.2731542] },
   "durham-lodging": { name: "Downtown Durham lodging zone", coordinates: [-78.9087291, 35.9967428] },
   "richmond-lodging": { name: "Richmond Monroe Ward lodging zone", coordinates: [-77.4466130, 37.5453393] },
+  "south-hill-break": { name: "South Hill, VA I-85 comfort break", coordinates: [-78.1281, 36.7276] },
   "annapolis-lodging": { name: "Annapolis hotel corridor", coordinates: [-76.5472304, 38.9825918] },
   "bensalem-lodging": { name: "Bensalem I-95 lodging zone", coordinates: [-74.9600, 40.1050] },
   "bridgeport-lodging": { name: "Bridgeport/Fairfield lodging zone", coordinates: [-73.1952, 41.1865] },
@@ -99,17 +169,17 @@ export const lodgingNodes = {
 export const manualLegs = {};
 
 export const dayRoutes = [
-  { day: 1, risk: "high", node_ids: ["boston-logan-rental", "new-britain-art", "danbury-west-lodging"] },
-  { day: 2, risk: "high", node_ids: ["danbury-west-lodging", "dia-beacon", "bethlehem-lodging"] },
-  { day: 3, risk: "medium", node_ids: ["bethlehem-lodging", "goggleworks", "tanger-lancaster", "lancaster-east-lodging"] },
-  { day: 4, risk: "high", node_ids: ["lancaster-east-lodging", "shenandoah-valley-museum", "winchester-lodging"] },
-  { day: 5, risk: "high", node_ids: ["winchester-lodging", "natural-bridge", "roanoke-downtown-lodging"] },
-  { day: 6, risk: "high", node_ids: ["roanoke-downtown-lodging", "duke-lemur-bts", "duke-chapel-gardens", "durham-lodging"] },
-  { day: 7, risk: "high", node_ids: ["durham-lodging", "petersburg-battlefield", "richmond-lodging"] },
-  { day: 8, risk: "high", node_ids: ["richmond-lodging", "richmond-orthodox", "poe-museum", "annapolis-lodging"] },
-  { day: 9, risk: "high", node_ids: ["annapolis-lodging", "hagley", "bensalem-lodging"] },
-  { day: 10, risk: "high", node_ids: ["bensalem-lodging", "met-cloisters", "bridgeport-lodging"] },
-  { day: 11, risk: "high", node_ids: ["bridgeport-lodging", "boston-logan-return", "boston-logan-hotel"] }
+  { day: 1, risk: "high", node_ids: ["boston-logan-rental", "ragged-mountain", "steep-rock", "danbury-west-lodging"] },
+  { day: 2, risk: "medium", node_ids: ["danbury-west-lodging", "milford-pa-break", "mt-tammany", "bethlehem-lodging"] },
+  { day: 3, risk: "low", node_ids: ["bethlehem-lodging", "goggleworks", "lancaster-east-lodging"] },
+  { day: 4, risk: "medium", node_ids: ["lancaster-east-lodging", "crane-manor", "blandy-farm", "winchester-lodging"] },
+  { day: 5, risk: "low", node_ids: ["winchester-lodging", "little-stony-man-climb", "staunton-lodging"] },
+  { day: 6, risk: "low", node_ids: ["staunton-lodging", "natural-bridge", "devils-marbleyard", "roanoke-downtown-lodging"] },
+  { day: 7, risk: "medium", node_ids: ["roanoke-downtown-lodging", "fairy-stone-hunt", "duke-lemur-bts", "south-hill-break", "pocahontas-island", "hotel-greene", "richmond-lodging"] },
+  { day: 8, risk: "medium", node_ids: ["richmond-lodging", "richmond-orthodox", "james-river-rafting", "fredericksburg-riverfront", "annapolis-lodging"] },
+  { day: 9, risk: "medium", node_ids: ["annapolis-lodging", "bombay-hook", "bensalem-lodging"] },
+  { day: 10, risk: "high", node_ids: ["bensalem-lodging", "jersey-gardens", "big-snow-american-dream", "bridgeport-lodging"] },
+  { day: 11, risk: "high", node_ids: ["bridgeport-lodging", "dinosaur-state-park", "boston-logan-hotel"] }
 ];
 
 export const replacementVariants = [
@@ -131,8 +201,8 @@ export const weatherRequests = [
   { day: 2, date: "2026-10-05", sleep_city: "Bethlehem, PA", station: "USW00014737", station_role: "Lehigh Valley airport" },
   { day: 3, date: "2026-10-06", sleep_city: "Lancaster, PA", station: "USW00014751", station_role: "Harrisburg-Lancaster regional proxy" },
   { day: 4, date: "2026-10-07", sleep_city: "Winchester, VA", station: "USW00093738", station_role: "Dulles-Winchester regional proxy" },
-  { day: 5, date: "2026-10-08", sleep_city: "Roanoke, VA", station: "USW00013741", station_role: "Roanoke airport" },
-  { day: 6, date: "2026-10-09", sleep_city: "Durham, NC", station: "USW00013722", station_role: "Raleigh-Durham airport" },
+  { day: 5, date: "2026-10-08", sleep_city: "Staunton, VA", station: "USW00013741", station_role: "Roanoke-Shenandoah Valley regional proxy" },
+  { day: 6, date: "2026-10-09", sleep_city: "Roanoke, VA", station: "USW00013741", station_role: "Roanoke airport" },
   { day: 7, date: "2026-10-10", sleep_city: "Richmond, VA", station: "USW00013740", station_role: "Richmond airport" },
   { day: 8, date: "2026-10-11", sleep_city: "Annapolis, MD", station: "USW00093721", station_role: "Baltimore-Washington airport regional proxy" },
   { day: 9, date: "2026-10-12", sleep_city: "Bensalem, PA", station: "USW00013739", station_role: "Philadelphia-Bensalem regional proxy" },

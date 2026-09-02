@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "route_id": "route-08",
-  "verified_at": "2026-08-24",
+  "verified_at": "2026-09-01",
   "sources": [
     {
       "id": "src-nbmaa",
@@ -419,27 +419,6 @@
       ]
     },
     {
-      "id": "src-noaa-normals",
-      "title": "NOAA U.S. Climate Normals",
-      "source_type": "government",
-      "url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
-      "verified_at": "2026-08-24",
-      "claims": [
-        "1991-2020 normals methodology"
-      ]
-    },
-    {
-      "id": "src-osrm",
-      "title": "Open Source Routing Machine",
-      "source_type": "routing",
-      "url": "https://project-osrm.org/",
-      "verified_at": "2026-08-24",
-      "claims": [
-        "road-network baselines",
-        "no live traffic"
-      ]
-    },
-    {
       "id": "src-forum-bullcity",
       "title": "r/bullcity local discussions",
       "source_type": "forum",
@@ -472,6 +451,1105 @@
         "Natural Bridge cross-check",
         "Shenandoah and Roanoke pacing"
       ]
+    },
+    {
+      "id": "r08x-src-001",
+      "title": "kemerer-decorative-arts research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://www.historicbethlehem.org/visit-us/museums-sites/kemerer-museum-of-decorative-arts/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-002",
+      "title": "kemerer-decorative-arts research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://www.historicbethlehem.org/visit-us/museums-sites/moravian-museum-of-bethlehem/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-003",
+      "title": "kemerer-decorative-arts research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://www.discoverlehighvalley.com/listing/kemerer-museum-of-decorative-arts/2460/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-004",
+      "title": "fish-church-stamford research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://fishchurch.org/about-us/history-architecture/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-005",
+      "title": "fish-church-stamford research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://fishchurch.org/contact-us/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-006",
+      "title": "fish-church-stamford research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://brucemuseum.org/the-collection/ct-modern-driving-tour/the-first-presbyterian-church-and-carillon-tower/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-007",
+      "title": "fish-church-stamford research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://docomomo-us.org/register/first-presbyterian-church",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-008",
+      "title": "reading-pagoda-overlook research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://www.readingpagoda.com/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-009",
+      "title": "reading-pagoda-overlook research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://www.visitpa.com/region/dutch-country-roads/reading-pagoda",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-010",
+      "title": "demuth-museum research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://demuth.org/demuth-museum/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-011",
+      "title": "demuth-museum research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://www.discoverlancaster.com/directory/demuth-museum/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-012",
+      "title": "amish-farm-house research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://amishfarmandhouse.com/plan-your-visit/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-013",
+      "title": "amish-farm-house research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://amishfarmandhouse.com/about-us/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-014",
+      "title": "shenandoah-civil-war-museum research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://shenandoahatwar.org/visit/signature-sites/shenandoah-valley-civil-war-museum/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-015",
+      "title": "shenandoah-civil-war-museum research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://visitwinchesterva.com/locations/shenandoah-valley-civil-war-museum/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-016",
+      "title": "handley-library research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://www.handleyregional.org/locations/handley",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-017",
+      "title": "handley-library research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://www.handleyregional.org/tours",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-018",
+      "title": "roanoke-city-market research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://www.downtownroanoke.org/explore/city-market",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-019",
+      "title": "roanoke-city-market research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://www.visitroanokeva.com/things-to-do/shopping/farmers-markets/roanoke-city-market/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-020",
+      "title": "texas-tavern-roanoke research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://texastavern-inc.com/history",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-021",
+      "title": "texas-tavern-roanoke research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://roanokepreservation.org/wp-content/uploads/2022/03/rvpf_walking-tour-brochure_RLR20220208-Mar-2022.pdf",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-022",
+      "title": "american-tobacco-campus research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://americantobacco.co/your-visit/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-023",
+      "title": "american-tobacco-campus research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://americantobacco.co/about-our-campus/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-024",
+      "title": "american-tobacco-campus research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://www.discoverdurham.com/district-guides/downtown-durham-district-guide/american-tobacco-campus/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-025",
+      "title": "21c-museum-durham research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://21cmuseumhotels.com/digital-hotel-guide-durham/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-026",
+      "title": "21c-museum-durham research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://www.21cmuseumhotels.com/durham/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-027",
+      "title": "21c-museum-durham research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://21cmuseumhotels.com/durham/whats-on/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-028",
+      "title": "bull-city-escape research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://www.bullcityescape.com/book-now",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-029",
+      "title": "bull-city-escape research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://www.discoverdurham.com/directory/bull-city-escape/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-030",
+      "title": "hollywood-cemetery research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://www.hollywoodcemetery.org/visit",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-031",
+      "title": "hollywood-cemetery research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://www.hollywoodcemetery.org/history",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-032",
+      "title": "hollywood-cemetery research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://wjla.com/amazing-america/discover-the-eerie-legend-of-the-richmond-vampire-at-hollywood-cemetery",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-033",
+      "title": "pocahontas-island research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://visitpetersburgva.org/attractions/pocahontas-island/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-034",
+      "title": "pocahontas-island research source",
+      "source_type": "government-primary",
+      "url": "https://www.petersburgva.gov/Facilities/Facility/Details/Rotary-Park-at-Pocahontas-Island-30",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-035",
+      "title": "pocahontas-island research source",
+      "source_type": "government-primary",
+      "url": "https://www.dhr.virginia.gov/wp-content/uploads/2023/03/123-0114_Pocahontas_Island_HD_2023_Update_NRHP_nomination_FINAL.pdf",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-036",
+      "title": "gwarbar research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://gwarbar.com/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-037",
+      "title": "gwarbar research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://gwarbar.com/menu/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-038",
+      "title": "maryland-state-house research source",
+      "source_type": "government-primary",
+      "url": "https://msa.maryland.gov/msa/mdstatehouse/html/faq.html",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-039",
+      "title": "maryland-state-house research source",
+      "source_type": "government-primary",
+      "url": "https://msa.maryland.gov/msa/mdstatehouse/html/home.html",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-040",
+      "title": "kunta-kinte-haley-memorial research source",
+      "source_type": "government-primary",
+      "url": "https://www.annapolis.gov/584/Kunta-Kinte-Alex-Haley-Memorial",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-041",
+      "title": "kunta-kinte-haley-memorial research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://kintehaley.org/the-memorial/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-042",
+      "title": "rockwood-park-gardens research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://www.rockwoodpreservation.org/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-043",
+      "title": "rockwood-park-gardens research source",
+      "source_type": "government-primary",
+      "url": "https://www.newcastlede.gov/DocumentCenter/View/1253/Rockwood-Trail-Guide-PDF",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-044",
+      "title": "rockwood-park-gardens research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://www.visitwilmingtonde.com/listing/rockwood-park-%26-museum/223/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-045",
+      "title": "karaoke-on-main research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://www.karaokeonmain.com/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-046",
+      "title": "bruce-museum research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://brucemuseum.org/plan-your-visit/get-tickets/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-047",
+      "title": "bruce-museum research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://brucemuseum.org/plan-your-visit/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-048",
+      "title": "old-south-meeting-house research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://www.osmh.org/visit-us/visit-osmh",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-049",
+      "title": "old-south-meeting-house research source",
+      "source_type": "government-primary",
+      "url": "https://home.nps.gov/bost/learn/historyculture/osmh.htm",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-050",
+      "title": "african-meeting-house research source",
+      "source_type": "government-primary",
+      "url": "https://home.nps.gov/boaf/planyourvisit/hours.htm",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-051",
+      "title": "african-meeting-house research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://maah.org/locations/boston-location/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-052",
+      "title": "moravian-book-shop research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://www.moravian.edu/bookshop",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-053",
+      "title": "moravian-book-shop research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://www.discoverlehighvalley.com/listing/moravian-book-shop/2465/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-054",
+      "title": "black-heritage-trail-short research source",
+      "source_type": "government-primary",
+      "url": "https://home.nps.gov/boaf/planyourvisit/hours.htm",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "r08x-src-055",
+      "title": "black-heritage-trail-short research source",
+      "source_type": "government-primary",
+      "url": "https://www.nps.gov/thingstodo/explore-the-black-heritage-trail.htm",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "src-v8-ragged",
+      "publisher": "Southington Land Trust / Ragged Mountain Memorial Preserve",
+      "type": "official",
+      "url": "https://www.southingtonlandtrust.org/",
+      "supports": [
+        "traprock ridge trails",
+        "free access",
+        "short ridge sampler"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v8-steep-rock",
+      "publisher": "Steep Rock Association",
+      "type": "official",
+      "url": "https://steeprockassoc.org/",
+      "supports": [
+        "Shepaug River preserve",
+        "roughly 180-foot hand-cut railroad tunnel",
+        "free access"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v8-tammany",
+      "publisher": "National Park Service — Delaware Water Gap NRA",
+      "type": "government",
+      "url": "https://www.nps.gov/dewa/planyourvisit/hiking.htm",
+      "supports": [
+        "Red Dot Trail about 1.2 miles and 1,200 feet of gain",
+        "roughly 3-mile loop with Pahaquarry",
+        "no entrance fee for this trailhead",
+        "2026 closures elsewhere in the recreation area"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v8-goggleworks",
+      "publisher": "GoggleWorks Center for the Arts",
+      "type": "official",
+      "url": "https://www.goggleworks.org/",
+      "supports": [
+        "private glassblowing workshop for 4-7 people",
+        "$100 per person",
+        "participants shape a finished object"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v8-clueiq",
+      "publisher": "Clue IQ",
+      "type": "official",
+      "url": "https://www.clueiq.com/",
+      "supports": [
+        "Crane Manor 75 minutes",
+        "4-8 recommended players",
+        "multi-linear largest game",
+        "Best of Morty 2022-2025",
+        "$36-60 plus Maryland 10% admissions tax"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v8-blandy",
+      "publisher": "University of Virginia — Blandy Experimental Farm",
+      "type": "official",
+      "url": "https://blandy.virginia.edu/",
+      "supports": [
+        "State Arboretum of Virginia",
+        "research station grounds",
+        "dawn to dusk",
+        "free"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v8-shenandoah-climb",
+      "publisher": "Shenandoah guiding operators",
+      "type": "official",
+      "url": "https://www.nps.gov/shen/planyourvisit/climbing.htm",
+      "supports": [
+        "Little Stony Man greenstone",
+        "roughly 20-110 feet single pitch",
+        "beginner through intermediate guiding",
+        "conflicting 2026 operator calendars",
+        "$175 scheduled / about $235 private"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v8-shenandoah-fees",
+      "publisher": "National Park Service — Shenandoah",
+      "type": "government",
+      "url": "https://www.nps.gov/shen/planyourvisit/fees.htm",
+      "supports": [
+        "$30 per private vehicle for seven days",
+        "two cars up to $60 group"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v8-natural-bridge",
+      "publisher": "Virginia State Parks — Natural Bridge",
+      "type": "government",
+      "url": "https://www.dcr.virginia.gov/state-parks/natural-bridge",
+      "supports": [
+        "roughly 200-foot limestone arch",
+        "Cedar Creek runs beneath",
+        "$9 adult admission",
+        "major stair descent with arranged alternatives"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v8-marbleyard",
+      "publisher": "USDA Forest Service — George Washington & Jefferson National Forests",
+      "type": "government",
+      "url": "https://www.fs.usda.gov/gwj",
+      "supports": [
+        "Belfast Trail to Devils Marbleyard",
+        "quartzite boulder field",
+        "free",
+        "wet rock materially changes risk"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v8-fairy-stone",
+      "publisher": "Virginia State Parks — Fairy Stone",
+      "type": "government",
+      "url": "https://www.dcr.virginia.gov/state-parks/fairy-stone",
+      "supports": [
+        "designated staurolite hunting area",
+        "small personal collection permitted",
+        "$7 per car standard parking"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v8-duke-lemur",
+      "publisher": "Duke Lemur Center",
+      "type": "official",
+      "url": "https://lemur.duke.edu/",
+      "supports": [
+        "Behind the Scenes year-round",
+        "private for 1-4 people",
+        "$400 per group plus tax",
+        "afternoon aye-aye chance",
+        "reservation mandatory"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v8-hotel-greene",
+      "publisher": "Hotel Greene",
+      "type": "official",
+      "url": "https://www.hotelgreene.com/",
+      "supports": [
+        "theatrical mini-golf",
+        "late Saturday operation",
+        "about $18 per person for the activity"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v8-rva-paddle",
+      "publisher": "RVA Paddlesports",
+      "type": "official",
+      "url": "https://rvapaddlesports.com/",
+      "supports": [
+        "Lower James three hours",
+        "$75 per person",
+        "Class II-IV",
+        "Reedy Creek to 14th Street",
+        "beginner Upper James alternative"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v8-fredericksburg",
+      "publisher": "City of Fredericksburg",
+      "type": "government",
+      "url": "https://www.fredericksburgva.gov/",
+      "supports": [
+        "Riverfront Park on the Rappahannock",
+        "free",
+        "deliberate drive-break reset"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v8-bombay-hook",
+      "publisher": "U.S. Fish & Wildlife Service",
+      "type": "government",
+      "url": "https://www.fws.gov/refuge/bombay-hook",
+      "supports": [
+        "one of the largest Mid-Atlantic tidal salt marshes",
+        "Atlantic Flyway",
+        "$4 per vehicle covering up to four occupants",
+        "2026 hunting closures Oct 9, Nov 13, Dec 16"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v8-jersey-gardens",
+      "publisher": "The Mills at Jersey Gardens",
+      "type": "official",
+      "url": "https://www.simon.com/mall/the-mills-at-jersey-gardens",
+      "supports": [
+        "200+ stores",
+        "free admission",
+        "New Jersey clothing and shoe tax treatment"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v8-big-snow",
+      "publisher": "Big SNOW American Dream",
+      "type": "official",
+      "url": "https://www.bigsnowamericandream.com/",
+      "supports": [
+        "SNOW Day package $79.99 plus tax",
+        "two hours of slope access",
+        "equipment, outerwear and helmet included",
+        "Tuesday slope hours 1pm-8pm",
+        "advance timed ticket only"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v8-dinosaur",
+      "publisher": "Connecticut DEEP — Dinosaur State Park",
+      "type": "government",
+      "url": "https://portal.ct.gov/deep/state-parks/parks/dinosaur-state-park",
+      "supports": [
+        "750+ in-situ early Jurassic footprints",
+        "Exhibit Center Wednesday 9:00-16:30",
+        "track casting May 1-Oct 31, 9:00-15:30",
+        "$6 adult admission",
+        "casting takes 30-45 minutes"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v8-blue-ridge-tunnel",
+      "publisher": "Nelson County / Claudius Crozet Blue Ridge Tunnel",
+      "type": "government",
+      "url": "https://www.nelsoncounty-va.gov/blueridgetunnel/",
+      "supports": [
+        "4,273-foot unlit tunnel",
+        "headlamp required",
+        "sunrise to sunset"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v8-natural-chimneys",
+      "publisher": "Natural Chimneys Park",
+      "type": "government",
+      "url": "https://www.uvrpa.org/",
+      "supports": [
+        "limestone towers",
+        "short trails",
+        "lower-exertion geology alternative"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v8-bam-kazam",
+      "publisher": "Bam Kazam",
+      "type": "official",
+      "url": "https://bamkazam.com/",
+      "supports": [
+        "hybrid physical and mental challenge rooms",
+        "American Dream location"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v8-duke-walking",
+      "publisher": "Duke Lemur Center",
+      "type": "official",
+      "url": "https://lemur.duke.edu/",
+      "supports": [
+        "Walking with Lemurs",
+        "Oct-Apr inventory released week-of only",
+        "weather and staffing dependent"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v8-captured-lv",
+      "publisher": "Captured LV",
+      "type": "official",
+      "url": "https://capturedlv.com/",
+      "supports": [
+        "Mayan Temple room",
+        "four-person compatible",
+        "Lehigh Valley"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v8-wolf-sanctuary",
+      "publisher": "Wolf Sanctuary of PA",
+      "type": "official",
+      "url": "https://wolfsanctuarypa.org/",
+      "supports": [
+        "wolf rescue tours",
+        "October public and private formats"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v8-lakota-wolf",
+      "publisher": "Lakota Wolf Preserve",
+      "type": "official",
+      "url": "https://www.lakotawolf.org/",
+      "supports": [
+        "wolf, fox, bobcat and lynx observation",
+        "outdoor conservation setting"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v8-ringing-rocks",
+      "publisher": "Bucks County Parks",
+      "type": "government",
+      "url": "https://www.buckscounty.gov/",
+      "supports": [
+        "128-acre geological formation",
+        "boulder field",
+        "dawn to dusk"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v8-escape-queen",
+      "publisher": "Escape on Queen",
+      "type": "official",
+      "url": "https://www.escapeonqueen.com/",
+      "supports": [
+        "Post Office Pursuit 90 minutes",
+        "published format starts at five players"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v8-carolina-tiger",
+      "publisher": "Carolina Tiger Rescue",
+      "type": "official",
+      "url": "https://carolinatigerrescue.org/",
+      "supports": [
+        "adults-only twilight tour",
+        "Fri-Sun through October",
+        "1.5-2 hours",
+        "$32 plus fees"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v8-hidden-gems",
+      "publisher": "Hidden Gems Escape",
+      "type": "official",
+      "url": "https://www.hiddengemsescape.com/",
+      "supports": [
+        "Curse of Zelderon",
+        "enthusiast-positive current signal"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-v8-gnome-raven",
+      "publisher": "Gnome & Raven",
+      "type": "official",
+      "url": "https://www.gnomeandraven.com/",
+      "supports": [
+        "Magic Lamp immersive room",
+        "award-recognized",
+        "four-player compatible"
+      ],
+      "verified_at": "2026-09-01"
     }
   ]
 }

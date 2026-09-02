@@ -2,6 +2,8 @@ import { Component, useEffect, useMemo, useRef, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import 'leaflet/dist/leaflet.css';
 import manifest from '../dataset/manifest.json';
+import { assessAtlasGrading, generateBestOfRoute } from './best-of-route.js';
+import { loadAllRatings, persistRating, ratingSyncConfigured, reconcileRatings } from './ratings-store.js';
 import { ROUTES, ROUTE_BY_ID, activeRouteId, loadAllRouteFeatures, loadAllRoutes, loadRoute, routeLegend } from './routes.js';
 import './styles.css';
 
@@ -36,6 +38,7 @@ const TRAVELERS = [
   { id: 'gora', name: 'Gora', short: 'G', color: '#4f9d8d' },
   { id: 'stivka', name: 'Stivka', short: 'S', color: '#8174aa' },
 ];
+const ENERGIZED_PRICING_ROUTE_IDS = new Set(['route-01', 'route-02', 'route-03', 'route-04', 'route-05', 'route-06', 'route-07', 'route-08', 'route-09', 'route-10']);
 
 function applyActiveRoute(bundle) {
   ACTIVE = bundle;
@@ -182,6 +185,102 @@ function formatDuration(minutes) {
   return `${hours ? `${hours}h ` : ''}${remainder ? `${remainder}m` : ''}`.trim();
 }
 
+function formatUsd(value) {
+  const numeric = Number(value);
+  const hasCents = Math.abs(numeric - Math.round(numeric)) > 0.001;
+  return new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency: 'USD',
+    minimumFractionDigits: hasCents ? 2 : 0,
+    maximumFractionDigits: 2,
+  }).format(numeric);
+}
+
+function priceRangeLabel(low, high, estimated = false) {
+  if (!Number.isFinite(low) || !Number.isFinite(high)) return null;
+  const label = Math.abs(low - high) < 0.001 ? formatUsd(low) : `${formatUsd(low)}–${formatUsd(high)}`;
+  return estimated ? `${label} est.` : label;
+}
+
+function placePrice(place) {
+  const cost = place?.cost || {};
+  const priceStatus = `${cost.price_type || ''} ${cost.status || ''}`.toLowerCase();
+  const isQuoteOnly = cost.amount_per_person == null && /live-quote|dynamic|unpublished/.test(priceStatus);
+  const planningSignal = Array.isArray(cost.planning_signal_per_person) ? cost.planning_signal_per_person : null;
+
+  if (isQuoteOnly) {
+    const estimate = planningSignal ? priceRangeLabel(Number(planningSignal[0]), Number(planningSignal[1]), true) : null;
+    return { label: estimate || 'Live quote', exact: false };
+  }
+
+  const range = Array.isArray(cost.range_per_person) ? cost.range_per_person : null;
+  if (range && Number.isFinite(Number(range[0])) && Number.isFinite(Number(range[1]))) {
+    return { label: priceRangeLabel(Number(range[0]), Number(range[1])), exact: cost.status !== 'checkout-required' };
+  }
+
+  const low = Number.isFinite(cost.low) ? cost.low : Number.isFinite(place?.price_per_person_low) ? place.price_per_person_low : null;
+  const high = Number.isFinite(cost.high) ? cost.high : Number.isFinite(place?.price_per_person_high) ? place.price_per_person_high : low;
+  if (Number.isFinite(low) && Number.isFinite(high)) {
+    const donation = low === 0 && high === 0 && /donation/.test(`${cost.note || ''} ${cost.status || ''}`.toLowerCase());
+    return { label: donation ? 'Free / donation' : low === 0 && high === 0 ? 'Free' : priceRangeLabel(low, high), exact: cost.status !== 'estimate' };
+  }
+
+  if (Number.isFinite(cost.amount_per_person)) {
+    const donation = cost.amount_per_person === 0 && /donation/.test(`${cost.note || ''} ${cost.status || ''}`.toLowerCase());
+    return { label: donation ? 'Free / donation' : cost.amount_per_person === 0 ? 'Free' : formatUsd(cost.amount_per_person), exact: !/estimate|planning/.test(priceStatus) };
+  }
+
+  if (Number.isFinite(cost.amount_per_group) && routeData.constraints?.travelers) {
+    return { label: `${formatUsd(cost.amount_per_group / routeData.constraints.travelers)} est.`, exact: false };
+  }
+
+  return { label: 'Verify price', exact: false };
+}
+
+function placePriceCardLabel(place) {
+  if (!ENERGIZED_PRICING_ROUTE_IDS.has(ACTIVE.id)) return null;
+  const { label } = placePrice(place);
+  if (/^(Free|Live quote|Verify price)/.test(label)) return label;
+  if (label.endsWith(' est.')) return `${label.slice(0, -5)} pp est.`;
+  return `${label} pp`;
+}
+
+function routeAttractionTotal() {
+  if (!ENERGIZED_PRICING_ROUTE_IDS.has(ACTIVE.id)) {
+    return { label: 'Pending rebuild', note: 'energized pricing not published yet', ready: false };
+  }
+
+  const budget = routeData.budget || {};
+  const authoritativeRanges = [
+    [budget.do_everything_core_low_per_person_usd, budget.do_everything_core_high_per_person_usd, false],
+    [budget.core_admissions_range_per_person_usd?.[0], budget.core_admissions_range_per_person_usd?.[1], false],
+    [budget.provisional_all_core_planning_envelope_per_person_usd?.[0], budget.provisional_all_core_planning_envelope_per_person_usd?.[1], true],
+  ];
+  for (const [low, high, estimated] of authoritativeRanges) {
+    if (Number.isFinite(low) && Number.isFinite(high)) {
+      return { label: priceRangeLabel(low, high, estimated), note: 'per person · default scheduled loop', ready: true };
+    }
+  }
+
+  const scheduledIds = new Set(routeData.days.flatMap((day) => day.schedule.map((item) => item.place_id)));
+  const ranges = [...scheduledIds].map((id) => {
+    const place = placeById.get(id);
+    const cost = place?.cost || {};
+    const range = Array.isArray(cost.range_per_person) ? cost.range_per_person : null;
+    const low = Number.isFinite(cost.low) ? cost.low : range ? Number(range[0]) : Number.isFinite(cost.amount_per_person) ? cost.amount_per_person : null;
+    const high = Number.isFinite(cost.high) ? cost.high : range ? Number(range[1]) : Number.isFinite(cost.amount_per_person) ? cost.amount_per_person : null;
+    return { low, high };
+  });
+  if (ranges.every(({ low, high }) => Number.isFinite(low) && Number.isFinite(high))) {
+    return {
+      label: priceRangeLabel(ranges.reduce((sum, item) => sum + item.low, 0), ranges.reduce((sum, item) => sum + item.high, 0), true),
+      note: 'per person · computed scheduled loop',
+      ready: true,
+    };
+  }
+  return { label: 'Verify total', note: 'one or more live prices are unpublished', ready: false };
+}
+
 function dateCode(date) {
   return new Intl.DateTimeFormat('en-US', { month: 'short', day: '2-digit' }).format(new Date(`${date}T12:00:00`)).toUpperCase();
 }
@@ -308,6 +407,65 @@ function supportsWebGL2() {
 
 function replacementForDay(dayNumber) {
   return replacementData.variants.find((variant) => variant.day === dayNumber) || null;
+}
+
+function dayOptionRecords(day) {
+  const scheduledPlaceIds = new Set(routeData.days.flatMap((entry) => entry.schedule.map((item) => item.place_id)));
+  const explicitOptions = (day.optional_spots || []).map((option) => ({
+    ...option,
+    place: placeById.get(option.place_id),
+  })).filter((option) => option.place);
+  const explicitPlaceIds = new Set(explicitOptions.map((option) => option.place_id));
+  const variant = replacementForDay(day.day);
+  const dayLimit = day.drive.authorized_cap_exception_minutes
+    || routeData.constraints?.daily_drive_hard_cap_minutes
+    || day.drive.cap_minutes
+    || 210;
+
+  const derivedOptions = (routeData.alternative_place_ids || []).map((placeId) => {
+    if (explicitPlaceIds.has(placeId) || scheduledPlaceIds.has(placeId)) return null;
+    const place = placeById.get(placeId);
+    if (!place || place.visit_date !== day.date) return null;
+    if (place.priority === 'archive' || place.energy_rebuild_role === 'preserved-revision-history') return null;
+
+    if (variant?.replacement_place_id === placeId) {
+      const replacementNames = (variant.replaces_place_ids || [])
+        .map((id) => placeById.get(id)?.name)
+        .filter(Boolean);
+      return {
+        place_id: placeId,
+        place,
+        option_type: 'route-swap',
+        status: 'route-safe-swap',
+        replaces_place_ids: variant.replaces_place_ids || [],
+        baseline_total_minutes_if_used: variant.baseline_total_minutes,
+        baseline_total_miles_if_used: variant.baseline_total_miles,
+        current_baseline_total_minutes: day.drive.baseline_total_minutes,
+        current_baseline_total_miles: day.drive.baseline_total_miles,
+        cap_minutes: dayLimit,
+        replacement_variant: variant,
+        note: `Use this as a full swap for ${replacementNames.join(' + ')}. The routed replacement remains within the day's driving limit; it is not an extra stop.`,
+      };
+    }
+
+    const optionType = place.priority === 'flex' ? 'flex' : place.priority === 'alternative' ? 'alternative' : 'optional';
+    const defaultNote = optionType === 'flex'
+      ? 'A quick flex assigned to this day by the route brief. It is outside the frozen driving baseline, so activate it only when the live ETA, opening window and group energy still work.'
+      : 'A selectable alternative assigned to this day by the route brief. It is outside the frozen driving baseline; add or swap it only after checking the live ETA and operating window.';
+    return {
+      place_id: placeId,
+      place,
+      option_type: optionType,
+      status: `documented-${optionType}`,
+      replaces_place_ids: [],
+      current_baseline_total_minutes: day.drive.baseline_total_minutes,
+      current_baseline_total_miles: day.drive.baseline_total_miles,
+      cap_minutes: dayLimit,
+      note: place.skip_mode || place.skip_strategy || defaultNote,
+    };
+  }).filter(Boolean);
+
+  return [...explicitOptions, ...derivedOptions];
 }
 
 function dayStops(day, replacement = null) {
@@ -488,6 +646,24 @@ function App() {
   }, [ratings]);
 
   useEffect(() => {
+    if (!ratingSyncConfigured) return undefined;
+    let cancelled = false;
+    const localRatings = loadRatings();
+
+    reconcileRatings(ROUTE_ID, localRatings)
+      .then((syncedRatings) => {
+        if (!cancelled) setRatings(syncedRatings);
+      })
+      .catch((error) => {
+        console.error('[Detour Atlas] Rating sync failed; using the local copy.', error);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  useEffect(() => {
     document.title = selectedPlace ? `${selectedPlace.name} · ${PRODUCT_NAME}` : `${ACTIVE.name} · ${PRODUCT_NAME}`;
   }, [selectedPlace]);
 
@@ -558,6 +734,9 @@ function App() {
         return next;
       }
       return { ...current, [key]: score };
+    });
+    persistRating({ routeId: ROUTE_ID, placeId, travelerId, score }).catch((error) => {
+      console.error('[Detour Atlas] Rating save failed; the local copy is still safe.', error);
     });
   }
 
@@ -634,7 +813,6 @@ function App() {
               activeTraveler={activeTraveler}
               ratings={ratings}
               onReplacementReview={setReplacementReview}
-              onReplacementRestore={restoreOriginal}
             />
           )}
           {shellView === 'ratings' && <RatingStudio activeTraveler={activeTraveler} ratings={ratings} onPlaceOpen={openPlace} />}
@@ -1247,7 +1425,7 @@ function RouteMap({
       </div>
 
       <button className="route-index-trigger" type="button" onClick={onIndexToggle} aria-expanded={routeIndexOpen}>
-        <Icon name="layers" size={16} /><span>Routes</span><strong>11</strong>
+        <Icon name="layers" size={16} /><span>Routes</span><strong>{ROUTES.length}</strong>
       </button>
 
       <div className="map-mode-switch" aria-label="Map focus">
@@ -1348,7 +1526,7 @@ function RouteIndex({ onClose, onShowAll }) {
           const isBuilt = ROUTE_BY_ID.has(route.id);
           return <button className={`route-index-row ${isActive ? 'is-active' : ''}`} type="button" key={route.id} onClick={() => (isActive ? onClose() : openRoute(route.id))} disabled={!isBuilt}>
             <span className="route-number" style={{ color: route.map_color }}>{String(index + 1).padStart(2, '0')}</span>
-            <span><strong>{route.name.replace('The ', '')}</strong><small>{route.id === 'route-11' ? 'Premium one-way' : 'Boston loop'} · {formatMiles(route.baseline_miles)} mi</small></span>
+            <span><strong>{route.name.replace('The ', '')}</strong><small>Boston loop · {formatMiles(route.baseline_miles)} mi</small></span>
             <em>{isActive ? 'OPEN' : isBuilt ? 'VIEW' : 'STAGED'}</em>
           </button>;
         })}
@@ -1372,13 +1550,12 @@ function RouteStory({
   activeTraveler,
   ratings,
   onReplacementReview,
-  onReplacementRestore,
 }) {
   const hero = heroGallery[heroIndex] || heroGallery[0];
-  const variant = replacementForDay(day.day);
   const origin = day.drive.legs[0] ? shortNodeName(day.drive.legs[0].from) : day.sleep_city;
   const driveMiles = activeVariant?.baseline_total_miles ?? day.drive.baseline_total_miles;
   const driveMinutes = activeVariant?.baseline_total_minutes ?? day.drive.baseline_total_minutes;
+  const attractionTotal = routeAttractionTotal();
 
   useEffect(() => {
     if (heroIndex >= heroGallery.length) onHeroChange(0);
@@ -1413,6 +1590,13 @@ function RouteStory({
         <Fact icon="car" label={day.drive.baseline_total_minutes ? 'Road baseline' : 'City day'} value={day.drive.baseline_total_minutes ? `${formatMiles(driveMiles)} mi · ${formatDuration(driveMinutes)}` : 'Walk + transit'} note={activeVariant ? 'detour selected' : 'no live traffic'} />
         <Fact icon="clock" label="Planning gate" value={day.drive.planning_total_minutes ? `${day.drive.planning_total_minutes.low}—${day.drive.planning_total_minutes.high} min` : 'Cars parked'} note={riskLabel(day.drive.traffic_risk)} />
         <Fact icon="cloud" label="Expected weather" value={`${day.weather.high_c.toFixed(1)}° / ${day.weather.low_c.toFixed(1)}°C`} note={`${Math.round(day.weather.precipitation_probability_percent)}% rain · historical normal`} />
+        <Fact
+          icon="ticket"
+          label="Loop attractions"
+          value={attractionTotal.label}
+          note={attractionTotal.note}
+          emphasis={attractionTotal.ready}
+        />
       </section>
 
       <section className="day-story">
@@ -1433,22 +1617,127 @@ function RouteStory({
           ))}
         </div>
 
+        <DayOptionsSection
+          day={day}
+          activeVariant={activeVariant}
+          activeTraveler={activeTraveler}
+          ratings={ratings}
+          focusedPlace={focusedPlace}
+          onPlaceOpen={onPlaceOpen}
+          onPlaceFocus={onPlaceFocus}
+          onReplacementReview={onReplacementReview}
+        />
+
         <div className="practical-grid">
           <LodgingCard lodging={day.lodging} city={day.sleep_city} />
           <FallbackCard text={day.fallback} />
         </div>
 
-        {variant && (
-          <ReplacementCard
-            variant={variant}
-            active={Boolean(activeVariant)}
-            onReview={() => onReplacementReview(variant)}
-            onRestore={() => onReplacementRestore(day.day)}
-            onPlaceOpen={onPlaceOpen}
-          />
-        )}
       </section>
     </div>
+  );
+}
+
+function DayOptionsSection({ day, activeVariant, activeTraveler, ratings, focusedPlace, onPlaceOpen, onPlaceFocus, onReplacementReview }) {
+  const options = dayOptionRecords(day);
+
+  if (!options.length) return null;
+
+  return (
+    <section className="day-options" aria-labelledby={`day-${day.day}-options-title`}>
+      <div className="day-options-head">
+        <div>
+          <span className="eyebrow">FLEX FILE · {options.length} {options.length === 1 ? 'CHOICE' : 'CHOICES'} OUTSIDE THE BASELINE</span>
+          <h3 id={`day-${day.day}-options-title`}>Possible, with conditions.</h3>
+        </div>
+        <p>These choices stay attached to Day {day.day} and remain fully rateable. Archived revision history stays out of this live decision file.</p>
+      </div>
+      <div className="day-option-list">
+        {options.map((option) => (
+          <DayOptionCard
+            key={option.place_id}
+            option={option}
+            rating={ratings[`${activeTraveler}:${option.place_id}`]}
+            onOpen={() => onPlaceOpen(option.place_id)}
+            onLocate={() => onPlaceFocus(option.place_id)}
+            isLocated={focusedPlace?.id === option.place_id}
+            isActive={activeVariant?.replacement_place_id === option.place_id}
+            onCompare={option.replacement_variant ? () => onReplacementReview(option.replacement_variant) : null}
+          />
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function DayOptionCard({ option, rating, onOpen, onLocate, isLocated, isActive, onCompare }) {
+  const { place } = option;
+  const image = bestImage(place);
+  const priceLabel = placePriceCardLabel(place);
+  const replacementNames = (option.replaces_place_ids || [])
+    .map((id) => placeById.get(id)?.name)
+    .filter(Boolean);
+  const isSwap = option.status === 'safe-as-swap-only' || option.status === 'route-safe-swap';
+  const hasUsedMinutes = Number.isFinite(option.baseline_total_minutes_if_used);
+  const hasAddedMinutes = Number.isFinite(option.baseline_total_minutes_if_added);
+  const hasOverage = Number.isFinite(option.over_cap_minutes);
+  const statusLabel = {
+    'safe-as-swap-only': 'SWAP ONLY · ROUTE-SAFE',
+    'route-safe-swap': 'ROUTED SWAP · WITHIN LIMIT',
+    'over-standard-cap': 'OVER THE STANDARD CAP',
+    'over-authorized-cap': 'ROUTE REDESIGN REQUIRED',
+    'documented-flex': 'FLEX · LIVE ETA CHECK',
+    'documented-optional': 'OPTIONAL · OUTSIDE BASELINE',
+    'documented-alternative': 'ALTERNATIVE · OUTSIDE BASELINE',
+  }[option.status] || 'CONDITIONAL OPTION';
+
+  return (
+    <article className={`day-option-card option-${option.status} ${isLocated ? 'is-located' : ''} ${isActive ? 'is-active' : ''}`}>
+      <button className="day-option-image" type="button" onClick={onOpen} aria-label={`Open ${place.name} gallery and ratings`}>
+        {image && <RouteImage image={image} images={placeImages(place)} alt={image.alt || place.name} loading="lazy" rendition="thumb" />}
+        <span><Icon name="gallery" size={13} /> {placeImages(place).length} photos</span>
+      </button>
+      <div className="day-option-copy">
+        <div className="day-option-status"><Icon name={isSwap ? 'repeat' : hasOverage ? 'warning' : 'route'} size={14} /> {isActive ? 'ACTIVE · ' : ''}{statusLabel}</div>
+        <button className="day-option-title" type="button" onClick={onOpen}><h4>{place.name}</h4><Icon name="arrow" size={16} /></button>
+        <p>{option.note}</p>
+        {replacementNames.length > 0 && <div className="day-option-swap"><span>USE INSTEAD OF</span><strong>{replacementNames.join(' + ')}</strong></div>}
+        <div className="day-option-metrics" aria-label="Driving impact">
+          {hasUsedMinutes && hasAddedMinutes ? (
+            <>
+              <span><small>AS THE SWAP</small><strong>{option.baseline_total_minutes_if_used} min</strong></span>
+              <span><small>IF ADDED</small><strong>{option.baseline_total_minutes_if_added} min</strong></span>
+              <span><small>DAY LIMIT</small><strong>{option.cap_minutes} min</strong></span>
+            </>
+          ) : hasUsedMinutes ? (
+            <>
+              <span><small>AS THE SWAP</small><strong>{option.baseline_total_minutes_if_used} min</strong></span>
+              <span><small>BASE ROUTE</small><strong>{option.current_baseline_total_minutes} min</strong></span>
+              <span><small>DAY LIMIT</small><strong>{option.cap_minutes} min</strong></span>
+            </>
+          ) : hasAddedMinutes ? (
+            <>
+              <span><small>BASE ROUTE</small><strong>{option.current_baseline_total_minutes} min</strong></span>
+              <span><small>WITH OPTION</small><strong>{option.baseline_total_minutes_if_added} min</strong></span>
+              <span><small>OVER LIMIT</small><strong>+{option.over_cap_minutes} min</strong></span>
+            </>
+          ) : (
+            <>
+              <span><small>BASE ROUTE</small><strong>{option.current_baseline_total_minutes || 'Parked'}{option.current_baseline_total_minutes ? ' min' : ''}</strong></span>
+              <span><small>DAY LIMIT</small><strong>{option.cap_minutes} min</strong></span>
+              <span><small>FILED AS</small><strong>{option.option_type}</strong></span>
+            </>
+          )}
+        </div>
+        <div className="day-option-actions">
+          {onCompare && <button className="button button-primary" type="button" onClick={onCompare}>{isActive ? 'Review active swap' : 'Compare this swap'} <Icon name="repeat" size={14} /></button>}
+          <button className={`button ${onCompare ? 'button-quiet' : 'button-primary'}`} type="button" onClick={onOpen}>Gallery + rate <Icon name="arrow" size={14} /></button>
+          {priceLabel && <span className="day-option-price"><Icon name="ticket" size={12} /> {priceLabel}</span>}
+          <span className={rating ? 'has-rating' : ''}>★ {rating ? `${rating}/5 yours` : 'Not rated yet'}</span>
+          <button className="locate-stop" type="button" onClick={onLocate} aria-pressed={isLocated}><Icon name="pin" size={12} /> {isLocated ? 'On map' : 'Show on map'}</button>
+        </div>
+      </div>
+    </article>
   );
 }
 
@@ -1474,14 +1763,15 @@ function ChapterStrip({ activeDay, onDayChange }) {
   );
 }
 
-function Fact({ icon, label, value, note }) {
-  return <div className="fact"><span className="fact-icon"><Icon name={icon} size={17} /></span><span><small>{label}</small><strong>{value}</strong><em>{note}</em></span></div>;
+function Fact({ icon, label, value, note, emphasis = false }) {
+  return <div className={`fact ${emphasis ? 'is-emphasis' : ''}`}><span className="fact-icon"><Icon name={icon} size={17} /></span><span><small>{label}</small><strong>{value}</strong><em>{note}</em></span></div>;
 }
 
 function StopStoryCard({ stop, rating, onOpen, onLocate, isLocated }) {
   const { place, start, end, priority, reservation, sequence, isReplacement } = stop;
   const image = bestImage(place);
   const imageCount = placeImages(place).length;
+  const priceLabel = placePriceCardLabel(place);
   return (
     <article className={`stop-story-card ${priority === 'anchor' ? 'is-anchor' : ''} ${isLocated ? 'is-located' : ''}`}>
       <button className="stop-story-image" type="button" onClick={onOpen}>
@@ -1496,7 +1786,8 @@ function StopStoryCard({ stop, rating, onOpen, onLocate, isLocated }) {
         <blockquote>{place.why_go}</blockquote>
         <div className="stop-card-foot">
           <span><Icon name="clock" size={13} /> {place.duration_minutes} min</span>
-          <span><Icon name="ticket" size={13} /> {reservation === 'none' ? 'No reservation' : 'Check booking'}</span>
+          {priceLabel && <span className="spot-price"><Icon name="ticket" size={13} /> {priceLabel}</span>}
+          <span><Icon name="calendar" size={13} /> {reservation === 'none' ? 'No reservation' : 'Check booking'}</span>
           <span className={rating ? 'has-rating' : ''}>★ {rating ? `${rating}/5 yours` : 'Not rated'}</span>
           <button className="locate-stop" type="button" onClick={onLocate} aria-pressed={isLocated}><Icon name="pin" size={12} /> {isLocated ? 'On map' : 'Show on map'}</button>
         </div>
@@ -1557,6 +1848,7 @@ function ReplacementReview({ variant, active, onClose, onAccept, onRestore, onPl
 function PlaceGallery({ place, activeTraveler, ratings, imageIndex, onImageChange, onClose, onRate }) {
   const images = placeImages(place);
   const image = images[imageIndex] || images[0];
+  const price = ENERGIZED_PRICING_ROUTE_IDS.has(ACTIVE.id) ? placePrice(place).label : 'Pending rebuild';
   const groupScores = TRAVELERS.map((item) => ratings[`${item.id}:${place.id}`]).filter(Boolean);
   const groupAverage = groupScores.length ? groupScores.reduce((sum, score) => sum + score, 0) / groupScores.length : null;
 
@@ -1592,7 +1884,7 @@ function PlaceGallery({ place, activeTraveler, ratings, imageIndex, onImageChang
           <h2 id="place-title">{place.name}</h2>
           <p className="place-deck">{place.summary}</p>
           <div className="why-go"><span>WHY WE GO HERE</span><p>{place.why_go}</p></div>
-          <div className="place-quick-facts"><span><Icon name="clock" size={15} /><small>Time here</small><strong>{place.duration_minutes} min</strong></span><span><Icon name="ticket" size={15} /><small>Expected cost</small><strong>{place.cost?.amount_per_person === 0 ? 'Free' : place.cost?.amount_per_person ? `$${place.cost.amount_per_person}` : 'Verify'}</strong></span><span><Icon name="calendar" size={15} /><small>Hours</small><strong>{place.hours?.opens && place.hours?.closes ? `${place.hours.opens}—${place.hours.closes}` : 'Verify'}</strong></span></div>
+          <div className="place-quick-facts"><span><Icon name="clock" size={15} /><small>Time here</small><strong>{place.duration_minutes} min</strong></span><span><Icon name="ticket" size={15} /><small>Price / person</small><strong>{price}</strong></span><span><Icon name="calendar" size={15} /><small>Hours</small><strong>{place.hours?.opens && place.hours?.closes ? `${place.hours.opens}—${place.hours.closes}` : 'Verify'}</strong></span></div>
           <div className="fit-note"><span>BEST FOR</span><p>{place.best_fit_note}</p><div className="fit-people">{TRAVELERS.map((person) => <span key={person.id} className={(place.best_for || []).includes(person.id) ? 'is-primary' : ''} style={{ '--person-color': person.color }}>{person.short}<small>{person.name}</small></span>)}</div></div>
           <div className="place-rating">
             <div className="place-rating-head"><span className="eyebrow">RATINGS</span><p>Everyone counts the same. All four of you can rate here, with no need to change the person at the top.</p></div>
@@ -1658,12 +1950,120 @@ function CompareView({ routes, onBack }) {
 }
 
 function MagicView({ activeTraveler, ratings, onBack }) {
-  const completed = placesData.places.filter((place) => ratings[`${activeTraveler}:${place.id}`]).length;
-  const progress = Math.round((completed / placesData.places.length) * 100);
+  const [routes, setRoutes] = useState(null);
+  const [ratingRows, setRatingRows] = useState(null);
+  const [loadError, setLoadError] = useState('');
+  const [generating, setGenerating] = useState(false);
+  const [generationError, setGenerationError] = useState('');
+  const [generatedRoute, setGeneratedRoute] = useState(null);
+  const requestId = useRef(0);
+  const currentTraveler = TRAVELERS.find((traveler) => traveler.id === activeTraveler);
+  const currentCompleted = placesData.places.filter((place) => ratings[`${activeTraveler}:${place.id}`]).length;
+  const assessment = useMemo(
+    () => (routes && ratingRows ? assessAtlasGrading(routes, ratingRows) : null),
+    [routes, ratingRows],
+  );
+  const rankedRoutes = useMemo(() => [...(assessment?.route_scores || [])]
+    .filter((route) => route.group_average != null)
+    .sort((a, b) => (
+      b.group_average - a.group_average
+      || b.fairness_floor - a.fairness_floor
+      || b.coverage_percent - a.coverage_percent
+      || a.baseline_miles - b.baseline_miles
+    )), [assessment]);
+
+  async function refreshRatings() {
+    const activeRequest = requestId.current + 1;
+    requestId.current = activeRequest;
+    setLoadError('');
+    setGenerationError('');
+    setGeneratedRoute(null);
+    try {
+      const [loadedRoutes, loadedRatings] = await Promise.all([loadAllRoutes(), loadAllRatings()]);
+      if (requestId.current !== activeRequest) return;
+      setRoutes(loadedRoutes);
+      setRatingRows(loadedRatings);
+    } catch (error) {
+      if (requestId.current === activeRequest) setLoadError(error.message || 'The grading board could not be loaded.');
+    }
+  }
+
+  useEffect(() => {
+    refreshRatings();
+    return () => {
+      requestId.current += 1;
+    };
+  }, []);
+
+  async function buildBestOfRoute() {
+    if (!assessment?.winner || !routes || !ratingRows) return;
+    setGenerating(true);
+    setGenerationError('');
+    setGeneratedRoute(null);
+    try {
+      setGeneratedRoute(await generateBestOfRoute({ routes, ratingRows }));
+    } catch (error) {
+      setGenerationError(error.message || 'The best-of route could not be generated.');
+    } finally {
+      setGenerating(false);
+    }
+  }
+
+  function downloadGeneratedRoute() {
+    if (!generatedRoute) return;
+    const blob = new Blob([`${JSON.stringify(generatedRoute, null, 2)}\n`], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = 'best-of-atlas-generated-route.json';
+    link.click();
+    URL.revokeObjectURL(url);
+  }
+
+  const progress = assessment?.completion_percent || 0;
   return (
     <div className="secondary-view story-scroll">
-      <div className="secondary-head"><span className="eyebrow"><Icon name="sparkle" size={13} /> MAGIC · TRANSPARENT, NOT MYSTERIOUS</span><h1>The winner must explain itself.</h1><p>{ACTIVE.name} can be explored and rated now. A cross-route winner stays locked until every route uses this same evidence and voting structure.</p></div>
-      <div className="magic-card"><div className="magic-dial" style={{ '--progress': `${progress * 3.6}deg` }}><span><strong>{progress}%</strong><small>{ACTIVE.id.replace('route-', 'Route ')} rated</small></span></div><div><span className="eyebrow">READINESS</span><h2>{completed} of {placesData.places.length} places have this traveler's vote.</h2><p>Final route weighting: stops 45% · excitement 20% · driving comfort 15% · fairness 10% · cost/value 5% · expected weather 5%.</p><button className="button button-primary" type="button" onClick={onBack}>Keep exploring <Icon name="arrow" size={14} /></button></div></div>
+      <div className="secondary-head"><span className="eyebrow"><Icon name="sparkle" size={13} /> MAGIC · TRANSPARENT, NOT MYSTERIOUS</span><h1>Build the route whenever the group is ready.</h1><p>Traveler ratings take priority. Any skipped score falls back to the researched traveler-fit data already attached to that place, so ungraded spots remain eligible and the route can be generated manually at any point.</p></div>
+
+      {!ratingSyncConfigured && <div className="magic-alert" role="alert"><strong>Cloud grading is not configured in this build.</strong><span>Manual generation still works from curated fit scores. Add the two public Supabase variables to include shared traveler ratings.</span></div>}
+      {loadError && <div className="magic-alert is-error" role="alert"><strong>The grading board could not load.</strong><span>{loadError}</span><button className="button button-quiet" type="button" onClick={refreshRatings}>Try again</button></div>}
+
+      <div className="magic-card">
+        <div className="magic-dial" style={{ '--progress': `${progress * 3.6}deg` }}><span><strong>{assessment ? `${progress}%` : '…'}</strong><small>Atlas graded</small></span></div>
+        <div>
+          <span className="eyebrow">ALL ROUTES · ALL FOUR TRAVELERS</span>
+          <h2>{assessment ? `${assessment.completed_ratings.toLocaleString()} of ${assessment.required_ratings.toLocaleString()} ratings are complete.` : 'Loading the shared grading board…'}</h2>
+          <p>{assessment?.complete ? 'Every candidate is traveler-scored; no curated fallback is needed.' : `${assessment?.missing_ratings.toLocaleString() || '—'} scores are skipped or still open and will use curated fit values. ${currentTraveler.name} has rated ${currentCompleted} of ${placesData.places.length} places on the open route.`}</p>
+          <div className="magic-actions">
+            <button className="button button-primary" type="button" disabled={!assessment?.winner || generating} onClick={buildBestOfRoute}>{generating ? 'Routing the best spots…' : 'Generate route now'} <Icon name="sparkle" size={14} /></button>
+            <button className="button button-quiet" type="button" onClick={refreshRatings} disabled={generating}>Refresh grading</button>
+            <button className="button button-quiet" type="button" onClick={onBack}>Keep exploring <Icon name="arrow" size={14} /></button>
+          </div>
+        </div>
+      </div>
+
+      {assessment?.winner && (
+        <section className="magic-winner" aria-labelledby="winner-title">
+          <span className="eyebrow">{assessment.complete ? 'CURRENT WINNER' : 'PROVISIONAL WINNER · MANUAL GENERATION READY'}</span>
+          <h2 id="winner-title">{assessment.winner.name}</h2>
+          <p><strong>{assessment.winner.group_average.toFixed(2)} / 5</strong> effective group score · <strong>{assessment.winner.coverage_percent}%</strong> traveler-rated. Missing scores use curated fit; equal traveler weight, fairness and shorter mileage break ties.</p>
+          <div className="magic-ranking">{rankedRoutes.map((route, index) => <div key={route.id} className={index === 0 ? 'is-winner' : ''}><span>{String(index + 1).padStart(2, '0')}</span><strong>{route.name}</strong><em>{route.group_average.toFixed(2)} · {route.coverage_percent}%</em></div>)}</div>
+        </section>
+      )}
+
+      {generationError && <div className="magic-alert is-error" role="alert"><strong>No valid draft was produced.</strong><span>{generationError}</span><span>No driving rule was relaxed.</span></div>}
+
+      {generatedRoute && (
+        <section className="magic-result" aria-labelledby="generated-title">
+          <span className="eyebrow">GENERATED · ROAD-CHECKED DRAFT</span>
+          <h2 id="generated-title">{generatedRoute.route.name}</h2>
+          <p>{generatedRoute.selection.selected_unique_spot_count} highest-ranked places fit, including skipped spots evaluated with curated fit data. {generatedRoute.selection.excluded_top_spots.length} other leading candidates were left out because they could not fit their researched date, operating window, or the driving cap.</p>
+          <div className="magic-result-metrics"><span><small>Winner backbone</small><strong>{generatedRoute.route.based_on_winning_route_id.replace('route-', 'Route ')}</strong></span><span><small>Road baseline cap</small><strong>{generatedRoute.constraints.daily_drive_hard_cap_minutes} min/day</strong></span><span><small>Traffic planning model</small><strong>{generatedRoute.constraints.traffic_buffer_multiplier.toFixed(1)}× baseline</strong></span></div>
+          <div className="magic-days">{generatedRoute.days.map((day) => <article key={day.date}><div><span>DAY {String(day.day).padStart(2, '0')} · {day.date}</span><strong>{day.sleep_city || 'Road night'}</strong><small>{day.drive.baseline_total_miles} mi · {day.drive.baseline_total_minutes} min baseline · {day.drive.planning_total_minutes.high} min buffered</small></div><ol>{day.schedule.length ? day.schedule.map((stop) => <li key={`${stop.source_route_id}:${stop.place_id}`}><strong>{stop.name}</strong><span>{stop.start}–{stop.end} · {stop.group_average.toFixed(2)}/5 · {stop.graded_traveler_count}/4 graded</span></li>) : <li className="is-empty">Transit / recovery day</li>}</ol></article>)}</div>
+          <div className="magic-actions"><button className="button button-primary" type="button" onClick={downloadGeneratedRoute}>Download route JSON <Icon name="arrow" size={14} /></button><button className="button button-quiet" type="button" onClick={buildBestOfRoute}>Generate again</button></div>
+          <p className="magic-caveat">OSRM supplies baseline road times, not live traffic. The draft still marks reservations, hours, weather, lodging, parking and day-of travel ETAs for final confirmation.</p>
+        </section>
+      )}
     </div>
   );
 }

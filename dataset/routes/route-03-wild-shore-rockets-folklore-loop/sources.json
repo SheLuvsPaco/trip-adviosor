@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "route_id": "route-03",
-  "verified_at": "2026-08-23",
+  "verified_at": "2026-08-31",
   "sources": [
     {
       "id": "src-florence",
@@ -252,18 +252,6 @@
       "verified_at": "2026-08-23"
     },
     {
-      "id": "src-assateague",
-      "publisher": "National Park Service",
-      "type": "government",
-      "url": "https://www.nps.gov/asis/planyourvisit/hours.htm",
-      "supports": [
-        "October hours",
-        "visitor center",
-        "wild-horse access"
-      ],
-      "verified_at": "2026-08-23"
-    },
-    {
       "id": "src-wallops",
       "publisher": "NASA",
       "type": "government",
@@ -503,24 +491,171 @@
       "verified_at": "2026-08-23"
     },
     {
-      "id": "src-noaa-normals",
-      "publisher": "NOAA National Centers for Environmental Information",
-      "type": "government-data",
-      "url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+      "id": "src-v3-nautilus",
+      "publisher": "Submarine Force Museum / U.S. Navy",
+      "type": "official",
+      "url": "https://ussnautilus.org/museum-information/",
       "supports": [
-        "1991-2020 daily climate normals"
+        "Oct 1-Apr 30 Wed-Mon 09:00-16:00",
+        "free admission",
+        "self-guided Nautilus tour",
+        "conservative 16:00 close"
       ],
-      "verified_at": "2026-08-23"
+      "verified_at": "2026-08-31"
     },
     {
-      "id": "src-osrm",
-      "publisher": "Open Source Routing Machine",
-      "type": "routing",
-      "url": "https://project-osrm.org/",
+      "id": "src-v3-fire-island-lighthouse",
+      "publisher": "Fire Island Lighthouse Preservation Society",
+      "type": "official",
+      "url": "https://fireislandlighthouse.com/visit/",
       "supports": [
-        "road-network distance and no-traffic baselines"
+        "daily tower operation",
+        "$10 adult tower admission",
+        "182 steps",
+        "Robert Moses Field 5 access"
       ],
-      "verified_at": "2026-08-23"
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v3-revrail-cape-may",
+      "publisher": "Revolution Rail Co.",
+      "type": "official",
+      "url": "https://www.revrail.com/cape-may-run",
+      "supports": [
+        "4-mile Cape May run",
+        "$170 four-seat railbike",
+        "Garrett Family Preserve and canal route",
+        "exact-date calendar not yet exposed"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v3-cape-may-lighthouse",
+      "publisher": "Cape May MAC",
+      "type": "official",
+      "url": "https://capemaymac.org/experience/cape-may-lighthouse/",
+      "supports": [
+        "199 steps",
+        "about $12 adult tower admission",
+        "weather and lightning closures"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v3-assateague-explorer",
+      "publisher": "Assateague Explorer",
+      "type": "official",
+      "url": "https://assateagueexplorer.com/",
+      "supports": [
+        "2-2.5 hour guided kayak",
+        "April-October operation",
+        "from $69 plus 6% card fee",
+        "no experience required",
+        "wildlife boat tour fallback"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v3-chincoteague-refuge",
+      "publisher": "U.S. Fish & Wildlife Service",
+      "type": "government",
+      "url": "https://www.fws.gov/refuge/chincoteague",
+      "supports": [
+        "Wildlife Loop open to vehicles after 3pm to dusk",
+        "October refuge access to 8pm",
+        "$10 weekly vehicle pass",
+        "horse sightings never guaranteed"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v3-kiptopeke",
+      "publisher": "Virginia State Parks / Department of Conservation and Recreation",
+      "type": "government",
+      "url": "https://www.dcr.virginia.gov/state-parks/kiptopeke",
+      "supports": [
+        "nine WWII concrete ships as breakwater",
+        "coastal migration corridor",
+        "$7 per passenger vehicle parking"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v3-nauticus-tour",
+      "publisher": "Nauticus / Battleship Wisconsin",
+      "type": "official",
+      "url": "https://nauticus.org/",
+      "supports": [
+        "$19.95 general admission",
+        "$20 Command & Control guided tour",
+        "about 60 minutes",
+        "restricted spaces beyond self-guided circulation"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v3-haunts-richmond",
+      "publisher": "Haunts of Richmond",
+      "type": "official",
+      "url": "https://hauntsofrichmond.com/",
+      "supports": [
+        "Haunted Capitol Hill on Oct 10 2026",
+        "19:30-21:00",
+        "$27 online / $30 walk-up",
+        "Capitol-area historical disasters"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v3-neabsco",
+      "publisher": "Visit Prince William / Prince William County",
+      "type": "government",
+      "url": "https://www.visitpwc.com/listing/neabsco-creek-boardwalk/1648/",
+      "supports": [
+        "3,300-foot accessible wetland boardwalk",
+        "observation decks and overlooks",
+        "Potomac Heritage National Scenic Trail"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v3-rennfest",
+      "publisher": "Maryland Renaissance Festival",
+      "type": "official",
+      "url": "https://www.rennfest.com/",
+      "supports": [
+        "Sunday Oct 11 2026 operating day",
+        "10:00-19:00",
+        "observed $36.14 per-person online checkout",
+        "jousting, stages and craft village"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v3-pinelands",
+      "publisher": "Pinelands Adventures",
+      "type": "official",
+      "url": "https://www.pinelandsadventures.org/",
+      "supports": [
+        "Mullica Shorty 1.5-2 hours / about 2 miles",
+        "equipment and operator transport included",
+        "advance reservation required",
+        "tandem and single pricing plus NJDEP fees"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v3-argia",
+      "publisher": "Argia Mystic Cruises",
+      "type": "official",
+      "url": "https://www.argiamystic.com/Argia_PublicSails.aspx",
+      "supports": [
+        "May through mid-October public sailing",
+        "$65 weekday morning low-season sail",
+        "guests invited to help hoist and trim",
+        "2026 rate sheet published only through Oct 12"
+      ],
+      "verified_at": "2026-08-31"
     }
   ]
 }

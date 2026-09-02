@@ -1,67 +1,492 @@
 {
+  "schema_version": "1.0.0",
   "route_id": "route-01",
-  "verified_at": "2026-08-21",
+  "verified_at": "2026-08-31",
   "sources": [
-    { "id": "src-risd", "publisher": "RISD Museum", "type": "official", "url": "https://risdmuseum.org/hours-admission", "supports": ["hours", "admission", "Sunday free admission"] },
-    { "id": "src-providence", "publisher": "GoProvidence", "type": "official-tourism", "url": "https://www.goprovidence.com/neighborhoods/college-hill/", "supports": ["Benefit Street and College Hill context"] },
-    { "id": "src-newport-cliff", "publisher": "City of Newport", "type": "government", "url": "https://www.cityofnewport.com/visiting-newport/cliff-walk", "supports": ["Cliff Walk access and conditions"] },
-    { "id": "src-newport-mansions", "publisher": "Preservation Society of Newport County", "type": "official", "url": "https://www.newportmansions.org/plan-a-visit/", "supports": ["The Breakers 2026 schedule", "last admission", "restoration warning"] },
-    { "id": "src-watch-hill", "publisher": "Visit Rhode Island", "type": "official-tourism", "url": "https://www.visitrhodeisland.com/listing/watch-hill-lighthouse/7892/", "supports": ["lighthouse access", "daylight grounds", "lighthouse interior closed"] },
-    { "id": "src-mystic", "publisher": "Mystic Seaport Museum", "type": "official", "url": "https://mysticseaport.org/visit/hours-tickets/", "supports": ["October 2026 hours", "admission", "operating exhibits and cruises"] },
-    { "id": "src-beinecke", "publisher": "Yale University Library", "type": "official", "url": "https://beinecke.library.yale.edu/research-teaching/doing-research-beinecke-library", "supports": ["public visitor hours", "free exhibition access"] },
-    { "id": "src-woodbury", "publisher": "Simon Property Group", "type": "official", "url": "https://www.premiumoutlets.com/outlet/woodbury-common/about", "supports": ["address", "parking", "250+ stores", "retail mix"] },
-    { "id": "src-brooklyn-park", "publisher": "Brooklyn Bridge Park", "type": "official", "url": "https://brooklynbridgepark.org/places-to-see/pier-1/", "supports": ["Pier 1 access", "viewpoint"] },
-    { "id": "src-tenement", "publisher": "Tenement Museum", "type": "official", "url": "https://www.tenement.org/plan-a-visit/", "supports": ["hours", "guided-only access", "ticket price", "address"] },
-    { "id": "src-st-nicholas-wtc", "publisher": "Saint Nicholas Greek Orthodox Church and National Shrine", "type": "official", "url": "https://church.stnicholaswtc.org/", "supports": ["public hours", "address", "Orthodox identity", "service times"] },
-    { "id": "src-oculus", "publisher": "World Trade Center", "type": "official", "url": "https://www.officialworldtradecenter.com/en/local/learn-about-wtc/oculus-transportation-hub.html", "supports": ["Oculus visitor context"] },
-    { "id": "src-tram", "publisher": "Roosevelt Island Operating Corporation", "type": "government", "url": "https://rioc.ny.gov/302/Tram", "supports": ["operating hours", "frequency", "fare system"] },
-    { "id": "src-yob", "publisher": "Bandsintown", "type": "event-listing", "url": "https://www.bandsintown.com/e/1039879081-yob-at-saint-vitus?came_from=250", "supports": ["YOB event date", "time", "new Saint Vitus address"] },
-    { "id": "src-gfs", "publisher": "Grounds For Sculpture", "type": "official", "url": "https://www.groundsforsculpture.org/visit/hours-admission-directions/", "supports": ["hours", "adult admission", "address", "timed tickets"] },
-    { "id": "src-princeton-museum", "publisher": "Princeton University Art Museum", "type": "official", "url": "https://artmuseum.princeton.edu/visit", "supports": ["free admission", "Thursday hours", "2026 exhibitions"] },
-    { "id": "src-princeton-chapel", "publisher": "Princeton University Chapel", "type": "official", "url": "https://chapel.princeton.edu/", "supports": ["academic-year opening hours", "visitor access"] },
-    { "id": "src-elfreth", "publisher": "Elfreth's Alley Museum", "type": "official", "url": "https://www.elfrethsalley.org/", "supports": ["historic alley context", "museum information"] },
-    { "id": "src-reading-terminal", "publisher": "Reading Terminal Market", "type": "official", "url": "https://readingterminalmarket.org/visit-us/", "supports": ["hours", "address", "merchant information"] },
-    { "id": "src-eastern-state-hours", "publisher": "Eastern State Penitentiary", "type": "official", "url": "https://easternstate.org/historic-site/hours-of-operation", "supports": ["October hours", "seasonal schedule"] },
-    { "id": "src-eastern-state-cost", "publisher": "Eastern State Penitentiary", "type": "official", "url": "https://easternstate.org/historic-site/know-before-you-go", "supports": ["online admission", "visit duration", "included programming"] },
-    { "id": "src-magic-gardens", "publisher": "Philadelphia's Magic Gardens", "type": "official", "url": "https://www.phillymagicgardens.org/hours-and-admission/", "supports": ["hours", "admission", "advance-ticket warning"] },
-    { "id": "src-basement", "publisher": "Live Nation", "type": "official-ticketing", "url": "https://www.livenation.com/event/vv17FZ_aGkD_vJiX/basement", "supports": ["October 9 event", "7 PM start", "lineup", "venue"] },
-    { "id": "src-baltimore-parks", "publisher": "Baltimore City Recreation and Parks", "type": "government", "url": "https://bcrp.baltimorecity.gov/parks/federal-hill", "supports": ["Federal Hill Park access"] },
-    { "id": "src-avam", "publisher": "American Visionary Art Museum", "type": "official", "url": "https://www.avam.org/visit", "supports": ["hours", "adult admission", "address", "October 10 exhibition opening"] },
-    { "id": "src-snallygaster", "publisher": "Snallygaster", "type": "official-event", "url": "https://www.snallygasterdc.com/", "supports": ["October 10 date", "2-6 PM general admission", "$75 admission", "event footprint", "no-parking warning"] },
-    { "id": "src-st-nicholas-dc", "publisher": "Orthodox Church in America", "type": "official-church-directory", "url": "https://www.oca.org/parishes/oca-wa-wdcsnk", "supports": ["address", "9 AM English Divine Liturgy", "10:45 AM Slavonic Divine Liturgy", "visitor guidance"] },
-    { "id": "src-dumbarton", "publisher": "Dumbarton Oaks", "type": "official", "url": "https://www.doaks.org/visit", "supports": ["museum and garden access", "Byzantine collection", "timed garden entry"] },
-    { "id": "src-o-museum", "publisher": "O Museum in The Mansion", "type": "official", "url": "https://www.omuseum.org/faqs", "supports": ["Sunday hours", "100+ rooms", "80+ secret doors", "reservation recommendation", "address"] },
-    { "id": "src-lincoln", "publisher": "National Park Service", "type": "government", "url": "https://www.nps.gov/linc/planyourvisit/index.htm", "supports": ["Lincoln Memorial access", "visitor information"] },
-    { "id": "src-frederick", "publisher": "City of Frederick", "type": "government", "url": "https://www.cityoffrederickmd.gov/169/Carroll-Creek-Park", "supports": ["Carroll Creek Linear Park"] },
-    { "id": "src-gettysburg", "publisher": "National Park Service", "type": "government", "url": "https://www.nps.gov/gett/planyourvisit/index.htm", "supports": ["battlefield access", "visitor planning"] },
-    { "id": "src-gettysburg-guide", "publisher": "Gettysburg Foundation", "type": "official-partner", "url": "https://cart.gettysburgfoundation.org/26941/26991", "supports": ["private licensed-guide format", "two-hour duration", "reservation phone", "published rate requiring reconfirmation"] },
-    { "id": "src-steelstacks", "publisher": "Hoover-Mason Trestle", "type": "official", "url": "https://hoovermason.com/", "supports": ["Bethlehem Steel history", "self-guided trestle experience"] },
-    { "id": "src-historic-bethlehem", "publisher": "Historic Bethlehem Museums and Sites", "type": "official", "url": "https://www.historicbethlehem.org/visit-us/museums-sites/moravian-museum-of-bethlehem/", "supports": ["Monday hours", "Moravian World Heritage context", "address"] },
-    { "id": "src-da-vinci", "publisher": "Da Vinci Science Center", "type": "official", "url": "https://www.davincisciencecenter.org/visitor-info/", "supports": ["daily hours", "$24 admission", "typical visit duration", "parking"] },
-    { "id": "src-delaware-gap", "publisher": "National Park Service", "type": "government", "url": "https://home.nps.gov/dewa/planyourvisit/the-water-gap.htm", "supports": ["Point of Gap Overlook", "other overlook options", "scenic context"] },
-    { "id": "src-delaware-gap-hours", "publisher": "National Park Service", "type": "government", "url": "https://home.nps.gov/dewa/planyourvisit/hours.htm", "supports": ["sunrise-to-sunset day-use access"] },
-    { "id": "src-long-dock", "publisher": "Scenic Hudson", "type": "official-nonprofit", "url": "https://www.scenichudson.org/explore-the-valley/scenic-hudson-parks/long-dock-park/", "supports": ["Long Dock Park access and waterfront context"] },
-    { "id": "src-easton-history", "publisher": "City of Easton", "type": "government", "url": "https://www.easton-pa.com/392/History", "supports": ["Centre Square history", "Declaration of Independence public reading", "street-grid context"] },
-    { "id": "src-easton-map", "publisher": "City of Easton", "type": "government-guide", "url": "https://www.easton-pa.com/DocumentCenter/View/448/Map-and-Guide-PDF", "supports": ["Centre Square visitor context", "downtown walkability"] },
-    { "id": "src-paterson-hours", "publisher": "National Park Service", "type": "government", "url": "https://www.nps.gov/pagr/planyourvisit/hours.htm", "supports": ["sunrise-to-sunset grounds", "parking access", "ranger schedule"] },
-    { "id": "src-paterson-things", "publisher": "National Park Service", "type": "government", "url": "https://www.nps.gov/pagr/planyourvisit/things2do.htm", "supports": ["Great Falls", "raceway and mill history", "self-guided activities"] },
-    { "id": "src-carousel-museum", "publisher": "New England Carousel Museum", "type": "official", "url": "https://www.thecarouselmuseum.org/hours-rates", "supports": ["Wednesday hours", "$15 adult admission", "address", "shared museum collections"] },
-    { "id": "src-old-sturbridge", "publisher": "Old Sturbridge Village", "type": "official", "url": "https://www.osv.org/visit/", "supports": ["2026 operating calendar", "Wednesday hours", "address", "visitor planning"] },
-    { "id": "src-newport-car", "publisher": "Visit Rhode Island", "type": "official-tourism", "url": "https://www.visitrhodeisland.com/listing/newport-car-museum/8931/", "supports": ["daily hours", "address", "100-plus car collection", "gallery and parking information"] },
-    { "id": "src-submarine-force", "publisher": "Naval History and Heritage Command", "type": "government", "url": "https://www.history.navy.mil/visit-our-museums/submarine-force-museum.html", "supports": ["October hours", "closed Tuesday", "USS Nautilus access", "official Navy museum identity"] },
-    { "id": "src-untermyer", "publisher": "Untermyer Gardens Conservancy", "type": "official", "url": "https://www.untermyergardens.org/Visit.html", "supports": ["daily seasonal hours", "free admission", "address", "garden access and visitor rules"] },
-    { "id": "src-eldridge", "publisher": "Museum at Eldridge Street", "type": "official", "url": "https://www.eldridgestreet.org/visit", "supports": ["Wednesday hours", "adult admission", "restoration history", "guided and self-guided visits"] },
-    { "id": "src-morven", "publisher": "Morven Museum & Garden", "type": "official", "url": "https://www.morven.org/visit", "supports": ["Thursday hours", "address", "free parking", "timed-ticket priority"] },
-    { "id": "src-wagner", "publisher": "Wagner Free Institute of Science", "type": "official", "url": "https://www.wagnerfreeinstitute.org/about", "supports": ["Friday hours", "free museum", "historic collection", "visitor registration"] },
-    { "id": "src-building-museum", "publisher": "National Building Museum", "type": "official", "url": "https://nbm.org/visit/", "supports": ["Saturday hours", "exhibition admission", "free Great Hall access", "address"] },
-    { "id": "src-hillwood", "publisher": "Hillwood Estate, Museum & Gardens", "type": "official", "url": "https://hillwoodmuseum.org/visit", "supports": ["Sunday hours", "adult suggested donation", "mansion and garden access", "address"] },
-    { "id": "src-lost-river-caverns", "publisher": "Lost River Caverns", "type": "official", "url": "https://lostcave.com/lost-river-caverns-tour/", "supports": ["Monday winter hours", "adult admission", "tour duration", "reservation requirement", "access conditions"] },
-    { "id": "src-ramapo", "publisher": "Bergen County Department of Parks", "type": "government", "url": "https://bergencountynj.gov/bergen-county-department-of-parks/ramapo-valley-county-reservation/", "supports": ["official park identity", "public hiking access", "Ramapo River and pond features", "address and amenities"] },
-    { "id": "src-ramapo-trails", "publisher": "New York-New Jersey Trail Conference", "type": "official-trail-partner", "url": "https://www.nynjtc.org/news/trail-improvements-completed-at-ramapo-valley-county-reservation/", "supports": ["Pond Loop and Vista Loop distances", "difficulty", "MacMillan Reservoir and viewpoints"] },
-    { "id": "src-clock-watch", "publisher": "Connecticut Office of Tourism", "type": "government-tourism", "url": "https://ctvisit.com/listings/american-clock-watch-museum", "supports": ["Wednesday hours", "adult admission", "address", "eight galleries and collection context"] },
-    { "id": "src-noaa-normals", "publisher": "NOAA National Centers for Environmental Information", "type": "government-data", "url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals", "supports": ["1991-2020 daily temperature and precipitation normals"] },
-    { "id": "src-osrm", "publisher": "Open Source Routing Machine", "type": "routing-engine", "url": "https://project-osrm.org/", "supports": ["road-network distance", "no-traffic baseline duration", "route geometry"] },
-    { "id": "src-osm", "publisher": "OpenStreetMap contributors", "type": "geospatial-data", "url": "https://www.openstreetmap.org/copyright", "supports": ["place coordinates", "geocoding"] },
-    { "id": "src-commons", "publisher": "Wikimedia Commons contributors", "type": "reusable-media", "url": "https://commons.wikimedia.org/", "supports": ["carousel images", "creator and license metadata"] }
+    {
+      "id": "src-newport-cliff",
+      "publisher": "City of Newport",
+      "type": "government",
+      "url": "https://www.cityofnewport.com/visiting-newport/cliff-walk",
+      "supports": [
+        "Cliff Walk access and conditions"
+      ]
+    },
+    {
+      "id": "src-woodbury",
+      "publisher": "Simon Property Group",
+      "type": "official",
+      "url": "https://www.premiumoutlets.com/outlet/woodbury-common/about",
+      "supports": [
+        "address",
+        "parking",
+        "250+ stores",
+        "retail mix"
+      ]
+    },
+    {
+      "id": "src-brooklyn-park",
+      "publisher": "Brooklyn Bridge Park",
+      "type": "official",
+      "url": "https://brooklynbridgepark.org/places-to-see/pier-1/",
+      "supports": [
+        "Pier 1 access",
+        "viewpoint"
+      ]
+    },
+    {
+      "id": "src-st-nicholas-wtc",
+      "publisher": "Saint Nicholas Greek Orthodox Church and National Shrine",
+      "type": "official",
+      "url": "https://church.stnicholaswtc.org/",
+      "supports": [
+        "public hours",
+        "address",
+        "Orthodox identity",
+        "service times"
+      ]
+    },
+    {
+      "id": "src-oculus",
+      "publisher": "World Trade Center",
+      "type": "official",
+      "url": "https://www.officialworldtradecenter.com/en/local/learn-about-wtc/oculus-transportation-hub.html",
+      "supports": [
+        "Oculus visitor context"
+      ]
+    },
+    {
+      "id": "src-tram",
+      "publisher": "Roosevelt Island Operating Corporation",
+      "type": "government",
+      "url": "https://rioc.ny.gov/302/Tram",
+      "supports": [
+        "operating hours",
+        "frequency",
+        "fare system"
+      ]
+    },
+    {
+      "id": "src-elfreth",
+      "publisher": "Elfreth's Alley Museum",
+      "type": "official",
+      "url": "https://www.elfrethsalley.org/",
+      "supports": [
+        "historic alley context",
+        "museum information"
+      ]
+    },
+    {
+      "id": "src-reading-terminal",
+      "publisher": "Reading Terminal Market",
+      "type": "official",
+      "url": "https://readingterminalmarket.org/visit-us/",
+      "supports": [
+        "hours",
+        "address",
+        "merchant information"
+      ]
+    },
+    {
+      "id": "src-eastern-state-hours",
+      "publisher": "Eastern State Penitentiary",
+      "type": "official",
+      "url": "https://easternstate.org/historic-site/hours-of-operation",
+      "supports": [
+        "October hours",
+        "seasonal schedule"
+      ]
+    },
+    {
+      "id": "src-eastern-state-cost",
+      "publisher": "Eastern State Penitentiary",
+      "type": "official",
+      "url": "https://easternstate.org/historic-site/know-before-you-go",
+      "supports": [
+        "online admission",
+        "visit duration",
+        "included programming"
+      ]
+    },
+    {
+      "id": "src-avam",
+      "publisher": "American Visionary Art Museum",
+      "type": "official",
+      "url": "https://www.avam.org/visit",
+      "supports": [
+        "hours",
+        "adult admission",
+        "address",
+        "October 10 exhibition opening"
+      ]
+    },
+    {
+      "id": "src-st-nicholas-dc",
+      "publisher": "Orthodox Church in America",
+      "type": "official-church-directory",
+      "url": "https://www.oca.org/parishes/oca-wa-wdcsnk",
+      "supports": [
+        "address",
+        "9 AM English Divine Liturgy",
+        "10:45 AM Slavonic Divine Liturgy",
+        "visitor guidance"
+      ]
+    },
+    {
+      "id": "src-lincoln",
+      "publisher": "National Park Service",
+      "type": "government",
+      "url": "https://www.nps.gov/linc/planyourvisit/index.htm",
+      "supports": [
+        "Lincoln Memorial access",
+        "visitor information"
+      ]
+    },
+    {
+      "id": "src-gettysburg",
+      "publisher": "National Park Service",
+      "type": "government",
+      "url": "https://www.nps.gov/gett/planyourvisit/index.htm",
+      "supports": [
+        "battlefield access",
+        "visitor planning"
+      ]
+    },
+    {
+      "id": "src-gettysburg-guide",
+      "publisher": "Gettysburg Foundation",
+      "type": "official-partner",
+      "url": "https://cart.gettysburgfoundation.org/26941/26991",
+      "supports": [
+        "private licensed-guide format",
+        "two-hour duration",
+        "reservation phone",
+        "published rate requiring reconfirmation"
+      ]
+    },
+    {
+      "id": "src-steelstacks",
+      "publisher": "Hoover-Mason Trestle",
+      "type": "official",
+      "url": "https://hoovermason.com/",
+      "supports": [
+        "Bethlehem Steel history",
+        "self-guided trestle experience"
+      ]
+    },
+    {
+      "id": "src-paterson-hours",
+      "publisher": "National Park Service",
+      "type": "government",
+      "url": "https://www.nps.gov/pagr/planyourvisit/hours.htm",
+      "supports": [
+        "sunrise-to-sunset grounds",
+        "parking access",
+        "ranger schedule"
+      ]
+    },
+    {
+      "id": "src-paterson-things",
+      "publisher": "National Park Service",
+      "type": "government",
+      "url": "https://www.nps.gov/pagr/planyourvisit/things2do.htm",
+      "supports": [
+        "Great Falls",
+        "raceway and mill history",
+        "self-guided activities"
+      ]
+    },
+    {
+      "id": "src-newport-car",
+      "publisher": "Visit Rhode Island",
+      "type": "official-tourism",
+      "url": "https://www.visitrhodeisland.com/listing/newport-car-museum/8931/",
+      "supports": [
+        "daily hours",
+        "address",
+        "100-plus car collection",
+        "gallery and parking information"
+      ]
+    },
+    {
+      "id": "src-submarine-force",
+      "publisher": "Naval History and Heritage Command",
+      "type": "government",
+      "url": "https://www.history.navy.mil/visit-our-museums/submarine-force-museum.html",
+      "supports": [
+        "October hours",
+        "closed Tuesday",
+        "USS Nautilus access",
+        "official Navy museum identity"
+      ]
+    },
+    {
+      "id": "src-noaa-normals",
+      "publisher": "NOAA National Centers for Environmental Information",
+      "type": "government-data",
+      "url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+      "supports": [
+        "1991-2020 daily temperature and precipitation normals"
+      ]
+    },
+    {
+      "id": "src-old-sturbridge",
+      "title": "Old Sturbridge Village visitor information",
+      "source_type": "official",
+      "url": "https://www.osv.org/visit/",
+      "verified_at": "2026-08-31",
+      "claims": [
+        "Wednesday-Sunday fall hours",
+        "admission price",
+        "seasonal schedule"
+      ]
+    },
+    {
+      "id": "src-energy-level99",
+      "title": "Level99 Providence",
+      "source_type": "official",
+      "url": "https://www.level99.com/providence-ri",
+      "verified_at": "2026-08-31",
+      "claims": [
+        "location",
+        "gameplay",
+        "hours",
+        "reservations"
+      ]
+    },
+    {
+      "id": "src-energy-napatree",
+      "title": "Watch Hill Conservancy - Napatree Point",
+      "source_type": "land-trust",
+      "url": "https://watchhillconservancy.org/napatree/",
+      "verified_at": "2026-08-31",
+      "claims": [
+        "public access",
+        "conservation",
+        "parking constraints"
+      ]
+    },
+    {
+      "id": "src-energy-it-ropes",
+      "title": "It Adventure Ropes Course",
+      "source_type": "official",
+      "url": "https://itatjordans.squarespace.com/contact",
+      "verified_at": "2026-08-31",
+      "claims": [
+        "address",
+        "Monday hours",
+        "course access"
+      ]
+    },
+    {
+      "id": "src-energy-vessel",
+      "title": "Vessel visitor information",
+      "source_type": "official",
+      "url": "https://www.vesselnyc.com/visit",
+      "verified_at": "2026-08-31",
+      "claims": [
+        "hours",
+        "tickets",
+        "location"
+      ]
+    },
+    {
+      "id": "src-energy-high-line",
+      "title": "The High Line visitor information",
+      "source_type": "official",
+      "url": "https://www.thehighline.org/visit/",
+      "verified_at": "2026-08-31",
+      "claims": [
+        "hours",
+        "access",
+        "park route"
+      ]
+    },
+    {
+      "id": "src-energy-central-park-bike",
+      "title": "Central Park bicycle rental planning source",
+      "source_type": "operator",
+      "url": "https://www.unlimitedbiking.com/rentals/central-park-bike-rentals/",
+      "verified_at": "2026-08-31",
+      "claims": [
+        "October operation",
+        "rental equipment",
+        "location"
+      ]
+    },
+    {
+      "id": "src-energy-four-freedoms",
+      "title": "Four Freedoms Park planning",
+      "source_type": "official",
+      "url": "https://www.fdrfourfreedomspark.org/visit/planning-your-visit/",
+      "verified_at": "2026-08-31",
+      "claims": [
+        "Wednesday hours",
+        "address",
+        "access"
+      ]
+    },
+    {
+      "id": "src-energy-beat-bomb",
+      "title": "Beat The Bomb Brooklyn",
+      "source_type": "official",
+      "url": "https://www.beatthebomb.com/locations/brooklyn",
+      "verified_at": "2026-08-31",
+      "claims": [
+        "Wednesday operation",
+        "mission format",
+        "address",
+        "price"
+      ]
+    },
+    {
+      "id": "src-energy-nj-atv",
+      "title": "NJ ATV Rentals",
+      "source_type": "official",
+      "url": "https://njatvrentals.com/",
+      "verified_at": "2026-08-31",
+      "claims": [
+        "guided ATV format",
+        "season",
+        "reservation",
+        "price"
+      ]
+    },
+    {
+      "id": "src-energy-baps",
+      "title": "BAPS Swaminarayan Akshardham visitor information",
+      "source_type": "official",
+      "url": "https://usa.akshardham.org/visit/",
+      "verified_at": "2026-08-31",
+      "claims": [
+        "hours",
+        "address",
+        "visitor etiquette"
+      ]
+    },
+    {
+      "id": "src-energy-treetop",
+      "title": "Treetop Quest Philadelphia",
+      "source_type": "official",
+      "url": "https://www.treetopquest.com/philly/",
+      "verified_at": "2026-08-31",
+      "claims": [
+        "obstacles",
+        "ziplines",
+        "2026 schedule",
+        "weather policy"
+      ]
+    },
+    {
+      "id": "src-energy-ministry",
+      "title": "Ministry of Awe",
+      "source_type": "official",
+      "url": "https://www.ministryofawe.com/",
+      "verified_at": "2026-08-31",
+      "claims": [
+        "hours",
+        "address",
+        "immersive format"
+      ]
+    },
+    {
+      "id": "src-energy-ifly",
+      "title": "iFLY Baltimore",
+      "source_type": "official",
+      "url": "https://www.iflyworld.com/baltimore/",
+      "verified_at": "2026-08-31",
+      "claims": [
+        "location",
+        "first-time flight",
+        "reservations"
+      ]
+    },
+    {
+      "id": "src-energy-cunningham",
+      "title": "Cunningham Falls State Park",
+      "source_type": "state-park",
+      "url": "https://dnr.maryland.gov/publiclands/pages/western/cunningham.aspx",
+      "verified_at": "2026-08-31",
+      "claims": [
+        "Houck Area",
+        "hours",
+        "capacity",
+        "fees"
+      ]
+    },
+    {
+      "id": "src-energy-sachs",
+      "title": "Sachs Covered Bridge",
+      "source_type": "destination-authority",
+      "url": "https://destinationgettysburg.com/members/sachs-covered-bridge/",
+      "verified_at": "2026-08-31",
+      "claims": [
+        "location",
+        "history",
+        "public access"
+      ]
+    },
+    {
+      "id": "src-energy-hawk",
+      "title": "Hawk Mountain visitor information",
+      "source_type": "official",
+      "url": "https://www.hawkmountain.org/visit/visiting-info/admission-hours",
+      "verified_at": "2026-08-31",
+      "claims": [
+        "hours",
+        "trail fee",
+        "autumn migration"
+      ]
+    },
+    {
+      "id": "src-energy-lvgp",
+      "title": "Lehigh Valley Grand Prix",
+      "source_type": "official",
+      "url": "https://www.lehighvalleygrandprix.com/",
+      "verified_at": "2026-08-31",
+      "claims": [
+        "Monday hours",
+        "race format",
+        "price"
+      ]
+    },
+    {
+      "id": "src-energy-palisades",
+      "title": "Palisades Center",
+      "source_type": "official",
+      "url": "https://www.palisadescenter.com/",
+      "verified_at": "2026-08-31",
+      "claims": [
+        "address",
+        "hours",
+        "retail"
+      ]
+    },
+    {
+      "id": "src-energy-purgatory",
+      "title": "Purgatory Chasm State Reservation",
+      "source_type": "state-park",
+      "url": "https://www.mass.gov/locations/purgatory-chasm-state-reservation",
+      "verified_at": "2026-08-31",
+      "claims": [
+        "hours",
+        "trail character",
+        "wet-rock warning",
+        "parking"
+      ]
+    },
+    {
+      "id": "src-energy-boda",
+      "title": "Boda Borg Boston",
+      "source_type": "official",
+      "url": "https://www.bodaborg.com/locations/boston/",
+      "verified_at": "2026-08-31",
+      "claims": [
+        "Wednesday hours",
+        "quests",
+        "price",
+        "shoe rule"
+      ]
+    }
   ]
 }

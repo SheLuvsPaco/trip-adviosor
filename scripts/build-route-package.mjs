@@ -2,6 +2,7 @@
 
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { buildEnergyRoute } from "./route-01-energy/build.mjs";
 
 const ROOT = process.cwd();
 const ROUTE_DIR = path.join(ROOT, "dataset", "routes", "route-01-gilded-coast-capital-loop");
@@ -212,6 +213,11 @@ function scheduleItem(tuple, placeById) {
 }
 
 async function main() {
+  await buildEnergyRoute({ root: ROOT, routeDir: ROUTE_DIR });
+  return;
+
+  // Legacy Route 01 builder retained below as historical implementation context.
+  // The canonical rebuild path above consumes the reviewed Energy V2 artifact.
   const [seed, research, weather, geometry, replacementGeometry] = await Promise.all([
     readFile(path.join(ROUTE_DIR, "place-seed.json"), "utf8").then(JSON.parse),
     readFile(path.join(ROUTE_DIR, "research-raw.json"), "utf8").then(JSON.parse),

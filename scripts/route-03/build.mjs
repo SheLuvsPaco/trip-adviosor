@@ -3,9 +3,11 @@
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import {
-  contextualImagePlaces, lodgingNodes, manualCoordinates, PEOPLE, places as researchPlaces,
+  contextualImagePlaces, energyRebuildPlaceIds, lodgingNodes, manualCoordinates, PEOPLE,
+  places as configPlaces,
   replacementVariants, ROUTE_ID, ROUTE_NAME, ROUTE_SLUG
 } from "./config.mjs";
+import { buildEnergyRoute03 } from "../route-03-energy/build.mjs";
 
 const ROOT = process.cwd();
 const ROUTE_DIR = path.join(ROOT, "dataset", "routes", ROUTE_SLUG);
@@ -62,6 +64,8 @@ const sourceRows = [
 const sources = sourceRows.map(([id, publisher, type, url, supports]) => ({ id, publisher, type, url, supports, verified_at: verifiedAt }));
 
 const replacementByPlace = new Map(replacementVariants.map((variant) => [variant.replacement_place_id, variant]));
+// V1 records only; the eleven Energy Rebuild V2 stops are built by scripts/route-03-energy/build.mjs.
+const researchPlaces = configPlaces.filter((record) => !energyRebuildPlaceIds.has(record.id));
 const baseById = new Map(researchPlaces.map((record) => [record.id, record]));
 
 const detailRows = [];
@@ -360,6 +364,7 @@ async function main() {
     writeFile(path.join(ROUTE_DIR, "route.json"), `${JSON.stringify(route, null, 2)}\n`),
     writeFile(path.join(ROUTE_DIR, "route.geojson"), `${JSON.stringify(geojson, null, 2)}\n`)
   ]);
+  await buildEnergyRoute03({ root: ROOT, routeDir: ROUTE_DIR });
   console.log(`Built ${ROUTE_NAME}: ${productionPlaces.length} places, ${images.length} images, ${days.length} days.`);
 }
 

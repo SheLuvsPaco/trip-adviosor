@@ -1,64 +1,128 @@
 {
   "schema_version": "1.0.0",
   "route_id": "route-06",
-  "locked_at": "2026-08-23",
-  "accepted": [
-    {
-      "decision": "Point Pleasant and Weston form the emotional endpoint",
-      "reason": "Together they create a folklore-to-evidence sequence that is distinct from Routes 1-5 and still permits an honest US-only return under the daily cap."
-    },
-    {
-      "decision": "Wheeling is the Pittsburgh recovery night",
-      "reason": "It prevents a second large-city hotel night, adds a quiet Ohio River image and positions the 196-minute Point Pleasant day."
-    },
-    {
-      "decision": "Assumption Morgantown anchors Sunday",
-      "reason": "It is a canonical Orthodox parish on the return line and leaves enough time for one compact Bedford museum before the 209-minute Everett stage."
-    },
-    {
-      "decision": "Museum of Bad Art happens after car return",
-      "reason": "Transit after both cars are at Logan protects the airport night and removes urban parking risk from the measured drive."
-    },
-    {
-      "decision": "Every day has one route-tested replacement",
-      "reason": "Each swap is independently measured at or below 210 baseline minutes; alternatives are never hidden add-ons."
-    }
+  "verified_at": "2026-08-31",
+  "generated_from": "Energy Rebuild Routes/Route06_Evidence_In_The_Dark_Rebuild_With_Costs.md",
+  "purpose": "Rebuild Route 06 around physical evidence, legal ruins, industrial scale, folklore fieldwork and October darkness.",
+  "route_dna": "EVIDENCE IN THE DARK",
+  "source_visible_original_ids": [
+    "carousel-museum",
+    "columcille",
+    "reading-public-museum",
+    "army-heritage",
+    "letort-spring-run",
+    "molly-pitcher-brewing",
+    "dunkles-gulf-station",
+    "gravity-hill",
+    "somerset-historical-center",
+    "quecreek",
+    "uptown-somerset-walk",
+    "nationality-rooms",
+    "saint-anthony-chapel",
+    "bicycle-heaven",
+    "randyland",
+    "church-brew",
+    "wheeling-heritage-port",
+    "grave-creek-mound",
+    "mothman-museum",
+    "mothman-statue",
+    "point-pleasant-floodwall",
+    "tu-endie-wei",
+    "mcclintic-tnt",
+    "flatwoods-monster",
+    "trans-allegheny",
+    "american-glass",
+    "mountaineer-military-museum",
+    "lamberts-winery",
+    "assumption-orthodox",
+    "fort-bedford",
+    "espy-house",
+    "historic-everett-walk",
+    "cabelas-hamburg",
+    "tarrywile",
+    "african-meeting-house",
+    "mit-list-visual-arts",
+    "museum-bad-art"
   ],
-  "rejected": [
-    {
-      "option": "West Virginia Penitentiary in Moundsville",
-      "reason": "It duplicates the route's institutional-history weight and makes the Wheeling/Point Pleasant sequence more exhausting rather than more magical."
-    },
-    {
-      "option": "Fallingwater",
-      "reason": "It is a more mainstream detour and the Wednesday operating pattern is fragile; Gravity Hill plus Quecreek better serve this route's overlooked-evidence identity."
-    },
-    {
-      "option": "Palace of Gold",
-      "reason": "The detour competes with the Point Pleasant safety window and is not an Orthodox worship substitute."
-    },
-    {
-      "option": "Hearthstone Castle interior",
-      "reason": "The structure is fenced/closed and any entry would be unsafe and unauthorized; only legal Tarrywile park access remains."
-    },
-    {
-      "option": "Indoor Danbury Museum on October 13",
-      "reason": "The museum is closed Tuesday; the outdoor marker route is the honest replacement."
-    },
-    {
-      "option": "PostNatural History as a guaranteed Thursday stop",
-      "reason": "Public hours begin Friday. It remains a replacement only if the venue confirms a private appointment."
-    },
-    {
-      "option": "Canada or Ontario Niagara extension",
-      "reason": "The route remains fully US-only and avoids any J-1 re-entry dependency."
-    },
-    {
-      "option": "An extra outlet mall on the return",
-      "reason": "Days 8-11 already sit near the hard cap; Cabela's satisfies shopping curiosity directly on I-78 without dishonest driving."
-    }
+  "source_visible_original_count": 37,
+  "archive_and_absorbed_dispositions": {
+    "reading-public-museum": "remove-archive",
+    "somerset-historical-center": "remove-archive",
+    "mountaineer-military-museum": "remove-archive",
+    "fort-bedford": "remove-archive",
+    "mit-list-visual-arts": "remove-archive",
+    "molly-pitcher-brewing": "optional-food-not-attraction-inventory",
+    "church-brew": "optional-food-not-attraction-inventory",
+    "lamberts-winery": "optional-food-not-attraction-inventory",
+    "uptown-somerset-walk": "demote-flex-not-selected-for-55",
+    "espy-house": "demote-flex-not-selected-for-55",
+    "historic-everett-walk": "demote-flex-not-selected-for-55",
+    "mothman-museum": "absorbed-into-guided-field-tour",
+    "tu-endie-wei": "absorbed-into-point-pleasant-riverfront-option",
+    "mcclintic-tnt": "absorbed-into-guided-field-tour",
+    "museum-bad-art": "additional-researched-not-counted"
+  },
+  "core_ids": [
+    "old-new-gate",
+    "columcille",
+    "martin-guitar",
+    "reading-pagoda",
+    "army-heritage",
+    "letort-spring-run",
+    "pike2bike-rays-hill",
+    "quecreek",
+    "carrie-blast-furnaces",
+    "troy-hill-art-houses",
+    "maxo-vanka-murals",
+    "wv-penitentiary",
+    "grave-creek-mound",
+    "fort-boreman",
+    "mothman-statue",
+    "mothman-tnt-tour",
+    "braxxie-chair-hunt",
+    "trans-allegheny",
+    "assumption-orthodox",
+    "coopers-rock-clay-furnace",
+    "sideling-hill-road-cut",
+    "fort-hunter-rockville-bridge",
+    "cabelas-hamburg",
+    "pocono-premium-outlets",
+    "tarrywile",
+    "dana-common"
   ],
-  "traffic_policy": "OSRM baselines contain no traffic. Check live ETAs before every departure; days at or above 200 baseline minutes are live-traffic-gated, and no attraction justifies exceeding 210 active driving minutes.",
-  "weather_policy": "Daily Celsius values are NOAA 1991-2020 station normals, not forecasts. Weather carries only 5 percent of Magic score and must be replaced by a live forecast about ten days before departure.",
-  "image_policy": "Three local, visually reviewed images are stored per place with creator, source and rights metadata. Contextual images are labelled. Permission-required external files are private-prototype-only until licensed or replaced."
+  "optional_flex_ids": [
+    "carousel-museum",
+    "dunkles-gulf-station",
+    "gravity-hill",
+    "flight-93",
+    "nationality-rooms",
+    "saint-anthony-chapel",
+    "bicycle-heaven",
+    "randyland",
+    "ruins-project",
+    "imaginarium-minds-eye",
+    "hundred-acres-manor",
+    "wv-pen-dungeon",
+    "wv-pen-escape",
+    "palace-of-gold",
+    "wheeling-heritage-port",
+    "blennerhassett-candlelight",
+    "mountwood-atv",
+    "wv-farm-museum",
+    "point-pleasant-floodwall",
+    "flatwoods-monster",
+    "free-braxxie-challenge",
+    "jq-dickinson-salt",
+    "tala-four-floor",
+    "tala-hysteria",
+    "tala-paranormal",
+    "tala-ghost-hunt",
+    "american-glass",
+    "sideling-hill-creek",
+    "african-meeting-house"
+  ],
+  "inventory_rule": "The public UI contains exactly 55 meaningful selectable experiences. Pure archive, food-only and additional-not-counted entries stay in this revision history rather than becoming rateable cards.",
+  "overnight_changes": "Pittsburgh is the Oct. 8 sleep, Parkersburg is the Oct. 9 sleep, Weston remains the Oct. 10 after-dark sleep, and the return runs through Everett, Tannersville, Danbury and Boston.",
+  "driving_reconciliation": "Fresh OSRM geometry contradicted four optimistic uninterrupted-drive bands in the brief. Planned rest or fuel nodes at Milford, Charleston, Mahwah and Sturbridge keep every uninterrupted baseline leg at or below 150 minutes without inventing extra attractions.",
+  "image_policy": "Existing Route 06 local images retain their recorded rights. New experiences temporarily reuse related local context images with explicit regional-context-not-exact-place coverage labels."
 }

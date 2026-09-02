@@ -53,10 +53,33 @@ export const places = [
   p("path-of-life", "Path of Life Sculpture Garden, 36 Park Road, Windsor, Vermont", ["Path of Life Sculpture Garden Windsor Vermont", "Path of Life Vermont stone labyrinth", "Path of Life sculpture garden maze"]),
   p("flw-houses", "Currier Museum of Art, 150 Ash Street, Manchester, New Hampshire", ["Zimmerman House Frank Lloyd Wright Manchester", "Kalil House Manchester New Hampshire", "Frank Lloyd Wright Currier Manchester"]),
   p("currier-museum", "Currier Museum of Art, 150 Ash Street, Manchester, New Hampshire", ["Currier Museum of Art Manchester", "Currier Museum interior", "Currier Museum New Hampshire art"]),
-  p("see-science", "SEE Science Center, 200 Bedford Street, Manchester, New Hampshire", ["SEE Science Center Manchester NH", "LEGO Millyard Manchester SEE", "SEE Science Center exhibits"])
+  p("see-science", "SEE Science Center, 200 Bedford Street, Manchester, New Hampshire", ["SEE Science Center Manchester NH", "LEGO Millyard Manchester SEE", "SEE Science Center exhibits"]),
+  p("kittery-outlets", "Kittery Premium Outlets, US Route 1, Kittery, Maine", ["Kittery Premium Outlets", "Kittery Maine Route 1 shopping", "Kittery Trading Post"]),
+  p("lucky-catch-lobstering", "Lucky Catch Cruises, Long Wharf, 170 Commercial Street, Portland, Maine", ["Lucky Catch lobster boat Portland", "Portland Maine lobstering cruise", "hauling lobster traps Casco Bay"]),
+  p("bath-iron-works-story", "Maine Maritime Museum, 243 Washington Street, Bath, Maine", ["Bath Iron Works shipyard", "Maine Maritime Museum Bath", "Navy destroyer construction Bath Maine"]),
+  p("maiden-cliff", "Maiden Cliff Trail, Camden Hills State Park, Camden, Maine", ["Maiden Cliff Camden Maine", "Megunticook Lake overlook", "Camden Hills State Park autumn"]),
+  p("beehive-bowl-climb", "Beehive and Bowl Trail, Sand Beach, Acadia National Park, Maine", ["Beehive Trail Acadia iron rungs", "Beehive Acadia granite", "Bowl Trail Acadia"]),
+  p("sk-tours-derry", "SK Tours of Maine, Bangor, Maine", ["Stephen King house Bangor", "SK Tours Derry Maine", "Bangor Maine Thomas Hill Standpipe"]),
+  p("skowhegan-falls-langlais", "Skowhegan Falls and Langlais sculpture, Skowhegan, Maine", ["Skowhegan Falls Kennebec", "Skowhegan Maine Main Street", "Skowhegan Indian sculpture"]),
+  p("wife-carrying-championship", "Sunday River Resort, 15 South Ridge Road, Newry, Maine", ["North American Wife Carrying Championship", "Sunday River Fall Fest", "wife carrying race Maine"]),
+  p("mount-washington-cog", "Mount Washington Cog Railway Base Station, Bretton Woods, New Hampshire", ["Mount Washington Cog Railway", "cog railway summit Mount Washington", "Cog Railway train White Mountains"]),
+  p("arbortrek-smugglers", "ArborTrek Canopy Adventures, Smugglers Notch Resort, Jeffersonville, Vermont", ["ArborTrek zip line Smugglers Notch", "Vermont canopy tour zipline", "Smugglers Notch canopy rappel"]),
+  p("beast-mountain-coaster", "Killington Adventure Center, Snowshed Base, Killington, Vermont", ["Beast Mountain Coaster Killington", "Killington Adventure Center", "Killington Vermont autumn"]),
+  p("k1-scenic-gondola", "K-1 Express Gondola, K-1 Base Lodge, Killington, Vermont", ["K-1 Express Gondola Killington", "Killington gondola foliage", "Killington Peak gondola"]),
+  p("lost-river-gorge", "Lost River Gorge and Boulder Caves, 1712 Lost River Road, North Woodstock, New Hampshire", ["Lost River Gorge boulder caves", "Lost River Gorge boardwalk", "Kinsman Notch New Hampshire"])
 ];
 
+// Places introduced by the Energy Rebuild V2 (Route04_Cold_Granite_Rebuild_With_Costs.md).
+// The legacy V1 builder ignores these; scripts/route-04-energy/build.mjs owns their records.
+export const energyRebuildPlaceIds = new Set([
+  "kittery-outlets", "lucky-catch-lobstering", "bath-iron-works-story", "maiden-cliff",
+  "beehive-bowl-climb", "sk-tours-derry", "skowhegan-falls-langlais", "wife-carrying-championship",
+  "mount-washington-cog", "arbortrek-smugglers", "beast-mountain-coaster", "k1-scenic-gondola",
+  "lost-river-gorge"
+]);
+
 export const contextualImagePlaces = new Set([
+  "kittery-outlets", "maiden-cliff", "beast-mountain-coaster", "skowhegan-falls-langlais",
   "african-burying-ground", "arcadia-portland", "prison-showroom", "bar-harbor-shore-path",
   "crypto-museum", "stephen-king-house", "bethel-village", "stj-foliage-train", "dormition-orthodox",
   "radio-bean", "museum-everyday-life", "ben-jerrys-graveyard", "path-of-life", "flw-houses", "see-science"
@@ -91,6 +114,17 @@ export const manualCoordinates = {
   "see-science": [-71.4682, 42.9917], "woodman-museum": [-70.8762, 43.1930]
 };
 
+// Energy Rebuild V2 coordinates, geocoded 2026-08-31.
+Object.assign(manualCoordinates, {
+  "kittery-outlets": [-70.7276, 43.1179], "lucky-catch-lobstering": [-70.2523, 43.6558],
+  "bath-iron-works-story": [-69.8159, 43.8938], "maiden-cliff": [-69.0882, 44.2522],
+  "beehive-bowl-climb": [-68.1823, 44.3292], "sk-tours-derry": [-68.7713, 44.8016],
+  "skowhegan-falls-langlais": [-69.6656, 44.7559], "wife-carrying-championship": [-70.8673, 44.4718],
+  "mount-washington-cog": [-71.3507, 44.2705], "arbortrek-smugglers": [-72.7676, 44.5727],
+  "beast-mountain-coaster": [-72.7967, 43.6259], "k1-scenic-gondola": [-72.8037, 43.6171],
+  "lost-river-gorge": [-71.7893, 44.0374]
+});
+
 export const lodgingNodes = {
   "boston-logan-rental": { name: "Boston Logan Rental Car Center", coordinates: [-71.0304, 42.3682] },
   "portsmouth-lodging": { name: "Portsmouth safe central lodging zone", coordinates: [-70.7626, 43.0718] },
@@ -101,6 +135,8 @@ export const lodgingNodes = {
   "bethel-lodging": { name: "Bethel village lodging zone", coordinates: [-70.7906, 44.4042] },
   "montpelier-lodging": { name: "Montpelier downtown lodging zone", coordinates: [-72.5754, 44.2601] },
   "burlington-lodging": { name: "Burlington South End lodging zone", coordinates: [-73.2121, 44.4759] },
+  "st-johnsbury-lodging": { name: "St. Johnsbury lodging zone", coordinates: [-72.0157, 44.4195] },
+  "stowe-lodging": { name: "Stowe village lodging zone", coordinates: [-72.6856, 44.4644] },
   "woodstock-lodging": { name: "Woodstock village lodging zone", coordinates: [-72.5184, 43.6242] },
   "manchester-lodging": { name: "Manchester north/downtown lodging zone", coordinates: [-71.4548, 42.9956] },
   "boston-logan-hotel": { name: "Boston Logan hotel zone", coordinates: [-71.0155, 42.3655] }
@@ -109,17 +145,17 @@ export const lodgingNodes = {
 export const manualLegs = {};
 
 export const dayRoutes = [
-  { day: 1, risk: "medium", node_ids: ["boston-logan-rental", "nubble-light", "uss-albacore", "african-burying-ground", "portsmouth-lodging"] },
-  { day: 2, risk: "medium", node_ids: ["portsmouth-lodging", "victoria-mansion", "portland-head-light", "eastern-promenade", "portland-lodging"] },
-  { day: 3, risk: "low", node_ids: ["portland-lodging", "coastal-maine-gardens", "prison-showroom", "rockland-breakwater", "rockland-lodging"] },
-  { day: 4, risk: "low", node_ids: ["rockland-lodging", "owls-head-transportation", "fort-knox-observatory", "bar-harbor-shore-path", "bar-harbor-lodging"] },
-  { day: 5, risk: "low", node_ids: ["bar-harbor-lodging", "cadillac-mountain", "ocean-path", "jordan-pond", "crypto-museum", "stephen-king-house", "thomas-hill-standpipe", "bangor-lodging"] },
-  { day: 6, risk: "low", node_ids: ["bangor-lodging", "cole-transportation", "maine-mineral-gem", "bethel-village", "bethel-lodging"] },
-  { day: 7, risk: "low", node_ids: ["bethel-lodging", "weeks-state-park", "stj-foliage-train", "fairbanks-museum", "montpelier-lodging"] },
-  { day: 8, risk: "low", node_ids: ["montpelier-lodging", "hope-cemetery", "dormition-orthodox", "shelburne-museum", "burlington-waterfront", "radio-bean", "burlington-lodging"] },
-  { day: 9, risk: "low", node_ids: ["burlington-lodging", "ben-jerrys-graveyard", "coolidge-site", "woodstock-lodging"] },
-  { day: 10, risk: "low", node_ids: ["woodstock-lodging", "quechee-gorge", "american-precision", "saint-gaudens", "manchester-lodging"] },
-  { day: 11, risk: "medium", node_ids: ["manchester-lodging", "flw-houses", "currier-museum", "boston-logan-hotel"] }
+  { day: 1, risk: "medium", node_ids: ["boston-logan-rental", "kittery-outlets", "nubble-light", "portsmouth-lodging"] },
+  { day: 2, risk: "low", node_ids: ["portsmouth-lodging", "uss-albacore", "portland-head-light", "lucky-catch-lobstering", "portland-lodging"] },
+  { day: 3, risk: "low", node_ids: ["portland-lodging", "coastal-maine-gardens", "bath-iron-works-story", "rockland-breakwater", "rockland-lodging"] },
+  { day: 4, risk: "low", node_ids: ["rockland-lodging", "maiden-cliff", "fort-knox-observatory", "bar-harbor-shore-path", "bar-harbor-lodging"] },
+  { day: 5, risk: "low", node_ids: ["bar-harbor-lodging", "cadillac-mountain", "beehive-bowl-climb", "sk-tours-derry", "bangor-lodging"] },
+  { day: 6, risk: "low", node_ids: ["bangor-lodging", "skowhegan-falls-langlais", "maine-mineral-gem", "bethel-lodging"] },
+  { day: 7, risk: "medium", node_ids: ["bethel-lodging", "wife-carrying-championship", "mount-washington-cog", "st-johnsbury-lodging"] },
+  { day: 8, risk: "low", node_ids: ["st-johnsbury-lodging", "dormition-orthodox", "arbortrek-smugglers", "stowe-lodging"] },
+  { day: 9, risk: "low", node_ids: ["stowe-lodging", "beast-mountain-coaster", "k1-scenic-gondola", "quechee-gorge", "woodstock-lodging"] },
+  { day: 10, risk: "low", node_ids: ["woodstock-lodging", "lost-river-gorge", "manchester-lodging"] },
+  { day: 11, risk: "medium", node_ids: ["manchester-lodging", "flw-houses", "boston-logan-hotel"] }
 ];
 
 export const replacementVariants = [
@@ -143,8 +179,8 @@ export const weatherRequests = [
   { day: 4, date: "2026-10-07", sleep_city: "Bar Harbor, ME", station: "USW00014606", station_role: "Bangor-Mount Desert regional proxy" },
   { day: 5, date: "2026-10-08", sleep_city: "Bangor, ME", station: "USW00014606", station_role: "Bangor airport" },
   { day: 6, date: "2026-10-09", sleep_city: "Bethel, ME", station: "USW00014745", station_role: "Concord-western Maine regional proxy" },
-  { day: 7, date: "2026-10-10", sleep_city: "Montpelier, VT", station: "USW00094705", station_role: "Montpelier airport" },
-  { day: 8, date: "2026-10-11", sleep_city: "Burlington, VT", station: "USW00014742", station_role: "Burlington airport" },
+  { day: 7, date: "2026-10-10", sleep_city: "St. Johnsbury, VT", station: "USW00094705", station_role: "Montpelier-St. Johnsbury regional proxy" },
+  { day: 8, date: "2026-10-11", sleep_city: "Stowe, VT", station: "USW00014742", station_role: "Burlington-Stowe regional proxy" },
   { day: 9, date: "2026-10-12", sleep_city: "Woodstock, VT", station: "USW00094765", station_role: "Lebanon-Woodstock regional proxy" },
   { day: 10, date: "2026-10-13", sleep_city: "Manchester, NH", station: "USW00014745", station_role: "Concord-Manchester regional proxy" },
   { day: 11, date: "2026-10-14", sleep_city: "Boston, MA", station: "USW00014739", station_role: "Boston Logan airport" }

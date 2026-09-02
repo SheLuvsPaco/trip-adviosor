@@ -5,79 +5,6 @@
     {
       "reservation": "none",
       "hours": {
-        "opens": "08:00",
-        "closes": "18:00",
-        "status": "verified",
-        "note": "Official daily garden hours."
-      },
-      "cost": {
-        "amount_per_person": 20,
-        "status": "verified",
-        "note": "Adult entry."
-      },
-      "secondary_for": [
-        "gora",
-        "sheluvspaco"
-      ],
-      "categories": [
-        "architecture_photogenic",
-        "nature_photogenic",
-        "unusual_creative",
-        "hidden_history_folklore"
-      ],
-      "id": "three-sisters-sanctuary",
-      "name": "Three Sisters Sanctuary",
-      "kind": "environmental-art-garden",
-      "city": "Goshen",
-      "state": "MA",
-      "address": "188 Cape Street, Goshen, MA 01032",
-      "visit_date": "2026-10-04",
-      "summary": "Eight acres of hand-built garden art in the Berkshire hills: stone, water, flower beds, memorials and even a dragon cave. One man built it all by hand over many years, in memory of his daughter.",
-      "why_go": "This is not a normal sculpture park. It is one man's private world, strange and personal, and it opens the trip in a way nobody will forget.",
-      "best_for": [
-        "viki",
-        "stivka"
-      ],
-      "best_fit_note": "Good for Viki, who likes dreamlike photos, and for Stivka, who likes quiet places. The family story behind it gives everyone something to feel.",
-      "duration_minutes": 90,
-      "source_ids": [
-        "src-three-sisters"
-      ],
-      "priority": "anchor",
-      "country": "US",
-      "coordinates": [
-        -72.8097182,
-        42.4724782
-      ],
-      "coordinate_order": "longitude_latitude",
-      "coordinate_source": "manual_verified_address",
-      "image_ids": [
-        "img-three-sisters-sanctuary-1",
-        "img-three-sisters-sanctuary-2",
-        "img-three-sisters-sanctuary-3"
-      ],
-      "ratings": {
-        "traveler_ratings": {
-          "sheluvspaco": null,
-          "viki": null,
-          "gora": null,
-          "stivka": null
-        },
-        "average": null,
-        "rating_count": 0
-      },
-      "researcher_person_fit": {
-        "sheluvspaco": 4,
-        "viki": 5,
-        "gora": 4,
-        "stivka": 5
-      },
-      "included_in_magic_score": true,
-      "data_status": "complete"
-    },
-    {
-      "reservation": "none",
-      "hours": {
         "opens": "09:00",
         "closes": "16:00",
         "status": "verified",
@@ -110,7 +37,7 @@
       ],
       "best_fit_note": "Good for Viki's plant and glasshouse photos, and for Stivka, who prefers calm places.",
       "duration_minutes": 60,
-      "priority": "supporting",
+      "priority": "optional",
       "source_ids": [
         "src-smith"
       ],
@@ -145,8 +72,122 @@
         "gora": 3.4,
         "stivka": 5
       },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "08:00",
+        "closes": "18:00",
+        "status": "verified",
+        "note": "Official daily garden hours."
+      },
+      "cost": {
+        "amount_per_person": 20,
+        "low": 20,
+        "high": 20,
+        "amount_per_group": 80,
+        "price_type": "per-person",
+        "status": "verified",
+        "note": ""
+      },
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "categories": [
+        "architecture_photogenic",
+        "nature_photogenic",
+        "unusual_creative",
+        "hidden_history_folklore"
+      ],
+      "id": "three-sisters-sanctuary",
+      "name": "Three Sisters Sanctuary",
+      "kind": "environmental-art-garden",
+      "city": "Goshen",
+      "state": "MA",
+      "address": "188 Cape Street, Goshen, MA 01032",
+      "visit_date": "2026-10-04",
+      "summary": "Eight acres of hand-built garden art in the Berkshire hills: stone, water, flower beds, memorials and even a dragon cave. One man built it all by hand over many years, in memory of his daughter.",
+      "why_go": "This is not a normal sculpture park. It is one man's private world, strange and personal, and it opens the trip in a way nobody will forget.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "best_fit_note": "Primary fit: viki, stivka. The stop also gives the rest of the group a distinct change of pace.",
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-three-sisters"
+      ],
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -72.8097182,
+        42.4724782
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-three-sisters-sanctuary-1",
+        "img-three-sisters-sanctuary-2",
+        "img-three-sisters-sanctuary-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
       "included_in_magic_score": true,
-      "data_status": "complete"
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "nature-geology-terrain",
+      "texture": "WEIRD",
+      "interaction_score": 1,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "skip_possible": true,
+        "photo_heavy": true
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "per-person",
+      "price_per_person_low": 20,
+      "price_per_person_high": 20,
+      "price_per_group": 80,
+      "price_last_checked": "2026-08-31",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "green",
+      "fallback_place_id": "smith-botanic-garden"
     },
     {
       "reservation": "none",
@@ -185,7 +226,7 @@
       ],
       "best_fit_note": "Good for Viki, who loves unusual rooms, and for Gora's social side. Paco gets a relaxed start to the trip.",
       "duration_minutes": 90,
-      "priority": "supporting",
+      "priority": "optional",
       "source_ids": [
         "src-tunnel",
         "src-tunnel-maps"
@@ -220,8 +261,14 @@
         "gora": 5,
         "stivka": 4
       },
-      "included_in_magic_score": true,
-      "data_status": "complete"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "recommended",
@@ -264,7 +311,7 @@
         "src-mass-moca",
         "src-mass-moca-exhibitions"
       ],
-      "priority": "anchor",
+      "priority": "optional",
       "country": "US",
       "coordinates": [
         -73.1158854,
@@ -296,8 +343,14 @@
         "gora": 4,
         "stivka": 5
       },
-      "included_in_magic_score": true,
-      "data_status": "complete"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "none",
@@ -309,10 +362,15 @@
       },
       "cost": {
         "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
         "status": "verified",
-        "note": "No admission charge."
+        "note": ""
       },
       "secondary_for": [
+        "viki",
         "gora",
         "sheluvspaco"
       ],
@@ -331,10 +389,9 @@
       "summary": "A white Buddhist peace pagoda on a quiet wooded hill, built by the Japanese order Nipponzan Myohoji. Paths lead around it, and there are wide views over the valley.",
       "why_go": "A calm, honest place of prayer between two cities, with almost no tourists. We visit with respect, not as a curiosity.",
       "best_for": [
-        "stivka",
-        "viki"
+        "stivka"
       ],
-      "best_fit_note": "Good for Stivka, who takes faith seriously, and for Viki, who likes buildings in nature.",
+      "best_fit_note": "Primary fit: stivka. The stop also gives the rest of the group a distinct change of pace.",
       "duration_minutes": 60,
       "source_ids": [
         "src-grafton"
@@ -364,12 +421,43 @@
       },
       "researcher_person_fit": {
         "sheluvspaco": 4,
-        "viki": 5,
+        "viki": 4,
         "gora": 4,
         "stivka": 5
       },
       "included_in_magic_score": true,
-      "data_status": "complete"
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "sacred-living-worship",
+      "texture": "WORSHIP",
+      "interaction_score": 1,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "skip_possible": true,
+        "photo_heavy": false
+      },
+      "viki_fit": 4,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "green",
+      "fallback_place_id": null
     },
     {
       "reservation": "none",
@@ -381,12 +469,16 @@
       },
       "cost": {
         "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
         "status": "verified",
-        "note": "Springs are free; October 5 is a Monday, so the seasonal weekend/holiday vehicle fee does not apply."
+        "note": ""
       },
       "secondary_for": [
-        "stivka",
-        "sheluvspaco"
+        "gora",
+        "stivka"
       ],
       "categories": [
         "nature_photogenic",
@@ -404,9 +496,9 @@
       "why_go": "You do not only look at a spa town, you taste it. Try Orenda, Hathorn and the others and see which one you can actually drink.",
       "best_for": [
         "viki",
-        "gora"
+        "sheluvspaco"
       ],
-      "best_fit_note": "Good for Viki, who enjoys strange experiences, and for Gora, who wants to know what is really under a polished resort story.",
+      "best_fit_note": "Primary fit: viki, sheluvspaco. The stop also gives the rest of the group a distinct change of pace.",
       "duration_minutes": 65,
       "source_ids": [
         "src-saratoga",
@@ -439,13 +531,44 @@
         "rating_count": 0
       },
       "researcher_person_fit": {
-        "sheluvspaco": 4,
+        "sheluvspaco": 5,
         "viki": 5,
-        "gora": 5,
+        "gora": 4,
         "stivka": 4
       },
       "included_in_magic_score": true,
-      "data_status": "complete"
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "local-ritual-discovery",
+      "texture": "DISCOVER",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "skip_possible": true,
+        "photo_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 4,
+      "planner_balance_fit": 5,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "green",
+      "fallback_place_id": null
     },
     {
       "reservation": "none",
@@ -483,7 +606,7 @@
       ],
       "best_fit_note": "Good for Viki's architecture photos and for Gora, who wants the real gambling history behind the elegant image.",
       "duration_minutes": 60,
-      "priority": "supporting",
+      "priority": "flex",
       "source_ids": [
         "src-congress"
       ],
@@ -518,8 +641,14 @@
         "gora": 5,
         "stivka": 3.4
       },
-      "included_in_magic_score": true,
-      "data_status": "complete"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "flex",
+      "original_status": "demote-flex",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "required",
@@ -562,7 +691,7 @@
         "src-howe-price",
         "src-upstate-caves-forum"
       ],
-      "priority": "anchor",
+      "priority": "optional",
       "country": "US",
       "coordinates": [
         -74.3987702,
@@ -593,8 +722,14 @@
         "gora": 5,
         "stivka": 3.4
       },
-      "included_in_magic_score": true,
-      "data_status": "complete"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "none",
@@ -636,7 +771,7 @@
       "source_ids": [
         "src-iroquois"
       ],
-      "priority": "anchor",
+      "priority": "optional",
       "country": "US",
       "coordinates": [
         -74.4079298,
@@ -665,8 +800,14 @@
         "gora": 5,
         "stivka": 5
       },
-      "included_in_magic_score": true,
-      "data_status": "complete"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "none",
@@ -678,11 +819,15 @@
       },
       "cost": {
         "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
         "status": "verified",
-        "note": "No admission charge."
+        "note": ""
       },
       "secondary_for": [
-        "stivka",
+        "gora",
         "sheluvspaco"
       ],
       "categories": [
@@ -700,11 +845,11 @@
       "why_go": "Ten quiet minutes by the water before dinner. It lets Cooperstown feel like a real small town, not only a row of museums.",
       "best_for": [
         "viki",
-        "gora"
+        "stivka"
       ],
-      "best_fit_note": "Good for Viki's quiet lake photos, and for Gora, who needs a break after two museums.",
+      "best_fit_note": "Primary fit: viki, stivka. The stop also gives the rest of the group a distinct change of pace.",
       "duration_minutes": 40,
-      "priority": "supporting",
+      "priority": "anchor",
       "source_ids": [
         "src-cooperstown"
       ],
@@ -735,11 +880,42 @@
       "researcher_person_fit": {
         "sheluvspaco": 4,
         "viki": 5,
-        "gora": 5,
-        "stivka": 4
+        "gora": 4,
+        "stivka": 5
       },
       "included_in_magic_score": true,
-      "data_status": "complete"
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "nature-geology-terrain",
+      "texture": "RELAX",
+      "interaction_score": 1,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "skip_possible": true,
+        "photo_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "green",
+      "fallback_place_id": null
     },
     {
       "reservation": "none",
@@ -778,7 +954,7 @@
       ],
       "best_fit_note": "Good for Gora's social side and for Stivka, who enjoys an easy beer evening. Viki still gets a beautiful farm setting.",
       "duration_minutes": 120,
-      "priority": "supporting",
+      "priority": "optional",
       "source_ids": [
         "src-ommegang",
         "src-cooperstown"
@@ -811,8 +987,14 @@
         "gora": 5,
         "stivka": 5
       },
-      "included_in_magic_score": true,
-      "data_status": "complete"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "none",
@@ -854,7 +1036,7 @@
       "source_ids": [
         "src-fenimore"
       ],
-      "priority": "anchor",
+      "priority": "archive",
       "country": "US",
       "coordinates": [
         -74.9297208,
@@ -883,8 +1065,14 @@
         "gora": 5,
         "stivka": 5
       },
-      "included_in_magic_score": true,
-      "data_status": "complete"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "archive",
+      "original_status": "remove-archive",
+      "energy_rebuild_role": "preserved-revision-history",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "none",
@@ -925,7 +1113,7 @@
       "source_ids": [
         "src-fenimore-explore"
       ],
-      "priority": "anchor",
+      "priority": "flex",
       "country": "US",
       "coordinates": [
         -74.92951,
@@ -956,8 +1144,14 @@
         "gora": 5,
         "stivka": 5
       },
-      "included_in_magic_score": true,
-      "data_status": "complete"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "flex",
+      "original_status": "demote-flex",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "none",
@@ -999,7 +1193,7 @@
       "source_ids": [
         "src-fenimore-explore"
       ],
-      "priority": "anchor",
+      "priority": "flex",
       "country": "US",
       "coordinates": [
         -74.93016,
@@ -1028,8 +1222,14 @@
         "gora": 4,
         "stivka": 5
       },
-      "included_in_magic_score": true,
-      "data_status": "complete"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "flex",
+      "original_status": "demote-flex",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "none",
@@ -1069,7 +1269,7 @@
       "source_ids": [
         "src-taughannock"
       ],
-      "priority": "anchor",
+      "priority": "optional",
       "country": "US",
       "coordinates": [
         -76.59857,
@@ -1101,8 +1301,14 @@
         "gora": 5,
         "stivka": 4
       },
-      "included_in_magic_score": true,
-      "data_status": "complete"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "none",
@@ -1140,7 +1346,7 @@
       ],
       "best_fit_note": "Good for Viki's autumn colors and landscapes, and for Stivka, who likes a calm finish to the day.",
       "duration_minutes": 50,
-      "priority": "supporting",
+      "priority": "flex",
       "source_ids": [
         "src-cornell"
       ],
@@ -1174,8 +1380,14 @@
         "gora": 4,
         "stivka": 5
       },
-      "included_in_magic_score": true,
-      "data_status": "complete"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "flex",
+      "original_status": "demote-flex",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "none",
@@ -1215,7 +1427,7 @@
       "source_ids": [
         "src-ithaca-gorges"
       ],
-      "priority": "anchor",
+      "priority": "flex",
       "country": "US",
       "coordinates": [
         -76.4932497,
@@ -1246,8 +1458,14 @@
         "gora": 5,
         "stivka": 3.4
       },
-      "included_in_magic_score": true,
-      "data_status": "complete"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "flex",
+      "original_status": "demote-flex",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "recommended",
@@ -1290,7 +1508,7 @@
         "src-corning",
         "src-corning-fall"
       ],
-      "priority": "anchor",
+      "priority": "optional",
       "country": "US",
       "coordinates": [
         -77.0541641,
@@ -1322,8 +1540,14 @@
         "gora": 5,
         "stivka": 4
       },
-      "included_in_magic_score": true,
-      "data_status": "complete"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "required",
@@ -1334,13 +1558,18 @@
         "note": "Daily; advance slots frequently sell out."
       },
       "cost": {
-        "amount_per_person": 48,
-        "status": "planning-estimate",
-        "note": "Projects range from $13-$62; budget assumes a blown seasonal object."
+        "amount_per_person": 32,
+        "low": 32,
+        "high": 32,
+        "amount_per_group": 128,
+        "price_type": "per-person",
+        "status": "verified",
+        "note": ""
       },
       "secondary_for": [
         "gora",
-        "stivka"
+        "stivka",
+        "sheluvspaco"
       ],
       "categories": [
         "unusual_creative",
@@ -1353,17 +1582,15 @@
       "state": "NY",
       "address": "The Studio, 1 Museum Way, Corning, NY 14830",
       "visit_date": "2026-10-08",
-      "summary": "A short guided session where each person shapes their own object from hot glass, with help from a glassmaker. You take it home with you.",
-      "why_go": "Everyone leaves with something they made with their own hands. Better than another photograph, and every object is different.",
+      "summary": "Work colored glass rods over a torch to create a seasonal pumpkin pendant, then have the cooled piece shipped home at no added domestic charge.",
+      "why_go": "The group makes the object instead of spending the core block walking galleries.",
       "best_for": [
-        "viki",
-        "sheluvspaco"
+        "viki"
       ],
-      "best_fit_note": "Good for Viki's creative side, and for Paco, who wants one shared moment where each person still makes something of their own.",
+      "best_fit_note": "Primary fit: viki. The stop also gives the rest of the group a distinct change of pace.",
       "duration_minutes": 45,
       "source_ids": [
-        "src-corning-make",
-        "src-corning-fall"
+        "src-v2-pumpkin-pendant"
       ],
       "priority": "anchor",
       "country": "US",
@@ -1392,13 +1619,44 @@
         "rating_count": 0
       },
       "researcher_person_fit": {
-        "sheluvspaco": 5,
+        "sheluvspaco": 4,
         "viki": 5,
         "gora": 4,
         "stivka": 4
       },
       "included_in_magic_score": true,
-      "data_status": "complete"
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "working-maker-infrastructure",
+      "texture": "DISCOVER",
+      "interaction_score": 3,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "booking_required": true,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "skip_possible": true,
+        "photo_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "per-person",
+      "price_per_person_low": 32,
+      "price_per_person_high": 32,
+      "price_per_group": 128,
+      "price_last_checked": "2026-08-31",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "yellow",
+      "fallback_place_id": null
     },
     {
       "reservation": "none",
@@ -1436,7 +1694,7 @@
       ],
       "best_fit_note": "Good for Viki, who photographs nature and industry together, and for Gora's interest in industrial history.",
       "duration_minutes": 55,
-      "priority": "supporting",
+      "priority": "flex",
       "source_ids": [
         "src-rochester-forum"
       ],
@@ -1470,8 +1728,14 @@
         "gora": 5,
         "stivka": 3.4
       },
-      "included_in_magic_score": true,
-      "data_status": "complete"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "flex",
+      "original_status": "demote-flex",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "none",
@@ -1513,7 +1777,7 @@
       "source_ids": [
         "src-eastman"
       ],
-      "priority": "anchor",
+      "priority": "archive",
       "country": "US",
       "coordinates": [
         -77.5798264,
@@ -1545,8 +1809,14 @@
         "gora": 5,
         "stivka": 4
       },
-      "included_in_magic_score": true,
-      "data_status": "complete"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "archive",
+      "original_status": "remove-archive",
+      "energy_rebuild_role": "preserved-revision-history",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "none",
@@ -1589,7 +1859,7 @@
         "src-artisanworks",
         "src-rochester-forum"
       ],
-      "priority": "anchor",
+      "priority": "optional",
       "country": "US",
       "coordinates": [
         -77.5575191,
@@ -1618,8 +1888,14 @@
         "gora": 4,
         "stivka": 5
       },
-      "included_in_magic_score": true,
-      "data_status": "complete"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "none",
@@ -1631,11 +1907,15 @@
       },
       "cost": {
         "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
         "status": "verified",
-        "note": "No admission charge."
+        "note": ""
       },
       "secondary_for": [
-        "viki",
+        "gora",
         "sheluvspaco"
       ],
       "categories": [
@@ -1654,11 +1934,11 @@
       "why_go": "It is messy, dark and full of treasure. Local musicians call it a time capsule, and the fun is in the search.",
       "best_for": [
         "stivka",
-        "gora"
+        "viki"
       ],
-      "best_fit_note": "Good for Stivka's love of metal and rock, and for Gora, who enjoys digging through unsorted history for something real.",
+      "best_fit_note": "Primary fit: stivka, viki. The stop also gives the rest of the group a distinct change of pace.",
       "duration_minutes": 60,
-      "priority": "supporting",
+      "priority": "anchor",
       "source_ids": [
         "src-house-guitars",
         "src-house-guitars-story",
@@ -1690,12 +1970,43 @@
       },
       "researcher_person_fit": {
         "sheluvspaco": 4,
-        "viki": 4,
-        "gora": 5,
+        "viki": 5,
+        "gora": 4,
         "stivka": 5
       },
       "included_in_magic_score": true,
-      "data_status": "complete"
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "shopping-music-retail",
+      "texture": "SHOP",
+      "interaction_score": 1,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "skip_possible": true,
+        "photo_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "green",
+      "fallback_place_id": null
     },
     {
       "reservation": "recommended",
@@ -1736,7 +2047,7 @@
       "source_ids": [
         "src-radio-social"
       ],
-      "priority": "anchor",
+      "priority": "optional",
       "country": "US",
       "coordinates": [
         -77.5614512,
@@ -1766,8 +2077,14 @@
         "gora": 5,
         "stivka": 4
       },
-      "included_in_magic_score": true,
-      "data_status": "complete"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "none",
@@ -1809,7 +2126,7 @@
       "source_ids": [
         "src-rochester-market"
       ],
-      "priority": "anchor",
+      "priority": "optional",
       "country": "US",
       "coordinates": [
         -77.588983,
@@ -1841,8 +2158,14 @@
         "gora": 5,
         "stivka": 4
       },
-      "included_in_magic_score": true,
-      "data_status": "complete"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "none",
@@ -1854,8 +2177,12 @@
       },
       "cost": {
         "amount_per_person": 5,
-        "status": "derived",
-        "note": "Two $10 vehicle fees split four ways; collected 09:00-17:00 through October 18."
+        "low": 5,
+        "high": 5,
+        "amount_per_group": 20,
+        "price_type": "group-share",
+        "status": "verified",
+        "note": "Two $10 vehicle fees shared by four."
       },
       "secondary_for": [
         "stivka",
@@ -1872,13 +2199,13 @@
       "state": "NY",
       "address": "1 Letchworth State Park, Castile, NY 14427",
       "visit_date": "2026-10-10",
-      "summary": "A drive along a deep river gorge with walls up to 600 feet high. You stop at the Upper and Middle Falls and at the tall Genesee Arch railway bridge.",
-      "why_go": "The best autumn colors of the whole trip, seen from viewpoints you drive to. Short walks only, no hard hiking.",
+      "summary": "Use a compact active route around Letchworth's gorge and Upper-Middle Falls instead of treating the park as only a scenic drive.",
+      "why_go": "The correct landscape stays, but the group now moves through it between the balloon and the dam.",
       "best_for": [
         "viki",
         "gora"
       ],
-      "best_fit_note": "Good for Viki's most dramatic autumn photos and for Gora's quiet side. Everyone benefits from the very light walking.",
+      "best_fit_note": "Primary fit: viki, gora. A lower-intensity or skip path is documented in the route.",
       "duration_minutes": 165,
       "source_ids": [
         "src-letchworth"
@@ -1916,7 +2243,38 @@
         "stivka": 4
       },
       "included_in_magic_score": true,
-      "data_status": "complete"
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "nature-geology-terrain",
+      "texture": "MOVE",
+      "interaction_score": 3,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_physicality": true,
+        "skip_possible": true,
+        "photo_heavy": true
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "group-share",
+      "price_per_person_low": 5,
+      "price_per_person_high": 5,
+      "price_per_group": 20,
+      "price_last_checked": "2026-08-31",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "yellow",
+      "fallback_place_id": null
     },
     {
       "reservation": "none",
@@ -1954,7 +2312,7 @@
       ],
       "best_fit_note": "Good for Viki's industrial waterfront photos, and for Gora, who wants to see the machines behind a city's power.",
       "duration_minutes": 90,
-      "priority": "supporting",
+      "priority": "flex",
       "source_ids": [
         "src-canalside"
       ],
@@ -1989,8 +2347,14 @@
         "gora": 5,
         "stivka": 3.4
       },
-      "included_in_magic_score": true,
-      "data_status": "complete"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "flex",
+      "original_status": "demote-flex",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "check-later",
@@ -2031,7 +2395,7 @@
       "source_ids": [
         "src-buffalo-nightlife"
       ],
-      "priority": "anchor",
+      "priority": "optional",
       "country": "US",
       "coordinates": [
         -78.8827403,
@@ -2062,8 +2426,14 @@
         "gora": 5,
         "stivka": 5
       },
-      "included_in_magic_score": true,
-      "data_status": "complete"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "none",
@@ -2075,12 +2445,17 @@
       },
       "cost": {
         "amount_per_person": 0,
-        "status": "donation-optional",
-        "note": "No admission; optional offering."
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
       },
       "secondary_for": [
+        "viki",
         "gora",
-        "viki"
+        "sheluvspaco"
       ],
       "categories": [
         "orthodox_spiritual",
@@ -2097,10 +2472,9 @@
       "summary": "Sunday morning worship in Buffalo's historic Greek Orthodox Church of the Annunciation. It begins with Orthros, the morning prayers, and continues into the Divine Liturgy.",
       "why_go": "Sunday stays a real Sunday. This is part of our normal life on the trip, not a quick photo inside a church.",
       "best_for": [
-        "stivka",
-        "sheluvspaco"
+        "stivka"
       ],
-      "best_fit_note": "Good for Stivka's faith, and for Paco, who wants the trip to feel truly shared. It gives all four a calm centre before Niagara.",
+      "best_fit_note": "Primary fit: stivka. The stop also gives the rest of the group a distinct change of pace.",
       "duration_minutes": 165,
       "source_ids": [
         "src-annunciation"
@@ -2132,13 +2506,44 @@
         "rating_count": 0
       },
       "researcher_person_fit": {
-        "sheluvspaco": 5,
+        "sheluvspaco": 4,
         "viki": 4,
         "gora": 4,
         "stivka": 5
       },
       "included_in_magic_score": true,
-      "data_status": "complete"
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "sacred-living-worship",
+      "texture": "WORSHIP",
+      "interaction_score": 1,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "skip_possible": true,
+        "photo_heavy": false
+      },
+      "viki_fit": 4,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "yellow",
+      "fallback_place_id": null
     },
     {
       "reservation": "none",
@@ -2150,12 +2555,16 @@
       },
       "cost": {
         "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
         "status": "verified",
-        "note": "No admission charge."
+        "note": ""
       },
       "secondary_for": [
-        "sheluvspaco",
-        "stivka"
+        "stivka",
+        "sheluvspaco"
       ],
       "categories": [
         "architecture_photogenic",
@@ -2175,7 +2584,7 @@
         "gora",
         "viki"
       ],
-      "best_fit_note": "Good for Gora, who wants the engineering behind the public story, and for Viki, who likes unusual buildings and high river views.",
+      "best_fit_note": "Primary fit: gora, viki. The stop also gives the rest of the group a distinct change of pace.",
       "duration_minutes": 60,
       "source_ids": [
         "src-power-vista"
@@ -2213,7 +2622,38 @@
         "stivka": 4
       },
       "included_in_magic_score": true,
-      "data_status": "complete"
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "working-maker-infrastructure",
+      "texture": "DISCOVER",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "skip_possible": true,
+        "photo_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "green",
+      "fallback_place_id": null
     },
     {
       "reservation": "recommended",
@@ -2254,7 +2694,7 @@
       "source_ids": [
         "src-maid"
       ],
-      "priority": "anchor",
+      "priority": "optional",
       "country": "US",
       "coordinates": [
         -79.0689984,
@@ -2286,8 +2726,14 @@
         "gora": 5,
         "stivka": 4
       },
-      "included_in_magic_score": true,
-      "data_status": "complete"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "none",
@@ -2299,10 +2745,15 @@
       },
       "cost": {
         "amount_per_person": 23,
+        "low": 23,
+        "high": 23,
+        "amount_per_group": 92,
+        "price_type": "per-person",
         "status": "verified",
-        "note": "2026 adult in-season price; tickets sold on site."
+        "note": ""
       },
       "secondary_for": [
+        "stivka",
         "sheluvspaco"
       ],
       "categories": [
@@ -2322,7 +2773,7 @@
         "gora",
         "viki"
       ],
-      "best_fit_note": "Good for Gora's physical side and for Viki, who wants a memory she will feel. Stivka can stay on the lower decks if the spray is too much.",
+      "best_fit_note": "Primary fit: gora, viki. A lower-intensity or skip path is documented in the route.",
       "duration_minutes": 75,
       "source_ids": [
         "src-cave-winds"
@@ -2357,10 +2808,41 @@
         "sheluvspaco": 4,
         "viki": 5,
         "gora": 5,
-        "stivka": 3.4
+        "stivka": 4
       },
       "included_in_magic_score": true,
-      "data_status": "complete"
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "nature-geology-terrain",
+      "texture": "AWE",
+      "interaction_score": 4,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "booking_required": false,
+        "exact_date_verified": true,
+        "traffic_gated": false,
+        "high_physicality": true,
+        "skip_possible": true,
+        "photo_heavy": true
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "per-person",
+      "price_per_person_low": 23,
+      "price_per_person_high": 23,
+      "price_per_group": 92,
+      "price_last_checked": "2026-08-31",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "yellow",
+      "fallback_place_id": null
     },
     {
       "reservation": "none",
@@ -2371,9 +2853,13 @@
         "note": "The public park walk begins at 17:00; illumination begins at 18:15 on October 1-15 and continues to 02:00. Route leaves by 19:00."
       },
       "cost": {
-        "amount_per_person": 5,
-        "status": "derived",
-        "note": "Two $10 park vehicle fees split four ways; walking access itself is free."
+        "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
       },
       "secondary_for": [
         "gora",
@@ -2396,7 +2882,7 @@
         "viki",
         "stivka"
       ],
-      "best_fit_note": "Good for Viki's final famous photographs, and for Stivka, who prefers a slow calm finish after an intense day.",
+      "best_fit_note": "Primary fit: viki, stivka. The stop also gives the rest of the group a distinct change of pace.",
       "duration_minutes": 120,
       "source_ids": [
         "src-niagara-park",
@@ -2434,7 +2920,38 @@
         "stivka": 5
       },
       "included_in_magic_score": true,
-      "data_status": "complete"
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "nature-geology-terrain",
+      "texture": "AWE",
+      "interaction_score": 1,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "skip_possible": true,
+        "photo_heavy": true
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "green",
+      "fallback_place_id": null
     },
     {
       "reservation": "required",
@@ -2476,7 +2993,7 @@
         "src-martin",
         "src-martin-tours"
       ],
-      "priority": "anchor",
+      "priority": "optional",
       "country": "US",
       "coordinates": [
         -78.8480871,
@@ -2507,8 +3024,14 @@
         "gora": 5,
         "stivka": 4
       },
-      "included_in_magic_score": true,
-      "data_status": "complete"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "recommended",
@@ -2549,7 +3072,7 @@
       "source_ids": [
         "src-tr"
       ],
-      "priority": "anchor",
+      "priority": "optional",
       "country": "US",
       "coordinates": [
         -78.8726259,
@@ -2580,8 +3103,14 @@
         "gora": 5,
         "stivka": 5
       },
-      "included_in_magic_score": true,
-      "data_status": "complete"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "none",
@@ -2620,7 +3149,7 @@
       ],
       "best_fit_note": "Good for Viki, who likes walking around a city, and for Gora's flexible social side. Everyone can split up briefly and meet again for dinner.",
       "duration_minutes": 180,
-      "priority": "supporting",
+      "priority": "flex",
       "source_ids": [
         "src-armory"
       ],
@@ -2655,8 +3184,14 @@
         "gora": 5,
         "stivka": 4
       },
-      "included_in_magic_score": true,
-      "data_status": "complete"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "flex",
+      "original_status": "demote-flex",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "none",
@@ -2698,7 +3233,7 @@
       "source_ids": [
         "src-erie"
       ],
-      "priority": "anchor",
+      "priority": "archive",
       "country": "US",
       "coordinates": [
         -76.1487182,
@@ -2729,8 +3264,14 @@
         "gora": 5,
         "stivka": 4
       },
-      "included_in_magic_score": true,
-      "data_status": "complete"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "archive",
+      "original_status": "remove-archive",
+      "energy_rebuild_role": "preserved-revision-history",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "none",
@@ -2773,7 +3314,7 @@
         "src-pine",
         "src-pine-forum"
       ],
-      "priority": "anchor",
+      "priority": "optional",
       "country": "US",
       "coordinates": [
         -73.8675,
@@ -2805,8 +3346,14 @@
         "gora": 5,
         "stivka": 4
       },
-      "included_in_magic_score": true,
-      "data_status": "complete"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "none",
@@ -2847,7 +3394,7 @@
       "source_ids": [
         "src-capitol"
       ],
-      "priority": "anchor",
+      "priority": "flex",
       "country": "US",
       "coordinates": [
         -73.7576,
@@ -2878,8 +3425,14 @@
         "gora": 5,
         "stivka": 4
       },
-      "included_in_magic_score": true,
-      "data_status": "complete"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "flex",
+      "original_status": "demote-flex",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "none",
@@ -2890,11 +3443,16 @@
         "note": "Wednesday-Monday hours; closed Tuesday."
       },
       "cost": {
-        "amount_per_person": 14,
+        "amount_per_person": 10,
+        "low": 10,
+        "high": 10,
+        "amount_per_group": 40,
+        "price_type": "group-share",
         "status": "verified",
-        "note": "Adult admission."
+        "note": "Official 3-5 adult group rate."
       },
       "secondary_for": [
+        "gora",
         "stivka",
         "sheluvspaco"
       ],
@@ -2913,10 +3471,9 @@
       "summary": "A 16-acre marble and limestone quarry turned into an open-air sculpture park, with cliffs, meadows and very large artworks.",
       "why_go": "The last stop of the trip: art and rock together, out in the open. Strong images, with none of the tiredness of another museum.",
       "best_for": [
-        "viki",
-        "gora"
+        "viki"
       ],
-      "best_fit_note": "Good for Viki's strange landscape photos and for Gora's quiet side. Paco gets a strong finish that still protects the drive to the airport.",
+      "best_fit_note": "Primary fit: viki. The stop also gives the rest of the group a distinct change of pace.",
       "duration_minutes": 90,
       "source_ids": [
         "src-turnpark"
@@ -2947,608 +3504,42 @@
       "researcher_person_fit": {
         "sheluvspaco": 4,
         "viki": 5,
-        "gora": 5,
+        "gora": 4,
         "stivka": 4
       },
       "included_in_magic_score": true,
-      "data_status": "complete"
-    },
-    {
-      "reservation": "none",
-      "hours": {
-        "opens": "10:00",
-        "closes": "17:00",
-        "status": "verified",
-        "note": "Sunday hours; final admission 16:30."
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "nature-geology-terrain",
+      "texture": "WEIRD",
+      "interaction_score": 1,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "skip_possible": true,
+        "photo_heavy": true
       },
-      "cost": {
-        "amount_per_person": 20,
-        "status": "verified",
-        "note": "Adult admission."
-      },
-      "secondary_for": [
-        "sheluvspaco"
-      ],
-      "categories": [
-        "nature_photogenic",
-        "unusual_creative"
-      ],
-      "id": "magic-wings",
-      "name": "Magic Wings Butterfly Conservatory",
-      "kind": "butterfly-conservatory",
-      "city": "South Deerfield",
-      "state": "MA",
-      "address": "281 Greenfield Road, South Deerfield, MA 01373",
-      "visit_date": "2026-10-04",
-      "summary": "A warm glasshouse with more than 4,000 butterflies flying free around you, plus tortoises, birds and reptiles among tropical plants.",
-      "why_go": "Butterflies landing on you in a warm glasshouse. It works in any weather and it is genuinely magical, not just an indoor museum.",
-      "best_for": [
-        "viki",
-        "stivka"
-      ],
-      "best_fit_note": "Good for Viki's color and close-up photos, and for Stivka's gentle side.",
-      "duration_minutes": 75,
-      "source_ids": [
-        "src-magic-wings"
-      ],
-      "replacement_reason": "Use if cold rain makes the outdoor sanctuary a weak opening.",
-      "priority": "replacement",
-      "replacement": {
-        "day": 1,
-        "replaces_place_ids": [
-          "three-sisters-sanctuary"
-        ],
-        "route_variant_id": "replacement-d1-magic-wings",
-        "reason": "Use if cold rain makes the outdoor sanctuary a weak opening.",
-        "route_variant": {
-          "id": "replacement-d1-magic-wings",
-          "day": 1,
-          "replacement_place_id": "magic-wings",
-          "replaces_place_ids": [
-            "three-sisters-sanctuary"
-          ],
-          "nodes": [
-            "boston-logan-rental",
-            "smith-botanic-garden",
-            "magic-wings",
-            "northampton-lodging"
-          ],
-          "node_sequence": [
-            "boston-logan-rental",
-            "smith-botanic-garden",
-            "magic-wings",
-            "northampton-lodging"
-          ],
-          "baseline_total_miles": 133.9,
-          "baseline_total_minutes": 175,
-          "delta_miles": -2.1,
-          "delta_minutes": -12,
-          "cap_minutes": 210,
-          "cap_status": "passes-baseline-cap",
-          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
-          "legs": [
-            {
-              "id": "replacement-d1-magic-wings-leg-1",
-              "from": "boston-logan-rental",
-              "to": "smith-botanic-garden",
-              "distance_miles": 105.8,
-              "baseline_minutes": 132
-            },
-            {
-              "id": "replacement-d1-magic-wings-leg-2",
-              "from": "smith-botanic-garden",
-              "to": "magic-wings",
-              "distance_miles": 14.2,
-              "baseline_minutes": 22
-            },
-            {
-              "id": "replacement-d1-magic-wings-leg-3",
-              "from": "magic-wings",
-              "to": "northampton-lodging",
-              "distance_miles": 13.9,
-              "baseline_minutes": 21
-            }
-          ],
-          "geometry": {
-            "coordinates": [
-              [
-                -71.023514,
-                42.367084
-              ],
-              [
-                -71.037429,
-                42.346811
-              ],
-              [
-                -71.177949,
-                42.35787
-              ],
-              [
-                -71.315031,
-                42.33461
-              ],
-              [
-                -71.367832,
-                42.311489
-              ],
-              [
-                -71.412023,
-                42.315539
-              ],
-              [
-                -71.557712,
-                42.269721
-              ],
-              [
-                -71.618632,
-                42.229395
-              ],
-              [
-                -71.755983,
-                42.2211
-              ],
-              [
-                -72.062255,
-                42.12963
-              ],
-              [
-                -72.125546,
-                42.135283
-              ],
-              [
-                -72.213602,
-                42.182504
-              ],
-              [
-                -72.282382,
-                42.164903
-              ],
-              [
-                -72.318532,
-                42.17708
-              ],
-              [
-                -72.380572,
-                42.153946
-              ],
-              [
-                -72.448664,
-                42.17055
-              ],
-              [
-                -72.538734,
-                42.16158
-              ],
-              [
-                -72.586113,
-                42.169804
-              ],
-              [
-                -72.616208,
-                42.155187
-              ],
-              [
-                -72.637952,
-                42.154264
-              ],
-              [
-                -72.645376,
-                42.162633
-              ],
-              [
-                -72.636578,
-                42.228233
-              ],
-              [
-                -72.605481,
-                42.274963
-              ],
-              [
-                -72.628602,
-                42.293326
-              ],
-              [
-                -72.624157,
-                42.311569
-              ],
-              [
-                -72.640424,
-                42.318896
-              ],
-              [
-                -72.649245,
-                42.325216
-              ],
-              [
-                -72.637261,
-                42.337726
-              ],
-              [
-                -72.605425,
-                42.509808
-              ],
-              [
-                -72.642494,
-                42.347445
-              ],
-              [
-                -72.633278,
-                42.325702
-              ],
-              [
-                -72.640484,
-                42.319104
-              ]
-            ],
-            "type": "LineString"
-          },
-          "routing_source": "https://router.project-osrm.org/route/v1/driving/-71.0236,42.367;-72.6399966,42.3189684;-72.605779,42.5097749;-72.6412,42.319?overview=simplified&geometries=geojson&steps=false"
-        }
-      },
-      "country": "US",
-      "coordinates": [
-        -72.605779,
-        42.5097749
-      ],
-      "coordinate_order": "longitude_latitude",
-      "coordinate_source": "manual_verified_address",
-      "image_ids": [
-        "img-magic-wings-1",
-        "img-magic-wings-2",
-        "img-magic-wings-3",
-        "img-magic-wings-4",
-        "img-magic-wings-5"
-      ],
-      "ratings": {
-        "traveler_ratings": {
-          "sheluvspaco": null,
-          "viki": null,
-          "gora": null,
-          "stivka": null
-        },
-        "average": null,
-        "rating_count": 0
-      },
-      "researcher_person_fit": {
-        "sheluvspaco": 4,
-        "viki": 5,
-        "gora": 3.4,
-        "stivka": 5
-      },
-      "included_in_magic_score": false,
-      "data_status": "complete"
-    },
-    {
-      "reservation": "none",
-      "hours": {
-        "opens": "09:00",
-        "closes": "17:00",
-        "status": "partial-closure",
-        "note": "Museum galleries are closed Monday; this replacement is the always-open outdoor campus and trails only, so promote it only if the group explicitly prefers architecture/nature to gallery art."
-      },
-      "cost": {
-        "amount_per_person": 0,
-        "status": "verified",
-        "note": "Outdoor campus and trails are open to walkers at all times; galleries would be closed Monday."
-      },
-      "secondary_for": [
-        "sheluvspaco",
-        "gora"
-      ],
-      "categories": [
-        "architecture_photogenic",
-        "nature_photogenic",
-        "unusual_creative"
-      ],
-      "id": "clark-art-institute",
-      "name": "Clark Art Institute Campus",
-      "kind": "art-architecture-campus",
-      "city": "Williamstown",
-      "state": "MA",
-      "address": "225 South Street, Williamstown, MA 01267",
-      "visit_date": "2026-10-05",
-      "summary": "A quiet art campus with water pools and buildings by the Japanese architect Tadao Ando. There are forest paths outside, and inside a small but excellent collection of Old Master and Impressionist paintings.",
-      "why_go": "Calmer and more polished than MASS MoCA. This is a real choice of mood, not a weaker copy.",
-      "best_for": [
-        "viki",
-        "stivka"
-      ],
-      "best_fit_note": "Good for Viki's architecture and water reflections, and for Stivka, who prefers a calm art experience.",
-      "duration_minutes": 120,
-      "source_ids": [
-        "src-clark"
-      ],
-      "replacement_reason": "Outdoor architecture-and-landscape alternative when the group wants less gallery intensity.",
-      "priority": "replacement",
-      "replacement": {
-        "day": 2,
-        "replaces_place_ids": [
-          "mass-moca"
-        ],
-        "route_variant_id": "replacement-d2-clark",
-        "reason": "Outdoor architecture-and-landscape alternative when the group wants less gallery intensity.",
-        "route_variant": {
-          "id": "replacement-d2-clark",
-          "day": 2,
-          "replacement_place_id": "clark-art-institute",
-          "replaces_place_ids": [
-            "mass-moca"
-          ],
-          "nodes": [
-            "northampton-lodging",
-            "clark-art-institute",
-            "grafton-peace-pagoda",
-            "saratoga-lodging"
-          ],
-          "node_sequence": [
-            "northampton-lodging",
-            "clark-art-institute",
-            "grafton-peace-pagoda",
-            "saratoga-lodging"
-          ],
-          "baseline_total_miles": 109.2,
-          "baseline_total_minutes": 195,
-          "delta_miles": 0.3,
-          "delta_minutes": 4,
-          "cap_minutes": 210,
-          "cap_status": "passes-baseline-cap",
-          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
-          "legs": [
-            {
-              "id": "replacement-d2-clark-leg-1",
-              "from": "northampton-lodging",
-              "to": "clark-art-institute",
-              "distance_miles": 49.6,
-              "baseline_minutes": 95
-            },
-            {
-              "id": "replacement-d2-clark-leg-2",
-              "from": "clark-art-institute",
-              "to": "grafton-peace-pagoda",
-              "distance_miles": 17.1,
-              "baseline_minutes": 31
-            },
-            {
-              "id": "replacement-d2-clark-leg-3",
-              "from": "grafton-peace-pagoda",
-              "to": "saratoga-lodging",
-              "distance_miles": 42.4,
-              "baseline_minutes": 69
-            }
-          ],
-          "geometry": {
-            "coordinates": [
-              [
-                -72.640484,
-                42.319104
-              ],
-              [
-                -72.689573,
-                42.349281
-              ],
-              [
-                -72.707297,
-                42.380553
-              ],
-              [
-                -72.775442,
-                42.417987
-              ],
-              [
-                -72.802629,
-                42.445894
-              ],
-              [
-                -72.834569,
-                42.455774
-              ],
-              [
-                -72.849114,
-                42.50244
-              ],
-              [
-                -72.861882,
-                42.494243
-              ],
-              [
-                -72.892044,
-                42.515661
-              ],
-              [
-                -72.921998,
-                42.516521
-              ],
-              [
-                -72.939765,
-                42.540581
-              ],
-              [
-                -72.979411,
-                42.542735
-              ],
-              [
-                -73.06288,
-                42.581068
-              ],
-              [
-                -73.094328,
-                42.579944
-              ],
-              [
-                -73.113061,
-                42.589131
-              ],
-              [
-                -73.120485,
-                42.620785
-              ],
-              [
-                -73.107928,
-                42.663237
-              ],
-              [
-                -73.111875,
-                42.700856
-              ],
-              [
-                -73.183465,
-                42.701701
-              ],
-              [
-                -73.207745,
-                42.713213
-              ],
-              [
-                -73.21332,
-                42.707413
-              ],
-              [
-                -73.209471,
-                42.713713
-              ],
-              [
-                -73.220941,
-                42.709633
-              ],
-              [
-                -73.231302,
-                42.686885
-              ],
-              [
-                -73.240679,
-                42.70419
-              ],
-              [
-                -73.277904,
-                42.723677
-              ],
-              [
-                -73.275068,
-                42.734965
-              ],
-              [
-                -73.289909,
-                42.746394
-              ],
-              [
-                -73.299203,
-                42.740454
-              ],
-              [
-                -73.345601,
-                42.751525
-              ],
-              [
-                -73.370365,
-                42.734333
-              ],
-              [
-                -73.40168,
-                42.7403
-              ],
-              [
-                -73.408647,
-                42.75032
-              ],
-              [
-                -73.410704,
-                42.767128
-              ],
-              [
-                -73.434763,
-                42.772638
-              ],
-              [
-                -73.488741,
-                42.759536
-              ],
-              [
-                -73.519693,
-                42.769439
-              ],
-              [
-                -73.549312,
-                42.74669
-              ],
-              [
-                -73.597052,
-                42.761318
-              ],
-              [
-                -73.616316,
-                42.757075
-              ],
-              [
-                -73.651395,
-                42.784561
-              ],
-              [
-                -73.681591,
-                42.791297
-              ],
-              [
-                -73.684784,
-                42.810911
-              ],
-              [
-                -73.712322,
-                42.827986
-              ],
-              [
-                -73.770419,
-                42.840252
-              ],
-              [
-                -73.780196,
-                42.894546
-              ],
-              [
-                -73.805188,
-                42.944271
-              ],
-              [
-                -73.784558,
-                43.083205
-              ]
-            ],
-            "type": "LineString"
-          },
-          "routing_source": "https://router.project-osrm.org/route/v1/driving/-72.6412,42.319;-73.2136571,42.7075528;-73.4103466,42.750208;-73.7846,43.0831?overview=simplified&geometries=geojson&steps=false"
-        }
-      },
-      "country": "US",
-      "coordinates": [
-        -73.2136571,
-        42.7075528
-      ],
-      "coordinate_order": "longitude_latitude",
-      "coordinate_source": "manual_verified_address",
-      "image_ids": [
-        "img-clark-art-institute-1",
-        "img-clark-art-institute-2",
-        "img-clark-art-institute-3",
-        "img-clark-art-institute-4",
-        "img-clark-art-institute-5",
-        "img-clark-art-institute-6"
-      ],
-      "ratings": {
-        "traveler_ratings": {
-          "sheluvspaco": null,
-          "viki": null,
-          "gora": null,
-          "stivka": null
-        },
-        "average": null,
-        "rating_count": 0
-      },
-      "researcher_person_fit": {
-        "sheluvspaco": 4,
-        "viki": 5,
-        "gora": 4,
-        "stivka": 5
-      },
-      "included_in_magic_score": false,
-      "data_status": "complete"
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "group-share",
+      "price_per_person_low": 10,
+      "price_per_person_high": 10,
+      "price_per_group": 40,
+      "price_last_checked": "2026-08-31",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "green",
+      "fallback_place_id": null
     },
     {
       "reservation": "none",
@@ -3560,10 +3551,15 @@
       },
       "cost": {
         "amount_per_person": 20,
-        "status": "verified-cash",
-        "note": "$20 cash; card payment adds $2 per adult."
+        "low": 20,
+        "high": 22,
+        "amount_per_group": null,
+        "price_type": "per-person",
+        "status": "planning-range",
+        "note": "$20 cash or $22 card."
       },
       "secondary_for": [
+        "stivka",
         "sheluvspaco"
       ],
       "categories": [
@@ -3584,14 +3580,14 @@
         "gora",
         "viki"
       ],
-      "best_fit_note": "Good for Gora, who prefers rough and unpackaged places, and for Viki's unusual waterfall photos.",
+      "best_fit_note": "Primary fit: gora, viki. A lower-intensity or skip path is documented in the route.",
       "duration_minutes": 60,
       "source_ids": [
         "src-secret",
         "src-upstate-caves-forum"
       ],
       "replacement_reason": "Choose if the group values weird independent atmosphere and a giant underground waterfall over Howe's boat ride.",
-      "priority": "replacement",
+      "priority": "anchor",
       "replacement": {
         "day": 3,
         "replaces_place_ids": [
@@ -3913,10 +3909,202 @@
         "sheluvspaco": 4,
         "viki": 5,
         "gora": 5,
-        "stivka": 3.4
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "promoted-original-alternative",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "nature-geology-terrain",
+      "texture": "EXPLORE",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_physicality": true,
+        "skip_possible": true,
+        "photo_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "per-person",
+      "price_per_person_low": 20,
+      "price_per_person_high": 22,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "green",
+      "fallback_place_id": "howe-caverns"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified",
+        "note": "Sunday hours; final admission 16:30."
+      },
+      "cost": {
+        "amount_per_person": 20,
+        "status": "verified",
+        "note": "Adult admission."
+      },
+      "secondary_for": [
+        "sheluvspaco"
+      ],
+      "categories": [
+        "nature_photogenic",
+        "unusual_creative"
+      ],
+      "id": "magic-wings",
+      "name": "Magic Wings Butterfly Conservatory",
+      "kind": "butterfly-conservatory",
+      "city": "South Deerfield",
+      "state": "MA",
+      "address": "281 Greenfield Road, South Deerfield, MA 01373",
+      "visit_date": "2026-10-04",
+      "summary": "A warm glasshouse with more than 4,000 butterflies flying free around you, plus tortoises, birds and reptiles among tropical plants.",
+      "why_go": "Butterflies landing on you in a warm glasshouse. It works in any weather and it is genuinely magical, not just an indoor museum.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Viki's color and close-up photos, and for Stivka's gentle side.",
+      "duration_minutes": 75,
+      "source_ids": [
+        "src-magic-wings"
+      ],
+      "replacement_reason": "Use if cold rain makes the outdoor sanctuary a weak opening.",
+      "priority": "alternative",
+      "country": "US",
+      "coordinates": [
+        -72.605779,
+        42.5097749
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-magic-wings-1",
+        "img-magic-wings-2",
+        "img-magic-wings-3",
+        "img-magic-wings-4",
+        "img-magic-wings-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 3.4,
+        "stivka": 5
       },
       "included_in_magic_score": false,
-      "data_status": "complete"
+      "data_status": "complete",
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
+    },
+    {
+      "reservation": "none",
+      "hours": {
+        "opens": "09:00",
+        "closes": "17:00",
+        "status": "partial-closure",
+        "note": "Museum galleries are closed Monday; this replacement is the always-open outdoor campus and trails only, so promote it only if the group explicitly prefers architecture/nature to gallery art."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified",
+        "note": "Outdoor campus and trails are open to walkers at all times; galleries would be closed Monday."
+      },
+      "secondary_for": [
+        "sheluvspaco",
+        "gora"
+      ],
+      "categories": [
+        "architecture_photogenic",
+        "nature_photogenic",
+        "unusual_creative"
+      ],
+      "id": "clark-art-institute",
+      "name": "Clark Art Institute Campus",
+      "kind": "art-architecture-campus",
+      "city": "Williamstown",
+      "state": "MA",
+      "address": "225 South Street, Williamstown, MA 01267",
+      "visit_date": "2026-10-05",
+      "summary": "A quiet art campus with water pools and buildings by the Japanese architect Tadao Ando. There are forest paths outside, and inside a small but excellent collection of Old Master and Impressionist paintings.",
+      "why_go": "Calmer and more polished than MASS MoCA. This is a real choice of mood, not a weaker copy.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Viki's architecture and water reflections, and for Stivka, who prefers a calm art experience.",
+      "duration_minutes": 120,
+      "source_ids": [
+        "src-clark"
+      ],
+      "replacement_reason": "Outdoor architecture-and-landscape alternative when the group wants less gallery intensity.",
+      "priority": "alternative",
+      "country": "US",
+      "coordinates": [
+        -73.2136571,
+        42.7075528
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-clark-art-institute-1",
+        "img-clark-art-institute-2",
+        "img-clark-art-institute-3",
+        "img-clark-art-institute-4",
+        "img-clark-art-institute-5",
+        "img-clark-art-institute-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "none",
@@ -3960,300 +4148,7 @@
         "src-fly-creek-hours"
       ],
       "replacement_reason": "Replace the three Fenimore Farm cards when the group wants a lighter, food-centered start or farm admission does not feel worth it.",
-      "priority": "replacement",
-      "replacement": {
-        "day": 4,
-        "replaces_place_ids": [
-          "fenimore-farm",
-          "cardiff-giant",
-          "empire-state-carousel"
-        ],
-        "route_variant_id": "replacement-d4-fly-creek",
-        "reason": "Replace the three Fenimore Farm cards when the group wants a lighter, food-centered start or farm admission does not feel worth it.",
-        "route_variant": {
-          "id": "replacement-d4-fly-creek",
-          "day": 4,
-          "replacement_place_id": "fly-creek-cider-mill",
-          "replaces_place_ids": [
-            "fenimore-farm",
-            "cardiff-giant",
-            "empire-state-carousel"
-          ],
-          "nodes": [
-            "cooperstown-lodging",
-            "fly-creek-cider-mill",
-            "taughannock-falls",
-            "cornell-botanic-gardens",
-            "ithaca-lodging"
-          ],
-          "node_sequence": [
-            "cooperstown-lodging",
-            "fly-creek-cider-mill",
-            "taughannock-falls",
-            "cornell-botanic-gardens",
-            "ithaca-lodging"
-          ],
-          "baseline_total_miles": 131.1,
-          "baseline_total_minutes": 201,
-          "delta_miles": -4.5,
-          "delta_minutes": 0,
-          "cap_minutes": 210,
-          "cap_status": "passes-baseline-cap",
-          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
-          "legs": [
-            {
-              "id": "replacement-d4-fly-creek-leg-1",
-              "from": "cooperstown-lodging",
-              "to": "fly-creek-cider-mill",
-              "distance_miles": 3.7,
-              "baseline_minutes": 7
-            },
-            {
-              "id": "replacement-d4-fly-creek-leg-2",
-              "from": "fly-creek-cider-mill",
-              "to": "taughannock-falls",
-              "distance_miles": 112.1,
-              "baseline_minutes": 163
-            },
-            {
-              "id": "replacement-d4-fly-creek-leg-3",
-              "from": "taughannock-falls",
-              "to": "cornell-botanic-gardens",
-              "distance_miles": 12.9,
-              "baseline_minutes": 25
-            },
-            {
-              "id": "replacement-d4-fly-creek-leg-4",
-              "from": "cornell-botanic-gardens",
-              "to": "ithaca-lodging",
-              "distance_miles": 2.4,
-              "baseline_minutes": 6
-            }
-          ],
-          "geometry": {
-            "coordinates": [
-              [
-                -74.924238,
-                42.700588
-              ],
-              [
-                -74.986438,
-                42.719012
-              ],
-              [
-                -75.015702,
-                42.735237
-              ],
-              [
-                -75.027443,
-                42.728325
-              ],
-              [
-                -75.056563,
-                42.733529
-              ],
-              [
-                -75.152848,
-                42.723139
-              ],
-              [
-                -75.192721,
-                42.70558
-              ],
-              [
-                -75.244012,
-                42.697745
-              ],
-              [
-                -75.239363,
-                42.685146
-              ],
-              [
-                -75.264336,
-                42.648174
-              ],
-              [
-                -75.301051,
-                42.627208
-              ],
-              [
-                -75.3323,
-                42.62431
-              ],
-              [
-                -75.339703,
-                42.571528
-              ],
-              [
-                -75.384936,
-                42.529603
-              ],
-              [
-                -75.451543,
-                42.556244
-              ],
-              [
-                -75.524243,
-                42.536673
-              ],
-              [
-                -75.52277,
-                42.506774
-              ],
-              [
-                -75.549558,
-                42.467601
-              ],
-              [
-                -75.5753,
-                42.460432
-              ],
-              [
-                -75.637526,
-                42.420205
-              ],
-              [
-                -75.636745,
-                42.384981
-              ],
-              [
-                -75.69066,
-                42.35825
-              ],
-              [
-                -75.746318,
-                42.349506
-              ],
-              [
-                -75.774133,
-                42.331923
-              ],
-              [
-                -75.806847,
-                42.349052
-              ],
-              [
-                -75.829572,
-                42.349985
-              ],
-              [
-                -75.890815,
-                42.338081
-              ],
-              [
-                -75.926355,
-                42.341474
-              ],
-              [
-                -75.947635,
-                42.32897
-              ],
-              [
-                -75.965741,
-                42.329125
-              ],
-              [
-                -76.020511,
-                42.35529
-              ],
-              [
-                -76.156401,
-                42.371917
-              ],
-              [
-                -76.202851,
-                42.355963
-              ],
-              [
-                -76.217833,
-                42.365764
-              ],
-              [
-                -76.238247,
-                42.361998
-              ],
-              [
-                -76.270606,
-                42.378705
-              ],
-              [
-                -76.305369,
-                42.379296
-              ],
-              [
-                -76.345421,
-                42.393959
-              ],
-              [
-                -76.410589,
-                42.396358
-              ],
-              [
-                -76.48953,
-                42.43924
-              ],
-              [
-                -76.512222,
-                42.439997
-              ],
-              [
-                -76.549936,
-                42.51422
-              ],
-              [
-                -76.56721,
-                42.5258
-              ],
-              [
-                -76.578703,
-                42.518591
-              ],
-              [
-                -76.599257,
-                42.535782
-              ],
-              [
-                -76.597095,
-                42.543894
-              ],
-              [
-                -76.549936,
-                42.51422
-              ],
-              [
-                -76.512286,
-                42.439518
-              ],
-              [
-                -76.481785,
-                42.4375
-              ],
-              [
-                -76.468708,
-                42.443848
-              ],
-              [
-                -76.472985,
-                42.448943
-              ],
-              [
-                -76.468708,
-                42.443848
-              ],
-              [
-                -76.481785,
-                42.4375
-              ],
-              [
-                -76.496466,
-                42.440268
-              ]
-            ],
-            "type": "LineString"
-          },
-          "routing_source": "https://router.project-osrm.org/route/v1/driving/-74.9243,42.7006;-74.9866,42.7186;-76.59857,42.53609;-76.4722793,42.4495732;-76.4966,42.4396?overview=simplified&geometries=geojson&steps=false"
-        }
-      },
+      "priority": "alternative",
       "country": "US",
       "coordinates": [
         -74.9866,
@@ -4283,7 +4178,13 @@
         "stivka": 4
       },
       "included_in_magic_score": false,
-      "data_status": "complete"
+      "data_status": "complete",
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "none",
@@ -4325,194 +4226,7 @@
         "src-earth"
       ],
       "replacement_reason": "Use for lower driving, lower cost, or when glassmaking slots are unavailable.",
-      "priority": "replacement",
-      "replacement": {
-        "day": 5,
-        "replaces_place_ids": [
-          "corning-museum-of-glass",
-          "make-your-own-glass"
-        ],
-        "route_variant_id": "replacement-d5-museum-earth",
-        "reason": "Use for lower driving, lower cost, or when glassmaking slots are unavailable.",
-        "route_variant": {
-          "id": "replacement-d5-museum-earth",
-          "day": 5,
-          "replacement_place_id": "museum-of-earth",
-          "replaces_place_ids": [
-            "corning-museum-of-glass",
-            "make-your-own-glass"
-          ],
-          "nodes": [
-            "ithaca-lodging",
-            "ithaca-falls",
-            "museum-of-earth",
-            "rochester-high-falls",
-            "rochester-lodging"
-          ],
-          "node_sequence": [
-            "ithaca-lodging",
-            "ithaca-falls",
-            "museum-of-earth",
-            "rochester-high-falls",
-            "rochester-lodging"
-          ],
-          "baseline_total_miles": 93.1,
-          "baseline_total_minutes": 138,
-          "delta_miles": -53.4,
-          "delta_minutes": -51,
-          "cap_minutes": 210,
-          "cap_status": "passes-baseline-cap",
-          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
-          "legs": [
-            {
-              "id": "replacement-d5-museum-earth-leg-1",
-              "from": "ithaca-lodging",
-              "to": "ithaca-falls",
-              "distance_miles": 1.1,
-              "baseline_minutes": 3
-            },
-            {
-              "id": "replacement-d5-museum-earth-leg-2",
-              "from": "ithaca-falls",
-              "to": "museum-of-earth",
-              "distance_miles": 3.9,
-              "baseline_minutes": 10
-            },
-            {
-              "id": "replacement-d5-museum-earth-leg-3",
-              "from": "museum-of-earth",
-              "to": "rochester-high-falls",
-              "distance_miles": 87,
-              "baseline_minutes": 121
-            },
-            {
-              "id": "replacement-d5-museum-earth-leg-4",
-              "from": "rochester-high-falls",
-              "to": "rochester-lodging",
-              "distance_miles": 1.1,
-              "baseline_minutes": 3
-            }
-          ],
-          "geometry": {
-            "coordinates": [
-              [
-                -76.496466,
-                42.440268
-              ],
-              [
-                -76.494195,
-                42.452549
-              ],
-              [
-                -76.514408,
-                42.441021
-              ],
-              [
-                -76.536425,
-                42.466416
-              ],
-              [
-                -76.601067,
-                42.498311
-              ],
-              [
-                -76.681784,
-                42.5582
-              ],
-              [
-                -76.683731,
-                42.577082
-              ],
-              [
-                -76.704237,
-                42.59804
-              ],
-              [
-                -76.704311,
-                42.637129
-              ],
-              [
-                -76.744004,
-                42.67964
-              ],
-              [
-                -76.767145,
-                42.732176
-              ],
-              [
-                -76.769711,
-                42.764661
-              ],
-              [
-                -76.81565,
-                42.768546
-              ],
-              [
-                -76.810246,
-                42.80883
-              ],
-              [
-                -76.846139,
-                42.807662
-              ],
-              [
-                -76.862938,
-                42.916235
-              ],
-              [
-                -76.957214,
-                42.93553
-              ],
-              [
-                -76.982246,
-                42.95684
-              ],
-              [
-                -77.025943,
-                42.956447
-              ],
-              [
-                -77.089381,
-                42.973958
-              ],
-              [
-                -77.266374,
-                42.979739
-              ],
-              [
-                -77.424517,
-                43.000685
-              ],
-              [
-                -77.498394,
-                43.088847
-              ],
-              [
-                -77.507791,
-                43.117521
-              ],
-              [
-                -77.545689,
-                43.142839
-              ],
-              [
-                -77.597068,
-                43.142581
-              ],
-              [
-                -77.611906,
-                43.162726
-              ],
-              [
-                -77.600681,
-                43.157248
-              ]
-            ],
-            "type": "LineString"
-          },
-          "routing_source": "https://router.project-osrm.org/route/v1/driving/-76.4966,42.4396;-76.4932497,42.4526487;-76.5358098,42.4664805;-77.6123226,43.162487;-77.6004,43.1572?overview=simplified&geometries=geojson&steps=false"
-        }
-      },
+      "priority": "alternative",
       "country": "US",
       "coordinates": [
         -76.5358098,
@@ -4544,7 +4258,13 @@
         "stivka": 5
       },
       "included_in_magic_score": false,
-      "data_status": "complete"
+      "data_status": "complete",
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "none",
@@ -4586,36 +4306,7 @@
         "src-strong"
       ],
       "replacement_reason": "Consensus rain-proof alternative replacing ARTISANworks and House of Guitars.",
-      "priority": "replacement",
-      "replacement": {
-        "day": 6,
-        "replaces_place_ids": [
-          "artisanworks",
-          "house-of-guitars"
-        ],
-        "route_variant_id": "replacement-d6-strong",
-        "reason": "Consensus rain-proof alternative replacing ARTISANworks and House of Guitars.",
-        "route_variant": {
-          "id": "replacement-d6-strong",
-          "day": 6,
-          "replacement_place_id": "strong-museum-play",
-          "replaces_place_ids": [
-            "artisanworks",
-            "house-of-guitars"
-          ],
-          "unchanged_drive": true,
-          "node_sequence": [],
-          "baseline_total_miles": 0,
-          "baseline_total_minutes": 0,
-          "delta_miles": 0,
-          "delta_minutes": 0,
-          "cap_minutes": 210,
-          "cap_status": "passes-baseline-cap",
-          "routing_note": "Parked-city replacement; bed-to-bed driving is unchanged.",
-          "legs": [],
-          "geometry": null
-        }
-      },
+      "priority": "alternative",
       "country": "US",
       "coordinates": [
         -77.60087,
@@ -4648,7 +4339,13 @@
         "stivka": 4
       },
       "included_in_magic_score": false,
-      "data_status": "complete"
+      "data_status": "complete",
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "none",
@@ -4690,280 +4387,7 @@
         "src-eternal"
       ],
       "replacement_reason": "Use if the group wants less driving and a stranger short hike instead of Letchworth's grand scenic circuit.",
-      "priority": "replacement",
-      "replacement": {
-        "day": 7,
-        "replaces_place_ids": [
-          "letchworth-falls"
-        ],
-        "route_variant_id": "replacement-d7-eternal-flame",
-        "reason": "Use if the group wants less driving and a stranger short hike instead of Letchworth's grand scenic circuit.",
-        "route_variant": {
-          "id": "replacement-d7-eternal-flame",
-          "day": 7,
-          "replacement_place_id": "eternal-flame-falls",
-          "replaces_place_ids": [
-            "letchworth-falls"
-          ],
-          "nodes": [
-            "rochester-lodging",
-            "rochester-public-market",
-            "eternal-flame-falls",
-            "buffalo-canalside",
-            "buffalo-lodging"
-          ],
-          "node_sequence": [
-            "rochester-lodging",
-            "rochester-public-market",
-            "eternal-flame-falls",
-            "buffalo-canalside",
-            "buffalo-lodging"
-          ],
-          "baseline_total_miles": 109.9,
-          "baseline_total_minutes": 155,
-          "delta_miles": -13.5,
-          "delta_minutes": -32,
-          "cap_minutes": 210,
-          "cap_status": "passes-baseline-cap",
-          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
-          "legs": [
-            {
-              "id": "replacement-d7-eternal-flame-leg-1",
-              "from": "rochester-lodging",
-              "to": "rochester-public-market",
-              "distance_miles": 1.1,
-              "baseline_minutes": 4
-            },
-            {
-              "id": "replacement-d7-eternal-flame-leg-2",
-              "from": "rochester-public-market",
-              "to": "eternal-flame-falls",
-              "distance_miles": 86.1,
-              "baseline_minutes": 110
-            },
-            {
-              "id": "replacement-d7-eternal-flame-leg-3",
-              "from": "eternal-flame-falls",
-              "to": "buffalo-canalside",
-              "distance_miles": 19.8,
-              "baseline_minutes": 33
-            },
-            {
-              "id": "replacement-d7-eternal-flame-leg-4",
-              "from": "buffalo-canalside",
-              "to": "buffalo-lodging",
-              "distance_miles": 2.8,
-              "baseline_minutes": 8
-            }
-          ],
-          "geometry": {
-            "coordinates": [
-              [
-                -77.600681,
-                43.157248
-              ],
-              [
-                -77.588936,
-                43.165214
-              ],
-              [
-                -77.593894,
-                43.160597
-              ],
-              [
-                -77.609838,
-                43.161679
-              ],
-              [
-                -77.620405,
-                43.15652
-              ],
-              [
-                -77.71296,
-                43.1578
-              ],
-              [
-                -77.717671,
-                43.153915
-              ],
-              [
-                -77.718928,
-                43.135704
-              ],
-              [
-                -77.729425,
-                43.125951
-              ],
-              [
-                -77.766394,
-                43.117099
-              ],
-              [
-                -77.798954,
-                43.096061
-              ],
-              [
-                -77.829322,
-                43.09435
-              ],
-              [
-                -77.867078,
-                43.098106
-              ],
-              [
-                -77.922427,
-                43.0857
-              ],
-              [
-                -77.932442,
-                43.078844
-              ],
-              [
-                -77.949123,
-                43.048091
-              ],
-              [
-                -77.966094,
-                43.029422
-              ],
-              [
-                -78.040072,
-                43.029809
-              ],
-              [
-                -78.099291,
-                43.013805
-              ],
-              [
-                -78.135977,
-                43.022339
-              ],
-              [
-                -78.392822,
-                43.010266
-              ],
-              [
-                -78.433081,
-                42.992712
-              ],
-              [
-                -78.499762,
-                42.979702
-              ],
-              [
-                -78.529836,
-                42.968648
-              ],
-              [
-                -78.609882,
-                42.950363
-              ],
-              [
-                -78.67178,
-                42.947459
-              ],
-              [
-                -78.760323,
-                42.951199
-              ],
-              [
-                -78.766497,
-                42.944223
-              ],
-              [
-                -78.768183,
-                42.884304
-              ],
-              [
-                -78.787945,
-                42.875092
-              ],
-              [
-                -78.791794,
-                42.866394
-              ],
-              [
-                -78.793071,
-                42.814298
-              ],
-              [
-                -78.778136,
-                42.801921
-              ],
-              [
-                -78.763588,
-                42.747387
-              ],
-              [
-                -78.748134,
-                42.748875
-              ],
-              [
-                -78.747085,
-                42.70127
-              ],
-              [
-                -78.753482,
-                42.700656
-              ],
-              [
-                -78.760206,
-                42.701355
-              ],
-              [
-                -78.747149,
-                42.700983
-              ],
-              [
-                -78.748134,
-                42.748875
-              ],
-              [
-                -78.761005,
-                42.751506
-              ],
-              [
-                -78.777691,
-                42.80305
-              ],
-              [
-                -78.791919,
-                42.813472
-              ],
-              [
-                -78.788248,
-                42.874946
-              ],
-              [
-                -78.809352,
-                42.876032
-              ],
-              [
-                -78.828813,
-                42.867995
-              ],
-              [
-                -78.870578,
-                42.876963
-              ],
-              [
-                -78.874589,
-                42.881675
-              ],
-              [
-                -78.878458,
-                42.875974
-              ],
-              [
-                -78.877798,
-                42.913185
-              ]
-            ],
-            "type": "LineString"
-          },
-          "routing_source": "https://router.project-osrm.org/route/v1/driving/-77.6004,43.1572;-77.588983,43.1651548;-78.75223,42.70167;-78.8787618,42.8757092;-78.8778,42.913?overview=simplified&geometries=geojson&steps=false"
-        }
-      },
+      "priority": "alternative",
       "country": "US",
       "coordinates": [
         -78.75223,
@@ -4996,7 +4420,13 @@
         "stivka": 3.4
       },
       "included_in_magic_score": false,
-      "data_status": "complete"
+      "data_status": "complete",
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "none",
@@ -5039,275 +4469,7 @@
         "src-old-fort"
       ],
       "replacement_reason": "Replace Maid of the Mist and Cave of the Winds if cold, wind, queue tolerance or getting soaked makes them unattractive.",
-      "priority": "replacement",
-      "replacement": {
-        "day": 8,
-        "replaces_place_ids": [
-          "maid-of-the-mist",
-          "cave-of-the-winds"
-        ],
-        "route_variant_id": "replacement-d8-old-fort",
-        "reason": "Replace Maid of the Mist and Cave of the Winds if cold, wind, queue tolerance or getting soaked makes them unattractive.",
-        "route_variant": {
-          "id": "replacement-d8-old-fort",
-          "day": 8,
-          "replacement_place_id": "old-fort-niagara",
-          "replaces_place_ids": [
-            "maid-of-the-mist",
-            "cave-of-the-winds"
-          ],
-          "nodes": [
-            "buffalo-lodging",
-            "annunciation-buffalo",
-            "old-fort-niagara",
-            "niagara-power-vista",
-            "goat-island-illumination",
-            "buffalo-lodging"
-          ],
-          "node_sequence": [
-            "buffalo-lodging",
-            "annunciation-buffalo",
-            "old-fort-niagara",
-            "niagara-power-vista",
-            "goat-island-illumination",
-            "buffalo-lodging"
-          ],
-          "baseline_total_miles": 68.2,
-          "baseline_total_minutes": 121,
-          "delta_miles": 19.8,
-          "delta_minutes": 40,
-          "cap_minutes": 210,
-          "cap_status": "passes-baseline-cap",
-          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
-          "legs": [
-            {
-              "id": "replacement-d8-old-fort-leg-1",
-              "from": "buffalo-lodging",
-              "to": "annunciation-buffalo",
-              "distance_miles": 0.4,
-              "baseline_minutes": 1
-            },
-            {
-              "id": "replacement-d8-old-fort-leg-2",
-              "from": "annunciation-buffalo",
-              "to": "old-fort-niagara",
-              "distance_miles": 32.7,
-              "baseline_minutes": 52
-            },
-            {
-              "id": "replacement-d8-old-fort-leg-3",
-              "from": "old-fort-niagara",
-              "to": "niagara-power-vista",
-              "distance_miles": 10.3,
-              "baseline_minutes": 19
-            },
-            {
-              "id": "replacement-d8-old-fort-leg-4",
-              "from": "niagara-power-vista",
-              "to": "goat-island-illumination",
-              "distance_miles": 5.4,
-              "baseline_minutes": 13
-            },
-            {
-              "id": "replacement-d8-old-fort-leg-5",
-              "from": "goat-island-illumination",
-              "to": "buffalo-lodging",
-              "distance_miles": 19.4,
-              "baseline_minutes": 36
-            }
-          ],
-          "geometry": {
-            "coordinates": [
-              [
-                -78.877798,
-                42.913185
-              ],
-              [
-                -78.872373,
-                42.91128
-              ],
-              [
-                -78.87106,
-                42.908879
-              ],
-              [
-                -78.881735,
-                42.908965
-              ],
-              [
-                -78.898967,
-                42.900143
-              ],
-              [
-                -78.898795,
-                42.92907
-              ],
-              [
-                -78.910605,
-                42.954794
-              ],
-              [
-                -78.921161,
-                42.964202
-              ],
-              [
-                -78.912211,
-                42.972618
-              ],
-              [
-                -78.910586,
-                42.98219
-              ],
-              [
-                -78.968455,
-                43.013991
-              ],
-              [
-                -78.989145,
-                43.043908
-              ],
-              [
-                -78.990633,
-                43.088158
-              ],
-              [
-                -78.982113,
-                43.102686
-              ],
-              [
-                -79.016018,
-                43.125444
-              ],
-              [
-                -79.02264,
-                43.145874
-              ],
-              [
-                -79.038117,
-                43.159916
-              ],
-              [
-                -79.029129,
-                43.170805
-              ],
-              [
-                -79.025908,
-                43.197048
-              ],
-              [
-                -79.0314,
-                43.26008
-              ],
-              [
-                -79.045585,
-                43.264869
-              ],
-              [
-                -79.060901,
-                43.262317
-              ],
-              [
-                -79.037865,
-                43.263633
-              ],
-              [
-                -79.031092,
-                43.252415
-              ],
-              [
-                -79.026337,
-                43.197536
-              ],
-              [
-                -79.02943,
-                43.171592
-              ],
-              [
-                -79.042771,
-                43.160215
-              ],
-              [
-                -79.039611,
-                43.140108
-              ],
-              [
-                -79.061783,
-                43.121695
-              ],
-              [
-                -79.055255,
-                43.104154
-              ],
-              [
-                -79.062245,
-                43.083687
-              ],
-              [
-                -79.072249,
-                43.080631
-              ],
-              [
-                -79.065034,
-                43.08022
-              ],
-              [
-                -79.061305,
-                43.084513
-              ],
-              [
-                -79.040859,
-                43.078302
-              ],
-              [
-                -78.991357,
-                43.075201
-              ],
-              [
-                -78.990123,
-                43.045389
-              ],
-              [
-                -78.971034,
-                43.016189
-              ],
-              [
-                -78.914,
-                42.986109
-              ],
-              [
-                -78.911319,
-                42.975107
-              ],
-              [
-                -78.921052,
-                42.963168
-              ],
-              [
-                -78.910561,
-                42.954441
-              ],
-              [
-                -78.897597,
-                42.9279
-              ],
-              [
-                -78.884731,
-                42.927817
-              ],
-              [
-                -78.885677,
-                42.915412
-              ],
-              [
-                -78.877798,
-                42.913185
-              ]
-            ],
-            "type": "LineString"
-          },
-          "routing_source": "https://router.project-osrm.org/route/v1/driving/-78.8778,42.913;-78.8723741,42.9111914;-79.0637,43.2624;-79.0403111,43.1401973;-79.074433,43.0800772;-78.8778,42.913?overview=simplified&geometries=geojson&steps=false"
-        }
-      },
+      "priority": "alternative",
       "country": "US",
       "coordinates": [
         -79.0637,
@@ -5339,7 +4501,13 @@
         "stivka": 5
       },
       "included_in_magic_score": false,
-      "data_status": "complete"
+      "data_status": "complete",
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "none",
@@ -5383,195 +4551,7 @@
         "src-blue-sky"
       ],
       "replacement_reason": "Quieter, free Wright-and-memorial alternative when the Martin House tour is sold out or the group needs reflection.",
-      "priority": "replacement",
-      "replacement": {
-        "day": 9,
-        "replaces_place_ids": [
-          "martin-house"
-        ],
-        "route_variant_id": "replacement-d9-blue-sky",
-        "reason": "Quieter, free Wright-and-memorial alternative when the Martin House tour is sold out or the group needs reflection.",
-        "route_variant": {
-          "id": "replacement-d9-blue-sky",
-          "day": 9,
-          "replacement_place_id": "forest-lawn-blue-sky",
-          "replaces_place_ids": [
-            "martin-house"
-          ],
-          "nodes": [
-            "buffalo-lodging",
-            "forest-lawn-blue-sky",
-            "tr-inaugural-site",
-            "syracuse-lodging"
-          ],
-          "node_sequence": [
-            "buffalo-lodging",
-            "forest-lawn-blue-sky",
-            "tr-inaugural-site",
-            "syracuse-lodging"
-          ],
-          "baseline_total_miles": 152.9,
-          "baseline_total_minutes": 193,
-          "delta_miles": -1.9,
-          "delta_minutes": -4,
-          "cap_minutes": 210,
-          "cap_status": "passes-baseline-cap",
-          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
-          "legs": [
-            {
-              "id": "replacement-d9-blue-sky-leg-1",
-              "from": "buffalo-lodging",
-              "to": "forest-lawn-blue-sky",
-              "distance_miles": 1.6,
-              "baseline_minutes": 5
-            },
-            {
-              "id": "replacement-d9-blue-sky-leg-2",
-              "from": "forest-lawn-blue-sky",
-              "to": "tr-inaugural-site",
-              "distance_miles": 2.1,
-              "baseline_minutes": 7
-            },
-            {
-              "id": "replacement-d9-blue-sky-leg-3",
-              "from": "tr-inaugural-site",
-              "to": "syracuse-lodging",
-              "distance_miles": 149.1,
-              "baseline_minutes": 181
-            }
-          ],
-          "geometry": {
-            "coordinates": [
-              [
-                -78.877798,
-                42.913185
-              ],
-              [
-                -78.864586,
-                42.928782
-              ],
-              [
-                -78.87264,
-                42.901367
-              ],
-              [
-                -78.845431,
-                42.903694
-              ],
-              [
-                -78.832976,
-                42.929258
-              ],
-              [
-                -78.764412,
-                42.930294
-              ],
-              [
-                -78.758368,
-                42.951595
-              ],
-              [
-                -78.609784,
-                42.950101
-              ],
-              [
-                -78.433303,
-                42.99235
-              ],
-              [
-                -78.397485,
-                43.008893
-              ],
-              [
-                -78.135854,
-                43.022131
-              ],
-              [
-                -78.099056,
-                43.013462
-              ],
-              [
-                -78.036113,
-                43.029699
-              ],
-              [
-                -77.835478,
-                43.029608
-              ],
-              [
-                -77.782032,
-                43.044043
-              ],
-              [
-                -77.574535,
-                43.046937
-              ],
-              [
-                -77.416108,
-                42.998634
-              ],
-              [
-                -77.265968,
-                42.979358
-              ],
-              [
-                -77.092302,
-                42.973955
-              ],
-              [
-                -77.026749,
-                42.956326
-              ],
-              [
-                -76.970753,
-                42.954679
-              ],
-              [
-                -76.811992,
-                42.97319
-              ],
-              [
-                -76.714334,
-                43.001902
-              ],
-              [
-                -76.606387,
-                43.052589
-              ],
-              [
-                -76.459566,
-                43.080196
-              ],
-              [
-                -76.32341,
-                43.09008
-              ],
-              [
-                -76.284268,
-                43.105944
-              ],
-              [
-                -76.288788,
-                43.112158
-              ],
-              [
-                -76.246985,
-                43.10573
-              ],
-              [
-                -76.226678,
-                43.083269
-              ],
-              [
-                -76.154117,
-                43.04695
-              ]
-            ],
-            "type": "LineString"
-          },
-          "routing_source": "https://router.project-osrm.org/route/v1/driving/-78.8778,42.913;-78.8649,42.9286;-78.8726259,42.9015679;-76.1542,43.047?overview=simplified&geometries=geojson&steps=false"
-        }
-      },
+      "priority": "alternative",
       "country": "US",
       "coordinates": [
         -78.8649,
@@ -5604,7 +4584,13 @@
         "stivka": 5
       },
       "included_in_magic_score": false,
-      "data_status": "complete"
+      "data_status": "complete",
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "none",
@@ -5646,268 +4632,7 @@
         "src-stockade"
       ],
       "replacement_reason": "Route-safe human-history alternative if the group prefers architecture and settlement stories to the Pine Bush ecosystem.",
-      "priority": "replacement",
-      "replacement": {
-        "day": 10,
-        "replaces_place_ids": [
-          "albany-pine-bush"
-        ],
-        "route_variant_id": "replacement-d10-stockade",
-        "reason": "Route-safe human-history alternative if the group prefers architecture and settlement stories to the Pine Bush ecosystem.",
-        "route_variant": {
-          "id": "replacement-d10-stockade",
-          "day": 10,
-          "replacement_place_id": "schenectady-stockade",
-          "replaces_place_ids": [
-            "albany-pine-bush"
-          ],
-          "nodes": [
-            "syracuse-lodging",
-            "erie-canal-museum",
-            "schenectady-stockade",
-            "ny-state-capitol-plaza",
-            "albany-lodging"
-          ],
-          "node_sequence": [
-            "syracuse-lodging",
-            "erie-canal-museum",
-            "schenectady-stockade",
-            "ny-state-capitol-plaza",
-            "albany-lodging"
-          ],
-          "baseline_total_miles": 159.5,
-          "baseline_total_minutes": 206,
-          "delta_miles": -3.1,
-          "delta_minutes": -4,
-          "cap_minutes": 210,
-          "cap_status": "passes-baseline-cap",
-          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
-          "legs": [
-            {
-              "id": "replacement-d10-stockade-leg-1",
-              "from": "syracuse-lodging",
-              "to": "erie-canal-museum",
-              "distance_miles": 0.5,
-              "baseline_minutes": 2
-            },
-            {
-              "id": "replacement-d10-stockade-leg-2",
-              "from": "erie-canal-museum",
-              "to": "schenectady-stockade",
-              "distance_miles": 127.8,
-              "baseline_minutes": 156
-            },
-            {
-              "id": "replacement-d10-stockade-leg-3",
-              "from": "schenectady-stockade",
-              "to": "ny-state-capitol-plaza",
-              "distance_miles": 18.7,
-              "baseline_minutes": 31
-            },
-            {
-              "id": "replacement-d10-stockade-leg-4",
-              "from": "ny-state-capitol-plaza",
-              "to": "albany-lodging",
-              "distance_miles": 12.5,
-              "baseline_minutes": 18
-            }
-          ],
-          "geometry": {
-            "coordinates": [
-              [
-                -76.154117,
-                43.04695
-              ],
-              [
-                -76.148723,
-                43.05046
-              ],
-              [
-                -76.082333,
-                43.0573
-              ],
-              [
-                -76.090674,
-                43.069197
-              ],
-              [
-                -76.083276,
-                43.093416
-              ],
-              [
-                -75.76145,
-                43.089958
-              ],
-              [
-                -75.610232,
-                43.125686
-              ],
-              [
-                -75.483271,
-                43.136066
-              ],
-              [
-                -75.387384,
-                43.122749
-              ],
-              [
-                -75.27343,
-                43.13689
-              ],
-              [
-                -75.115427,
-                43.081972
-              ],
-              [
-                -75.068841,
-                43.056322
-              ],
-              [
-                -75.042283,
-                43.03045
-              ],
-              [
-                -75.010951,
-                43.017937
-              ],
-              [
-                -74.884383,
-                43.004419
-              ],
-              [
-                -74.806084,
-                43.016833
-              ],
-              [
-                -74.727502,
-                42.990067
-              ],
-              [
-                -74.671621,
-                42.989244
-              ],
-              [
-                -74.636962,
-                42.959715
-              ],
-              [
-                -74.609256,
-                42.917315
-              ],
-              [
-                -74.585859,
-                42.906545
-              ],
-              [
-                -74.559563,
-                42.906311
-              ],
-              [
-                -74.525139,
-                42.893298
-              ],
-              [
-                -74.469894,
-                42.896005
-              ],
-              [
-                -74.379837,
-                42.948028
-              ],
-              [
-                -74.307388,
-                42.930105
-              ],
-              [
-                -74.242297,
-                42.932531
-              ],
-              [
-                -74.098703,
-                42.896577
-              ],
-              [
-                -74.046608,
-                42.869897
-              ],
-              [
-                -74.016007,
-                42.83921
-              ],
-              [
-                -74.001968,
-                42.838935
-              ],
-              [
-                -73.985549,
-                42.81594
-              ],
-              [
-                -73.950554,
-                42.811305
-              ],
-              [
-                -73.944987,
-                42.818199
-              ],
-              [
-                -73.94853,
-                42.805019
-              ],
-              [
-                -73.923422,
-                42.784183
-              ],
-              [
-                -73.934475,
-                42.752064
-              ],
-              [
-                -73.840833,
-                42.69549
-              ],
-              [
-                -73.765248,
-                42.67807
-              ],
-              [
-                -73.752255,
-                42.669071
-              ],
-              [
-                -73.764473,
-                42.658723
-              ],
-              [
-                -73.757979,
-                42.652248
-              ],
-              [
-                -73.732552,
-                42.666051
-              ],
-              [
-                -73.723532,
-                42.661693
-              ],
-              [
-                -73.691605,
-                42.619956
-              ],
-              [
-                -73.67785,
-                42.579837
-              ],
-              [
-                -73.698339,
-                42.626819
-              ]
-            ],
-            "type": "LineString"
-          },
-          "routing_source": "https://router.project-osrm.org/route/v1/driving/-76.1542,43.047;-76.1487182,43.0506446;-73.945,42.818;-73.7576,42.6526;-73.698,42.627?overview=simplified&geometries=geojson&steps=false"
-        }
-      },
+      "priority": "alternative",
       "country": "US",
       "coordinates": [
         -73.945,
@@ -5940,7 +4665,13 @@
         "stivka": 4
       },
       "included_in_magic_score": false,
-      "data_status": "complete"
+      "data_status": "complete",
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "reservation": "none",
@@ -5983,234 +4714,7 @@
         "src-six"
       ],
       "replacement_reason": "Use for rain, fatigue or a group vote for a warm slow finale instead of the outdoor quarry.",
-      "priority": "replacement",
-      "replacement": {
-        "day": 11,
-        "replaces_place_ids": [
-          "turnpark-art-space"
-        ],
-        "route_variant_id": "replacement-d11-six-depot",
-        "reason": "Use for rain, fatigue or a group vote for a warm slow finale instead of the outdoor quarry.",
-        "route_variant": {
-          "id": "replacement-d11-six-depot",
-          "day": 11,
-          "replacement_place_id": "six-depot",
-          "replaces_place_ids": [
-            "turnpark-art-space"
-          ],
-          "nodes": [
-            "albany-lodging",
-            "six-depot",
-            "boston-logan-hotel"
-          ],
-          "node_sequence": [
-            "albany-lodging",
-            "six-depot",
-            "boston-logan-hotel"
-          ],
-          "baseline_total_miles": 168.2,
-          "baseline_total_minutes": 205,
-          "delta_miles": -0.3,
-          "delta_minutes": -2,
-          "cap_minutes": 210,
-          "cap_status": "passes-baseline-cap",
-          "routing_note": "OSRM road-network baseline with no live traffic; use the same live-traffic gate as the scheduled day.",
-          "legs": [
-            {
-              "id": "replacement-d11-six-depot-leg-1",
-              "from": "albany-lodging",
-              "to": "six-depot",
-              "distance_miles": 32.4,
-              "baseline_minutes": 42
-            },
-            {
-              "id": "replacement-d11-six-depot-leg-2",
-              "from": "six-depot",
-              "to": "boston-logan-hotel",
-              "distance_miles": 135.8,
-              "baseline_minutes": 163
-            }
-          ],
-          "geometry": {
-            "coordinates": [
-              [
-                -73.698339,
-                42.626819
-              ],
-              [
-                -73.677155,
-                42.590365
-              ],
-              [
-                -73.689358,
-                42.511853
-              ],
-              [
-                -73.672326,
-                42.480166
-              ],
-              [
-                -73.622923,
-                42.479149
-              ],
-              [
-                -73.557826,
-                42.442883
-              ],
-              [
-                -73.537593,
-                42.411822
-              ],
-              [
-                -73.494681,
-                42.389393
-              ],
-              [
-                -73.471614,
-                42.387221
-              ],
-              [
-                -73.456917,
-                42.368288
-              ],
-              [
-                -73.435755,
-                42.365685
-              ],
-              [
-                -73.394214,
-                42.337851
-              ],
-              [
-                -73.368324,
-                42.334115
-              ],
-              [
-                -73.345276,
-                42.305369
-              ],
-              [
-                -73.298103,
-                42.296991
-              ],
-              [
-                -73.192721,
-                42.300152
-              ],
-              [
-                -73.157793,
-                42.28879
-              ],
-              [
-                -73.111092,
-                42.248188
-              ],
-              [
-                -73.043996,
-                42.232895
-              ],
-              [
-                -72.994615,
-                42.237249
-              ],
-              [
-                -72.907853,
-                42.172748
-              ],
-              [
-                -72.759172,
-                42.154541
-              ],
-              [
-                -72.710805,
-                42.139943
-              ],
-              [
-                -72.617871,
-                42.154639
-              ],
-              [
-                -72.585608,
-                42.169495
-              ],
-              [
-                -72.538508,
-                42.161273
-              ],
-              [
-                -72.446582,
-                42.170118
-              ],
-              [
-                -72.380936,
-                42.153791
-              ],
-              [
-                -72.318375,
-                42.176958
-              ],
-              [
-                -72.282202,
-                42.164777
-              ],
-              [
-                -72.214319,
-                42.182393
-              ],
-              [
-                -72.125431,
-                42.135082
-              ],
-              [
-                -72.06268,
-                42.129487
-              ],
-              [
-                -71.756282,
-                42.220853
-              ],
-              [
-                -71.618119,
-                42.229365
-              ],
-              [
-                -71.557662,
-                42.269541
-              ],
-              [
-                -71.411699,
-                42.315475
-              ],
-              [
-                -71.368027,
-                42.311283
-              ],
-              [
-                -71.315058,
-                42.334425
-              ],
-              [
-                -71.178254,
-                42.357713
-              ],
-              [
-                -71.037544,
-                42.346671
-              ],
-              [
-                -71.027372,
-                42.368784
-              ],
-              [
-                -71.016767,
-                42.366379
-              ]
-            ],
-            "type": "LineString"
-          },
-          "routing_source": "https://router.project-osrm.org/route/v1/driving/-73.698,42.627;-73.3684757,42.3341038;-71.0155,42.3655?overview=simplified&geometries=geojson&steps=false"
-        }
-      },
+      "priority": "alternative",
       "country": "US",
       "coordinates": [
         -73.3684757,
@@ -6240,7 +4744,1378 @@
         "stivka": 4
       },
       "included_in_magic_score": false,
-      "data_status": "complete"
+      "data_status": "complete",
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
+    },
+    {
+      "id": "revolution-rail-hadley",
+      "name": "Revolution Rail — Hadley Run",
+      "kind": "railbike",
+      "city": "Hadley",
+      "state": "NY",
+      "country": "US",
+      "address": "4113 Rockwell Street, Hadley, NY 12835",
+      "visit_date": "2026-10-05",
+      "summary": "Pedal a four-seat railbike for seven miles through Adirondack forest and across a 500-foot bridge 90 feet above the Hudson-Sacandaga confluence.",
+      "why_go": "It turns fall color, height and old rail infrastructure into one shared physical memory.",
+      "best_for": [
+        "viki",
+        "gora",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "stivka"
+      ],
+      "best_fit_note": "Primary fit: viki, gora, sheluvspaco. A lower-intensity or skip path is documented in the route.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "required",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory."
+      },
+      "cost": {
+        "amount_per_person": 50,
+        "low": 50,
+        "high": 50,
+        "amount_per_group": 200,
+        "price_type": "group-share",
+        "status": "verified",
+        "note": "One four-seat railbike."
+      },
+      "source_ids": [
+        "src-v2-revolution-rail"
+      ],
+      "coordinates": [
+        -73.8491458,
+        43.317285
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "moving-water-air-rail",
+      "texture": "MOVE",
+      "interaction_score": 3,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "booking_required": true,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_physicality": true,
+        "skip_possible": true,
+        "photo_heavy": true
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 5,
+      "price_type": "group-share",
+      "price_per_person_low": 50,
+      "price_per_person_high": 50,
+      "price_per_group": 200,
+      "price_last_checked": "2026-08-31",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "yellow",
+      "fallback_place_id": null,
+      "data_status": "complete",
+      "image_ids": [
+        "img-revolution-rail-hadley-1",
+        "img-revolution-rail-hadley-2",
+        "img-revolution-rail-hadley-3"
+      ]
+    },
+    {
+      "id": "leatherstocking-bat-mill",
+      "name": "Leatherstocking Wood Bat Mill Tour",
+      "kind": "working-wood-mill",
+      "city": "Oneonta",
+      "state": "NY",
+      "country": "US",
+      "address": "359 Delaware County Highway 11, Oneonta, NY 13820",
+      "visit_date": "2026-10-07",
+      "summary": "Walk through a working hardwood mill while logs become hand-split billets, kiln-dried dowels and professional baseball bats.",
+      "why_go": "Robotics, saws, grain and a live turning process make the machinery—not a display case—the experience.",
+      "best_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "viki",
+        "stivka"
+      ],
+      "best_fit_note": "Primary fit: gora, sheluvspaco. The stop also gives the rest of the group a distinct change of pace.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "required",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory."
+      },
+      "cost": {
+        "amount_per_person": 50,
+        "low": 50,
+        "high": 50,
+        "amount_per_group": 200,
+        "price_type": "per-person",
+        "status": "verified",
+        "note": ""
+      },
+      "source_ids": [
+        "src-v2-bat-mill"
+      ],
+      "coordinates": [
+        -74.9749288,
+        42.4456053
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "working-maker-infrastructure",
+      "texture": "DISCOVER",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "booking_required": true,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "skip_possible": true,
+        "photo_heavy": false
+      },
+      "viki_fit": 4,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 5,
+      "price_type": "per-person",
+      "price_per_person_low": 50,
+      "price_per_person_high": 50,
+      "price_per_group": 200,
+      "price_last_checked": "2026-08-31",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "yellow",
+      "fallback_place_id": null,
+      "data_status": "complete",
+      "image_ids": [
+        "img-leatherstocking-bat-mill-1",
+        "img-leatherstocking-bat-mill-2",
+        "img-leatherstocking-bat-mill-3"
+      ]
+    },
+    {
+      "id": "cayuga-fall-eco-cruise",
+      "name": "Cayuga Lake Fall Foliage Eco-Cruise",
+      "kind": "lake-eco-cruise",
+      "city": "Ithaca",
+      "state": "NY",
+      "country": "US",
+      "address": "1000 Allan H. Treman Marina Road, Ithaca, NY 14850",
+      "visit_date": "2026-10-07",
+      "summary": "A seasonal afternoon cruise on Cayuga Lake aboard the MV Teal, paced as a quiet water reset between the mill and the next day's gorge.",
+      "why_go": "It changes the route's water texture from another waterfall into open lake, migration and October color.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: viki, stivka. The stop also gives the rest of the group a distinct change of pace.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "required",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory."
+      },
+      "cost": {
+        "amount_per_person": 33,
+        "low": 33,
+        "high": 33,
+        "amount_per_group": 132,
+        "price_type": "per-person",
+        "status": "verified",
+        "note": ""
+      },
+      "source_ids": [
+        "src-v2-cayuga-cruise"
+      ],
+      "coordinates": [
+        -76.5163604,
+        42.4590975
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "moving-water-air-rail",
+      "texture": "RELAX",
+      "interaction_score": 1,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "booking_required": true,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "skip_possible": true,
+        "photo_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "per-person",
+      "price_per_person_low": 33,
+      "price_per_person_high": 33,
+      "price_per_group": 132,
+      "price_last_checked": "2026-08-31",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "yellow",
+      "fallback_place_id": "taughannock-falls",
+      "data_status": "complete",
+      "image_ids": [
+        "img-cayuga-fall-eco-cruise-1",
+        "img-cayuga-fall-eco-cruise-2",
+        "img-cayuga-fall-eco-cruise-3"
+      ]
+    },
+    {
+      "id": "watkins-glen-gorge",
+      "name": "Watkins Glen Gorge Trail",
+      "kind": "gorge-hike",
+      "city": "Watkins Glen",
+      "state": "NY",
+      "country": "US",
+      "address": "1009 North Franklin Street, Watkins Glen, NY 14891",
+      "visit_date": "2026-10-08",
+      "summary": "Stone stairs and narrow passages follow Glen Creek past nineteen cascades, under spray and through the layered shale gorge.",
+      "why_go": "This is the Finger Lakes gorge worth spending the route's active slot on—close, kinetic and unmistakably geological.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: viki, gora. A lower-intensity or skip path is documented in the route.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory."
+      },
+      "cost": {
+        "amount_per_person": 5,
+        "low": 5,
+        "high": 5,
+        "amount_per_group": 20,
+        "price_type": "group-share",
+        "status": "verified",
+        "note": "Two $10 vehicle fees shared by four."
+      },
+      "source_ids": [
+        "src-v2-watkins"
+      ],
+      "coordinates": [
+        -76.8716481,
+        42.3761611
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "nature-geology-terrain",
+      "texture": "WILD",
+      "interaction_score": 3,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_physicality": true,
+        "skip_possible": true,
+        "photo_heavy": true
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "group-share",
+      "price_per_person_low": 5,
+      "price_per_person_high": 5,
+      "price_per_group": 20,
+      "price_last_checked": "2026-08-31",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "yellow",
+      "fallback_place_id": "taughannock-falls",
+      "data_status": "complete",
+      "image_ids": [
+        "img-watkins-glen-gorge-1",
+        "img-watkins-glen-gorge-2",
+        "img-watkins-glen-gorge-3"
+      ]
+    },
+    {
+      "id": "nut-house-hacker-witch",
+      "name": "Nut House — The Hacker W.I.T.C.H.",
+      "kind": "escape-room",
+      "city": "Rochester",
+      "state": "NY",
+      "country": "US",
+      "address": "1280 Scottsville Road, Rochester, NY 14624",
+      "visit_date": "2026-10-09",
+      "summary": "A private four-person server-room escape game where the group has sixty minutes to stop a hacker from taking down the internet.",
+      "why_go": "Route 02 needs one genuinely strong puzzle block, and this room fits the group exactly without adding a second escape room.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Primary fit: viki, sheluvspaco. The stop also gives the rest of the group a distinct change of pace.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "required",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory."
+      },
+      "cost": {
+        "amount_per_person": 33,
+        "low": 33,
+        "high": 40,
+        "amount_per_group": null,
+        "price_type": "per-person",
+        "status": "planning-range",
+        "note": "Dynamic four-player private-room planning range."
+      },
+      "source_ids": [
+        "src-v2-nut-house"
+      ],
+      "coordinates": [
+        -77.6609686,
+        43.1160912
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "puzzle-interactive",
+      "texture": "SOLVE",
+      "interaction_score": 3,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "booking_required": true,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "skip_possible": true,
+        "photo_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 4,
+      "planner_balance_fit": 5,
+      "price_type": "per-person",
+      "price_per_person_low": 33,
+      "price_per_person_high": 40,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "yellow",
+      "fallback_place_id": null,
+      "data_status": "complete",
+      "image_ids": [
+        "img-nut-house-hacker-witch-1",
+        "img-nut-house-hacker-witch-2",
+        "img-nut-house-hacker-witch-3"
+      ]
+    },
+    {
+      "id": "balloons-over-letchworth",
+      "name": "Balloons Over Letchworth",
+      "kind": "hot-air-balloon",
+      "city": "Castile",
+      "state": "NY",
+      "country": "US",
+      "address": "6635 Middle Falls Road, Castile, NY 14427",
+      "visit_date": "2026-10-10",
+      "summary": "A weather-dependent dawn passenger flight launched from inside Letchworth State Park above the Genesee gorge and autumn forest.",
+      "why_go": "This is the premium signature switch: unforgettable if it flies, easy to remove without breaking the day if it does not.",
+      "best_for": [
+        "viki"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: viki. A lower-intensity or skip path is documented in the route.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "required",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory."
+      },
+      "cost": {
+        "amount_per_person": 445,
+        "low": 445,
+        "high": 445,
+        "amount_per_group": 1780,
+        "price_type": "per-person",
+        "status": "verified",
+        "note": ""
+      },
+      "source_ids": [
+        "src-v2-balloons"
+      ],
+      "coordinates": [
+        -78.0450913,
+        42.581976
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "moving-water-air-rail",
+      "texture": "AWE",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "booking_required": true,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_physicality": true,
+        "skip_possible": true,
+        "photo_heavy": true
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "per-person",
+      "price_per_person_low": 445,
+      "price_per_person_high": 445,
+      "price_per_group": 1780,
+      "price_last_checked": "2026-08-31",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "red",
+      "fallback_place_id": null,
+      "data_status": "complete",
+      "image_ids": [
+        "img-balloons-over-letchworth-1",
+        "img-balloons-over-letchworth-2",
+        "img-balloons-over-letchworth-3"
+      ]
+    },
+    {
+      "id": "mount-morris-dam",
+      "name": "Mount Morris Dam Guided Walking Tour",
+      "kind": "working-dam-tour",
+      "city": "Mount Morris",
+      "state": "NY",
+      "country": "US",
+      "address": "6103 Visitor Center Road, Mount Morris, NY 14510",
+      "visit_date": "2026-10-10",
+      "summary": "A ranger-led walk onto and inside the working flood-control dam, including a steep access grade and more than 100 feet of elevation change.",
+      "why_go": "After seeing Letchworth from air and trail, this reveals the engineered system that controls the same river.",
+      "best_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "viki",
+        "stivka"
+      ],
+      "best_fit_note": "Primary fit: gora, sheluvspaco. A lower-intensity or skip path is documented in the route.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "required",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory."
+      },
+      "cost": {
+        "amount_per_person": 1,
+        "low": 1,
+        "high": 1,
+        "amount_per_group": 4,
+        "price_type": "per-person",
+        "status": "verified",
+        "note": ""
+      },
+      "source_ids": [
+        "src-v2-mount-morris"
+      ],
+      "coordinates": [
+        -77.9057858,
+        42.7310423
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "working-maker-infrastructure",
+      "texture": "EXPLORE",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "booking_required": true,
+        "exact_date_verified": true,
+        "traffic_gated": false,
+        "high_physicality": true,
+        "skip_possible": true,
+        "photo_heavy": false
+      },
+      "viki_fit": 4,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 5,
+      "price_type": "per-person",
+      "price_per_person_low": 1,
+      "price_per_person_high": 1,
+      "price_per_group": 4,
+      "price_last_checked": "2026-08-31",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "yellow",
+      "fallback_place_id": null,
+      "data_status": "complete",
+      "image_ids": [
+        "img-mount-morris-dam-1",
+        "img-mount-morris-dam-2",
+        "img-mount-morris-dam-3"
+      ]
+    },
+    {
+      "id": "fashion-outlets-niagara",
+      "name": "Fashion Outlets of Niagara Falls USA",
+      "kind": "outlet-shopping",
+      "city": "Niagara Falls",
+      "state": "NY",
+      "country": "US",
+      "address": "1900 Military Road, Niagara Falls, NY 14304",
+      "visit_date": "2026-10-10",
+      "summary": "A protected three-hour shopping block at the region's major US-side outlet center before the group settles in Buffalo.",
+      "why_go": "It gives Viki one real shopping chapter instead of scattering weak retail stops through the route.",
+      "best_for": [
+        "viki"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: viki. The stop also gives the rest of the group a distinct change of pace.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
+      },
+      "source_ids": [
+        "src-v2-fashion-outlets"
+      ],
+      "coordinates": [
+        -78.9786935,
+        43.0969508
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "shopping-music-retail",
+      "texture": "SHOP",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "skip_possible": true,
+        "photo_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "green",
+      "fallback_place_id": null,
+      "data_status": "complete",
+      "image_ids": [
+        "img-fashion-outlets-niagara-1",
+        "img-fashion-outlets-niagara-2",
+        "img-fashion-outlets-niagara-3"
+      ]
+    },
+    {
+      "id": "whirlpool-jet-boat",
+      "name": "Whirlpool Jet Boat — Niagara Gorge",
+      "kind": "rapids-jet-boat",
+      "city": "Lewiston",
+      "state": "NY",
+      "country": "US",
+      "address": "115 South Water Street, Lewiston, NY 14092",
+      "visit_date": "2026-10-11",
+      "summary": "A 45-minute jet-boat run from Lewiston into the Niagara Gorge and through Class 5 rapids, with wet and enclosed dry variants.",
+      "why_go": "Niagara becomes force rather than postcard: the group physically enters the current after learning how the river makes power.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: gora, viki. A lower-intensity or skip path is documented in the route.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "required",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory."
+      },
+      "cost": {
+        "amount_per_person": 73.09,
+        "low": 73.09,
+        "high": 73.09,
+        "amount_per_group": 292.36,
+        "price_type": "per-person-plus-fees",
+        "status": "verified",
+        "note": "$68.95 base plus the published 6% fuel surcharge; booking fees extra."
+      },
+      "source_ids": [
+        "src-v2-whirlpool"
+      ],
+      "coordinates": [
+        -79.0490805,
+        43.1726809
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "moving-water-air-rail",
+      "texture": "MOVE",
+      "interaction_score": 4,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "booking_required": true,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_physicality": true,
+        "skip_possible": true,
+        "photo_heavy": true
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "per-person-plus-fees",
+      "price_per_person_low": 73.09,
+      "price_per_person_high": 73.09,
+      "price_per_group": 292.36,
+      "price_last_checked": "2026-08-31",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "red",
+      "fallback_place_id": "maid-of-the-mist",
+      "data_status": "complete",
+      "image_ids": [
+        "img-whirlpool-jet-boat-1",
+        "img-whirlpool-jet-boat-2",
+        "img-whirlpool-jet-boat-3"
+      ]
+    },
+    {
+      "id": "lockport-locks-cruise",
+      "name": "Lockport Locks & Erie Canal Cruise",
+      "kind": "working-lock-cruise",
+      "city": "Lockport",
+      "state": "NY",
+      "country": "US",
+      "address": "210 Market Street, Lockport, NY 14094",
+      "visit_date": "2026-10-12",
+      "summary": "A two-hour narrated boat trip that rises and falls through Locks 34 and 35 and passes the old lock flight and rock cut.",
+      "why_go": "The group actually locks through the canal instead of learning about it only from a museum label.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: gora, viki. The stop also gives the rest of the group a distinct change of pace.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "required",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory."
+      },
+      "cost": {
+        "amount_per_person": 26,
+        "low": 26,
+        "high": 26,
+        "amount_per_group": 104,
+        "price_type": "per-person",
+        "status": "verified",
+        "note": ""
+      },
+      "source_ids": [
+        "src-v2-lockport"
+      ],
+      "coordinates": [
+        -78.6872772,
+        43.1752042
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "moving-water-air-rail",
+      "texture": "EXPLORE",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "booking_required": true,
+        "exact_date_verified": true,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "skip_possible": true,
+        "photo_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "per-person",
+      "price_per_person_low": 26,
+      "price_per_person_high": 26,
+      "price_per_group": 104,
+      "price_last_checked": "2026-08-31",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "yellow",
+      "fallback_place_id": null,
+      "data_status": "complete",
+      "image_ids": [
+        "img-lockport-locks-cruise-1",
+        "img-lockport-locks-cruise-2",
+        "img-lockport-locks-cruise-3"
+      ]
+    },
+    {
+      "id": "montezuma-wildlife-drive",
+      "name": "Montezuma Wildlife Drive",
+      "kind": "wildlife-auto-drive",
+      "city": "Seneca Falls",
+      "state": "NY",
+      "country": "US",
+      "address": "3395 US Route 20 East, Seneca Falls, NY 13148",
+      "visit_date": "2026-10-12",
+      "summary": "A three-mile vehicle-only refuge drive through migration wetlands near sunset, with stops only at signed viewing points.",
+      "why_go": "It is both a quiet birding reset and the correct break in the Lockport-to-Syracuse return corridor.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: viki, stivka. The stop also gives the rest of the group a distinct change of pace.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
+      },
+      "source_ids": [
+        "src-v2-montezuma"
+      ],
+      "coordinates": [
+        -76.7922409,
+        43.0526704
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "nature-geology-terrain",
+      "texture": "RELAX",
+      "interaction_score": 1,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "skip_possible": true,
+        "photo_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "green",
+      "fallback_place_id": null,
+      "data_status": "complete",
+      "image_ids": [
+        "img-montezuma-wildlife-drive-1",
+        "img-montezuma-wildlife-drive-2",
+        "img-montezuma-wildlife-drive-3"
+      ]
+    },
+    {
+      "id": "moss-island-lock-e17",
+      "name": "Moss Island & Lock E17",
+      "kind": "geology-canal-walk",
+      "city": "Little Falls",
+      "state": "NY",
+      "country": "US",
+      "address": "Moss Island, Little Falls, NY 13365",
+      "visit_date": "2026-10-13",
+      "summary": "A compact walk among giant glacial-hydraulic potholes beside one of the Erie Canal's tallest locks.",
+      "why_go": "Geology and canal machinery occupy the same patch of ground, making this a high-value return-corridor stop rather than filler.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: gora, viki. A lower-intensity or skip path is documented in the route.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
+      },
+      "source_ids": [
+        "src-v2-moss"
+      ],
+      "coordinates": [
+        -74.8478826,
+        43.0396085
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "nature-geology-terrain",
+      "texture": "WILD",
+      "interaction_score": 3,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_physicality": true,
+        "skip_possible": true,
+        "photo_heavy": true
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "yellow",
+      "fallback_place_id": null,
+      "data_status": "complete",
+      "image_ids": [
+        "img-moss-island-lock-e17-1",
+        "img-moss-island-lock-e17-2",
+        "img-moss-island-lock-e17-3"
+      ]
+    },
+    {
+      "id": "thacher-indian-ladder",
+      "name": "Thacher State Park — Indian Ladder",
+      "kind": "escarpment-hike",
+      "city": "Voorheesville",
+      "state": "NY",
+      "country": "US",
+      "address": "830 Thacher Park Road, Voorheesville, NY 12186",
+      "visit_date": "2026-10-13",
+      "summary": "A seasonal escarpment walk beneath limestone ledges, past fossils and waterfalls, with broad views across the Hudson-Mohawk valleys.",
+      "why_go": "It closes the geology sequence at landscape scale and has an easy overlook or Pine Bush fallback when the trail is wet or shut.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: gora, viki. A lower-intensity or skip path is documented in the route.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory."
+      },
+      "cost": {
+        "amount_per_person": 3,
+        "low": 3,
+        "high": 3,
+        "amount_per_group": 12,
+        "price_type": "group-share",
+        "status": "verified",
+        "note": "Two $6 vehicle fees shared by four."
+      },
+      "source_ids": [
+        "src-v2-thacher"
+      ],
+      "coordinates": [
+        -74.0173208,
+        42.6547619
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "nature-geology-terrain",
+      "texture": "MOVE",
+      "interaction_score": 3,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_physicality": true,
+        "skip_possible": true,
+        "photo_heavy": true
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "group-share",
+      "price_per_person_low": 3,
+      "price_per_person_high": 3,
+      "price_per_group": 12,
+      "price_last_checked": "2026-08-31",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "yellow",
+      "fallback_place_id": "albany-pine-bush",
+      "data_status": "complete",
+      "image_ids": [
+        "img-thacher-indian-ladder-1",
+        "img-thacher-indian-ladder-2",
+        "img-thacher-indian-ladder-3"
+      ]
     }
   ]
 }

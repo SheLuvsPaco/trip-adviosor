@@ -1,8 +1,0 @@
-{
-  "schema_version": "1.0.0",
-  "route_id": "route-11",
-  "generated_at": "2026-08-29T03:17:52.008Z",
-  "routing_engine": "OSRM",
-  "traffic_included": false,
-  "variants": []
-}

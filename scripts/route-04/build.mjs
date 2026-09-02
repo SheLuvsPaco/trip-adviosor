@@ -3,9 +3,11 @@
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import {
-  contextualImagePlaces, lodgingNodes, manualCoordinates, PEOPLE, places as researchPlaces,
+  contextualImagePlaces, energyRebuildPlaceIds, lodgingNodes, manualCoordinates, PEOPLE,
+  places as configPlaces,
   replacementVariants, ROUTE_ID, ROUTE_NAME, ROUTE_SLUG
 } from "./config.mjs";
+import { buildEnergyRoute04 } from "../route-04-energy/build.mjs";
 
 const ROOT = process.cwd();
 const ROUTE_DIR = path.join(ROOT, "dataset", "routes", ROUTE_SLUG);
@@ -57,6 +59,8 @@ const sourceRows = [
 const sources = sourceRows.map(([id, publisher, type, url, supports]) => ({ id, publisher, type, url, supports, verified_at: verifiedAt }));
 
 const replacementByPlace = new Map(replacementVariants.map((variant) => [variant.replacement_place_id, variant]));
+// V1 records only; the thirteen Energy Rebuild V2 stops are built by scripts/route-04-energy/build.mjs.
+const researchPlaces = configPlaces.filter((record) => !energyRebuildPlaceIds.has(record.id));
 const baseById = new Map(researchPlaces.map((record) => [record.id, record]));
 const details = [];
 function P(id, name, kind, city, state, date, summary, why_go, best_for, secondary_for, categories, duration_minutes, source_ids, options = {}) {
@@ -170,6 +174,10 @@ function scheduleItem([start, end, place_id, priority], placeById) {
 }
 
 async function main() {
+  await buildEnergyRoute04({ root: ROOT, routeDir: ROUTE_DIR });
+  return;
+
+  // Legacy Route 04 builder retained below as historical implementation context.
   const [research, weather, geometry, replacements] = await Promise.all([
     readFile(path.join(ROUTE_DIR, "research-raw.json"), "utf8").then(JSON.parse),
     readFile(path.join(ROUTE_DIR, "weather-normals.json"), "utf8").then(JSON.parse),

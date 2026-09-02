@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "route_id": "route-04",
-  "verified_at": "2026-08-23",
+  "verified_at": "2026-08-31",
   "sources": [
     {
       "id": "src-portsmouth-abg",
@@ -451,25 +451,195 @@
       "verified_at": "2026-08-23"
     },
     {
-      "id": "src-noaa-normals",
-      "publisher": "NOAA National Centers for Environmental Information",
-      "type": "government-data",
-      "url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+      "id": "src-v4-kittery",
+      "publisher": "Kittery Outlets Association",
+      "type": "official",
+      "url": "https://www.thekitteryoutlets.com/",
       "supports": [
-        "1991-2020 daily climate normals"
+        "Route 1 outlet cluster",
+        "free admission",
+        "main Route 04 shopping block"
       ],
-      "verified_at": "2026-08-23"
+      "verified_at": "2026-08-31"
     },
     {
-      "id": "src-osrm",
-      "publisher": "Open Source Routing Machine",
-      "type": "routing",
-      "url": "https://project-osrm.org/",
+      "id": "src-v4-lucky-catch",
+      "publisher": "Lucky Catch Cruises",
+      "type": "official",
+      "url": "https://www.luckycatch.com/",
       "supports": [
-        "road-network distances",
-        "no-traffic durations"
+        "$60 adult fare",
+        "daily operation through late October",
+        "guests bait, set, haul and measure lobster gear"
       ],
-      "verified_at": "2026-08-23"
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v4-biw-story",
+      "publisher": "Maine Maritime Museum",
+      "type": "official",
+      "url": "https://www.mainemaritimemuseum.org/cruises",
+      "supports": [
+        "Bath Iron Works Story by Land & Sea",
+        "$65 per person",
+        "weekday programme through Oct 16",
+        "trolley plus river components"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v4-camden-hills",
+      "publisher": "Maine Bureau of Parks and Lands",
+      "type": "government",
+      "url": "https://www.maine.gov/dacf/parks/",
+      "supports": [
+        "Camden Hills State Park day-use fee",
+        "about $6 nonresident adult",
+        "Maiden Cliff trail and Mount Battie alternative"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v4-acadia",
+      "publisher": "National Park Service",
+      "type": "government",
+      "url": "https://www.nps.gov/acad/planyourvisit/fees.htm",
+      "supports": [
+        "Cadillac sunrise vehicle reservation $6",
+        "reservation system through Oct 25",
+        "05:30 early-morning window",
+        "2026 non-US-resident fee structure requires recheck"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v4-beehive",
+      "publisher": "National Park Service",
+      "type": "government",
+      "url": "https://www.nps.gov/acad/planyourvisit/hiking.htm",
+      "supports": [
+        "Beehive granite staircases and iron rungs",
+        "roughly 450-foot cliff ascent",
+        "1-3 hour band",
+        "Bowl Trail bypass"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v4-sk-tours",
+      "publisher": "SK Tours of Maine",
+      "type": "official",
+      "url": "https://www.sk-tours.com/",
+      "supports": [
+        "Derry, Maine tour",
+        "$62.50 per person",
+        "2.5+ hours",
+        "Apr 3 to Oct 30 season",
+        "exact Oct 8 departure not exposed publicly"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v4-skowhegan",
+      "publisher": "Main Street Skowhegan",
+      "type": "official",
+      "url": "https://www.skowhegan.org/",
+      "supports": [
+        "Kennebec falls and civic landscape",
+        "Bernard Langlais sculpture",
+        "free short route reset"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v4-wife-carrying",
+      "publisher": "Sunday River Resort",
+      "type": "official",
+      "url": "https://www.sundayriver.com/events/north-american-wife-carrying-championship",
+      "supports": [
+        "Saturday Oct 10 2026 Fall Fest",
+        "race around 11:00",
+        "about 278-yard course with water hazard",
+        "spectating is free"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v4-cog",
+      "publisher": "Mount Washington Cog Railway",
+      "type": "official",
+      "url": "https://www.thecog.com/",
+      "supports": [
+        "summit round trip just under three hours",
+        "45-minute arrival requirement",
+        "2026 summit season through Oct 25",
+        "$61-111 fare band",
+        "motive power not guaranteed"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v4-arbortrek",
+      "publisher": "ArborTrek Canopy Adventures",
+      "type": "official",
+      "url": "https://arbortrek.com/zip-line-canopy-tour/",
+      "supports": [
+        "8 ziplines, 2 sky bridges, 2 rappels",
+        "$139 starting price plus Vermont tax",
+        "2.5-3 hours"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v4-killington",
+      "publisher": "Killington Resort",
+      "type": "official",
+      "url": "https://www.killington.com/",
+      "supports": [
+        "Adventure Center final 2026 fall operating date Oct 12",
+        "Beast Mountain Coaster 4-ride pack about $69",
+        "K-1 gondola $35 advance / $39 same day"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v4-lost-river",
+      "publisher": "Lost River Gorge & Boulder Caves",
+      "type": "official",
+      "url": "https://lostrivergorge.com/",
+      "supports": [
+        "$25 October online admission",
+        "$29 walk-in",
+        "open daily Sep 24 to Oct 18",
+        "09:00-15:30 October entry",
+        "11 boulder caves with bypasses"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v4-flw-houses",
+      "publisher": "Currier Museum of Art",
+      "type": "official",
+      "url": "https://currier.org/",
+      "supports": [
+        "Zimmerman and Kalil house tours",
+        "season through Dec 27",
+        "Wednesday operation",
+        "about $55 public ticket",
+        "roughly $500 private group option"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v4-route108",
+      "publisher": "Smugglers' Notch Resort",
+      "type": "official",
+      "url": "https://www.smuggs.com/",
+      "supports": [
+        "Route 108 notch road typically closes mid-October to mid-May",
+        "Route 15 / Route 100 detour to Stowe"
+      ],
+      "verified_at": "2026-08-31"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "route_id": "route-06",
-  "verified_at": "2026-08-23",
+  "verified_at": "2026-08-31",
   "sources": [
     {
       "id": "src-carousel",
@@ -13,18 +13,6 @@
         "Sunday hours",
         "adult admission",
         "collection access"
-      ]
-    },
-    {
-      "id": "src-witch",
-      "title": "Connecticut Office of Tourism - Witch's Dungeon",
-      "source_type": "government-tourism",
-      "url": "https://ctvisit.com/listings/original-witchs-dungeon-museum-classic-movie-museum",
-      "verified_at": "2026-08-23",
-      "claims": [
-        "Sunday hours",
-        "admission",
-        "guided format"
       ]
     },
     {
@@ -61,18 +49,6 @@
         "Monday-Saturday hours",
         "free admission",
         "outdoor trail"
-      ]
-    },
-    {
-      "id": "src-psp",
-      "title": "Pennsylvania State Police Historical, Educational & Memorial Center",
-      "source_type": "official",
-      "url": "https://www.psp-hemc.org/wp/",
-      "verified_at": "2026-08-23",
-      "claims": [
-        "weekday hours",
-        "self-guided admission",
-        "collection"
       ]
     },
     {
@@ -124,18 +100,6 @@
       ]
     },
     {
-      "id": "src-postnatural",
-      "title": "Center for PostNatural History - visit",
-      "source_type": "official",
-      "url": "https://www.postnatural.org/visit",
-      "verified_at": "2026-08-23",
-      "claims": [
-        "public hours",
-        "admission",
-        "appointment option"
-      ]
-    },
-    {
       "id": "src-bicycle",
       "title": "Bicycle Heaven - tickets",
       "source_type": "official",
@@ -160,18 +124,6 @@
       ]
     },
     {
-      "id": "src-churchbrew",
-      "title": "The Church Brew Works",
-      "source_type": "official",
-      "url": "https://churchbrew.com/",
-      "verified_at": "2026-08-23",
-      "claims": [
-        "Thursday hours",
-        "kitchen close",
-        "adaptive-reuse venue"
-      ]
-    },
-    {
       "id": "src-wheeling-trail",
       "title": "Visit Wheeling - Wheeling Heritage Trails",
       "source_type": "tourism",
@@ -192,18 +144,6 @@
         "current preservation status",
         "pedestrian-use goal",
         "no crossing promise"
-      ]
-    },
-    {
-      "id": "src-mothman",
-      "title": "Mothman Museum",
-      "source_type": "official",
-      "url": "https://www.mothmanmuseum.com/",
-      "verified_at": "2026-08-23",
-      "claims": [
-        "Friday hours",
-        "admission",
-        "collection"
       ]
     },
     {
@@ -242,18 +182,6 @@
       ]
     },
     {
-      "id": "src-tuendiewei",
-      "title": "West Virginia State Parks - Tu-Endie-Wei history",
-      "source_type": "government",
-      "url": "https://wvstateparks.com/parks/tu-endie-wei-state-park/park-history/",
-      "verified_at": "2026-08-23",
-      "claims": [
-        "park access",
-        "Mansion House seasonal limit",
-        "battle history"
-      ]
-    },
-    {
       "id": "src-flatwoods",
       "title": "Braxton County - Flatwoods Monster Museum",
       "source_type": "tourism",
@@ -263,18 +191,6 @@
         "Saturday hours",
         "free admission",
         "closure warning"
-      ]
-    },
-    {
-      "id": "src-bigfoot",
-      "title": "West Virginia Bigfoot Museum",
-      "source_type": "official",
-      "url": "https://wvbigfootmuseum.org/virtual-tour",
-      "verified_at": "2026-08-23",
-      "claims": [
-        "Saturday hours",
-        "collection",
-        "virtual cross-check"
       ]
     },
     {
@@ -325,30 +241,6 @@
       ]
     },
     {
-      "id": "src-fortbedford",
-      "title": "Fort Bedford Museum - visit",
-      "source_type": "official",
-      "url": "https://www.fortbedfordmuseum.org/visit",
-      "verified_at": "2026-08-23",
-      "claims": [
-        "fall Sunday hours",
-        "admission",
-        "museum access"
-      ]
-    },
-    {
-      "id": "src-coverlet",
-      "title": "National Museum of the American Coverlet",
-      "source_type": "official",
-      "url": "https://www.coverletmuseum.org/default.htm",
-      "verified_at": "2026-08-23",
-      "claims": [
-        "Sunday hours",
-        "admission",
-        "collection scale"
-      ]
-    },
-    {
       "id": "src-cabelas",
       "title": "Cabela's Hamburg store",
       "source_type": "official",
@@ -358,18 +250,6 @@
         "Monday hours",
         "250,000-square-foot destination",
         "aquariums and museum displays"
-      ]
-    },
-    {
-      "id": "src-hamburg",
-      "title": "PA Discoveries - downtown Hamburg",
-      "source_type": "tourism-editorial",
-      "url": "https://padiscoveries.com/blog/downtown-discoveries-hamburg/",
-      "verified_at": "2026-08-23",
-      "claims": [
-        "historic core",
-        "architecture",
-        "public-art walk"
       ]
     },
     {
@@ -385,75 +265,6 @@
       ]
     },
     {
-      "id": "src-danbury",
-      "title": "CityCenter Danbury - walking tours",
-      "source_type": "local-nonprofit",
-      "url": "https://citycenterdanbury.com/explore-2/walking-tours/",
-      "verified_at": "2026-08-23",
-      "claims": [
-        "self-guided Museum in the Streets",
-        "outdoor access",
-        "downtown markers"
-      ]
-    },
-    {
-      "id": "src-moba",
-      "title": "Museum of Bad Art - locations",
-      "source_type": "official",
-      "url": "https://museumofbadart.org/location/",
-      "verified_at": "2026-08-23",
-      "claims": [
-        "Dorchester Brewing gallery",
-        "Wednesday hours",
-        "free admission"
-      ]
-    },
-    {
-      "id": "src-russell",
-      "title": "Paul S. Russell Museum - visit",
-      "source_type": "official",
-      "url": "https://www.russellmuseum.org/visit/",
-      "verified_at": "2026-08-23",
-      "claims": [
-        "Wednesday hours",
-        "free admission",
-        "three-level museum"
-      ]
-    },
-    {
-      "id": "src-mgh",
-      "title": "Massachusetts General Hospital - Ether Dome",
-      "source_type": "hospital",
-      "url": "https://www.massgeneral.org/museum/exhibits/ether-dome",
-      "verified_at": "2026-08-23",
-      "claims": [
-        "weekday access",
-        "historic significance",
-        "meeting-closure warning"
-      ]
-    },
-    {
-      "id": "src-noaa-normals",
-      "title": "NOAA U.S. Climate Normals",
-      "source_type": "government",
-      "url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
-      "verified_at": "2026-08-23",
-      "claims": [
-        "1991-2020 normals methodology"
-      ]
-    },
-    {
-      "id": "src-osrm",
-      "title": "Open Source Routing Machine",
-      "source_type": "routing",
-      "url": "https://project-osrm.org/",
-      "verified_at": "2026-08-23",
-      "claims": [
-        "road-network baselines",
-        "no live traffic"
-      ]
-    },
-    {
       "id": "src-forum-pittsburgh",
       "title": "r/pittsburgh local oddities discussions",
       "source_type": "forum",
@@ -461,16 +272,6 @@
       "verified_at": "2026-08-23",
       "claims": [
         "local cross-check of Bicycle Heaven, Nationality Rooms and Randyland"
-      ]
-    },
-    {
-      "id": "src-forum-wv",
-      "title": "r/WestVirginia local travel discussions",
-      "source_type": "forum",
-      "url": "https://www.reddit.com/r/WestVirginia/",
-      "verified_at": "2026-08-23",
-      "claims": [
-        "local cross-check of Point Pleasant, Weston and route pacing"
       ]
     },
     {
@@ -482,6 +283,333 @@
       "claims": [
         "cryptid-stop expectation cross-check"
       ]
+    },
+    {
+      "id": "r06x-letort",
+      "title": "LeTort Regional Authority nature trail",
+      "source_type": "official",
+      "url": "https://www.letort.org/nature-trail/",
+      "verified_at": "2026-08-30",
+      "claims": [
+        "2.5-mile easy trail",
+        "interpretive signs",
+        "Class A wild trout stream"
+      ]
+    },
+    {
+      "id": "r06x-dunkle",
+      "title": "Dunkle Gulf Station HABS record",
+      "source_type": "government-archive",
+      "url": "https://www.loc.gov/item/pa3961/",
+      "verified_at": "2026-08-30",
+      "claims": [
+        "documented historic structure",
+        "exterior architecture"
+      ]
+    },
+    {
+      "id": "r06x-anthony",
+      "title": "Saint Anthony Chapel",
+      "source_type": "official",
+      "url": "https://www.saintanthonyschapel.org/the-chapel",
+      "verified_at": "2026-08-30",
+      "claims": [
+        "more than 5,000 relics",
+        "historic chapel",
+        "visitor access"
+      ]
+    },
+    {
+      "id": "r06x-grave-creek",
+      "title": "Grave Creek Mound Archaeological Complex",
+      "source_type": "government",
+      "url": "https://wvculture.org/explore/grave-creek-mound/",
+      "verified_at": "2026-08-30",
+      "claims": [
+        "Tuesday-Saturday 9am-4:30pm",
+        "free admission",
+        "Adena archaeology interpretation"
+      ]
+    },
+    {
+      "id": "r06x-floodwall",
+      "title": "Point Pleasant attractions",
+      "source_type": "official-tourism",
+      "url": "https://visitpointpleasantwv.com/see-do/",
+      "verified_at": "2026-08-30",
+      "claims": [
+        "public riverfront murals",
+        "Battle of Point Pleasant panels",
+        "Silver Bridge memorial"
+      ]
+    },
+    {
+      "id": "r06x-african-meeting",
+      "title": "Museum of African American History locations",
+      "source_type": "official",
+      "url": "https://maah.org/locations/",
+      "verified_at": "2026-08-30",
+      "claims": [
+        "Boston campus Tuesday-Sunday 10am-4pm",
+        "African Meeting House and Abiel Smith School"
+      ]
+    },
+    {
+      "id": "src-v6-new-gate",
+      "publisher": "Connecticut DEEP — Old New-Gate",
+      "type": "government",
+      "url": "https://portal.ct.gov/deep/state-parks/museums/old-new-gate-prison-and-copper-mine",
+      "supports": [
+        "2026 season",
+        "$10 admission",
+        "mine included"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v6-reading-pagoda",
+      "publisher": "Reading Pagoda",
+      "type": "official",
+      "url": "https://www.readingpagoda.com/",
+      "supports": [
+        "grounds and restoration context"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v6-pike2bike",
+      "publisher": "Pike2Bike trail documentation",
+      "type": "official-trail",
+      "url": "https://www.pike2bike.com/",
+      "supports": [
+        "non-motorized former turnpike",
+        "tunnel safety"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v6-carrie",
+      "publisher": "Rivers of Steel — Carrie Blast Furnaces",
+      "type": "official",
+      "url": "https://riversofsteel.com/experiences/carrie-blast-furnaces-industrial-tour/",
+      "supports": [
+        "two-hour industrial tour",
+        "$26 admission",
+        "May-October season"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v6-troy-hill",
+      "publisher": "Troy Hill Art Houses",
+      "type": "official",
+      "url": "https://www.troyhillarthouses.com/",
+      "supports": [
+        "whole-house installations",
+        "appointment required",
+        "free"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v6-vanka",
+      "publisher": "Society to Preserve the Millvale Murals of Maxo Vanka",
+      "type": "official",
+      "url": "https://vankamurals.org/",
+      "supports": [
+        "Thursday public tour",
+        "$20 admission"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v6-wv-pen",
+      "publisher": "West Virginia Penitentiary",
+      "type": "official",
+      "url": "https://wvpentours.com/",
+      "supports": [
+        "guided day tours",
+        "October attractions"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v6-fort-boreman",
+      "publisher": "Wood County — Fort Boreman",
+      "type": "government",
+      "url": "https://woodcountywv.com/online-services/shelter-meeting-rooms/parks/fort-boreman/",
+      "supports": [
+        "park access",
+        "river overlook"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v6-mothman-tour",
+      "publisher": "Mothman Museum TNT tour store",
+      "type": "official",
+      "url": "https://mothmanmuseum.square.site/",
+      "supports": [
+        "Oct. 10 2026 product",
+        "$25.95",
+        "museum admission",
+        "unavailable status"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v6-braxxie",
+      "publisher": "Braxton County CVB",
+      "type": "official-tourism",
+      "url": "https://braxtonwv.org/",
+      "supports": [
+        "five-chair Free Braxxie challenge"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v6-tala-dark",
+      "publisher": "Trans-Allegheny Asylum After Dark",
+      "type": "official",
+      "url": "https://trans-alleghenylunaticasylum.com/events-schedule/",
+      "supports": [
+        "Sep. 25-Oct. 31 season",
+        "flashlight tour",
+        "Oct. 10 ghost hunt"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v6-coopers-rock",
+      "publisher": "West Virginia State Parks — Coopers Rock",
+      "type": "government",
+      "url": "https://wvstateparks.com/parks/coopers-rock-state-forest/",
+      "supports": [
+        "trail access",
+        "bridge status"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v6-sideling",
+      "publisher": "Maryland Tourism — Sideling Hill Welcome Center",
+      "type": "government-tourism",
+      "url": "https://www.visitmaryland.org/listing/visitor-centers/sideling-hill-welcome-center",
+      "supports": [
+        "road cut",
+        "visitor center"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v6-fort-hunter",
+      "publisher": "Dauphin County — Fort Hunter",
+      "type": "government",
+      "url": "https://www.dauphincounty.gov/government/support-services/parks-recreation/parks/fort-hunter",
+      "supports": [
+        "public riverfront park",
+        "Rockville Bridge context"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v6-pocono-outlets",
+      "publisher": "Pocono Premium Outlets",
+      "type": "official",
+      "url": "https://www.premiumoutlets.com/outlet/pocono",
+      "supports": [
+        "weekday hours",
+        "brand mix",
+        "holiday recheck"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v6-dana",
+      "publisher": "Massachusetts DCR — Quabbin Reservoir",
+      "type": "government",
+      "url": "https://www.mass.gov/locations/quabbin-reservoir",
+      "supports": [
+        "Gate 40 access",
+        "watershed rules",
+        "Dana Common walk"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v6-ruins",
+      "publisher": "The Ruins Project",
+      "type": "official",
+      "url": "https://www.theruinsproject.org/",
+      "supports": [
+        "mosaic industrial-ruin environment"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v6-imaginarium",
+      "publisher": "Enter the Imaginarium",
+      "type": "official",
+      "url": "https://entertheimaginarium.com/",
+      "supports": [
+        "The Mind's Eye puzzle experience"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v6-hundred-acres",
+      "publisher": "Hundred Acres Manor",
+      "type": "official",
+      "url": "https://www.hundredacresmanor.com/",
+      "supports": [
+        "2026 haunt season",
+        "price from $30"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v6-palace",
+      "publisher": "Palace of Gold",
+      "type": "official",
+      "url": "https://www.palaceofgold.com/",
+      "supports": [
+        "sacred architecture",
+        "visitor access"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v6-blennerhassett",
+      "publisher": "West Virginia State Parks — Mansion by Candlelight",
+      "type": "government",
+      "url": "https://wvstateparks.com/event/mansion-by-candlelight-2026-blennerhassett-island-historical-state-park/",
+      "supports": [
+        "Oct. 9-10 2026",
+        "$42 adult"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v6-mountwood",
+      "publisher": "Mountwood Park ATV",
+      "type": "official",
+      "url": "https://mountwoodpark.org/atv-park/",
+      "supports": [
+        "2026 season",
+        "$12 day permit"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v6-jq-dickinson",
+      "publisher": "J. Q. Dickinson Salt-Works",
+      "type": "official",
+      "url": "https://www.jqdsalt.com/",
+      "supports": [
+        "working salt tours",
+        "Monday-Saturday pattern"
+      ],
+      "verified_at": "2026-08-31"
     }
   ]
 }

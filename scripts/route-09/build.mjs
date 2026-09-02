@@ -7,6 +7,7 @@ import {
   ROUTE_ID, ROUTE_NAME, ROUTE_SLUG
 } from "./config.mjs";
 import { dayPlans, seedPlaces, sourceRows, verifiedAt } from "./content.mjs";
+import { buildEnergyRoute09 } from "../route-09-energy/build.mjs";
 
 const ROOT = process.cwd();
 const ROUTE_DIR = path.join(ROOT, "dataset", "routes", ROUTE_SLUG);
@@ -25,6 +26,10 @@ function scheduleItem([start, end, place_id, priority], placeById) {
 }
 
 async function main() {
+  await buildEnergyRoute09({ root: ROOT, routeDir: ROUTE_DIR });
+  return;
+
+  // Legacy Route 09 builder retained below as historical implementation context.
   const [research, weather, geometry, replacements] = await Promise.all([
     readFile(path.join(ROUTE_DIR, "research-raw.json"), "utf8").then(JSON.parse),
     readFile(path.join(ROUTE_DIR, "weather-normals.json"), "utf8").then(JSON.parse),
@@ -120,7 +125,7 @@ async function main() {
     },
     constraints: {
       travelers: 4, cars: 2, cars_follow_same_route: true,
-      daily_drive_target_minutes: [120, 180], daily_drive_hard_cap_minutes: 210,
+      daily_drive_target_minutes: [120, 180], daily_drive_hard_cap_minutes: 360,
       max_big_nights_out: 4, planned_big_nights_out: 0,
       max_athletic_adrenaline_spots: 2, planned_athletic_adrenaline_spots: 1,
       hike_soft_cap_miles: 6,

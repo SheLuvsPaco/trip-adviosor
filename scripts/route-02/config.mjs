@@ -44,6 +44,19 @@ export const places = [
   { id: "albany-pine-bush", geocode: "Albany Pine Bush Discovery Center, 195 New Karner Road, Albany, New York", images: ["Albany Pine Bush Preserve New York", "Albany Pine Bush sand dunes pitch pine"] },
   { id: "ny-state-capitol-plaza", geocode: "New York State Capitol, Albany, New York", images: ["\"New York State Capitol\" Albany", "\"Empire State Plaza\" Albany Egg", "\"Million Dollar Staircase\" Albany"] },
   { id: "turnpark-art-space", geocode: "TurnPark Art Space, 2 Moscow Road, West Stockbridge, Massachusetts", images: ["\"TurnPark Art Space\"", "West Stockbridge Massachusetts sculpture", "Massachusetts quarry sculpture park"] },
+  { id: "revolution-rail-hadley", geocode: "Revolution Rail Hadley, 4113 Rockwell Street, Hadley, New York", images: ["Revolution Rail Hadley Run", "Hadley railroad bridge Hudson Sacandaga", "Hadley New York railbike"] },
+  { id: "leatherstocking-bat-mill", geocode: "Leatherstocking Timber Products, 359 Delaware County Highway 11, Oneonta, New York", images: ["Leatherstocking Wood Bat Mill Oneonta", "wood baseball bat mill Oneonta New York", "baseball bat billets mill"] },
+  { id: "cayuga-fall-eco-cruise", geocode: "Allan H. Treman State Marine Park, 1000 Allan H Treman Marina Road, Ithaca, New York", images: ["Discover Cayuga Lake MV Teal", "Cayuga Lake fall foliage cruise", "Allan H Treman State Marine Park boat"] },
+  { id: "watkins-glen-gorge", geocode: "Watkins Glen State Park, 1009 North Franklin Street, Watkins Glen, New York", images: ["Watkins Glen Gorge Trail", "Watkins Glen Rainbow Falls", "Watkins Glen State Park autumn"] },
+  { id: "nut-house-hacker-witch", geocode: "Nut House Escape Rooms, 1280 Scottsville Road, Rochester, New York", images: ["Nut House Escape Rooms Rochester Hacker WITCH", "Nut House Escape Rooms Rochester", "escape room server room puzzle"] },
+  { id: "balloons-over-letchworth", geocode: "Balloons Over Letchworth, 6635 Middle Falls Road, Castile, New York", images: ["Balloons Over Letchworth", "Letchworth hot air balloon autumn", "Letchworth State Park balloon"] },
+  { id: "mount-morris-dam", geocode: "Mount Morris Dam Visitor Center, 6103 Visitor Center Road, Mount Morris, New York", images: ["Mount Morris Dam New York", "Mount Morris Dam guided walking tour", "Mount Morris Dam Genesee River"] },
+  { id: "fashion-outlets-niagara", geocode: "Fashion Outlets of Niagara Falls USA, 1900 Military Road, Niagara Falls, New York", images: ["Fashion Outlets Niagara Falls USA", "Fashion Outlets Niagara Falls interior", "Fashion Outlets Niagara Falls entrance"] },
+  { id: "whirlpool-jet-boat", geocode: "Whirlpool Jet Boat Tours, 115 South Water Street, Lewiston, New York", images: ["Whirlpool Jet Boat Lewiston New York", "Whirlpool Jet Boat Niagara Gorge", "Niagara Gorge jet boat rapids"] },
+  { id: "lockport-locks-cruise", geocode: "Lockport Locks and Erie Canal Cruises, 210 Market Street, Lockport, New York", images: ["Lockport Locks Erie Canal cruise", "Lockport Locks boat", "Erie Canal Lockport Locks 34 35"] },
+  { id: "montezuma-wildlife-drive", geocode: "Montezuma National Wildlife Refuge, 3395 US Route 20 East, Seneca Falls, New York", images: ["Montezuma National Wildlife Refuge", "Montezuma Wildlife Drive New York", "Montezuma National Wildlife Refuge autumn birds"] },
+  { id: "moss-island-lock-e17", geocode: "Moss Island, Little Falls, New York", images: ["Moss Island Little Falls New York", "Moss Island potholes", "Erie Canal Lock 17 Little Falls"] },
+  { id: "thacher-indian-ladder", geocode: "Thacher State Park Visitor Center, 830 Thacher Park Road, Voorheesville, New York", images: ["Thacher State Park Indian Ladder Trail", "Thacher Park Helderberg Escarpment", "Indian Ladder Trail autumn"] },
   { id: "magic-wings", geocode: "Magic Wings Butterfly Conservatory, 281 Greenfield Road, South Deerfield, Massachusetts", images: ["Magic Wings Butterfly Conservatory Deerfield", "butterfly conservatory Massachusetts"] },
   { id: "clark-art-institute", geocode: "Clark Art Institute, 225 South Street, Williamstown, Massachusetts", images: ["Clark Art Institute Williamstown", "Clark Art Institute reflecting pool"] },
   { id: "secret-caverns", geocode: "Secret Caverns, 671 Caverns Road, Howes Cave, New York", images: ["Secret Caverns underground waterfall", "Secret Caverns New York"] },
@@ -70,6 +83,14 @@ export const contextualImagePlaces = new Set([
   "turnpark-art-space",
   "elmwood-essex-music-night",
   "make-your-own-glass",
+  "revolution-rail-hadley",
+  "leatherstocking-bat-mill",
+  "cayuga-fall-eco-cruise",
+  "nut-house-hacker-witch",
+  "balloons-over-letchworth",
+  "fashion-outlets-niagara",
+  "whirlpool-jet-boat",
+  "lockport-locks-cruise",
   "six-depot"
 ]);
 
@@ -128,11 +149,14 @@ export const manualCoordinates = {
   "ithaca-falls": [-76.4932497, 42.4526487],
   "make-your-own-glass": [-77.0561758, 42.1499845],
   "rochester-public-market": [-77.5889830, 43.1651548],
+  "house-of-guitars": [-77.5992830, 43.2102317],
   "letchworth-falls": [-78.0443200, 42.5787700],
   "elmwood-essex-music-night": [-78.8827403, 42.9132991],
   "annunciation-buffalo": [-78.8723741, 42.9111914],
   "niagara-power-vista": [-79.0403111, 43.1401973],
   "maid-of-the-mist": [-79.0689984, 43.0874934],
+  "cave-of-the-winds": [-79.0708868, 43.0823618],
+  "goat-island-illumination": [-79.0744330, 43.0800772],
   "martin-house": [-78.8480871, 42.9361233],
   "albany-pine-bush": [-73.8675000, 42.7031000],
   "ny-state-capitol-plaza": [-73.7576000, 42.6526000],
@@ -147,7 +171,20 @@ export const manualCoordinates = {
   "old-fort-niagara": [-79.0637000, 43.2624000],
   "forest-lawn-blue-sky": [-78.8649000, 42.9286000],
   "schenectady-stockade": [-73.9450000, 42.8180000],
-  "six-depot": [-73.3684757, 42.3341038]
+  "six-depot": [-73.3684757, 42.3341038],
+  "revolution-rail-hadley": [-73.8491458, 43.3172850],
+  "leatherstocking-bat-mill": [-74.9749288, 42.4456053],
+  "cayuga-fall-eco-cruise": [-76.5163604, 42.4590975],
+  "watkins-glen-gorge": [-76.8716481, 42.3761611],
+  "nut-house-hacker-witch": [-77.6609686, 43.1160912],
+  "balloons-over-letchworth": [-78.0450913, 42.5819760],
+  "mount-morris-dam": [-77.9057858, 42.7310423],
+  "fashion-outlets-niagara": [-78.9786935, 43.0969508],
+  "whirlpool-jet-boat": [-79.0490805, 43.1726809],
+  "lockport-locks-cruise": [-78.6872772, 43.1752042],
+  "montezuma-wildlife-drive": [-76.7922409, 43.0526704],
+  "moss-island-lock-e17": [-74.8478826, 43.0396085],
+  "thacher-indian-ladder": [-74.0173208, 42.6547619]
 };
 
 export const lodgingNodes = {
@@ -157,24 +194,27 @@ export const lodgingNodes = {
   "cooperstown-lodging": { name: "Cooperstown village lodging zone", coordinates: [-74.9243, 42.7006] },
   "ithaca-lodging": { name: "Downtown Ithaca lodging zone", coordinates: [-76.4966, 42.4396] },
   "rochester-lodging": { name: "Rochester East End lodging zone", coordinates: [-77.6004, 43.1572] },
+  "mount-morris-lodging": { name: "Mount Morris / Geneseo lodging zone", coordinates: [-77.8742, 42.7256] },
   "buffalo-lodging": { name: "Buffalo Elmwood lodging zone", coordinates: [-78.8778, 42.9130] },
   "syracuse-lodging": { name: "Syracuse Armory Square lodging zone", coordinates: [-76.1542, 43.0470] },
   "albany-lodging": { name: "Albany-East Greenbush lodging zone", coordinates: [-73.6980, 42.6270] },
   "boston-logan-hotel": { name: "Boston Logan hotel zone", coordinates: [-71.0155, 42.3655] }
+  ,"ontario-travel-plaza": { name: "Ontario Travel Plaza comfort break", coordinates: [-77.9066146, 43.0310424] }
+  ,"charlton-service-plaza": { name: "Charlton Service Plaza comfort break", coordinates: [-72.0242505, 42.1400504] }
 };
 
 export const dayRoutes = [
-  { day: 1, risk: "medium", node_ids: ["boston-logan-rental", "smith-botanic-garden", "three-sisters-sanctuary", "northampton-lodging"] },
-  { day: 2, risk: "low", node_ids: ["northampton-lodging", "mass-moca", "grafton-peace-pagoda", "saratoga-lodging"] },
-  { day: 3, risk: "low", node_ids: ["saratoga-lodging", "howe-caverns", "iroquois-museum", "cooperstown-lodging"] },
-  { day: 4, risk: "low", node_ids: ["cooperstown-lodging", "fenimore-farm", "taughannock-falls", "cornell-botanic-gardens", "ithaca-lodging"] },
-  { day: 5, risk: "low", node_ids: ["ithaca-lodging", "ithaca-falls", "corning-museum-of-glass", "rochester-high-falls", "rochester-lodging"] },
-  { day: 6, risk: "low", node_ids: [] },
-  { day: 7, risk: "low", node_ids: ["rochester-lodging", "rochester-public-market", "letchworth-falls", "buffalo-canalside", "buffalo-lodging"] },
-  { day: 8, risk: "medium", node_ids: ["buffalo-lodging", "annunciation-buffalo", "niagara-power-vista", "maid-of-the-mist", "buffalo-lodging"] },
-  { day: 9, risk: "medium", node_ids: ["buffalo-lodging", "martin-house", "tr-inaugural-site", "syracuse-lodging"] },
-  { day: 10, risk: "low", node_ids: ["syracuse-lodging", "erie-canal-museum", "albany-pine-bush", "ny-state-capitol-plaza", "albany-lodging"] },
-  { day: 11, risk: "high", node_ids: ["albany-lodging", "turnpark-art-space", "boston-logan-hotel"] }
+  { day: 1, risk: "medium", node_ids: ["boston-logan-rental", "charlton-service-plaza", "three-sisters-sanctuary", "northampton-lodging"] },
+  { day: 2, risk: "low", node_ids: ["northampton-lodging", "grafton-peace-pagoda", "revolution-rail-hadley", "saratoga-mineral-springs", "saratoga-lodging"] },
+  { day: 3, risk: "low", node_ids: ["saratoga-lodging", "secret-caverns", "cooperstown-lakefront", "cooperstown-lodging"] },
+  { day: 4, risk: "low", node_ids: ["cooperstown-lodging", "leatherstocking-bat-mill", "cayuga-fall-eco-cruise", "ithaca-lodging"] },
+  { day: 5, risk: "low", node_ids: ["ithaca-lodging", "watkins-glen-gorge", "make-your-own-glass", "rochester-lodging"] },
+  { day: 6, risk: "low", node_ids: ["rochester-lodging", "house-of-guitars", "nut-house-hacker-witch", "mount-morris-lodging"] },
+  { day: 7, risk: "low", node_ids: ["mount-morris-lodging", "balloons-over-letchworth", "letchworth-falls", "mount-morris-dam", "fashion-outlets-niagara", "buffalo-lodging"] },
+  { day: 8, risk: "medium", node_ids: ["buffalo-lodging", "annunciation-buffalo", "niagara-power-vista", "whirlpool-jet-boat", "cave-of-the-winds", "goat-island-illumination", "buffalo-lodging"] },
+  { day: 9, risk: "low", node_ids: ["buffalo-lodging", "lockport-locks-cruise", "rochester-high-falls", "montezuma-wildlife-drive", "syracuse-lodging"] },
+  { day: 10, risk: "low", node_ids: ["syracuse-lodging", "moss-island-lock-e17", "thacher-indian-ladder", "albany-lodging"] },
+  { day: 11, risk: "high", node_ids: ["albany-lodging", "turnpark-art-space", "charlton-service-plaza", "boston-logan-hotel"] }
 ];
 
 export const replacementVariants = [
@@ -197,7 +237,7 @@ export const weatherRequests = [
   { day: 3, date: "2026-10-06", sleep_city: "Cooperstown, NY", station: "USW00004725", station_role: "Binghamton-Cooperstown regional proxy" },
   { day: 4, date: "2026-10-07", sleep_city: "Ithaca, NY", station: "USW00014748", station_role: "Elmira-Ithaca regional proxy" },
   { day: 5, date: "2026-10-08", sleep_city: "Rochester, NY", station: "USW00014768", station_role: "Rochester airport" },
-  { day: 6, date: "2026-10-09", sleep_city: "Rochester, NY", station: "USW00014768", station_role: "Rochester airport" },
+  { day: 6, date: "2026-10-09", sleep_city: "Mount Morris / Geneseo, NY", station: "USW00014768", station_role: "Rochester-Mount Morris regional proxy" },
   { day: 7, date: "2026-10-10", sleep_city: "Buffalo, NY", station: "USW00014733", station_role: "Buffalo airport" },
   { day: 8, date: "2026-10-11", sleep_city: "Buffalo, NY", station: "USW00014733", station_role: "Buffalo-Niagara corridor" },
   { day: 9, date: "2026-10-12", sleep_city: "Syracuse, NY", station: "USW00014771", station_role: "Syracuse airport" },

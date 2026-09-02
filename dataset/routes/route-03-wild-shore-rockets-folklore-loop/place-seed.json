@@ -1,6 +1,7 @@
 {
   "schema_version": "1.0.0",
   "route_id": "route-03",
+  "generated_from": "Energy Rebuild Routes/Route03_Atlantic_Edge_Rebuild_With_Costs.md",
   "places": [
     {
       "id": "florence-griswold",
@@ -42,7 +43,46 @@
         "note": "Confirm 2026 general admission when booking."
       },
       "address": "Florence Griswold Museum, 96 Lyme Street, Old Lyme, Connecticut",
-      "priority": "anchor"
+      "priority": "archive",
+      "country": "US",
+      "coordinates": [
+        -72.3268675,
+        41.3257403
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "openstreetmap_nominatim",
+      "image_ids": [
+        "img-florence-griswold-1",
+        "img-florence-griswold-2",
+        "img-florence-griswold-3",
+        "img-florence-griswold-4",
+        "img-florence-griswold-5",
+        "img-florence-griswold-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "archive",
+      "original_status": "remove-archive",
+      "energy_rebuild_role": "preserved-revision-history",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "cross-sound-ferry",
@@ -55,13 +95,13 @@
       "why_go": "The first real moment of the trip, and it saves about six hours of driving around New York City. You are on a boat, not in traffic.",
       "best_for": [
         "viki",
-        "sheluvspaco"
+        "gora"
       ],
       "secondary_for": [
-        "gora",
-        "stivka"
+        "stivka",
+        "sheluvspaco"
       ],
-      "best_fit_note": "Good for Viki's wind and lighthouse photos, and for Paco, who wants travel time to feel like part of the holiday.",
+      "best_fit_note": "Primary fit: viki, gora. Low physical demand; no skip path is required.",
       "categories": [
         "nature_photogenic",
         "unusual_creative"
@@ -70,7 +110,7 @@
       "source_ids": [
         "src-cross-sound"
       ],
-      "reservation": "required-for-two-cars",
+      "reservation": "required",
       "hours": {
         "opens": null,
         "closes": null,
@@ -78,12 +118,96 @@
         "note": "Target a late-afternoon vehicle sailing; final October departure grid must be reconfirmed."
       },
       "cost": {
-        "amount_per_person": 35,
-        "status": "planning-estimate",
-        "note": "Four adults and two standard cars, divided per traveler."
+        "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
       },
       "address": "Cross Sound Ferry, 2 Ferry Street, New London, Connecticut",
-      "priority": "anchor"
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -72.0946,
+        41.3554
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-cross-sound-ferry-1",
+        "img-cross-sound-ferry-2",
+        "img-cross-sound-ferry-3",
+        "img-cross-sound-ferry-4",
+        "img-cross-sound-ferry-5",
+        "img-cross-sound-ferry-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "water-movement",
+      "texture": "MOVE",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "water_weather_gated": true,
+        "ferry_timetable_gated": true,
+        "booking_required": true,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_stair_count": false,
+        "confined_space": false,
+        "high_physicality": false,
+        "wildlife_not_guaranteed": false,
+        "skip_possible": true,
+        "photo_heavy": true,
+        "transport_fee_excluded_from_magic_cost": true
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "transport_fee": {
+        "group_low_usd": 205,
+        "group_high_usd": 219,
+        "per_person_low_usd": 51.25,
+        "per_person_high_usd": 54.75,
+        "excluded_from_attraction_ceiling": true,
+        "note": "Two standard cars and four adults before the floating fuel surcharge; reprice at booking."
+      },
+      "transport_fee_excluded_from_attraction_ceiling": true,
+      "physical_level": "easy",
+      "skip_strategy": "Low physical demand; no skip path is required.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "red",
+      "fallback_place_id": null
     },
     {
       "id": "greenport-waterfront",
@@ -96,13 +220,13 @@
       "why_go": "Salt air, boat lights and one silly carousel ride instead of another hotel check-in. A good way to arrive after a long day.",
       "best_for": [
         "viki",
-        "sheluvspaco"
+        "stivka"
       ],
       "secondary_for": [
-        "stivka",
-        "gora"
+        "gora",
+        "sheluvspaco"
       ],
-      "best_fit_note": "Good for Viki's photos at blue hour, and for Paco, who wants an easy group mood after a long drive.",
+      "best_fit_note": "Primary fit: viki, stivka. Low physical demand; no skip path is required.",
       "categories": [
         "architecture_photogenic",
         "nature_photogenic",
@@ -112,7 +236,7 @@
       "source_ids": [
         "src-greenport"
       ],
-      "priority": "supporting",
+      "priority": "anchor",
       "hours": {
         "opens": "08:00",
         "closes": "21:00",
@@ -123,9 +247,85 @@
       "reservation": "none",
       "cost": {
         "amount_per_person": 0,
-        "status": "free",
-        "note": "No admission planned."
-      }
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
+      },
+      "country": "US",
+      "coordinates": [
+        -72.3602,
+        41.1018
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-greenport-waterfront-1",
+        "img-greenport-waterfront-2",
+        "img-greenport-waterfront-3",
+        "img-greenport-waterfront-4",
+        "img-greenport-waterfront-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "coastal-exploration",
+      "texture": "EXPLORE",
+      "interaction_score": 1,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "water_weather_gated": false,
+        "ferry_timetable_gated": false,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_stair_count": false,
+        "confined_space": false,
+        "high_physicality": false,
+        "wildlife_not_guaranteed": false,
+        "skip_possible": true,
+        "photo_heavy": false,
+        "transport_fee_excluded_from_magic_cost": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "transport_fee": null,
+      "transport_fee_excluded_from_attraction_ceiling": false,
+      "physical_level": "easy",
+      "skip_strategy": "Low physical demand; no skip path is required.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "green",
+      "fallback_place_id": null
     },
     {
       "id": "book-barn-niantic",
@@ -162,21 +362,49 @@
       },
       "replacement_reason": "Use when the group wants a cozy, low-cost opening or wet weather makes the river grounds less appealing.",
       "address": "The Book Barn, 41 West Main Street, Niantic, Connecticut",
-      "priority": "replacement",
+      "priority": "alternative",
       "reservation": "none",
       "cost": {
         "amount_per_person": 0,
         "status": "free",
         "note": "No admission planned."
       },
-      "replacement": {
-        "day": 1,
-        "replaces_place_ids": [
-          "florence-griswold"
-        ],
-        "route_variant_id": "replacement-d1-book-barn",
-        "reason": "Use when the group wants a cozy, low-cost opening or wet weather makes the river grounds less appealing."
-      }
+      "country": "US",
+      "coordinates": [
+        -72.2082276,
+        41.3218444
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "openstreetmap_nominatim",
+      "image_ids": [
+        "img-book-barn-niantic-1",
+        "img-book-barn-niantic-2",
+        "img-book-barn-niantic-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "north-ferry",
@@ -188,14 +416,14 @@
       "summary": "A small working ferry that carries cars across the narrow harbor to Shelter Island. It leaves every few minutes and needs no booking.",
       "why_go": "Two short ferries make Shelter Island feel like somewhere you found, not somewhere you drove through.",
       "best_for": [
-        "sheluvspaco",
-        "viki"
+        "viki",
+        "gora"
       ],
       "secondary_for": [
-        "gora",
-        "stivka"
+        "stivka",
+        "sheluvspaco"
       ],
-      "best_fit_note": "Good for Paco's sense of a well-built route and for Viki's harbor views. A small adventure right after breakfast.",
+      "best_fit_note": "Primary fit: viki, gora. Low physical demand; no skip path is required.",
       "categories": [
         "nature_photogenic",
         "unusual_creative"
@@ -205,9 +433,13 @@
         "src-north-ferry"
       ],
       "cost": {
-        "amount_per_person": 11,
-        "status": "verified-current",
-        "note": "Two cars, drivers and extra passengers divided among four travelers."
+        "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
       },
       "address": "North Ferry, 12 Summerfield Place, Shelter Island Heights, New York",
       "priority": "anchor",
@@ -217,7 +449,85 @@
         "closes": null,
         "status": "public-space-or-confirm",
         "note": "Confirm any interior access close to travel."
-      }
+      },
+      "country": "US",
+      "coordinates": [
+        -72.3578,
+        41.101
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-north-ferry-1",
+        "img-north-ferry-2",
+        "img-north-ferry-3",
+        "img-north-ferry-4"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "water-movement",
+      "texture": "MOVE",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "water_weather_gated": false,
+        "ferry_timetable_gated": false,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_stair_count": false,
+        "confined_space": false,
+        "high_physicality": false,
+        "wildlife_not_guaranteed": false,
+        "skip_possible": true,
+        "photo_heavy": true,
+        "transport_fee_excluded_from_magic_cost": true
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "transport_fee": {
+        "group_low_usd": 38,
+        "group_high_usd": 38,
+        "per_person_low_usd": 9.5,
+        "per_person_high_usd": 9.5,
+        "excluded_from_attraction_ceiling": true,
+        "note": "About $16 auto and driver plus $3 per additional passenger, two cars, one way. No reservations."
+      },
+      "transport_fee_excluded_from_attraction_ceiling": true,
+      "physical_level": "easy",
+      "skip_strategy": "Low physical demand; no skip path is required.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "green",
+      "fallback_place_id": null
     },
     {
       "id": "mashomack-preserve",
@@ -229,14 +539,14 @@
       "summary": "A 2,350-acre nature preserve covering almost a third of Shelter Island, with salt marsh, tidal creeks, oak woodland and open meadow. We walk a short loop.",
       "why_go": "Real quiet nature without a long or hard walk. Water, birds and almost nobody else.",
       "best_for": [
-        "viki",
-        "gora"
+        "gora",
+        "stivka"
       ],
       "secondary_for": [
-        "stivka",
+        "viki",
         "sheluvspaco"
       ],
-      "best_fit_note": "Good for Viki's marsh reflections and for Gora's quiet reset. Stivka gets a calm landscape with no tourist show.",
+      "best_fit_note": "Primary fit: gora, stivka. Easy-to-moderate trail sampler; shorten it freely for a slower morning.",
       "categories": [
         "nature_photogenic",
         "hidden_history_folklore"
@@ -256,9 +566,83 @@
       "reservation": "none",
       "cost": {
         "amount_per_person": 0,
-        "status": "free",
-        "note": "No admission planned."
-      }
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
+      },
+      "country": "US",
+      "coordinates": [
+        -72.3008528,
+        41.0569678
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-mashomack-preserve-1",
+        "img-mashomack-preserve-2",
+        "img-mashomack-preserve-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "wild-coast-wildlife",
+      "texture": "WILD",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "water_weather_gated": true,
+        "ferry_timetable_gated": false,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_stair_count": false,
+        "confined_space": false,
+        "high_physicality": true,
+        "wildlife_not_guaranteed": false,
+        "skip_possible": true,
+        "photo_heavy": true,
+        "transport_fee_excluded_from_magic_cost": false
+      },
+      "viki_fit": 4,
+      "gora_fit": 5,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "transport_fee": null,
+      "transport_fee_excluded_from_attraction_ceiling": false,
+      "physical_level": "moderate",
+      "skip_strategy": "Easy-to-moderate trail sampler; shorten it freely for a slower morning.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "green",
+      "fallback_place_id": "big-duck"
     },
     {
       "id": "south-ferry",
@@ -270,14 +654,14 @@
       "summary": "A five-minute car ferry from wooded Shelter Island across to the South Fork and the road to Sag Harbor.",
       "why_go": "The second short crossing finishes the island loop and means no driving back the way we came.",
       "best_for": [
-        "sheluvspaco",
-        "viki"
+        "viki",
+        "gora"
       ],
       "secondary_for": [
-        "gora",
-        "stivka"
+        "stivka",
+        "sheluvspaco"
       ],
-      "best_fit_note": "Good for Paco and Viki as a second, smaller ferry moment. Everyone gains by not repeating the same road.",
+      "best_fit_note": "Primary fit: viki, gora. Low physical demand; no skip path is required.",
       "categories": [
         "nature_photogenic",
         "unusual_creative"
@@ -287,9 +671,13 @@
         "src-south-ferry"
       ],
       "cost": {
-        "amount_per_person": 9,
-        "status": "verified-current",
-        "note": "Two standard cars divided among four travelers; cash required."
+        "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
       },
       "address": "South Ferry, 135 South Ferry Road, Shelter Island, New York",
       "priority": "anchor",
@@ -299,7 +687,86 @@
         "closes": null,
         "status": "public-space-or-confirm",
         "note": "Confirm any interior access close to travel."
-      }
+      },
+      "country": "US",
+      "coordinates": [
+        -72.3279,
+        41.0403
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-south-ferry-1",
+        "img-south-ferry-2",
+        "img-south-ferry-3",
+        "img-south-ferry-4",
+        "img-south-ferry-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "water-movement",
+      "texture": "MOVE",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "water_weather_gated": false,
+        "ferry_timetable_gated": false,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_stair_count": false,
+        "confined_space": false,
+        "high_physicality": false,
+        "wildlife_not_guaranteed": false,
+        "skip_possible": true,
+        "photo_heavy": true,
+        "transport_fee_excluded_from_magic_cost": true
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "transport_fee": {
+        "group_low_usd": 36,
+        "group_high_usd": 40,
+        "per_person_low_usd": 9,
+        "per_person_high_usd": 10,
+        "excluded_from_attraction_ceiling": true,
+        "note": "About $18 auto plus $2 passenger, two cars, one way; confirm how the driver's fare is treated at travel time."
+      },
+      "transport_fee_excluded_from_attraction_ceiling": true,
+      "physical_level": "easy",
+      "skip_strategy": "Low physical demand; no skip path is required.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "green",
+      "fallback_place_id": null
     },
     {
       "id": "parrish-art-museum",
@@ -339,8 +806,44 @@
         "note": "Adult admission."
       },
       "address": "Parrish Art Museum, 279 Montauk Highway, Water Mill, New York",
-      "priority": "anchor",
-      "reservation": "none"
+      "priority": "archive",
+      "reservation": "none",
+      "country": "US",
+      "coordinates": [
+        -72.3657221,
+        40.9046532
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "openstreetmap_nominatim",
+      "image_ids": [
+        "img-parrish-art-museum-1",
+        "img-parrish-art-museum-2",
+        "img-parrish-art-museum-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "archive",
+      "original_status": "remove-archive",
+      "energy_rebuild_role": "preserved-revision-history",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "big-duck",
@@ -369,7 +872,7 @@
       "source_ids": [
         "src-big-duck"
       ],
-      "priority": "supporting",
+      "priority": "flex",
       "hours": {
         "opens": "10:00",
         "closes": "17:00",
@@ -382,7 +885,45 @@
         "amount_per_person": 0,
         "status": "free",
         "note": "No admission planned."
-      }
+      },
+      "country": "US",
+      "coordinates": [
+        -72.6176,
+        40.9046
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-big-duck-1",
+        "img-big-duck-2",
+        "img-big-duck-3",
+        "img-big-duck-4",
+        "img-big-duck-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "flex",
+      "original_status": "demote-flex",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "tanger-riverhead",
@@ -397,11 +938,11 @@
         "viki"
       ],
       "secondary_for": [
-        "sheluvspaco",
         "gora",
-        "stivka"
+        "stivka",
+        "sheluvspaco"
       ],
-      "best_fit_note": "Built around Viki's love of outlets. The others can split off to sportswear, coffee or an early check-in with no argument.",
+      "best_fit_note": "Primary fit: viki. Low physical demand; no skip path is required.",
       "categories": [
         "food_coffee_shopping"
       ],
@@ -409,7 +950,7 @@
       "source_ids": [
         "src-tanger"
       ],
-      "priority": "supporting",
+      "priority": "anchor",
       "hours": {
         "opens": "10:00",
         "closes": "20:00",
@@ -418,11 +959,85 @@
       },
       "cost": {
         "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
         "status": "verified",
-        "note": "No admission; personal shopping excluded from budget."
+        "note": ""
       },
       "address": "Tanger Outlets Riverhead, 1770 West Main Street, Riverhead, New York",
-      "reservation": "none"
+      "reservation": "none",
+      "country": "US",
+      "coordinates": [
+        -72.7156,
+        40.9217
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-tanger-riverhead-1",
+        "img-tanger-riverhead-2",
+        "img-tanger-riverhead-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "shopping",
+      "texture": "SHOP",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "water_weather_gated": false,
+        "ferry_timetable_gated": false,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_stair_count": false,
+        "confined_space": false,
+        "high_physicality": false,
+        "wildlife_not_guaranteed": false,
+        "skip_possible": true,
+        "photo_heavy": false,
+        "transport_fee_excluded_from_magic_cost": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "transport_fee": null,
+      "transport_fee_excluded_from_attraction_ceiling": false,
+      "physical_level": "easy",
+      "skip_strategy": "Low physical demand; no skip path is required.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "green",
+      "fallback_place_id": null
     },
     {
       "id": "long-island-aquarium",
@@ -463,17 +1078,47 @@
       },
       "replacement_reason": "Replace Parrish and the Big Duck when weather is poor or the group wants one indoor consensus anchor with less driving.",
       "address": "Long Island Aquarium, 431 East Main Street, Riverhead, New York",
-      "priority": "replacement",
+      "priority": "alternative",
       "reservation": "none",
-      "replacement": {
-        "day": 2,
-        "replaces_place_ids": [
-          "parrish-art-museum",
-          "big-duck"
-        ],
-        "route_variant_id": "replacement-d2-aquarium",
-        "reason": "Replace Parrish and the Big Duck when weather is poor or the group wants one indoor consensus anchor with less driving."
-      }
+      "country": "US",
+      "coordinates": [
+        -72.6564487,
+        40.9181365
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "openstreetmap_nominatim",
+      "image_ids": [
+        "img-long-island-aquarium-1",
+        "img-long-island-aquarium-2",
+        "img-long-island-aquarium-3",
+        "img-long-island-aquarium-4",
+        "img-long-island-aquarium-5",
+        "img-long-island-aquarium-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "cradle-of-aviation",
@@ -514,8 +1159,47 @@
         "note": "Museum-only adult admission."
       },
       "address": "Cradle of Aviation Museum, Charles Lindbergh Boulevard, Garden City, New York",
-      "priority": "anchor",
-      "reservation": "none"
+      "priority": "archive",
+      "reservation": "none",
+      "country": "US",
+      "coordinates": [
+        -73.5974782,
+        40.7283473
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "openstreetmap_nominatim",
+      "image_ids": [
+        "img-cradle-of-aviation-1",
+        "img-cradle-of-aviation-2",
+        "img-cradle-of-aviation-3",
+        "img-cradle-of-aviation-4",
+        "img-cradle-of-aviation-5",
+        "img-cradle-of-aviation-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "archive",
+      "original_status": "remove-archive",
+      "energy_rebuild_role": "preserved-revision-history",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "asbury-boardwalk",
@@ -534,7 +1218,7 @@
         "gora",
         "sheluvspaco"
       ],
-      "best_fit_note": "Good for Viki's architecture and ocean images, and for Stivka's interest in music history. Gora gets the harder story behind the rebuilding.",
+      "best_fit_note": "Primary fit: viki, stivka. Low physical demand; no skip path is required.",
       "categories": [
         "architecture_photogenic",
         "nature_photogenic",
@@ -544,7 +1228,7 @@
       "source_ids": [
         "src-asbury"
       ],
-      "priority": "supporting",
+      "priority": "anchor",
       "address": "Asbury Park Convention Hall, 1300 Ocean Avenue, Asbury Park, New Jersey",
       "reservation": "none",
       "hours": {
@@ -555,9 +1239,86 @@
       },
       "cost": {
         "amount_per_person": 0,
-        "status": "free",
-        "note": "No admission planned."
-      }
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
+      },
+      "country": "US",
+      "coordinates": [
+        -74.0105,
+        40.2236
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-asbury-boardwalk-1",
+        "img-asbury-boardwalk-2",
+        "img-asbury-boardwalk-3",
+        "img-asbury-boardwalk-4",
+        "img-asbury-boardwalk-5",
+        "img-asbury-boardwalk-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "coastal-exploration",
+      "texture": "EXPLORE",
+      "interaction_score": 1,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "water_weather_gated": true,
+        "ferry_timetable_gated": false,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_stair_count": false,
+        "confined_space": false,
+        "high_physicality": false,
+        "wildlife_not_guaranteed": false,
+        "skip_possible": true,
+        "photo_heavy": false,
+        "transport_fee_excluded_from_magic_cost": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "transport_fee": null,
+      "transport_fee_excluded_from_attraction_ceiling": false,
+      "physical_level": "easy",
+      "skip_strategy": "Low physical demand; no skip path is required.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "green",
+      "fallback_place_id": null
     },
     {
       "id": "silverball-asbury",
@@ -569,14 +1330,14 @@
       "summary": "Rows of restored pinball and arcade machines, all set to free play after one entry ticket, directly across from the ocean.",
       "why_go": "Pay once and play everything. Four people can compete, wander off and come back with no planning at all.",
       "best_for": [
-        "sheluvspaco",
-        "viki"
+        "gora",
+        "sheluvspaco"
       ],
       "secondary_for": [
-        "gora",
+        "viki",
         "stivka"
       ],
-      "best_fit_note": "Good for Paco's group energy and for Viki's neon photos. Gora and Stivka get old machines and rock-era nostalgia.",
+      "best_fit_note": "Primary fit: gora, sheluvspaco. Low physical demand; no skip path is required.",
       "categories": [
         "unusual_creative",
         "live_social_nightlife"
@@ -593,12 +1354,86 @@
       },
       "cost": {
         "amount_per_person": 20,
+        "low": 20,
+        "high": 20,
+        "amount_per_group": 80,
+        "price_type": "per-person",
         "status": "verified",
-        "note": "Half-day pass; one-hour and all-day options exist."
+        "note": ""
       },
       "address": "Silverball Retro Arcade, 1000 Ocean Avenue, Asbury Park, New Jersey",
       "priority": "anchor",
-      "reservation": "none"
+      "reservation": "none",
+      "country": "US",
+      "coordinates": [
+        -74.0101,
+        40.219
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-silverball-asbury-1",
+        "img-silverball-asbury-2",
+        "img-silverball-asbury-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "interactive-play",
+      "texture": "COMPETE",
+      "interaction_score": 3,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "water_weather_gated": false,
+        "ferry_timetable_gated": false,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_stair_count": false,
+        "confined_space": false,
+        "high_physicality": false,
+        "wildlife_not_guaranteed": false,
+        "skip_possible": true,
+        "photo_heavy": false,
+        "transport_fee_excluded_from_magic_cost": false
+      },
+      "viki_fit": 4,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 5,
+      "price_type": "per-person",
+      "price_per_person_low": 20,
+      "price_per_person_high": 20,
+      "price_per_group": 80,
+      "price_last_checked": "2026-08-31",
+      "transport_fee": null,
+      "transport_fee_excluded_from_attraction_ceiling": false,
+      "physical_level": "light-moderate",
+      "skip_strategy": "Low physical demand; no skip path is required.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "green",
+      "fallback_place_id": null
     },
     {
       "id": "asbury-live-music",
@@ -638,7 +1473,46 @@
         "note": "Ticket/drinks excluded from the core budget target."
       },
       "address": "The Stone Pony, 913 Ocean Avenue, Asbury Park, New Jersey",
-      "priority": "anchor"
+      "priority": "optional",
+      "country": "US",
+      "coordinates": [
+        -74.0109,
+        40.2177
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-asbury-live-music-1",
+        "img-asbury-live-music-2",
+        "img-asbury-live-music-3",
+        "img-asbury-live-music-4",
+        "img-asbury-live-music-5",
+        "img-asbury-live-music-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "ocean-grove",
@@ -675,21 +1549,51 @@
       },
       "replacement_reason": "Choose for a no-detour, low-cost spiritual-architecture morning when the aviation museum feels too institutional.",
       "address": "Great Auditorium, 21 Pilgrim Pathway, Ocean Grove, New Jersey",
-      "priority": "replacement",
+      "priority": "alternative",
       "reservation": "none",
       "cost": {
         "amount_per_person": 0,
         "status": "free",
         "note": "No admission planned."
       },
-      "replacement": {
-        "day": 3,
-        "replaces_place_ids": [
-          "cradle-of-aviation"
-        ],
-        "route_variant_id": "replacement-d3-ocean-grove",
-        "reason": "Choose for a no-detour, low-cost spiritual-architecture morning when the aviation museum feels too institutional."
-      }
+      "country": "US",
+      "coordinates": [
+        -74.0063,
+        40.2122
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-ocean-grove-1",
+        "img-ocean-grove-2",
+        "img-ocean-grove-3",
+        "img-ocean-grove-4",
+        "img-ocean-grove-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "lucy-elephant",
@@ -702,13 +1606,13 @@
       "why_go": "You go inside a giant elephant and out onto her back. Silly on the surface, with a real story of people saving her from demolition.",
       "best_for": [
         "viki",
-        "sheluvspaco"
+        "stivka"
       ],
       "secondary_for": [
         "gora",
-        "stivka"
+        "sheluvspaco"
       ],
-      "best_fit_note": "Good for Viki's strange architecture photos and Paco's sense of fun. The guided climb gives the others the real building story.",
+      "best_fit_note": "Primary fit: viki, stivka. The 65-step climb is optional; the surrounding grounds keep everyone included.",
       "categories": [
         "architecture_photogenic",
         "unusual_creative",
@@ -718,7 +1622,7 @@
       "source_ids": [
         "src-lucy"
       ],
-      "reservation": "recommended",
+      "reservation": "required",
       "hours": {
         "opens": "10:00",
         "closes": "20:00",
@@ -727,11 +1631,88 @@
       },
       "cost": {
         "amount_per_person": 9,
-        "status": "verified-current",
-        "note": "Adult guided tour."
+        "low": 9,
+        "high": 9,
+        "amount_per_group": 36,
+        "price_type": "per-person",
+        "status": "verified",
+        "note": ""
       },
       "address": "Lucy the Elephant, 9200 Atlantic Avenue, Margate City, New Jersey",
-      "priority": "anchor"
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -74.5161,
+        39.3208
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-lucy-elephant-1",
+        "img-lucy-elephant-2",
+        "img-lucy-elephant-3",
+        "img-lucy-elephant-4",
+        "img-lucy-elephant-5",
+        "img-lucy-elephant-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "interactive-play",
+      "texture": "WEIRD",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "water_weather_gated": false,
+        "ferry_timetable_gated": false,
+        "booking_required": true,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_stair_count": 65,
+        "confined_space": false,
+        "high_physicality": false,
+        "wildlife_not_guaranteed": false,
+        "skip_possible": true,
+        "photo_heavy": true,
+        "transport_fee_excluded_from_magic_cost": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "per-person",
+      "price_per_person_low": 9,
+      "price_per_person_high": 9,
+      "price_per_group": 36,
+      "price_last_checked": "2026-08-31",
+      "transport_fee": null,
+      "transport_fee_excluded_from_attraction_ceiling": false,
+      "physical_level": "easy",
+      "skip_strategy": "The 65-step climb is optional; the surrounding grounds keep everyone included.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "green",
+      "fallback_place_id": null
     },
     {
       "id": "nas-wildwood",
@@ -772,8 +1753,47 @@
         "note": "Adult admission."
       },
       "address": "Naval Air Station Wildwood Aviation Museum, 500 Forrestal Road, Cape May, New Jersey",
-      "priority": "anchor",
-      "reservation": "none"
+      "priority": "archive",
+      "reservation": "none",
+      "country": "US",
+      "coordinates": [
+        -74.9082,
+        39.0027
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-nas-wildwood-1",
+        "img-nas-wildwood-2",
+        "img-nas-wildwood-3",
+        "img-nas-wildwood-4",
+        "img-nas-wildwood-5",
+        "img-nas-wildwood-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "archive",
+      "original_status": "remove-archive",
+      "energy_rebuild_role": "preserved-revision-history",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "cape-may-victorian",
@@ -801,7 +1821,7 @@
       "source_ids": [
         "src-cape-may-mac"
       ],
-      "priority": "supporting",
+      "priority": "flex",
       "address": "Washington Street Mall, Cape May, New Jersey",
       "reservation": "none",
       "hours": {
@@ -814,7 +1834,45 @@
         "amount_per_person": 0,
         "status": "free",
         "note": "No admission planned."
-      }
+      },
+      "country": "US",
+      "coordinates": [
+        -74.921,
+        38.9318
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-cape-may-victorian-1",
+        "img-cape-may-victorian-2",
+        "img-cape-may-victorian-3",
+        "img-cape-may-victorian-4",
+        "img-cape-may-victorian-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "flex",
+      "original_status": "demote-flex",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "cape-may-ghosts",
@@ -827,13 +1885,13 @@
       "why_go": "Folklore and dark local history after dark, and it keeps the evening social without turning into a club night.",
       "best_for": [
         "viki",
-        "gora"
+        "stivka"
       ],
       "secondary_for": [
-        "stivka",
+        "gora",
         "sheluvspaco"
       ],
-      "best_fit_note": "Good for Viki's love of unusual places and for Gora's interest in uncomfortable history. Stivka can enjoy the stories without confusing them with faith.",
+      "best_fit_note": "Primary fit: viki, stivka. Low physical demand; no skip path is required.",
       "categories": [
         "hidden_history_folklore",
         "live_social_nightlife",
@@ -843,7 +1901,7 @@
       "source_ids": [
         "src-cape-may-mac"
       ],
-      "reservation": "required-when-calendar-opens",
+      "reservation": "required",
       "hours": {
         "opens": "18:00",
         "closes": "21:30",
@@ -851,12 +1909,86 @@
         "note": "Choose the actual October 7 departure when the date grid is released; do not substitute an unreviewed operator."
       },
       "cost": {
-        "amount_per_person": 25,
-        "status": "planning-estimate",
-        "note": "Confirm exact 2026 tour price."
+        "amount_per_person": 20,
+        "low": 20,
+        "high": 20,
+        "amount_per_group": 80,
+        "price_type": "per-person",
+        "status": "verified",
+        "note": ""
       },
       "address": "Ocean Street Trolley Stop, Cape May, New Jersey",
-      "priority": "anchor"
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -74.917,
+        38.9313
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-cape-may-ghosts-1",
+        "img-cape-may-ghosts-2",
+        "img-cape-may-ghosts-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "folklore-october",
+      "texture": "WEIRD",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "water_weather_gated": false,
+        "ferry_timetable_gated": false,
+        "booking_required": true,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_stair_count": false,
+        "confined_space": false,
+        "high_physicality": false,
+        "wildlife_not_guaranteed": false,
+        "skip_possible": true,
+        "photo_heavy": true,
+        "transport_fee_excluded_from_magic_cost": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "per-person",
+      "price_per_person_low": 20,
+      "price_per_person_high": 20,
+      "price_per_group": 80,
+      "price_last_checked": "2026-08-31",
+      "transport_fee": null,
+      "transport_fee_excluded_from_attraction_ceiling": false,
+      "physical_level": "easy",
+      "skip_strategy": "Low physical demand; no skip path is required.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "green",
+      "fallback_place_id": null
     },
     {
       "id": "sunset-beach-atlantus",
@@ -893,21 +2025,51 @@
       },
       "replacement_reason": "Use when Lucy's tour timing is inconvenient or the group wants a free natural-and-industrial sunset anchor.",
       "address": "Sunset Beach, 502 Sunset Boulevard, Cape May Point, New Jersey",
-      "priority": "replacement",
+      "priority": "alternative",
       "reservation": "none",
       "cost": {
         "amount_per_person": 0,
         "status": "free",
         "note": "No admission planned."
       },
-      "replacement": {
-        "day": 4,
-        "replaces_place_ids": [
-          "lucy-elephant"
-        ],
-        "route_variant_id": "replacement-d4-atlantus",
-        "reason": "Use when Lucy's tour timing is inconvenient or the group wants a free natural-and-industrial sunset anchor."
-      }
+      "country": "US",
+      "coordinates": [
+        -74.9697,
+        38.9441
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-sunset-beach-atlantus-1",
+        "img-sunset-beach-atlantus-2",
+        "img-sunset-beach-atlantus-3",
+        "img-sunset-beach-atlantus-4",
+        "img-sunset-beach-atlantus-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "cape-may-lewes-ferry",
@@ -920,13 +2082,13 @@
       "why_go": "The crossing is the best part of the day, and it avoids driving back through the Philadelphia corridor.",
       "best_for": [
         "viki",
-        "sheluvspaco"
+        "gora"
       ],
       "secondary_for": [
-        "gora",
-        "stivka"
+        "stivka",
+        "sheluvspaco"
       ],
-      "best_fit_note": "Good for Viki's sea and lighthouse photos and for Paco's route design. Everyone is forced to slow down for a while.",
+      "best_fit_note": "Primary fit: viki, gora. Low physical demand; no skip path is required.",
       "categories": [
         "nature_photogenic",
         "unusual_creative"
@@ -935,7 +2097,7 @@
       "source_ids": [
         "src-cmlf"
       ],
-      "reservation": "required-for-two-cars",
+      "reservation": "required",
       "hours": {
         "opens": null,
         "closes": null,
@@ -943,12 +2105,95 @@
         "note": "Book the published October 8 morning sailing and check in 30 minutes early."
       },
       "cost": {
-        "amount_per_person": 35,
-        "status": "planning-estimate",
-        "note": "Two standard vehicles and four adults divided per traveler."
+        "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
       },
       "address": "Cape May-Lewes Ferry Terminal, 1200 Lincoln Boulevard, North Cape May, New Jersey",
-      "priority": "anchor"
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -74.9597,
+        38.9687
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-cape-may-lewes-ferry-1",
+        "img-cape-may-lewes-ferry-2",
+        "img-cape-may-lewes-ferry-3",
+        "img-cape-may-lewes-ferry-4",
+        "img-cape-may-lewes-ferry-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "water-movement",
+      "texture": "MOVE",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "water_weather_gated": true,
+        "ferry_timetable_gated": true,
+        "booking_required": true,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_stair_count": false,
+        "confined_space": false,
+        "high_physicality": false,
+        "wildlife_not_guaranteed": false,
+        "skip_possible": true,
+        "photo_heavy": true,
+        "transport_fee_excluded_from_magic_cost": true
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "transport_fee": {
+        "group_low_usd": 84,
+        "group_high_usd": 96,
+        "per_person_low_usd": 21,
+        "per_person_high_usd": 24,
+        "excluded_from_attraction_ceiling": true,
+        "note": "About $42-48 per standard vehicle one way, two cars, plus passenger fares; take the exact Oct 8 total from the booking cart."
+      },
+      "transport_fee_excluded_from_attraction_ceiling": true,
+      "physical_level": "easy",
+      "skip_strategy": "Low physical demand; no skip path is required.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "yellow",
+      "fallback_place_id": null
     },
     {
       "id": "fort-miles",
@@ -967,7 +2212,7 @@
         "viki",
         "sheluvspaco"
       ],
-      "best_fit_note": "Good for Gora's military history and Stivka's serious historical conversation. Viki gets the contrast of concrete against sand.",
+      "best_fit_note": "Primary fit: gora, stivka. Low physical demand; no skip path is required.",
       "categories": [
         "hidden_history_folklore",
         "architecture_photogenic"
@@ -976,7 +2221,7 @@
       "source_ids": [
         "src-fort-miles"
       ],
-      "reservation": "recommended",
+      "reservation": "required",
       "hours": {
         "opens": "10:00",
         "closes": "16:00",
@@ -985,11 +2230,88 @@
       },
       "cost": {
         "amount_per_person": 6,
+        "low": 6,
+        "high": 6,
+        "amount_per_group": 24,
+        "price_type": "per-person",
         "status": "verified",
-        "note": "Guided Battery 519 tour; many exhibits are free."
+        "note": ""
       },
       "address": "Fort Miles Museum, 15099 Cape Henlopen Drive, Lewes, Delaware",
-      "priority": "anchor"
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -75.0949,
+        38.7758
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-fort-miles-1",
+        "img-fort-miles-2",
+        "img-fort-miles-3",
+        "img-fort-miles-4",
+        "img-fort-miles-5",
+        "img-fort-miles-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "working-infrastructure",
+      "texture": "EXPLORE",
+      "interaction_score": 3,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "water_weather_gated": false,
+        "ferry_timetable_gated": false,
+        "booking_required": true,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_stair_count": false,
+        "confined_space": true,
+        "high_physicality": false,
+        "wildlife_not_guaranteed": false,
+        "skip_possible": true,
+        "photo_heavy": false,
+        "transport_fee_excluded_from_magic_cost": false
+      },
+      "viki_fit": 4,
+      "gora_fit": 5,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "per-person",
+      "price_per_person_low": 6,
+      "price_per_person_high": 6,
+      "price_per_group": 24,
+      "price_last_checked": "2026-08-31",
+      "transport_fee": null,
+      "transport_fee_excluded_from_attraction_ceiling": false,
+      "physical_level": "light-moderate",
+      "skip_strategy": "Low physical demand; no skip path is required.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "yellow",
+      "fallback_place_id": "zwaanendael"
     },
     {
       "id": "great-dune-tower",
@@ -1018,7 +2340,7 @@
       "source_ids": [
         "src-fort-miles"
       ],
-      "priority": "supporting",
+      "priority": "flex",
       "address": "Observation Tower, Fort Miles, Cape Henlopen State Park, Lewes, Delaware",
       "reservation": "none",
       "hours": {
@@ -1031,7 +2353,45 @@
         "amount_per_person": 0,
         "status": "free",
         "note": "No admission planned."
-      }
+      },
+      "country": "US",
+      "coordinates": [
+        -75.0915,
+        38.7768
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-great-dune-tower-1",
+        "img-great-dune-tower-2",
+        "img-great-dune-tower-3",
+        "img-great-dune-tower-4",
+        "img-great-dune-tower-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "flex",
+      "original_status": "demote-flex",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "berlin-historic",
@@ -1060,7 +2420,7 @@
       "source_ids": [
         "src-cmlf"
       ],
-      "priority": "supporting",
+      "priority": "flex",
       "address": "Atlantic Hotel, 2 North Main Street, Berlin, Maryland",
       "reservation": "none",
       "hours": {
@@ -1073,7 +2433,46 @@
         "amount_per_person": 0,
         "status": "free",
         "note": "No admission planned."
-      }
+      },
+      "country": "US",
+      "coordinates": [
+        -75.2174,
+        38.3229
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-berlin-historic-1",
+        "img-berlin-historic-2",
+        "img-berlin-historic-3",
+        "img-berlin-historic-4",
+        "img-berlin-historic-5",
+        "img-berlin-historic-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "flex",
+      "original_status": "demote-flex",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "zwaanendael",
@@ -1109,47 +2508,77 @@
       },
       "replacement_reason": "Promote after a late ferry, hard rain or when a compact Dutch-maritime story fits the group better than two bunker hours.",
       "address": "Zwaanendael Museum, 102 Kings Highway, Lewes, Delaware",
-      "priority": "replacement",
+      "priority": "alternative",
       "reservation": "none",
       "cost": {
         "amount_per_person": 0,
         "status": "free",
         "note": "No admission planned."
       },
-      "replacement": {
-        "day": 5,
-        "replaces_place_ids": [
-          "fort-miles"
-        ],
-        "route_variant_id": "replacement-d5-zwaanendael",
-        "reason": "Promote after a late ferry, hard rain or when a compact Dutch-maritime story fits the group better than two bunker hours."
-      }
+      "country": "US",
+      "coordinates": [
+        -75.1391799,
+        38.7740526
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "openstreetmap_nominatim",
+      "image_ids": [
+        "img-zwaanendael-1",
+        "img-zwaanendael-2",
+        "img-zwaanendael-3",
+        "img-zwaanendael-4",
+        "img-zwaanendael-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "assateague",
-      "name": "Assateague Wild-Horse Golden Hour",
+      "name": "Chincoteague Refuge Wild-Pony Golden Hour",
       "kind": "barrier-island-wildlife",
-      "city": "Berlin",
-      "state": "MD",
+      "city": "Chincoteague",
+      "state": "VA",
       "visit_date": "2026-10-08",
-      "summary": "A late-afternoon drive and walk on a barrier island where wild horses move freely through salt marsh, pine woods and open beach. Nothing is staged.",
-      "why_go": "Wild horses in beautiful light, and nobody can promise where they will be. That uncertainty is the point.",
+      "summary": "Drive the refuge Wildlife Loop after it opens to vehicles at 3pm, watching for the Virginia herd across marsh, pool and maritime forest until dusk.",
+      "why_go": "Same wild-horse memory as the original plan, but on the Virginia side, which removes the Berlin detour and sets up the next morning's kayak.",
       "best_for": [
         "viki",
-        "gora"
+        "stivka"
       ],
       "secondary_for": [
-        "stivka",
+        "gora",
         "sheluvspaco"
       ],
-      "best_fit_note": "Good for Viki's best nature photos and for Gora's quiet outdoor side. Everyone must keep the official distance and never feed or touch the horses.",
+      "best_fit_note": "Primary fit: viki, stivka. The whole loop is driven; step out only at the signed pull-offs.",
       "categories": [
         "nature_photogenic",
         "unusual_creative"
       ],
       "duration_minutes": 90,
       "source_ids": [
-        "src-assateague"
+        "src-v3-chincoteague-refuge"
       ],
       "hours": {
         "opens": "06:00",
@@ -1158,13 +2587,90 @@
         "note": "Maryland district is open year-round; wild-horse encounters are never guaranteed."
       },
       "cost": {
-        "amount_per_person": 13,
-        "status": "planning-estimate",
-        "note": "Two vehicle passes divided among four travelers."
+        "amount_per_person": 5,
+        "low": 5,
+        "high": 5,
+        "amount_per_group": 20,
+        "price_type": "group-share",
+        "status": "verified",
+        "note": "Two $10 weekly refuge vehicle passes shared by four."
       },
-      "address": "Assateague Island National Seashore, 7206 National Seashore Lane, Berlin, Maryland",
+      "address": "Chincoteague National Wildlife Refuge, 8231 Beach Road, Chincoteague, VA 23336",
       "priority": "anchor",
-      "reservation": "none"
+      "reservation": "none",
+      "country": "US",
+      "coordinates": [
+        -75.3283,
+        37.9449
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-assateague-1",
+        "img-assateague-2",
+        "img-assateague-3",
+        "img-assateague-4",
+        "img-assateague-5",
+        "img-assateague-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "wild-coast-wildlife",
+      "texture": "WILD",
+      "interaction_score": 1,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "water_weather_gated": true,
+        "ferry_timetable_gated": false,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_stair_count": false,
+        "confined_space": false,
+        "high_physicality": false,
+        "wildlife_not_guaranteed": true,
+        "skip_possible": true,
+        "photo_heavy": true,
+        "transport_fee_excluded_from_magic_cost": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "group-share",
+      "price_per_person_low": 5,
+      "price_per_person_high": 5,
+      "price_per_group": 20,
+      "price_last_checked": "2026-08-31",
+      "transport_fee": null,
+      "transport_fee_excluded_from_attraction_ceiling": false,
+      "physical_level": "easy",
+      "skip_strategy": "The whole loop is driven; step out only at the signed pull-offs.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "yellow",
+      "fallback_place_id": "barrier-islands-center"
     },
     {
       "id": "nasa-wallops",
@@ -1177,13 +2683,13 @@
       "why_go": "A real working NASA launch site, right on our road, doing the science that never makes the news.",
       "best_for": [
         "gora",
-        "viki"
-      ],
-      "secondary_for": [
-        "stivka",
         "sheluvspaco"
       ],
-      "best_fit_note": "Good for Gora's interest in what happens outside the famous space programs, and for Viki's photos of rocket hardware.",
+      "secondary_for": [
+        "viki",
+        "stivka"
+      ],
+      "best_fit_note": "Primary fit: gora, sheluvspaco. Low physical demand; no skip path is required.",
       "categories": [
         "unusual_creative",
         "hidden_history_folklore"
@@ -1203,9 +2709,85 @@
       "reservation": "none",
       "cost": {
         "amount_per_person": 0,
-        "status": "free",
-        "note": "No admission planned."
-      }
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
+      },
+      "country": "US",
+      "coordinates": [
+        -75.4665,
+        37.9333
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-nasa-wallops-1",
+        "img-nasa-wallops-2",
+        "img-nasa-wallops-3",
+        "img-nasa-wallops-4",
+        "img-nasa-wallops-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "working-infrastructure",
+      "texture": "DISCOVER",
+      "interaction_score": 2,
+      "museum_like": true,
+      "experience_flags": {
+        "museum_like": true,
+        "water_weather_gated": false,
+        "ferry_timetable_gated": false,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_stair_count": false,
+        "confined_space": false,
+        "high_physicality": false,
+        "wildlife_not_guaranteed": false,
+        "skip_possible": true,
+        "photo_heavy": false,
+        "transport_fee_excluded_from_magic_cost": false
+      },
+      "viki_fit": 4,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 5,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "transport_fee": null,
+      "transport_fee_excluded_from_attraction_ceiling": false,
+      "physical_level": "easy",
+      "skip_strategy": "Low physical demand; no skip path is required.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "green",
+      "fallback_place_id": null
     },
     {
       "id": "barrier-islands-center",
@@ -1240,13 +2822,51 @@
         "note": "Tuesday-Saturday; free admission."
       },
       "address": "Barrier Islands Center, 7295 Young Street, Machipongo, Virginia",
-      "priority": "anchor",
+      "priority": "optional",
       "reservation": "none",
       "cost": {
         "amount_per_person": 0,
         "status": "free",
         "note": "No admission planned."
-      }
+      },
+      "country": "US",
+      "coordinates": [
+        -75.9948,
+        37.403
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-barrier-islands-center-1",
+        "img-barrier-islands-center-2",
+        "img-barrier-islands-center-3",
+        "img-barrier-islands-center-4",
+        "img-barrier-islands-center-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "chesapeake-bridge-tunnel",
@@ -1258,14 +2878,14 @@
       "summary": "A 17-mile crossing of the open mouth of Chesapeake Bay, made of low bridges that twice dive into tunnels under the shipping lanes.",
       "why_go": "The road appears to sink into the sea, then comes back up. It is transport and a huge piece of engineering at the same time.",
       "best_for": [
-        "viki",
-        "gora"
+        "gora",
+        "viki"
       ],
       "secondary_for": [
-        "sheluvspaco",
-        "stivka"
+        "stivka",
+        "sheluvspaco"
       ],
-      "best_fit_note": "Good for Viki's images of roads in water and for Gora's interest in heavy engineering. Paco gets another drive that feels like a stop.",
+      "best_fit_note": "Primary fit: gora, viki. Low physical demand; no skip path is required.",
       "categories": [
         "architecture_photogenic",
         "unusual_creative"
@@ -1275,9 +2895,13 @@
         "src-cbbt"
       ],
       "cost": {
-        "amount_per_person": 8,
-        "status": "verified-current",
-        "note": "Two off-peak standard-car tolls divided among four travelers."
+        "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
       },
       "address": "Chesapeake Bay Bridge-Tunnel, Virginia",
       "priority": "anchor",
@@ -1287,7 +2911,87 @@
         "closes": null,
         "status": "public-space-or-confirm",
         "note": "Confirm any interior access close to travel."
-      }
+      },
+      "country": "US",
+      "coordinates": [
+        -76.08,
+        37.03
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-chesapeake-bridge-tunnel-1",
+        "img-chesapeake-bridge-tunnel-2",
+        "img-chesapeake-bridge-tunnel-3",
+        "img-chesapeake-bridge-tunnel-4",
+        "img-chesapeake-bridge-tunnel-5",
+        "img-chesapeake-bridge-tunnel-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "working-infrastructure",
+      "texture": "MOVE",
+      "interaction_score": 1,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "water_weather_gated": false,
+        "ferry_timetable_gated": false,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_stair_count": false,
+        "confined_space": false,
+        "high_physicality": false,
+        "wildlife_not_guaranteed": false,
+        "skip_possible": true,
+        "photo_heavy": true,
+        "transport_fee_excluded_from_magic_cost": true
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "transport_fee": {
+        "group_low_usd": 32,
+        "group_high_usd": 32,
+        "per_person_low_usd": 8,
+        "per_person_high_usd": 8,
+        "excluded_from_attraction_ceiling": true,
+        "note": "Class 1 off-peak toll of $16 per car, two cars. October sits outside the current summer peak window."
+      },
+      "transport_fee_excluded_from_attraction_ceiling": true,
+      "physical_level": "easy",
+      "skip_strategy": "Low physical demand; no skip path is required.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "green",
+      "fallback_place_id": null
     },
     {
       "id": "norfolk-pagoda",
@@ -1315,7 +3019,7 @@
       "source_ids": [
         "src-nauticus"
       ],
-      "priority": "supporting",
+      "priority": "flex",
       "address": "Pagoda and Oriental Garden, 265 West Tazewell Street, Norfolk, Virginia",
       "reservation": "none",
       "hours": {
@@ -1328,7 +3032,46 @@
         "amount_per_person": 0,
         "status": "free",
         "note": "No admission planned."
-      }
+      },
+      "country": "US",
+      "coordinates": [
+        -76.2964,
+        36.8505
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-norfolk-pagoda-1",
+        "img-norfolk-pagoda-2",
+        "img-norfolk-pagoda-3",
+        "img-norfolk-pagoda-4",
+        "img-norfolk-pagoda-5",
+        "img-norfolk-pagoda-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "flex",
+      "original_status": "demote-flex",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "cape-charles",
@@ -1359,7 +3102,7 @@
       ],
       "replacement_reason": "Replace Barrier Islands Center when the group wants an outdoor town-and-bay pause or arrives after museum hours.",
       "address": "Cape Charles Historic District, Cape Charles, Virginia",
-      "priority": "replacement",
+      "priority": "alternative",
       "reservation": "none",
       "hours": {
         "opens": null,
@@ -1372,14 +3115,44 @@
         "status": "free",
         "note": "No admission planned."
       },
-      "replacement": {
-        "day": 6,
-        "replaces_place_ids": [
-          "barrier-islands-center"
-        ],
-        "route_variant_id": "replacement-d6-cape-charles",
-        "reason": "Replace Barrier Islands Center when the group wants an outdoor town-and-bay pause or arrives after museum hours."
-      }
+      "country": "US",
+      "coordinates": [
+        -76.0174,
+        37.2679
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-cape-charles-1",
+        "img-cape-charles-2",
+        "img-cape-charles-3",
+        "img-cape-charles-4",
+        "img-cape-charles-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "nauticus-wisconsin",
@@ -1388,8 +3161,8 @@
       "city": "Norfolk",
       "state": "VA",
       "visit_date": "2026-10-10",
-      "summary": "A battleship as long as a city block, open from the bridge down to the engine rooms, next to a museum of hands-on harbor exhibits.",
-      "why_go": "You walk through the whole ship, from the command bridge to the engines. The size alone explains more than any display case.",
+      "summary": "Board the battleship Wisconsin and take the guided Command & Control route up through levels and spaces the self-guided circulation never reaches.",
+      "why_go": "The guided add-on converts a broad museum visit into physical, restricted warship space, which is the only reason the stop survived.",
       "best_for": [
         "gora",
         "stivka"
@@ -1398,7 +3171,7 @@
         "viki",
         "sheluvspaco"
       ],
-      "best_fit_note": "Good for Gora's love of heavy machines and for Stivka's interest in the lives of the crew. Viki gets huge deck views over the city.",
+      "best_fit_note": "Primary fit: gora, stivka. Take the standard ship deck route if the guided ladders and confined spaces feel too tight.",
       "categories": [
         "architecture_photogenic",
         "hidden_history_folklore",
@@ -1406,9 +3179,10 @@
       ],
       "duration_minutes": 150,
       "source_ids": [
-        "src-nauticus"
+        "src-nauticus",
+        "src-v3-nauticus-tour"
       ],
-      "reservation": "general-entry-advance",
+      "reservation": "required",
       "hours": {
         "opens": "09:00",
         "closes": "17:00",
@@ -1416,12 +3190,89 @@
         "note": "Open daily; special below-deck tours cost extra."
       },
       "cost": {
-        "amount_per_person": 19.95,
+        "amount_per_person": 39.95,
+        "low": 39.95,
+        "high": 39.95,
+        "amount_per_group": 159.8,
+        "price_type": "per-person",
         "status": "verified",
-        "note": "Adult general admission includes the ship."
+        "note": "$19.95 general admission plus the $20 Command & Control guided tour."
       },
       "address": "Nauticus, 1 Waterside Drive, Norfolk, Virginia",
-      "priority": "anchor"
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -76.2951,
+        36.8477
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-nauticus-wisconsin-1",
+        "img-nauticus-wisconsin-2",
+        "img-nauticus-wisconsin-3",
+        "img-nauticus-wisconsin-4",
+        "img-nauticus-wisconsin-5",
+        "img-nauticus-wisconsin-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "working-infrastructure",
+      "texture": "EXPLORE",
+      "interaction_score": 3,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "water_weather_gated": false,
+        "ferry_timetable_gated": false,
+        "booking_required": true,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_stair_count": false,
+        "confined_space": true,
+        "high_physicality": true,
+        "wildlife_not_guaranteed": false,
+        "skip_possible": true,
+        "photo_heavy": false,
+        "transport_fee_excluded_from_magic_cost": false
+      },
+      "viki_fit": 4,
+      "gora_fit": 5,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "per-person",
+      "price_per_person_low": 39.95,
+      "price_per_person_high": 39.95,
+      "price_per_group": 159.8,
+      "price_last_checked": "2026-08-31",
+      "transport_fee": null,
+      "transport_fee_excluded_from_attraction_ceiling": false,
+      "physical_level": "moderate",
+      "skip_strategy": "Take the standard ship deck route if the guided ladders and confined spaces feel too tight.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "yellow",
+      "fallback_place_id": null
     },
     {
       "id": "edgar-cayce-are",
@@ -1457,13 +3308,51 @@
         "note": "Saturday visitor center and bookstore hours; library opens at noon."
       },
       "address": "Edgar Cayce A.R.E., 215 67th Street, Virginia Beach, Virginia",
-      "priority": "anchor",
+      "priority": "archive",
       "reservation": "none",
       "cost": {
         "amount_per_person": 0,
         "status": "free",
         "note": "No admission planned."
-      }
+      },
+      "country": "US",
+      "coordinates": [
+        -75.985,
+        36.891
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-edgar-cayce-are-1",
+        "img-edgar-cayce-are-2",
+        "img-edgar-cayce-are-3",
+        "img-edgar-cayce-are-4",
+        "img-edgar-cayce-are-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "archive",
+      "original_status": "remove-archive",
+      "energy_rebuild_role": "preserved-revision-history",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "vibe-neptune",
@@ -1492,7 +3381,7 @@
       "source_ids": [
         "src-are"
       ],
-      "priority": "supporting",
+      "priority": "flex",
       "address": "King Neptune Statue, 3001 Atlantic Avenue, Virginia Beach, Virginia",
       "reservation": "none",
       "hours": {
@@ -1505,7 +3394,43 @@
         "amount_per_person": 0,
         "status": "free",
         "note": "No admission planned."
-      }
+      },
+      "country": "US",
+      "coordinates": [
+        -75.9779,
+        36.8594
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-vibe-neptune-1",
+        "img-vibe-neptune-2",
+        "img-vibe-neptune-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "flex",
+      "original_status": "demote-flex",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "poe-museum-richmond",
@@ -1546,8 +3471,46 @@
         "note": "Adult admission."
       },
       "address": "Poe Museum, 1914 East Main Street, Richmond, Virginia",
-      "priority": "anchor",
-      "reservation": "none"
+      "priority": "optional",
+      "reservation": "none",
+      "country": "US",
+      "coordinates": [
+        -77.4261,
+        37.5322
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-poe-museum-richmond-1",
+        "img-poe-museum-richmond-2",
+        "img-poe-museum-richmond-3",
+        "img-poe-museum-richmond-4",
+        "img-poe-museum-richmond-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "hermitage-norfolk",
@@ -1578,7 +3541,7 @@
       ],
       "replacement_reason": "Choose in poor ship-deck weather or when the group wants one eccentric waterfront art block instead of the Pagoda, battleship and ViBe photo stops.",
       "address": "Hermitage Museum and Gardens, 7637 North Shore Road, Norfolk, Virginia",
-      "priority": "replacement",
+      "priority": "alternative",
       "reservation": "none",
       "hours": {
         "opens": null,
@@ -1591,16 +3554,44 @@
         "status": "free",
         "note": "No admission planned."
       },
-      "replacement": {
-        "day": 7,
-        "replaces_place_ids": [
-          "norfolk-pagoda",
-          "nauticus-wisconsin",
-          "vibe-neptune"
-        ],
-        "route_variant_id": "replacement-d7-hermitage",
-        "reason": "Choose in poor ship-deck weather or when the group wants one eccentric waterfront art block instead of the Pagoda, battleship and ViBe photo stops."
-      }
+      "country": "US",
+      "coordinates": [
+        -76.3129,
+        36.911
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-hermitage-norfolk-1",
+        "img-hermitage-norfolk-2",
+        "img-hermitage-norfolk-3",
+        "img-hermitage-norfolk-4",
+        "img-hermitage-norfolk-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "richmond-orthodox",
@@ -1612,13 +3603,14 @@
       "summary": "Sunday Orthros and Divine Liturgy with Richmond's Greek Orthodox community. This is a service we attend, not a building we tour.",
       "why_go": "Sunday stays a real Sunday, and the group starts the long drive north with a shared morning.",
       "best_for": [
-        "stivka",
-        "gora",
+        "stivka"
+      ],
+      "secondary_for": [
         "viki",
+        "gora",
         "sheluvspaco"
       ],
-      "secondary_for": [],
-      "best_fit_note": "Good for all four equally, because Orthodox worship is shared ground. Arrive respectfully, follow the parish, and stay for the whole Liturgy if possible.",
+      "best_fit_note": "Primary fit: stivka. Low physical demand; no skip path is required.",
       "categories": [
         "orthodox_spiritual",
         "architecture_photogenic"
@@ -1638,9 +3630,86 @@
       "reservation": "none",
       "cost": {
         "amount_per_person": 0,
-        "status": "free",
-        "note": "No admission planned."
-      }
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
+      },
+      "country": "US",
+      "coordinates": [
+        -77.5066,
+        37.5682
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-richmond-orthodox-1",
+        "img-richmond-orthodox-2",
+        "img-richmond-orthodox-3",
+        "img-richmond-orthodox-4",
+        "img-richmond-orthodox-5",
+        "img-richmond-orthodox-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "sacred-worship",
+      "texture": "WORSHIP",
+      "interaction_score": 1,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "water_weather_gated": false,
+        "ferry_timetable_gated": false,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_stair_count": false,
+        "confined_space": false,
+        "high_physicality": false,
+        "wildlife_not_guaranteed": false,
+        "skip_possible": true,
+        "photo_heavy": false,
+        "transport_fee_excluded_from_magic_cost": false
+      },
+      "viki_fit": 4,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "transport_fee": null,
+      "transport_fee_excluded_from_attraction_ceiling": false,
+      "physical_level": "easy",
+      "skip_strategy": "Low physical demand; no skip path is required.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "green",
+      "fallback_place_id": null
     },
     {
       "id": "bo-railroad",
@@ -1682,8 +3751,47 @@
         "note": "Adult admission."
       },
       "address": "B&O Railroad Museum, 901 West Pratt Street, Baltimore, Maryland",
-      "priority": "anchor",
-      "reservation": "none"
+      "priority": "optional",
+      "reservation": "none",
+      "country": "US",
+      "coordinates": [
+        -76.6335,
+        39.2847
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-bo-railroad-1",
+        "img-bo-railroad-2",
+        "img-bo-railroad-3",
+        "img-bo-railroad-4",
+        "img-bo-railroad-5",
+        "img-bo-railroad-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "baltimore-industry",
@@ -1725,16 +3833,46 @@
       },
       "replacement_reason": "Choose when the group wants labor, manufacturing and waterfront texture instead of a second large transportation collection.",
       "address": "Baltimore Museum of Industry, 1415 Key Highway, Baltimore, Maryland",
-      "priority": "replacement",
+      "priority": "alternative",
       "reservation": "none",
-      "replacement": {
-        "day": 8,
-        "replaces_place_ids": [
-          "bo-railroad"
-        ],
-        "route_variant_id": "replacement-d8-baltimore-industry",
-        "reason": "Choose when the group wants labor, manufacturing and waterfront texture instead of a second large transportation collection."
-      }
+      "country": "US",
+      "coordinates": [
+        -76.6015,
+        39.2741
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-baltimore-industry-1",
+        "img-baltimore-industry-2",
+        "img-baltimore-industry-3",
+        "img-baltimore-industry-4",
+        "img-baltimore-industry-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "mutter-museum",
@@ -1776,7 +3914,45 @@
         "note": "Confirm the 2026 timed-ticket price."
       },
       "address": "Mutter Museum, 19 South 22nd Street, Philadelphia, Pennsylvania",
-      "priority": "anchor"
+      "priority": "archive",
+      "country": "US",
+      "coordinates": [
+        -75.1765,
+        39.9533
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-mutter-museum-1",
+        "img-mutter-museum-2",
+        "img-mutter-museum-3",
+        "img-mutter-museum-4",
+        "img-mutter-museum-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "archive",
+      "original_status": "remove-archive",
+      "energy_rebuild_role": "preserved-revision-history",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "metuchen-main-street",
@@ -1804,7 +3980,7 @@
       "source_ids": [
         "src-metuchen"
       ],
-      "priority": "supporting",
+      "priority": "flex",
       "address": "Main Street and New Street, Metuchen, New Jersey",
       "reservation": "none",
       "hours": {
@@ -1817,7 +3993,43 @@
         "amount_per_person": 0,
         "status": "free",
         "note": "No admission planned."
-      }
+      },
+      "country": "US",
+      "coordinates": [
+        -74.3607,
+        40.542
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-metuchen-main-street-1",
+        "img-metuchen-main-street-2",
+        "img-metuchen-main-street-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "flex",
+      "original_status": "demote-flex",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "andalusia-estate",
@@ -1860,15 +4072,43 @@
       },
       "replacement_reason": "Choose when the group wants daylight, architecture and Revolutionary family history instead of anatomical collections; promote only after the holiday opening is confirmed.",
       "address": "Andalusia Historic House, 1237 State Road, Andalusia, Pennsylvania",
-      "priority": "replacement",
-      "replacement": {
-        "day": 9,
-        "replaces_place_ids": [
-          "mutter-museum"
-        ],
-        "route_variant_id": "replacement-d9-andalusia",
-        "reason": "Choose when the group wants daylight, architecture and Revolutionary family history instead of anatomical collections; promote only after the holiday opening is confirmed."
-      }
+      "priority": "alternative",
+      "country": "US",
+      "coordinates": [
+        -74.9582,
+        40.062
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-andalusia-estate-1",
+        "img-andalusia-estate-2",
+        "img-andalusia-estate-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "sleepy-hollow-cemetery",
@@ -1880,14 +4120,14 @@
       "summary": "A 90-acre cemetery of winding paths and steep ravines above the Pocantico River. Washington Irving, Andrew Carnegie and Walter Chrysler are all buried here.",
       "why_go": "The real ground behind the legend, and the real people, before the theatrical pumpkin night.",
       "best_for": [
-        "gora",
+        "viki",
         "stivka"
       ],
       "secondary_for": [
-        "viki",
+        "gora",
         "sheluvspaco"
       ],
-      "best_fit_note": "Good for Gora's historical context and Stivka's reflective side. Viki can photograph the landscape and sculpture without treating graves as content.",
+      "best_fit_note": "Primary fit: viki, stivka. Low physical demand; no skip path is required.",
       "categories": [
         "nature_photogenic",
         "architecture_photogenic",
@@ -1908,9 +4148,86 @@
       "reservation": "none",
       "cost": {
         "amount_per_person": 0,
-        "status": "free",
-        "note": "No admission planned."
-      }
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
+      },
+      "country": "US",
+      "coordinates": [
+        -73.8603,
+        41.0954
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-sleepy-hollow-cemetery-1",
+        "img-sleepy-hollow-cemetery-2",
+        "img-sleepy-hollow-cemetery-3",
+        "img-sleepy-hollow-cemetery-4",
+        "img-sleepy-hollow-cemetery-5",
+        "img-sleepy-hollow-cemetery-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "folklore-october",
+      "texture": "WEIRD",
+      "interaction_score": 1,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "water_weather_gated": true,
+        "ferry_timetable_gated": false,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_stair_count": false,
+        "confined_space": false,
+        "high_physicality": false,
+        "wildlife_not_guaranteed": false,
+        "skip_possible": true,
+        "photo_heavy": true,
+        "transport_fee_excluded_from_magic_cost": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "transport_fee": null,
+      "transport_fee_excluded_from_attraction_ceiling": false,
+      "physical_level": "easy",
+      "skip_strategy": "Low physical demand; no skip path is required.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "green",
+      "fallback_place_id": null
     },
     {
       "id": "old-dutch-church",
@@ -1922,14 +4239,14 @@
       "summary": "A church from about 1685 with a three-acre burial ground, written directly into Irving's story. Some graves here may belong to the real people behind Brom Bones and Katrina Van Tassel.",
       "why_go": "This is where the architecture, the faith, the community and the legend actually meet in one place.",
       "best_for": [
-        "stivka",
-        "gora"
+        "stivka"
       ],
       "secondary_for": [
         "viki",
+        "gora",
         "sheluvspaco"
       ],
-      "best_fit_note": "Good for Stivka's church history and for Gora's wish to separate the real record from later invention. We enter as an active place of worship.",
+      "best_fit_note": "Primary fit: stivka. Low physical demand; no skip path is required.",
       "categories": [
         "orthodox_spiritual",
         "architecture_photogenic",
@@ -1950,9 +4267,86 @@
       "reservation": "none",
       "cost": {
         "amount_per_person": 0,
-        "status": "free",
-        "note": "No admission planned."
-      }
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
+      },
+      "country": "US",
+      "coordinates": [
+        -73.861,
+        41.0904
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-old-dutch-church-1",
+        "img-old-dutch-church-2",
+        "img-old-dutch-church-3",
+        "img-old-dutch-church-4",
+        "img-old-dutch-church-5",
+        "img-old-dutch-church-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "folklore-october",
+      "texture": "WEIRD",
+      "interaction_score": 1,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "water_weather_gated": false,
+        "ferry_timetable_gated": false,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_stair_count": false,
+        "confined_space": false,
+        "high_physicality": false,
+        "wildlife_not_guaranteed": false,
+        "skip_possible": true,
+        "photo_heavy": true,
+        "transport_fee_excluded_from_magic_cost": false
+      },
+      "viki_fit": 4,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "transport_fee": null,
+      "transport_fee_excluded_from_attraction_ceiling": false,
+      "physical_level": "easy",
+      "skip_strategy": "Low physical demand; no skip path is required.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "yellow",
+      "fallback_place_id": null
     },
     {
       "id": "headless-horseman",
@@ -1968,10 +4362,10 @@
         "gora"
       ],
       "secondary_for": [
-        "sheluvspaco",
-        "stivka"
+        "stivka",
+        "sheluvspaco"
       ],
-      "best_fit_note": "Good for Viki's folklore photo and for Gora, who wants to know what is genuine and what is just repeated online.",
+      "best_fit_note": "Primary fit: viki, gora. Low physical demand; no skip path is required.",
       "categories": [
         "architecture_photogenic",
         "hidden_history_folklore"
@@ -1980,7 +4374,7 @@
       "source_ids": [
         "src-sleepy"
       ],
-      "priority": "supporting",
+      "priority": "anchor",
       "address": "Headless Horseman Bridge, Sleepy Hollow, New York",
       "reservation": "none",
       "hours": {
@@ -1991,9 +4385,85 @@
       },
       "cost": {
         "amount_per_person": 0,
-        "status": "free",
-        "note": "No admission planned."
-      }
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
+      },
+      "country": "US",
+      "coordinates": [
+        -73.8615,
+        41.0916
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-headless-horseman-1",
+        "img-headless-horseman-2",
+        "img-headless-horseman-3",
+        "img-headless-horseman-4",
+        "img-headless-horseman-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "folklore-october",
+      "texture": "WEIRD",
+      "interaction_score": 1,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "water_weather_gated": true,
+        "ferry_timetable_gated": false,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_stair_count": false,
+        "confined_space": false,
+        "high_physicality": false,
+        "wildlife_not_guaranteed": false,
+        "skip_possible": true,
+        "photo_heavy": true,
+        "transport_fee_excluded_from_magic_cost": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "transport_fee": null,
+      "transport_fee_excluded_from_attraction_ceiling": false,
+      "physical_level": "easy",
+      "skip_strategy": "Low physical demand; no skip path is required.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "green",
+      "fallback_place_id": null
     },
     {
       "id": "pumpkin-blaze",
@@ -2006,13 +4476,13 @@
       "why_go": "The big theatrical finish of the trip, and it only exists on these exact October dates.",
       "best_for": [
         "viki",
-        "sheluvspaco"
+        "stivka"
       ],
       "secondary_for": [
         "gora",
-        "stivka"
+        "sheluvspaco"
       ],
-      "best_fit_note": "Good for Viki's night photography and Paco's group finale. Gora and Stivka get folklore shown openly as art, not sold as truth.",
+      "best_fit_note": "Primary fit: viki, stivka. Low physical demand; no skip path is required.",
       "categories": [
         "unusual_creative",
         "live_social_nightlife",
@@ -2022,7 +4492,7 @@
       "source_ids": [
         "src-blaze"
       ],
-      "reservation": "required-now",
+      "reservation": "required",
       "hours": {
         "opens": "18:30",
         "closes": "22:00",
@@ -2030,12 +4500,86 @@
         "note": "October 13, 2026 tickets are on sale; select a 19:00-19:30 slot."
       },
       "cost": {
-        "amount_per_person": 38,
-        "status": "verified-range",
-        "note": "Standard timed tickets vary by entry time."
+        "amount_per_person": 24,
+        "low": 24,
+        "high": 42,
+        "amount_per_group": 96,
+        "price_type": "per-person",
+        "status": "planning-range",
+        "note": "Timed evening entry; earlier and more popular slots cost more."
       },
       "address": "Van Cortlandt Manor, 525 South Riverside Avenue, Croton-on-Hudson, New York",
-      "priority": "anchor"
+      "priority": "anchor",
+      "country": "US",
+      "coordinates": [
+        -73.8765,
+        41.1917
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-pumpkin-blaze-1",
+        "img-pumpkin-blaze-2",
+        "img-pumpkin-blaze-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "folklore-october",
+      "texture": "AWE",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "water_weather_gated": true,
+        "ferry_timetable_gated": false,
+        "booking_required": true,
+        "exact_date_verified": true,
+        "traffic_gated": false,
+        "high_stair_count": false,
+        "confined_space": false,
+        "high_physicality": false,
+        "wildlife_not_guaranteed": false,
+        "skip_possible": true,
+        "photo_heavy": true,
+        "transport_fee_excluded_from_magic_cost": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "per-person",
+      "price_per_person_low": 24,
+      "price_per_person_high": 42,
+      "price_per_group": 96,
+      "price_last_checked": "2026-08-31",
+      "transport_fee": null,
+      "transport_fee_excluded_from_attraction_ceiling": false,
+      "physical_level": "easy",
+      "skip_strategy": "Low physical demand; no skip path is required.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "yellow",
+      "fallback_place_id": null
     },
     {
       "id": "rockefeller-arts",
@@ -2071,23 +4615,52 @@
       },
       "replacement_reason": "Use for rain, cemetery fatigue or a preference for contemporary design while retaining the Blaze at night.",
       "address": "David Rockefeller Creative Arts Center, 200 Lake Road, Tarrytown, New York",
-      "priority": "replacement",
+      "priority": "alternative",
       "reservation": "none",
       "cost": {
         "amount_per_person": 0,
         "status": "free",
         "note": "No admission planned."
       },
-      "replacement": {
-        "day": 10,
-        "replaces_place_ids": [
-          "sleepy-hollow-cemetery",
-          "old-dutch-church",
-          "headless-horseman"
-        ],
-        "route_variant_id": "replacement-d10-rockefeller",
-        "reason": "Use for rain, cemetery fatigue or a preference for contemporary design while retaining the Blaze at night."
-      }
+      "country": "US",
+      "coordinates": [
+        -73.8374,
+        41.093
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-rockefeller-arts-1",
+        "img-rockefeller-arts-2",
+        "img-rockefeller-arts-3",
+        "img-rockefeller-arts-4",
+        "img-rockefeller-arts-5",
+        "img-rockefeller-arts-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "pez-visitor-center",
@@ -2128,8 +4701,46 @@
         "note": "Includes a $2 same-day shop credit and souvenir lanyard."
       },
       "address": "PEZ Visitor Center, 35 Prindle Hill Road, Orange, Connecticut",
-      "priority": "anchor",
-      "reservation": "none"
+      "priority": "optional",
+      "reservation": "none",
+      "country": "US",
+      "coordinates": [
+        -72.9971,
+        41.2638
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-pez-visitor-center-1",
+        "img-pez-visitor-center-2",
+        "img-pez-visitor-center-3",
+        "img-pez-visitor-center-4",
+        "img-pez-visitor-center-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "barker-cartoon-museum",
@@ -2171,16 +4782,1298 @@
       },
       "replacement_reason": "Choose when the group wants a denser, weirder pop-culture finale and more road margin than the coastal PEZ baseline.",
       "address": "Barker Character Comic and Cartoon Museum, 1188 Highland Avenue, Cheshire, Connecticut",
-      "priority": "replacement",
+      "priority": "alternative",
       "reservation": "none",
-      "replacement": {
-        "day": 11,
-        "replaces_place_ids": [
-          "pez-visitor-center"
-        ],
-        "route_variant_id": "replacement-d11-barker",
-        "reason": "Choose when the group wants a denser, weirder pop-culture finale and more road margin than the coastal PEZ baseline."
-      }
+      "country": "US",
+      "coordinates": [
+        -72.894,
+        41.5314
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-barker-cartoon-museum-1",
+        "img-barker-cartoon-museum-2",
+        "img-barker-cartoon-museum-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
+    },
+    {
+      "id": "uss-nautilus-museum",
+      "name": "USS Nautilus & Submarine Force Museum",
+      "kind": "submarine-museum-ship",
+      "city": "Groton",
+      "state": "CT",
+      "country": "US",
+      "address": "1 Crystal Lake Road, Groton, CT 06340",
+      "visit_date": "2026-10-04",
+      "summary": "Walk through the world's first operational nuclear-powered submarine and its confined working spaces before crossing Long Island Sound on another vessel.",
+      "why_go": "It replaces a passive art-house opener with the machine that makes Route 03's water identity start on day one.",
+      "best_for": [
+        "gora",
+        "stivka"
+      ],
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: gora, stivka. Low physical demand; no skip path is required.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
+      },
+      "source_ids": [
+        "src-v3-nautilus"
+      ],
+      "coordinates": [
+        -72.0871,
+        41.3875
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "working-infrastructure",
+      "texture": "EXPLORE",
+      "interaction_score": 2,
+      "museum_like": true,
+      "experience_flags": {
+        "museum_like": true,
+        "water_weather_gated": false,
+        "ferry_timetable_gated": false,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_stair_count": false,
+        "confined_space": true,
+        "high_physicality": false,
+        "wildlife_not_guaranteed": false,
+        "skip_possible": true,
+        "photo_heavy": false,
+        "transport_fee_excluded_from_magic_cost": false
+      },
+      "viki_fit": 4,
+      "gora_fit": 5,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "transport_fee": null,
+      "transport_fee_excluded_from_attraction_ceiling": false,
+      "physical_level": "easy",
+      "skip_strategy": "Low physical demand; no skip path is required.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "green",
+      "fallback_place_id": null,
+      "data_status": "complete",
+      "image_ids": [
+        "img-uss-nautilus-museum-1",
+        "img-uss-nautilus-museum-2",
+        "img-uss-nautilus-museum-3"
+      ]
+    },
+    {
+      "id": "fire-island-lighthouse",
+      "name": "Fire Island Lighthouse & Field 5 Boardwalk",
+      "kind": "barrier-island-lighthouse",
+      "city": "Fire Island",
+      "state": "NY",
+      "country": "US",
+      "address": "Fire Island Lighthouse, Robert Moses State Park Field 5, Fire Island, NY 11702",
+      "visit_date": "2026-10-06",
+      "summary": "A 182-step tower, an ocean-side boardwalk and a working barrier-island landscape reachable by car at the western end of Fire Island.",
+      "why_go": "The route's actual geography beats another indoor aviation block, and the boardwalk keeps everyone included even if the tower is skipped.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: viki, gora. Skip the 182-step tower and stay on the barrier-beach boardwalk and sand.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 10,
+        "low": 10,
+        "high": 10,
+        "amount_per_group": 40,
+        "price_type": "per-person",
+        "status": "verified",
+        "note": ""
+      },
+      "source_ids": [
+        "src-v3-fire-island-lighthouse"
+      ],
+      "coordinates": [
+        -73.2237,
+        40.6306
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "working-infrastructure",
+      "texture": "EXPLORE",
+      "interaction_score": 3,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "water_weather_gated": true,
+        "ferry_timetable_gated": false,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_stair_count": 182,
+        "confined_space": false,
+        "high_physicality": true,
+        "wildlife_not_guaranteed": false,
+        "skip_possible": true,
+        "photo_heavy": false,
+        "transport_fee_excluded_from_magic_cost": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "per-person",
+      "price_per_person_low": 10,
+      "price_per_person_high": 10,
+      "price_per_group": 40,
+      "price_last_checked": "2026-08-31",
+      "transport_fee": null,
+      "transport_fee_excluded_from_attraction_ceiling": false,
+      "physical_level": "moderate",
+      "skip_strategy": "Skip the 182-step tower and stay on the barrier-beach boardwalk and sand.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "yellow",
+      "fallback_place_id": null,
+      "data_status": "complete",
+      "image_ids": [
+        "img-fire-island-lighthouse-1",
+        "img-fire-island-lighthouse-2",
+        "img-fire-island-lighthouse-3"
+      ]
+    },
+    {
+      "id": "revolution-rail-cape-may",
+      "name": "Revolution Rail — Cape May Run",
+      "kind": "railbike",
+      "city": "Cape May",
+      "state": "NJ",
+      "country": "US",
+      "address": "609 Lafayette Street, Cape May, NJ 08204",
+      "visit_date": "2026-10-07",
+      "summary": "Pedal a four-seat railbike four miles alongside the Garrett Family Preserve through wildflower and migration habitat to the Cape May Canal.",
+      "why_go": "It solves the old Cape May pacing problem by turning the afternoon into physical coastal movement instead of a third indoor stop.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: viki, gora. The four-seat bike lets stronger riders carry more of the pedalling effort.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "required",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 42.5,
+        "low": 42.5,
+        "high": 42.5,
+        "amount_per_group": 170,
+        "price_type": "group-share",
+        "status": "verified",
+        "note": "One four-seat railbike at $170 total."
+      },
+      "source_ids": [
+        "src-v3-revrail-cape-may"
+      ],
+      "coordinates": [
+        -74.9226,
+        38.9352
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "interactive-play",
+      "texture": "MOVE",
+      "interaction_score": 3,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "water_weather_gated": true,
+        "ferry_timetable_gated": false,
+        "booking_required": true,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_stair_count": false,
+        "confined_space": false,
+        "high_physicality": true,
+        "wildlife_not_guaranteed": false,
+        "skip_possible": true,
+        "photo_heavy": true,
+        "transport_fee_excluded_from_magic_cost": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "group-share",
+      "price_per_person_low": 42.5,
+      "price_per_person_high": 42.5,
+      "price_per_group": 170,
+      "price_last_checked": "2026-08-31",
+      "transport_fee": null,
+      "transport_fee_excluded_from_attraction_ceiling": false,
+      "physical_level": "moderate",
+      "skip_strategy": "The four-seat bike lets stronger riders carry more of the pedalling effort.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "red",
+      "fallback_place_id": "cape-may-victorian",
+      "data_status": "complete",
+      "image_ids": [
+        "img-revolution-rail-cape-may-1",
+        "img-revolution-rail-cape-may-2",
+        "img-revolution-rail-cape-may-3"
+      ]
+    },
+    {
+      "id": "cape-may-lighthouse",
+      "name": "Cape May Lighthouse & Point State Park",
+      "kind": "coastal-lighthouse",
+      "city": "Cape May Point",
+      "state": "NJ",
+      "country": "US",
+      "address": "Cape May Lighthouse, Cape May Point State Park, Cape May Point, NJ 08212",
+      "visit_date": "2026-10-07",
+      "summary": "A 199-step climb to the watch gallery above the dunes, marsh and migration corridor at the southern tip of New Jersey.",
+      "why_go": "It gives the day its one big vertical view, with the surrounding dune landscape intact as the weather fallback.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: viki, gora. The park, beach and lighthouse exterior stay worthwhile without the 199-step climb.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 12,
+        "low": 12,
+        "high": 12,
+        "amount_per_group": 48,
+        "price_type": "per-person",
+        "status": "verified",
+        "note": ""
+      },
+      "source_ids": [
+        "src-v3-cape-may-lighthouse"
+      ],
+      "coordinates": [
+        -74.9604,
+        38.933
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "working-infrastructure",
+      "texture": "AWE",
+      "interaction_score": 3,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "water_weather_gated": true,
+        "ferry_timetable_gated": false,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_stair_count": 199,
+        "confined_space": false,
+        "high_physicality": true,
+        "wildlife_not_guaranteed": false,
+        "skip_possible": true,
+        "photo_heavy": true,
+        "transport_fee_excluded_from_magic_cost": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "per-person",
+      "price_per_person_low": 12,
+      "price_per_person_high": 12,
+      "price_per_group": 48,
+      "price_last_checked": "2026-08-31",
+      "transport_fee": null,
+      "transport_fee_excluded_from_attraction_ceiling": false,
+      "physical_level": "moderate",
+      "skip_strategy": "The park, beach and lighthouse exterior stay worthwhile without the 199-step climb.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "yellow",
+      "fallback_place_id": null,
+      "data_status": "complete",
+      "image_ids": [
+        "img-cape-may-lighthouse-1",
+        "img-cape-may-lighthouse-2",
+        "img-cape-may-lighthouse-3"
+      ]
+    },
+    {
+      "id": "assateague-pony-kayak",
+      "name": "Assateague Explorer Wild-Pony Kayak",
+      "kind": "guided-wildlife-kayak",
+      "city": "Chincoteague",
+      "state": "VA",
+      "country": "US",
+      "address": "Curtis Merritt Harbor of Refuge, 6262 Marlin Street, Chincoteague, VA 23336",
+      "visit_date": "2026-10-09",
+      "summary": "A two-to-two-and-a-half-hour guided paddle through Assateague's backwater channels and creeks, with ponies, eagles and shorebirds as the target wildlife.",
+      "why_go": "It is the single most place-specific wildlife encounter on the whole eleven-route project and needs no prior paddling experience.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: gora, viki. Beginner-friendly but wind-sensitive; the operator's wildlife boat tour is the same-area swap.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "required",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 73.14,
+        "low": 73.14,
+        "high": 73.14,
+        "amount_per_group": 292.56,
+        "price_type": "per-person-plus-fees",
+        "status": "verified",
+        "note": "$69 base plus the published 6% card and booking fee."
+      },
+      "source_ids": [
+        "src-v3-assateague-explorer"
+      ],
+      "coordinates": [
+        -75.3806,
+        37.9036
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "water-movement",
+      "texture": "WILD",
+      "interaction_score": 4,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "water_weather_gated": true,
+        "ferry_timetable_gated": false,
+        "booking_required": true,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_stair_count": false,
+        "confined_space": false,
+        "high_physicality": true,
+        "wildlife_not_guaranteed": true,
+        "skip_possible": true,
+        "photo_heavy": true,
+        "transport_fee_excluded_from_magic_cost": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "per-person-plus-fees",
+      "price_per_person_low": 73.14,
+      "price_per_person_high": 73.14,
+      "price_per_group": 292.56,
+      "price_last_checked": "2026-08-31",
+      "transport_fee": null,
+      "transport_fee_excluded_from_attraction_ceiling": false,
+      "physical_level": "moderate",
+      "skip_strategy": "Beginner-friendly but wind-sensitive; the operator's wildlife boat tour is the same-area swap.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "red",
+      "fallback_place_id": "assateague",
+      "data_status": "complete",
+      "image_ids": [
+        "img-assateague-pony-kayak-1",
+        "img-assateague-pony-kayak-2",
+        "img-assateague-pony-kayak-3"
+      ]
+    },
+    {
+      "id": "kiptopeke-concrete-ships",
+      "name": "Kiptopeke Concrete Ships & Migration Overlook",
+      "kind": "maritime-oddity-park",
+      "city": "Cape Charles",
+      "state": "VA",
+      "country": "US",
+      "address": "Kiptopeke State Park, 3540 Kiptopeke Drive, Cape Charles, VA 23310",
+      "visit_date": "2026-10-09",
+      "summary": "Nine WWII-era concrete ships sunk end to end as a breakwater, on a beach that sits inside a major Atlantic fall migration corridor.",
+      "why_go": "It costs almost no mileage a few miles north of the bridge-tunnel and turns the transfer into the strangest stop on the Eastern Shore.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: gora, viki. Shorten to the concrete-ship view and the migration overlook.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 3.5,
+        "low": 3.5,
+        "high": 3.5,
+        "amount_per_group": 14,
+        "price_type": "group-share",
+        "status": "verified",
+        "note": "Two $7 per-vehicle parking fees shared by four."
+      },
+      "source_ids": [
+        "src-v3-kiptopeke"
+      ],
+      "coordinates": [
+        -75.977,
+        37.1642
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "wild-coast-wildlife",
+      "texture": "WILD",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "water_weather_gated": true,
+        "ferry_timetable_gated": false,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_stair_count": false,
+        "confined_space": false,
+        "high_physicality": false,
+        "wildlife_not_guaranteed": false,
+        "skip_possible": true,
+        "photo_heavy": true,
+        "transport_fee_excluded_from_magic_cost": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "group-share",
+      "price_per_person_low": 3.5,
+      "price_per_person_high": 3.5,
+      "price_per_group": 14,
+      "price_last_checked": "2026-08-31",
+      "transport_fee": null,
+      "transport_fee_excluded_from_attraction_ceiling": false,
+      "physical_level": "easy",
+      "skip_strategy": "Shorten to the concrete-ship view and the migration overlook.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "green",
+      "fallback_place_id": null,
+      "data_status": "complete",
+      "image_ids": [
+        "img-kiptopeke-concrete-ships-1",
+        "img-kiptopeke-concrete-ships-2",
+        "img-kiptopeke-concrete-ships-3"
+      ]
+    },
+    {
+      "id": "richmond-capitol-ghost-tour",
+      "name": "Haunted Capitol Hill Ghost Tour",
+      "kind": "local-folklore-walk",
+      "city": "Richmond",
+      "state": "VA",
+      "country": "US",
+      "address": "Virginia State Capitol, 1000 Bank Street, Richmond, VA 23219",
+      "visit_date": "2026-10-10",
+      "summary": "A ninety-minute after-dark walk through the Capitol district built on Richmond's documented disasters, buildings and local stories.",
+      "why_go": "Folklore stays tied to real geography here instead of the route buying a generic haunted attraction.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: viki, stivka. Low physical demand; no skip path is required.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "required",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 27,
+        "low": 27,
+        "high": 27,
+        "amount_per_group": 108,
+        "price_type": "per-person",
+        "status": "verified",
+        "note": "$27 online; $30 walk-up if bought at the meeting point."
+      },
+      "source_ids": [
+        "src-v3-haunts-richmond"
+      ],
+      "coordinates": [
+        -77.4336,
+        37.5388
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "folklore-october",
+      "texture": "WEIRD",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "water_weather_gated": true,
+        "ferry_timetable_gated": false,
+        "booking_required": true,
+        "exact_date_verified": true,
+        "traffic_gated": false,
+        "high_stair_count": false,
+        "confined_space": false,
+        "high_physicality": false,
+        "wildlife_not_guaranteed": false,
+        "skip_possible": true,
+        "photo_heavy": true,
+        "transport_fee_excluded_from_magic_cost": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "per-person",
+      "price_per_person_low": 27,
+      "price_per_person_high": 27,
+      "price_per_group": 108,
+      "price_last_checked": "2026-08-31",
+      "transport_fee": null,
+      "transport_fee_excluded_from_attraction_ceiling": false,
+      "physical_level": "easy",
+      "skip_strategy": "Low physical demand; no skip path is required.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "yellow",
+      "fallback_place_id": "poe-museum-richmond",
+      "data_status": "complete",
+      "image_ids": [
+        "img-richmond-capitol-ghost-tour-1",
+        "img-richmond-capitol-ghost-tour-2",
+        "img-richmond-capitol-ghost-tour-3"
+      ]
+    },
+    {
+      "id": "neabsco-creek-boardwalk",
+      "name": "Neabsco Creek Boardwalk",
+      "kind": "wetland-boardwalk",
+      "city": "Woodbridge",
+      "state": "VA",
+      "country": "US",
+      "address": "15125 Blackburn Road, Woodbridge, VA 22191",
+      "visit_date": "2026-10-11",
+      "summary": "A 3,300-foot accessible boardwalk with observation decks crossing the Neabsco Creek marsh on the Potomac Heritage trail network.",
+      "why_go": "It is the genuinely worthwhile break that makes the Richmond-to-Crownsville Sunday legal instead of one long unbroken run.",
+      "best_for": [
+        "stivka",
+        "viki"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: stivka, viki. Flat, accessible and designed as the day's recovery stop.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
+      },
+      "source_ids": [
+        "src-v3-neabsco"
+      ],
+      "coordinates": [
+        -77.2766,
+        38.6112
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "wild-coast-wildlife",
+      "texture": "RELAX",
+      "interaction_score": 1,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "water_weather_gated": true,
+        "ferry_timetable_gated": false,
+        "booking_required": false,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_stair_count": false,
+        "confined_space": false,
+        "high_physicality": false,
+        "wildlife_not_guaranteed": false,
+        "skip_possible": true,
+        "photo_heavy": false,
+        "transport_fee_excluded_from_magic_cost": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "transport_fee": null,
+      "transport_fee_excluded_from_attraction_ceiling": false,
+      "physical_level": "easy",
+      "skip_strategy": "Flat, accessible and designed as the day's recovery stop.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "green",
+      "fallback_place_id": null,
+      "data_status": "complete",
+      "image_ids": [
+        "img-neabsco-creek-boardwalk-1",
+        "img-neabsco-creek-boardwalk-2",
+        "img-neabsco-creek-boardwalk-3"
+      ]
+    },
+    {
+      "id": "maryland-renaissance-festival",
+      "name": "Maryland Renaissance Festival",
+      "kind": "seasonal-village-festival",
+      "city": "Annapolis",
+      "state": "MD",
+      "country": "US",
+      "address": "1821 Crownsville Road, Annapolis, MD 21401",
+      "visit_date": "2026-10-11",
+      "summary": "A large permanent English-village site with jousting, working craft shops, stages and costumed performers, open on the exact Sunday the route is there.",
+      "why_go": "It is participatory seasonal culture rather than nightlife, and it beats another indoor railroad museum on interaction.",
+      "best_for": [
+        "stivka",
+        "viki"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: stivka, viki. Easy-to-moderate walking; sit and watch performances freely.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "required",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 36.14,
+        "low": 36.14,
+        "high": 36.14,
+        "amount_per_group": 144.56,
+        "price_type": "per-person-plus-fees",
+        "status": "verified",
+        "note": "Observed Oct 11 online checkout: $31 base plus fee."
+      },
+      "source_ids": [
+        "src-v3-rennfest"
+      ],
+      "coordinates": [
+        -76.5838,
+        39.0018
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "experiential-culture",
+      "texture": "EXPLORE",
+      "interaction_score": 3,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "water_weather_gated": true,
+        "ferry_timetable_gated": false,
+        "booking_required": true,
+        "exact_date_verified": true,
+        "traffic_gated": false,
+        "high_stair_count": false,
+        "confined_space": false,
+        "high_physicality": false,
+        "wildlife_not_guaranteed": false,
+        "skip_possible": true,
+        "photo_heavy": false,
+        "transport_fee_excluded_from_magic_cost": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "per-person-plus-fees",
+      "price_per_person_low": 36.14,
+      "price_per_person_high": 36.14,
+      "price_per_group": 144.56,
+      "price_last_checked": "2026-08-31",
+      "transport_fee": null,
+      "transport_fee_excluded_from_attraction_ceiling": false,
+      "physical_level": "light-moderate",
+      "skip_strategy": "Easy-to-moderate walking; sit and watch performances freely.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "yellow",
+      "fallback_place_id": "bo-railroad",
+      "data_status": "complete",
+      "image_ids": [
+        "img-maryland-renaissance-festival-1",
+        "img-maryland-renaissance-festival-2",
+        "img-maryland-renaissance-festival-3"
+      ]
+    },
+    {
+      "id": "mullica-cedar-paddle",
+      "name": "Pinelands Adventures — Mullica \"Shorty\"",
+      "kind": "cedar-river-paddle",
+      "city": "Shamong",
+      "state": "NJ",
+      "country": "US",
+      "address": "1005 Atsion Road, Shamong, NJ 08088",
+      "visit_date": "2026-10-12",
+      "summary": "A beginner-to-moderate two-mile paddle down the narrow tea-coloured Mullica through Pine Barrens cedar swamp, with equipment and shuttle included.",
+      "why_go": "It converts the holiday return day from a cabinet-museum stop into the route's strangest water texture.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: gora, viki. Pair a weaker paddler into a tandem; operator transport removes the shuttle logistics.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "required",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 47.12,
+        "low": 47.12,
+        "high": 57.12,
+        "amount_per_group": 188.48,
+        "price_type": "group-share",
+        "status": "planning-range",
+        "note": "Two tandems at $188.48 group, or four singles at $228.48 group, including NJDEP fees."
+      },
+      "source_ids": [
+        "src-v3-pinelands"
+      ],
+      "coordinates": [
+        -74.7285,
+        39.742
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "water-movement",
+      "texture": "WILD",
+      "interaction_score": 4,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "water_weather_gated": true,
+        "ferry_timetable_gated": false,
+        "booking_required": true,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_stair_count": false,
+        "confined_space": false,
+        "high_physicality": true,
+        "wildlife_not_guaranteed": false,
+        "skip_possible": true,
+        "photo_heavy": true,
+        "transport_fee_excluded_from_magic_cost": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "group-share",
+      "price_per_person_low": 47.12,
+      "price_per_person_high": 57.12,
+      "price_per_group": 188.48,
+      "price_last_checked": "2026-08-31",
+      "transport_fee": null,
+      "transport_fee_excluded_from_attraction_ceiling": false,
+      "physical_level": "moderate",
+      "skip_strategy": "Pair a weaker paddler into a tandem; operator transport removes the shuttle logistics.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "yellow",
+      "fallback_place_id": null,
+      "data_status": "complete",
+      "image_ids": [
+        "img-mullica-cedar-paddle-1",
+        "img-mullica-cedar-paddle-2",
+        "img-mullica-cedar-paddle-3"
+      ]
+    },
+    {
+      "id": "schooner-argia",
+      "name": "Schooner ARGIA Morning Sail",
+      "kind": "traditional-schooner-sail",
+      "city": "Mystic",
+      "state": "CT",
+      "country": "US",
+      "address": "Steamboat Wharf, 15 Holmes Street, Mystic, CT 06355",
+      "visit_date": "2026-10-14",
+      "summary": "A two-hour public sail on a traditional gaff schooner through protected Mystic waters, with guests invited to help hoist and trim.",
+      "why_go": "The route opened by crossing the Sound on a vehicle ferry; this closes it by actually sailing, if the operator opens Oct 14 inventory.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: viki, gora. Low to moderate: guests can simply ride, and helping with the sails is optional.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "required",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 65,
+        "low": 65,
+        "high": 65,
+        "amount_per_group": 260,
+        "price_type": "per-person",
+        "status": "verified",
+        "note": ""
+      },
+      "source_ids": [
+        "src-v3-argia"
+      ],
+      "coordinates": [
+        -71.9708,
+        41.3538
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "water-movement",
+      "texture": "MOVE",
+      "interaction_score": 3,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "water_weather_gated": true,
+        "ferry_timetable_gated": false,
+        "booking_required": true,
+        "exact_date_verified": false,
+        "traffic_gated": false,
+        "high_stair_count": false,
+        "confined_space": false,
+        "high_physicality": false,
+        "wildlife_not_guaranteed": false,
+        "skip_possible": true,
+        "photo_heavy": true,
+        "transport_fee_excluded_from_magic_cost": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "per-person",
+      "price_per_person_low": 65,
+      "price_per_person_high": 65,
+      "price_per_group": 260,
+      "price_last_checked": "2026-08-31",
+      "transport_fee": null,
+      "transport_fee_excluded_from_attraction_ceiling": false,
+      "physical_level": "light-moderate",
+      "skip_strategy": "Low to moderate: guests can simply ride, and helping with the sails is optional.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_risk": "red",
+      "fallback_place_id": "pez-visitor-center",
+      "data_status": "complete",
+      "image_ids": [
+        "img-schooner-argia-1",
+        "img-schooner-argia-2",
+        "img-schooner-argia-3"
+      ]
     }
   ]
 }

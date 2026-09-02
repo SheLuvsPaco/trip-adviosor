@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T19:28:32.474Z",
+  "generated_at": "2026-09-02T01:05:27.552Z",
   "routing_engine": "OSRM public demo server",
   "routing_profile": "driving",
   "traffic_model": "none",
@@ -13,42 +13,42 @@
       ]
     },
     "ghent-lodging": {
-      "name": "Ghent/Chatham lodging zone",
+      "name": "Ghent/Hudson lodging zone",
       "coordinates": [
         -73.6157,
         42.3293
       ]
     },
     "hancock-lodging": {
-      "name": "Hancock village lodging zone",
+      "name": "Hancock lodging zone",
       "coordinates": [
         -75.2805401,
         41.9542233
       ]
     },
     "williamsport-lodging": {
-      "name": "Central Williamsport lodging zone",
+      "name": "Williamsport lodging zone",
       "coordinates": [
         -77.0011096,
         41.2411556
       ]
     },
     "brookville-lodging": {
-      "name": "Brookville historic-district lodging zone",
+      "name": "Brookville lodging zone",
       "coordinates": [
         -79.0794702,
         41.1604348
       ]
     },
     "wheeling-lodging": {
-      "name": "Wheeling riverfront lodging zone",
+      "name": "Wheeling lodging zone",
       "coordinates": [
         -80.7209149,
         40.0639616
       ]
     },
-    "polaris-lodging": {
-      "name": "North Columbus/Polaris lodging zone",
+    "columbus-lodging": {
+      "name": "Columbus lodging zone",
       "coordinates": [
         -82.984,
         40.142
@@ -62,21 +62,21 @@
       ]
     },
     "bellefonte-lodging": {
-      "name": "Historic Bellefonte lodging zone",
+      "name": "Bellefonte lodging zone",
       "coordinates": [
         -77.7737471,
         40.9134862
       ]
     },
-    "tannersville-lodging": {
-      "name": "Tannersville/Bartonsville lodging zone",
+    "bangor-lodging": {
+      "name": "Bangor/Stroudsburg lodging zone",
       "coordinates": [
-        -75.3,
-        41.04
+        -75.2,
+        40.95
       ]
     },
     "danbury-lodging": {
-      "name": "Danbury west lodging zone",
+      "name": "Danbury lodging zone",
       "coordinates": [
         -73.4540111,
         41.394817
@@ -96,25 +96,46 @@
         42.3655
       ]
     },
+    "sturbridge-break": {
+      "name": "Sturbridge, MA comfort break",
+      "coordinates": [
+        -72.0787,
+        42.1015
+      ]
+    },
+    "binghamton-break": {
+      "name": "Binghamton, NY comfort break",
+      "coordinates": [
+        -75.918,
+        42.0987
+      ]
+    },
+    "clarion-break": {
+      "name": "Clarion, PA comfort break",
+      "coordinates": [
+        -79.3839,
+        41.2151
+      ]
+    },
+    "mahwah-break": {
+      "name": "Mahwah, NJ comfort break",
+      "coordinates": [
+        -74.1449,
+        41.089
+      ]
+    },
+    "keystone-arches": {
+      "name": "Keystone Arch Bridges Trail, Chester, Massachusetts",
+      "coordinates": [
+        -72.9821435,
+        42.2794378
+      ]
+    },
     "art-omi": {
       "name": "Art Omi, 1405 County Route 22, Ghent, New York",
       "coordinates": [
         -73.6766147,
         42.3334297
-      ]
-    },
-    "naumkeag-pumpkin": {
-      "name": "Naumkeag, 5 Prospect Hill Road, Stockbridge, Massachusetts",
-      "coordinates": [
-        -73.3161392,
-        42.2897141
-      ]
-    },
-    "worlds-largest-kaleidoscope": {
-      "name": "World's Largest Kaleidoscope, Emerson Resort, Mount Tremper, New York",
-      "coordinates": [
-        -74.2883494,
-        42.0502805
       ]
     },
     "opus-40": {
@@ -124,32 +145,32 @@
         42.0515592
       ]
     },
-    "taber-museum": {
-      "name": "Thomas T. Taber Museum, 858 West Fourth Street, Williamsport, Pennsylvania",
+    "rail-explorers-express": {
+      "name": "Rail Explorers Catskills, 70 Lower High Street, Phoenicia, New York",
       "coordinates": [
-        -77.0198998,
-        41.2400968
+        -74.3052306,
+        42.0774565
       ]
     },
-    "millionaires-row": {
-      "name": "Way's Garden, 800 West Fourth Street, Williamsport, Pennsylvania",
+    "worlds-end": {
+      "name": "Worlds End State Park, Forksville, Pennsylvania",
       "coordinates": [
-        -77.0192656,
-        41.2389615
+        -76.6021689,
+        41.487473
+      ]
+    },
+    "bilgers-rocks": {
+      "name": "Bilger's Rocks, 1921 Bilgers Rocks Road, Grampian, Pennsylvania",
+      "coordinates": [
+        -78.5921078,
+        40.994056
       ]
     },
     "scripture-rocks": {
       "name": "Scripture Rocks Heritage Park, 560 Scripture Rocks Road, Brookville, Pennsylvania",
       "coordinates": [
-        -79.0506188,
-        41.1594272
-      ]
-    },
-    "punxsutawney-folklore": {
-      "name": "Gobbler's Knob, 1548 Woodland Avenue Extension, Punxsutawney, Pennsylvania",
-      "coordinates": [
-        -78.9570232,
-        40.9318475
+        -79.0794702,
+        41.1604348
       ]
     },
     "bayernhof": {
@@ -159,25 +180,18 @@
         40.4983418
       ]
     },
-    "heinz-history": {
-      "name": "Heinz History Center, 1212 Smallman Street, Pittsburgh, Pennsylvania",
+    "palace-of-gold": {
+      "name": "Palace of Gold, 3759 McCreary's Ridge Road, Moundsville, West Virginia",
       "coordinates": [
-        -79.9922396,
-        40.4465605
+        -80.7432124,
+        39.920425
       ]
     },
     "alan-cottrill": {
       "name": "Alan Cottrill Sculpture Studio, 110 South Sixth Street, Zanesville, Ohio",
       "coordinates": [
-        -82.0050289,
-        39.9379756
-      ]
-    },
-    "y-bridge": {
-      "name": "Y Bridge, Zanesville, Ohio",
-      "coordinates": [
-        -82.0144555,
-        39.9408623
+        -82.005019,
+        39.9401426
       ]
     },
     "otherworld": {
@@ -187,46 +201,60 @@
         39.9221432
       ]
     },
-    "cambridge-glass": {
-      "name": "National Museum of Cambridge Glass, 136 South Ninth Street, Cambridge, Ohio",
+    "faustus-escape": {
+      "name": "Captivating Worlds, 7475 Walton Parkway, New Albany, Ohio",
       "coordinates": [
-        -81.5885651,
-        40.0237125
+        -82.8087864,
+        40.0811745
       ]
     },
-    "butler-institute": {
-      "name": "Butler Institute of American Art, 524 Wick Avenue, Youngstown, Ohio",
+    "warther-museum": {
+      "name": "Ernest Warther Museum & Gardens, 331 Karl Avenue, Dover, Ohio",
       "coordinates": [
-        -80.6457767,
-        41.1047679
+        -81.4741475,
+        40.5213381
       ]
     },
-    "fellows-riverside": {
-      "name": "Fellows Riverside Gardens, 123 McKinley Avenue, Youngstown, Ohio",
+    "grove-city-outlets": {
+      "name": "Grove City Premium Outlets, 1911 Leesburg Grove City Road, Grove City, Pennsylvania",
       "coordinates": [
-        -80.6766042,
-        41.0996875
+        -80.1570217,
+        41.1399349
       ]
     },
-    "st-nicholas-dubois": {
-      "name": "St Nicholas Orthodox Church, 301 South State Street, DuBois, Pennsylvania",
+    "st-nicholas-orthodox": {
+      "name": "St Nicholas Orthodox Church, 2053 North Road NE, Warren, Ohio",
       "coordinates": [
-        -78.7707861,
-        41.1188561
+        -80.8132916,
+        41.2356017
       ]
     },
-    "bellefonte-victorian": {
+    "parker-dam": {
+      "name": "Parker Dam State Park, 28 Fairview Road, Penfield, Pennsylvania",
+      "coordinates": [
+        -78.5116802,
+        41.1934268
+      ]
+    },
+    "bellefonte-talleyrand": {
       "name": "Talleyrand Park, 320 West High Street, Bellefonte, Pennsylvania",
       "coordinates": [
         -77.7817061,
         40.909554
       ]
     },
-    "bellefonte-art": {
-      "name": "Bellefonte Art Museum, 133 North Allegheny Street, Bellefonte, Pennsylvania",
+    "hickory-run-boulder-field": {
+      "name": "Hickory Run Boulder Field, White Haven, Pennsylvania",
       "coordinates": [
-        -77.7785487,
-        40.9130418
+        -75.774082,
+        41.06064
+      ]
+    },
+    "skirmish-paintball": {
+      "name": "Skirmish Paintball, 211 North Meckesville Road, Albrightsville, Pennsylvania",
+      "coordinates": [
+        -75.613172,
+        41.0164681
       ]
     },
     "columcille": {
@@ -236,25 +264,207 @@
         40.9272149
       ]
     },
-    "asa-packer": {
-      "name": "Asa Packer Mansion Museum, Packer Hill Avenue, Jim Thorpe, Pennsylvania",
+    "fonthill-castle": {
+      "name": "Fonthill Castle, 525 East Court Street, Doylestown, Pennsylvania",
       "coordinates": [
-        -75.737273,
-        40.865157
+        -75.1229558,
+        40.3211307
       ]
     },
-    "aldrich": {
-      "name": "The Aldrich Contemporary Art Museum, 258 Main Street, Ridgefield, Connecticut",
+    "northlandz": {
+      "name": "Northlandz, 495 US-202, Flemington, New Jersey",
       "coordinates": [
-        -73.4968718,
-        41.2769959
+        -74.8591333,
+        40.5130953
+      ]
+    },
+    "puzzle-theory-spectral": {
+      "name": "Puzzle Theory, 100 Barber Avenue, South Windsor, Connecticut",
+      "coordinates": [
+        -72.5562712,
+        41.8352395
+      ]
+    },
+    "worlds-largest-kaleidoscope": {
+      "name": "World's Largest Kaleidoscope, Emerson Resort, Mount Tremper, New York",
+      "coordinates": [
+        -74.2869487,
+        42.0492349
+      ]
+    },
+    "rail-explorers-river-run": {
+      "name": "Rail Explorers Catskills, 70 Lower High Street, Phoenicia, New York",
+      "coordinates": [
+        -74.3052306,
+        42.0774565
+      ]
+    },
+    "kaaterskill-falls": {
+      "name": "Kaaterskill Falls, Hunter, New York",
+      "coordinates": [
+        -74.0633653,
+        42.1932922
+      ]
+    },
+    "saugerties-lighthouse": {
+      "name": "Saugerties Lighthouse, 168 Lighthouse Drive, Saugerties, New York",
+      "coordinates": [
+        -73.9296788,
+        42.0720872
+      ]
+    },
+    "spiral-house-park": {
+      "name": "Spiral House Park, Saugerties, New York",
+      "coordinates": [
+        -73.9529126,
+        42.0775906
+      ]
+    },
+    "roebling-aqueduct": {
+      "name": "Roebling's Delaware Aqueduct, Lackawaxen, Pennsylvania",
+      "coordinates": [
+        -74.984523,
+        41.482615
+      ]
+    },
+    "hawks-nest": {
+      "name": "Hawks Nest Highway, Port Jervis, New York",
+      "coordinates": [
+        -74.692663,
+        41.3750937
+      ]
+    },
+    "ricketts-glen": {
+      "name": "Ricketts Glen State Park, Benton, Pennsylvania",
+      "coordinates": [
+        -76.3835528,
+        41.1950837
+      ]
+    },
+    "elk-country-visitor-center": {
+      "name": "Elk Country Visitor Center, 134 Homestead Drive, Benezette, Pennsylvania",
+      "coordinates": [
+        -78.3678854,
+        41.3232525
+      ]
+    },
+    "kinzua-bridge": {
+      "name": "Kinzua Bridge State Park, Mount Jewett, Pennsylvania",
+      "coordinates": [
+        -78.634547,
+        41.725702
+      ]
+    },
+    "austin-dam": {
+      "name": "Austin Dam Memorial Park, Austin, Pennsylvania",
+      "coordinates": [
+        -78.0911354,
+        41.6315276
+      ]
+    },
+    "penns-cave": {
+      "name": "Penn's Cave & Wildlife Park, 222 Penns Cave Road, Centre Hall, Pennsylvania",
+      "coordinates": [
+        -77.6836445,
+        40.844505
+      ]
+    },
+    "troy-hill-lighthouse": {
+      "name": "Darkhouse Lighthouse, Troy Hill, Pittsburgh, Pennsylvania",
+      "coordinates": [
+        -79.9786639,
+        40.4689579
+      ]
+    },
+    "troy-hill-hutte-royal": {
+      "name": "La Hütte Royal, Troy Hill, Pittsburgh, Pennsylvania",
+      "coordinates": [
+        -79.9786639,
+        40.4689579
+      ]
+    },
+    "troy-hill-kunzhaus": {
+      "name": "Kunzhaus, Troy Hill, Pittsburgh, Pennsylvania",
+      "coordinates": [
+        -79.9786639,
+        40.4689579
+      ]
+    },
+    "troy-hill-mrs-christopher": {
+      "name": "Mrs. Christopher's House, Troy Hill, Pittsburgh, Pennsylvania",
+      "coordinates": [
+        -79.9786639,
+        40.4689579
+      ]
+    },
+    "gamegrounds-columbus": {
+      "name": "Gamegrounds, Columbus, Ohio",
+      "coordinates": [
+        -83.0007065,
+        39.9622601
+      ]
+    },
+    "captivating-worlds-machine": {
+      "name": "Captivating Worlds, 7475 Walton Parkway, New Albany, Ohio",
+      "coordinates": [
+        -82.8087864,
+        40.0811745
+      ]
+    },
+    "book-loft": {
+      "name": "The Book Loft of German Village, 631 South 3rd Street, Columbus, Ohio",
+      "coordinates": [
+        -83.0007065,
+        39.9622601
+      ]
+    },
+    "hartman-rock-garden": {
+      "name": "Hartman Rock Garden, 1905 Russell Avenue, Springfield, Ohio",
+      "coordinates": [
+        -83.810138,
+        39.9234046
+      ]
+    },
+    "cook-forest-cathedral": {
+      "name": "Cook Forest State Park, Cooksburg, Pennsylvania",
+      "coordinates": [
+        -79.2099286,
+        41.3336331
+      ]
+    },
+    "lakota-wolf": {
+      "name": "Lakota Wolf Preserve, 89 Mount Pleasant Road, Columbia, New Jersey",
+      "coordinates": [
+        -75.0941913,
+        40.9257935
+      ]
+    },
+    "luna-parc": {
+      "name": "Luna Parc, 22 De Groat Road, Sandyston, New Jersey",
+      "coordinates": [
+        -74.7984879,
+        41.2113435
       ]
     },
     "tarrywile": {
       "name": "Tarrywile Park, 70 Southern Boulevard, Danbury, Connecticut",
       "coordinates": [
-        -73.448419,
-        41.3780766
+        -73.4498263,
+        41.3719967
+      ]
+    },
+    "optical-heritage-museum": {
+      "name": "Optical Heritage Museum, 12 Crane Street, Southbridge, Massachusetts",
+      "coordinates": [
+        -72.0337376,
+        42.0750465
+      ]
+    },
+    "puzzle-theory-kraken": {
+      "name": "Puzzle Theory, 100 Barber Avenue, South Windsor, Connecticut",
+      "coordinates": [
+        -72.6509061,
+        41.5623178
       ]
     },
     "harvard-natural-history": {
@@ -264,11 +474,18 @@
         42.3784657
       ]
     },
-    "ether-dome": {
-      "name": "Ether Dome, Massachusetts General Hospital, 55 Fruit Street, Boston, Massachusetts",
+    "y-bridge": {
+      "name": "Y Bridge, Zanesville, Ohio",
       "coordinates": [
-        -71.0679004,
-        42.3634958
+        -82.0144555,
+        39.9408623
+      ]
+    },
+    "ramapo-valley": {
+      "name": "Ramapo Valley County Reservation, 608 Ramapo Valley Road, Mahwah, New Jersey",
+      "coordinates": [
+        -74.1437552,
+        41.0887072
       ]
     }
   },
@@ -278,20 +495,20 @@
       "risk": "high",
       "legs": [
         {
-          "id": "d1-boston-logan-rental-to-art-omi",
+          "id": "d1-boston-logan-rental-to-sturbridge-break",
           "from": "boston-logan-rental",
-          "to": "art-omi",
-          "distance_meters": 252469,
-          "distance_miles": 156.9,
-          "baseline_seconds": 11807,
-          "baseline_minutes": 197,
+          "to": "sturbridge-break",
+          "distance_meters": 99275,
+          "distance_miles": 61.7,
+          "baseline_seconds": 4753,
+          "baseline_minutes": 80,
           "planning_minutes": {
-            "low": 215,
-            "high": 320
+            "low": 90,
+            "high": 135
           },
           "traffic_risk": "high",
           "mode": "driving",
-          "display_duration_minutes": 197,
+          "display_duration_minutes": 80,
           "counts_toward_drive_cap": true,
           "geometry": {
             "coordinates": [
@@ -300,12 +517,32 @@
                 42.367769
               ],
               [
+                -71.025966,
+                42.358383
+              ],
+              [
                 -71.037429,
                 42.346811
               ],
               [
-                -71.177949,
-                42.35787
+                -71.100848,
+                42.347963
+              ],
+              [
+                -71.122854,
+                42.357683
+              ],
+              [
+                -71.178245,
+                42.357844
+              ],
+              [
+                -71.249459,
+                42.34591
+              ],
+              [
+                -71.265166,
+                42.339004
               ],
               [
                 -71.315031,
@@ -316,32 +553,143 @@
                 42.311489
               ],
               [
-                -71.412023,
-                42.315539
+                -71.407041,
+                42.316164
               ],
               [
-                -71.557712,
-                42.269721
+                -71.436757,
+                42.309435
+              ],
+              [
+                -71.45152,
+                42.302428
+              ],
+              [
+                -71.473725,
+                42.299761
+              ],
+              [
+                -71.496004,
+                42.286088
+              ],
+              [
+                -71.57141,
+                42.263783
+              ],
+              [
+                -71.593321,
+                42.243108
               ],
               [
                 -71.618632,
                 42.229395
               ],
               [
-                -71.755983,
-                42.2211
+                -71.694712,
+                42.2277
               ],
               [
-                -72.062495,
-                42.129623
+                -71.75492,
+                42.221322
               ],
               [
-                -72.125546,
-                42.135283
+                -71.787613,
+                42.207398
               ],
               [
-                -72.214144,
-                42.182527
+                -71.834265,
+                42.201297
+              ],
+              [
+                -71.85277,
+                42.192648
+              ],
+              [
+                -71.924914,
+                42.173663
+              ],
+              [
+                -71.966867,
+                42.15452
+              ],
+              [
+                -72.011376,
+                42.147238
+              ],
+              [
+                -72.061472,
+                42.130784
+              ],
+              [
+                -72.074398,
+                42.117568
+              ],
+              [
+                -72.086733,
+                42.112292
+              ],
+              [
+                -72.079819,
+                42.103267
+              ]
+            ],
+            "type": "LineString"
+          },
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-71.0304,42.3682;-72.0787,42.1015?overview=simplified&geometries=geojson&steps=false"
+        },
+        {
+          "id": "d1-sturbridge-break-to-keystone-arches",
+          "from": "sturbridge-break",
+          "to": "keystone-arches",
+          "distance_meters": 99001,
+          "distance_miles": 61.5,
+          "baseline_seconds": 5151,
+          "baseline_minutes": 86,
+          "planning_minutes": {
+            "low": 95,
+            "high": 145
+          },
+          "traffic_risk": "high",
+          "mode": "driving",
+          "display_duration_minutes": 86,
+          "counts_toward_drive_cap": true,
+          "geometry": {
+            "coordinates": [
+              [
+                -72.079819,
+                42.103267
+              ],
+              [
+                -72.086174,
+                42.112138
+              ],
+              [
+                -72.077084,
+                42.114766
+              ],
+              [
+                -72.058825,
+                42.131089
+              ],
+              [
+                -72.067066,
+                42.129952
+              ],
+              [
+                -72.086217,
+                42.136085
+              ],
+              [
+                -72.124859,
+                42.135049
+              ],
+              [
+                -72.213602,
+                42.182504
+              ],
+              [
+                -72.244175,
+                42.179114
               ],
               [
                 -72.282382,
@@ -352,8 +700,20 @@
                 42.17708
               ],
               [
+                -72.349506,
+                42.169557
+              ],
+              [
+                -72.367993,
+                42.157184
+              ],
+              [
                 -72.381481,
                 42.153908
+              ],
+              [
+                -72.413222,
+                42.15796
               ],
               [
                 -72.446282,
@@ -368,56 +728,267 @@
                 42.169804
               ],
               [
-                -72.617477,
-                42.154839
+                -72.616208,
+                42.155187
               ],
               [
-                -72.710155,
-                42.139993
+                -72.659726,
+                42.152772
               ],
               [
-                -72.759029,
-                42.154856
+                -72.689033,
+                42.139538
               ],
               [
-                -72.907803,
-                42.17298
+                -72.710655,
+                42.14006
               ],
               [
-                -72.993536,
-                42.236973
+                -72.734257,
+                42.146258
               ],
               [
-                -73.043933,
-                42.23304
+                -72.739416,
+                42.135778
               ],
               [
-                -73.110157,
-                42.248037
+                -72.748476,
+                42.137342
               ],
               [
-                -73.157912,
-                42.289345
+                -72.765871,
+                42.165496
               ],
               [
-                -73.191614,
-                42.300029
+                -72.77678,
+                42.169144
               ],
               [
-                -73.29784,
-                42.297775
+                -72.778012,
+                42.184112
               ],
               [
-                -73.351677,
-                42.307377
+                -72.785731,
+                42.195002
+              ],
+              [
+                -72.814242,
+                42.210409
+              ],
+              [
+                -72.843686,
+                42.23905
+              ],
+              [
+                -72.853316,
+                42.237448
+              ],
+              [
+                -72.867025,
+                42.249897
+              ],
+              [
+                -72.872544,
+                42.23599
+              ],
+              [
+                -72.879787,
+                42.233597
+              ],
+              [
+                -72.910217,
+                42.239432
+              ],
+              [
+                -72.929439,
+                42.24894
+              ],
+              [
+                -72.935551,
+                42.256985
+              ],
+              [
+                -72.955685,
+                42.258606
+              ],
+              [
+                -72.970205,
+                42.273958
+              ],
+              [
+                -72.982032,
+                42.279394
+              ]
+            ],
+            "type": "LineString"
+          },
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-72.0787,42.1015;-72.9821435,42.2794378?overview=simplified&geometries=geojson&steps=false"
+        },
+        {
+          "id": "d1-keystone-arches-to-art-omi",
+          "from": "keystone-arches",
+          "to": "art-omi",
+          "distance_meters": 75486,
+          "distance_miles": 46.9,
+          "baseline_seconds": 4471,
+          "baseline_minutes": 75,
+          "planning_minutes": {
+            "low": 85,
+            "high": 130
+          },
+          "traffic_risk": "high",
+          "mode": "driving",
+          "display_duration_minutes": 75,
+          "counts_toward_drive_cap": true,
+          "geometry": {
+            "coordinates": [
+              [
+                -72.982032,
+                42.279394
+              ],
+              [
+                -72.987822,
+                42.280121
+              ],
+              [
+                -72.995012,
+                42.273402
+              ],
+              [
+                -72.999464,
+                42.274013
+              ],
+              [
+                -73.001036,
+                42.27072
+              ],
+              [
+                -73.011115,
+                42.268141
+              ],
+              [
+                -73.021444,
+                42.270352
+              ],
+              [
+                -73.043988,
+                42.26407
+              ],
+              [
+                -73.05213,
+                42.263602
+              ],
+              [
+                -73.056898,
+                42.266192
+              ],
+              [
+                -73.06335,
+                42.263642
+              ],
+              [
+                -73.075197,
+                42.263846
+              ],
+              [
+                -73.079435,
+                42.25834
+              ],
+              [
+                -73.094235,
+                42.260599
+              ],
+              [
+                -73.103691,
+                42.259341
+              ],
+              [
+                -73.112162,
+                42.253217
+              ],
+              [
+                -73.13503,
+                42.264572
+              ],
+              [
+                -73.141157,
+                42.270895
+              ],
+              [
+                -73.14153,
+                42.278581
+              ],
+              [
+                -73.145009,
+                42.284141
+              ],
+              [
+                -73.162828,
+                42.293705
+              ],
+              [
+                -73.215938,
+                42.29977
+              ],
+              [
+                -73.228313,
+                42.294416
+              ],
+              [
+                -73.232775,
+                42.297569
+              ],
+              [
+                -73.238211,
+                42.296679
+              ],
+              [
+                -73.234209,
+                42.299993
+              ],
+              [
+                -73.257124,
+                42.296209
+              ],
+              [
+                -73.298697,
+                42.297828
+              ],
+              [
+                -73.327892,
+                42.304583
+              ],
+              [
+                -73.351982,
+                42.307479
+              ],
+              [
+                -73.357058,
+                42.311487
+              ],
+              [
+                -73.359634,
+                42.32197
               ],
               [
                 -73.367972,
                 42.330328
               ],
               [
-                -73.426963,
-                42.359316
+                -73.393251,
+                42.342042
+              ],
+              [
+                -73.408449,
+                42.345512
+              ],
+              [
+                -73.427109,
+                42.359342
+              ],
+              [
+                -73.426211,
+                42.355713
               ],
               [
                 -73.41413,
@@ -426,6 +997,10 @@
               [
                 -73.418516,
                 42.338053
+              ],
+              [
+                -73.439495,
+                42.330754
               ],
               [
                 -73.459225,
@@ -440,12 +1015,20 @@
                 42.320059
               ],
               [
+                -73.502805,
+                42.318465
+              ],
+              [
                 -73.542398,
                 42.3212
               ],
               [
                 -73.570714,
                 42.349328
+              ],
+              [
+                -73.595321,
+                42.341626
               ],
               [
                 -73.615477,
@@ -456,8 +1039,24 @@
                 42.339877
               ],
               [
+                -73.642837,
+                42.338399
+              ],
+              [
+                -73.645783,
+                42.333311
+              ],
+              [
                 -73.652997,
                 42.328809
+              ],
+              [
+                -73.670144,
+                42.332091
+              ],
+              [
+                -73.671404,
+                42.334901
               ],
               [
                 -73.673101,
@@ -466,7 +1065,7 @@
             ],
             "type": "LineString"
           },
-          "routing_source": "https://router.project-osrm.org/route/v1/driving/-71.0304,42.3682;-73.6766147,42.3334297?overview=simplified&geometries=geojson&steps=false"
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-72.9821435,42.2794378;-73.6766147,42.3334297?overview=simplified&geometries=geojson&steps=false"
         },
         {
           "id": "d1-art-omi-to-ghent-lodging",
@@ -608,36 +1207,36 @@
           "routing_source": "https://router.project-osrm.org/route/v1/driving/-73.6766147,42.3334297;-73.6157,42.3293?overview=simplified&geometries=geojson&steps=false"
         }
       ],
-      "baseline_total_meters": 258810,
-      "baseline_total_seconds": 12422,
+      "baseline_total_meters": 280103,
+      "baseline_total_seconds": 14990,
       "non_driving_travel_minutes": 0,
-      "baseline_total_miles": 160.8,
-      "baseline_total_minutes": 208,
+      "baseline_total_miles": 174,
+      "baseline_total_minutes": 250,
       "planning_total_minutes": {
-        "low": 225,
-        "high": 335
+        "low": 270,
+        "high": 400
       },
-      "total_travel_minutes_excluding_queues": 208
+      "total_travel_minutes_excluding_queues": 250
     },
     {
       "day": 2,
       "risk": "medium",
       "legs": [
         {
-          "id": "d2-ghent-lodging-to-worlds-largest-kaleidoscope",
+          "id": "d2-ghent-lodging-to-opus-40",
           "from": "ghent-lodging",
-          "to": "worlds-largest-kaleidoscope",
-          "distance_meters": 83741,
-          "distance_miles": 52,
-          "baseline_seconds": 4909,
-          "baseline_minutes": 82,
+          "to": "opus-40",
+          "distance_meters": 59264,
+          "distance_miles": 36.8,
+          "baseline_seconds": 3647,
+          "baseline_minutes": 61,
           "planning_minutes": {
-            "low": 90,
-            "high": 115
+            "low": 65,
+            "high": 90
           },
           "traffic_risk": "medium",
           "mode": "driving",
-          "display_duration_minutes": 82,
+          "display_duration_minutes": 61,
           "counts_toward_drive_cap": true,
           "geometry": {
             "coordinates": [
@@ -750,36 +1349,91 @@
                 42.127529
               ],
               [
-                -73.959115,
-                42.103862
+                -73.960582,
+                42.101381
               ],
               [
                 -73.976133,
                 42.083408
               ],
               [
-                -73.992423,
+                -73.992359,
                 42.080195
               ],
               [
-                -74.014604,
-                42.083791
+                -74.015432,
+                42.083393
               ],
               [
-                -74.023451,
-                42.075998
+                -74.023847,
+                42.075805
               ],
               [
-                -74.055339,
-                42.0625
+                -74.026962,
+                42.05222
               ],
               [
-                -74.068445,
-                42.050411
+                -74.032574,
+                42.053633
               ],
               [
-                -74.074599,
-                42.053873
+                -74.032998,
+                42.051593
+              ]
+            ],
+            "type": "LineString"
+          },
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-73.6157,42.3293;-74.0321708,42.0515592?overview=simplified&geometries=geojson&steps=false"
+        },
+        {
+          "id": "d2-opus-40-to-rail-explorers-express",
+          "from": "opus-40",
+          "to": "rail-explorers-express",
+          "distance_meters": 31709,
+          "distance_miles": 19.7,
+          "baseline_seconds": 2132,
+          "baseline_minutes": 36,
+          "planning_minutes": {
+            "low": 40,
+            "high": 55
+          },
+          "traffic_risk": "medium",
+          "mode": "driving",
+          "display_duration_minutes": 36,
+          "counts_toward_drive_cap": true,
+          "geometry": {
+            "coordinates": [
+              [
+                -74.032998,
+                42.051593
+              ],
+              [
+                -74.032574,
+                42.053633
+              ],
+              [
+                -74.026962,
+                42.05222
+              ],
+              [
+                -74.029486,
+                42.047492
+              ],
+              [
+                -74.041552,
+                42.04612
+              ],
+              [
+                -74.047923,
+                42.046257
+              ],
+              [
+                -74.067119,
+                42.049997
+              ],
+              [
+                -74.074798,
+                42.053916
               ],
               [
                 -74.082723,
@@ -790,8 +1444,24 @@
                 42.055858
               ],
               [
+                -74.096475,
+                42.054541
+              ],
+              [
                 -74.113325,
                 42.048914
+              ],
+              [
+                -74.12294,
+                42.049665
+              ],
+              [
+                -74.130382,
+                42.049082
+              ],
+              [
+                -74.146263,
+                42.052524
               ],
               [
                 -74.151513,
@@ -802,8 +1472,16 @@
                 42.05396
               ],
               [
+                -74.162189,
+                42.063807
+              ],
+              [
                 -74.166466,
                 42.066534
+              ],
+              [
+                -74.17665,
+                42.065063
               ],
               [
                 -74.181774,
@@ -818,12 +1496,16 @@
                 42.075038
               ],
               [
-                -74.215329,
-                42.078523
+                -74.215466,
+                42.078522
               ],
               [
                 -74.219951,
                 42.077209
+              ],
+              [
+                -74.224587,
+                42.072601
               ],
               [
                 -74.226605,
@@ -836,6 +1518,18 @@
               [
                 -74.2475,
                 42.065524
+              ],
+              [
+                -74.248545,
+                42.063223
+              ],
+              [
+                -74.254737,
+                42.060232
+              ],
+              [
+                -74.255308,
+                42.057888
               ],
               [
                 -74.261165,
@@ -854,43 +1548,47 @@
                 42.039659
               ],
               [
-                -74.288302,
-                42.050175
-              ]
-            ],
-            "type": "LineString"
-          },
-          "routing_source": "https://router.project-osrm.org/route/v1/driving/-73.6157,42.3293;-74.2883494,42.0502805?overview=simplified&geometries=geojson&steps=false"
-        },
-        {
-          "id": "d2-worlds-largest-kaleidoscope-to-hancock-lodging",
-          "from": "worlds-largest-kaleidoscope",
-          "to": "hancock-lodging",
-          "distance_meters": 121384,
-          "distance_miles": 75.4,
-          "baseline_seconds": 6626,
-          "baseline_minutes": 111,
-          "planning_minutes": {
-            "low": 120,
-            "high": 155
-          },
-          "traffic_risk": "medium",
-          "mode": "driving",
-          "display_duration_minutes": 111,
-          "counts_toward_drive_cap": true,
-          "geometry": {
-            "coordinates": [
-              [
-                -74.288302,
-                42.050175
+                -74.290111,
+                42.051486
               ],
               [
                 -74.3047,
                 42.059538
               ],
               [
-                -74.309085,
-                42.079197
+                -74.307554,
+                42.064946
+              ],
+              [
+                -74.307118,
+                42.077095
+              ]
+            ],
+            "type": "LineString"
+          },
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-74.0321708,42.0515592;-74.3052306,42.0774565?overview=simplified&geometries=geojson&steps=false"
+        },
+        {
+          "id": "d2-rail-explorers-express-to-hancock-lodging",
+          "from": "rail-explorers-express",
+          "to": "hancock-lodging",
+          "distance_meters": 117863,
+          "distance_miles": 73.2,
+          "baseline_seconds": 6452,
+          "baseline_minutes": 108,
+          "planning_minutes": {
+            "low": 115,
+            "high": 150
+          },
+          "traffic_risk": "medium",
+          "mode": "driving",
+          "display_duration_minutes": 108,
+          "counts_toward_drive_cap": true,
+          "geometry": {
+            "coordinates": [
+              [
+                -74.307118,
+                42.077095
               ],
               [
                 -74.330935,
@@ -901,8 +1599,8 @@
                 42.093077
               ],
               [
-                -74.361328,
-                42.114011
+                -74.362224,
+                42.114317
               ],
               [
                 -74.392639,
@@ -1143,39 +1841,39 @@
             ],
             "type": "LineString"
           },
-          "routing_source": "https://router.project-osrm.org/route/v1/driving/-74.2883494,42.0502805;-75.2805401,41.9542233?overview=simplified&geometries=geojson&steps=false"
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-74.3052306,42.0774565;-75.2805401,41.9542233?overview=simplified&geometries=geojson&steps=false"
         }
       ],
-      "baseline_total_meters": 205125,
-      "baseline_total_seconds": 11535,
+      "baseline_total_meters": 208836,
+      "baseline_total_seconds": 12231,
       "non_driving_travel_minutes": 0,
-      "baseline_total_miles": 127.5,
-      "baseline_total_minutes": 193,
+      "baseline_total_miles": 129.8,
+      "baseline_total_minutes": 204,
       "planning_total_minutes": {
-        "low": 205,
-        "high": 260
+        "low": 215,
+        "high": 275
       },
-      "total_travel_minutes_excluding_queues": 193
+      "total_travel_minutes_excluding_queues": 204
     },
     {
       "day": 3,
       "risk": "high",
       "legs": [
         {
-          "id": "d3-hancock-lodging-to-taber-museum",
+          "id": "d3-hancock-lodging-to-binghamton-break",
           "from": "hancock-lodging",
-          "to": "taber-museum",
-          "distance_meters": 270513,
-          "distance_miles": 168.1,
-          "baseline_seconds": 12149,
-          "baseline_minutes": 203,
+          "to": "binghamton-break",
+          "distance_meters": 67495,
+          "distance_miles": 41.9,
+          "baseline_seconds": 3207,
+          "baseline_minutes": 54,
           "planning_minutes": {
-            "low": 220,
-            "high": 325
+            "low": 60,
+            "high": 95
           },
           "traffic_risk": "high",
           "mode": "driving",
-          "display_duration_minutes": 203,
+          "display_duration_minutes": 54,
           "counts_toward_drive_cap": true,
           "geometry": {
             "coordinates": [
@@ -1184,72 +1882,231 @@
                 41.954199
               ],
               [
+                -75.295358,
+                41.956568
+              ],
+              [
+                -75.294734,
+                41.958578
+              ],
+              [
+                -75.306686,
+                41.953958
+              ],
+              [
                 -75.31285,
                 41.954512
+              ],
+              [
+                -75.326373,
+                41.968708
               ],
               [
                 -75.336942,
                 41.972649
               ],
               [
+                -75.338222,
+                41.979324
+              ],
+              [
+                -75.335933,
+                41.986712
+              ],
+              [
                 -75.34153,
                 41.99512
+              ],
+              [
+                -75.354107,
+                41.999367
               ],
               [
                 -75.365016,
                 42.00933
               ],
               [
+                -75.380305,
+                42.004871
+              ],
+              [
                 -75.395332,
                 42.009598
               ],
               [
-                -75.420434,
-                42.055598
+                -75.405387,
+                42.022245
+              ],
+              [
+                -75.415024,
+                42.052003
+              ],
+              [
+                -75.420703,
+                42.055662
+              ],
+              [
+                -75.446664,
+                42.051758
               ],
               [
                 -75.458195,
                 42.045254
               ],
               [
+                -75.478247,
+                42.050428
+              ],
+              [
                 -75.499163,
                 42.050846
               ],
               [
-                -75.530087,
-                42.031484
+                -75.512349,
+                42.045037
               ],
               [
-                -75.575232,
-                42.070351
+                -75.521074,
+                42.033332
               ],
               [
-                -75.613307,
-                42.054503
+                -75.529504,
+                42.031422
+              ],
+              [
+                -75.537007,
+                42.033765
+              ],
+              [
+                -75.54607,
+                42.040608
+              ],
+              [
+                -75.557801,
+                42.058808
+              ],
+              [
+                -75.575522,
+                42.070406
+              ],
+              [
+                -75.58092,
+                42.069785
+              ],
+              [
+                -75.589875,
+                42.063205
+              ],
+              [
+                -75.612738,
+                42.05444
+              ],
+              [
+                -75.617754,
+                42.056284
               ],
               [
                 -75.635036,
                 42.070972
               ],
               [
-                -75.675862,
-                42.083693
+                -75.664347,
+                42.078251
               ],
               [
-                -75.946179,
-                42.119974
+                -75.675118,
+                42.08352
               ],
               [
-                -75.997003,
-                42.116078
+                -75.731558,
+                42.091355
               ],
               [
-                -76.03625,
-                42.093218
+                -75.746801,
+                42.090611
               ],
               [
-                -76.135454,
-                42.059519
+                -75.774755,
+                42.098189
+              ],
+              [
+                -75.805694,
+                42.101467
+              ],
+              [
+                -75.82585,
+                42.095268
+              ],
+              [
+                -75.855396,
+                42.10463
+              ],
+              [
+                -75.866014,
+                42.103069
+              ],
+              [
+                -75.893007,
+                42.104128
+              ],
+              [
+                -75.911293,
+                42.098723
+              ],
+              [
+                -75.917942,
+                42.098872
+              ]
+            ],
+            "type": "LineString"
+          },
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-75.2805401,41.9542233;-75.918,42.0987?overview=simplified&geometries=geojson&steps=false"
+        },
+        {
+          "id": "d3-binghamton-break-to-worlds-end",
+          "from": "binghamton-break",
+          "to": "worlds-end",
+          "distance_meters": 146816,
+          "distance_miles": 91.2,
+          "baseline_seconds": 7112,
+          "baseline_minutes": 119,
+          "planning_minutes": {
+            "low": 130,
+            "high": 195
+          },
+          "traffic_risk": "high",
+          "mode": "driving",
+          "display_duration_minutes": 119,
+          "counts_toward_drive_cap": true,
+          "geometry": {
+            "coordinates": [
+              [
+                -75.917942,
+                42.098872
+              ],
+              [
+                -75.921803,
+                42.112574
+              ],
+              [
+                -75.945711,
+                42.119934
+              ],
+              [
+                -75.979191,
+                42.120061
+              ],
+              [
+                -76.00163,
+                42.114263
+              ],
+              [
+                -76.036561,
+                42.093093
+              ],
+              [
+                -76.136585,
+                42.059458
               ],
               [
                 -76.17118,
@@ -1260,16 +2117,40 @@
                 42.080423
               ],
               [
+                -76.221272,
+                42.08314
+              ],
+              [
+                -76.241714,
+                42.09974
+              ],
+              [
                 -76.254338,
                 42.101655
+              ],
+              [
+                -76.279218,
+                42.08643
               ],
               [
                 -76.307174,
                 42.079461
               ],
               [
+                -76.328904,
+                42.061564
+              ],
+              [
                 -76.354871,
                 42.024859
+              ],
+              [
+                -76.385462,
+                42.026766
+              ],
+              [
+                -76.40145,
+                42.021809
               ],
               [
                 -76.442587,
@@ -1280,12 +2161,20 @@
                 42.008077
               ],
               [
+                -76.515484,
+                42.000304
+              ],
+              [
                 -76.548782,
                 41.99981
               ],
               [
                 -76.544363,
                 41.975126
+              ],
+              [
+                -76.529297,
+                41.962091
               ],
               [
                 -76.523214,
@@ -1300,6 +2189,10 @@
                 41.858694
               ],
               [
+                -76.501413,
+                41.848392
+              ],
+              [
                 -76.510351,
                 41.825191
               ],
@@ -1308,175 +2201,315 @@
                 41.802051
               ],
               [
+                -76.480681,
+                41.794235
+              ],
+              [
                 -76.464905,
                 41.791401
               ],
               [
-                -76.44666,
-                41.753934
+                -76.446585,
+                41.753653
               ],
               [
-                -76.473854,
-                41.714751
+                -76.451278,
+                41.740408
               ],
               [
-                -76.433253,
-                41.62899
+                -76.470474,
+                41.726899
               ],
               [
-                -76.446807,
-                41.611859
+                -76.473862,
+                41.714899
               ],
               [
-                -76.4414,
-                41.59546
+                -76.464947,
+                41.704961
               ],
               [
-                -76.398996,
-                41.536301
+                -76.455604,
+                41.668443
               ],
               [
-                -76.40843,
-                41.492451
+                -76.433211,
+                41.628823
               ],
               [
-                -76.455793,
-                41.439857
+                -76.447008,
+                41.609044
               ],
               [
-                -76.489365,
-                41.431311
+                -76.44102,
+                41.594908
               ],
               [
-                -76.515102,
-                41.378038
+                -76.419372,
+                41.573388
               ],
               [
-                -76.552681,
-                41.36146
+                -76.419415,
+                41.561723
               ],
               [
-                -76.557258,
-                41.344972
+                -76.404402,
+                41.553157
               ],
               [
-                -76.585044,
-                41.344147
+                -76.398578,
+                41.532231
               ],
               [
-                -76.599927,
-                41.312078
+                -76.406639,
+                41.515553
               ],
               [
-                -76.624601,
-                41.318007
+                -76.438016,
+                41.518636
               ],
               [
-                -76.636296,
-                41.308314
+                -76.458668,
+                41.505876
               ],
               [
-                -76.649326,
-                41.314711
+                -76.509901,
+                41.507029
               ],
               [
-                -76.676218,
-                41.309301
+                -76.516841,
+                41.511349
               ],
               [
-                -76.696511,
-                41.288427
+                -76.565233,
+                41.505398
               ],
               [
-                -76.711403,
-                41.287283
+                -76.586334,
+                41.508781
               ],
               [
-                -76.720426,
-                41.245249
+                -76.595627,
+                41.501782
               ],
               [
-                -76.75802,
-                41.250522
-              ],
-              [
-                -76.808363,
-                41.238202
-              ],
-              [
-                -76.919416,
-                41.264674
-              ],
-              [
-                -76.94805,
-                41.246175
-              ],
-              [
-                -76.980355,
-                41.24896
-              ],
-              [
-                -77.019301,
-                41.231616
-              ],
-              [
-                -77.020195,
-                41.240087
+                -76.602067,
+                41.48736
               ]
             ],
             "type": "LineString"
           },
-          "routing_source": "https://router.project-osrm.org/route/v1/driving/-75.2805401,41.9542233;-77.0198998,41.2400968?overview=simplified&geometries=geojson&steps=false"
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-75.918,42.0987;-76.6021689,41.487473?overview=simplified&geometries=geojson&steps=false"
         },
         {
-          "id": "d3-taber-museum-to-williamsport-lodging",
-          "from": "taber-museum",
+          "id": "d3-worlds-end-to-williamsport-lodging",
+          "from": "worlds-end",
           "to": "williamsport-lodging",
-          "distance_meters": 1955,
-          "distance_miles": 1.2,
-          "baseline_seconds": 174,
-          "baseline_minutes": 3,
+          "distance_meters": 57893,
+          "distance_miles": 36,
+          "baseline_seconds": 3748,
+          "baseline_minutes": 63,
           "planning_minutes": {
-            "low": 5,
-            "high": 15
+            "low": 70,
+            "high": 110
           },
           "traffic_risk": "high",
           "mode": "driving",
-          "display_duration_minutes": 3,
+          "display_duration_minutes": 63,
           "counts_toward_drive_cap": true,
           "geometry": {
             "coordinates": [
               [
-                -77.020195,
-                41.240087
+                -76.602067,
+                41.48736
               ],
               [
-                -77.02017,
-                41.239667
+                -76.605533,
+                41.490783
               ],
               [
-                -77.017071,
-                41.239773
+                -76.614938,
+                41.48745
               ],
               [
-                -77.01698,
-                41.237816
+                -76.627592,
+                41.487067
               ],
               [
-                -77.010021,
-                41.238047
+                -76.630263,
+                41.484548
               ],
               [
-                -77.009499,
-                41.238103
+                -76.632415,
+                41.473483
               ],
               [
-                -77.00526,
-                41.239058
+                -76.644757,
+                41.462222
               ],
               [
-                -77.001015,
-                41.24113
+                -76.661906,
+                41.461818
+              ],
+              [
+                -76.672585,
+                41.45582
+              ],
+              [
+                -76.683458,
+                41.459281
+              ],
+              [
+                -76.707649,
+                41.443553
+              ],
+              [
+                -76.712612,
+                41.4379
+              ],
+              [
+                -76.707604,
+                41.427054
+              ],
+              [
+                -76.705249,
+                41.412706
+              ],
+              [
+                -76.713688,
+                41.404835
+              ],
+              [
+                -76.728784,
+                41.405131
+              ],
+              [
+                -76.741796,
+                41.400992
+              ],
+              [
+                -76.753304,
+                41.40381
+              ],
+              [
+                -76.756158,
+                41.401715
+              ],
+              [
+                -76.758197,
+                41.393037
+              ],
+              [
+                -76.762405,
+                41.389758
+              ],
+              [
+                -76.772078,
+                41.392152
+              ],
+              [
+                -76.787842,
+                41.391391
+              ],
+              [
+                -76.830607,
+                41.373747
+              ],
+              [
+                -76.835645,
+                41.375445
+              ],
+              [
+                -76.839387,
+                41.38259
+              ],
+              [
+                -76.845874,
+                41.387112
+              ],
+              [
+                -76.852465,
+                41.381355
+              ],
+              [
+                -76.853074,
+                41.371039
+              ],
+              [
+                -76.857311,
+                41.366255
+              ],
+              [
+                -76.863868,
+                41.363183
+              ],
+              [
+                -76.871329,
+                41.364022
+              ],
+              [
+                -76.884811,
+                41.358923
+              ],
+              [
+                -76.890981,
+                41.352118
+              ],
+              [
+                -76.913564,
+                41.351469
+              ],
+              [
+                -76.919905,
+                41.346011
+              ],
+              [
+                -76.920385,
+                41.341557
+              ],
+              [
+                -76.911099,
+                41.326131
+              ],
+              [
+                -76.908873,
+                41.302979
+              ],
+              [
+                -76.90579,
+                41.296113
+              ],
+              [
+                -76.913243,
+                41.265572
+              ],
+              [
+                -76.925685,
+                41.263128
+              ],
+              [
+                -76.932816,
+                41.252522
+              ],
+              [
+                -76.947381,
+                41.246345
+              ],
+              [
+                -76.966055,
+                41.246456
+              ],
+              [
+                -76.979459,
+                41.2491
+              ],
+              [
+                -76.990745,
+                41.245026
+              ],
+              [
+                -76.998857,
+                41.239223
               ],
               [
                 -77.001058,
@@ -1485,39 +2518,39 @@
             ],
             "type": "LineString"
           },
-          "routing_source": "https://router.project-osrm.org/route/v1/driving/-77.0198998,41.2400968;-77.0011096,41.2411556?overview=simplified&geometries=geojson&steps=false"
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-76.6021689,41.487473;-77.0011096,41.2411556?overview=simplified&geometries=geojson&steps=false"
         }
       ],
-      "baseline_total_meters": 272468,
-      "baseline_total_seconds": 12323,
+      "baseline_total_meters": 272204,
+      "baseline_total_seconds": 14067,
       "non_driving_travel_minutes": 0,
-      "baseline_total_miles": 169.3,
-      "baseline_total_minutes": 206,
+      "baseline_total_miles": 169.1,
+      "baseline_total_minutes": 235,
       "planning_total_minutes": {
-        "low": 225,
-        "high": 330
+        "low": 255,
+        "high": 375
       },
-      "total_travel_minutes_excluding_queues": 206
+      "total_travel_minutes_excluding_queues": 235
     },
     {
       "day": 4,
       "risk": "medium",
       "legs": [
         {
-          "id": "d4-williamsport-lodging-to-scripture-rocks",
+          "id": "d4-williamsport-lodging-to-bilgers-rocks",
           "from": "williamsport-lodging",
-          "to": "scripture-rocks",
-          "distance_meters": 206296,
-          "distance_miles": 128.2,
-          "baseline_seconds": 8935,
-          "baseline_minutes": 149,
+          "to": "bilgers-rocks",
+          "distance_meters": 163408,
+          "distance_miles": 101.5,
+          "baseline_seconds": 7496,
+          "baseline_minutes": 125,
           "planning_minutes": {
-            "low": 160,
-            "high": 205
+            "low": 135,
+            "high": 170
           },
           "traffic_risk": "medium",
           "mode": "driving",
-          "display_duration_minutes": 149,
+          "display_duration_minutes": 125,
           "counts_toward_drive_cap": true,
           "geometry": {
             "coordinates": [
@@ -1566,20 +2599,20 @@
                 41.032199
               ],
               [
-                -77.582548,
-                41.017436
+                -77.583056,
+                41.017218
               ],
               [
-                -77.640524,
-                40.96978
+                -77.639475,
+                40.970359
               ],
               [
-                -77.726173,
-                40.944466
+                -77.708874,
+                40.946523
               ],
               [
-                -77.775554,
-                40.957577
+                -77.774652,
+                40.957202
               ],
               [
                 -77.797562,
@@ -1590,179 +2623,207 @@
                 40.99626
               ],
               [
-                -77.911119,
-                41.024915
+                -77.912868,
+                41.0251
               ],
               [
-                -77.944991,
-                41.02318
+                -77.945481,
+                41.023019
               ],
               [
                 -78.044047,
                 40.976513
               ],
               [
-                -78.104942,
-                40.962662
+                -78.102379,
+                40.962578
               ],
               [
-                -78.158302,
-                40.989418
+                -78.15773,
+                40.989277
               ],
               [
-                -78.260162,
-                40.993923
+                -78.260719,
+                40.994038
               ],
               [
-                -78.287956,
-                41.013439
+                -78.287102,
+                41.01318
               ],
               [
-                -78.36689,
-                41.023727
+                -78.366089,
+                41.023495
               ],
               [
-                -78.382401,
-                41.036537
+                -78.397078,
+                41.040016
               ],
               [
-                -78.409393,
-                41.039413
+                -78.437438,
+                41.0061
               ],
               [
-                -78.436317,
-                41.056747
+                -78.456485,
+                41.00433
               ],
               [
-                -78.484314,
-                41.068817
+                -78.499711,
+                40.977849
               ],
               [
-                -78.56955,
-                41.126987
+                -78.543518,
+                40.974429
               ],
               [
-                -78.679939,
-                41.122372
+                -78.59185,
+                40.993263
+              ]
+            ],
+            "type": "LineString"
+          },
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-77.0011096,41.2411556;-78.5921078,40.994056?overview=simplified&geometries=geojson&steps=false"
+        },
+        {
+          "id": "d4-bilgers-rocks-to-scripture-rocks",
+          "from": "bilgers-rocks",
+          "to": "scripture-rocks",
+          "distance_meters": 58479,
+          "distance_miles": 36.3,
+          "baseline_seconds": 3068,
+          "baseline_minutes": 52,
+          "planning_minutes": {
+            "low": 55,
+            "high": 75
+          },
+          "traffic_risk": "medium",
+          "mode": "driving",
+          "display_duration_minutes": 52,
+          "counts_toward_drive_cap": true,
+          "geometry": {
+            "coordinates": [
+              [
+                -78.59185,
+                40.993263
               ],
               [
-                -78.826573,
-                41.158889
+                -78.585632,
+                40.992298
+              ],
+              [
+                -78.582672,
+                40.994871
+              ],
+              [
+                -78.611427,
+                41.015808
+              ],
+              [
+                -78.639488,
+                41.01791
+              ],
+              [
+                -78.65239,
+                41.025398
+              ],
+              [
+                -78.66558,
+                41.024198
+              ],
+              [
+                -78.689489,
+                41.0343
+              ],
+              [
+                -78.695007,
+                41.034073
+              ],
+              [
+                -78.704105,
+                41.049276
+              ],
+              [
+                -78.721313,
+                41.053944
+              ],
+              [
+                -78.730721,
+                41.059803
+              ],
+              [
+                -78.733009,
+                41.065365
+              ],
+              [
+                -78.743042,
+                41.073582
+              ],
+              [
+                -78.758458,
+                41.079439
+              ],
+              [
+                -78.771339,
+                41.092243
+              ],
+              [
+                -78.77135,
+                41.108597
+              ],
+              [
+                -78.755052,
+                41.12714
+              ],
+              [
+                -78.776676,
+                41.132881
+              ],
+              [
+                -78.789297,
+                41.148926
+              ],
+              [
+                -78.787805,
+                41.147014
+              ],
+              [
+                -78.827951,
+                41.158877
               ],
               [
                 -78.852118,
                 41.149388
               ],
               [
-                -78.927515,
-                41.152555
+                -78.876076,
+                41.151847
               ],
               [
-                -78.968961,
-                41.138095
+                -78.928125,
+                41.152465
+              ],
+              [
+                -78.968295,
+                41.138063
               ],
               [
                 -78.992822,
                 41.147818
               ],
               [
-                -79.014138,
-                41.170398
+                -79.002568,
+                41.161219
               ],
               [
-                -79.061521,
-                41.160694
+                -79.014748,
+                41.170541
               ],
               [
-                -79.050197,
-                41.158723
-              ]
-            ],
-            "type": "LineString"
-          },
-          "routing_source": "https://router.project-osrm.org/route/v1/driving/-77.0011096,41.2411556;-79.0506188,41.1594272?overview=simplified&geometries=geojson&steps=false"
-        },
-        {
-          "id": "d4-scripture-rocks-to-brookville-lodging",
-          "from": "scripture-rocks",
-          "to": "brookville-lodging",
-          "distance_meters": 2784,
-          "distance_miles": 1.7,
-          "baseline_seconds": 250,
-          "baseline_minutes": 5,
-          "planning_minutes": {
-            "low": 10,
-            "high": 15
-          },
-          "traffic_risk": "medium",
-          "mode": "driving",
-          "display_duration_minutes": 5,
-          "counts_toward_drive_cap": true,
-          "geometry": {
-            "coordinates": [
-              [
-                -79.050197,
-                41.158723
+                -79.04518,
+                41.168796
               ],
               [
-                -79.051694,
-                41.15801
-              ],
-              [
-                -79.053439,
-                41.156725
-              ],
-              [
-                -79.05666,
-                41.158066
-              ],
-              [
-                -79.058172,
-                41.158546
-              ],
-              [
-                -79.059589,
-                41.159628
-              ],
-              [
-                -79.061358,
-                41.160239
-              ],
-              [
-                -79.061521,
-                41.160694
-              ],
-              [
-                -79.0649,
-                41.160992
-              ],
-              [
-                -79.067144,
-                41.161027
-              ],
-              [
-                -79.070352,
-                41.159953
-              ],
-              [
-                -79.073021,
-                41.159702
-              ],
-              [
-                -79.073564,
-                41.159747
-              ],
-              [
-                -79.075996,
-                41.160757
-              ],
-              [
-                -79.076289,
-                41.160736
-              ],
-              [
-                -79.0774,
-                41.160122
+                -79.053138,
+                41.16052
               ],
               [
                 -79.079478,
@@ -1771,19 +2832,50 @@
             ],
             "type": "LineString"
           },
-          "routing_source": "https://router.project-osrm.org/route/v1/driving/-79.0506188,41.1594272;-79.0794702,41.1604348?overview=simplified&geometries=geojson&steps=false"
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-78.5921078,40.994056;-79.0794702,41.1604348?overview=simplified&geometries=geojson&steps=false"
+        },
+        {
+          "id": "d4-scripture-rocks-to-brookville-lodging",
+          "from": "scripture-rocks",
+          "to": "brookville-lodging",
+          "distance_meters": 0,
+          "distance_miles": 0,
+          "baseline_seconds": 0,
+          "baseline_minutes": 0,
+          "planning_minutes": {
+            "low": 0,
+            "high": 5
+          },
+          "traffic_risk": "medium",
+          "mode": "driving",
+          "display_duration_minutes": 0,
+          "counts_toward_drive_cap": true,
+          "geometry": {
+            "coordinates": [
+              [
+                -79.079478,
+                41.160401
+              ],
+              [
+                -79.079478,
+                41.160401
+              ]
+            ],
+            "type": "LineString"
+          },
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-79.0794702,41.1604348;-79.0794702,41.1604348?overview=simplified&geometries=geojson&steps=false"
         }
       ],
-      "baseline_total_meters": 209080,
-      "baseline_total_seconds": 9185,
+      "baseline_total_meters": 221887,
+      "baseline_total_seconds": 10564,
       "non_driving_travel_minutes": 0,
-      "baseline_total_miles": 129.9,
-      "baseline_total_minutes": 154,
+      "baseline_total_miles": 137.9,
+      "baseline_total_minutes": 177,
       "planning_total_minutes": {
-        "low": 165,
-        "high": 210
+        "low": 190,
+        "high": 240
       },
-      "total_travel_minutes_excluding_queues": 154
+      "total_travel_minutes_excluding_queues": 177
     },
     {
       "day": 5,
@@ -1933,20 +3025,20 @@
           "routing_source": "https://router.project-osrm.org/route/v1/driving/-79.0794702,41.1604348;-79.9158069,40.4983418?overview=simplified&geometries=geojson&steps=false"
         },
         {
-          "id": "d5-bayernhof-to-wheeling-lodging",
+          "id": "d5-bayernhof-to-palace-of-gold",
           "from": "bayernhof",
-          "to": "wheeling-lodging",
-          "distance_meters": 103344,
-          "distance_miles": 64.2,
-          "baseline_seconds": 5514,
-          "baseline_minutes": 92,
+          "to": "palace-of-gold",
+          "distance_meters": 117900,
+          "distance_miles": 73.3,
+          "baseline_seconds": 6230,
+          "baseline_minutes": 104,
           "planning_minutes": {
-            "low": 100,
-            "high": 155
+            "low": 115,
+            "high": 175
           },
           "traffic_risk": "high",
           "mode": "driving",
-          "display_duration_minutes": 92,
+          "display_duration_minutes": 104,
           "counts_toward_drive_cap": true,
           "geometry": {
             "coordinates": [
@@ -2071,8 +3163,8 @@
                 40.145995
               ],
               [
-                -80.325194,
-                40.131511
+                -80.324978,
+                40.131631
               ],
               [
                 -80.354989,
@@ -2143,8 +3235,119 @@
                 40.05422
               ],
               [
-                -80.720407,
-                40.051809
+                -80.721673,
+                40.051643
+              ],
+              [
+                -80.733616,
+                40.014053
+              ],
+              [
+                -80.732317,
+                39.977289
+              ],
+              [
+                -80.753908,
+                39.956927
+              ],
+              [
+                -80.753995,
+                39.935585
+              ],
+              [
+                -80.742624,
+                39.926602
+              ],
+              [
+                -80.743221,
+                39.920282
+              ]
+            ],
+            "type": "LineString"
+          },
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-79.9158069,40.4983418;-80.7432124,39.920425?overview=simplified&geometries=geojson&steps=false"
+        },
+        {
+          "id": "d5-palace-of-gold-to-wheeling-lodging",
+          "from": "palace-of-gold",
+          "to": "wheeling-lodging",
+          "distance_meters": 17639,
+          "distance_miles": 11,
+          "baseline_seconds": 896,
+          "baseline_minutes": 15,
+          "planning_minutes": {
+            "low": 20,
+            "high": 35
+          },
+          "traffic_risk": "high",
+          "mode": "driving",
+          "display_duration_minutes": 15,
+          "counts_toward_drive_cap": true,
+          "geometry": {
+            "coordinates": [
+              [
+                -80.743221,
+                39.920282
+              ],
+              [
+                -80.742624,
+                39.926602
+              ],
+              [
+                -80.75204,
+                39.931641
+              ],
+              [
+                -80.753995,
+                39.935585
+              ],
+              [
+                -80.75383,
+                39.956927
+              ],
+              [
+                -80.752017,
+                39.959096
+              ],
+              [
+                -80.739145,
+                39.967171
+              ],
+              [
+                -80.732107,
+                39.977431
+              ],
+              [
+                -80.730948,
+                39.999089
+              ],
+              [
+                -80.733517,
+                40.014042
+              ],
+              [
+                -80.732008,
+                40.019668
+              ],
+              [
+                -80.723381,
+                40.03501
+              ],
+              [
+                -80.721716,
+                40.043158
+              ],
+              [
+                -80.721337,
+                40.056404
+              ],
+              [
+                -80.718458,
+                40.060803
+              ],
+              [
+                -80.719615,
+                40.064198
               ],
               [
                 -80.720929,
@@ -2153,19 +3356,19 @@
             ],
             "type": "LineString"
           },
-          "routing_source": "https://router.project-osrm.org/route/v1/driving/-79.9158069,40.4983418;-80.7209149,40.0639616?overview=simplified&geometries=geojson&steps=false"
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-80.7432124,39.920425;-80.7209149,40.0639616?overview=simplified&geometries=geojson&steps=false"
         }
       ],
-      "baseline_total_meters": 225817,
-      "baseline_total_seconds": 12062,
+      "baseline_total_meters": 258012,
+      "baseline_total_seconds": 13674,
       "non_driving_travel_minutes": 0,
-      "baseline_total_miles": 140.3,
-      "baseline_total_minutes": 202,
+      "baseline_total_miles": 160.3,
+      "baseline_total_minutes": 228,
       "planning_total_minutes": {
-        "low": 220,
-        "high": 325
+        "low": 250,
+        "high": 365
       },
-      "total_travel_minutes_excluding_queues": 202
+      "total_travel_minutes_excluding_queues": 228
     },
     {
       "day": 6,
@@ -2175,17 +3378,17 @@
           "id": "d6-wheeling-lodging-to-alan-cottrill",
           "from": "wheeling-lodging",
           "to": "alan-cottrill",
-          "distance_meters": 117651,
-          "distance_miles": 73.1,
-          "baseline_seconds": 4885,
-          "baseline_minutes": 82,
+          "distance_meters": 117060,
+          "distance_miles": 72.7,
+          "baseline_seconds": 4843,
+          "baseline_minutes": 81,
           "planning_minutes": {
             "low": 90,
             "high": 115
           },
           "traffic_risk": "medium",
           "mode": "driving",
-          "display_duration_minutes": 82,
+          "display_duration_minutes": 81,
           "counts_toward_drive_cap": true,
           "geometry": {
             "coordinates": [
@@ -2322,78 +3525,39 @@
                 39.944981
               ],
               [
-                -82.005112,
-                39.93785
+                -82.004894,
+                39.940137
               ]
             ],
             "type": "LineString"
           },
-          "routing_source": "https://router.project-osrm.org/route/v1/driving/-80.7209149,40.0639616;-82.0050289,39.9379756?overview=simplified&geometries=geojson&steps=false"
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-80.7209149,40.0639616;-82.005019,39.9401426?overview=simplified&geometries=geojson&steps=false"
         },
         {
-          "id": "d6-alan-cottrill-to-y-bridge",
+          "id": "d6-alan-cottrill-to-otherworld",
           "from": "alan-cottrill",
-          "to": "y-bridge",
-          "distance_meters": 1091,
-          "distance_miles": 0.7,
-          "baseline_seconds": 86,
-          "baseline_minutes": 2,
-          "planning_minutes": {
-            "low": 5,
-            "high": 10
-          },
-          "traffic_risk": "medium",
-          "mode": "driving",
-          "display_duration_minutes": 2,
-          "counts_toward_drive_cap": true,
-          "geometry": {
-            "coordinates": [
-              [
-                -82.005112,
-                39.93785
-              ],
-              [
-                -82.005372,
-                39.937867
-              ],
-              [
-                -82.00522,
-                39.940041
-              ],
-              [
-                -82.014313,
-                39.940438
-              ],
-              [
-                -82.014446,
-                39.940864
-              ]
-            ],
-            "type": "LineString"
-          },
-          "routing_source": "https://router.project-osrm.org/route/v1/driving/-82.0050289,39.9379756;-82.0144555,39.9408623?overview=simplified&geometries=geojson&steps=false"
-        },
-        {
-          "id": "d6-y-bridge-to-otherworld",
-          "from": "y-bridge",
           "to": "otherworld",
-          "distance_meters": 73765,
-          "distance_miles": 45.8,
-          "baseline_seconds": 3209,
-          "baseline_minutes": 54,
+          "distance_meters": 74632,
+          "distance_miles": 46.4,
+          "baseline_seconds": 3273,
+          "baseline_minutes": 55,
           "planning_minutes": {
             "low": 60,
             "high": 80
           },
           "traffic_risk": "medium",
           "mode": "driving",
-          "display_duration_minutes": 54,
+          "display_duration_minutes": 55,
           "counts_toward_drive_cap": true,
           "geometry": {
             "coordinates": [
               [
-                -82.014446,
-                39.940864
+                -82.004894,
+                39.940137
+              ],
+              [
+                -82.014313,
+                39.940438
               ],
               [
                 -82.01815,
@@ -2432,8 +3596,8 @@
                 39.941996
               ],
               [
-                -82.741541,
-                39.951883
+                -82.740992,
+                39.951895
               ],
               [
                 -82.768827,
@@ -2458,12 +3622,12 @@
             ],
             "type": "LineString"
           },
-          "routing_source": "https://router.project-osrm.org/route/v1/driving/-82.0144555,39.9408623;-82.8358334,39.9221432?overview=simplified&geometries=geojson&steps=false"
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-82.005019,39.9401426;-82.8358334,39.9221432?overview=simplified&geometries=geojson&steps=false"
         },
         {
-          "id": "d6-otherworld-to-polaris-lodging",
+          "id": "d6-otherworld-to-columbus-lodging",
           "from": "otherworld",
-          "to": "polaris-lodging",
+          "to": "columbus-lodging",
           "distance_meters": 35378,
           "distance_miles": 22,
           "baseline_seconds": 1861,
@@ -2572,36 +3736,36 @@
           "routing_source": "https://router.project-osrm.org/route/v1/driving/-82.8358334,39.9221432;-82.984,40.142?overview=simplified&geometries=geojson&steps=false"
         }
       ],
-      "baseline_total_meters": 227885,
-      "baseline_total_seconds": 10041,
+      "baseline_total_meters": 227070,
+      "baseline_total_seconds": 9977,
       "non_driving_travel_minutes": 0,
-      "baseline_total_miles": 141.6,
-      "baseline_total_minutes": 168,
+      "baseline_total_miles": 141.1,
+      "baseline_total_minutes": 167,
       "planning_total_minutes": {
         "low": 180,
         "high": 230
       },
-      "total_travel_minutes_excluding_queues": 168
+      "total_travel_minutes_excluding_queues": 167
     },
     {
       "day": 7,
       "risk": "high",
       "legs": [
         {
-          "id": "d7-polaris-lodging-to-butler-institute",
-          "from": "polaris-lodging",
-          "to": "butler-institute",
-          "distance_meters": 257335,
-          "distance_miles": 159.9,
-          "baseline_seconds": 10945,
-          "baseline_minutes": 183,
+          "id": "d7-columbus-lodging-to-faustus-escape",
+          "from": "columbus-lodging",
+          "to": "faustus-escape",
+          "distance_meters": 23879,
+          "distance_miles": 14.8,
+          "baseline_seconds": 1273,
+          "baseline_minutes": 22,
           "planning_minutes": {
-            "low": 200,
-            "high": 295
+            "low": 25,
+            "high": 45
           },
           "traffic_risk": "high",
           "mode": "driving",
-          "display_duration_minutes": 183,
+          "display_duration_minutes": 22,
           "counts_toward_drive_cap": true,
           "geometry": {
             "coordinates": [
@@ -2610,96 +3774,422 @@
                 40.142001
               ],
               [
-                -82.969422,
-                40.142119
+                -82.980855,
+                40.142668
               ],
               [
-                -82.965898,
-                40.163372
+                -82.980683,
+                40.141194
               ],
               [
-                -82.931982,
-                40.203101
+                -82.972964,
+                40.141675
               ],
               [
-                -82.920673,
-                40.305465
+                -82.97155,
+                40.139416
               ],
               [
-                -82.82722,
-                40.375985
+                -82.973273,
+                40.119959
               ],
               [
-                -82.810484,
-                40.435642
+                -82.976656,
+                40.112176
               ],
               [
-                -82.603237,
-                40.579213
+                -82.978726,
+                40.109303
               ],
               [
-                -82.552706,
-                40.636023
+                -82.979977,
+                40.10924
               ],
               [
-                -82.523514,
-                40.68566
+                -82.978225,
+                40.110356
               ],
               [
-                -82.401651,
-                40.793584
+                -82.970205,
+                40.109454
               ],
               [
-                -82.275201,
-                40.844509
+                -82.916167,
+                40.098471
               ],
               [
-                -82.140274,
-                40.911819
+                -82.911556,
+                40.095767
               ],
               [
-                -82.070513,
-                40.953347
+                -82.908292,
+                40.091878
               ],
               [
-                -82.023977,
-                40.993467
+                -82.907206,
+                40.086629
               ],
               [
-                -81.971243,
-                40.999521
+                -82.908701,
+                40.082604
               ],
               [
-                -81.88931,
-                41.030369
+                -82.907211,
+                40.080805
               ],
               [
-                -81.76809,
-                41.031415
+                -82.900731,
+                40.081745
               ],
               [
-                -81.73057,
-                41.046508
+                -82.889863,
+                40.079955
               ],
               [
-                -81.566369,
-                41.033782
+                -82.866658,
+                40.079614
               ],
               [
-                -81.566331,
-                41.059656
+                -82.834713,
+                40.090661
               ],
               [
-                -81.427992,
-                41.066285
+                -82.829294,
+                40.091549
               ],
               [
-                -81.366175,
-                41.106447
+                -82.805652,
+                40.090473
               ],
               [
-                -81.232939,
-                41.110185
+                -82.801972,
+                40.089542
+              ],
+              [
+                -82.799576,
+                40.087557
+              ],
+              [
+                -82.806445,
+                40.082763
+              ],
+              [
+                -82.808753,
+                40.082722
+              ],
+              [
+                -82.808871,
+                40.081183
+              ]
+            ],
+            "type": "LineString"
+          },
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-82.984,40.142;-82.8087864,40.0811745?overview=simplified&geometries=geojson&steps=false"
+        },
+        {
+          "id": "d7-faustus-escape-to-warther-museum",
+          "from": "faustus-escape",
+          "to": "warther-museum",
+          "distance_meters": 156285,
+          "distance_miles": 97.1,
+          "baseline_seconds": 6872,
+          "baseline_minutes": 115,
+          "planning_minutes": {
+            "low": 125,
+            "high": 190
+          },
+          "traffic_risk": "high",
+          "mode": "driving",
+          "display_duration_minutes": 115,
+          "counts_toward_drive_cap": true,
+          "geometry": {
+            "coordinates": [
+              [
+                -82.808871,
+                40.081183
+              ],
+              [
+                -82.799456,
+                40.087446
+              ],
+              [
+                -82.785881,
+                40.080275
+              ],
+              [
+                -82.668101,
+                40.079376
+              ],
+              [
+                -82.629265,
+                40.072075
+              ],
+              [
+                -82.561981,
+                40.069908
+              ],
+              [
+                -82.515378,
+                40.057197
+              ],
+              [
+                -82.492192,
+                40.058826
+              ],
+              [
+                -82.472866,
+                40.053415
+              ],
+              [
+                -82.433223,
+                40.063251
+              ],
+              [
+                -82.417606,
+                40.059506
+              ],
+              [
+                -82.331531,
+                40.0628
+              ],
+              [
+                -82.296444,
+                40.069171
+              ],
+              [
+                -82.27299,
+                40.063603
+              ],
+              [
+                -82.241383,
+                40.078142
+              ],
+              [
+                -82.217422,
+                40.08029
+              ],
+              [
+                -82.193365,
+                40.089448
+              ],
+              [
+                -82.185887,
+                40.09849
+              ],
+              [
+                -82.148699,
+                40.119962
+              ],
+              [
+                -82.110582,
+                40.13054
+              ],
+              [
+                -82.074283,
+                40.149309
+              ],
+              [
+                -82.036437,
+                40.155724
+              ],
+              [
+                -82.000858,
+                40.151912
+              ],
+              [
+                -81.962971,
+                40.154472
+              ],
+              [
+                -81.928136,
+                40.162169
+              ],
+              [
+                -81.909618,
+                40.171955
+              ],
+              [
+                -81.882133,
+                40.211598
+              ],
+              [
+                -81.88157,
+                40.230131
+              ],
+              [
+                -81.872808,
+                40.25048
+              ],
+              [
+                -81.875015,
+                40.28102
+              ],
+              [
+                -81.844531,
+                40.302371
+              ],
+              [
+                -81.791477,
+                40.290452
+              ],
+              [
+                -81.771785,
+                40.295171
+              ],
+              [
+                -81.749311,
+                40.294265
+              ],
+              [
+                -81.705632,
+                40.284086
+              ],
+              [
+                -81.687101,
+                40.287399
+              ],
+              [
+                -81.654179,
+                40.281509
+              ],
+              [
+                -81.613372,
+                40.28466
+              ],
+              [
+                -81.57862,
+                40.28176
+              ],
+              [
+                -81.555295,
+                40.290406
+              ],
+              [
+                -81.569656,
+                40.3178
+              ],
+              [
+                -81.570192,
+                40.33882
+              ],
+              [
+                -81.560134,
+                40.370014
+              ],
+              [
+                -81.559661,
+                40.388804
+              ],
+              [
+                -81.542754,
+                40.421712
+              ],
+              [
+                -81.505455,
+                40.451038
+              ],
+              [
+                -81.480833,
+                40.483358
+              ],
+              [
+                -81.481004,
+                40.50355
+              ],
+              [
+                -81.492073,
+                40.527329
+              ],
+              [
+                -81.477063,
+                40.518355
+              ],
+              [
+                -81.474155,
+                40.521343
+              ]
+            ],
+            "type": "LineString"
+          },
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-82.8087864,40.0811745;-81.4741475,40.5213381?overview=simplified&geometries=geojson&steps=false"
+        },
+        {
+          "id": "d7-warther-museum-to-grove-city-outlets",
+          "from": "warther-museum",
+          "to": "grove-city-outlets",
+          "distance_meters": 175830,
+          "distance_miles": 109.3,
+          "baseline_seconds": 8137,
+          "baseline_minutes": 136,
+          "planning_minutes": {
+            "low": 150,
+            "high": 225
+          },
+          "traffic_risk": "high",
+          "mode": "driving",
+          "display_duration_minutes": 136,
+          "counts_toward_drive_cap": true,
+          "geometry": {
+            "coordinates": [
+              [
+                -81.474155,
+                40.521343
+              ],
+              [
+                -81.494052,
+                40.529456
+              ],
+              [
+                -81.521838,
+                40.585628
+              ],
+              [
+                -81.455821,
+                40.634485
+              ],
+              [
+                -81.40211,
+                40.761928
+              ],
+              [
+                -81.381327,
+                40.786478
+              ],
+              [
+                -81.371462,
+                40.786398
+              ],
+              [
+                -81.366076,
+                40.829039
+              ],
+              [
+                -81.277771,
+                40.851245
+              ],
+              [
+                -81.177,
+                40.897177
+              ],
+              [
+                -81.129936,
+                40.935408
+              ],
+              [
+                -81.105401,
+                40.936919
+              ],
+              [
+                -81.098673,
+                41.024724
+              ],
+              [
+                -81.049859,
+                41.024593
+              ],
+              [
+                -81.051066,
+                41.105049
               ],
               [
                 -80.976939,
@@ -2710,155 +4200,195 @@
                 41.11141
               ],
               [
-                -80.740405,
-                41.127078
+                -80.750781,
+                41.124408
               ],
               [
-                -80.695217,
-                41.118447
+                -80.706723,
+                41.147799
               ],
               [
-                -80.678184,
-                41.103465
+                -80.675945,
+                41.147518
               ],
               [
-                -80.665374,
-                41.111132
-              ],
-              [
-                -80.645711,
-                41.104739
-              ]
-            ],
-            "type": "LineString"
-          },
-          "routing_source": "https://router.project-osrm.org/route/v1/driving/-82.984,40.142;-80.6457767,41.1047679?overview=simplified&geometries=geojson&steps=false"
-        },
-        {
-          "id": "d7-butler-institute-to-west-middlesex-lodging",
-          "from": "butler-institute",
-          "to": "west-middlesex-lodging",
-          "distance_meters": 29747,
-          "distance_miles": 18.5,
-          "baseline_seconds": 1472,
-          "baseline_minutes": 25,
-          "planning_minutes": {
-            "low": 30,
-            "high": 50
-          },
-          "traffic_risk": "high",
-          "mode": "driving",
-          "display_duration_minutes": 25,
-          "counts_toward_drive_cap": true,
-          "geometry": {
-            "coordinates": [
-              [
-                -80.645711,
-                41.104739
-              ],
-              [
-                -80.647088,
-                41.102952
-              ],
-              [
-                -80.655467,
-                41.106564
-              ],
-              [
-                -80.660427,
-                41.106908
-              ],
-              [
-                -80.675251,
-                41.121444
-              ],
-              [
-                -80.6739,
-                41.128348
-              ],
-              [
-                -80.679708,
-                41.138431
-              ],
-              [
-                -80.679893,
-                41.140853
-              ],
-              [
-                -80.672826,
-                41.149777
-              ],
-              [
-                -80.660706,
-                41.157493
-              ],
-              [
-                -80.644684,
-                41.159797
+                -80.658043,
+                41.158374
               ],
               [
                 -80.622196,
                 41.158775
               ],
               [
-                -80.596554,
-                41.16862
+                -80.51569,
+                41.185045
               ],
               [
-                -80.574858,
-                41.175006
+                -80.336758,
+                41.186291
               ],
               [
-                -80.565158,
-                41.176362
+                -80.313209,
+                41.180406
               ],
               [
-                -80.536453,
-                41.177017
+                -80.164442,
+                41.196686
               ],
               [
-                -80.531689,
-                41.178456
+                -80.169245,
+                41.179169
               ],
               [
-                -80.522311,
-                41.183635
+                -80.157128,
+                41.139817
+              ]
+            ],
+            "type": "LineString"
+          },
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-81.4741475,40.5213381;-80.1570217,41.1399349?overview=simplified&geometries=geojson&steps=false"
+        },
+        {
+          "id": "d7-grove-city-outlets-to-west-middlesex-lodging",
+          "from": "grove-city-outlets",
+          "to": "west-middlesex-lodging",
+          "distance_meters": 34339,
+          "distance_miles": 21.3,
+          "baseline_seconds": 1657,
+          "baseline_minutes": 28,
+          "planning_minutes": {
+            "low": 35,
+            "high": 55
+          },
+          "traffic_risk": "high",
+          "mode": "driving",
+          "display_duration_minutes": 28,
+          "counts_toward_drive_cap": true,
+          "geometry": {
+            "coordinates": [
+              [
+                -80.157128,
+                41.139817
               ],
               [
-                -80.517341,
-                41.184916
+                -80.15826,
+                41.139811
               ],
               [
-                -80.510283,
-                41.184621
+                -80.158816,
+                41.143228
               ],
               [
-                -80.496062,
-                41.180653
+                -80.15376,
+                41.143398
               ],
               [
-                -80.478799,
-                41.180887
+                -80.156346,
+                41.153672
               ],
               [
-                -80.4635,
-                41.184303
+                -80.168933,
+                41.180074
               ],
               [
-                -80.443164,
-                41.184621
+                -80.16809,
+                41.18328
               ],
               [
-                -80.440779,
-                41.183831
+                -80.160599,
+                41.194911
               ],
               [
-                -80.442127,
-                41.183347
+                -80.159409,
+                41.199647
               ],
               [
-                -80.44709,
-                41.186701
+                -80.157803,
+                41.200429
+              ],
+              [
+                -80.156848,
+                41.199625
+              ],
+              [
+                -80.157632,
+                41.198682
+              ],
+              [
+                -80.170279,
+                41.196234
+              ],
+              [
+                -80.216938,
+                41.193915
+              ],
+              [
+                -80.230585,
+                41.194593
+              ],
+              [
+                -80.249726,
+                41.191473
+              ],
+              [
+                -80.263836,
+                41.185557
+              ],
+              [
+                -80.275003,
+                41.186842
+              ],
+              [
+                -80.284899,
+                41.184885
+              ],
+              [
+                -80.300366,
+                41.184433
+              ],
+              [
+                -80.312892,
+                41.180719
+              ],
+              [
+                -80.317451,
+                41.18116
+              ],
+              [
+                -80.325839,
+                41.185273
+              ],
+              [
+                -80.331668,
+                41.186416
+              ],
+              [
+                -80.368208,
+                41.185531
+              ],
+              [
+                -80.388714,
+                41.183246
+              ],
+              [
+                -80.405764,
+                41.183743
+              ],
+              [
+                -80.417282,
+                41.182897
+              ],
+              [
+                -80.429565,
+                41.184824
+              ],
+              [
+                -80.440037,
+                41.185142
+              ],
+              [
+                -80.443322,
+                41.186865
               ],
               [
                 -80.457313,
@@ -2875,45 +4405,168 @@
             ],
             "type": "LineString"
           },
-          "routing_source": "https://router.project-osrm.org/route/v1/driving/-80.6457767,41.1047679;-80.455685,41.1854889?overview=simplified&geometries=geojson&steps=false"
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-80.1570217,41.1399349;-80.455685,41.1854889?overview=simplified&geometries=geojson&steps=false"
         }
       ],
-      "baseline_total_meters": 287082,
-      "baseline_total_seconds": 12417,
+      "baseline_total_meters": 390333,
+      "baseline_total_seconds": 17939,
       "non_driving_travel_minutes": 0,
-      "baseline_total_miles": 178.4,
-      "baseline_total_minutes": 207,
+      "baseline_total_miles": 242.5,
+      "baseline_total_minutes": 299,
       "planning_total_minutes": {
-        "low": 225,
-        "high": 335
+        "low": 325,
+        "high": 475
       },
-      "total_travel_minutes_excluding_queues": 207
+      "total_travel_minutes_excluding_queues": 299
     },
     {
       "day": 8,
       "risk": "medium",
       "legs": [
         {
-          "id": "d8-west-middlesex-lodging-to-st-nicholas-dubois",
+          "id": "d8-west-middlesex-lodging-to-st-nicholas-orthodox",
           "from": "west-middlesex-lodging",
-          "to": "st-nicholas-dubois",
-          "distance_meters": 155554,
-          "distance_miles": 96.7,
-          "baseline_seconds": 6399,
-          "baseline_minutes": 107,
+          "to": "st-nicholas-orthodox",
+          "distance_meters": 34595,
+          "distance_miles": 21.5,
+          "baseline_seconds": 1820,
+          "baseline_minutes": 31,
           "planning_minutes": {
-            "low": 115,
-            "high": 150
+            "low": 35,
+            "high": 50
           },
           "traffic_risk": "medium",
           "mode": "driving",
-          "display_duration_minutes": 107,
+          "display_duration_minutes": 31,
           "counts_toward_drive_cap": true,
           "geometry": {
             "coordinates": [
               [
                 -80.455759,
                 41.185487
+              ],
+              [
+                -80.45585,
+                41.187728
+              ],
+              [
+                -80.477957,
+                41.196805
+              ],
+              [
+                -80.502748,
+                41.202592
+              ],
+              [
+                -80.507049,
+                41.214937
+              ],
+              [
+                -80.505989,
+                41.223063
+              ],
+              [
+                -80.510122,
+                41.226406
+              ],
+              [
+                -80.527098,
+                41.215073
+              ],
+              [
+                -80.541219,
+                41.226751
+              ],
+              [
+                -80.551531,
+                41.228558
+              ],
+              [
+                -80.632208,
+                41.231479
+              ],
+              [
+                -80.701414,
+                41.230716
+              ],
+              [
+                -80.717368,
+                41.228295
+              ],
+              [
+                -80.726414,
+                41.230443
+              ],
+              [
+                -80.743883,
+                41.230265
+              ],
+              [
+                -80.761736,
+                41.237278
+              ],
+              [
+                -80.813208,
+                41.235438
+              ]
+            ],
+            "type": "LineString"
+          },
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-80.455685,41.1854889;-80.8132916,41.2356017?overview=simplified&geometries=geojson&steps=false"
+        },
+        {
+          "id": "d8-st-nicholas-orthodox-to-clarion-break",
+          "from": "st-nicholas-orthodox",
+          "to": "clarion-break",
+          "distance_meters": 133899,
+          "distance_miles": 83.2,
+          "baseline_seconds": 5902,
+          "baseline_minutes": 99,
+          "planning_minutes": {
+            "low": 105,
+            "high": 140
+          },
+          "traffic_risk": "medium",
+          "mode": "driving",
+          "display_duration_minutes": 99,
+          "counts_toward_drive_cap": true,
+          "geometry": {
+            "coordinates": [
+              [
+                -80.813208,
+                41.235438
+              ],
+              [
+                -80.760124,
+                41.237019
+              ],
+              [
+                -80.714337,
+                41.227388
+              ],
+              [
+                -80.548002,
+                41.228085
+              ],
+              [
+                -80.529777,
+                41.212504
+              ],
+              [
+                -80.510009,
+                41.226357
+              ],
+              [
+                -80.502748,
+                41.202592
+              ],
+              [
+                -80.444488,
+                41.182972
+              ],
+              [
+                -80.336758,
+                41.186291
               ],
               [
                 -80.313209,
@@ -2956,48 +4609,95 @@
                 41.194882
               ],
               [
-                -79.525002,
-                41.181906
+                -79.526123,
+                41.18192
               ],
               [
-                -79.489136,
-                41.199987
+                -79.490463,
+                41.200041
               ],
               [
-                -79.439057,
-                41.195666
+                -79.394533,
+                41.184837
               ],
               [
-                -79.37426,
-                41.177659
+                -79.383709,
+                41.215358
+              ]
+            ],
+            "type": "LineString"
+          },
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-80.8132916,41.2356017;-79.3839,41.2151?overview=simplified&geometries=geojson&steps=false"
+        },
+        {
+          "id": "d8-clarion-break-to-parker-dam",
+          "from": "clarion-break",
+          "to": "parker-dam",
+          "distance_meters": 85742,
+          "distance_miles": 53.3,
+          "baseline_seconds": 4200,
+          "baseline_minutes": 70,
+          "planning_minutes": {
+            "low": 75,
+            "high": 100
+          },
+          "traffic_risk": "medium",
+          "mode": "driving",
+          "display_duration_minutes": 70,
+          "counts_toward_drive_cap": true,
+          "geometry": {
+            "coordinates": [
+              [
+                -79.383709,
+                41.215358
               ],
               [
-                -79.304329,
-                41.179365
+                -79.356049,
+                41.203328
               ],
               [
-                -79.285549,
-                41.172549
+                -79.3421,
+                41.205476
+              ],
+              [
+                -79.320229,
+                41.201721
+              ],
+              [
+                -79.243377,
+                41.181211
+              ],
+              [
+                -79.237183,
+                41.187066
               ],
               [
                 -79.215599,
                 41.190084
               ],
               [
+                -79.191872,
+                41.185136
+              ],
+              [
+                -79.173609,
+                41.187343
+              ],
+              [
                 -79.076953,
                 41.167984
               ],
               [
-                -79.014383,
-                41.170103
+                -79.014771,
+                41.170181
               ],
               [
                 -78.995826,
                 41.147298
               ],
               [
-                -78.969708,
-                41.135997
+                -78.970123,
+                41.136046
               ],
               [
                 -78.927766,
@@ -3008,115 +4708,143 @@
                 41.148917
               ],
               [
-                -78.823114,
-                41.157644
+                -78.825686,
+                41.157887
               ],
               [
-                -78.762555,
-                41.128972
+                -78.784419,
+                41.145309
               ],
               [
-                -78.770759,
-                41.118906
+                -78.755646,
+                41.144951
+              ],
+              [
+                -78.710932,
+                41.1279
+              ],
+              [
+                -78.67166,
+                41.147995
+              ],
+              [
+                -78.663506,
+                41.166012
+              ],
+              [
+                -78.653908,
+                41.169117
+              ],
+              [
+                -78.640137,
+                41.182579
+              ],
+              [
+                -78.607307,
+                41.184204
+              ],
+              [
+                -78.574898,
+                41.208759
+              ],
+              [
+                -78.554117,
+                41.198
+              ],
+              [
+                -78.555157,
+                41.190388
+              ],
+              [
+                -78.542366,
+                41.180626
+              ],
+              [
+                -78.511583,
+                41.193607
               ]
             ],
             "type": "LineString"
           },
-          "routing_source": "https://router.project-osrm.org/route/v1/driving/-80.455685,41.1854889;-78.7707861,41.1188561?overview=simplified&geometries=geojson&steps=false"
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-79.3839,41.2151;-78.5116802,41.1934268?overview=simplified&geometries=geojson&steps=false"
         },
         {
-          "id": "d8-st-nicholas-dubois-to-bellefonte-lodging",
-          "from": "st-nicholas-dubois",
-          "to": "bellefonte-lodging",
-          "distance_meters": 103988,
-          "distance_miles": 64.6,
-          "baseline_seconds": 4677,
-          "baseline_minutes": 78,
+          "id": "d8-parker-dam-to-bellefonte-talleyrand",
+          "from": "parker-dam",
+          "to": "bellefonte-talleyrand",
+          "distance_meters": 95152,
+          "distance_miles": 59.1,
+          "baseline_seconds": 4460,
+          "baseline_minutes": 75,
           "planning_minutes": {
-            "low": 85,
-            "high": 110
+            "low": 80,
+            "high": 105
           },
           "traffic_risk": "medium",
           "mode": "driving",
-          "display_duration_minutes": 78,
+          "display_duration_minutes": 75,
           "counts_toward_drive_cap": true,
           "geometry": {
             "coordinates": [
               [
-                -78.770759,
-                41.118906
+                -78.511583,
+                41.193607
               ],
               [
-                -78.764179,
-                41.117217
+                -78.535164,
+                41.181072
               ],
               [
-                -78.755052,
-                41.12714
+                -78.549344,
+                41.183446
               ],
               [
-                -78.726582,
-                41.122416
+                -78.550331,
+                41.156311
               ],
               [
-                -78.711255,
-                41.130015
+                -78.534073,
+                41.123356
               ],
               [
-                -78.68084,
-                41.122089
+                -78.538362,
+                41.105537
               ],
               [
-                -78.633347,
-                41.1199
-              ],
-              [
-                -78.568642,
-                41.12463
-              ],
-              [
-                -78.549706,
-                41.118656
-              ],
-              [
-                -78.484245,
-                41.06834
-              ],
-              [
-                -78.471115,
-                41.067715
+                -78.484581,
+                41.068512
               ],
               [
                 -78.436752,
                 41.05608
               ],
               [
-                -78.410988,
-                41.039036
+                -78.411552,
+                41.039246
               ],
               [
-                -78.382965,
-                41.036449
+                -78.383873,
+                41.036743
               ],
               [
-                -78.367355,
-                41.02343
+                -78.367676,
+                41.023556
               ],
               [
                 -78.349297,
                 41.022392
               ],
               [
-                -78.325447,
-                41.014076
+                -78.327232,
+                41.014374
               ],
               [
-                -78.287766,
-                41.012833
+                -78.287384,
+                41.012722
               ],
               [
-                -78.259865,
-                40.993423
+                -78.260445,
+                40.99353
               ],
               [
                 -78.223885,
@@ -3127,16 +4855,16 @@
                 40.985795
               ],
               [
-                -78.153839,
-                40.986595
+                -78.153275,
+                40.986458
               ],
               [
                 -78.127579,
                 40.978863
               ],
               [
-                -78.104912,
-                40.961391
+                -78.1035,
+                40.961281
               ],
               [
                 -78.043238,
@@ -3167,24 +4895,107 @@
                 40.996012
               ],
               [
-                -77.798523,
-                40.980574
+                -77.818325,
+                40.98874
               ],
               [
-                -77.775929,
-                40.955393
+                -77.798039,
+                40.980158
+              ],
+              [
+                -77.775479,
+                40.953899
               ],
               [
                 -77.793332,
                 40.947514
               ],
               [
-                -77.785432,
-                40.941684
+                -77.785473,
+                40.941758
               ],
               [
-                -77.778368,
-                40.913359
+                -77.779316,
+                40.926264
+              ],
+              [
+                -77.785748,
+                40.920136
+              ],
+              [
+                -77.780976,
+                40.909627
+              ]
+            ],
+            "type": "LineString"
+          },
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-78.5116802,41.1934268;-77.7817061,40.909554?overview=simplified&geometries=geojson&steps=false"
+        },
+        {
+          "id": "d8-bellefonte-talleyrand-to-bellefonte-lodging",
+          "from": "bellefonte-talleyrand",
+          "to": "bellefonte-lodging",
+          "distance_meters": 1080,
+          "distance_miles": 0.7,
+          "baseline_seconds": 155,
+          "baseline_minutes": 3,
+          "planning_minutes": {
+            "low": 5,
+            "high": 10
+          },
+          "traffic_risk": "medium",
+          "mode": "driving",
+          "display_duration_minutes": 3,
+          "counts_toward_drive_cap": true,
+          "geometry": {
+            "coordinates": [
+              [
+                -77.780976,
+                40.909627
+              ],
+              [
+                -77.780982,
+                40.909978
+              ],
+              [
+                -77.780849,
+                40.910495
+              ],
+              [
+                -77.780793,
+                40.910977
+              ],
+              [
+                -77.780615,
+                40.911491
+              ],
+              [
+                -77.780375,
+                40.911512
+              ],
+              [
+                -77.779605,
+                40.911679
+              ],
+              [
+                -77.780081,
+                40.912978
+              ],
+              [
+                -77.774337,
+                40.914232
+              ],
+              [
+                -77.774202,
+                40.913724
+              ],
+              [
+                -77.77406,
+                40.913379
+              ],
+              [
+                -77.773976,
+                40.913351
               ],
               [
                 -77.773715,
@@ -3193,39 +5004,39 @@
             ],
             "type": "LineString"
           },
-          "routing_source": "https://router.project-osrm.org/route/v1/driving/-78.7707861,41.1188561;-77.7737471,40.9134862?overview=simplified&geometries=geojson&steps=false"
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-77.7817061,40.909554;-77.7737471,40.9134862?overview=simplified&geometries=geojson&steps=false"
         }
       ],
-      "baseline_total_meters": 259542,
-      "baseline_total_seconds": 11076,
+      "baseline_total_meters": 350468,
+      "baseline_total_seconds": 16537,
       "non_driving_travel_minutes": 0,
-      "baseline_total_miles": 161.3,
-      "baseline_total_minutes": 185,
+      "baseline_total_miles": 217.8,
+      "baseline_total_minutes": 276,
       "planning_total_minutes": {
-        "low": 195,
-        "high": 250
+        "low": 290,
+        "high": 370
       },
-      "total_travel_minutes_excluding_queues": 185
+      "total_travel_minutes_excluding_queues": 276
     },
     {
       "day": 9,
       "risk": "high",
       "legs": [
         {
-          "id": "d9-bellefonte-lodging-to-columcille",
+          "id": "d9-bellefonte-lodging-to-hickory-run-boulder-field",
           "from": "bellefonte-lodging",
-          "to": "columcille",
-          "distance_meters": 250779,
-          "distance_miles": 155.8,
-          "baseline_seconds": 11032,
-          "baseline_minutes": 184,
+          "to": "hickory-run-boulder-field",
+          "distance_meters": 188510,
+          "distance_miles": 117.1,
+          "baseline_seconds": 8021,
+          "baseline_minutes": 134,
           "planning_minutes": {
-            "low": 200,
-            "high": 300
+            "low": 145,
+            "high": 220
           },
           "traffic_risk": "high",
           "mode": "driving",
-          "display_duration_minutes": 184,
+          "display_duration_minutes": 134,
           "counts_toward_drive_cap": true,
           "geometry": {
             "coordinates": [
@@ -3254,8 +5065,8 @@
                 41.041256
               ],
               [
-                -77.410352,
-                41.068705
+                -77.408898,
+                41.068888
               ],
               [
                 -77.328122,
@@ -3282,8 +5093,8 @@
                 41.073814
               ],
               [
-                -76.935794,
-                41.076843
+                -76.930803,
+                41.076569
               ],
               [
                 -76.881035,
@@ -3314,8 +5125,8 @@
                 41.024581
               ],
               [
-                -76.358784,
-                41.03883
+                -76.357998,
+                41.038864
               ],
               [
                 -76.294814,
@@ -3330,52 +5141,346 @@
                 41.019177
               ],
               [
-                -76.158971,
-                41.003523
+                -76.158385,
+                41.003555
               ],
               [
-                -75.996897,
-                41.050525
+                -75.995448,
+                41.050789
               ],
               [
-                -75.939484,
-                41.058406
+                -75.86943,
+                41.062086
               ],
               [
-                -75.722715,
-                41.055728
+                -75.847497,
+                41.052506
               ],
               [
-                -75.662725,
-                41.079425
+                -75.775975,
+                41.054528
               ],
               [
-                -75.626179,
-                41.083172
+                -75.774015,
+                41.06065
+              ]
+            ],
+            "type": "LineString"
+          },
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-77.7737471,40.9134862;-75.774082,41.06064?overview=simplified&geometries=geojson&steps=false"
+        },
+        {
+          "id": "d9-hickory-run-boulder-field-to-skirmish-paintball",
+          "from": "hickory-run-boulder-field",
+          "to": "skirmish-paintball",
+          "distance_meters": 17735,
+          "distance_miles": 11,
+          "baseline_seconds": 1214,
+          "baseline_minutes": 21,
+          "planning_minutes": {
+            "low": 25,
+            "high": 45
+          },
+          "traffic_risk": "high",
+          "mode": "driving",
+          "display_duration_minutes": 21,
+          "counts_toward_drive_cap": true,
+          "geometry": {
+            "coordinates": [
+              [
+                -75.774015,
+                41.06065
               ],
               [
-                -75.417325,
-                41.071661
+                -75.769408,
+                41.061641
               ],
               [
-                -75.330766,
-                41.060732
+                -75.769567,
+                41.055733
               ],
               [
-                -75.317207,
-                41.052573
+                -75.768685,
+                41.053968
+              ],
+              [
+                -75.768502,
+                41.050424
+              ],
+              [
+                -75.763948,
+                41.044344
+              ],
+              [
+                -75.757974,
+                41.042248
+              ],
+              [
+                -75.757974,
+                41.041532
+              ],
+              [
+                -75.759945,
+                41.040191
+              ],
+              [
+                -75.759062,
+                41.038762
+              ],
+              [
+                -75.75055,
+                41.036052
+              ],
+              [
+                -75.747264,
+                41.034433
+              ],
+              [
+                -75.742164,
+                41.035029
+              ],
+              [
+                -75.734018,
+                41.034869
+              ],
+              [
+                -75.732443,
+                41.032437
+              ],
+              [
+                -75.716845,
+                41.021102
+              ],
+              [
+                -75.71381,
+                41.020517
+              ],
+              [
+                -75.710068,
+                41.02453
+              ],
+              [
+                -75.707864,
+                41.025414
+              ],
+              [
+                -75.70075,
+                41.026696
+              ],
+              [
+                -75.696119,
+                41.026111
+              ],
+              [
+                -75.691692,
+                41.026629
+              ],
+              [
+                -75.681087,
+                41.023429
+              ],
+              [
+                -75.673907,
+                41.019952
+              ],
+              [
+                -75.664836,
+                41.01691
+              ],
+              [
+                -75.661017,
+                41.016469
+              ],
+              [
+                -75.657184,
+                41.015093
+              ],
+              [
+                -75.651221,
+                41.014612
+              ],
+              [
+                -75.639558,
+                41.009
+              ],
+              [
+                -75.635114,
+                41.01004
+              ],
+              [
+                -75.631214,
+                41.013335
+              ],
+              [
+                -75.628536,
+                41.012849
+              ],
+              [
+                -75.614116,
+                41.016768
+              ],
+              [
+                -75.613278,
+                41.016386
+              ]
+            ],
+            "type": "LineString"
+          },
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-75.774082,41.06064;-75.613172,41.0164681?overview=simplified&geometries=geojson&steps=false"
+        },
+        {
+          "id": "d9-skirmish-paintball-to-columcille",
+          "from": "skirmish-paintball",
+          "to": "columcille",
+          "distance_meters": 56931,
+          "distance_miles": 35.4,
+          "baseline_seconds": 3023,
+          "baseline_minutes": 51,
+          "planning_minutes": {
+            "low": 60,
+            "high": 90
+          },
+          "traffic_risk": "high",
+          "mode": "driving",
+          "display_duration_minutes": 51,
+          "counts_toward_drive_cap": true,
+          "geometry": {
+            "coordinates": [
+              [
+                -75.613278,
+                41.016386
+              ],
+              [
+                -75.608015,
+                41.018405
+              ],
+              [
+                -75.602671,
+                41.016877
+              ],
+              [
+                -75.58999,
+                41.01797
+              ],
+              [
+                -75.584201,
+                41.036164
+              ],
+              [
+                -75.585125,
+                41.043314
+              ],
+              [
+                -75.559758,
+                41.04948
+              ],
+              [
+                -75.55343,
+                41.053209
+              ],
+              [
+                -75.552078,
+                41.057798
+              ],
+              [
+                -75.557266,
+                41.059997
+              ],
+              [
+                -75.565374,
+                41.070801
+              ],
+              [
+                -75.574868,
+                41.076315
+              ],
+              [
+                -75.5123,
+                41.078054
+              ],
+              [
+                -75.493777,
+                41.072282
+              ],
+              [
+                -75.471588,
+                41.07432
+              ],
+              [
+                -75.44221,
+                41.070953
+              ],
+              [
+                -75.418091,
+                41.071718
+              ],
+              [
+                -75.392464,
+                41.068687
+              ],
+              [
+                -75.37369,
+                41.06261
+              ],
+              [
+                -75.355743,
+                41.065161
+              ],
+              [
+                -75.333565,
+                41.061578
+              ],
+              [
+                -75.31737,
+                41.052799
+              ],
+              [
+                -75.309928,
+                41.031063
               ],
               [
                 -75.297088,
                 41.011322
               ],
               [
-                -75.236241,
-                40.986957
+                -75.269262,
+                40.997547
               ],
               [
-                -75.191016,
-                40.981133
+                -75.236444,
+                40.987017
+              ],
+              [
+                -75.217617,
+                40.984715
+              ],
+              [
+                -75.199373,
+                40.978746
+              ],
+              [
+                -75.191198,
+                40.981184
+              ],
+              [
+                -75.187842,
+                40.978535
+              ],
+              [
+                -75.192698,
+                40.974235
+              ],
+              [
+                -75.191094,
+                40.967443
+              ],
+              [
+                -75.197866,
+                40.958738
+              ],
+              [
+                -75.19733,
+                40.943393
               ],
               [
                 -75.199825,
@@ -3386,29 +5491,33 @@
                 40.93807
               ],
               [
+                -75.203601,
+                40.930469
+              ],
+              [
                 -75.2025,
                 40.927224
               ]
             ],
             "type": "LineString"
           },
-          "routing_source": "https://router.project-osrm.org/route/v1/driving/-77.7737471,40.9134862;-75.2024627,40.9272149?overview=simplified&geometries=geojson&steps=false"
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-75.613172,41.0164681;-75.2024627,40.9272149?overview=simplified&geometries=geojson&steps=false"
         },
         {
-          "id": "d9-columcille-to-tannersville-lodging",
+          "id": "d9-columcille-to-bangor-lodging",
           "from": "columcille",
-          "to": "tannersville-lodging",
-          "distance_meters": 21656,
-          "distance_miles": 13.5,
-          "baseline_seconds": 1489,
-          "baseline_minutes": 25,
+          "to": "bangor-lodging",
+          "distance_meters": 3667,
+          "distance_miles": 2.3,
+          "baseline_seconds": 238,
+          "baseline_minutes": 4,
           "planning_minutes": {
-            "low": 30,
-            "high": 50
+            "low": 5,
+            "high": 20
           },
           "traffic_risk": "high",
           "mode": "driving",
-          "display_duration_minutes": 25,
+          "display_duration_minutes": 4,
           "counts_toward_drive_cap": true,
           "geometry": {
             "coordinates": [
@@ -3417,123 +5526,83 @@
                 40.927224
               ],
               [
+                -75.203935,
+                40.929407
+              ],
+              [
                 -75.203601,
                 40.930469
+              ],
+              [
+                -75.200596,
+                40.932137
+              ],
+              [
+                -75.200619,
+                40.932834
               ],
               [
                 -75.195085,
                 40.936775
               ],
               [
+                -75.191997,
+                40.937726
+              ],
+              [
                 -75.191681,
                 40.93807
               ],
               [
-                -75.199825,
-                40.9399
+                -75.191752,
+                40.938553
               ],
               [
-                -75.19733,
-                40.943393
+                -75.192194,
+                40.938826
               ],
               [
-                -75.198844,
-                40.947648
+                -75.194865,
+                40.938709
               ],
               [
-                -75.196725,
-                40.950055
+                -75.199072,
+                40.939186
               ],
               [
-                -75.197866,
-                40.958738
+                -75.199764,
+                40.939621
               ],
               [
-                -75.195251,
-                40.964378
+                -75.199674,
+                40.940267
               ],
               [
-                -75.191094,
-                40.967443
+                -75.197357,
+                40.943168
               ],
               [
-                -75.192698,
-                40.974235
+                -75.198789,
+                40.947258
               ],
               [
-                -75.187634,
-                40.978602
+                -75.19877,
+                40.947986
               ],
               [
-                -75.190318,
-                40.984634
-              ],
-              [
-                -75.195225,
-                40.979663
-              ],
-              [
-                -75.199523,
-                40.978846
-              ],
-              [
-                -75.212004,
-                40.981654
-              ],
-              [
-                -75.217705,
-                40.984857
-              ],
-              [
-                -75.23558,
-                40.987006
-              ],
-              [
-                -75.268581,
-                40.997812
-              ],
-              [
-                -75.268925,
-                41.000066
-              ],
-              [
-                -75.282736,
-                41.006179
-              ],
-              [
-                -75.294301,
-                41.014495
-              ],
-              [
-                -75.301299,
-                41.031297
-              ],
-              [
-                -75.30002,
-                41.031777
-              ],
-              [
-                -75.301123,
-                41.035285
-              ],
-              [
-                -75.296932,
-                41.037019
-              ],
-              [
-                -75.298513,
-                41.038982
+                -75.198196,
+                40.94892
               ]
             ],
             "type": "LineString"
           },
-          "routing_source": "https://router.project-osrm.org/route/v1/driving/-75.2024627,40.9272149;-75.3,41.04?overview=simplified&geometries=geojson&steps=false"
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-75.2024627,40.9272149;-75.2,40.95?overview=simplified&geometries=geojson&steps=false"
         }
       ],
-      "baseline_total_meters": 272435,
-      "baseline_total_seconds": 12521,
+      "baseline_total_meters": 266843,
+      "baseline_total_seconds": 12496,
       "non_driving_travel_minutes": 0,
-      "baseline_total_miles": 169.3,
+      "baseline_total_miles": 165.8,
       "baseline_total_minutes": 209,
       "planning_total_minutes": {
         "low": 230,
@@ -3546,277 +5615,611 @@
       "risk": "high",
       "legs": [
         {
-          "id": "d10-tannersville-lodging-to-tarrywile",
-          "from": "tannersville-lodging",
-          "to": "tarrywile",
-          "distance_meters": 219348,
-          "distance_miles": 136.3,
-          "baseline_seconds": 10935,
-          "baseline_minutes": 183,
+          "id": "d10-bangor-lodging-to-fonthill-castle",
+          "from": "bangor-lodging",
+          "to": "fonthill-castle",
+          "distance_meters": 80939,
+          "distance_miles": 50.3,
+          "baseline_seconds": 5438,
+          "baseline_minutes": 91,
           "planning_minutes": {
-            "low": 200,
-            "high": 295
+            "low": 100,
+            "high": 155
           },
           "traffic_risk": "high",
           "mode": "driving",
-          "display_duration_minutes": 183,
+          "display_duration_minutes": 91,
           "counts_toward_drive_cap": true,
           "geometry": {
             "coordinates": [
               [
-                -75.298513,
-                41.038982
+                -75.198196,
+                40.94892
               ],
               [
-                -75.302767,
-                41.034761
+                -75.199764,
+                40.939621
               ],
               [
-                -75.325696,
-                41.072645
+                -75.191681,
+                40.93807
               ],
               [
-                -75.325608,
-                41.093069
+                -75.205148,
+                40.929847
               ],
               [
-                -75.359845,
-                41.126391
+                -75.215507,
+                40.910141
               ],
               [
-                -75.356389,
-                41.19086
+                -75.206499,
+                40.857147
               ],
               [
-                -75.365508,
-                41.232275
+                -75.212848,
+                40.84128
               ],
               [
-                -75.306578,
-                41.322722
+                -75.219525,
+                40.840054
               ],
               [
-                -75.31384,
-                41.340326
+                -75.229215,
+                40.822288
               ],
               [
-                -75.210951,
-                41.360581
+                -75.237007,
+                40.820396
               ],
               [
-                -75.132759,
-                41.36747
+                -75.243334,
+                40.810216
               ],
               [
-                -75.091369,
-                41.356186
+                -75.244691,
+                40.782818
               ],
               [
-                -75.046133,
-                41.357501
+                -75.23392,
+                40.759163
               ],
               [
-                -74.995249,
-                41.345832
+                -75.228009,
+                40.726249
               ],
               [
-                -74.950158,
-                41.349927
+                -75.204576,
+                40.697817
               ],
               [
-                -74.852606,
-                41.33232
+                -75.209493,
+                40.695552
               ],
               [
-                -74.79068,
-                41.345768
+                -75.210023,
+                40.678449
               ],
               [
-                -74.775232,
-                41.340274
+                -75.2154,
+                40.673999
               ],
               [
-                -74.703629,
-                41.359341
+                -75.209048,
+                40.66506
               ],
               [
-                -74.675841,
-                41.35382
+                -75.214194,
+                40.647536
               ],
               [
-                -74.638235,
-                41.373326
+                -75.202374,
+                40.647124
               ],
               [
-                -74.611693,
-                41.374
+                -75.193162,
+                40.636344
               ],
               [
-                -74.503354,
-                41.406294
+                -75.191,
+                40.625167
               ],
               [
-                -74.431919,
-                41.41157
+                -75.203314,
+                40.617275
               ],
               [
-                -74.397967,
-                41.424028
+                -75.193109,
+                40.587095
               ],
               [
-                -74.341321,
-                41.464057
+                -75.197198,
+                40.579223
               ],
               [
-                -74.192343,
-                41.516727
+                -75.178702,
+                40.55929
               ],
               [
-                -74.134755,
-                41.512092
+                -75.183293,
+                40.545966
               ],
               [
-                -74.101334,
-                41.522461
+                -75.178918,
+                40.533209
               ],
               [
-                -74.050466,
-                41.513416
+                -75.161584,
+                40.515381
               ],
               [
-                -74.011378,
-                41.520882
+                -75.174114,
+                40.503296
               ],
               [
-                -73.97184,
-                41.518056
+                -75.17593,
+                40.4943
               ],
               [
-                -73.946978,
-                41.529783
+                -75.141292,
+                40.434476
               ],
               [
-                -73.862365,
-                41.524307
+                -75.152351,
+                40.407336
               ],
               [
-                -73.737645,
-                41.54837
+                -75.144661,
+                40.36847
               ],
               [
-                -73.714863,
-                41.543893
+                -75.122805,
+                40.321026
+              ]
+            ],
+            "type": "LineString"
+          },
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-75.2,40.95;-75.1229558,40.3211307?overview=simplified&geometries=geojson&steps=false"
+        },
+        {
+          "id": "d10-fonthill-castle-to-northlandz",
+          "from": "fonthill-castle",
+          "to": "northlandz",
+          "distance_meters": 37901,
+          "distance_miles": 23.6,
+          "baseline_seconds": 2264,
+          "baseline_minutes": 38,
+          "planning_minutes": {
+            "low": 45,
+            "high": 70
+          },
+          "traffic_risk": "high",
+          "mode": "driving",
+          "display_duration_minutes": 38,
+          "counts_toward_drive_cap": true,
+          "geometry": {
+            "coordinates": [
+              [
+                -75.122805,
+                40.321026
               ],
               [
-                -73.655387,
-                41.483161
+                -75.120778,
+                40.319979
               ],
               [
-                -73.629652,
-                41.427773
+                -75.118771,
+                40.321809
               ],
               [
-                -73.597689,
-                41.390207
+                -75.105476,
+                40.313863
               ],
               [
-                -73.577559,
-                41.382835
+                -75.091929,
+                40.319249
               ],
               [
-                -73.528861,
-                41.392711
+                -75.081642,
+                40.31961
+              ],
+              [
+                -75.071895,
+                40.324099
+              ],
+              [
+                -75.05799,
+                40.325972
+              ],
+              [
+                -75.036862,
+                40.345369
+              ],
+              [
+                -75.002142,
+                40.351685
+              ],
+              [
+                -74.972719,
+                40.360439
+              ],
+              [
+                -74.963114,
+                40.370517
+              ],
+              [
+                -74.963222,
+                40.37667
+              ],
+              [
+                -74.950032,
+                40.381423
+              ],
+              [
+                -74.890778,
+                40.414464
+              ],
+              [
+                -74.866654,
+                40.422236
+              ],
+              [
+                -74.857826,
+                40.441802
+              ],
+              [
+                -74.863754,
+                40.48399
+              ],
+              [
+                -74.861443,
+                40.492361
+              ],
+              [
+                -74.852527,
+                40.502874
+              ],
+              [
+                -74.858017,
+                40.501987
+              ],
+              [
+                -74.859225,
+                40.51309
+              ]
+            ],
+            "type": "LineString"
+          },
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-75.1229558,40.3211307;-74.8591333,40.5130953?overview=simplified&geometries=geojson&steps=false"
+        },
+        {
+          "id": "d10-northlandz-to-mahwah-break",
+          "from": "northlandz",
+          "to": "mahwah-break",
+          "distance_meters": 104482,
+          "distance_miles": 64.9,
+          "baseline_seconds": 5271,
+          "baseline_minutes": 88,
+          "planning_minutes": {
+            "low": 100,
+            "high": 150
+          },
+          "traffic_risk": "high",
+          "mode": "driving",
+          "display_duration_minutes": 88,
+          "counts_toward_drive_cap": true,
+          "geometry": {
+            "coordinates": [
+              [
+                -74.859225,
+                40.51309
+              ],
+              [
+                -74.858234,
+                40.505513
+              ],
+              [
+                -74.844793,
+                40.506099
+              ],
+              [
+                -74.667618,
+                40.573269
+              ],
+              [
+                -74.627831,
+                40.576465
+              ],
+              [
+                -74.621841,
+                40.582358
+              ],
+              [
+                -74.622814,
+                40.596199
+              ],
+              [
+                -74.643686,
+                40.635818
+              ],
+              [
+                -74.645967,
+                40.652114
+              ],
+              [
+                -74.640629,
+                40.663236
+              ],
+              [
+                -74.571738,
+                40.691822
+              ],
+              [
+                -74.539438,
+                40.728263
+              ],
+              [
+                -74.521422,
+                40.758314
+              ],
+              [
+                -74.495493,
+                40.765039
+              ],
+              [
+                -74.478093,
+                40.774411
+              ],
+              [
+                -74.469626,
+                40.78555
+              ],
+              [
+                -74.467737,
+                40.798644
+              ],
+              [
+                -74.446197,
+                40.812147
+              ],
+              [
+                -74.43987,
+                40.82996
+              ],
+              [
+                -74.417286,
+                40.862678
+              ],
+              [
+                -74.420481,
+                40.876542
+              ],
+              [
+                -74.414368,
+                40.898927
+              ],
+              [
+                -74.362783,
+                40.92124
+              ],
+              [
+                -74.335412,
+                40.961162
+              ],
+              [
+                -74.309976,
+                40.986739
+              ],
+              [
+                -74.30069,
+                41.013781
+              ],
+              [
+                -74.289628,
+                41.024719
+              ],
+              [
+                -74.265784,
+                41.023859
+              ],
+              [
+                -74.249403,
+                41.028799
+              ],
+              [
+                -74.23986,
+                41.026415
+              ],
+              [
+                -74.235567,
+                41.036392
+              ],
+              [
+                -74.201955,
+                41.071008
+              ],
+              [
+                -74.177317,
+                41.083383
+              ],
+              [
+                -74.164682,
+                41.096713
+              ],
+              [
+                -74.145103,
+                41.094002
+              ],
+              [
+                -74.145109,
+                41.088977
+              ]
+            ],
+            "type": "LineString"
+          },
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-74.8591333,40.5130953;-74.1449,41.089?overview=simplified&geometries=geojson&steps=false"
+        },
+        {
+          "id": "d10-mahwah-break-to-danbury-lodging",
+          "from": "mahwah-break",
+          "to": "danbury-lodging",
+          "distance_meters": 96990,
+          "distance_miles": 60.3,
+          "baseline_seconds": 5010,
+          "baseline_minutes": 84,
+          "planning_minutes": {
+            "low": 95,
+            "high": 145
+          },
+          "traffic_risk": "high",
+          "mode": "driving",
+          "display_duration_minutes": 84,
+          "counts_toward_drive_cap": true,
+          "geometry": {
+            "coordinates": [
+              [
+                -74.145109,
+                41.088977
+              ],
+              [
+                -74.150462,
+                41.088242
+              ],
+              [
+                -74.167376,
+                41.104709
+              ],
+              [
+                -74.160071,
+                41.117627
+              ],
+              [
+                -74.136407,
+                41.121478
+              ],
+              [
+                -74.048446,
+                41.0969
+              ],
+              [
+                -74.020408,
+                41.103909
+              ],
+              [
+                -73.953611,
+                41.100153
+              ],
+              [
+                -73.931459,
+                41.093176
+              ],
+              [
+                -73.915266,
+                41.071498
+              ],
+              [
+                -73.873981,
+                41.070757
+              ],
+              [
+                -73.858611,
+                41.061183
+              ],
+              [
+                -73.835577,
+                41.056504
+              ],
+              [
+                -73.822288,
+                41.058107
+              ],
+              [
+                -73.833882,
+                41.076963
+              ],
+              [
+                -73.811518,
+                41.097465
+              ],
+              [
+                -73.809862,
+                41.105994
+              ],
+              [
+                -73.783672,
+                41.120478
+              ],
+              [
+                -73.796078,
+                41.132885
+              ],
+              [
+                -73.791024,
+                41.142145
+              ],
+              [
+                -73.735576,
+                41.204236
+              ],
+              [
+                -73.736129,
+                41.214112
+              ],
+              [
+                -73.676891,
+                41.250114
+              ],
+              [
+                -73.685777,
+                41.270162
+              ],
+              [
+                -73.673665,
+                41.307487
+              ],
+              [
+                -73.65809,
+                41.32313
+              ],
+              [
+                -73.653647,
+                41.344135
+              ],
+              [
+                -73.624157,
+                41.367538
+              ],
+              [
+                -73.604618,
+                41.376617
+              ],
+              [
+                -73.595402,
+                41.388385
+              ],
+              [
+                -73.57697,
+                41.382868
+              ],
+              [
+                -73.529152,
+                41.392724
               ],
               [
                 -73.48422,
                 41.38348
               ],
               [
-                -73.462171,
-                41.393123
+                -73.476621,
+                41.3857
               ],
               [
-                -73.448761,
-                41.378154
-              ]
-            ],
-            "type": "LineString"
-          },
-          "routing_source": "https://router.project-osrm.org/route/v1/driving/-75.3,41.04;-73.448419,41.3780766?overview=simplified&geometries=geojson&steps=false"
-        },
-        {
-          "id": "d10-tarrywile-to-danbury-lodging",
-          "from": "tarrywile",
-          "to": "danbury-lodging",
-          "distance_meters": 2570,
-          "distance_miles": 1.6,
-          "baseline_seconds": 363,
-          "baseline_minutes": 7,
-          "planning_minutes": {
-            "low": 10,
-            "high": 25
-          },
-          "traffic_risk": "high",
-          "mode": "driving",
-          "display_duration_minutes": 7,
-          "counts_toward_drive_cap": true,
-          "geometry": {
-            "coordinates": [
-              [
-                -73.448761,
-                41.378154
+                -73.475981,
+                41.390859
               ],
               [
-                -73.449326,
-                41.378305
-              ],
-              [
-                -73.450203,
-                41.378072
-              ],
-              [
-                -73.451267,
-                41.378181
-              ],
-              [
-                -73.450881,
-                41.378941
-              ],
-              [
-                -73.450718,
-                41.379708
-              ],
-              [
-                -73.448724,
-                41.380422
-              ],
-              [
-                -73.447505,
-                41.380641
-              ],
-              [
-                -73.448338,
-                41.38285
-              ],
-              [
-                -73.449251,
-                41.384569
-              ],
-              [
-                -73.45138,
-                41.387982
-              ],
-              [
-                -73.454634,
-                41.392396
-              ],
-              [
-                -73.453167,
-                41.392854
-              ],
-              [
-                -73.454843,
-                41.394584
+                -73.468658,
+                41.388694
               ],
               [
                 -73.454162,
@@ -3825,39 +6228,39 @@
             ],
             "type": "LineString"
           },
-          "routing_source": "https://router.project-osrm.org/route/v1/driving/-73.448419,41.3780766;-73.4540111,41.394817?overview=simplified&geometries=geojson&steps=false"
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-74.1449,41.089;-73.4540111,41.394817?overview=simplified&geometries=geojson&steps=false"
         }
       ],
-      "baseline_total_meters": 221918,
-      "baseline_total_seconds": 11298,
+      "baseline_total_meters": 320312,
+      "baseline_total_seconds": 17983,
       "non_driving_travel_minutes": 0,
-      "baseline_total_miles": 137.9,
-      "baseline_total_minutes": 189,
+      "baseline_total_miles": 199,
+      "baseline_total_minutes": 300,
       "planning_total_minutes": {
-        "low": 205,
-        "high": 305
+        "low": 325,
+        "high": 475
       },
-      "total_travel_minutes_excluding_queues": 189
+      "total_travel_minutes_excluding_queues": 300
     },
     {
       "day": 11,
       "risk": "high",
       "legs": [
         {
-          "id": "d11-danbury-lodging-to-boston-logan-return",
+          "id": "d11-danbury-lodging-to-puzzle-theory-spectral",
           "from": "danbury-lodging",
-          "to": "boston-logan-return",
-          "distance_meters": 257382,
-          "distance_miles": 159.9,
-          "baseline_seconds": 11915,
-          "baseline_minutes": 199,
+          "to": "puzzle-theory-spectral",
+          "distance_meters": 107600,
+          "distance_miles": 66.9,
+          "baseline_seconds": 5237,
+          "baseline_minutes": 88,
           "planning_minutes": {
-            "low": 215,
-            "high": 320
+            "low": 100,
+            "high": 150
           },
           "traffic_risk": "high",
           "mode": "driving",
-          "display_duration_minutes": 199,
+          "display_duration_minutes": 88,
           "counts_toward_drive_cap": true,
           "geometry": {
             "coordinates": [
@@ -3866,12 +6269,32 @@
                 41.394965
               ],
               [
+                -73.447803,
+                41.399233
+              ],
+              [
+                -73.42649,
+                41.400729
+              ],
+              [
+                -73.403269,
+                41.416874
+              ],
+              [
                 -73.374742,
                 41.424806
               ],
               [
+                -73.362408,
+                41.422441
+              ],
+              [
                 -73.314981,
                 41.429154
+              ],
+              [
+                -73.289472,
+                41.417156
               ],
               [
                 -73.266881,
@@ -3890,8 +6313,20 @@
                 41.475636
               ],
               [
+                -73.163027,
+                41.493274
+              ],
+              [
+                -73.138067,
+                41.508771
+              ],
+              [
                 -73.092267,
                 41.522329
+              ],
+              [
+                -73.085351,
+                41.537381
               ],
               [
                 -73.067481,
@@ -3902,20 +6337,44 @@
                 41.551416
               ],
               [
+                -73.020787,
+                41.54098
+              ],
+              [
                 -73.004141,
                 41.537966
+              ],
+              [
+                -72.984379,
+                41.543753
+              ],
+              [
+                -72.963413,
+                41.536351
               ],
               [
                 -72.944699,
                 41.542718
               ],
               [
+                -72.9158,
+                41.560997
+              ],
+              [
                 -72.899968,
                 41.580202
               ],
               [
+                -72.903208,
+                41.595948
+              ],
+              [
                 -72.894352,
                 41.617775
+              ],
+              [
+                -72.868519,
+                41.636102
               ],
               [
                 -72.844024,
@@ -3926,12 +6385,16 @@
                 41.670111
               ],
               [
-                -72.791134,
-                41.72213
+                -72.793227,
+                41.720773
               ],
               [
                 -72.757863,
                 41.727479
+              ],
+              [
+                -72.740515,
+                41.736359
               ],
               [
                 -72.732649,
@@ -3942,56 +6405,119 @@
                 41.749947
               ],
               [
-                -72.680507,
-                41.770944
+                -72.699233,
+                41.760574
               ],
               [
-                -72.633961,
-                41.763195
+                -72.680654,
+                41.770908
               ],
               [
-                -72.577718,
-                41.7743
+                -72.633782,
+                41.763201
               ],
               [
-                -72.552615,
-                41.801379
+                -72.575813,
+                41.775124
               ],
               [
-                -72.469261,
-                41.830939
+                -72.551203,
+                41.800703
               ],
               [
-                -72.429894,
-                41.854297
+                -72.556547,
+                41.835219
+              ]
+            ],
+            "type": "LineString"
+          },
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-73.4540111,41.394817;-72.5562712,41.8352395?overview=simplified&geometries=geojson&steps=false"
+        },
+        {
+          "id": "d11-puzzle-theory-spectral-to-boston-logan-return",
+          "from": "puzzle-theory-spectral",
+          "to": "boston-logan-return",
+          "distance_meters": 155366,
+          "distance_miles": 96.5,
+          "baseline_seconds": 7191,
+          "baseline_minutes": 120,
+          "planning_minutes": {
+            "low": 130,
+            "high": 200
+          },
+          "traffic_risk": "high",
+          "mode": "driving",
+          "display_duration_minutes": 120,
+          "counts_toward_drive_cap": true,
+          "geometry": {
+            "coordinates": [
+              [
+                -72.556547,
+                41.835219
               ],
               [
-                -72.374059,
-                41.857029
+                -72.51702,
+                41.810496
               ],
               [
-                -72.205035,
-                41.948201
+                -72.430713,
+                41.854013
               ],
               [
-                -72.062321,
-                42.128856
+                -72.375173,
+                41.856621
               ],
               [
-                -71.756836,
-                42.220728
+                -72.292214,
+                41.895201
               ],
               [
-                -71.618119,
-                42.229365
+                -72.257461,
+                41.925036
+              ],
+              [
+                -72.202051,
+                41.950616
+              ],
+              [
+                -72.15414,
+                42.016996
+              ],
+              [
+                -72.098482,
+                42.073082
+              ],
+              [
+                -72.065447,
+                42.127065
+              ],
+              [
+                -72.010387,
+                42.147284
+              ],
+              [
+                -71.96661,
+                42.15442
+              ],
+              [
+                -71.924653,
+                42.173559
+              ],
+              [
+                -71.755101,
+                42.22111
+              ],
+              [
+                -71.618968,
+                42.229124
               ],
               [
                 -71.557662,
                 42.269541
               ],
               [
-                -71.411977,
-                42.315412
+                -71.411699,
+                42.315475
               ],
               [
                 -71.368027,
@@ -4020,7 +6546,7 @@
             ],
             "type": "LineString"
           },
-          "routing_source": "https://router.project-osrm.org/route/v1/driving/-73.4540111,41.394817;-71.0304,42.3682?overview=simplified&geometries=geojson&steps=false"
+          "routing_source": "https://router.project-osrm.org/route/v1/driving/-72.5562712,41.8352395;-71.0304,42.3682?overview=simplified&geometries=geojson&steps=false"
         },
         {
           "id": "d11-boston-logan-return-to-boston-logan-hotel",
@@ -4162,19 +6688,19 @@
           "routing_source": "https://router.project-osrm.org/route/v1/driving/-71.0304,42.3682;-71.0155,42.3655?overview=simplified&geometries=geojson&steps=false"
         }
       ],
-      "baseline_total_meters": 259206,
-      "baseline_total_seconds": 12136,
+      "baseline_total_meters": 264790,
+      "baseline_total_seconds": 12649,
       "non_driving_travel_minutes": 0,
-      "baseline_total_miles": 161.1,
-      "baseline_total_minutes": 203,
+      "baseline_total_miles": 164.5,
+      "baseline_total_minutes": 211,
       "planning_total_minutes": {
-        "low": 220,
-        "high": 325
+        "low": 230,
+        "high": 340
       },
-      "total_travel_minutes_excluding_queues": 203
+      "total_travel_minutes_excluding_queues": 211
     }
   ],
-  "route_baseline_total_meters": 2699368,
-  "route_baseline_total_miles": 1677.3,
-  "route_baseline_total_seconds": 127016
+  "route_baseline_total_meters": 3060858,
+  "route_baseline_total_miles": 1901.9,
+  "route_baseline_total_seconds": 153107
 }

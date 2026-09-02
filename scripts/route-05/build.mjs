@@ -6,6 +6,7 @@ import {
   contextualImagePlaces, lodgingNodes, manualCoordinates, PEOPLE, replacementVariants,
   ROUTE_ID, ROUTE_NAME, ROUTE_SLUG
 } from "./config.mjs";
+import { buildEnergyRoute05 } from "../route-05-energy/build.mjs";
 
 const ROOT = process.cwd();
 const ROUTE_DIR = path.join(ROOT, "dataset", "routes", ROUTE_SLUG);
@@ -183,6 +184,10 @@ function personFit(record, person) { if (record.best_for.includes(person)) retur
 function scheduleItem([start, end, place_id, priority], placeById) { const r = placeById.get(place_id); if (!r) throw new Error(`Unknown scheduled place ${place_id}`); return { start, end, place_id, priority, reservation: r.reservation }; }
 
 async function main() {
+  await buildEnergyRoute05({ root: ROOT, routeDir: ROUTE_DIR });
+  return;
+
+  // Legacy Route 05 builder retained below as historical implementation context.
   const [research, weather, geometry, replacements] = await Promise.all([
     readFile(path.join(ROUTE_DIR, "research-raw.json"), "utf8").then(JSON.parse),
     readFile(path.join(ROUTE_DIR, "weather-normals.json"), "utf8").then(JSON.parse),

@@ -10,7 +10,7 @@
 
 Run commands from the repository root with a current LTS Node.js release. There is no package manifest or npm test runner.
 
-- `node scripts/route-08/build.mjs` rebuilds a route package; substitute the desired route directory (`route-02` through `route-11`).
+- `node scripts/route-08/build.mjs` rebuilds a route package; substitute the desired route directory (`route-02` through `route-10`).
 - `node scripts/build-route-package.mjs` builds the legacy Route 01 package.
 - `node scripts/validate-route-package.mjs <route-slug>` validates schema shape, references, schedules, coordinates, images, GeoJSON, and driving caps. Example: `node scripts/validate-route-package.mjs route-08-lemurs-stone-bridges-mechanical-dreams-loop`.
 - Collection scripts such as `node scripts/route-08/collect-research.mjs` and `collect-geometry.mjs` use external services and write dataset/assets; review diffs before committing.

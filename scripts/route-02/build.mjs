@@ -3,6 +3,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { contextualImagePlaces, lodgingNodes, manualCoordinates, PEOPLE, replacementVariants, ROUTE_ID, ROUTE_NAME, ROUTE_SLUG } from "./config.mjs";
+import { buildEnergyRoute02 } from "../route-02-energy/build.mjs";
 
 const ROOT = process.cwd();
 const ROUTE_DIR = path.join(ROOT, "dataset", "routes", ROUTE_SLUG);
@@ -178,6 +179,10 @@ function scheduleItem(tuple, placeById) {
 }
 
 async function main() {
+  await buildEnergyRoute02({ root: ROOT, routeDir: ROUTE_DIR });
+  return;
+
+  // Legacy Route 02 builder retained below as historical implementation context.
   const [research, weather, geometry, replacements] = await Promise.all([
     readFile(path.join(ROUTE_DIR, "research-raw.json"), "utf8").then(JSON.parse),
     readFile(path.join(ROUTE_DIR, "weather-normals.json"), "utf8").then(JSON.parse),

@@ -1,7 +1,7 @@
 {
   "methodology": "NOAA/NCEI U.S. Climate Normals 1991-2020 daily normals; these are planning baselines, not forecasts.",
   "dataset_url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
-  "generated_at": "2026-08-24T18:03:40.324Z",
+  "generated_at": "2026-09-01T21:02:31.503Z",
   "days": [
     {
       "day": 1,
@@ -74,9 +74,9 @@
     {
       "day": 5,
       "date": "2026-10-08",
-      "sleep_city": "Roanoke, VA",
+      "sleep_city": "Staunton, VA",
       "station": "USW00013741",
-      "station_role": "Roanoke airport",
+      "station_role": "Roanoke-Shenandoah Valley regional proxy",
       "station_id": "USW00013741",
       "station_name": "ROANOKE RGNL AP, VA US",
       "station_coordinates": [
@@ -91,19 +91,19 @@
     {
       "day": 6,
       "date": "2026-10-09",
-      "sleep_city": "Durham, NC",
-      "station": "USW00013722",
-      "station_role": "Raleigh-Durham airport",
-      "station_id": "USW00013722",
-      "station_name": "RALEIGH DURHAM INTL AP, NC US",
+      "sleep_city": "Roanoke, VA",
+      "station": "USW00013741",
+      "station_role": "Roanoke airport",
+      "station_id": "USW00013741",
+      "station_name": "ROANOKE RGNL AP, VA US",
       "station_coordinates": [
-        -78.7819,
-        35.8922
+        -79.9742,
+        37.3169
       ],
-      "normal_high_c": 24.1,
-      "normal_low_c": 11.8,
-      "measurable_precipitation_probability_percent": 26.6,
-      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00013722.csv"
+      "normal_high_c": 22.4,
+      "normal_low_c": 10.3,
+      "measurable_precipitation_probability_percent": 27,
+      "source_url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00013741.csv"
     },
     {
       "day": 7,

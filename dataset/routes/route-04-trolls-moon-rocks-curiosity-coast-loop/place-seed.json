@@ -1,7 +1,253 @@
 {
   "schema_version": "1.0.0",
   "route_id": "route-04",
+  "generated_from": "Energy Rebuild Routes/Route04_Cold_Granite_Rebuild_With_Costs.md",
   "places": [
+    {
+      "id": "nubble-light",
+      "name": "Nubble Light from Sohier Park",
+      "kind": "lighthouse-viewpoint",
+      "city": "York",
+      "state": "ME",
+      "visit_date": "2026-10-04",
+      "summary": "A working lighthouse with a red roof, standing on a small rock island just off the shore. You see it from the granite and grass of the park opposite.",
+      "why_go": "The first big coast picture of the trip: a lighthouse on its own rock with waves all around it. You cannot go onto the island, and we say so up front.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: viki, stivka. Low physical demand; no skip path is required.",
+      "categories": [
+        "nature_photogenic",
+        "architecture_photogenic"
+      ],
+      "duration_minutes": 55,
+      "source_ids": [
+        "src-nubble"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "05:00",
+        "closes": "01:00",
+        "status": "verified-public-park",
+        "note": "Sohier Park is open year-round; no parking 01:00-05:00."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
+      },
+      "priority": "anchor",
+      "address": "Sohier Park, Nubble Road, York, Maine",
+      "country": "US",
+      "coordinates": [
+        -70.591,
+        43.165
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-nubble-light-1",
+        "img-nubble-light-2",
+        "img-nubble-light-3",
+        "img-nubble-light-4",
+        "img-nubble-light-5",
+        "img-nubble-light-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "wild-terrain-scenic",
+      "texture": "AWE",
+      "interaction_score": 1,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "exact_date_anchor": false,
+        "high_exposure": false,
+        "high_physicality": false,
+        "viki_bypass_available": false,
+        "traffic_gated": false,
+        "route108_dependency": false,
+        "shared_park_fee": false,
+        "nonresident_fee_check": false,
+        "confined_space": false,
+        "photo_heavy": true,
+        "machinery_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "physical_level": "easy",
+      "skip_mode": "Low physical demand; no skip path is required.",
+      "skip_strategy": "Low physical demand; no skip path is required.",
+      "optional": true,
+      "included_in_magic_default": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "green",
+      "operational_risk": "green",
+      "fallback_ids": [],
+      "fallback_place_id": null
+    },
+    {
+      "id": "uss-albacore",
+      "name": "USS Albacore: The Teardrop-Hull Experiment",
+      "kind": "experimental-submarine",
+      "city": "Portsmouth",
+      "state": "NH",
+      "visit_date": "2026-10-05",
+      "summary": "A research submarine from 1953 with a rounded teardrop shape. It was never a fighting boat. It was built to test speed underwater, and its shape became the model for every modern submarine.",
+      "why_go": "You climb inside a very small experimental submarine that changed how all later ones were built. A test machine, not a war story.",
+      "best_for": [
+        "gora",
+        "stivka"
+      ],
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: gora, stivka. Tight submarine passages; anyone claustrophobic can stay in the shore exhibits.",
+      "categories": [
+        "hidden_history_folklore",
+        "unusual_creative",
+        "architecture_photogenic"
+      ],
+      "duration_minutes": 75,
+      "source_ids": [
+        "src-albacore"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "09:30",
+        "closes": "17:00",
+        "status": "verified-seasonal",
+        "note": "Open daily through Indigenous Peoples' Day."
+      },
+      "cost": {
+        "amount_per_person": 14,
+        "low": 14,
+        "high": 14,
+        "amount_per_group": 56,
+        "price_type": "per-person",
+        "status": "verified",
+        "note": ""
+      },
+      "priority": "anchor",
+      "address": "USS Albacore Museum, 600 Market Street, Portsmouth, New Hampshire",
+      "country": "US",
+      "coordinates": [
+        -70.7736,
+        43.0821
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-uss-albacore-1",
+        "img-uss-albacore-2",
+        "img-uss-albacore-3",
+        "img-uss-albacore-4",
+        "img-uss-albacore-5",
+        "img-uss-albacore-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "working-machine-infrastructure",
+      "texture": "EXPLORE",
+      "interaction_score": 3,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "exact_date_anchor": false,
+        "high_exposure": false,
+        "high_physicality": false,
+        "viki_bypass_available": true,
+        "traffic_gated": false,
+        "route108_dependency": false,
+        "shared_park_fee": false,
+        "nonresident_fee_check": false,
+        "confined_space": true,
+        "photo_heavy": false,
+        "machinery_heavy": true
+      },
+      "viki_fit": 4,
+      "gora_fit": 5,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "per-person",
+      "price_per_person_low": 14,
+      "price_per_person_high": 14,
+      "price_per_group": 56,
+      "price_last_checked": "2026-08-31",
+      "physical_level": "light-moderate",
+      "skip_mode": "Tight submarine passages; anyone claustrophobic can stay in the shore exhibits.",
+      "skip_strategy": "Tight submarine passages; anyone claustrophobic can stay in the shore exhibits.",
+      "optional": true,
+      "included_in_magic_default": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "green",
+      "operational_risk": "green",
+      "fallback_ids": [],
+      "fallback_place_id": null
+    },
     {
       "id": "african-burying-ground",
       "name": "African Burying Ground Memorial Park",
@@ -41,142 +287,48 @@
         "status": "free",
         "note": "No admission planned."
       },
-      "priority": "supporting",
-      "address": "African Burying Ground Memorial Park, Chestnut Street, Portsmouth, New Hampshire"
-    },
-    {
-      "id": "uss-albacore",
-      "name": "USS Albacore: The Teardrop-Hull Experiment",
-      "kind": "experimental-submarine",
-      "city": "Portsmouth",
-      "state": "NH",
-      "visit_date": "2026-10-04",
-      "summary": "A research submarine from 1953 with a rounded teardrop shape. It was never a fighting boat. It was built to test speed underwater, and its shape became the model for every modern submarine.",
-      "why_go": "You climb inside a very small experimental submarine that changed how all later ones were built. A test machine, not a war story.",
-      "best_for": [
-        "gora",
-        "viki"
+      "priority": "optional",
+      "address": "African Burying Ground Memorial Park, Chestnut Street, Portsmouth, New Hampshire",
+      "country": "US",
+      "coordinates": [
+        -70.7597,
+        43.076
       ],
-      "secondary_for": [
-        "sheluvspaco",
-        "stivka"
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-african-burying-ground-1",
+        "img-african-burying-ground-2",
+        "img-african-burying-ground-3",
+        "img-african-burying-ground-4",
+        "img-african-burying-ground-5",
+        "img-african-burying-ground-6"
       ],
-      "best_fit_note": "Good for Gora's engineering interest and Stivka's love of technical stories. The tight space makes it memorable for everyone.",
-      "categories": [
-        "hidden_history_folklore",
-        "unusual_creative",
-        "architecture_photogenic"
-      ],
-      "duration_minutes": 75,
-      "source_ids": [
-        "src-albacore"
-      ],
-      "reservation": "none",
-      "hours": {
-        "opens": "09:30",
-        "closes": "17:00",
-        "status": "verified-seasonal",
-        "note": "Open daily through Indigenous Peoples' Day."
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
       },
-      "cost": {
-        "amount_per_person": 14,
-        "status": "verified",
-        "note": "Adult admission."
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
       },
-      "priority": "anchor",
-      "address": "USS Albacore Museum, 600 Market Street, Portsmouth, New Hampshire"
-    },
-    {
-      "id": "nubble-light",
-      "name": "Nubble Light from Sohier Park",
-      "kind": "lighthouse-viewpoint",
-      "city": "York",
-      "state": "ME",
-      "visit_date": "2026-10-04",
-      "summary": "A working lighthouse with a red roof, standing on a small rock island just off the shore. You see it from the granite and grass of the park opposite.",
-      "why_go": "The first big coast picture of the trip: a lighthouse on its own rock with waves all around it. You cannot go onto the island, and we say so up front.",
-      "best_for": [
-        "viki",
-        "stivka"
-      ],
-      "secondary_for": [
-        "sheluvspaco",
-        "gora"
-      ],
-      "best_fit_note": "Good for Viki's first strong sea photo and for Paco's easy group stop. Nobody has to walk far.",
-      "categories": [
-        "nature_photogenic",
-        "architecture_photogenic"
-      ],
-      "duration_minutes": 55,
-      "source_ids": [
-        "src-nubble"
-      ],
-      "reservation": "none",
-      "hours": {
-        "opens": "05:00",
-        "closes": "01:00",
-        "status": "verified-public-park",
-        "note": "Sohier Park is open year-round; no parking 01:00-05:00."
-      },
-      "cost": {
-        "amount_per_person": 0,
-        "status": "free",
-        "note": "No admission planned."
-      },
-      "priority": "supporting",
-      "address": "Sohier Park, Nubble Road, York, Maine"
-    },
-    {
-      "id": "woodman-museum",
-      "name": "The Woodman Museum",
-      "kind": "cabinet-of-curiosities",
-      "city": "Dover",
-      "state": "NH",
-      "visit_date": "2026-10-04",
-      "summary": "Four old buildings holding stuffed animals, minerals, local art, the home of an anti-slavery senator, and a fortified house from 1675. Nothing has been modernized.",
-      "why_go": "An old-fashioned museum of curiosities, still arranged the way museums used to be. Strange, wide-ranging and a little dusty.",
-      "best_for": [
-        "gora",
-        "viki"
-      ],
-      "secondary_for": [
-        "stivka",
-        "sheluvspaco"
-      ],
-      "best_fit_note": "Good for Viki's love of odd places and for Gora's interest in how museums once showed the world.",
-      "categories": [
-        "hidden_history_folklore",
-        "unusual_creative",
-        "architecture_photogenic"
-      ],
-      "duration_minutes": 105,
-      "source_ids": [
-        "src-woodman"
-      ],
-      "reservation": "none",
-      "hours": {
-        "opens": "10:00",
-        "closes": "17:00",
-        "status": "verified-seasonal-pattern",
-        "note": "April-November Wednesday-Sunday; reconfirm 2026 fall hours."
-      },
-      "cost": {
-        "amount_per_person": 10,
-        "status": "verified-current",
-        "note": "Adult admission."
-      },
-      "priority": "replacement",
-      "replacement_reason": "Replace Albacore when the group prefers a messier natural-history and local-history cabinet with more personality.",
-      "address": "Woodman Museum, 182 Central Avenue, Dover, New Hampshire",
-      "replacement": {
-        "day": 1,
-        "replaces_place_ids": [
-          "uss-albacore"
-        ],
-        "route_variant_id": "replacement-d1-woodman",
-        "reason": "Replace Albacore when the group prefers a messier natural-history and local-history cabinet with more personality."
-      }
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "victoria-mansion",
@@ -217,8 +369,45 @@
         "status": "planning-current",
         "note": "Confirm 2026 adult admission at booking."
       },
-      "priority": "anchor",
-      "address": "Victoria Mansion, 109 Danforth Street, Portland, Maine"
+      "priority": "archive",
+      "address": "Victoria Mansion, 109 Danforth Street, Portland, Maine",
+      "country": "US",
+      "coordinates": [
+        -70.2632,
+        43.651
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-victoria-mansion-1",
+        "img-victoria-mansion-2",
+        "img-victoria-mansion-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "archive",
+      "original_status": "remove-archive",
+      "energy_rebuild_role": "preserved-revision-history",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "portland-head-light",
@@ -231,13 +420,13 @@
       "why_go": "A famous lighthouse, a rough sea and a hidden military site in one walk, instead of three separate stops.",
       "best_for": [
         "viki",
-        "gora"
+        "stivka"
       ],
       "secondary_for": [
-        "stivka",
+        "gora",
         "sheluvspaco"
       ],
-      "best_fit_note": "Good for Viki's landmark photo and for Gora's interest in the defenses under a pretty view.",
+      "best_fit_note": "Primary fit: viki, stivka. Walk the coast, take the photograph and move; this is not a two-hour lighthouse lesson.",
       "categories": [
         "nature_photogenic",
         "architecture_photogenic",
@@ -256,11 +445,92 @@
       },
       "cost": {
         "amount_per_person": 3,
-        "status": "planning-floor",
-        "note": "Small museum admission; parking is separate."
+        "low": 3,
+        "high": 3,
+        "amount_per_group": 12,
+        "price_type": "group-share",
+        "status": "verified",
+        "note": "Two vehicles at about $6 each for a short paid-parking block."
       },
       "priority": "anchor",
-      "address": "Portland Head Light, 1000 Shore Road, Cape Elizabeth, Maine"
+      "address": "Portland Head Light, 1000 Shore Road, Cape Elizabeth, Maine",
+      "country": "US",
+      "coordinates": [
+        -70.2079,
+        43.6232
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-portland-head-light-1",
+        "img-portland-head-light-2",
+        "img-portland-head-light-3",
+        "img-portland-head-light-4",
+        "img-portland-head-light-5",
+        "img-portland-head-light-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "wild-terrain-scenic",
+      "texture": "AWE",
+      "interaction_score": 1,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "exact_date_anchor": false,
+        "high_exposure": false,
+        "high_physicality": false,
+        "viki_bypass_available": true,
+        "traffic_gated": false,
+        "route108_dependency": false,
+        "shared_park_fee": true,
+        "nonresident_fee_check": false,
+        "confined_space": false,
+        "photo_heavy": true,
+        "machinery_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "group-share",
+      "price_per_person_low": 3,
+      "price_per_person_high": 3,
+      "price_per_group": 12,
+      "price_last_checked": "2026-08-31",
+      "physical_level": "easy",
+      "skip_mode": "Walk the coast, take the photograph and move; this is not a two-hour lighthouse lesson.",
+      "skip_strategy": "Walk the coast, take the photograph and move; this is not a two-hour lighthouse lesson.",
+      "optional": true,
+      "included_in_magic_default": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "green",
+      "operational_risk": "green",
+      "fallback_ids": [],
+      "fallback_place_id": null
     },
     {
       "id": "eastern-promenade",
@@ -300,8 +570,47 @@
         "status": "free",
         "note": "No admission planned."
       },
-      "priority": "supporting",
-      "address": "Eastern Promenade, Portland, Maine"
+      "priority": "flex",
+      "address": "Eastern Promenade, Portland, Maine",
+      "country": "US",
+      "coordinates": [
+        -70.2399,
+        43.6726
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-eastern-promenade-1",
+        "img-eastern-promenade-2",
+        "img-eastern-promenade-3",
+        "img-eastern-promenade-4",
+        "img-eastern-promenade-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "flex",
+      "original_status": "demote-flex",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "arcadia-portland",
@@ -341,59 +650,48 @@
         "status": "nightlife-excluded",
         "note": "Drinks and game spend are excluded from the route budget."
       },
-      "priority": "anchor",
-      "address": "Arcadia, 504 Congress Street, Portland, Maine"
-    },
-    {
-      "id": "desert-of-maine",
-      "name": "Desert of Maine",
-      "kind": "glacial-sand-landscape",
-      "city": "Freeport",
-      "state": "ME",
-      "visit_date": "2026-10-05",
-      "summary": "A field of bare glacial sand that slowly buried a farm, its soil and its buildings. There are trails, and some of the old structures are still visible.",
-      "why_go": "A desert in the middle of coastal Maine. It looks impossible, and it happened because of how the land was farmed.",
-      "best_for": [
-        "viki",
-        "gora"
+      "priority": "optional",
+      "address": "Arcadia, 504 Congress Street, Portland, Maine",
+      "country": "US",
+      "coordinates": [
+        -70.2605,
+        43.657
       ],
-      "secondary_for": [
-        "sheluvspaco",
-        "stivka"
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-arcadia-portland-1",
+        "img-arcadia-portland-2",
+        "img-arcadia-portland-3",
+        "img-arcadia-portland-4",
+        "img-arcadia-portland-5",
+        "img-arcadia-portland-6"
       ],
-      "best_fit_note": "Good for Viki's strange landscape photos and for Gora's interest in a mistake people made with the land.",
-      "categories": [
-        "nature_photogenic",
-        "unusual_creative",
-        "hidden_history_folklore"
-      ],
-      "duration_minutes": 105,
-      "source_ids": [
-        "src-desert"
-      ],
-      "reservation": "none",
-      "hours": {
-        "opens": "10:00",
-        "closes": "18:00",
-        "status": "verified",
-        "note": "Open daily."
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
       },
-      "cost": {
-        "amount_per_person": 21,
-        "status": "verified",
-        "note": "Adult admission."
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
       },
-      "priority": "replacement",
-      "replacement_reason": "Replace Victoria Mansion when sunshine makes the glacial landscape more magical than another preserved interior.",
-      "address": "Desert of Maine, 95 Desert Road, Freeport, Maine",
-      "replacement": {
-        "day": 2,
-        "replaces_place_ids": [
-          "victoria-mansion"
-        ],
-        "route_variant_id": "replacement-d2-desert",
-        "reason": "Replace Victoria Mansion when sunshine makes the glacial landscape more magical than another preserved interior."
-      }
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "coastal-maine-gardens",
@@ -406,13 +704,13 @@
       "why_go": "Finding five giant hidden trolls turns a garden walk into a hunt. Their size is genuinely surprising when you reach them.",
       "best_for": [
         "viki",
-        "sheluvspaco"
+        "stivka"
       ],
       "secondary_for": [
-        "stivka",
-        "gora"
+        "gora",
+        "sheluvspaco"
       ],
-      "best_fit_note": "Good for Viki's best photos of the trip and for Paco's group activity. Everyone joins the search.",
+      "best_fit_note": "Primary fit: viki, stivka. Flat garden paths; the troll loop can be shortened at will.",
       "categories": [
         "nature_photogenic",
         "unusual_creative",
@@ -422,7 +720,7 @@
       "source_ids": [
         "src-gardens"
       ],
-      "reservation": "recommended",
+      "reservation": "none",
       "hours": {
         "opens": "09:00",
         "closes": "17:00",
@@ -431,11 +729,92 @@
       },
       "cost": {
         "amount_per_person": 28,
+        "low": 28,
+        "high": 28,
+        "amount_per_group": 112,
+        "price_type": "per-person",
         "status": "verified",
-        "note": "Adult online admission; advance purchase is cheaper than walk-up."
+        "note": ""
       },
       "priority": "anchor",
-      "address": "Coastal Maine Botanical Gardens, 105 Botanical Gardens Drive, Boothbay, Maine"
+      "address": "Coastal Maine Botanical Gardens, 105 Botanical Gardens Drive, Boothbay, Maine",
+      "country": "US",
+      "coordinates": [
+        -69.647,
+        43.8753
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-coastal-maine-gardens-1",
+        "img-coastal-maine-gardens-2",
+        "img-coastal-maine-gardens-3",
+        "img-coastal-maine-gardens-4",
+        "img-coastal-maine-gardens-5",
+        "img-coastal-maine-gardens-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "regional-weird-folklore",
+      "texture": "WEIRD",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "exact_date_anchor": false,
+        "high_exposure": false,
+        "high_physicality": false,
+        "viki_bypass_available": true,
+        "traffic_gated": false,
+        "route108_dependency": false,
+        "shared_park_fee": false,
+        "nonresident_fee_check": false,
+        "confined_space": false,
+        "photo_heavy": true,
+        "machinery_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "per-person",
+      "price_per_person_low": 28,
+      "price_per_person_high": 28,
+      "price_per_group": 112,
+      "price_last_checked": "2026-08-31",
+      "physical_level": "easy",
+      "skip_mode": "Flat garden paths; the troll loop can be shortened at will.",
+      "skip_strategy": "Flat garden paths; the troll loop can be shortened at will.",
+      "optional": true,
+      "included_in_magic_default": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "green",
+      "operational_risk": "green",
+      "fallback_ids": [],
+      "fallback_place_id": null
     },
     {
       "id": "prison-showroom",
@@ -476,8 +855,45 @@
         "status": "free",
         "note": "No admission planned."
       },
-      "priority": "supporting",
-      "address": "Maine State Prison Showroom, 358 Main Street, Thomaston, Maine"
+      "priority": "optional",
+      "address": "Maine State Prison Showroom, 358 Main Street, Thomaston, Maine",
+      "country": "US",
+      "coordinates": [
+        -69.1814,
+        44.0784
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-prison-showroom-1",
+        "img-prison-showroom-2",
+        "img-prison-showroom-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "rockland-breakwater",
@@ -489,14 +905,14 @@
       "summary": "A lighthouse at the end of a granite wall from the 1890s that runs almost a mile out into Penobscot Bay. You walk out along the stone to reach it.",
       "why_go": "A mile of granite straight out to sea, with a lighthouse at the end. One of the best sunset pictures of the whole trip.",
       "best_for": [
-        "viki",
-        "gora"
+        "gora",
+        "viki"
       ],
       "secondary_for": [
         "stivka",
         "sheluvspaco"
       ],
-      "best_fit_note": "Good for Viki's sunset photo and for Gora's quiet walk. The stones need care, but the walk is flat and short.",
+      "best_fit_note": "Primary fit: gora, viki. Turn back at any point along the granite; the walk is out-and-back.",
       "categories": [
         "nature_photogenic",
         "architecture_photogenic"
@@ -514,62 +930,92 @@
       },
       "cost": {
         "amount_per_person": 0,
-        "status": "free",
-        "note": "No admission planned."
-      },
-      "priority": "supporting",
-      "address": "Rockland Breakwater Lighthouse, Rockland, Maine"
-    },
-    {
-      "id": "maine-maritime",
-      "name": "Maine Maritime Museum & Percy and Small Shipyard",
-      "kind": "working-waterfront-museum",
-      "city": "Bath",
-      "state": "ME",
-      "visit_date": "2026-10-06",
-      "summary": "A 20-acre former shipyard. A full-size steel outline stands where a six-masted wooden schooner was built, showing its real shape and size. The museum also tells the story of the people who built such ships.",
-      "why_go": "The steel outline shows you the real size of a wooden ship. It works in rain, costs less and needs less walking than the gardens.",
-      "best_for": [
-        "gora",
-        "stivka"
-      ],
-      "secondary_for": [
-        "viki",
-        "sheluvspaco"
-      ],
-      "best_fit_note": "Good for Gora's interest in building things at scale and for Viki's shipyard structures.",
-      "categories": [
-        "hidden_history_folklore",
-        "architecture_photogenic",
-        "unusual_creative"
-      ],
-      "duration_minutes": 150,
-      "source_ids": [
-        "src-maritime"
-      ],
-      "reservation": "none",
-      "hours": {
-        "opens": "09:30",
-        "closes": "17:00",
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
         "status": "verified",
-        "note": "Open daily."
+        "note": ""
       },
-      "cost": {
-        "amount_per_person": 22,
-        "status": "verified",
-        "note": "Adult admission."
+      "priority": "anchor",
+      "address": "Rockland Breakwater Lighthouse, Rockland, Maine",
+      "country": "US",
+      "coordinates": [
+        -69.0777,
+        44.1041
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-rockland-breakwater-1",
+        "img-rockland-breakwater-2",
+        "img-rockland-breakwater-3",
+        "img-rockland-breakwater-4",
+        "img-rockland-breakwater-5",
+        "img-rockland-breakwater-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
       },
-      "priority": "replacement",
-      "replacement_reason": "Replace the troll gardens for bad weather, garden fatigue or a stronger appetite for ships and labor history.",
-      "address": "Maine Maritime Museum, 243 Washington Street, Bath, Maine",
-      "replacement": {
-        "day": 3,
-        "replaces_place_ids": [
-          "coastal-maine-gardens"
-        ],
-        "route_variant_id": "replacement-d3-maritime",
-        "reason": "Replace the troll gardens for bad weather, garden fatigue or a stronger appetite for ships and labor history."
-      }
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "wild-terrain-scenic",
+      "texture": "WILD",
+      "interaction_score": 3,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": true,
+        "booking_required": false,
+        "exact_date_anchor": false,
+        "high_exposure": false,
+        "high_physicality": true,
+        "viki_bypass_available": true,
+        "traffic_gated": false,
+        "route108_dependency": false,
+        "shared_park_fee": false,
+        "nonresident_fee_check": false,
+        "confined_space": false,
+        "photo_heavy": true,
+        "machinery_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "physical_level": "moderate",
+      "skip_mode": "Turn back at any point along the granite; the walk is out-and-back.",
+      "skip_strategy": "Turn back at any point along the granite; the walk is out-and-back.",
+      "optional": true,
+      "included_in_magic_default": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "yellow",
+      "operational_risk": "yellow",
+      "fallback_ids": [],
+      "fallback_place_id": null
     },
     {
       "id": "owls-head-transportation",
@@ -610,8 +1056,45 @@
         "status": "verified",
         "note": "Adult admission."
       },
-      "priority": "anchor",
-      "address": "Owls Head Transportation Museum, 117 Museum Street, Owls Head, Maine"
+      "priority": "optional",
+      "address": "Owls Head Transportation Museum, 117 Museum Street, Owls Head, Maine",
+      "country": "US",
+      "coordinates": [
+        -69.1012,
+        43.9788
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-owls-head-transportation-1",
+        "img-owls-head-transportation-2",
+        "img-owls-head-transportation-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "fort-knox-observatory",
@@ -624,13 +1107,13 @@
       "why_go": "Dark stone passages underground, then a lift to a view over the whole valley. Two completely different experiences on one ticket.",
       "best_for": [
         "gora",
-        "viki"
+        "stivka"
       ],
       "secondary_for": [
-        "stivka",
+        "viki",
         "sheluvspaco"
       ],
-      "best_fit_note": "Good for Gora's military engineering and for Viki's autumn view from high above the river.",
+      "best_fit_note": "Primary fit: gora, stivka. The fort is explorable at any depth and the observatory is a lift, not a climb.",
       "categories": [
         "hidden_history_folklore",
         "architecture_photogenic",
@@ -650,11 +1133,92 @@
       },
       "cost": {
         "amount_per_person": 11,
-        "status": "planning-current",
-        "note": "Nonresident combined adult admission; reconfirm 2026 fee."
+        "low": 11,
+        "high": 11,
+        "amount_per_group": 44,
+        "price_type": "per-person",
+        "status": "verified",
+        "note": ""
       },
       "priority": "anchor",
-      "address": "Penobscot Narrows Bridge Observatory, Prospect, Maine"
+      "address": "Penobscot Narrows Bridge Observatory, Prospect, Maine",
+      "country": "US",
+      "coordinates": [
+        -68.8016,
+        44.5658
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-fort-knox-observatory-1",
+        "img-fort-knox-observatory-2",
+        "img-fort-knox-observatory-3",
+        "img-fort-knox-observatory-4",
+        "img-fort-knox-observatory-5",
+        "img-fort-knox-observatory-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "working-machine-infrastructure",
+      "texture": "EXPLORE",
+      "interaction_score": 3,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "exact_date_anchor": false,
+        "high_exposure": false,
+        "high_physicality": false,
+        "viki_bypass_available": true,
+        "traffic_gated": false,
+        "route108_dependency": false,
+        "shared_park_fee": false,
+        "nonresident_fee_check": false,
+        "confined_space": true,
+        "photo_heavy": false,
+        "machinery_heavy": true
+      },
+      "viki_fit": 4,
+      "gora_fit": 5,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "per-person",
+      "price_per_person_low": 11,
+      "price_per_person_high": 11,
+      "price_per_group": 44,
+      "price_last_checked": "2026-08-31",
+      "physical_level": "light-moderate",
+      "skip_mode": "The fort is explorable at any depth and the observatory is a lift, not a climb.",
+      "skip_strategy": "The fort is explorable at any depth and the observatory is a lift, not a climb.",
+      "optional": true,
+      "included_in_magic_default": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "green",
+      "operational_risk": "green",
+      "fallback_ids": [],
+      "fallback_place_id": null
     },
     {
       "id": "bar-harbor-shore-path",
@@ -670,10 +1234,10 @@
         "stivka"
       ],
       "secondary_for": [
-        "sheluvspaco",
-        "gora"
+        "gora",
+        "sheluvspaco"
       ],
-      "best_fit_note": "Good for Viki's blue-hour photos and for everyone's need to stretch after the drive.",
+      "best_fit_note": "Primary fit: viki, stivka. Deliberately low output; this is the energy trough before the dawn day.",
       "categories": [
         "nature_photogenic",
         "architecture_photogenic"
@@ -691,62 +1255,92 @@
       },
       "cost": {
         "amount_per_person": 0,
-        "status": "free",
-        "note": "No admission planned."
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
       },
-      "priority": "supporting",
-      "address": "Bar Harbor Shore Path, Bar Harbor, Maine"
-    },
-    {
-      "id": "penobscot-marine",
-      "name": "Penobscot Marine Museum's Sea-Captain Village",
-      "kind": "maritime-village-museum",
-      "city": "Searsport",
-      "state": "ME",
-      "visit_date": "2026-10-07",
-      "summary": "A group of sea captains houses, with boats, navigation instruments and objects brought home from around the world. This small town once had an unusual number of deep-sea captains.",
-      "why_go": "One small town sent captains all over the world. This is that story at human scale, not another big machine collection.",
-      "best_for": [
-        "stivka",
-        "gora"
+      "priority": "anchor",
+      "address": "Bar Harbor Shore Path, Bar Harbor, Maine",
+      "country": "US",
+      "coordinates": [
+        -68.1992,
+        44.3876
       ],
-      "secondary_for": [
-        "viki",
-        "sheluvspaco"
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-bar-harbor-shore-path-1",
+        "img-bar-harbor-shore-path-2",
+        "img-bar-harbor-shore-path-3",
+        "img-bar-harbor-shore-path-4",
+        "img-bar-harbor-shore-path-5",
+        "img-bar-harbor-shore-path-6"
       ],
-      "best_fit_note": "Good for Gora's interest in trade and travel, and for Stivka's family and community stories.",
-      "categories": [
-        "hidden_history_folklore",
-        "architecture_photogenic",
-        "unusual_creative"
-      ],
-      "duration_minutes": 120,
-      "source_ids": [
-        "src-penobscot"
-      ],
-      "reservation": "none",
-      "hours": {
-        "opens": "10:00",
-        "closes": "17:00",
-        "status": "verified-seasonal",
-        "note": "Tuesday-Sunday through the third weekend of October."
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
       },
-      "cost": {
-        "amount_per_person": 15,
-        "status": "planning-current",
-        "note": "Confirm 2026 adult admission."
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
       },
-      "priority": "replacement",
-      "replacement_reason": "Replace Owls Head when the group prefers domestic architecture and seafarer lives over vehicles.",
-      "address": "Penobscot Marine Museum, 2 Church Street, Searsport, Maine",
-      "replacement": {
-        "day": 4,
-        "replaces_place_ids": [
-          "owls-head-transportation"
-        ],
-        "route_variant_id": "replacement-d4-penobscot",
-        "reason": "Replace Owls Head when the group prefers domestic architecture and seafarer lives over vehicles."
-      }
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "wild-terrain-scenic",
+      "texture": "EXPLORE",
+      "interaction_score": 1,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "exact_date_anchor": false,
+        "high_exposure": false,
+        "high_physicality": false,
+        "viki_bypass_available": true,
+        "traffic_gated": false,
+        "route108_dependency": false,
+        "shared_park_fee": false,
+        "nonresident_fee_check": false,
+        "confined_space": false,
+        "photo_heavy": false,
+        "machinery_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "physical_level": "easy",
+      "skip_mode": "Deliberately low output; this is the energy trough before the dawn day.",
+      "skip_strategy": "Deliberately low output; this is the energy trough before the dawn day.",
+      "optional": true,
+      "included_in_magic_default": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "green",
+      "operational_risk": "green",
+      "fallback_ids": [],
+      "fallback_place_id": null
     },
     {
       "id": "cadillac-mountain",
@@ -765,14 +1359,15 @@
         "gora",
         "sheluvspaco"
       ],
-      "best_fit_note": "Good for Viki's biggest photo and for Paco's shared group moment. No long walk is needed.",
+      "best_fit_note": "Primary fit: viki, stivka. Sunrise is watched from the summit parking area; no hiking is required.",
       "categories": [
         "nature_photogenic",
         "orthodox_spiritual"
       ],
       "duration_minutes": 75,
       "source_ids": [
-        "src-acadia"
+        "src-acadia",
+        "src-v4-acadia"
       ],
       "reservation": "required",
       "hours": {
@@ -782,12 +1377,93 @@
         "note": "Cadillac vehicle reservation is required May 20-October 25, 2026."
       },
       "cost": {
-        "amount_per_person": 9,
-        "status": "planning-share",
-        "note": "Vehicle reservation and park pass divided across four; car count can change this."
+        "amount_per_person": 20.5,
+        "low": 20.5,
+        "high": 20.5,
+        "amount_per_group": 82,
+        "price_type": "group-share",
+        "status": "verified",
+        "note": "Two private-vehicle entrances at about $35 plus two $6 Cadillac sunrise reservations."
       },
       "priority": "anchor",
-      "address": "Cadillac Mountain Summit, Acadia National Park, Maine"
+      "address": "Cadillac Mountain Summit, Acadia National Park, Maine",
+      "country": "US",
+      "coordinates": [
+        -68.225,
+        44.3526
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-cadillac-mountain-1",
+        "img-cadillac-mountain-2",
+        "img-cadillac-mountain-3",
+        "img-cadillac-mountain-4",
+        "img-cadillac-mountain-5",
+        "img-cadillac-mountain-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "wild-terrain-scenic",
+      "texture": "AWE",
+      "interaction_score": 1,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": false,
+        "booking_required": true,
+        "exact_date_anchor": true,
+        "high_exposure": false,
+        "high_physicality": false,
+        "viki_bypass_available": true,
+        "traffic_gated": false,
+        "route108_dependency": false,
+        "shared_park_fee": true,
+        "nonresident_fee_check": true,
+        "confined_space": false,
+        "photo_heavy": true,
+        "machinery_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "group-share",
+      "price_per_person_low": 20.5,
+      "price_per_person_high": 20.5,
+      "price_per_group": 82,
+      "price_last_checked": "2026-08-31",
+      "physical_level": "easy",
+      "skip_mode": "Sunrise is watched from the summit parking area; no hiking is required.",
+      "skip_strategy": "Sunrise is watched from the summit parking area; no hiking is required.",
+      "optional": true,
+      "included_in_magic_default": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "red",
+      "operational_risk": "red",
+      "fallback_ids": [],
+      "fallback_place_id": null
     },
     {
       "id": "ocean-path",
@@ -826,8 +1502,48 @@
         "status": "free",
         "note": "No admission planned."
       },
-      "priority": "supporting",
-      "address": "Thunder Hole, Park Loop Road, Acadia National Park, Maine"
+      "priority": "flex",
+      "address": "Thunder Hole, Park Loop Road, Acadia National Park, Maine",
+      "country": "US",
+      "coordinates": [
+        -68.1886,
+        44.3204
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-ocean-path-1",
+        "img-ocean-path-2",
+        "img-ocean-path-3",
+        "img-ocean-path-4",
+        "img-ocean-path-5",
+        "img-ocean-path-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "flex",
+      "original_status": "demote-flex",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "jordan-pond",
@@ -866,8 +1582,48 @@
         "status": "free",
         "note": "No admission planned."
       },
-      "priority": "supporting",
-      "address": "Jordan Pond House, Acadia National Park, Maine"
+      "priority": "flex",
+      "address": "Jordan Pond House, Acadia National Park, Maine",
+      "country": "US",
+      "coordinates": [
+        -68.2526,
+        44.3204
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-jordan-pond-1",
+        "img-jordan-pond-2",
+        "img-jordan-pond-3",
+        "img-jordan-pond-4",
+        "img-jordan-pond-5",
+        "img-jordan-pond-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "flex",
+      "original_status": "demote-flex",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "crypto-museum",
@@ -907,8 +1663,48 @@
         "status": "verified",
         "note": "Adult admission."
       },
-      "priority": "anchor",
-      "address": "International Cryptozoology Museum, 490 Broadway, Bangor, Maine"
+      "priority": "archive",
+      "address": "International Cryptozoology Museum, 490 Broadway, Bangor, Maine",
+      "country": "US",
+      "coordinates": [
+        -68.7744,
+        44.814
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-crypto-museum-1",
+        "img-crypto-museum-2",
+        "img-crypto-museum-3",
+        "img-crypto-museum-4",
+        "img-crypto-museum-5",
+        "img-crypto-museum-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "archive",
+      "original_status": "remove-archive",
+      "energy_rebuild_role": "preserved-revision-history",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "stephen-king-house",
@@ -948,8 +1744,48 @@
         "status": "free",
         "note": "No admission planned."
       },
-      "priority": "supporting",
-      "address": "Stephen King House, 47 West Broadway, Bangor, Maine"
+      "priority": "optional",
+      "address": "Stephen King House, 47 West Broadway, Bangor, Maine",
+      "country": "US",
+      "coordinates": [
+        -68.7834,
+        44.7965
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-stephen-king-house-1",
+        "img-stephen-king-house-2",
+        "img-stephen-king-house-3",
+        "img-stephen-king-house-4",
+        "img-stephen-king-house-5",
+        "img-stephen-king-house-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "thomas-hill-standpipe",
@@ -989,61 +1825,45 @@
         "status": "free",
         "note": "No admission planned."
       },
-      "priority": "supporting",
-      "address": "Thomas Hill Standpipe, 41 Thomas Hill Road, Bangor, Maine"
-    },
-    {
-      "id": "seal-cove-auto",
-      "name": "Seal Cove Auto Museum",
-      "kind": "brass-era-auto-museum",
-      "city": "Seal Cove",
-      "state": "ME",
-      "visit_date": "2026-10-08",
-      "summary": "A quiet collection of brightly restored cars, motorcycles and early motoring design, from about 1895 to the 1920s.",
-      "why_go": "A precise wet-weather swap: still mechanical and colorful, but from a narrower period than Owls Head, so it does not repeat it.",
-      "best_for": [
-        "gora",
-        "viki"
+      "priority": "flex",
+      "address": "Thomas Hill Standpipe, 41 Thomas Hill Road, Bangor, Maine",
+      "country": "US",
+      "coordinates": [
+        -68.7886,
+        44.8079
       ],
-      "secondary_for": [
-        "sheluvspaco",
-        "stivka"
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-thomas-hill-standpipe-1",
+        "img-thomas-hill-standpipe-2",
+        "img-thomas-hill-standpipe-3"
       ],
-      "best_fit_note": "Good for Gora's mechanical detail and for Viki's colors and shapes. Quiet and indoors.",
-      "categories": [
-        "unusual_creative",
-        "hidden_history_folklore",
-        "architecture_photogenic"
-      ],
-      "duration_minutes": 110,
-      "source_ids": [
-        "src-seal-cove"
-      ],
-      "reservation": "none",
-      "hours": {
-        "opens": "10:00",
-        "closes": "17:00",
-        "status": "verified-seasonal",
-        "note": "Open daily May 1-October 31."
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
       },
-      "cost": {
-        "amount_per_person": 10,
-        "status": "verified",
-        "note": "Adult admission."
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
       },
-      "priority": "replacement",
-      "replacement_reason": "Replace the Acadia sunrise-and-walk block for hard rain, dangerous wind or total exhaustion; keep Jordan Pond only if conditions improve.",
-      "address": "Seal Cove Auto Museum, 1414 Tremont Road, Seal Cove, Maine",
-      "replacement": {
-        "day": 5,
-        "replaces_place_ids": [
-          "cadillac-mountain",
-          "ocean-path",
-          "jordan-pond"
-        ],
-        "route_variant_id": "replacement-d5-seal-cove",
-        "reason": "Replace the Acadia sunrise-and-walk block for hard rain, dangerous wind or total exhaustion; keep Jordan Pond only if conditions improve."
-      }
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "flex",
+      "original_status": "demote-flex",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "cole-transportation",
@@ -1083,8 +1903,48 @@
         "status": "verified",
         "note": "Adult admission."
       },
-      "priority": "anchor",
-      "address": "Cole Land Transportation Museum, 405 Perry Road, Bangor, Maine"
+      "priority": "archive",
+      "address": "Cole Land Transportation Museum, 405 Perry Road, Bangor, Maine",
+      "country": "US",
+      "coordinates": [
+        -68.7923,
+        44.7775
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-cole-transportation-1",
+        "img-cole-transportation-2",
+        "img-cole-transportation-3",
+        "img-cole-transportation-4",
+        "img-cole-transportation-5",
+        "img-cole-transportation-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "archive",
+      "original_status": "remove-archive",
+      "energy_rebuild_role": "preserved-revision-history",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "maine-mineral-gem",
@@ -1097,13 +1957,13 @@
       "why_go": "A small mountain town holds rock from other worlds, and some of it you can meet at hand level. The size of the collection is the shock.",
       "best_for": [
         "gora",
-        "viki"
-      ],
-      "secondary_for": [
-        "stivka",
         "sheluvspaco"
       ],
-      "best_fit_note": "Good for Gora's love of real science and for Viki's photos of stone and light. Stivka gets genuine wonder.",
+      "secondary_for": [
+        "viki",
+        "stivka"
+      ],
+      "best_fit_note": "Primary fit: gora, sheluvspaco. Indoor and seated where wanted; the route's single passive-museum slot.",
       "categories": [
         "unusual_creative",
         "hidden_history_folklore",
@@ -1122,11 +1982,92 @@
       },
       "cost": {
         "amount_per_person": 15,
+        "low": 15,
+        "high": 15,
+        "amount_per_group": 60,
+        "price_type": "per-person",
         "status": "verified",
-        "note": "Adult admission."
+        "note": ""
       },
       "priority": "anchor",
-      "address": "Maine Mineral and Gem Museum, 99 Main Street, Bethel, Maine"
+      "address": "Maine Mineral and Gem Museum, 99 Main Street, Bethel, Maine",
+      "country": "US",
+      "coordinates": [
+        -70.7901,
+        44.4041
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-maine-mineral-gem-1",
+        "img-maine-mineral-gem-2",
+        "img-maine-mineral-gem-3",
+        "img-maine-mineral-gem-4",
+        "img-maine-mineral-gem-5",
+        "img-maine-mineral-gem-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "passive-museum",
+      "texture": "DISCOVER",
+      "interaction_score": 2,
+      "museum_like": true,
+      "experience_flags": {
+        "museum_like": true,
+        "weather_gated": false,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "exact_date_anchor": false,
+        "high_exposure": false,
+        "high_physicality": false,
+        "viki_bypass_available": true,
+        "traffic_gated": false,
+        "route108_dependency": false,
+        "shared_park_fee": false,
+        "nonresident_fee_check": false,
+        "confined_space": false,
+        "photo_heavy": false,
+        "machinery_heavy": false
+      },
+      "viki_fit": 4,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 5,
+      "price_type": "per-person",
+      "price_per_person_low": 15,
+      "price_per_person_high": 15,
+      "price_per_group": 60,
+      "price_last_checked": "2026-08-31",
+      "physical_level": "easy",
+      "skip_mode": "Indoor and seated where wanted; the route's single passive-museum slot.",
+      "skip_strategy": "Indoor and seated where wanted; the route's single passive-museum slot.",
+      "optional": true,
+      "included_in_magic_default": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "green",
+      "operational_risk": "green",
+      "fallback_ids": [],
+      "fallback_place_id": null
     },
     {
       "id": "bethel-village",
@@ -1167,58 +2108,48 @@
         "status": "free",
         "note": "No admission planned."
       },
-      "priority": "supporting",
-      "address": "Bethel Common, Bethel, Maine"
-    },
-    {
-      "id": "colby-art",
-      "name": "Colby College Museum of Art",
-      "kind": "college-art-museum",
-      "city": "Waterville",
-      "state": "ME",
-      "visit_date": "2026-10-09",
-      "summary": "A large free collection of American art and modern installations, on a small college campus far from any big city.",
-      "why_go": "Serious art for free, in a shorter visit, before the long drive to Bethel.",
-      "best_for": [
-        "viki",
-        "stivka"
+      "priority": "flex",
+      "address": "Bethel Common, Bethel, Maine",
+      "country": "US",
+      "coordinates": [
+        -70.7906,
+        44.4045
       ],
-      "secondary_for": [
-        "gora",
-        "sheluvspaco"
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-bethel-village-1",
+        "img-bethel-village-2",
+        "img-bethel-village-3",
+        "img-bethel-village-4",
+        "img-bethel-village-5",
+        "img-bethel-village-6"
       ],
-      "best_fit_note": "Good for Viki's art photos and for Stivka's calm gallery time. Paco likes that it costs nothing.",
-      "categories": [
-        "unusual_creative",
-        "architecture_photogenic"
-      ],
-      "duration_minutes": 105,
-      "source_ids": [
-        "src-colby"
-      ],
-      "reservation": "none",
-      "hours": {
-        "opens": "10:00",
-        "closes": "17:00",
-        "status": "verify-2026-friday",
-        "note": "Reconfirm fall Friday hours before promotion."
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
       },
-      "cost": {
-        "amount_per_person": 0,
-        "status": "free",
-        "note": "No admission planned."
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 4,
+        "gora": 4,
+        "stivka": 5
       },
-      "priority": "replacement",
-      "replacement_reason": "Replace Cole when the group is vehicle-museum saturated or wants a free contemporary-art reset.",
-      "address": "Colby College Museum of Art, 5600 Mayflower Hill Drive, Waterville, Maine",
-      "replacement": {
-        "day": 6,
-        "replaces_place_ids": [
-          "cole-transportation"
-        ],
-        "route_variant_id": "replacement-d6-colby",
-        "reason": "Replace Cole when the group is vehicle-museum saturated or wants a free contemporary-art reset."
-      }
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "flex",
+      "original_status": "demote-flex",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "weeks-state-park",
@@ -1259,8 +2190,47 @@
         "status": "planning-current",
         "note": "Confirm 2026 day-use fee when reserving."
       },
-      "priority": "anchor",
-      "address": "Weeks State Park, 200 Weeks State Park Road, Lancaster, New Hampshire"
+      "priority": "optional",
+      "address": "Weeks State Park, 200 Weeks State Park Road, Lancaster, New Hampshire",
+      "country": "US",
+      "coordinates": [
+        -71.5777,
+        44.4609
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-weeks-state-park-1",
+        "img-weeks-state-park-2",
+        "img-weeks-state-park-3",
+        "img-weeks-state-park-4",
+        "img-weeks-state-park-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "stj-foliage-train",
@@ -1301,8 +2271,45 @@
         "status": "planning-estimate",
         "note": "Replace with published 2026 train fare."
       },
-      "priority": "anchor",
-      "address": "St. Johnsbury Welcome Center, 51 Depot Square, St Johnsbury, Vermont"
+      "priority": "archive",
+      "address": "St. Johnsbury Welcome Center, 51 Depot Square, St Johnsbury, Vermont",
+      "country": "US",
+      "coordinates": [
+        -72.0163,
+        44.4191
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-stj-foliage-train-1",
+        "img-stj-foliage-train-2",
+        "img-stj-foliage-train-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "archive",
+      "original_status": "remove-archive",
+      "energy_rebuild_role": "preserved-revision-history",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "fairbanks-museum",
@@ -1344,62 +2351,130 @@
         "status": "verified",
         "note": "Adult museum admission; planetarium is free with festival train ticket."
       },
-      "priority": "anchor",
-      "address": "Fairbanks Museum and Planetarium, 1302 Main Street, St Johnsbury, Vermont"
+      "priority": "optional",
+      "address": "Fairbanks Museum and Planetarium, 1302 Main Street, St Johnsbury, Vermont",
+      "country": "US",
+      "coordinates": [
+        -72.0208,
+        44.4196
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-fairbanks-museum-1",
+        "img-fairbanks-museum-2",
+        "img-fairbanks-museum-3",
+        "img-fairbanks-museum-4",
+        "img-fairbanks-museum-5",
+        "img-fairbanks-museum-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
-      "id": "dog-mountain",
-      "name": "Dog Mountain & the Dog Chapel",
-      "kind": "folk-art-memorial-landscape",
-      "city": "St Johnsbury",
+      "id": "hope-cemetery",
+      "name": "Hope Cemetery: Barre's Granite Autobiography",
+      "kind": "carvers-cemetery",
+      "city": "Barre",
       "state": "VT",
-      "visit_date": "2026-10-10",
-      "summary": "The hilltop folk-art world of the artist Stephen Huneck. At its center is a small chapel whose walls are covered with thousands of handwritten notes about dogs people have loved and lost.",
-      "why_go": "Funny and heartbreaking in the same hour. Of all our backup stops, this is the one most likely to become the real memory of the day.",
+      "visit_date": "2026-10-12",
+      "summary": "Immigrant granite carvers made their own cemetery into a field of sculpture: airplanes, racing cars, soccer balls, a double bed, and portraits cut from local stone.",
+      "why_go": "The carvers chose their own memorials, so the stones show pride in their craft, migration, and the lung disease that killed many of them.",
       "best_for": [
-        "stivka",
+        "gora",
         "viki"
       ],
       "secondary_for": [
-        "sheluvspaco",
-        "gora"
+        "stivka",
+        "sheluvspaco"
       ],
-      "best_fit_note": "Good for Stivka's feeling for memory and loss, and for Viki's folk art. Nobody leaves unaffected.",
+      "best_fit_note": "Good for Gora's labor history and Viki's eye for sculpture. For everyone, it is a burial ground first and an attraction second.",
       "categories": [
-        "orthodox_spiritual",
-        "unusual_creative",
-        "nature_photogenic",
-        "architecture_photogenic"
+        "hidden_history_folklore",
+        "architecture_photogenic",
+        "orthodox_spiritual"
       ],
-      "duration_minutes": 100,
+      "duration_minutes": 70,
       "source_ids": [
-        "src-dog"
+        "src-hope"
       ],
       "reservation": "none",
       "hours": {
-        "opens": "10:00",
+        "opens": "07:00",
         "closes": "17:00",
         "status": "verified-current",
-        "note": "Gallery and chapel hours; grounds dawn to dusk."
+        "note": "Public visiting hours; yield completely to funerals."
       },
       "cost": {
         "amount_per_person": 0,
         "status": "free",
         "note": "No admission planned."
       },
-      "priority": "replacement",
-      "replacement_reason": "Replace the train and Fairbanks when train tickets fail, museum fatigue is high or the group wants folk art with real emotional weight.",
-      "address": "Dog Mountain, 143 Parks Road, St Johnsbury, Vermont",
-      "replacement": {
-        "day": 7,
-        "replaces_place_ids": [
-          "weeks-state-park",
-          "stj-foliage-train",
-          "fairbanks-museum"
-        ],
-        "route_variant_id": "replacement-d7-dog-mountain",
-        "reason": "Replace the train and Fairbanks when train tickets fail, museum fatigue is high or the group wants folk art with real emotional weight."
-      }
+      "priority": "optional",
+      "address": "Hope Cemetery, 201 Maple Avenue, Barre, Vermont",
+      "country": "US",
+      "coordinates": [
+        -72.4791,
+        44.2149
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-hope-cemetery-1",
+        "img-hope-cemetery-2",
+        "img-hope-cemetery-3",
+        "img-hope-cemetery-4",
+        "img-hope-cemetery-5",
+        "img-hope-cemetery-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "dormition-orthodox",
@@ -1414,11 +2489,11 @@
         "stivka"
       ],
       "secondary_for": [
-        "sheluvspaco",
+        "viki",
         "gora",
-        "viki"
+        "sheluvspaco"
       ],
-      "best_fit_note": "Good for Stivka above all, and for the whole group as common ground. We follow the parish and stay for the whole Liturgy if we can.",
+      "best_fit_note": "Primary fit: stivka. Low physical demand; no skip path is required.",
       "categories": [
         "orthodox_spiritual"
       ],
@@ -1435,11 +2510,89 @@
       },
       "cost": {
         "amount_per_person": 0,
-        "status": "free",
-        "note": "No admission planned."
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
       },
       "priority": "anchor",
-      "address": "Dormition of the Mother of God Greek Orthodox Church, 600 South Willard Street, Burlington, Vermont"
+      "address": "Dormition of the Mother of God Greek Orthodox Church, 600 South Willard Street, Burlington, Vermont",
+      "country": "US",
+      "coordinates": [
+        -73.2011,
+        44.4643
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-dormition-orthodox-1",
+        "img-dormition-orthodox-2",
+        "img-dormition-orthodox-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "worship-sacred",
+      "texture": "WORSHIP",
+      "interaction_score": 1,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "exact_date_anchor": false,
+        "high_exposure": false,
+        "high_physicality": false,
+        "viki_bypass_available": false,
+        "traffic_gated": false,
+        "route108_dependency": false,
+        "shared_park_fee": false,
+        "nonresident_fee_check": false,
+        "confined_space": false,
+        "photo_heavy": false,
+        "machinery_heavy": false
+      },
+      "viki_fit": 4,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "physical_level": "easy",
+      "skip_mode": "Low physical demand; no skip path is required.",
+      "skip_strategy": "Low physical demand; no skip path is required.",
+      "optional": true,
+      "included_in_magic_default": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "green",
+      "operational_risk": "green",
+      "fallback_ids": [],
+      "fallback_place_id": null
     },
     {
       "id": "shelburne-museum",
@@ -1480,8 +2633,45 @@
         "status": "verified-online",
         "note": "Online adult price; walk-up is $27.50."
       },
-      "priority": "anchor",
-      "address": "Shelburne Museum, 6000 Shelburne Road, Shelburne, Vermont"
+      "priority": "archive",
+      "address": "Shelburne Museum, 6000 Shelburne Road, Shelburne, Vermont",
+      "country": "US",
+      "coordinates": [
+        -73.2321,
+        44.3753
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-shelburne-museum-1",
+        "img-shelburne-museum-2",
+        "img-shelburne-museum-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "archive",
+      "original_status": "remove-archive",
+      "energy_rebuild_role": "preserved-revision-history",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "burlington-waterfront",
@@ -1523,8 +2713,48 @@
         "status": "free",
         "note": "No admission planned."
       },
-      "priority": "supporting",
-      "address": "Waterfront Park, Burlington, Vermont"
+      "priority": "flex",
+      "address": "Waterfront Park, Burlington, Vermont",
+      "country": "US",
+      "coordinates": [
+        -73.219,
+        44.4776
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-burlington-waterfront-1",
+        "img-burlington-waterfront-2",
+        "img-burlington-waterfront-3",
+        "img-burlington-waterfront-4",
+        "img-burlington-waterfront-5",
+        "img-burlington-waterfront-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "flex",
+      "original_status": "demote-flex",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "radio-bean",
@@ -1564,60 +2794,48 @@
         "status": "nightlife-excluded",
         "note": "Cover and drinks excluded from the route budget."
       },
-      "priority": "anchor",
-      "address": "Radio Bean, 8 North Winooski Avenue, Burlington, Vermont"
-    },
-    {
-      "id": "museum-everyday-life",
-      "name": "Museum of Everyday Life: Deep Seated",
-      "kind": "self-service-barn-museum",
-      "city": "Glover",
-      "state": "VT",
-      "visit_date": "2026-10-11",
-      "summary": "An unheated barn museum with no staff. You turn on the lights yourself and look at ordinary objects taken seriously. The 2026 exhibition is about chairs.",
-      "why_go": "Nobody is there. You let yourself in, switch on the light, and think about chairs. It feels like finding something left unlocked on purpose.",
-      "best_for": [
-        "viki",
-        "gora"
+      "priority": "optional",
+      "address": "Radio Bean, 8 North Winooski Avenue, Burlington, Vermont",
+      "country": "US",
+      "coordinates": [
+        -73.2105,
+        44.4811
       ],
-      "secondary_for": [
-        "stivka",
-        "sheluvspaco"
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-radio-bean-1",
+        "img-radio-bean-2",
+        "img-radio-bean-3",
+        "img-radio-bean-4",
+        "img-radio-bean-5",
+        "img-radio-bean-6"
       ],
-      "best_fit_note": "Good for Viki's love of the genuinely strange and for Gora's interest in ordinary things. Free, and unlike anywhere else.",
-      "categories": [
-        "unusual_creative",
-        "hidden_history_folklore",
-        "architecture_photogenic"
-      ],
-      "duration_minutes": 80,
-      "source_ids": [
-        "src-everyday"
-      ],
-      "reservation": "none",
-      "hours": {
-        "opens": "08:00",
-        "closes": "20:00",
-        "status": "verified",
-        "note": "Open daily, self-service; the space is unheated, so bring a coat."
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
       },
-      "cost": {
-        "amount_per_person": 0,
-        "status": "free",
-        "note": "No admission planned."
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
       },
-      "priority": "replacement",
-      "replacement_reason": "Replace Shelburne Museum when the group wants one truly eccentric exhibition instead of a vast canonical collection; this variant uses almost the entire drive cap.",
-      "address": "Museum of Everyday Life, 3482 Dry Pond Road, Glover, Vermont",
-      "replacement": {
-        "day": 8,
-        "replaces_place_ids": [
-          "hope-cemetery",
-          "shelburne-museum"
-        ],
-        "route_variant_id": "replacement-d8-everyday",
-        "reason": "Replace Shelburne Museum when the group wants one truly eccentric exhibition instead of a vast canonical collection; this variant uses almost the entire drive cap."
-      }
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "ben-jerrys-graveyard",
@@ -1658,50 +2876,48 @@
         "status": "free-excluding-food",
         "note": "No tour ticket planned; ice cream is personal food spend."
       },
-      "priority": "supporting",
-      "address": "Ben and Jerry's Factory, 1281 Waterbury-Stowe Road, Waterbury, Vermont"
-    },
-    {
-      "id": "hope-cemetery",
-      "name": "Hope Cemetery: Barre's Granite Autobiography",
-      "kind": "carvers-cemetery",
-      "city": "Barre",
-      "state": "VT",
-      "visit_date": "2026-10-12",
-      "summary": "Immigrant granite carvers made their own cemetery into a field of sculpture: airplanes, racing cars, soccer balls, a double bed, and portraits cut from local stone.",
-      "why_go": "The carvers chose their own memorials, so the stones show pride in their craft, migration, and the lung disease that killed many of them.",
-      "best_for": [
-        "gora",
-        "viki"
+      "priority": "optional",
+      "address": "Ben and Jerry's Factory, 1281 Waterbury-Stowe Road, Waterbury, Vermont",
+      "country": "US",
+      "coordinates": [
+        -72.709,
+        44.352
       ],
-      "secondary_for": [
-        "stivka",
-        "sheluvspaco"
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-ben-jerrys-graveyard-1",
+        "img-ben-jerrys-graveyard-2",
+        "img-ben-jerrys-graveyard-3",
+        "img-ben-jerrys-graveyard-4",
+        "img-ben-jerrys-graveyard-5",
+        "img-ben-jerrys-graveyard-6"
       ],
-      "best_fit_note": "Good for Gora's labor history and Viki's eye for sculpture. For everyone, it is a burial ground first and an attraction second.",
-      "categories": [
-        "hidden_history_folklore",
-        "architecture_photogenic",
-        "orthodox_spiritual"
-      ],
-      "duration_minutes": 70,
-      "source_ids": [
-        "src-hope"
-      ],
-      "reservation": "none",
-      "hours": {
-        "opens": "07:00",
-        "closes": "17:00",
-        "status": "verified-current",
-        "note": "Public visiting hours; yield completely to funerals."
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
       },
-      "cost": {
-        "amount_per_person": 0,
-        "status": "free",
-        "note": "No admission planned."
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
       },
-      "priority": "anchor",
-      "address": "Hope Cemetery, 201 Maple Avenue, Barre, Vermont"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "coolidge-site",
@@ -1742,18 +2958,58 @@
         "status": "planning-current",
         "note": "Confirm 2026 adult admission."
       },
-      "priority": "anchor",
-      "address": "President Calvin Coolidge State Historic Site, 3780 Vermont Route 100A, Plymouth Notch, Vermont"
+      "priority": "optional",
+      "address": "President Calvin Coolidge State Historic Site, 3780 Vermont Route 100A, Plymouth Notch, Vermont",
+      "country": "US",
+      "coordinates": [
+        -72.7203,
+        43.5359
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-coolidge-site-1",
+        "img-coolidge-site-2",
+        "img-coolidge-site-3",
+        "img-coolidge-site-4",
+        "img-coolidge-site-5",
+        "img-coolidge-site-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
-      "id": "vins",
-      "name": "VINS Raptor Center & Forest Canopy",
-      "kind": "raptor-and-canopy-center",
+      "id": "quechee-gorge",
+      "name": "Quechee Gorge from the Reopened Bridge",
+      "kind": "gorge-overlook",
       "city": "Quechee",
       "state": "VT",
       "visit_date": "2026-10-12",
-      "summary": "A center for rescued birds of prey, with live programs and a raised walkway that takes you from ground level up into the tree canopy.",
-      "why_go": "Live eagles and owls, and a walk through the treetops. It works in rain and needs no real hiking.",
+      "summary": "The Ottauquechee River has cut a deep narrow channel below a road bridge. You look straight down into it, with autumn color on both walls.",
+      "why_go": "Thirty-five minutes for a real piece of landscape, with no walking, before two museums and the drive to Manchester.",
       "best_for": [
         "viki",
         "stivka"
@@ -1762,57 +3018,7 @@
         "gora",
         "sheluvspaco"
       ],
-      "best_fit_note": "Good for Viki's bird close-ups and Stivka's gentle side. Gora gets the science of rehabilitation.",
-      "categories": [
-        "nature_photogenic",
-        "unusual_creative"
-      ],
-      "duration_minutes": 150,
-      "source_ids": [
-        "src-vins"
-      ],
-      "reservation": "none",
-      "hours": {
-        "opens": "10:00",
-        "closes": "17:00",
-        "status": "verified",
-        "note": "Open daily."
-      },
-      "cost": {
-        "amount_per_person": 20,
-        "status": "planning-current",
-        "note": "Confirm 2026 adult admission."
-      },
-      "priority": "replacement",
-      "replacement_reason": "Replace Plymouth Notch if its seasonal buildings are closed, or when the group needs living nature after two history-heavy days.",
-      "address": "VINS Nature Center, 149 Natures Way, Quechee, Vermont",
-      "replacement": {
-        "day": 9,
-        "replaces_place_ids": [
-          "coolidge-site"
-        ],
-        "route_variant_id": "replacement-d9-vins",
-        "reason": "Replace Plymouth Notch if its seasonal buildings are closed, or when the group needs living nature after two history-heavy days."
-      }
-    },
-    {
-      "id": "quechee-gorge",
-      "name": "Quechee Gorge from the Reopened Bridge",
-      "kind": "gorge-overlook",
-      "city": "Quechee",
-      "state": "VT",
-      "visit_date": "2026-10-13",
-      "summary": "The Ottauquechee River has cut a deep narrow channel below a road bridge. You look straight down into it, with autumn color on both walls.",
-      "why_go": "Thirty-five minutes for a real piece of landscape, with no walking, before two museums and the drive to Manchester.",
-      "best_for": [
-        "viki",
-        "gora"
-      ],
-      "secondary_for": [
-        "stivka",
-        "sheluvspaco"
-      ],
-      "best_fit_note": "Good for Viki's gorge photo and Gora's quick nature break. Easy for everyone.",
+      "best_fit_note": "Primary fit: viki, stivka. A 30-45 minute visual reset from the reopened bridge; the trail below is optional.",
       "categories": [
         "nature_photogenic",
         "architecture_photogenic"
@@ -1830,11 +3036,92 @@
       },
       "cost": {
         "amount_per_person": 0,
-        "status": "free",
-        "note": "No admission planned."
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
       },
-      "priority": "supporting",
-      "address": "Quechee Gorge Bridge, Quechee, Vermont"
+      "priority": "anchor",
+      "address": "Quechee Gorge Bridge, Quechee, Vermont",
+      "country": "US",
+      "coordinates": [
+        -72.408,
+        43.6371
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-quechee-gorge-1",
+        "img-quechee-gorge-2",
+        "img-quechee-gorge-3",
+        "img-quechee-gorge-4",
+        "img-quechee-gorge-5",
+        "img-quechee-gorge-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "wild-terrain-scenic",
+      "texture": "AWE",
+      "interaction_score": 1,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "exact_date_anchor": false,
+        "high_exposure": false,
+        "high_physicality": false,
+        "viki_bypass_available": true,
+        "traffic_gated": false,
+        "route108_dependency": false,
+        "shared_park_fee": false,
+        "nonresident_fee_check": false,
+        "confined_space": false,
+        "photo_heavy": true,
+        "machinery_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "physical_level": "easy",
+      "skip_mode": "A 30-45 minute visual reset from the reopened bridge; the trail below is optional.",
+      "skip_strategy": "A 30-45 minute visual reset from the reopened bridge; the trail below is optional.",
+      "optional": true,
+      "included_in_magic_default": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "green",
+      "operational_risk": "green",
+      "fallback_ids": [],
+      "fallback_place_id": null
     },
     {
       "id": "american-precision",
@@ -1875,8 +3162,45 @@
         "status": "planning-current",
         "note": "Confirm 2026 adult admission."
       },
-      "priority": "anchor",
-      "address": "American Precision Museum, 196 Main Street, Windsor, Vermont"
+      "priority": "optional",
+      "address": "American Precision Museum, 196 Main Street, Windsor, Vermont",
+      "country": "US",
+      "coordinates": [
+        -72.3872,
+        43.4773
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-american-precision-1",
+        "img-american-precision-2",
+        "img-american-precision-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "optional",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "saint-gaudens",
@@ -1917,8 +3241,984 @@
         "status": "free",
         "note": "No admission planned."
       },
-      "priority": "supporting",
-      "address": "Saint-Gaudens National Historical Park, 139 Saint Gaudens Road, Cornish, New Hampshire"
+      "priority": "archive",
+      "address": "Saint-Gaudens National Historical Park, 139 Saint Gaudens Road, Cornish, New Hampshire",
+      "country": "US",
+      "coordinates": [
+        -72.3697,
+        43.5009
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-saint-gaudens-1",
+        "img-saint-gaudens-2",
+        "img-saint-gaudens-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "archive",
+      "original_status": "remove-archive",
+      "energy_rebuild_role": "preserved-revision-history",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
+    },
+    {
+      "id": "flw-houses",
+      "name": "Frank Lloyd Wright's Zimmerman & Kalil Houses",
+      "kind": "guided-modernist-house-tour",
+      "city": "Manchester",
+      "state": "NH",
+      "visit_date": "2026-10-14",
+      "summary": "A two-hour guided visit to two houses by Frank Lloyd Wright. One is a small Usonian home; the other is one of only seven Usonian Automatic houses, built from modular blocks. Both keep their original furniture.",
+      "why_go": "Two neighbors gave the same architect the same ideas and got completely different houses. You feel it in the light and the ceiling heights.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: viki, gora. Guided, low-physical and indoors; the design talk is the experience.",
+      "categories": [
+        "architecture_photogenic",
+        "hidden_history_folklore",
+        "unusual_creative"
+      ],
+      "duration_minutes": 120,
+      "source_ids": [
+        "src-currier",
+        "src-v4-flw-houses"
+      ],
+      "reservation": "required",
+      "hours": {
+        "opens": "09:30",
+        "closes": "11:30",
+        "status": "verified-2026",
+        "note": "2026 season runs April 22-December 27; tours Wednesday-Sunday at 09:30, 12:00 and 14:30."
+      },
+      "cost": {
+        "amount_per_person": 55,
+        "low": 55,
+        "high": 55,
+        "amount_per_group": 220,
+        "price_type": "per-person",
+        "status": "verified",
+        "note": "Working public-ticket budget; verify at checkout. A private group tour runs about $500."
+      },
+      "priority": "anchor",
+      "address": "Currier Museum of Art, 150 Ash Street, Manchester, New Hampshire",
+      "country": "US",
+      "coordinates": [
+        -71.4558,
+        43.0067
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-flw-houses-1",
+        "img-flw-houses-2",
+        "img-flw-houses-3",
+        "img-flw-houses-4",
+        "img-flw-houses-5",
+        "img-flw-houses-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "living-architecture",
+      "texture": "EXPLORE",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "wet_surface_risk": false,
+        "booking_required": true,
+        "exact_date_anchor": false,
+        "high_exposure": false,
+        "high_physicality": false,
+        "viki_bypass_available": true,
+        "traffic_gated": false,
+        "route108_dependency": false,
+        "shared_park_fee": false,
+        "nonresident_fee_check": false,
+        "confined_space": false,
+        "photo_heavy": false,
+        "machinery_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "per-person",
+      "price_per_person_low": 55,
+      "price_per_person_high": 55,
+      "price_per_group": 220,
+      "price_last_checked": "2026-08-31",
+      "physical_level": "easy",
+      "skip_mode": "Guided, low-physical and indoors; the design talk is the experience.",
+      "skip_strategy": "Guided, low-physical and indoors; the design talk is the experience.",
+      "optional": true,
+      "included_in_magic_default": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "red",
+      "operational_risk": "red",
+      "fallback_ids": [
+        "see-science"
+      ],
+      "fallback_place_id": "see-science"
+    },
+    {
+      "id": "currier-museum",
+      "name": "Currier Museum Highlights",
+      "kind": "art-museum",
+      "city": "Manchester",
+      "state": "NH",
+      "visit_date": "2026-10-14",
+      "summary": "A compact regional art museum, running from European painting to American decorative arts and modern New England work.",
+      "why_go": "Entry is already included with the Wright house tour, so one focused hour adds real value without risking the drive back to Boston.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's and Stivka's gallery hour. Paco likes that it costs nothing extra.",
+      "categories": [
+        "unusual_creative",
+        "architecture_photogenic"
+      ],
+      "duration_minutes": 70,
+      "source_ids": [
+        "src-currier"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified",
+        "note": "Open Wednesday-Sunday."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "included",
+        "note": "Included with the Wright houses tour."
+      },
+      "priority": "archive",
+      "address": "Currier Museum of Art, 150 Ash Street, Manchester, New Hampshire",
+      "country": "US",
+      "coordinates": [
+        -71.4558,
+        43.0067
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-currier-museum-1",
+        "img-currier-museum-2",
+        "img-currier-museum-3",
+        "img-currier-museum-4",
+        "img-currier-museum-5",
+        "img-currier-museum-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "archive",
+      "original_status": "remove-archive",
+      "energy_rebuild_role": "preserved-revision-history",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
+    },
+    {
+      "id": "woodman-museum",
+      "name": "The Woodman Museum",
+      "kind": "cabinet-of-curiosities",
+      "city": "Dover",
+      "state": "NH",
+      "visit_date": "2026-10-04",
+      "summary": "Four old buildings holding stuffed animals, minerals, local art, the home of an anti-slavery senator, and a fortified house from 1675. Nothing has been modernized.",
+      "why_go": "An old-fashioned museum of curiosities, still arranged the way museums used to be. Strange, wide-ranging and a little dusty.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's love of odd places and for Gora's interest in how museums once showed the world.",
+      "categories": [
+        "hidden_history_folklore",
+        "unusual_creative",
+        "architecture_photogenic"
+      ],
+      "duration_minutes": 105,
+      "source_ids": [
+        "src-woodman"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-seasonal-pattern",
+        "note": "April-November Wednesday-Sunday; reconfirm 2026 fall hours."
+      },
+      "cost": {
+        "amount_per_person": 10,
+        "status": "verified-current",
+        "note": "Adult admission."
+      },
+      "priority": "alternative",
+      "replacement_reason": "Replace Albacore when the group prefers a messier natural-history and local-history cabinet with more personality.",
+      "address": "Woodman Museum, 182 Central Avenue, Dover, New Hampshire",
+      "country": "US",
+      "coordinates": [
+        -70.8762,
+        43.193
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-woodman-museum-1",
+        "img-woodman-museum-2",
+        "img-woodman-museum-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
+    },
+    {
+      "id": "desert-of-maine",
+      "name": "Desert of Maine",
+      "kind": "glacial-sand-landscape",
+      "city": "Freeport",
+      "state": "ME",
+      "visit_date": "2026-10-05",
+      "summary": "A field of bare glacial sand that slowly buried a farm, its soil and its buildings. There are trails, and some of the old structures are still visible.",
+      "why_go": "A desert in the middle of coastal Maine. It looks impossible, and it happened because of how the land was farmed.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Viki's strange landscape photos and for Gora's interest in a mistake people made with the land.",
+      "categories": [
+        "nature_photogenic",
+        "unusual_creative",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 105,
+      "source_ids": [
+        "src-desert"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "18:00",
+        "status": "verified",
+        "note": "Open daily."
+      },
+      "cost": {
+        "amount_per_person": 21,
+        "status": "verified",
+        "note": "Adult admission."
+      },
+      "priority": "alternative",
+      "replacement_reason": "Replace Victoria Mansion when sunshine makes the glacial landscape more magical than another preserved interior.",
+      "address": "Desert of Maine, 95 Desert Road, Freeport, Maine",
+      "country": "US",
+      "coordinates": [
+        -70.1559,
+        43.8528
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-desert-of-maine-1",
+        "img-desert-of-maine-2",
+        "img-desert-of-maine-3",
+        "img-desert-of-maine-4",
+        "img-desert-of-maine-5",
+        "img-desert-of-maine-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
+    },
+    {
+      "id": "maine-maritime",
+      "name": "Maine Maritime Museum & Percy and Small Shipyard",
+      "kind": "working-waterfront-museum",
+      "city": "Bath",
+      "state": "ME",
+      "visit_date": "2026-10-06",
+      "summary": "A 20-acre former shipyard. A full-size steel outline stands where a six-masted wooden schooner was built, showing its real shape and size. The museum also tells the story of the people who built such ships.",
+      "why_go": "The steel outline shows you the real size of a wooden ship. It works in rain, costs less and needs less walking than the gardens.",
+      "best_for": [
+        "gora",
+        "stivka"
+      ],
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Gora's interest in building things at scale and for Viki's shipyard structures.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_photogenic",
+        "unusual_creative"
+      ],
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-maritime"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "09:30",
+        "closes": "17:00",
+        "status": "verified",
+        "note": "Open daily."
+      },
+      "cost": {
+        "amount_per_person": 22,
+        "status": "verified",
+        "note": "Adult admission."
+      },
+      "priority": "alternative",
+      "replacement_reason": "Replace the troll gardens for bad weather, garden fatigue or a stronger appetite for ships and labor history.",
+      "address": "Maine Maritime Museum, 243 Washington Street, Bath, Maine",
+      "country": "US",
+      "coordinates": [
+        -69.8152,
+        43.8934
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-maine-maritime-1",
+        "img-maine-maritime-2",
+        "img-maine-maritime-3",
+        "img-maine-maritime-4",
+        "img-maine-maritime-5",
+        "img-maine-maritime-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
+    },
+    {
+      "id": "penobscot-marine",
+      "name": "Penobscot Marine Museum's Sea-Captain Village",
+      "kind": "maritime-village-museum",
+      "city": "Searsport",
+      "state": "ME",
+      "visit_date": "2026-10-07",
+      "summary": "A group of sea captains houses, with boats, navigation instruments and objects brought home from around the world. This small town once had an unusual number of deep-sea captains.",
+      "why_go": "One small town sent captains all over the world. This is that story at human scale, not another big machine collection.",
+      "best_for": [
+        "stivka",
+        "gora"
+      ],
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Gora's interest in trade and travel, and for Stivka's family and community stories.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_photogenic",
+        "unusual_creative"
+      ],
+      "duration_minutes": 120,
+      "source_ids": [
+        "src-penobscot"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-seasonal",
+        "note": "Tuesday-Sunday through the third weekend of October."
+      },
+      "cost": {
+        "amount_per_person": 15,
+        "status": "planning-current",
+        "note": "Confirm 2026 adult admission."
+      },
+      "priority": "alternative",
+      "replacement_reason": "Replace Owls Head when the group prefers domestic architecture and seafarer lives over vehicles.",
+      "address": "Penobscot Marine Museum, 2 Church Street, Searsport, Maine",
+      "country": "US",
+      "coordinates": [
+        -68.9263,
+        44.4564
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-penobscot-marine-1",
+        "img-penobscot-marine-2",
+        "img-penobscot-marine-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
+    },
+    {
+      "id": "seal-cove-auto",
+      "name": "Seal Cove Auto Museum",
+      "kind": "brass-era-auto-museum",
+      "city": "Seal Cove",
+      "state": "ME",
+      "visit_date": "2026-10-08",
+      "summary": "A quiet collection of brightly restored cars, motorcycles and early motoring design, from about 1895 to the 1920s.",
+      "why_go": "A precise wet-weather swap: still mechanical and colorful, but from a narrower period than Owls Head, so it does not repeat it.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Gora's mechanical detail and for Viki's colors and shapes. Quiet and indoors.",
+      "categories": [
+        "unusual_creative",
+        "hidden_history_folklore",
+        "architecture_photogenic"
+      ],
+      "duration_minutes": 110,
+      "source_ids": [
+        "src-seal-cove"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-seasonal",
+        "note": "Open daily May 1-October 31."
+      },
+      "cost": {
+        "amount_per_person": 10,
+        "status": "verified",
+        "note": "Adult admission."
+      },
+      "priority": "alternative",
+      "replacement_reason": "Replace the Acadia sunrise-and-walk block for hard rain, dangerous wind or total exhaustion; keep Jordan Pond only if conditions improve.",
+      "address": "Seal Cove Auto Museum, 1414 Tremont Road, Seal Cove, Maine",
+      "country": "US",
+      "coordinates": [
+        -68.399,
+        44.2997
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-seal-cove-auto-1",
+        "img-seal-cove-auto-2",
+        "img-seal-cove-auto-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
+    },
+    {
+      "id": "colby-art",
+      "name": "Colby College Museum of Art",
+      "kind": "college-art-museum",
+      "city": "Waterville",
+      "state": "ME",
+      "visit_date": "2026-10-09",
+      "summary": "A large free collection of American art and modern installations, on a small college campus far from any big city.",
+      "why_go": "Serious art for free, in a shorter visit, before the long drive to Bethel.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's art photos and for Stivka's calm gallery time. Paco likes that it costs nothing.",
+      "categories": [
+        "unusual_creative",
+        "architecture_photogenic"
+      ],
+      "duration_minutes": 105,
+      "source_ids": [
+        "src-colby"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verify-2026-friday",
+        "note": "Reconfirm fall Friday hours before promotion."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "free",
+        "note": "No admission planned."
+      },
+      "priority": "alternative",
+      "replacement_reason": "Replace Cole when the group is vehicle-museum saturated or wants a free contemporary-art reset.",
+      "address": "Colby College Museum of Art, 5600 Mayflower Hill Drive, Waterville, Maine",
+      "country": "US",
+      "coordinates": [
+        -69.6615,
+        44.5645
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-colby-art-1",
+        "img-colby-art-2",
+        "img-colby-art-3",
+        "img-colby-art-4",
+        "img-colby-art-5",
+        "img-colby-art-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
+    },
+    {
+      "id": "dog-mountain",
+      "name": "Dog Mountain & the Dog Chapel",
+      "kind": "folk-art-memorial-landscape",
+      "city": "St Johnsbury",
+      "state": "VT",
+      "visit_date": "2026-10-10",
+      "summary": "The hilltop folk-art world of the artist Stephen Huneck. At its center is a small chapel whose walls are covered with thousands of handwritten notes about dogs people have loved and lost.",
+      "why_go": "Funny and heartbreaking in the same hour. Of all our backup stops, this is the one most likely to become the real memory of the day.",
+      "best_for": [
+        "stivka",
+        "viki"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "gora"
+      ],
+      "best_fit_note": "Good for Stivka's feeling for memory and loss, and for Viki's folk art. Nobody leaves unaffected.",
+      "categories": [
+        "orthodox_spiritual",
+        "unusual_creative",
+        "nature_photogenic",
+        "architecture_photogenic"
+      ],
+      "duration_minutes": 100,
+      "source_ids": [
+        "src-dog"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Gallery and chapel hours; grounds dawn to dusk."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "free",
+        "note": "No admission planned."
+      },
+      "priority": "alternative",
+      "replacement_reason": "Replace the train and Fairbanks when train tickets fail, museum fatigue is high or the group wants folk art with real emotional weight.",
+      "address": "Dog Mountain, 143 Parks Road, St Johnsbury, Vermont",
+      "country": "US",
+      "coordinates": [
+        -71.9559,
+        44.4237
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-dog-mountain-1",
+        "img-dog-mountain-2",
+        "img-dog-mountain-3",
+        "img-dog-mountain-4"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
+    },
+    {
+      "id": "museum-everyday-life",
+      "name": "Museum of Everyday Life: Deep Seated",
+      "kind": "self-service-barn-museum",
+      "city": "Glover",
+      "state": "VT",
+      "visit_date": "2026-10-11",
+      "summary": "An unheated barn museum with no staff. You turn on the lights yourself and look at ordinary objects taken seriously. The 2026 exhibition is about chairs.",
+      "why_go": "Nobody is there. You let yourself in, switch on the light, and think about chairs. It feels like finding something left unlocked on purpose.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's love of the genuinely strange and for Gora's interest in ordinary things. Free, and unlike anywhere else.",
+      "categories": [
+        "unusual_creative",
+        "hidden_history_folklore",
+        "architecture_photogenic"
+      ],
+      "duration_minutes": 80,
+      "source_ids": [
+        "src-everyday"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "08:00",
+        "closes": "20:00",
+        "status": "verified",
+        "note": "Open daily, self-service; the space is unheated, so bring a coat."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "free",
+        "note": "No admission planned."
+      },
+      "priority": "alternative",
+      "replacement_reason": "Replace Shelburne Museum when the group wants one truly eccentric exhibition instead of a vast canonical collection; this variant uses almost the entire drive cap.",
+      "address": "Museum of Everyday Life, 3482 Dry Pond Road, Glover, Vermont",
+      "country": "US",
+      "coordinates": [
+        -72.214,
+        44.7008
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-museum-everyday-life-1",
+        "img-museum-everyday-life-2",
+        "img-museum-everyday-life-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
+    },
+    {
+      "id": "vins",
+      "name": "VINS Raptor Center & Forest Canopy",
+      "kind": "raptor-and-canopy-center",
+      "city": "Quechee",
+      "state": "VT",
+      "visit_date": "2026-10-12",
+      "summary": "A center for rescued birds of prey, with live programs and a raised walkway that takes you from ground level up into the tree canopy.",
+      "why_go": "Live eagles and owls, and a walk through the treetops. It works in rain and needs no real hiking.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's bird close-ups and Stivka's gentle side. Gora gets the science of rehabilitation.",
+      "categories": [
+        "nature_photogenic",
+        "unusual_creative"
+      ],
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-vins"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified",
+        "note": "Open daily."
+      },
+      "cost": {
+        "amount_per_person": 20,
+        "status": "planning-current",
+        "note": "Confirm 2026 adult admission."
+      },
+      "priority": "alternative",
+      "replacement_reason": "Replace Plymouth Notch if its seasonal buildings are closed, or when the group needs living nature after two history-heavy days.",
+      "address": "VINS Nature Center, 149 Natures Way, Quechee, Vermont",
+      "country": "US",
+      "coordinates": [
+        -72.4186,
+        43.6438
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-vins-1",
+        "img-vins-2",
+        "img-vins-3",
+        "img-vins-4",
+        "img-vins-5",
+        "img-vins-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "path-of-life",
@@ -1959,100 +4259,46 @@
         "status": "planning-donation",
         "note": "Confirm current self-guided garden fee."
       },
-      "priority": "replacement",
+      "priority": "alternative",
       "replacement_reason": "Replace American Precision when weather is good and the group needs reflection and art rather than another technical collection.",
       "address": "Path of Life Sculpture Garden, 36 Park Road, Windsor, Vermont",
-      "replacement": {
-        "day": 10,
-        "replaces_place_ids": [
-          "american-precision"
-        ],
-        "route_variant_id": "replacement-d10-path-of-life",
-        "reason": "Replace American Precision when weather is good and the group needs reflection and art rather than another technical collection."
-      }
-    },
-    {
-      "id": "flw-houses",
-      "name": "Frank Lloyd Wright's Zimmerman & Kalil Houses",
-      "kind": "guided-modernist-house-tour",
-      "city": "Manchester",
-      "state": "NH",
-      "visit_date": "2026-10-14",
-      "summary": "A two-hour guided visit to two houses by Frank Lloyd Wright. One is a small Usonian home; the other is one of only seven Usonian Automatic houses, built from modular blocks. Both keep their original furniture.",
-      "why_go": "Two neighbors gave the same architect the same ideas and got completely different houses. You feel it in the light and the ceiling heights.",
-      "best_for": [
-        "viki",
-        "gora"
+      "country": "US",
+      "coordinates": [
+        -72.3952,
+        43.493
       ],
-      "secondary_for": [
-        "stivka",
-        "sheluvspaco"
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-path-of-life-1",
+        "img-path-of-life-2",
+        "img-path-of-life-3"
       ],
-      "best_fit_note": "Good for Viki's architecture and Gora's interest in how a system becomes a home. Booking is required.",
-      "categories": [
-        "architecture_photogenic",
-        "hidden_history_folklore",
-        "unusual_creative"
-      ],
-      "duration_minutes": 120,
-      "source_ids": [
-        "src-currier"
-      ],
-      "reservation": "required",
-      "hours": {
-        "opens": "09:30",
-        "closes": "11:30",
-        "status": "verified-2026",
-        "note": "2026 season runs April 22-December 27; tours Wednesday-Sunday at 09:30, 12:00 and 14:30."
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
       },
-      "cost": {
-        "amount_per_person": 55,
-        "status": "planning-current",
-        "note": "Confirm exact 2026 combined-house public tour price; museum admission is included."
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
       },
-      "priority": "anchor",
-      "address": "Currier Museum of Art, 150 Ash Street, Manchester, New Hampshire"
-    },
-    {
-      "id": "currier-museum",
-      "name": "Currier Museum Highlights",
-      "kind": "art-museum",
-      "city": "Manchester",
-      "state": "NH",
-      "visit_date": "2026-10-14",
-      "summary": "A compact regional art museum, running from European painting to American decorative arts and modern New England work.",
-      "why_go": "Entry is already included with the Wright house tour, so one focused hour adds real value without risking the drive back to Boston.",
-      "best_for": [
-        "viki",
-        "stivka"
-      ],
-      "secondary_for": [
-        "gora",
-        "sheluvspaco"
-      ],
-      "best_fit_note": "Good for Viki's and Stivka's gallery hour. Paco likes that it costs nothing extra.",
-      "categories": [
-        "unusual_creative",
-        "architecture_photogenic"
-      ],
-      "duration_minutes": 70,
-      "source_ids": [
-        "src-currier"
-      ],
-      "reservation": "none",
-      "hours": {
-        "opens": "10:00",
-        "closes": "17:00",
-        "status": "verified",
-        "note": "Open Wednesday-Sunday."
-      },
-      "cost": {
-        "amount_per_person": 0,
-        "status": "included",
-        "note": "Included with the Wright houses tour."
-      },
-      "priority": "supporting",
-      "address": "Currier Museum of Art, 150 Ash Street, Manchester, New Hampshire"
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
     },
     {
       "id": "see-science",
@@ -2092,18 +4338,1599 @@
         "status": "planning-current",
         "note": "Confirm 2026 adult admission."
       },
-      "priority": "replacement",
+      "priority": "alternative",
       "replacement_reason": "Replace both Wright houses and the Currier when tickets sell out, the group wants hands-on play or the Boston return needs more flexibility.",
       "address": "SEE Science Center, 200 Bedford Street, Manchester, New Hampshire",
-      "replacement": {
-        "day": 11,
-        "replaces_place_ids": [
-          "flw-houses",
-          "currier-museum"
-        ],
-        "route_variant_id": "replacement-d11-see",
-        "reason": "Replace both Wright houses and the Currier when tickets sell out, the group wants hands-on play or the Boston return needs more flexibility."
-      }
+      "country": "US",
+      "coordinates": [
+        -71.4682,
+        42.9917
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-see-science-1",
+        "img-see-science-2",
+        "img-see-science-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "alternative",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated"
+    },
+    {
+      "id": "kittery-outlets",
+      "name": "Kittery Premium Outlets",
+      "kind": "outlet-shopping",
+      "city": "Kittery",
+      "state": "ME",
+      "country": "US",
+      "address": "US Route 1, Kittery, ME 03904",
+      "visit_date": "2026-10-04",
+      "summary": "A protected two-and-a-half-hour shopping block on the Route 1 outlet strip before the route turns to the coast.",
+      "why_go": "It gets Viki's shopping done on day one so it never interrupts the mountain and foliage days later.",
+      "best_for": [
+        "viki"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: viki. Pure browsing; anyone can sit out in a cafe without losing the stop.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
+      },
+      "source_ids": [
+        "src-v4-kittery"
+      ],
+      "coordinates": [
+        -70.7276,
+        43.1179
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "shopping",
+      "texture": "SHOP",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "exact_date_anchor": false,
+        "high_exposure": false,
+        "high_physicality": false,
+        "viki_bypass_available": true,
+        "traffic_gated": false,
+        "route108_dependency": false,
+        "shared_park_fee": false,
+        "nonresident_fee_check": false,
+        "confined_space": false,
+        "photo_heavy": false,
+        "machinery_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "physical_level": "easy",
+      "skip_mode": "Pure browsing; anyone can sit out in a cafe without losing the stop.",
+      "skip_strategy": "Pure browsing; anyone can sit out in a cafe without losing the stop.",
+      "optional": true,
+      "included_in_magic_default": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "green",
+      "operational_risk": "green",
+      "fallback_ids": [],
+      "fallback_place_id": null,
+      "data_status": "complete",
+      "image_ids": [
+        "img-kittery-outlets-1",
+        "img-kittery-outlets-2",
+        "img-kittery-outlets-3"
+      ]
+    },
+    {
+      "id": "lucky-catch-lobstering",
+      "name": "Lucky Catch Lobstering Cruise",
+      "kind": "working-lobster-boat",
+      "city": "Portland",
+      "state": "ME",
+      "country": "US",
+      "address": "Long Wharf, 170 Commercial Street, Portland, ME 04101",
+      "visit_date": "2026-10-05",
+      "summary": "A working lobster boat where guests bait, set, haul and measure real gear in Casco Bay.",
+      "why_go": "It turns the working Maine coast into participation instead of another harbour sightseeing run.",
+      "best_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "viki",
+        "stivka"
+      ],
+      "best_fit_note": "Primary fit: gora, sheluvspaco. Guests choose how much gear handling to do; watching from the rail still counts.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "required",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 60,
+        "low": 60,
+        "high": 60,
+        "amount_per_group": 240,
+        "price_type": "per-person",
+        "status": "verified",
+        "note": ""
+      },
+      "source_ids": [
+        "src-v4-lucky-catch"
+      ],
+      "coordinates": [
+        -70.2523,
+        43.6558
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "working-machine-infrastructure",
+      "texture": "DISCOVER",
+      "interaction_score": 4,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": false,
+        "booking_required": true,
+        "exact_date_anchor": false,
+        "high_exposure": false,
+        "high_physicality": false,
+        "viki_bypass_available": true,
+        "traffic_gated": false,
+        "route108_dependency": false,
+        "shared_park_fee": false,
+        "nonresident_fee_check": false,
+        "confined_space": false,
+        "photo_heavy": false,
+        "machinery_heavy": true
+      },
+      "viki_fit": 4,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 5,
+      "price_type": "per-person",
+      "price_per_person_low": 60,
+      "price_per_person_high": 60,
+      "price_per_group": 240,
+      "price_last_checked": "2026-08-31",
+      "physical_level": "light-moderate",
+      "skip_mode": "Guests choose how much gear handling to do; watching from the rail still counts.",
+      "skip_strategy": "Guests choose how much gear handling to do; watching from the rail still counts.",
+      "optional": true,
+      "included_in_magic_default": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "yellow",
+      "operational_risk": "yellow",
+      "fallback_ids": [
+        "eastern-promenade"
+      ],
+      "fallback_place_id": "eastern-promenade",
+      "data_status": "complete",
+      "image_ids": [
+        "img-lucky-catch-lobstering-1",
+        "img-lucky-catch-lobstering-2",
+        "img-lucky-catch-lobstering-3"
+      ]
+    },
+    {
+      "id": "bath-iron-works-story",
+      "name": "Bath Iron Works Story — by Land & Sea",
+      "kind": "industrial-shipyard-tour",
+      "city": "Bath",
+      "state": "ME",
+      "country": "US",
+      "address": "Maine Maritime Museum, 243 Washington Street, Bath, ME 04530",
+      "visit_date": "2026-10-06",
+      "summary": "A combined trolley and river programme that puts the group alongside one of America's most serious working shipyards.",
+      "why_go": "The attraction is live Navy destroyer construction as an industrial system, not a static maritime gallery.",
+      "best_for": [
+        "gora",
+        "stivka"
+      ],
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: gora, stivka. Seated trolley and boat sections; low physical demand throughout.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "required",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 65,
+        "low": 65,
+        "high": 65,
+        "amount_per_group": 260,
+        "price_type": "per-person",
+        "status": "verified",
+        "note": ""
+      },
+      "source_ids": [
+        "src-v4-biw-story"
+      ],
+      "coordinates": [
+        -69.8159,
+        43.8938
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "working-machine-infrastructure",
+      "texture": "DISCOVER",
+      "interaction_score": 3,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": false,
+        "booking_required": true,
+        "exact_date_anchor": false,
+        "high_exposure": false,
+        "high_physicality": false,
+        "viki_bypass_available": true,
+        "traffic_gated": false,
+        "route108_dependency": false,
+        "shared_park_fee": false,
+        "nonresident_fee_check": false,
+        "confined_space": false,
+        "photo_heavy": false,
+        "machinery_heavy": true
+      },
+      "viki_fit": 4,
+      "gora_fit": 5,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "per-person",
+      "price_per_person_low": 65,
+      "price_per_person_high": 65,
+      "price_per_group": 260,
+      "price_last_checked": "2026-08-31",
+      "physical_level": "light-moderate",
+      "skip_mode": "Seated trolley and boat sections; low physical demand throughout.",
+      "skip_strategy": "Seated trolley and boat sections; low physical demand throughout.",
+      "optional": true,
+      "included_in_magic_default": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "yellow",
+      "operational_risk": "yellow",
+      "fallback_ids": [
+        "maine-maritime"
+      ],
+      "fallback_place_id": "maine-maritime",
+      "data_status": "complete",
+      "image_ids": [
+        "img-bath-iron-works-story-1",
+        "img-bath-iron-works-story-2",
+        "img-bath-iron-works-story-3"
+      ]
+    },
+    {
+      "id": "maiden-cliff",
+      "name": "Maiden Cliff Memorial Hike",
+      "kind": "cliff-hike",
+      "city": "Camden",
+      "state": "ME",
+      "country": "US",
+      "address": "Maiden Cliff Trail, Camden Hills State Park, Camden, ME 04843",
+      "visit_date": "2026-10-07",
+      "summary": "About a mile each way to a cliff roughly 800 feet above Megunticook Lake, with the memorial cross to Elenora French.",
+      "why_go": "Granite stops being scenery and becomes terrain, with a real auto-road alternative for anyone who wants the view without the climb.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: gora, viki. Use the Mount Battie auto road and overlook instead of the cliff climb; the stop still counts.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 6,
+        "low": 6,
+        "high": 6,
+        "amount_per_group": 24,
+        "price_type": "group-share",
+        "status": "verified",
+        "note": "Camden Hills nonresident day-use, about $6 per adult."
+      },
+      "source_ids": [
+        "src-v4-camden-hills"
+      ],
+      "coordinates": [
+        -69.0882,
+        44.2522
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "wild-terrain-scenic",
+      "texture": "WILD",
+      "interaction_score": 3,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "exact_date_anchor": false,
+        "high_exposure": false,
+        "high_physicality": true,
+        "viki_bypass_available": true,
+        "traffic_gated": false,
+        "route108_dependency": false,
+        "shared_park_fee": true,
+        "nonresident_fee_check": false,
+        "confined_space": false,
+        "photo_heavy": true,
+        "machinery_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "group-share",
+      "price_per_person_low": 6,
+      "price_per_person_high": 6,
+      "price_per_group": 24,
+      "price_last_checked": "2026-08-31",
+      "physical_level": "moderate",
+      "skip_mode": "Use the Mount Battie auto road and overlook instead of the cliff climb; the stop still counts.",
+      "skip_strategy": "Use the Mount Battie auto road and overlook instead of the cliff climb; the stop still counts.",
+      "optional": true,
+      "included_in_magic_default": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "yellow",
+      "operational_risk": "yellow",
+      "fallback_ids": [
+        "owls-head-transportation"
+      ],
+      "fallback_place_id": "owls-head-transportation",
+      "data_status": "complete",
+      "image_ids": [
+        "img-maiden-cliff-1",
+        "img-maiden-cliff-2",
+        "img-maiden-cliff-3"
+      ]
+    },
+    {
+      "id": "beehive-bowl-climb",
+      "name": "Beehive & Bowl Split-Route Climb",
+      "kind": "iron-rung-scramble",
+      "city": "Bar Harbor",
+      "state": "ME",
+      "country": "US",
+      "address": "Bowl Trail from Sand Beach, Acadia National Park, ME 04609",
+      "visit_date": "2026-10-08",
+      "summary": "Granite staircases, iron rungs and exposed cliff faces on a roughly 450-foot ascent, with the Bowl Trail carrying anyone who skips the rungs.",
+      "why_go": "This is the route's sharpest change of mode: from watching Acadia at dawn to physically climbing it an hour later.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Primary fit: gora, viki. Everyone starts on the Bowl Trail; only those who want the iron rungs take the Beehive face, and nobody descends it.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
+      },
+      "source_ids": [
+        "src-v4-beehive"
+      ],
+      "coordinates": [
+        -68.1823,
+        44.3292
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "wild-terrain-scenic",
+      "texture": "WILD",
+      "interaction_score": 4,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": true,
+        "booking_required": false,
+        "exact_date_anchor": false,
+        "high_exposure": true,
+        "high_physicality": true,
+        "viki_bypass_available": true,
+        "traffic_gated": false,
+        "route108_dependency": false,
+        "shared_park_fee": false,
+        "nonresident_fee_check": false,
+        "confined_space": false,
+        "photo_heavy": true,
+        "machinery_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "physical_level": "high",
+      "skip_mode": "Everyone starts on the Bowl Trail; only those who want the iron rungs take the Beehive face, and nobody descends it.",
+      "skip_strategy": "Everyone starts on the Bowl Trail; only those who want the iron rungs take the Beehive face, and nobody descends it.",
+      "optional": true,
+      "included_in_magic_default": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "red",
+      "operational_risk": "red",
+      "fallback_ids": [
+        "jordan-pond"
+      ],
+      "fallback_place_id": "jordan-pond",
+      "data_status": "complete",
+      "image_ids": [
+        "img-beehive-bowl-climb-1",
+        "img-beehive-bowl-climb-2",
+        "img-beehive-bowl-climb-3"
+      ]
+    },
+    {
+      "id": "sk-tours-derry",
+      "name": "SK Tours — The Derry, Maine Tour",
+      "kind": "guided-folklore-field-tour",
+      "city": "Bangor",
+      "state": "ME",
+      "country": "US",
+      "address": "SK Tours of Maine, Bangor, ME 04401",
+      "visit_date": "2026-10-08",
+      "summary": "A two-and-a-half-hour guided field tour linking Bangor locations, Stephen King inspirations and the city's own history.",
+      "why_go": "It replaces standing outside a private house with real guided context, and non-superfans still get the Bangor local-history side.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: viki, stivka. Guided and largely seated; the operator controls the pace.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "required",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 62.5,
+        "low": 62.5,
+        "high": 62.5,
+        "amount_per_group": 250,
+        "price_type": "per-person",
+        "status": "verified",
+        "note": ""
+      },
+      "source_ids": [
+        "src-v4-sk-tours"
+      ],
+      "coordinates": [
+        -68.7713,
+        44.8016
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "regional-weird-folklore",
+      "texture": "WEIRD",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "wet_surface_risk": false,
+        "booking_required": true,
+        "exact_date_anchor": false,
+        "high_exposure": false,
+        "high_physicality": false,
+        "viki_bypass_available": true,
+        "traffic_gated": false,
+        "route108_dependency": false,
+        "shared_park_fee": false,
+        "nonresident_fee_check": false,
+        "confined_space": false,
+        "photo_heavy": true,
+        "machinery_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "per-person",
+      "price_per_person_low": 62.5,
+      "price_per_person_high": 62.5,
+      "price_per_group": 250,
+      "price_last_checked": "2026-08-31",
+      "physical_level": "easy",
+      "skip_mode": "Guided and largely seated; the operator controls the pace.",
+      "skip_strategy": "Guided and largely seated; the operator controls the pace.",
+      "optional": true,
+      "included_in_magic_default": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "red",
+      "operational_risk": "red",
+      "fallback_ids": [
+        "stephen-king-house"
+      ],
+      "fallback_place_id": "stephen-king-house",
+      "data_status": "complete",
+      "image_ids": [
+        "img-sk-tours-derry-1",
+        "img-sk-tours-derry-2",
+        "img-sk-tours-derry-3"
+      ]
+    },
+    {
+      "id": "skowhegan-falls-langlais",
+      "name": "Skowhegan Falls & Langlais Sculpture Reset",
+      "kind": "roadside-civic-landscape",
+      "city": "Skowhegan",
+      "state": "ME",
+      "country": "US",
+      "address": "Skowhegan, ME 04976",
+      "visit_date": "2026-10-09",
+      "summary": "A deliberately short stop at the Kennebec falls and Bernard Langlais's outsized local sculpture.",
+      "why_go": "It breaks the long Bangor-to-western-Maine transfer with something genuinely Maine rather than a manufactured attraction.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Primary fit: viki, sheluvspaco. A forty-minute leg-stretch by design; shorten it freely.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
+      },
+      "source_ids": [
+        "src-v4-skowhegan"
+      ],
+      "coordinates": [
+        -69.6656,
+        44.7559
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "regional-weird-folklore",
+      "texture": "WEIRD",
+      "interaction_score": 1,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "exact_date_anchor": false,
+        "high_exposure": false,
+        "high_physicality": false,
+        "viki_bypass_available": true,
+        "traffic_gated": false,
+        "route108_dependency": false,
+        "shared_park_fee": false,
+        "nonresident_fee_check": false,
+        "confined_space": false,
+        "photo_heavy": true,
+        "machinery_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 4,
+      "planner_balance_fit": 5,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "physical_level": "easy",
+      "skip_mode": "A forty-minute leg-stretch by design; shorten it freely.",
+      "skip_strategy": "A forty-minute leg-stretch by design; shorten it freely.",
+      "optional": true,
+      "included_in_magic_default": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "green",
+      "operational_risk": "green",
+      "fallback_ids": [],
+      "fallback_place_id": null,
+      "data_status": "complete",
+      "image_ids": [
+        "img-skowhegan-falls-langlais-1",
+        "img-skowhegan-falls-langlais-2",
+        "img-skowhegan-falls-langlais-3"
+      ]
+    },
+    {
+      "id": "wife-carrying-championship",
+      "name": "North American Wife Carrying Championship",
+      "kind": "exact-date-regional-ritual",
+      "city": "Newry",
+      "state": "ME",
+      "country": "US",
+      "address": "Sunday River Resort, 15 South Ridge Road, Newry, ME 04261",
+      "visit_date": "2026-10-10",
+      "summary": "A 278-yard course with obstacles, uneven ground and a water hazard, run at Sunday River's Fall Fest on the exact Saturday the route is there.",
+      "why_go": "It is the strongest exact-date discovery in the rebuild and it cannot be replicated anywhere else on the eleven routes.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Primary fit: viki, sheluvspaco. Spectating is the core plan; entering the race is a separate optional decision.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
+      },
+      "source_ids": [
+        "src-v4-wife-carrying"
+      ],
+      "coordinates": [
+        -70.8673,
+        44.4718
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "regional-weird-folklore",
+      "texture": "WEIRD",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "exact_date_anchor": true,
+        "high_exposure": false,
+        "high_physicality": false,
+        "viki_bypass_available": true,
+        "traffic_gated": false,
+        "route108_dependency": false,
+        "shared_park_fee": false,
+        "nonresident_fee_check": false,
+        "confined_space": false,
+        "photo_heavy": true,
+        "machinery_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 4,
+      "planner_balance_fit": 5,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "physical_level": "easy",
+      "skip_mode": "Spectating is the core plan; entering the race is a separate optional decision.",
+      "skip_strategy": "Spectating is the core plan; entering the race is a separate optional decision.",
+      "optional": true,
+      "included_in_magic_default": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "yellow",
+      "operational_risk": "yellow",
+      "fallback_ids": [],
+      "fallback_place_id": null,
+      "data_status": "complete",
+      "image_ids": [
+        "img-wife-carrying-championship-1",
+        "img-wife-carrying-championship-2",
+        "img-wife-carrying-championship-3"
+      ]
+    },
+    {
+      "id": "mount-washington-cog",
+      "name": "Mount Washington Cog Railway",
+      "kind": "mountain-cog-railway",
+      "city": "Bretton Woods",
+      "state": "NH",
+      "country": "US",
+      "address": "Marshfield Base Station, Base Station Road, Bretton Woods, NH 03575",
+      "visit_date": "2026-10-10",
+      "summary": "The world's first mountain-climbing cog railway carrying the group toward a 6,288-foot summit through foliage and alpine weather.",
+      "why_go": "Old machinery, movement, mountain exposure and fall colour land in one three-hour block.",
+      "best_for": [
+        "gora",
+        "stivka"
+      ],
+      "secondary_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: gora, stivka. Seated rail travel; summit exposure is the only demanding part and is optional.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "required",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 61,
+        "low": 61,
+        "high": 111,
+        "amount_per_group": 244,
+        "price_type": "per-person",
+        "status": "planning-range",
+        "note": "Fare varies by train and inventory; summit round trip runs just under three hours."
+      },
+      "source_ids": [
+        "src-v4-cog"
+      ],
+      "coordinates": [
+        -71.3507,
+        44.2705
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "working-machine-infrastructure",
+      "texture": "DISCOVER",
+      "interaction_score": 3,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": false,
+        "booking_required": true,
+        "exact_date_anchor": false,
+        "high_exposure": false,
+        "high_physicality": false,
+        "viki_bypass_available": true,
+        "traffic_gated": false,
+        "route108_dependency": false,
+        "shared_park_fee": false,
+        "nonresident_fee_check": false,
+        "confined_space": false,
+        "photo_heavy": false,
+        "machinery_heavy": true
+      },
+      "viki_fit": 4,
+      "gora_fit": 5,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "per-person",
+      "price_per_person_low": 61,
+      "price_per_person_high": 111,
+      "price_per_group": 244,
+      "price_last_checked": "2026-08-31",
+      "physical_level": "light-moderate",
+      "skip_mode": "Seated rail travel; summit exposure is the only demanding part and is optional.",
+      "skip_strategy": "Seated rail travel; summit exposure is the only demanding part and is optional.",
+      "optional": true,
+      "included_in_magic_default": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "red",
+      "operational_risk": "red",
+      "fallback_ids": [],
+      "fallback_place_id": null,
+      "data_status": "complete",
+      "image_ids": [
+        "img-mount-washington-cog-1",
+        "img-mount-washington-cog-2",
+        "img-mount-washington-cog-3"
+      ]
+    },
+    {
+      "id": "arbortrek-smugglers",
+      "name": "ArborTrek Smugglers' Notch Canopy Tour",
+      "kind": "zipline-canopy-course",
+      "city": "Jeffersonville",
+      "state": "VT",
+      "country": "US",
+      "address": "ArborTrek Canopy Adventures, Smugglers' Notch Resort, Jeffersonville, VT 05464",
+      "visit_date": "2026-10-11",
+      "summary": "Eight ziplines, two sky bridges and two rappels through the canopy above Smugglers' Notch.",
+      "why_go": "It is the route's single dedicated adventure course, allowed precisely because it is not repeated three more times.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Primary fit: gora, viki. Participation is an individual choice; a comfortable base reset is kept for anyone sitting out.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "required",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 139,
+        "low": 139,
+        "high": 139,
+        "amount_per_group": 556,
+        "price_type": "per-person-plus-tax",
+        "status": "verified",
+        "note": "Starting price before Vermont tax; eight ziplines, two sky bridges and two rappels."
+      },
+      "source_ids": [
+        "src-v4-arbortrek",
+        "src-v4-route108"
+      ],
+      "coordinates": [
+        -72.7676,
+        44.5727
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "adventure-competitive",
+      "texture": "CHALLENGE",
+      "interaction_score": 4,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": false,
+        "booking_required": true,
+        "exact_date_anchor": false,
+        "high_exposure": true,
+        "high_physicality": true,
+        "viki_bypass_available": true,
+        "traffic_gated": false,
+        "route108_dependency": true,
+        "shared_park_fee": false,
+        "nonresident_fee_check": false,
+        "confined_space": false,
+        "photo_heavy": false,
+        "machinery_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "per-person-plus-tax",
+      "price_per_person_low": 139,
+      "price_per_person_high": 139,
+      "price_per_group": 556,
+      "price_last_checked": "2026-08-31",
+      "physical_level": "high",
+      "skip_mode": "Participation is an individual choice; a comfortable base reset is kept for anyone sitting out.",
+      "skip_strategy": "Participation is an individual choice; a comfortable base reset is kept for anyone sitting out.",
+      "optional": true,
+      "included_in_magic_default": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "red",
+      "operational_risk": "red",
+      "fallback_ids": [
+        "burlington-waterfront"
+      ],
+      "fallback_place_id": "burlington-waterfront",
+      "data_status": "complete",
+      "image_ids": [
+        "img-arbortrek-smugglers-1",
+        "img-arbortrek-smugglers-2",
+        "img-arbortrek-smugglers-3"
+      ]
+    },
+    {
+      "id": "beast-mountain-coaster",
+      "name": "Beast Mountain Coaster",
+      "kind": "mountain-coaster",
+      "city": "Killington",
+      "state": "VT",
+      "country": "US",
+      "address": "Killington Adventure Center, Snowshed Base, Killington, VT 05751",
+      "visit_date": "2026-10-12",
+      "summary": "A gravity coaster down the mountainside on Killington's published final fall operating day.",
+      "why_go": "Mechanical speed the group controls itself is a better use of the resort than standing at one more overlook.",
+      "best_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "viki",
+        "stivka"
+      ],
+      "best_fit_note": "Primary fit: gora, sheluvspaco. Riders control their own brake; anyone can watch from the base instead.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 17.25,
+        "low": 17.25,
+        "high": 17.25,
+        "amount_per_group": 69,
+        "price_type": "group-share",
+        "status": "verified",
+        "note": "Shared four-ride pack at about $69, one ride each."
+      },
+      "source_ids": [
+        "src-v4-killington"
+      ],
+      "coordinates": [
+        -72.7967,
+        43.6259
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "adventure-competitive",
+      "texture": "COMPETE",
+      "interaction_score": 4,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "exact_date_anchor": true,
+        "high_exposure": false,
+        "high_physicality": false,
+        "viki_bypass_available": true,
+        "traffic_gated": false,
+        "route108_dependency": false,
+        "shared_park_fee": false,
+        "nonresident_fee_check": false,
+        "confined_space": false,
+        "photo_heavy": false,
+        "machinery_heavy": false
+      },
+      "viki_fit": 4,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 5,
+      "price_type": "group-share",
+      "price_per_person_low": 17.25,
+      "price_per_person_high": 17.25,
+      "price_per_group": 69,
+      "price_last_checked": "2026-08-31",
+      "physical_level": "light-moderate",
+      "skip_mode": "Riders control their own brake; anyone can watch from the base instead.",
+      "skip_strategy": "Riders control their own brake; anyone can watch from the base instead.",
+      "optional": true,
+      "included_in_magic_default": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "yellow",
+      "operational_risk": "yellow",
+      "fallback_ids": [
+        "ben-jerrys-graveyard"
+      ],
+      "fallback_place_id": "ben-jerrys-graveyard",
+      "data_status": "complete",
+      "image_ids": [
+        "img-beast-mountain-coaster-1",
+        "img-beast-mountain-coaster-2",
+        "img-beast-mountain-coaster-3"
+      ]
+    },
+    {
+      "id": "k1-scenic-gondola",
+      "name": "K-1 Express Gondola",
+      "kind": "scenic-gondola",
+      "city": "Killington",
+      "state": "VT",
+      "country": "US",
+      "address": "K-1 Base Lodge, Killington Resort, Killington, VT 05751",
+      "visit_date": "2026-10-12",
+      "summary": "A lift to Killington Peak on the last published fall operating day, with the foliage moving underneath.",
+      "why_go": "Riding through the colour is a different interaction from photographing it from a pull-off.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: viki, stivka. A seated lift; the summit walk at the top is optional.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 35,
+        "low": 35,
+        "high": 39,
+        "amount_per_group": 140,
+        "price_type": "per-person",
+        "status": "planning-range",
+        "note": "About $35 advance, $39 same day."
+      },
+      "source_ids": [
+        "src-v4-killington"
+      ],
+      "coordinates": [
+        -72.8037,
+        43.6171
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "working-machine-infrastructure",
+      "texture": "AWE",
+      "interaction_score": 2,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "exact_date_anchor": true,
+        "high_exposure": false,
+        "high_physicality": false,
+        "viki_bypass_available": true,
+        "traffic_gated": false,
+        "route108_dependency": false,
+        "shared_park_fee": false,
+        "nonresident_fee_check": false,
+        "confined_space": false,
+        "photo_heavy": true,
+        "machinery_heavy": true
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "per-person",
+      "price_per_person_low": 35,
+      "price_per_person_high": 39,
+      "price_per_group": 140,
+      "price_last_checked": "2026-08-31",
+      "physical_level": "easy",
+      "skip_mode": "A seated lift; the summit walk at the top is optional.",
+      "skip_strategy": "A seated lift; the summit walk at the top is optional.",
+      "optional": true,
+      "included_in_magic_default": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "yellow",
+      "operational_risk": "yellow",
+      "fallback_ids": [
+        "coolidge-site"
+      ],
+      "fallback_place_id": "coolidge-site",
+      "data_status": "complete",
+      "image_ids": [
+        "img-k1-scenic-gondola-1",
+        "img-k1-scenic-gondola-2",
+        "img-k1-scenic-gondola-3"
+      ]
+    },
+    {
+      "id": "lost-river-gorge",
+      "name": "Lost River Gorge & Boulder Caves",
+      "kind": "boulder-cave-gorge",
+      "city": "North Woodstock",
+      "state": "NH",
+      "country": "US",
+      "address": "1712 Lost River Road, North Woodstock, NH 03262",
+      "visit_date": "2026-10-13",
+      "summary": "A mile of boardwalk through a glacial gorge with waterfalls, ladders and eleven boulder caves, each with a bypass.",
+      "why_go": "The group chooses its own difficulty cave by cave, which is why it beats a generic gorge walk.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Primary fit: gora, viki. Every one of the eleven caves has a bypass; the boardwalk line carries the whole group.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "required",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 25,
+        "low": 25,
+        "high": 25,
+        "amount_per_group": 100,
+        "price_type": "per-person",
+        "status": "verified",
+        "note": "$25 October online admission; $29 walk-in subject to capacity, which the ceiling does not assume."
+      },
+      "source_ids": [
+        "src-v4-lost-river"
+      ],
+      "coordinates": [
+        -71.7893,
+        44.0374
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": null,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": null,
+        "rating_count": 0
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "core_status": "core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "wild-terrain-scenic",
+      "texture": "WILD",
+      "interaction_score": 4,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": true,
+        "booking_required": true,
+        "exact_date_anchor": false,
+        "high_exposure": false,
+        "high_physicality": true,
+        "viki_bypass_available": true,
+        "traffic_gated": false,
+        "route108_dependency": false,
+        "shared_park_fee": false,
+        "nonresident_fee_check": false,
+        "confined_space": false,
+        "photo_heavy": true,
+        "machinery_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "per-person",
+      "price_per_person_low": 25,
+      "price_per_person_high": 25,
+      "price_per_group": 100,
+      "price_last_checked": "2026-08-31",
+      "physical_level": "moderate",
+      "skip_mode": "Every one of the eleven caves has a bypass; the boardwalk line carries the whole group.",
+      "skip_strategy": "Every one of the eleven caves has a bypass; the boardwalk line carries the whole group.",
+      "optional": true,
+      "included_in_magic_default": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "yellow",
+      "operational_risk": "yellow",
+      "fallback_ids": [
+        "american-precision"
+      ],
+      "fallback_place_id": "american-precision",
+      "data_status": "complete",
+      "image_ids": [
+        "img-lost-river-gorge-1",
+        "img-lost-river-gorge-2",
+        "img-lost-river-gorge-3"
+      ]
     }
   ]
 }

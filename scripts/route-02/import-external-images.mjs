@@ -59,6 +59,56 @@ const groups = {
       ["https://heroesofadventure.com/wp-content/uploads/2018/02/585244-1370577665-1.jpg", "https://heroesofadventure.com/listing/cave-of-the-winds-niagara-falls-new-york-usa/", "Heroes of Adventure", "Cave of the Winds redwood decks, stairways and yellow ponchos"]
     ]
   },
+  "revolution-rail-hadley": {
+    mode: "prepend",
+    images: [
+      ["https://images.squarespace-cdn.com/content/v1/63d6550585aa7959f6c07186/901c8d5a-1424-49e3-a3e9-a3f9906b17da/ADK-Hadley-Bridge-Autumn.jpg", "https://www.revrail.com/hadley-run", "Revolution Rail", "A four-seat railbike crossing the Hadley bridge above autumn forest"],
+      ["https://images.squarespace-cdn.com/content/v1/63d6550585aa7959f6c07186/bf346533-159b-480a-8607-5a45f4d2664a/Hadley_Summer_2Bridges_16x9.jpg", "https://www.revrail.com/hadley-run", "Revolution Rail", "Hadley Run railbikes approaching the Hudson and Sacandaga bridge crossing"]
+    ]
+  },
+  "leatherstocking-bat-mill": {
+    mode: "replace",
+    images: [
+      ["https://leatherstockinghandsplits.com/wp-content/uploads/2025/07/Wood-Bat-Mill.jpg", "https://leatherstockinghandsplits.com/wood-bat-mill-tour/", "Leatherstocking Timber Products", "Inside the working Leatherstocking wood bat mill"],
+      ["https://leatherstockinghandsplits.com/wp-content/uploads/2025/07/Mill-Tour-Group.png", "https://leatherstockinghandsplits.com/wood-bat-mill-tour/", "Leatherstocking Timber Products", "A tour group inside the working mill beside bat billets and machinery"],
+      ["https://leatherstockinghandsplits.com/wp-content/uploads/2025/07/Dowels-410x310-1.png", "https://leatherstockinghandsplits.com/wood-bat-mill-tour/", "Leatherstocking Timber Products", "Finished hardwood dowels produced for professional baseball bats"]
+    ]
+  },
+  "cayuga-fall-eco-cruise": {
+    mode: "prepend",
+    images: [
+      ["https://discovercayugalake.org/wp-content/uploads/2023/04/222745703_4709469462416303_6466167714591506579_n.jpg", "https://discovercayugalake.org/", "Discover Cayuga Lake", "Discover Cayuga Lake passengers on the MV Teal"],
+      ["https://discovercayugalake.org/wp-content/uploads/2023/04/Screenshot-2023-04-07-at-12.02.57-PM.png", "https://discovercayugalake.org/", "Discover Cayuga Lake", "The MV Teal under way on Cayuga Lake"]
+    ]
+  },
+  "nut-house-hacker-witch": {
+    mode: "replace",
+    images: [
+      ["https://static.wixstatic.com/media/2a9c2a_6418b45f69914130bf33e76ef4d69948~mv2.png", "https://www.nuthouseescaperooms.com/", "Nut House Escape Rooms", "Official artwork for The Hacker W.I.T.C.H. escape room"],
+      ["https://static.wixstatic.com/media/2a9c2a_0882ad1e920e415bb3ef71b59602fb83~mv2_d_3000_2000_s_2.jpg", "https://www.nuthouseescaperooms.com/", "Nut House Escape Rooms", "A puzzle environment at Nut House Escape Rooms in Rochester"],
+      ["https://static.wixstatic.com/media/2a9c2a_40d9ad0823b64809bc8e0adaf3415487~mv2.jpg", "https://www.nuthouseescaperooms.com/", "Nut House Escape Rooms", "A themed room detail at Nut House Escape Rooms in Rochester"]
+    ]
+  },
+  "balloons-over-letchworth": {
+    mode: "prepend",
+    images: [
+      ["https://www.libertyballoon.com/wp-content/uploads/2016/09/balloonsoverletchworth-KW-1950x1300-1.jpg", "https://www.libertyballoon.com/", "Balloons Over Letchworth / Liberty Balloon Co.", "A Balloons Over Letchworth passenger balloon above the Genesee gorge"],
+      ["https://www.libertyballoon.com/wp-content/uploads/2024/03/Experience-Letchworth-May6-Joe-Serio-650x812-1.jpg", "https://www.libertyballoon.com/", "Balloons Over Letchworth / Liberty Balloon Co.", "A hot-air balloon floating above Letchworth State Park"]
+    ]
+  },
+  "fashion-outlets-niagara": {
+    mode: "prepend",
+    images: [
+      ["https://assets.macerichepicenter.com/FileManager/Property/Promotions/Content/FashionOutletsNiagara/Corridor_Niagara_Falls_LowRes1%20(1).jpg", "https://www.fashionoutletsniagara.com/", "Fashion Outlets of Niagara Falls USA", "The central shopping corridor inside Fashion Outlets of Niagara Falls USA"],
+      ["https://assets.macerichepicenter.com/FileManager/Property/Promotions/Primary/_shared/Shopping_BagsAndTexting_1230x640.jpg", "https://www.fashionoutletsniagara.com/", "Fashion Outlets of Niagara Falls USA", "Shopping campaign image used by the outlet center"]
+    ]
+  },
+  "whirlpool-jet-boat": {
+    mode: "append",
+    images: [
+      ["https://whirlpooljet.com/wp-content/uploads/2023/02/Lewiston-location-1024x614.jpg", "https://whirlpooljet.com/get-wet/get-wet-usa/", "Whirlpool Jet Boat Tours", "Whirlpool Jet Boat Tours' Lewiston departure on the Niagara River"]
+    ]
+  },
   "magic-wings": {
     mode: "prepend",
     images: [

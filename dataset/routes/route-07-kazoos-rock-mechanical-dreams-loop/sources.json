@@ -1,32 +1,8 @@
 {
   "schema_version": "1.0.0",
   "route_id": "route-07",
-  "verified_at": "2026-08-24",
+  "verified_at": "2026-08-31",
   "sources": [
-    {
-      "id": "src-springfield",
-      "title": "Springfield Museums - hours and admission",
-      "source_type": "official",
-      "url": "https://springfieldmuseums.org/hours-and-admission/",
-      "verified_at": "2026-08-24",
-      "claims": [
-        "Sunday hours",
-        "five-museum ticket",
-        "adult admission"
-      ]
-    },
-    {
-      "id": "src-armory",
-      "title": "National Park Service - Springfield Armory hours",
-      "source_type": "government",
-      "url": "https://www.nps.gov/spar/planyourvisit/hours.htm",
-      "verified_at": "2026-08-24",
-      "claims": [
-        "Sunday operation",
-        "free access",
-        "visitor hours"
-      ]
-    },
     {
       "id": "src-cohoes",
       "title": "City of Cohoes - Falls View Park",
@@ -52,18 +28,6 @@
       ]
     },
     {
-      "id": "src-saratoga-auto",
-      "title": "Saratoga Automobile Museum - plan your visit",
-      "source_type": "official",
-      "url": "https://www.saratogaautomuseum.org/plan-your-visit",
-      "verified_at": "2026-08-24",
-      "claims": [
-        "October Monday hours",
-        "adult admission",
-        "parking and exhibit-change warning"
-      ]
-    },
-    {
       "id": "src-boxing",
       "title": "International Boxing Hall of Fame - plan your visit",
       "source_type": "official",
@@ -73,18 +37,6 @@
         "Tuesday hours",
         "adult admission",
         "museum location"
-      ]
-    },
-    {
-      "id": "src-chittenango",
-      "title": "New York State Parks - Chittenango Falls",
-      "source_type": "government",
-      "url": "https://parks.ny.gov/parks/chittenangofalls/getting-there.aspx",
-      "verified_at": "2026-08-24",
-      "claims": [
-        "sunrise-sunset access",
-        "167-foot waterfall",
-        "trail lengths and seasonal fees"
       ]
     },
     {
@@ -112,30 +64,6 @@
       ]
     },
     {
-      "id": "src-rmsc",
-      "title": "Rochester Museum & Science Center - hours and admission",
-      "source_type": "official",
-      "url": "https://rmsc.org/museum-science-center/hours-admission/",
-      "verified_at": "2026-08-24",
-      "claims": [
-        "Wednesday hours",
-        "adult admission",
-        "school-year schedule"
-      ]
-    },
-    {
-      "id": "src-rmsc-tesla",
-      "title": "RMSC - Electricity Theater",
-      "source_type": "official",
-      "url": "https://rmsc.org/exhibits/electricity-theater/",
-      "verified_at": "2026-08-24",
-      "claims": [
-        "twin six-foot Tesla coils",
-        "show format",
-        "included admission"
-      ]
-    },
-    {
       "id": "src-kazoo",
       "title": "Original American Kazoo Company",
       "source_type": "official",
@@ -145,30 +73,6 @@
         "Thursday factory operation",
         "self-guided tour",
         "make-a-kazoo experience"
-      ]
-    },
-    {
-      "id": "src-trec",
-      "title": "Pennsylvania DCNR - Tom Ridge Environmental Center",
-      "source_type": "government",
-      "url": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/presque-isle-state-park/trec",
-      "verified_at": "2026-08-24",
-      "claims": [
-        "October daily hours",
-        "free exhibits",
-        "observation tower"
-      ]
-    },
-    {
-      "id": "src-erie-maritime",
-      "title": "Erie Maritime Museum - visit",
-      "source_type": "official",
-      "url": "https://www.eriemaritimemuseum.org/admission",
-      "verified_at": "2026-08-24",
-      "claims": [
-        "museum access",
-        "paid admission",
-        "exact-date confirmation requirement"
       ]
     },
     {
@@ -220,18 +124,6 @@
       ]
     },
     {
-      "id": "src-crawford",
-      "title": "Western Reserve Historical Society - Cleveland History Center",
-      "source_type": "official",
-      "url": "https://www.wrhs.org/plan-visit/places-to-visit/cleveland-history-center",
-      "verified_at": "2026-08-24",
-      "claims": [
-        "Friday hours",
-        "Crawford collection",
-        "admission"
-      ]
-    },
-    {
       "id": "src-cma",
       "title": "Cleveland Museum of Art - plan your visit",
       "source_type": "official",
@@ -241,30 +133,6 @@
         "Saturday hours",
         "free general admission",
         "visitor access"
-      ]
-    },
-    {
-      "id": "src-lakeview",
-      "title": "Lake View Cemetery - visitor information",
-      "source_type": "official",
-      "url": "https://www.lakeviewcemetery.com/",
-      "verified_at": "2026-08-24",
-      "claims": [
-        "public historic landscape",
-        "active-cemetery context",
-        "same-day gate confirmation"
-      ]
-    },
-    {
-      "id": "src-haserot",
-      "title": "Cleveland Historical - Lake View and Haserot Angel",
-      "source_type": "university-local-history",
-      "url": "https://clevelandhistorical.org/items/show/76",
-      "verified_at": "2026-08-24",
-      "claims": [
-        "Angel identification",
-        "garden-cemetery history",
-        "visitor context"
       ]
     },
     {
@@ -303,18 +171,6 @@
       ]
     },
     {
-      "id": "src-old-bedford",
-      "title": "Bedford County Chamber - Old Bedford Village",
-      "source_type": "local-tourism",
-      "url": "https://members.bedfordcountychamber.com/list/member/old-bedford-village-bedford-1492",
-      "verified_at": "2026-08-24",
-      "claims": [
-        "October Sunday hours",
-        "historic village",
-        "seasonal access"
-      ]
-    },
-    {
       "id": "src-mack",
       "title": "Mack Trucks Historical Museum",
       "source_type": "official",
@@ -327,18 +183,6 @@
       ]
     },
     {
-      "id": "src-fish-hatchery",
-      "title": "City of Allentown Parks - Fish Hatchery",
-      "source_type": "government",
-      "url": "https://allentownpa.myrec.com/info/facilities/details.aspx?FacilityID=14801",
-      "verified_at": "2026-08-24",
-      "claims": [
-        "public facility",
-        "exact address",
-        "outdoor access"
-      ]
-    },
-    {
       "id": "src-uncle-sam",
       "title": "Danbury Railway Museum - World's Tallest Uncle Sam",
       "source_type": "official",
@@ -348,18 +192,6 @@
         "38-foot statue",
         "Great Danbury Fair history",
         "parking-lot location"
-      ]
-    },
-    {
-      "id": "src-danbury-fair",
-      "title": "Danbury Fair - hours and services",
-      "source_type": "official",
-      "url": "https://www.danburyfairmall.com/hours",
-      "verified_at": "2026-08-24",
-      "claims": [
-        "Tuesday mall hours",
-        "carousel service listing",
-        "retail fallback"
       ]
     },
     {
@@ -387,39 +219,6 @@
       ]
     },
     {
-      "id": "src-harvard",
-      "title": "Harvard Art Museums - visit",
-      "source_type": "official",
-      "url": "https://harvardartmuseums.org/visit",
-      "verified_at": "2026-08-24",
-      "claims": [
-        "Wednesday hours",
-        "free admission",
-        "Calderwood Courtyard"
-      ]
-    },
-    {
-      "id": "src-noaa-normals",
-      "title": "NOAA U.S. Climate Normals",
-      "source_type": "government",
-      "url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
-      "verified_at": "2026-08-24",
-      "claims": [
-        "1991-2020 normals methodology"
-      ]
-    },
-    {
-      "id": "src-osrm",
-      "title": "Open Source Routing Machine",
-      "source_type": "routing",
-      "url": "https://project-osrm.org/",
-      "verified_at": "2026-08-24",
-      "claims": [
-        "road-network baselines",
-        "no live traffic"
-      ]
-    },
-    {
       "id": "src-forum-upstate",
       "title": "r/upstate_new_york local hidden-gem discussions",
       "source_type": "forum",
@@ -442,6 +241,417 @@
         "Lake View cross-check",
         "Cleveland pacing"
       ]
+    },
+    {
+      "id": "r07x-mgm-springfield-art",
+      "title": "MGM Springfield Art & Salvaged-Architecture Walk official or public-authority source",
+      "source_type": "official",
+      "url": "https://mgmspringfield.mgmresorts.com/en/amenities/art-collection.html",
+      "verified_at": "2026-08-30",
+      "claims": [
+        "public art collection",
+        "New England artists",
+        "reused wood and stone"
+      ]
+    },
+    {
+      "id": "r07x-peebles-island",
+      "title": "Peebles Island River-Rapids Loop official or public-authority source",
+      "source_type": "government",
+      "url": "https://parks.ny.gov/visit/state-parks/peebles-island-state-park",
+      "verified_at": "2026-08-30",
+      "claims": [
+        "sunrise-sunset",
+        "free vehicle entrance",
+        "river and rapids views"
+      ]
+    },
+    {
+      "id": "r07x-empac",
+      "title": "EMPAC — The Cedar Hull official or public-authority source",
+      "source_type": "official",
+      "url": "https://empac.rpi.edu/visit/",
+      "verified_at": "2026-08-30",
+      "claims": [
+        "Monday-Friday 9am-5pm",
+        "public lobby",
+        "50 8th Street"
+      ]
+    },
+    {
+      "id": "r07x-troy-architecture",
+      "title": "Downtown Troy: Pediments, Brackets & Bays official or public-authority source",
+      "source_type": "official",
+      "url": "https://www.hartcluett.org/events/walkingtourarchitectureoctober",
+      "verified_at": "2026-08-30",
+      "claims": [
+        "Federal through Italianate architecture",
+        "historic-district streets and alleys"
+      ]
+    },
+    {
+      "id": "r07x-niagara-mohawk",
+      "title": "Niagara Mohawk Art Deco Night Facade official or public-authority source",
+      "source_type": "government",
+      "url": "https://www.nps.gov/articles/niagara-hudson-building-ny.htm",
+      "verified_at": "2026-08-30",
+      "claims": [
+        "1932 headquarters",
+        "Art Deco design",
+        "exterior landmark"
+      ]
+    },
+    {
+      "id": "r07x-rundel-library",
+      "title": "Rundel Memorial Library — Secret Rooms official or public-authority source",
+      "source_type": "official",
+      "url": "https://roccitylibrary.org/location/central/",
+      "verified_at": "2026-08-30",
+      "claims": [
+        "Wednesday 9am-7pm",
+        "1936 Rundel building",
+        "public access"
+      ]
+    },
+    {
+      "id": "r07x-warner-sunken-garden",
+      "title": "Warner Castle Sunken Garden official or public-authority source",
+      "source_type": "government",
+      "url": "https://www.monroecounty.gov/parks-highland",
+      "verified_at": "2026-08-30",
+      "claims": [
+        "Highland Park public grounds",
+        "Warner Castle and Sunken Garden"
+      ]
+    },
+    {
+      "id": "r07x-erie-land-lighthouse",
+      "title": "Erie Land Lighthouse Grounds official or public-authority source",
+      "source_type": "official",
+      "url": "https://www.presqueislelighthouse.org/learn/erie-land-lighthouse",
+      "verified_at": "2026-08-30",
+      "claims": [
+        "historic Erie Land Lighthouse",
+        "public exterior grounds"
+      ]
+    },
+    {
+      "id": "r07x-brandywine-falls",
+      "title": "Brandywine Falls Boardwalk official or public-authority source",
+      "source_type": "government",
+      "url": "https://www.nps.gov/cuva/learn/historyculture/brandywine-falls.htm",
+      "verified_at": "2026-08-30",
+      "claims": [
+        "Brandywine Falls",
+        "boardwalk and gorge trail",
+        "busy parking area"
+      ]
+    },
+    {
+      "id": "r07x-bedford-architecture",
+      "title": "Fort Bedford & Juliana Street Walk official or public-authority source",
+      "source_type": "official",
+      "url": "https://discoverbedfordcounty.com/wp-content/uploads/2023/10/Lincoln_Highway_Driving_Tour.pdf",
+      "verified_at": "2026-08-30",
+      "claims": [
+        "Bedford historic stops",
+        "Lincoln Highway architecture",
+        "self-guided route"
+      ]
+    },
+    {
+      "id": "r07x-lehigh-parkway",
+      "title": "Lehigh Parkway & Bogert's Covered Bridge official or public-authority source",
+      "source_type": "government",
+      "url": "https://www.allentownpa.gov/Government/Departments/Parks-Recreation/Parks-Capital-Projects",
+      "verified_at": "2026-08-30",
+      "claims": [
+        "Bogert's Covered Bridge",
+        "Lehigh Parkway public project"
+      ]
+    },
+    {
+      "id": "r07x-trinity-boston",
+      "title": "Trinity Church Boston official or public-authority source",
+      "source_type": "official",
+      "url": "https://trinitychurchboston.org/tours/",
+      "verified_at": "2026-08-30",
+      "claims": [
+        "self-guided and audio tours",
+        "stained glass and murals"
+      ]
+    },
+    {
+      "id": "r07x-modica-way",
+      "title": "Modica Way — Graffiti Alley official or public-authority source",
+      "source_type": "government",
+      "url": "https://www.cambridgema.gov/digital/stories/2024/thecambridgelifefall2024/photoofgraffitialleyselectedfor2024residentparkingpermitsticker",
+      "verified_at": "2026-08-30",
+      "claims": [
+        "80-foot changing graffiti corridor",
+        "24-hour open-air gallery",
+        "Central Square landmark"
+      ]
+    },
+    {
+      "id": "src-v7-naismith",
+      "title": "Naismith Memorial Basketball Hall of Fame",
+      "source_type": "official",
+      "url": "https://www.hoophall.com/plan-your-experience/",
+      "claims": [
+        "daily hours",
+        "$34 adult",
+        "Center Court"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v7-empac",
+      "title": "EMPAC Visit",
+      "source_type": "official",
+      "url": "https://www.empac.rpi.edu/visit",
+      "claims": [
+        "weekday public access",
+        "building and acoustics"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v7-lock-e20",
+      "title": "New York State Canal Corporation",
+      "source_type": "government",
+      "url": "https://www.canals.ny.gov/",
+      "claims": [
+        "Lock E20",
+        "2026 navigation season"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v7-five-wits",
+      "title": "5 Wits Syracuse",
+      "source_type": "official",
+      "url": "https://5-wits.com/syracuse/",
+      "claims": [
+        "immersive adventure format",
+        "live booking required"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v7-strong",
+      "title": "The Strong National Museum of Play",
+      "source_type": "official",
+      "url": "https://www.museumofplay.org/",
+      "claims": [
+        "play-first exhibits",
+        "admission floor"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v7-high-falls",
+      "title": "City of Rochester High Falls",
+      "source_type": "government",
+      "url": "https://www.cityofrochester.gov/departments/bureau-communications/high-falls",
+      "claims": [
+        "High Falls district",
+        "Pont de Rennes"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v7-riverworks",
+      "title": "Buffalo RiverWorks Adventures",
+      "source_type": "official",
+      "url": "https://buffaloriverworks.com/adventure/",
+      "claims": [
+        "racing zipline",
+        "$45 full course",
+        "safety gates"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v7-presque-isle",
+      "title": "Pennsylvania DCNR — Presque Isle",
+      "source_type": "government",
+      "url": "https://www.dcnr.pa.gov/StateParks/FindAPark/PresqueIsleStatePark/",
+      "claims": [
+        "park access",
+        "Great Lakes weather"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v7-rockhall",
+      "title": "Rock & Roll Hall of Fame",
+      "source_type": "official",
+      "url": "https://rockhall.com/visit/",
+      "claims": [
+        "Garage",
+        "current operation",
+        "admission planning price"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v7-superelectric",
+      "title": "Superelectric Pinball Parlor",
+      "source_type": "official",
+      "url": "https://www.superelectric.tv/",
+      "claims": [
+        "all-you-can-play format",
+        "$8 admission"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v7-rays",
+      "title": "Ray's Indoor Mountain Bike Park",
+      "source_type": "official",
+      "url": "https://raysmtb.com/",
+      "claims": [
+        "Oct. 2 regular season",
+        "weekend admission",
+        "rental price"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v7-st-nicholas",
+      "title": "St. Nicholas Greek Orthodox Cathedral",
+      "source_type": "official",
+      "url": "https://www.stnickspgh.org/",
+      "claims": [
+        "Sunday Orthros",
+        "Divine Liturgy"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v7-carrie-graffiti",
+      "title": "Rivers of Steel — Hands-On Graffiti",
+      "source_type": "official",
+      "url": "https://riversofsteel.com/experiences/hands-on-graffiti/",
+      "claims": [
+        "Oct. 11 12:30",
+        "$35",
+        "15-person cap"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v7-pike2bike",
+      "title": "Pike2Bike",
+      "source_type": "official-trail",
+      "url": "https://www.pike2bike.com/",
+      "claims": [
+        "dawn to dusk",
+        "headlamps",
+        "trail rules"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v7-hershey",
+      "title": "Hershey's Chocolate World",
+      "source_type": "official",
+      "url": "https://www.chocolateworld.com/create-your-own-candy-bar.html",
+      "claims": [
+        "45-minute activity",
+        "$29.95 starting price"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v7-martin",
+      "title": "C. F. Martin & Co. Visit Us",
+      "source_type": "official",
+      "url": "https://www.martinguitar.com/visit-us.html",
+      "claims": [
+        "weekday factory tour",
+        "$10",
+        "preregistration"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v7-pocono",
+      "title": "Pocono Premium Outlets",
+      "source_type": "official",
+      "url": "https://www.premiumoutlets.com/outlet/pocono",
+      "claims": [
+        "roughly 100 stores",
+        "address"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v7-raymondskill",
+      "title": "National Park Service — Raymondskill Creek Trail",
+      "source_type": "government",
+      "url": "https://www.nps.gov/dewa/planyourvisit/raymondskill-creek-trail.htm",
+      "claims": [
+        "steep uneven trail",
+        "waterfall context"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v7-westville",
+      "title": "USACE — Westville Lake",
+      "source_type": "government",
+      "url": "https://www.nae.usace.army.mil/Missions/Recreation/Westville-Lake/",
+      "claims": [
+        "recreation area",
+        "trail access"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v7-f1",
+      "title": "F1 Arcade Boston",
+      "source_type": "official",
+      "url": "https://f1arcade.com/us/boston",
+      "claims": [
+        "Wednesday hours",
+        "Team Racing for 4-18",
+        "four races per driver"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v7-herschell",
+      "title": "Herschell Carrousel Factory Museum",
+      "source_type": "official",
+      "url": "https://www.carrouselmuseum.org/",
+      "claims": [
+        "factory museum",
+        "carousel ride"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v7-escape-city",
+      "title": "Escape City Buffalo",
+      "source_type": "official",
+      "url": "https://escapecitybuffalo.com/",
+      "claims": [
+        "The Hangover room"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-v7-perplexity",
+      "title": "Perplexity Games",
+      "source_type": "official",
+      "url": "https://www.perplexitygames.com/",
+      "claims": [
+        "Eliot Ness",
+        "Clockwork Caper"
+      ],
+      "verified_at": "2026-08-31"
     }
   ]
 }
