@@ -1,0 +1,433 @@
+{
+  "schema_version": "1.0.0",
+  "source_document": "WinnerRoute_Sleepovers_Existing_Research_Remap.md",
+  "research_checked": "2026-09-04",
+  "nights": [
+    {
+      "day": 1,
+      "wire_key": "winner-route-night-01",
+      "research_status": "exact-anchor-exact-date",
+      "requires_new_research": false,
+      "notes": "Exact Newport-area research for four adults on October 4.",
+      "suggestions": [
+        {
+          "id": "east-island-reserve",
+          "tier": "normal",
+          "name": "The East Island Reserve Hotel",
+          "location": "Middletown / Newport, RI",
+          "price_label": "~$233 group · ~$58 pp",
+          "price_status": "exact-date context",
+          "capacity": "4 adults",
+          "route_fit": "exact-anchor",
+          "status": "exact-date-checked",
+          "summary": "Strong Newport/Middletown base. Exact-date four-adult Expedia result checked September 1.",
+          "booking_url": null
+        },
+        {
+          "id": "harbor-base-pineapple-inn",
+          "tier": "budget",
+          "name": "Harbor Base Pineapple Inn",
+          "location": "Newport area, RI",
+          "price_label": "~$102 group · ~$26 pp",
+          "price_status": "exact-date context",
+          "capacity": "4 adults",
+          "route_fit": "exact-anchor",
+          "status": "exact-date-checked",
+          "summary": "The strongest existing low-cost Newport candidate. Exact-date search checked September 1.",
+          "booking_url": null
+        },
+        {
+          "id": "waterlily-newport",
+          "tier": "wtf",
+          "name": "Waterlily — Floating Newport Harbor Stay",
+          "location": "Newport Harbor near Fort Adams",
+          "price_label": "Exact quote required",
+          "price_status": "calendar-gated",
+          "capacity": "4 adults · 2 bedrooms",
+          "route_fit": "exact-anchor",
+          "status": "calendar-gated",
+          "wtf_score": 4.5,
+          "summary": "Private boat stay with multiple decks and a swim platform, directly aligned with the Newport night.",
+          "booking_url": null
+        },
+        {
+          "id": "rose-island-lighthouse",
+          "tier": "dream",
+          "name": "Rose Island Lighthouse",
+          "location": "Rose Island, Newport Harbor",
+          "price_label": "Availability required",
+          "price_status": "dream swap",
+          "capacity": "Confirm for 4 adults",
+          "route_fit": "schedule-conflict",
+          "status": "dream-swap-only",
+          "wtf_score": 5,
+          "summary": "Boat-only, off-grid lighthouse stay on an 18-acre island.",
+          "warning": "The researched noon transfer conflicts with Day 1. Keep as a dream swap, not the default.",
+          "booking_url": null
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "wire_key": "winner-route-night-02",
+      "research_status": "exact-anchor-exact-date",
+      "requires_new_research": false,
+      "notes": "Exact New Haven night after Beinecke, with one directionally useful inland alternative.",
+      "suggestions": [
+        {
+          "id": "new-haven-hotel-oct-05",
+          "tier": "normal",
+          "name": "New Haven Hotel",
+          "location": "New Haven, CT",
+          "price_label": "~$215 group · ~$54 pp",
+          "price_status": "exact-date context",
+          "capacity": "4 adults",
+          "route_fit": "exact-anchor",
+          "status": "exact-date-checked",
+          "summary": "The cleanest geographic match after the 18:25 Beinecke finish.",
+          "booking_url": null
+        },
+        {
+          "id": "motel-6-branford",
+          "tier": "budget",
+          "name": "Motel 6 New Haven–Branford",
+          "location": "Branford, CT",
+          "price_label": "~$82 group · ~$21 pp",
+          "price_status": "exact-date context",
+          "capacity": "4 adults",
+          "route_fit": "near-anchor",
+          "status": "exact-date-checked",
+          "summary": "Existing extreme-budget option for the correct night and New Haven corridor.",
+          "booking_url": null
+        },
+        {
+          "id": "winvian-woodlands-cottage",
+          "tier": "wtf",
+          "name": "Woodlands Cottage at Winvian Farm",
+          "location": "Morris, CT",
+          "price_label": "Direct quote required",
+          "price_status": "not an exact quote",
+          "capacity": "Researched for 4 adults",
+          "route_fit": "directionally-useful-detour",
+          "status": "direct-quote-required",
+          "wtf_score": 4.25,
+          "summary": "A forest cottage with a tree-integrated interior and indoor-waterfall bathroom.",
+          "warning": "Inland from New Haven, but directionally useful for Woodbury the following morning.",
+          "booking_url": null
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "wire_key": "winner-route-night-03",
+      "research_status": "gap",
+      "requires_new_research": true,
+      "notes": "No defensible Central Valley / Woodbury Common set exists in the prior research. Do not substitute Manhattan.",
+      "suggestions": []
+    },
+    {
+      "day": 4,
+      "wire_key": "winner-route-night-04",
+      "research_status": "gap",
+      "requires_new_research": true,
+      "notes": "No completed Parsippany three-tier set exists. Nearby NYC, Metuchen, Bensalem, and Poconos inventory is not an honest substitute.",
+      "suggestions": []
+    },
+    {
+      "day": 5,
+      "wire_key": "winner-route-night-05",
+      "research_status": "gap",
+      "requires_new_research": true,
+      "notes": "No complete Hershey set exists for October 8. Harrisburg, Lancaster, Bethlehem, and Winchester should not be relabeled as Hershey.",
+      "suggestions": []
+    },
+    {
+      "day": 6,
+      "wire_key": "winner-route-night-06",
+      "research_status": "exact-anchor-reprice-required",
+      "requires_new_research": false,
+      "notes": "Strong Washington properties carried from October 10 research; all prices and availability must be refreshed for October 9.",
+      "suggestions": [
+        {
+          "id": "fairfield-inn-dc",
+          "tier": "normal",
+          "name": "Fairfield Inn & Suites Washington, DC",
+          "location": "Washington, DC",
+          "price_label": "Old Oct 10: ~$259 group · ~$65 pp",
+          "price_status": "reprice for Oct 9",
+          "capacity": "4 adults",
+          "route_fit": "exact-anchor",
+          "status": "reprice-for-new-date",
+          "summary": "Valid property carry-over for the Washington sleep anchor; the displayed amount is context only.",
+          "booking_url": null
+        },
+        {
+          "id": "gateway-hotel-dc",
+          "tier": "budget",
+          "name": "Gateway Hotel",
+          "location": "Washington, DC",
+          "price_label": "Old Oct 10: ~$88 group · ~$22 pp",
+          "price_status": "reprice for Oct 9",
+          "capacity": "4 adults",
+          "route_fit": "exact-anchor",
+          "status": "reprice-for-new-date",
+          "summary": "Existing budget carry-over. Price and room configuration need a fresh October 9 check.",
+          "booking_url": null
+        },
+        {
+          "id": "co-canal-lockhouse-10",
+          "tier": "wtf",
+          "name": "C&O Canal Lockhouse 10",
+          "location": "Cabin John, MD / Washington area",
+          "price_label": "Published model: ~$255 group · ~$64 pp",
+          "price_status": "check Oct 9 calendar",
+          "capacity": "Sleeps up to 8",
+          "route_fit": "near-anchor",
+          "status": "calendar-check-required",
+          "wtf_score": 4.5,
+          "summary": "A rehabilitated lockkeeper’s house beside the C&O towpath with kitchen, plumbing, HVAC, and shower.",
+          "booking_url": null
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "wire_key": "winner-route-night-07",
+      "research_status": "exact-date-anchor-mismatch",
+      "requires_new_research": false,
+      "notes": "Exact-date Richmond-area options, not exact Ashland properties. Check the Hotel Greene → stay → northbound route impact.",
+      "suggestions": [
+        {
+          "id": "hampton-richmond-innsbrook",
+          "tier": "normal",
+          "name": "Hampton Inn Richmond West Innsbrook",
+          "location": "10800 W Broad St, Glen Allen, VA",
+          "price_label": "$133 group · $33.25 pp",
+          "price_status": "exact-date context",
+          "capacity": "4 adults · 2 queen beds",
+          "guest_rating": "8.2/10",
+          "route_fit": "richmond-area-not-ashland",
+          "status": "exact-date-checked",
+          "summary": "Good prior guest signal and practical four-adult room; confirm both rental cars.",
+          "warning": "This keeps the group in Glen Allen rather than completing the Ashland reposition.",
+          "booking_url": "https://www.expedia.com/.h1326.Hotel-Information?chkin=2026-10-10&chkout=2026-10-11&rm1=a4&SEOCID=U.HOTEL.OPENAI-MICROAPP",
+          "source_url": "https://www.booking.com/hotel/us/hampton-inn-richmond-west.html"
+        },
+        {
+          "id": "motel-6-sandston",
+          "tier": "budget",
+          "name": "Motel 6 Sandston, VA – Richmond",
+          "location": "5704 Williamsburg Rd, Sandston, VA",
+          "price_label": "$81 group · $20.25 pp",
+          "price_status": "exact-date context",
+          "capacity": "4 adults · 2 full beds to reconfirm",
+          "route_fit": "richmond-area-not-ashland",
+          "status": "configuration-recheck-required",
+          "summary": "Lowest-cost existing Richmond-area candidate; recent cleanliness and smoke reviews need rereading.",
+          "warning": "Geographically less aligned with Ashland than a north-Richmond property.",
+          "booking_url": "https://www.expedia.com/.h996383.Hotel-Information?chkin=2026-10-10&chkout=2026-10-11&rm1=a4&SEOCID=U.HOTEL.OPENAI-MICROAPP",
+          "source_url": "https://www.studio6.com/property/motel-sandston-virginia-us-293591/"
+        },
+        {
+          "id": "trailside-treehouse",
+          "tier": "wtf",
+          "name": "Trailside Treehouse",
+          "location": "5005 Riverside Dr, Richmond, VA",
+          "price_label": "Exact quote required",
+          "price_status": "calendar-gated",
+          "capacity": "4 adults · 2 driveway spaces",
+          "route_fit": "route-impact",
+          "status": "calendar-gated",
+          "wtf_score": 4.8,
+          "summary": "A two-story architect-designed treehouse above a wooded James River gully.",
+          "warning": "Pulls the overnight back into Richmond instead of north to Ashland.",
+          "booking_url": "https://www.trailsidetreehouse.com/book-now",
+          "source_url": "https://www.airbnb.com/rooms/20724950"
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "wire_key": "winner-route-night-08",
+      "research_status": "partial-nearby-only",
+      "requires_new_research": true,
+      "notes": "Only same-date Annapolis fallbacks exist. They are visible for comparison but remain non-default because they backtrack south from White Marsh.",
+      "suggestions": [
+        {
+          "id": "doubletree-annapolis",
+          "tier": "nearby-normal",
+          "name": "DoubleTree by Hilton Hotel Annapolis",
+          "location": "Annapolis, MD",
+          "price_label": "$154 group · $38.50 pp",
+          "price_status": "exact-date context",
+          "capacity": "4 adults · 2 queen beds",
+          "guest_rating": "8.8/10",
+          "route_fit": "fallback-only-wrong-direction",
+          "status": "fallback-only",
+          "summary": "Free onsite parking was published; capacity and date were checked.",
+          "warning": "Not a White Marsh default: this backtracks south.",
+          "booking_url": null
+        },
+        {
+          "id": "best-western-annapolis",
+          "tier": "nearby-budget",
+          "name": "Best Western Annapolis",
+          "location": "Annapolis, MD",
+          "price_label": "$130 group · $32.50 pp",
+          "price_status": "exact-date context",
+          "capacity": "4 adults · 2 queen beds",
+          "guest_rating": "7.8/10",
+          "route_fit": "fallback-only-wrong-direction",
+          "status": "fallback-only",
+          "summary": "Same-date budget fallback with published free parking.",
+          "warning": "Not a White Marsh default: this backtracks south.",
+          "booking_url": null
+        },
+        {
+          "id": "kathleen-marie-yacht",
+          "tier": "nearby-wtf",
+          "name": "Kathleen Marie — 43-ft Hatteras Yacht",
+          "location": "Eastport / Annapolis, MD",
+          "price_label": "Exact quote required",
+          "price_status": "calendar-gated",
+          "capacity": "4 adults · 2 bedrooms · 2 baths",
+          "route_fit": "fallback-only-wrong-direction",
+          "status": "fallback-only",
+          "wtf_score": 4.65,
+          "summary": "Docked motor yacht with galley, heat/AC, and hot water.",
+          "warning": "Wrong overnight direction; confirm parking for the second car.",
+          "booking_url": "https://www.vrbo.com/en-ca/cottage-rental/p1753807vb"
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "wire_key": "winner-route-night-09",
+      "research_status": "exact-anchor-gap-with-nearby-fallbacks",
+      "requires_new_research": true,
+      "notes": "No exact Robbinsville trio exists. These exact-date fallbacks sit north of the intended anchor and must remain fallback-only.",
+      "suggestions": [
+        {
+          "id": "garden-executive-south-plainfield",
+          "tier": "nearby-normal",
+          "name": "The Garden Executive Hotel",
+          "location": "101 New World Way, South Plainfield, NJ",
+          "price_label": "$100 group · $25 pp",
+          "price_status": "exact-date context",
+          "capacity": "4 adults · 2 double beds",
+          "guest_rating": "8.4/10",
+          "route_fit": "fallback-only-north-of-anchor",
+          "status": "fallback-only",
+          "summary": "The stronger nearby fallback; free parking advertised, with two cars still to confirm.",
+          "warning": "Pulls the sleep north of Robbinsville.",
+          "booking_url": "https://www.expedia.com/.h24399.Hotel-Information?chkin=2026-10-12&chkout=2026-10-13&rm1=a4&SEOCID=U.HOTEL.OPENAI-MICROAPP",
+          "source_url": "https://www.gardenexecutivehotel.com/rooms/standard-two-doubles-non-smoking"
+        },
+        {
+          "id": "motel-6-east-brunswick",
+          "tier": "nearby-budget",
+          "name": "Motel 6 East Brunswick",
+          "location": "244 Route 18, East Brunswick, NJ",
+          "price_label": "$96 group · $24 pp",
+          "price_status": "exact-date context",
+          "capacity": "4 adults · 2 full beds",
+          "guest_rating": "7.6/10",
+          "route_fit": "fallback-only-north-of-anchor",
+          "status": "fallback-only",
+          "summary": "Existing same-date budget fallback with free parking advertised.",
+          "warning": "Fallback only; exact Robbinsville research remains open.",
+          "booking_url": null
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "wire_key": "winner-route-night-10",
+      "research_status": "strong-reusable-inventory",
+      "requires_new_research": false,
+      "notes": "The strongest existing mix: exact New Haven anchor inventory plus exact-date nearby Connecticut choices.",
+      "suggestions": [
+        {
+          "id": "new-haven-hotel-oct-13",
+          "tier": "normal",
+          "name": "New Haven Hotel",
+          "location": "New Haven, CT",
+          "price_label": "Old Oct 5: ~$215 group · ~$54 pp",
+          "price_status": "reprice for Oct 13",
+          "capacity": "4 adults",
+          "route_fit": "exact-anchor",
+          "status": "reprice-for-new-date",
+          "summary": "Best geographic match; retain the property but obtain a fresh October 13 rate.",
+          "booking_url": null
+        },
+        {
+          "id": "circle-hotel-fairfield",
+          "tier": "normal-backup",
+          "name": "The Circle Hotel Fairfield",
+          "location": "417 Post Rd, Fairfield, CT",
+          "price_label": "$156 group · $39 pp",
+          "price_status": "exact-date context",
+          "capacity": "4 adults · 2 queen beds",
+          "guest_rating": "9.0/10",
+          "route_fit": "exact-date-west-of-anchor",
+          "status": "backup-only",
+          "summary": "Strong exact-date guest signal and free parking advertised.",
+          "warning": "West of New Haven, so it is less exact than the intended sleep anchor.",
+          "booking_url": "https://www.expedia.com/.h9816438.Hotel-Information?chkin=2026-10-13&chkout=2026-10-14&rm1=a4&SEOCID=U.HOTEL.OPENAI-MICROAPP"
+        },
+        {
+          "id": "red-roof-milford",
+          "tier": "budget",
+          "name": "Red Roof Inn Milford – New Haven",
+          "location": "10 Rowe Ave, Milford, CT",
+          "price_label": "$114 group · $28.50 pp",
+          "price_status": "exact-date context",
+          "capacity": "4 adults · 2 full beds",
+          "guest_rating": "7.2/10",
+          "route_fit": "near-anchor",
+          "status": "booking-ready-with-age-check",
+          "summary": "Exact-night corridor option with free onsite parking; confirm minimum check-in age.",
+          "booking_url": "https://www.expedia.com/.h7188.Hotel-Information?chkin=2026-10-13&chkout=2026-10-14&rm1=a4&SEOCID=U.HOTEL.OPENAI-MICROAPP"
+        },
+        {
+          "id": "winvian-treehouse",
+          "tier": "wtf",
+          "name": "Winvian Farm Treehouse Cottage",
+          "location": "Morris, CT",
+          "price_label": "Direct quote required",
+          "price_status": "exact-date availability required",
+          "capacity": "Maximum 4 adults",
+          "route_fit": "inland-detour",
+          "status": "direct-quote-required",
+          "wtf_score": 4.9,
+          "summary": "A dedicated two-story luxury treehouse suspended roughly 35 feet in the canopy.",
+          "warning": "Inland detour, though Day 11 continues north toward Massachusetts.",
+          "booking_url": "https://www.winvian.com/rooms/treehouse/"
+        },
+        {
+          "id": "greens-ledge-lighthouse",
+          "tier": "dream",
+          "name": "Greens Ledge Lighthouse",
+          "location": "Long Island Sound, CT",
+          "price_label": "Published context: from ~$3,500 group",
+          "price_status": "availability and transfer required",
+          "capacity": "Up to 6 · 3 bedrooms",
+          "route_fit": "major-route-impact",
+          "status": "dream-swap-only",
+          "wtf_score": 5,
+          "summary": "An active seven-floor cast-iron lighthouse on its own tiny offshore island.",
+          "warning": "Adds boat-transfer and two-car parking logistics before the final northbound day.",
+          "booking_url": null
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "wire_key": "winner-route-night-11",
+      "research_status": "gap",
+      "requires_new_research": true,
+      "notes": "No prior Boston / Logan-compatible set exists for October 14. This is a newly added airport-buffer night.",
+      "suggestions": []
+    }
+  ]
+}

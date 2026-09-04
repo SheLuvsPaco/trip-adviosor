@@ -1,0 +1,585 @@
+{
+  "schema_version": "1.0.0",
+  "route_id": "route-12",
+  "sources": [
+    {
+      "id": "src-final-r01-energy-level99",
+      "title": "Level99 Providence",
+      "source_type": "official",
+      "url": "https://www.level99.com/providence-ri",
+      "verified_at": "2026-08-31",
+      "claims": [
+        "location",
+        "gameplay",
+        "hours",
+        "reservations"
+      ]
+    },
+    {
+      "id": "src-final-r01-newport-car",
+      "publisher": "Visit Rhode Island",
+      "type": "official-tourism",
+      "url": "https://www.visitrhodeisland.com/listing/newport-car-museum/8931/",
+      "supports": [
+        "daily hours",
+        "address",
+        "100-plus car collection",
+        "gallery and parking information"
+      ]
+    },
+    {
+      "id": "src-final-r01-energy-it-ropes",
+      "title": "It Adventure Ropes Course",
+      "source_type": "official",
+      "url": "https://itatjordans.squarespace.com/contact",
+      "verified_at": "2026-08-31",
+      "claims": [
+        "address",
+        "Monday hours",
+        "course access"
+      ]
+    },
+    {
+      "id": "src-final-r01-woodbury",
+      "publisher": "Simon Property Group",
+      "type": "official",
+      "url": "https://www.premiumoutlets.com/outlet/woodbury-common/about",
+      "supports": [
+        "address",
+        "parking",
+        "250+ stores",
+        "retail mix"
+      ]
+    },
+    {
+      "id": "src-final-r01-paterson-hours",
+      "publisher": "National Park Service",
+      "type": "government",
+      "url": "https://www.nps.gov/pagr/planyourvisit/hours.htm",
+      "supports": [
+        "sunrise-to-sunset grounds",
+        "parking access",
+        "ranger schedule"
+      ]
+    },
+    {
+      "id": "src-final-r01-paterson-things",
+      "publisher": "National Park Service",
+      "type": "government",
+      "url": "https://www.nps.gov/pagr/planyourvisit/things2do.htm",
+      "supports": [
+        "Great Falls",
+        "raceway and mill history",
+        "self-guided activities"
+      ]
+    },
+    {
+      "id": "src-final-r01-energy-central-park-bike",
+      "title": "Central Park bicycle rental planning source",
+      "source_type": "operator",
+      "url": "https://www.unlimitedbiking.com/rentals/central-park-bike-rentals/",
+      "verified_at": "2026-08-31",
+      "claims": [
+        "October operation",
+        "rental equipment",
+        "location"
+      ]
+    },
+    {
+      "id": "src-final-r01-energy-high-line",
+      "title": "The High Line visitor information",
+      "source_type": "official",
+      "url": "https://www.thehighline.org/visit/",
+      "verified_at": "2026-08-31",
+      "claims": [
+        "hours",
+        "access",
+        "park route"
+      ]
+    },
+    {
+      "id": "src-final-r01-brooklyn-park",
+      "publisher": "Brooklyn Bridge Park",
+      "type": "official",
+      "url": "https://brooklynbridgepark.org/places-to-see/pier-1/",
+      "supports": [
+        "Pier 1 access",
+        "viewpoint"
+      ]
+    },
+    {
+      "id": "src-final-r01-st-nicholas-dc",
+      "publisher": "Orthodox Church in America",
+      "type": "official-church-directory",
+      "url": "https://www.oca.org/parishes/oca-wa-wdcsnk",
+      "supports": [
+        "address",
+        "9 AM English Divine Liturgy",
+        "10:45 AM Slavonic Divine Liturgy",
+        "visitor guidance"
+      ]
+    },
+    {
+      "id": "src-final-r01-energy-ministry",
+      "title": "Ministry of Awe",
+      "source_type": "official",
+      "url": "https://www.ministryofawe.com/",
+      "verified_at": "2026-08-31",
+      "claims": [
+        "hours",
+        "address",
+        "immersive format"
+      ]
+    },
+    {
+      "id": "src-final-r01-energy-baps",
+      "title": "BAPS Swaminarayan Akshardham visitor information",
+      "source_type": "official",
+      "url": "https://usa.akshardham.org/visit/",
+      "verified_at": "2026-08-31",
+      "claims": [
+        "hours",
+        "address",
+        "visitor etiquette"
+      ]
+    },
+    {
+      "id": "src-final-r01-old-sturbridge",
+      "title": "Old Sturbridge Village visitor information",
+      "source_type": "official",
+      "url": "https://www.osv.org/visit/",
+      "verified_at": "2026-08-31",
+      "claims": [
+        "Wednesday-Sunday fall hours",
+        "admission price",
+        "seasonal schedule"
+      ]
+    },
+    {
+      "id": "src-final-r01-energy-boda",
+      "title": "Boda Borg Boston",
+      "source_type": "official",
+      "url": "https://www.bodaborg.com/locations/boston/",
+      "verified_at": "2026-08-31",
+      "claims": [
+        "Wednesday hours",
+        "quests",
+        "price",
+        "shoe rule"
+      ]
+    },
+    {
+      "id": "src-final-r01-st-nicholas-wtc",
+      "publisher": "Saint Nicholas Greek Orthodox Church and National Shrine",
+      "type": "official",
+      "url": "https://church.stnicholaswtc.org/",
+      "supports": [
+        "public hours",
+        "address",
+        "Orthodox identity",
+        "service times"
+      ]
+    },
+    {
+      "id": "src-final-r01-energy-beat-bomb",
+      "title": "Beat The Bomb Brooklyn",
+      "source_type": "official",
+      "url": "https://www.beatthebomb.com/locations/brooklyn",
+      "verified_at": "2026-08-31",
+      "claims": [
+        "Wednesday operation",
+        "mission format",
+        "address",
+        "price"
+      ]
+    },
+    {
+      "id": "src-final-r01-energy-hawk",
+      "title": "Hawk Mountain visitor information",
+      "source_type": "official",
+      "url": "https://www.hawkmountain.org/visit/visiting-info/admission-hours",
+      "verified_at": "2026-08-31",
+      "claims": [
+        "hours",
+        "trail fee",
+        "autumn migration"
+      ]
+    },
+    {
+      "id": "src-final-r01-energy-cunningham",
+      "title": "Cunningham Falls State Park",
+      "source_type": "state-park",
+      "url": "https://dnr.maryland.gov/publiclands/pages/western/cunningham.aspx",
+      "verified_at": "2026-08-31",
+      "claims": [
+        "Houck Area",
+        "hours",
+        "capacity",
+        "fees"
+      ]
+    },
+    {
+      "id": "src-final-r01-lincoln",
+      "publisher": "National Park Service",
+      "type": "government",
+      "url": "https://www.nps.gov/linc/planyourvisit/index.htm",
+      "supports": [
+        "Lincoln Memorial access",
+        "visitor information"
+      ]
+    },
+    {
+      "id": "src-final-r01-elfreth",
+      "publisher": "Elfreth's Alley Museum",
+      "type": "official",
+      "url": "https://www.elfrethsalley.org/",
+      "supports": [
+        "historic alley context",
+        "museum information"
+      ]
+    },
+    {
+      "id": "src-final-r01-eastern-state-hours",
+      "publisher": "Eastern State Penitentiary",
+      "type": "official",
+      "url": "https://easternstate.org/historic-site/hours-of-operation",
+      "supports": [
+        "October hours",
+        "seasonal schedule"
+      ]
+    },
+    {
+      "id": "src-final-r01-eastern-state-cost",
+      "publisher": "Eastern State Penitentiary",
+      "type": "official",
+      "url": "https://easternstate.org/historic-site/know-before-you-go",
+      "supports": [
+        "online admission",
+        "visit duration",
+        "included programming"
+      ]
+    },
+    {
+      "id": "src-final-r03-pez",
+      "publisher": "PEZ Candy",
+      "type": "official",
+      "url": "https://us.pez.com/pages/pez-visitor-center-hours-and-location",
+      "supports": [
+        "Wednesday hours",
+        "admission",
+        "production viewing"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-final-r03-barker",
+      "publisher": "Barker Character, Comic and Cartoon Museum",
+      "type": "official",
+      "url": "https://www.barkermuseum.com/PlanYourVisit.aspx",
+      "supports": [
+        "2026 Wednesday hours",
+        "admission",
+        "collection access"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-final-r03-bmi",
+      "publisher": "Baltimore Museum of Industry",
+      "type": "official",
+      "url": "https://www.thebmi.org/visit/",
+      "supports": [
+        "Sunday hours",
+        "admission",
+        "public tours"
+      ],
+      "verified_at": "2026-08-23"
+    },
+    {
+      "id": "src-final-r05-pa-capitol",
+      "title": "Pennsylvania Department of General Services",
+      "source_type": "government",
+      "url": "https://www.pa.gov/agencies/dgs/visit-the-capitol-complex",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "weekday access",
+        "tour logistics"
+      ]
+    },
+    {
+      "id": "src-final-r05-harrisburg-river",
+      "title": "City of Harrisburg - Riverfront Park",
+      "source_type": "government",
+      "url": "https://harrisburg.recdesk.com/Community/Facility/Detail?facilityId=65",
+      "verified_at": "2026-08-23",
+      "claims": [
+        "public riverfront",
+        "Walnut Street Bridge plaza"
+      ]
+    },
+    {
+      "id": "src-final-r06-v6-reading-pagoda",
+      "publisher": "Reading Pagoda",
+      "type": "official",
+      "url": "https://www.readingpagoda.com/",
+      "supports": [
+        "grounds and restoration context"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-final-r07-v7-hershey",
+      "title": "Hershey's Chocolate World",
+      "source_type": "official",
+      "url": "https://www.chocolateworld.com/create-your-own-candy-bar.html",
+      "claims": [
+        "45-minute activity",
+        "$29.95 starting price"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-final-r07-v7-f1",
+      "title": "F1 Arcade Boston",
+      "source_type": "official",
+      "url": "https://f1arcade.com/us/boston",
+      "claims": [
+        "Wednesday hours",
+        "Team Racing for 4-18",
+        "four races per driver"
+      ],
+      "verified_at": "2026-08-31"
+    },
+    {
+      "id": "src-final-r07-r07x-trinity-boston",
+      "title": "Trinity Church Boston official or public-authority source",
+      "source_type": "official",
+      "url": "https://trinitychurchboston.org/tours/",
+      "verified_at": "2026-08-30",
+      "claims": [
+        "self-guided and audio tours",
+        "stained glass and murals"
+      ]
+    },
+    {
+      "id": "src-final-r08-v8-clueiq",
+      "publisher": "Clue IQ",
+      "type": "official",
+      "url": "https://www.clueiq.com/",
+      "supports": [
+        "Crane Manor 75 minutes",
+        "4-8 recommended players",
+        "multi-linear largest game",
+        "Best of Morty 2022-2025",
+        "$36-60 plus Maryland 10% admissions tax"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-final-r08-hotel-greene",
+      "title": "Hotel Greene - story and course",
+      "source_type": "official",
+      "url": "https://www.hotelgreene.com/story",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "fictional 1930s hotel concept",
+        "13-hole indoor course",
+        "visitor format"
+      ]
+    },
+    {
+      "id": "src-final-r08-hotel-greene-faq",
+      "title": "Hotel Greene - reservations and FAQ",
+      "source_type": "official",
+      "url": "https://www.hotelgreene.com/brunch-reservations",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "weekend reservation pattern",
+        "Saturday wait warning",
+        "course duration",
+        "21-plus evening policy"
+      ]
+    },
+    {
+      "id": "src-final-r08-forum-rva",
+      "title": "r/rva local discussions",
+      "source_type": "forum",
+      "url": "https://www.reddit.com/r/rva/",
+      "verified_at": "2026-08-24",
+      "claims": [
+        "Hotel Greene cross-check",
+        "Richmond pacing",
+        "Poe and VMFA cross-check"
+      ]
+    },
+    {
+      "id": "src-final-r08-v8-hotel-greene",
+      "publisher": "Hotel Greene",
+      "type": "official",
+      "url": "https://www.hotelgreene.com/",
+      "supports": [
+        "theatrical mini-golf",
+        "late Saturday operation",
+        "about $18 per person for the activity"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-final-r08-v8-big-snow",
+      "publisher": "Big SNOW American Dream",
+      "type": "official",
+      "url": "https://www.bigsnowamericandream.com/",
+      "supports": [
+        "SNOW Day package $79.99 plus tax",
+        "two hours of slope access",
+        "equipment, outerwear and helmet included",
+        "Tuesday slope hours 1pm-8pm",
+        "advance timed ticket only"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-final-r08-r08x-src-004",
+      "title": "fish-church-stamford research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://fishchurch.org/about-us/history-architecture/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "src-final-r08-r08x-src-005",
+      "title": "fish-church-stamford research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://fishchurch.org/contact-us/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "src-final-r08-r08x-src-006",
+      "title": "fish-church-stamford research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://brucemuseum.org/the-collection/ct-modern-driving-tour/the-first-presbyterian-church-and-carillon-tower/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "src-final-r08-r08x-src-007",
+      "title": "fish-church-stamford research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://docomomo-us.org/register/first-presbyterian-church",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "src-final-r08-v8-gnome-raven",
+      "publisher": "Gnome & Raven",
+      "type": "official",
+      "url": "https://www.gnomeandraven.com/",
+      "supports": [
+        "Magic Lamp immersive room",
+        "award-recognized",
+        "four-player compatible"
+      ],
+      "verified_at": "2026-09-01"
+    },
+    {
+      "id": "src-final-r08-r08x-src-040",
+      "title": "kunta-kinte-haley-memorial research source",
+      "source_type": "government-primary",
+      "url": "https://www.annapolis.gov/584/Kunta-Kinte-Alex-Haley-Memorial",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "src-final-r08-r08x-src-041",
+      "title": "kunta-kinte-haley-memorial research source",
+      "source_type": "official-or-local-authority",
+      "url": "https://kintehaley.org/the-memorial/",
+      "verified_at": "2026-08-29",
+      "claims": [
+        "identity",
+        "hours/seasonality",
+        "visitor logistics",
+        "interpretive value"
+      ]
+    },
+    {
+      "id": "src-final-r01-newport-mansions",
+      "publisher": "Preservation Society of Newport County",
+      "type": "official",
+      "url": "https://www.newportmansions.org/plan-a-visit/",
+      "supports": [
+        "visitor hours",
+        "ticketing",
+        "restoration notices"
+      ]
+    },
+    {
+      "id": "src-final-r01-beinecke",
+      "publisher": "Yale University Library",
+      "type": "official",
+      "url": "https://beinecke.library.yale.edu/research-teaching/doing-research-beinecke-library",
+      "supports": [
+        "public visitor hours",
+        "free exhibition access"
+      ]
+    },
+    {
+      "id": "src-final-r01-o-museum",
+      "publisher": "O Museum in The Mansion",
+      "type": "official",
+      "url": "https://www.omuseum.org/faqs",
+      "supports": [
+        "Saturday hours",
+        "secret-door experience",
+        "advance tickets"
+      ]
+    },
+    {
+      "id": "src-final-r01-princeton-chapel",
+      "publisher": "Princeton University Chapel",
+      "type": "official",
+      "url": "https://chapel.princeton.edu/",
+      "supports": [
+        "visitor access",
+        "official venue information"
+      ]
+    },
+    {
+      "id": "src-final-rating-export",
+      "publisher": "Detour Atlas shared rating board",
+      "type": "first-party-data-export",
+      "url": "route_ratings_rows.csv",
+      "supports": [
+        "four named traveler ratings",
+        "final route selection",
+        "rating provenance"
+      ]
+    }
+  ]
+}

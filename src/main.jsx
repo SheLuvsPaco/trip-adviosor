@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import 'leaflet/dist/leaflet.css';
 import manifest from '../dataset/manifest.json';
 import { assessAtlasGrading, generateBestOfRoute } from './best-of-route.js';
-import { loadAllRatings, persistRating, ratingSyncConfigured, reconcileRatings } from './ratings-store.js';
+import { loadAllRatings, persistRating, ratingSyncConfigured, reconcileRatingsForPlaces } from './ratings-store.js';
 import { ROUTES, ROUTE_BY_ID, activeRouteId, loadAllRouteFeatures, loadAllRoutes, loadRoute, routeLegend } from './routes.js';
 import './styles.css';
 
@@ -38,7 +38,7 @@ const TRAVELERS = [
   { id: 'gora', name: 'Gora', short: 'G', color: '#4f9d8d' },
   { id: 'stivka', name: 'Stivka', short: 'S', color: '#8174aa' },
 ];
-const ENERGIZED_PRICING_ROUTE_IDS = new Set(['route-01', 'route-02', 'route-03', 'route-04', 'route-05', 'route-06', 'route-07', 'route-08', 'route-09', 'route-10']);
+const ENERGIZED_PRICING_ROUTE_IDS = new Set(['route-01', 'route-02', 'route-03', 'route-04', 'route-05', 'route-06', 'route-07', 'route-08', 'route-09', 'route-10', 'route-12']);
 
 function applyActiveRoute(bundle) {
   ACTIVE = bundle;
@@ -511,10 +511,15 @@ function routeStats() {
 }
 
 function loadRatings() {
+  const embeddedRatings = Object.fromEntries(
+    placesData.places.flatMap((place) => Object.entries(place.ratings?.traveler_ratings || {})
+      .filter(([, score]) => score != null)
+      .map(([travelerId, score]) => [`${travelerId}:${place.id}`, score])),
+  );
   try {
-    return JSON.parse(window.localStorage.getItem(RATINGS_KEY) || '{}');
+    return { ...embeddedRatings, ...JSON.parse(window.localStorage.getItem(RATINGS_KEY) || '{}') };
   } catch {
-    return {};
+    return embeddedRatings;
   }
 }
 
@@ -635,6 +640,7 @@ function App() {
   const day = routeData.days[activeDay - 1];
   const activeVariant = acceptedReplacements[activeDay] ? replacementForDay(activeDay) : null;
   const activeStops = useMemo(() => dayStops(day, activeVariant), [day, activeVariant]);
+  const activeOptions = useMemo(() => dayOptionRecords(day), [day]);
   const heroGallery = useMemo(() => galleryForStops(activeStops), [activeStops]);
   const selectedPlace = selectedPlaceId ? placeById.get(selectedPlaceId) : null;
   const focusedPlace = focusedPlaceId ? placeById.get(focusedPlaceId) : null;
@@ -650,7 +656,7 @@ function App() {
     let cancelled = false;
     const localRatings = loadRatings();
 
-    reconcileRatings(ROUTE_ID, localRatings)
+    reconcileRatingsForPlaces(ROUTE_ID, placesData.places, localRatings)
       .then((syncedRatings) => {
         if (!cancelled) setRatings(syncedRatings);
       })
@@ -735,7 +741,13 @@ function App() {
       }
       return { ...current, [key]: score };
     });
-    persistRating({ routeId: ROUTE_ID, placeId, travelerId, score }).catch((error) => {
+    const ratingSource = placeById.get(placeId)?.rating_source;
+    persistRating({
+      routeId: ratingSource?.route_id || ROUTE_ID,
+      placeId: ratingSource?.place_id || placeId,
+      travelerId,
+      score,
+    }).catch((error) => {
       console.error('[Detour Atlas] Rating save failed; the local copy is still safe.', error);
     });
   }
@@ -779,6 +791,7 @@ function App() {
           activeDay={activeDay}
           day={day}
           activeStops={activeStops}
+          dayOptions={activeOptions}
           activeVariant={activeVariant}
           focusedPlace={focusedPlace}
           selectedLeg={selectedLeg}
@@ -802,6 +815,7 @@ function App() {
               activeDay={activeDay}
               day={day}
               activeStops={activeStops}
+              dayOptions={activeOptions}
               activeVariant={activeVariant}
               heroGallery={heroGallery}
               heroIndex={heroIndex}
@@ -890,6 +904,7 @@ function RouteMap({
   activeDay,
   day,
   activeStops,
+  dayOptions,
   activeVariant,
   focusedPlace,
   selectedLeg,
@@ -936,18 +951,34 @@ function RouteMap({
   // Selection is deliberately kept out of this memo. Baking it in here made every
   // selection change produce a new feature collection, which rebuilt the whole
   // Leaflet layer stack (hundreds of polylines) instead of just restyling a marker.
-  const stopFeatures = useMemo(() => featureCollection(activeStops.map(({ place, sequence, priority, isReplacement }) => ({
+  const stopFeatures = useMemo(() => featureCollection([
+    ...activeStops.map(({ place, sequence, priority, isReplacement }) => ({
+      place,
+      sequence: String(sequence).padStart(2, '0'),
+      priority,
+      isReplacement,
+      isOption: false,
+    })),
+    ...dayOptions.map(({ place }, index) => ({
+      place,
+      sequence: `F${index + 1}`,
+      priority: 'flex',
+      isReplacement: false,
+      isOption: true,
+    })),
+  ].map(({ place, sequence, priority, isReplacement, isOption }) => ({
     type: 'Feature',
     id: place.id,
     properties: {
       placeId: place.id,
-      sequence: String(sequence).padStart(2, '0'),
+      sequence,
       name: place.name,
       priority,
       replacement: Boolean(isReplacement),
+      option: isOption,
     },
     geometry: { type: 'Point', coordinates: place.coordinates },
-  }))), [activeStops]);
+  }))), [activeStops, dayOptions]);
 
   const selectedStopId = focusedPlace?.id || null;
 
@@ -955,7 +986,7 @@ function RouteMap({
     const map = mapRef.current;
     if (!map || !mapReady) return;
     const features = mode === 'all' ? allRouteFeatures : mode === 'whole' ? routeFeatures : activeFeatures;
-    const points = mode === 'day' ? activeStops.map(({ place }) => place) : [];
+    const points = mode === 'day' ? [...activeStops.map(({ place }) => place), ...dayOptions.map(({ place }) => place)] : [];
     const mobile = window.matchMedia('(max-width: 900px)').matches;
     const padding = mode === 'all'
       ? mobile ? { top: 50, right: 25, bottom: 70, left: 25 } : { top: 80, right: 40, bottom: 100, left: 40 }
@@ -1167,7 +1198,7 @@ function RouteMap({
         source: 'day-stops',
         paint: {
           'circle-radius': ['case', ['get', 'selected'], 17, 12],
-          'circle-color': ['case', ['get', 'replacement'], '#f2cf83', '#fffaf0'],
+          'circle-color': ['case', ['get', 'replacement'], '#f2cf83', ['get', 'option'], '#efe4ce', '#fffaf0'],
           'circle-opacity': 0.92,
           'circle-stroke-width': 1,
           'circle-stroke-color': 'rgba(22, 39, 42, .22)',
@@ -1179,7 +1210,7 @@ function RouteMap({
         source: 'day-stops',
         paint: {
           'circle-radius': ['case', ['get', 'selected'], 10, 8],
-          'circle-color': ['case', ['get', 'selected'], '#172d31', ROUTE_COLOR],
+          'circle-color': ['case', ['get', 'selected'], '#172d31', ['get', 'option'], '#8a602d', ROUTE_COLOR],
         },
       });
       map.addLayer({
@@ -1317,7 +1348,7 @@ function RouteMap({
     leafletMarkersRef.current = new Map();
     if (mapMode === 'all') return;
     stopFeatures.features.forEach((feature) => {
-      const { placeId, sequence, name, replacement } = feature.properties;
+      const { placeId, sequence, name, replacement, option } = feature.properties;
       const [longitude, latitude] = feature.geometry.coordinates;
       const marker = Leaflet.marker([latitude, longitude], {
         title: name,
@@ -1325,24 +1356,24 @@ function RouteMap({
         keyboard: true,
         riseOnHover: true,
         icon: Leaflet.divIcon({
-          className: `atlas-stop-marker${replacement ? ' is-replacement' : ''}`,
+          className: `atlas-stop-marker${replacement ? ' is-replacement' : ''}${option ? ' is-option' : ''}`,
           html: `<span>${sequence}</span>`,
           iconSize: [34, 34],
           iconAnchor: [17, 17],
         }),
       }).addTo(layers.stops);
       marker.on('click', () => focusHandlerRef.current(placeId));
-      leafletMarkersRef.current.set(placeId, { marker, sequence, replacement });
+      leafletMarkersRef.current.set(placeId, { marker, sequence, replacement, option });
     });
   }, [mapEngine, mapReady, stopFeatures, mapMode]);
 
   // Restyling the selected marker must never touch the route layers.
   useEffect(() => {
     if (mapEngine !== 'compat' || !mapReady || !leafletMarkersRef.current) return;
-    leafletMarkersRef.current.forEach(({ marker, sequence, replacement }, placeId) => {
+    leafletMarkersRef.current.forEach(({ marker, sequence, replacement, option }, placeId) => {
       const selected = placeId === selectedStopId;
       marker.setIcon(Leaflet.divIcon({
-        className: `atlas-stop-marker${selected ? ' is-selected' : ''}${replacement ? ' is-replacement' : ''}`,
+        className: `atlas-stop-marker${selected ? ' is-selected' : ''}${replacement ? ' is-replacement' : ''}${option ? ' is-option' : ''}`,
         html: `<span>${sequence}</span>`,
         iconSize: selected ? [42, 42] : [34, 34],
         iconAnchor: selected ? [21, 21] : [17, 17],
@@ -1421,7 +1452,7 @@ function RouteMap({
 
       <div className="map-route-lockup">
         <span className="route-stamp">{ACTIVE.id.replace('route-', '')}</span>
-        <div><span className="eyebrow">{routeData.route.route_type === 'premium-one-way' ? `BOSTON → ${routeData.route.endpoint_city.split(',')[0].toUpperCase()}` : 'BOSTON ROUND TRIP'} · 11 DAYS</span><h1>{ACTIVE.name.replace('The ', '')}</h1></div>
+        <div><span className="eyebrow">{routeData.route.decision_route ? 'FINAL DECISION' : routeData.route.route_type === 'premium-one-way' ? `BOSTON → ${routeData.route.endpoint_city.split(',')[0].toUpperCase()}` : 'BOSTON ROUND TRIP'} · 11 DAYS</span><h1>{ACTIVE.name.replace('The ', '')}</h1></div>
       </div>
 
       <button className="route-index-trigger" type="button" onClick={onIndexToggle} aria-expanded={routeIndexOpen}>
@@ -1513,8 +1544,8 @@ function RoadDeck({ day, variant, selectedLeg, selectedLegId, miles, minutes, on
 function RouteIndex({ onClose, onShowAll }) {
   return (
     <aside className="route-index-panel" aria-label="Route index">
-      <div className="route-index-head"><div><span className="eyebrow">THE SHORTLIST</span><h2>Eleven possible stories.</h2></div><button type="button" onClick={onClose} aria-label="Close route index"><Icon name="close" size={18} /></button></div>
-      <p>{ROUTES.length} routes are built and can be opened now. The rest are researched and waiting for the same visual build.</p>
+      <div className="route-index-head"><div><span className="eyebrow">THE SHORTLIST</span><h2>Ten routes. One decision.</h2></div><button type="button" onClick={onClose} aria-label="Close route index"><Icon name="close" size={18} /></button></div>
+      <p>{ROUTES.length} route stories are built. Route 12 is the final plan assembled from the group’s fully rated winners.</p>
       <button className="route-index-all" type="button" onClick={onShowAll}>
         <span className="all-routes-swatches" aria-hidden="true">{routeLegend.map((entry) => <i key={entry.id} style={{ background: entry.color }} />)}</span>
         <span><strong>All routes</strong><small>Every built loop on one map, each in its own colour</small></span>
@@ -1524,10 +1555,11 @@ function RouteIndex({ onClose, onShowAll }) {
         {manifest.routes.map((route, index) => {
           const isActive = route.id === ROUTE_ID;
           const isBuilt = ROUTE_BY_ID.has(route.id);
-          return <button className={`route-index-row ${isActive ? 'is-active' : ''}`} type="button" key={route.id} onClick={() => (isActive ? onClose() : openRoute(route.id))} disabled={!isBuilt}>
-            <span className="route-number" style={{ color: route.map_color }}>{String(index + 1).padStart(2, '0')}</span>
+          const isDecision = route.id === 'route-12';
+          return <button className={`route-index-row ${isActive ? 'is-active' : ''} ${isDecision ? 'is-decision' : ''}`} type="button" key={route.id} onClick={() => (isActive ? onClose() : openRoute(route.id))} disabled={!isBuilt}>
+            <span className="route-number" style={{ color: route.map_color }}>{route.id.replace('route-', '')}</span>
             <span><strong>{route.name.replace('The ', '')}</strong><small>Boston loop · {formatMiles(route.baseline_miles)} mi</small></span>
-            <em>{isActive ? 'OPEN' : isBuilt ? 'VIEW' : 'STAGED'}</em>
+            <em>{isActive ? 'OPEN' : isDecision ? 'FINAL' : isBuilt ? 'VIEW' : 'STAGED'}</em>
           </button>;
         })}
       </div>
@@ -1539,6 +1571,7 @@ function RouteStory({
   activeDay,
   day,
   activeStops,
+  dayOptions,
   activeVariant,
   heroGallery,
   heroIndex,
@@ -1601,8 +1634,8 @@ function RouteStory({
 
       <section className="day-story">
         <div className="day-story-head">
-          <div><span className="eyebrow">THE STOPS · CHOSEN BY HAND</span><h3>Why this day is worth the drive.</h3></div>
-          <p>{day.notes?.[0] || 'Times are planning anchors, not a promise against traffic or weather.'}</p>
+          <div><span className="eyebrow">THE STOPS · {activeStops.length} FIXED{dayOptions.length ? ` + ${dayOptions.length} FLEX` : ''}</span><h3>Why this day is worth the drive.</h3></div>
+          <p>{dayOptions.length ? `${dayOptions.length} nearby ${dayOptions.length === 1 ? 'choice stays' : 'choices stay'} visible below, outside the fixed route and winning score.` : day.notes?.[0] || 'Times are planning anchors, not a promise against traffic or weather.'}</p>
         </div>
         <div className="stop-story-list">
           {activeStops.map((stop) => (
@@ -1619,6 +1652,7 @@ function RouteStory({
 
         <DayOptionsSection
           day={day}
+          options={dayOptions}
           activeVariant={activeVariant}
           activeTraveler={activeTraveler}
           ratings={ratings}
@@ -1638,9 +1672,7 @@ function RouteStory({
   );
 }
 
-function DayOptionsSection({ day, activeVariant, activeTraveler, ratings, focusedPlace, onPlaceOpen, onPlaceFocus, onReplacementReview }) {
-  const options = dayOptionRecords(day);
-
+function DayOptionsSection({ day, options, activeVariant, activeTraveler, ratings, focusedPlace, onPlaceOpen, onPlaceFocus, onReplacementReview }) {
   if (!options.length) return null;
 
   return (
@@ -1797,7 +1829,64 @@ function StopStoryCard({ stop, rating, onOpen, onLocate, isLocated }) {
 }
 
 function LodgingCard({ lodging, city }) {
-  return <article className="lodging-card"><div className="card-kicker"><Icon name="bed" size={15} /> SLEEP CHAPTER · {city}</div><h4>{lodging.preferred_area}</h4><p>{lodging.notes}</p><div className="lodging-meta"><span>Fallback area</span><strong>{lodging.fallback_area}</strong><span>Room shape</span><strong>{lodging.room_setup}</strong></div><small>Strong suggestion · verify availability manually</small></article>;
+  const suggestions = lodging.suggestions || [];
+  const hasResearchLayer = Boolean(lodging.wire_key);
+  const researchLabel = String(lodging.research_status || '').replaceAll('-', ' ');
+
+  if (!hasResearchLayer) {
+    return <article className="lodging-card"><div className="card-kicker"><Icon name="bed" size={15} /> SLEEP CHAPTER · {city}</div><h4>{lodging.preferred_area || city}</h4><p>{lodging.notes}</p><div className="lodging-meta"><span>Fallback area</span><strong>{lodging.fallback_area}</strong><span>Room shape</span><strong>{lodging.room_setup}</strong></div><small>Strong suggestion · verify availability manually</small></article>;
+  }
+
+  return (
+    <article className="lodging-card has-research">
+      <div className="lodging-research-head">
+        <div>
+          <div className="card-kicker"><Icon name="bed" size={15} /> SLEEP CHAPTER · {city}</div>
+          <h4>{suggestions.length ? `${suggestions.length} stays already in the research file.` : 'This sleep anchor still needs research.'}</h4>
+        </div>
+        <span className={`lodging-research-state ${lodging.requires_new_research ? 'is-open' : 'is-covered'}`}>{researchLabel || 'research pending'}</span>
+      </div>
+      <p>{lodging.notes}</p>
+
+      {suggestions.length ? (
+        <div className="lodging-suggestion-list">
+          {suggestions.map((suggestion) => (
+            <section className={`lodging-suggestion tier-${suggestion.tier}`} key={suggestion.id}>
+              <div className="lodging-suggestion-top">
+                <span>{suggestion.tier.replaceAll('-', ' ')}</span>
+                <em>{suggestion.price_status}</em>
+              </div>
+              {suggestion.image && (
+                <figure className="lodging-suggestion-image">
+                  <a href={suggestion.image.source_page} target="_blank" rel="noreferrer" aria-label={`Open image source for ${suggestion.name}`}>
+                    <img src={`/${suggestion.image.local_path.replace(/\.webp$/, '-thumb.webp')}`} alt={suggestion.image.alt || suggestion.name} loading="lazy" />
+                    <span>Reference photo</span>
+                  </a>
+                  <figcaption>{suggestion.image.rights_status === 'permission-required-before-public-deployment' ? 'Private planning use · permission required to publish' : suggestion.image.license}</figcaption>
+                </figure>
+              )}
+              <h5>{suggestion.name}</h5>
+              <p className="lodging-location">{suggestion.location}</p>
+              <p>{suggestion.summary}</p>
+              <dl>
+                <div><dt>Price</dt><dd>{suggestion.price_label}</dd></div>
+                <div><dt>Room</dt><dd>{suggestion.capacity}</dd></div>
+                {suggestion.guest_rating && <div><dt>Guest signal</dt><dd>{suggestion.guest_rating}</dd></div>}
+                {suggestion.wtf_score && <div><dt>WTF score</dt><dd>{suggestion.wtf_score}/5</dd></div>}
+                <div><dt>Route fit</dt><dd>{suggestion.route_fit.replaceAll('-', ' ')}</dd></div>
+              </dl>
+              {suggestion.warning && <p className="lodging-warning"><Icon name="warning" size={12} /> {suggestion.warning}</p>}
+              {(suggestion.booking_url || suggestion.source_url || suggestion.research_price_url) ? <div className="lodging-links">{suggestion.booking_url && <a href={suggestion.booking_url} target="_blank" rel="noreferrer">{suggestion.booking_label || 'Check stay'} <Icon name="external" size={12} /></a>}{suggestion.source_url && suggestion.source_url !== suggestion.booking_url && <a href={suggestion.source_url} target="_blank" rel="noreferrer">Property source <Icon name="external" size={12} /></a>}{suggestion.research_price_url && <a href={suggestion.research_price_url} target="_blank" rel="noreferrer">Earlier price check <Icon name="external" size={12} /></a>}</div> : <small>No reliable booking or contact page was found.</small>}
+            </section>
+          ))}
+        </div>
+      ) : (
+        <div className="lodging-gap"><Icon name="warning" size={17} /><span><strong>No honest carry-over found.</strong><small>Keep {city} as the sleep anchor and research this exact date and area next.</small></span></div>
+      )}
+
+      <footer><span>{suggestions.length} existing {suggestions.length === 1 ? 'lead' : 'leads'}</span><span>{lodging.requires_new_research ? 'Exact-area research still open' : 'Existing inventory mapped'}</span><span>Nothing booked</span></footer>
+    </article>
+  );
 }
 
 function FallbackCard({ text }) {
@@ -2021,9 +2110,10 @@ function MagicView({ activeTraveler, ratings, onBack }) {
   }
 
   const progress = assessment?.completion_percent || 0;
+  const winnerIsFinalDecision = assessment?.winner?.id === 'route-12' && assessment.winner.complete;
   return (
     <div className="secondary-view story-scroll">
-      <div className="secondary-head"><span className="eyebrow"><Icon name="sparkle" size={13} /> MAGIC · TRANSPARENT, NOT MYSTERIOUS</span><h1>Build the route whenever the group is ready.</h1><p>Traveler ratings take priority. Any skipped score falls back to the researched traveler-fit data already attached to that place, so ungraded spots remain eligible and the route can be generated manually at any point.</p></div>
+      <div className="secondary-head"><span className="eyebrow"><Icon name="sparkle" size={13} /> MAGIC · TRANSPARENT, NOT MYSTERIOUS</span><h1>{winnerIsFinalDecision ? 'The final route is built.' : 'Build the route whenever the group is ready.'}</h1><p>{winnerIsFinalDecision ? 'Route 12 scores only its fully rated core. Nearby corridor choices remain visible and rateable, but incomplete or optional records do not change the winning score.' : 'Traveler ratings take priority. Any skipped score falls back to the researched traveler-fit data already attached to that place, so ungraded spots remain eligible and the route can be generated manually at any point.'}</p></div>
 
       {!ratingSyncConfigured && <div className="magic-alert" role="alert"><strong>Cloud grading is not configured in this build.</strong><span>Manual generation still works from curated fit scores. Add the two public Supabase variables to include shared traveler ratings.</span></div>}
       {loadError && <div className="magic-alert is-error" role="alert"><strong>The grading board could not load.</strong><span>{loadError}</span><button className="button button-quiet" type="button" onClick={refreshRatings}>Try again</button></div>}
@@ -2035,7 +2125,7 @@ function MagicView({ activeTraveler, ratings, onBack }) {
           <h2>{assessment ? `${assessment.completed_ratings.toLocaleString()} of ${assessment.required_ratings.toLocaleString()} ratings are complete.` : 'Loading the shared grading board…'}</h2>
           <p>{assessment?.complete ? 'Every candidate is traveler-scored; no curated fallback is needed.' : `${assessment?.missing_ratings.toLocaleString() || '—'} scores are skipped or still open and will use curated fit values. ${currentTraveler.name} has rated ${currentCompleted} of ${placesData.places.length} places on the open route.`}</p>
           <div className="magic-actions">
-            <button className="button button-primary" type="button" disabled={!assessment?.winner || generating} onClick={buildBestOfRoute}>{generating ? 'Routing the best spots…' : 'Generate route now'} <Icon name="sparkle" size={14} /></button>
+            <button className="button button-primary" type="button" disabled={!assessment?.winner || generating} onClick={winnerIsFinalDecision ? onBack : buildBestOfRoute}>{generating ? 'Routing the best spots…' : winnerIsFinalDecision ? 'Open final route' : 'Generate route now'} <Icon name="sparkle" size={14} /></button>
             <button className="button button-quiet" type="button" onClick={refreshRatings} disabled={generating}>Refresh grading</button>
             <button className="button button-quiet" type="button" onClick={onBack}>Keep exploring <Icon name="arrow" size={14} /></button>
           </div>
@@ -2044,9 +2134,9 @@ function MagicView({ activeTraveler, ratings, onBack }) {
 
       {assessment?.winner && (
         <section className="magic-winner" aria-labelledby="winner-title">
-          <span className="eyebrow">{assessment.complete ? 'CURRENT WINNER' : 'PROVISIONAL WINNER · MANUAL GENERATION READY'}</span>
+          <span className="eyebrow">{winnerIsFinalDecision ? 'FINAL DECISION · FULLY RATED CORE' : assessment.complete ? 'CURRENT WINNER' : 'PROVISIONAL WINNER · MANUAL GENERATION READY'}</span>
           <h2 id="winner-title">{assessment.winner.name}</h2>
-          <p><strong>{assessment.winner.group_average.toFixed(2)} / 5</strong> effective group score · <strong>{assessment.winner.coverage_percent}%</strong> traveler-rated. Missing scores use curated fit; equal traveler weight, fairness and shorter mileage break ties.</p>
+          <p><strong>{assessment.winner.group_average.toFixed(2)} / 5</strong> effective group score · <strong>{assessment.winner.coverage_percent}%</strong> traveler-rated. {winnerIsFinalDecision ? 'All 21 core stops use the four preserved traveler ratings; no fallback score contributes to this route.' : 'Missing scores use curated fit; equal traveler weight, fairness and shorter mileage break ties.'}</p>
           <div className="magic-ranking">{rankedRoutes.map((route, index) => <div key={route.id} className={index === 0 ? 'is-winner' : ''}><span>{String(index + 1).padStart(2, '0')}</span><strong>{route.name}</strong><em>{route.group_average.toFixed(2)} · {route.coverage_percent}%</em></div>)}</div>
         </section>
       )}

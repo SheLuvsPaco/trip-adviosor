@@ -3,7 +3,7 @@ import manifest from '../dataset/manifest.json';
 // Only route metadata belongs in the startup chunk. Full route packages are
 // loaded on demand so opening one story does not parse every route, geometry,
 // replacement, and image record in the atlas.
-const builtRouteIds = new Set(['route-01', 'route-02', 'route-03', 'route-04', 'route-05', 'route-06', 'route-07', 'route-08', 'route-09', 'route-10']);
+const builtRouteIds = new Set(['route-01', 'route-02', 'route-03', 'route-04', 'route-05', 'route-06', 'route-07', 'route-08', 'route-09', 'route-10', 'route-12']);
 
 export const ROUTES = manifest.routes
   .filter((route) => builtRouteIds.has(route.id))
@@ -13,6 +13,7 @@ export const ROUTES = manifest.routes
     name: route.name,
     color: route.map_color,
     miles: route.baseline_miles,
+    decision: route.status === 'final-decision-ui-ready',
   }));
 
 export const ROUTE_BY_ID = new Map(ROUTES.map((entry) => [entry.id, entry]));
@@ -97,6 +98,14 @@ const routeLoaders = {
     import('../dataset/routes/route-10-temples-follies-working-machines-loop/route-geometry.json'),
     import('../dataset/routes/route-10-temples-follies-working-machines-loop/route.geojson?raw'),
     import('../dataset/routes/route-10-temples-follies-working-machines-loop/replacement-geometry.json'),
+  ]),
+  'route-12': () => Promise.all([
+    import('../dataset/routes/route-12-atlantic-winners-decision-loop/route.json'),
+    import('../dataset/routes/route-12-atlantic-winners-decision-loop/places.json'),
+    import('../dataset/routes/route-12-atlantic-winners-decision-loop/images.json'),
+    import('../dataset/routes/route-12-atlantic-winners-decision-loop/route-geometry.json'),
+    import('../dataset/routes/route-12-atlantic-winners-decision-loop/route.geojson?raw'),
+    import('../dataset/routes/route-12-atlantic-winners-decision-loop/replacement-geometry.json'),
   ]),
 };
 

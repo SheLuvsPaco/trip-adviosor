@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-08-29",
-  "route_count": 10,
+  "updated_at": "2026-09-04",
+  "route_count": 11,
   "routes": [
     {
       "id": "route-01",
@@ -212,6 +212,27 @@
       "image_count": 194,
       "day_count": 11,
       "baseline_miles": 1760.9
+    },
+    {
+      "id": "route-12",
+      "slug": "atlantic-winners-decision-loop",
+      "name": "The Atlantic Winners Decision Loop",
+      "status": "final-decision-ui-ready",
+      "start_date": "2026-10-04",
+      "end_date": "2026-10-14",
+      "airport_date": "2026-10-15",
+      "map_color": "#D9A441",
+      "entry_path": "routes/route-12-atlantic-winners-decision-loop/route.json",
+      "places_path": "routes/route-12-atlantic-winners-decision-loop/places.json",
+      "images_path": "routes/route-12-atlantic-winners-decision-loop/images.json",
+      "map_path": "routes/route-12-atlantic-winners-decision-loop/route.geojson",
+      "replacement_geometry_path": "routes/route-12-atlantic-winners-decision-loop/replacement-geometry.json",
+      "sources_path": "routes/route-12-atlantic-winners-decision-loop/sources.json",
+      "decisions_path": "routes/route-12-atlantic-winners-decision-loop/route-decisions.json",
+      "place_count": 39,
+      "image_count": 153,
+      "day_count": 11,
+      "baseline_miles": 1355
     }
   ]
 }

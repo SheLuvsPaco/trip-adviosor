@@ -15,7 +15,12 @@ const builtRouteDirectories = [
   'route-08-lemurs-stone-bridges-mechanical-dreams-loop',
   'route-09-kaleidoscopes-scripture-stones-secret-machines-loop',
   'route-10-temples-follies-working-machines-loop',
+  'route-12-atlantic-winners-decision-loop',
 ];
+
+function imageRouteDirectory(image, fallbackDirectory) {
+  return image.local_path?.split('/')[2] || fallbackDirectory;
+}
 
 async function routeHeroPreloads() {
   const heroes = {};
@@ -32,10 +37,24 @@ async function routeHeroPreloads() {
     const image = candidates.find((candidate) => candidate.production_usable) || candidates[0];
     if (!image) continue;
     const stem = path.basename(image.local_path, path.extname(image.local_path));
-    const base = `/assets/optimized/routes/${routeDirectory}/${stem}`;
+    const base = `/assets/optimized/routes/${imageRouteDirectory(image, routeDirectory)}/${stem}`;
     heroes[routeDirectory.slice(0, 8)] = { display: `${base}.webp`, thumb: `${base}-thumb.webp` };
   }
   return heroes;
+}
+
+async function routeLodgingAssets(routeDirectory) {
+  try {
+    const sleepovers = JSON.parse(await readFile(path.join('dataset/routes', routeDirectory, 'sleepovers.json'), 'utf8'));
+    const paths = sleepovers.nights
+      .flatMap((night) => night.suggestions || [])
+      .map((suggestion) => suggestion.image?.local_path)
+      .filter(Boolean);
+    return [...new Set(paths.flatMap((localPath) => [localPath, localPath.replace(/\.webp$/, '-thumb.webp')]))];
+  } catch (error) {
+    if (error.code === 'ENOENT') return [];
+    throw error;
+  }
 }
 
 function copyRouteAssets() {
@@ -49,12 +68,19 @@ function copyRouteAssets() {
         for (const image of images) {
           const stem = path.basename(image.local_path, path.extname(image.local_path));
           for (const suffix of ['.webp', '-thumb.webp']) {
-            const optimizedPath = path.join('assets/optimized/routes', routeDirectory, `${stem}${suffix}`);
+            const optimizedPath = path.join('assets/optimized/routes', imageRouteDirectory(image, routeDirectory), `${stem}${suffix}`);
             try {
               if ((await stat(optimizedPath)).size < 512) missing.push(optimizedPath);
             } catch {
               missing.push(optimizedPath);
             }
+          }
+        }
+        for (const lodgingAsset of await routeLodgingAssets(routeDirectory)) {
+          try {
+            if ((await stat(lodgingAsset)).size < 512) missing.push(lodgingAsset);
+          } catch {
+            missing.push(lodgingAsset);
           }
         }
       }
@@ -66,19 +92,27 @@ function copyRouteAssets() {
       const copyJobs = [];
       for (const routeDirectory of builtRouteDirectories) {
         const images = JSON.parse(await readFile(path.join('dataset/routes', routeDirectory, 'images.json'), 'utf8')).images;
-        const destinationDirectory = path.join('dist/assets/optimized/routes', routeDirectory);
-        await mkdir(destinationDirectory, { recursive: true });
-        const names = new Set();
+        const names = new Map();
         for (const image of images) {
           const stem = path.basename(image.local_path, path.extname(image.local_path));
-          names.add(`${stem}.webp`);
-          names.add(`${stem}-thumb.webp`);
+          const imageDirectory = imageRouteDirectory(image, routeDirectory);
+          names.set(`${imageDirectory}/${stem}.webp`, { imageDirectory, name: `${stem}.webp` });
+          names.set(`${imageDirectory}/${stem}-thumb.webp`, { imageDirectory, name: `${stem}-thumb.webp` });
         }
-        for (const name of names) {
+        for (const { imageDirectory, name } of names.values()) {
+          const destinationDirectory = path.join('dist/assets/optimized/routes', imageDirectory);
+          await mkdir(destinationDirectory, { recursive: true });
           copyJobs.push({
-            source: path.join('assets/optimized/routes', routeDirectory, name),
+            source: path.join('assets/optimized/routes', imageDirectory, name),
             destination: path.join(destinationDirectory, name),
           });
+        }
+        for (const lodgingAsset of await routeLodgingAssets(routeDirectory)) {
+          copyJobs.push({
+            source: lodgingAsset,
+            destination: path.join('dist', lodgingAsset),
+          });
+          await mkdir(path.dirname(path.join('dist', lodgingAsset)), { recursive: true });
         }
       }
       let cursor = 0;

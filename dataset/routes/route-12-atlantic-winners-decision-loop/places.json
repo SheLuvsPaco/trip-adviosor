@@ -1,0 +1,4268 @@
+{
+  "schema_version": "1.0.0",
+  "route_id": "route-12",
+  "places": [
+    {
+      "priority": "anchor",
+      "secondary_for": [
+        "stivka"
+      ],
+      "reservation": "reserve-gameplay-block",
+      "cost": {
+        "amount_per_person": 37.5,
+        "low": 35,
+        "high": 40,
+        "price_type": "variable",
+        "status": "checked-2026-08-31",
+        "note": "Planning range for a gameplay block; food is excluded."
+      },
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "booking_required": true,
+        "traffic_gated": false,
+        "high_physicality": true,
+        "photo_heavy": true
+      },
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 3,
+          "viki": 5,
+          "gora": 4,
+          "stivka": 5
+        },
+        "average": 4.25,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "included_in_magic_score": true,
+      "id": "level99-providence",
+      "name": "Level99 Providence",
+      "kind": "interactive-physical-challenge",
+      "city": "Providence",
+      "state": "RI",
+      "address": "8 Providence Pl, Suite D301, Providence, RI 02903",
+      "visit_date": "2026-10-04",
+      "duration_minutes": 120,
+      "summary": "More than fifty rotating rooms turn timing, strength, dexterity and team puzzles into a real-life multiplayer game.",
+      "why_go": "It ignites the trip immediately and lets all four travelers contribute without making the day feel like another escape-room clone.",
+      "best_for": [
+        "sheluvspaco",
+        "viki",
+        "gora"
+      ],
+      "best_fit_note": "Best for Paco, Viki and Gora because the rooms constantly switch between teamwork, movement and problem-solving; Stivka still gets the shared competitive ritual.",
+      "categories": [
+        "interactive_puzzle_immersive",
+        "athletic_adrenaline",
+        "group_bonding"
+      ],
+      "experience_bucket": "interactive-puzzle-immersive",
+      "hours": {
+        "opens": "11:00",
+        "closes": "21:00",
+        "status": "verified-current",
+        "note": "Sunday hours; recheck private-event changes."
+      },
+      "source_ids": [
+        "src-final-r01-energy-level99"
+      ],
+      "image_query": "Level99 Providence challenge rooms gameplay team neon",
+      "country": "US",
+      "coordinates": [
+        -71.4162056,
+        41.8275772
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address_or_access_point",
+      "image_ids": [
+        "img-final-level99-providence-1",
+        "img-final-level99-providence-2",
+        "img-final-level99-providence-3",
+        "img-final-level99-providence-4",
+        "img-final-level99-providence-5"
+      ],
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "data_status": "complete",
+      "energy_rebuild_role": "new-energy-anchor",
+      "core_status": "final-decision-core",
+      "original_status": "new-core",
+      "included_in_magic_default": true,
+      "museum_like": false,
+      "texture": null,
+      "interaction_score": null,
+      "price_per_person_low": 35,
+      "price_per_person_high": 40,
+      "price_per_group": null,
+      "price_type": "variable",
+      "price_last_checked": "2026-08-31",
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 5,
+      "operational_risk": "green",
+      "operational_confidence": "green",
+      "optional": false,
+      "included_in_daily_max_total": true,
+      "skip_mode": "Best for Paco, Viki and Gora because the rooms constantly switch between teamwork, movement and problem-solving; Stivka still gets the shared competitive ritual.",
+      "skip_strategy": "Best for Paco, Viki and Gora because the rooms constantly switch between teamwork, movement and problem-solving; Stivka still gets the shared competitive ritual.",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "level99-providence",
+        "preserved": true
+      }
+    },
+    {
+      "id": "newport-car-museum",
+      "name": "Newport Car Museum",
+      "kind": "design-and-automotive-museum",
+      "city": "Portsmouth",
+      "state": "RI",
+      "address": "1947 West Main Road, Portsmouth, RI 02871",
+      "visit_date": "2026-10-04",
+      "summary": "More than 100 cars shown like art objects in seven big rooms: American muscle cars, Ford, Corvette and European classics, with mid-century furniture between them. Everything is inside an old missile factory, and there are racing simulators at the end.",
+      "why_go": "Cars lit like sculptures inside an old missile factory, with racing simulators at the end. A very different way to start the trip if you prefer machines and design to a normal art museum.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Gora gets machines and racing history. Viki gets strong design and very photogenic cars. The simulators make it social without being sport.",
+      "categories": [
+        "unusual_creative",
+        "architecture_photogenic",
+        "hidden_history_folklore",
+        "group_bonding"
+      ],
+      "duration_minutes": 90,
+      "priority": "optional",
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Open daily. October 4 overlaps Newport Motor Week, so verify traffic and museum operations that morning."
+      },
+      "cost": {
+        "amount_per_person": null,
+        "range_per_person": [
+          20,
+          30
+        ],
+        "status": "checkout-required",
+        "note": "Reconfirm the adult walk-up or online price before promotion."
+      },
+      "source_ids": [
+        "src-final-r01-newport-car"
+      ],
+      "country": "US",
+      "coordinates": [
+        -71.2799302,
+        41.5688949
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "openstreetmap_nominatim",
+      "image_ids": [
+        "img-final-newport-car-museum-1",
+        "img-final-newport-car-museum-2",
+        "img-final-newport-car-museum-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 5,
+          "viki": 3,
+          "gora": 4,
+          "stivka": 5
+        },
+        "average": 4.25,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "experience_bucket": "high-impact-history-culture",
+      "experience_flags": {
+        "museum_like": true,
+        "weather_gated": false,
+        "booking_required": true,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "photo_heavy": false
+      },
+      "energy_rebuild_role": "retained-distinctive-anchor",
+      "core_status": "arrival-day-optional",
+      "original_status": "keep-core",
+      "included_in_magic_default": false,
+      "museum_like": true,
+      "texture": null,
+      "interaction_score": null,
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_type": "free",
+      "price_last_checked": "2026-08-31",
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "operational_risk": "green",
+      "operational_confidence": "green",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "skip_mode": "Gora gets machines and racing history. Viki gets strong design and very photogenic cars. The simulators make it social without being sport.",
+      "skip_strategy": "Gora gets machines and racing history. Viki gets strong design and very photogenic cars. The simulators make it social without being sport.",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "newport-car-museum",
+        "preserved": true
+      }
+    },
+    {
+      "priority": "anchor",
+      "secondary_for": [
+        "stivka"
+      ],
+      "reservation": "reserve-recommended",
+      "cost": {
+        "amount_per_person": 42,
+        "low": 42,
+        "high": 42,
+        "price_type": "paid",
+        "status": "checked-2026-08-31",
+        "note": "Planning price; confirm the desired ropes/zip package."
+      },
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "booking_required": true,
+        "traffic_gated": false,
+        "high_physicality": true,
+        "photo_heavy": true
+      },
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 4,
+          "viki": 4,
+          "gora": 4,
+          "stivka": 4
+        },
+        "average": 4,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "included_in_magic_score": true,
+      "id": "it-adventure-ropes",
+      "name": "It Adventure Ropes Course",
+      "kind": "indoor-ropes-course",
+      "city": "New Haven",
+      "state": "CT",
+      "address": "40 Sargent Dr, New Haven, CT 06511",
+      "visit_date": "2026-10-05",
+      "duration_minutes": 135,
+      "summary": "Four indoor levels, more than one hundred challenges and long zip rails let everyone choose their own intensity.",
+      "why_go": "It is weather-proof and gives Gora a true physical test while the group can still remain together.",
+      "best_for": [
+        "gora",
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Gora can push the upper obstacles, Viki gets a visually dramatic challenge and Paco gets flexible team pacing; Stivka can choose a calmer line.",
+      "categories": [
+        "athletic_adrenaline",
+        "interactive_puzzle_immersive",
+        "group_bonding"
+      ],
+      "experience_bucket": "adventure-adrenaline",
+      "hours": {
+        "opens": "10:00",
+        "closes": "19:00",
+        "status": "verified-current",
+        "note": "Monday hours; private events can change access."
+      },
+      "source_ids": [
+        "src-final-r01-energy-it-ropes"
+      ],
+      "image_query": "It Adventure Ropes Course New Haven indoor ropes zipline",
+      "country": "US",
+      "coordinates": [
+        -72.9277566,
+        41.2870369
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address_or_access_point",
+      "image_ids": [
+        "img-final-it-adventure-ropes-1",
+        "img-final-it-adventure-ropes-2",
+        "img-final-it-adventure-ropes-3",
+        "img-final-it-adventure-ropes-4",
+        "img-final-it-adventure-ropes-5"
+      ],
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "data_status": "complete",
+      "energy_rebuild_role": "new-energy-anchor",
+      "core_status": "final-decision-core",
+      "original_status": "new-core",
+      "included_in_magic_default": true,
+      "museum_like": false,
+      "texture": null,
+      "interaction_score": null,
+      "price_per_person_low": 42,
+      "price_per_person_high": 42,
+      "price_per_group": null,
+      "price_type": "paid",
+      "price_last_checked": "2026-08-31",
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 5,
+      "operational_risk": "green",
+      "operational_confidence": "green",
+      "optional": false,
+      "included_in_daily_max_total": true,
+      "skip_mode": "Gora can push the upper obstacles, Viki gets a visually dramatic challenge and Paco gets flexible team pacing; Stivka can choose a calmer line.",
+      "skip_strategy": "Gora can push the upper obstacles, Viki gets a visually dramatic challenge and Paco gets flexible team pacing; Stivka can choose a calmer line.",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "it-adventure-ropes",
+        "preserved": true
+      }
+    },
+    {
+      "id": "woodbury-common",
+      "name": "Woodbury Common Premium Outlets",
+      "kind": "shopping",
+      "city": "Central Valley",
+      "state": "NY",
+      "address": "498 Red Apple Court, Central Valley, NY 10917",
+      "visit_date": "2026-10-06",
+      "summary": "A shopping village with more than 250 outlet stores, one hour north of New York. Many are real designer brands, not only normal shop brands. The shops stand along open-air streets that you walk between.",
+      "why_go": "Real designer clothes at outlet prices, and so many shops that four people can split up for three hours and still not finish. This is our one big shopping stop, planned before New York so it does not become a rushed hour in the city.",
+      "best_for": [
+        "viki"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Chosen because Viki likes outlets. With two cars the group can split up between shops and still stay in one place.",
+      "categories": [
+        "shopping_outlets",
+        "local_culture_food_cafes"
+      ],
+      "duration_minutes": 210,
+      "priority": "anchor",
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "21:00",
+        "status": "current-hours-check",
+        "note": "Current center hours; reconfirm the date-specific October calendar 72 hours before departure. Parking is free."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified",
+        "note": "Shopping purchases are personal and excluded from route activity cost."
+      },
+      "source_ids": [
+        "src-final-r01-woodbury"
+      ],
+      "country": "US",
+      "coordinates": [
+        -74.1258389,
+        41.3177338
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "openstreetmap_nominatim",
+      "image_ids": [
+        "img-final-woodbury-common-1",
+        "img-final-woodbury-common-2",
+        "img-final-woodbury-common-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 3,
+          "viki": 5,
+          "gora": 4,
+          "stivka": 5
+        },
+        "average": 4.25,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "experience_bucket": "shopping",
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "booking_required": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "photo_heavy": false
+      },
+      "energy_rebuild_role": "retained-distinctive-anchor",
+      "core_status": "final-decision-core",
+      "original_status": "keep-core",
+      "included_in_magic_default": true,
+      "museum_like": false,
+      "texture": null,
+      "interaction_score": null,
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_type": "free",
+      "price_last_checked": "2026-08-31",
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "operational_risk": "green",
+      "operational_confidence": "green",
+      "optional": false,
+      "included_in_daily_max_total": true,
+      "skip_mode": "Chosen because Viki likes outlets. With two cars the group can split up between shops and still stay in one place.",
+      "skip_strategy": "Chosen because Viki likes outlets. With two cars the group can split up between shops and still stay in one place.",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "woodbury-common",
+        "preserved": true
+      }
+    },
+    {
+      "id": "paterson-great-falls",
+      "name": "Paterson Great Falls and Mill District",
+      "kind": "urban-national-park",
+      "city": "Paterson",
+      "state": "NJ",
+      "address": "72 McBride Avenue Extension, Paterson, NJ 07501",
+      "visit_date": "2026-10-07",
+      "summary": "A 77-foot waterfall falling through a rock gorge in the middle of a city. In 1791 Alexander Hamilton chose this water power to build the first planned factory town in America. Around it there are still mills, water channels and a working power station. Silk, Colt guns and train engines were all made with this water.",
+      "why_go": "A real 77-foot waterfall inside a working city, on the exact spot where American industry was invented on purpose. Nature, machines and working history in one short stop, and it splits the long drive almost in half.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Gora gets industry and engineering. Viki gets a powerful waterfall in a city. Stivka and Paco get fresh air with no hiking.",
+      "categories": [
+        "nature_visual",
+        "architecture_photogenic",
+        "hidden_history_folklore",
+        "overlooked_town"
+      ],
+      "duration_minutes": 75,
+      "priority": "anchor",
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "sunrise-to-sunset",
+        "note": "Grounds and Overlook Park are open sunrise to sunset. Tuesday has no scheduled ranger tour; use the NPS self-guided Mill Mile material. Keep belongings out of sight and use the official lot or signed municipal parking."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified"
+      },
+      "source_ids": [
+        "src-final-r01-paterson-hours",
+        "src-final-r01-paterson-things"
+      ],
+      "country": "US",
+      "coordinates": [
+        -74.1805294,
+        40.9155412
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-final-paterson-great-falls-1",
+        "img-final-paterson-great-falls-2",
+        "img-final-paterson-great-falls-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 4,
+          "viki": 5,
+          "gora": 5,
+          "stivka": 3
+        },
+        "average": 4.25,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "experience_bucket": "nature-scenic",
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "booking_required": false,
+        "traffic_gated": true,
+        "high_physicality": false,
+        "photo_heavy": true
+      },
+      "energy_rebuild_role": "retained-distinctive-anchor",
+      "core_status": "final-decision-core",
+      "original_status": "keep-core",
+      "included_in_magic_default": true,
+      "museum_like": false,
+      "texture": null,
+      "interaction_score": null,
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_type": "free",
+      "price_last_checked": "2026-08-31",
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "operational_risk": "green",
+      "operational_confidence": "green",
+      "optional": false,
+      "included_in_daily_max_total": true,
+      "skip_mode": "Gora gets industry and engineering. Viki gets a powerful waterfall in a city. Stivka and Paco get fresh air with no hiking.",
+      "skip_strategy": "Gora gets industry and engineering. Viki gets a powerful waterfall in a city. Stivka and Paco get fresh air with no hiking.",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "paterson-great-falls",
+        "preserved": true
+      }
+    },
+    {
+      "priority": "anchor",
+      "secondary_for": [
+        "stivka"
+      ],
+      "reservation": "reserve-bike-rental",
+      "cost": {
+        "amount_per_person": 18,
+        "low": 16,
+        "high": 20,
+        "price_type": "variable",
+        "status": "checked-2026-08-31",
+        "note": "Short rental estimate including helmet and lock."
+      },
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "booking_required": true,
+        "traffic_gated": false,
+        "high_physicality": true,
+        "photo_heavy": true
+      },
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 4,
+          "viki": 5,
+          "gora": 5,
+          "stivka": 5
+        },
+        "average": 4.75,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "included_in_magic_score": true,
+      "id": "central-park-bike-loop",
+      "name": "Central Park Bike Loop",
+      "kind": "urban-bike-loop",
+      "city": "New York",
+      "state": "NY",
+      "address": "56 W 56th St, New York, NY 10019",
+      "visit_date": "2026-10-07",
+      "duration_minutes": 120,
+      "summary": "A roughly six-mile park loop gives the NYC day motion, autumn scenery and flexible pacing before the city becomes crowded.",
+      "why_go": "It is the cleanest antidote to the old guided-museum morning and lets the group share energy without needing advanced athletic skill.",
+      "best_for": [
+        "gora",
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Gora gets movement, Viki gets park photography and Paco gets an easy group rhythm; Stivka can ride at a relaxed pace.",
+      "categories": [
+        "athletic_adrenaline",
+        "nature_visual",
+        "architecture_photogenic"
+      ],
+      "experience_bucket": "adventure-adrenaline",
+      "hours": {
+        "opens": "08:00",
+        "closes": "19:00",
+        "status": "seasonal-reconfirm",
+        "note": "October operation confirmed; recheck exact rental desk hours."
+      },
+      "source_ids": [
+        "src-final-r01-energy-central-park-bike"
+      ],
+      "image_query": "Central Park bicycle loop New York autumn skyline riders",
+      "country": "US",
+      "coordinates": [
+        -73.9770757,
+        40.7631535
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address_or_access_point",
+      "image_ids": [
+        "img-final-central-park-bike-loop-1",
+        "img-final-central-park-bike-loop-2",
+        "img-final-central-park-bike-loop-3",
+        "img-final-central-park-bike-loop-4",
+        "img-final-central-park-bike-loop-5"
+      ],
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "data_status": "complete",
+      "energy_rebuild_role": "new-energy-anchor",
+      "core_status": "final-decision-core",
+      "original_status": "new-core",
+      "included_in_magic_default": true,
+      "museum_like": false,
+      "texture": null,
+      "interaction_score": null,
+      "price_per_person_low": 16,
+      "price_per_person_high": 20,
+      "price_per_group": null,
+      "price_type": "variable",
+      "price_last_checked": "2026-08-31",
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 5,
+      "operational_risk": "green",
+      "operational_confidence": "green",
+      "optional": false,
+      "included_in_daily_max_total": true,
+      "skip_mode": "Gora gets movement, Viki gets park photography and Paco gets an easy group rhythm; Stivka can ride at a relaxed pace.",
+      "skip_strategy": "Gora gets movement, Viki gets park photography and Paco gets an easy group rhythm; Stivka can ride at a relaxed pace.",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "central-park-bike-loop",
+        "preserved": true
+      }
+    },
+    {
+      "priority": "anchor",
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "reservation": "none",
+      "cost": {
+        "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "price_type": "free",
+        "status": "checked-2026-08-31",
+        "note": "Free unless noted; parking and personal purchases are excluded."
+      },
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "booking_required": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "photo_heavy": true
+      },
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 5,
+          "viki": 4,
+          "gora": 4,
+          "stivka": 5
+        },
+        "average": 4.5,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "included_in_magic_score": true,
+      "id": "high-line-hudson-yards",
+      "name": "High Line — Hudson Yards to Chelsea",
+      "kind": "elevated-urban-park",
+      "city": "New York",
+      "state": "NY",
+      "address": "High Line entrance at W 30th St and 10th Ave, New York, NY 10001",
+      "visit_date": "2026-10-07",
+      "duration_minutes": 90,
+      "summary": "A former elevated freight line turned into gardens, art and shifting city viewpoints above Manhattan streets.",
+      "why_go": "It turns the first NYC evening into movement, skyline photography and decompression without another vehicle transfer.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Viki gets architecture, plantings and skyline frames while Paco gets an easy, flexible walk; Gora and Stivka get open-air recovery after the drive.",
+      "categories": [
+        "architecture_photogenic",
+        "nature_visual",
+        "quiet_reset"
+      ],
+      "experience_bucket": "urban-exploration-photo",
+      "hours": {
+        "opens": "07:00",
+        "closes": "22:00",
+        "status": "seasonal-reconfirm",
+        "note": "Use the official High Line hours posted for October before travel."
+      },
+      "source_ids": [
+        "src-final-r01-energy-high-line"
+      ],
+      "image_query": "High Line New York Hudson Yards autumn sunset city view",
+      "country": "US",
+      "coordinates": [
+        -74.0048,
+        40.7528
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address_or_access_point",
+      "image_ids": [
+        "img-final-high-line-hudson-yards-1",
+        "img-final-high-line-hudson-yards-2",
+        "img-final-high-line-hudson-yards-3",
+        "img-final-high-line-hudson-yards-4",
+        "img-final-high-line-hudson-yards-5"
+      ],
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "data_status": "complete",
+      "energy_rebuild_role": "new-energy-anchor",
+      "core_status": "final-decision-core",
+      "original_status": "new-core",
+      "included_in_magic_default": true,
+      "museum_like": false,
+      "texture": null,
+      "interaction_score": null,
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_type": "free",
+      "price_last_checked": "2026-08-31",
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 4,
+      "planner_balance_fit": 5,
+      "operational_risk": "green",
+      "operational_confidence": "green",
+      "optional": false,
+      "included_in_daily_max_total": true,
+      "skip_mode": "Viki gets architecture, plantings and skyline frames while Paco gets an easy, flexible walk; Gora and Stivka get open-air recovery after the drive.",
+      "skip_strategy": "Viki gets architecture, plantings and skyline frames while Paco gets an easy, flexible walk; Gora and Stivka get open-air recovery after the drive.",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "high-line-hudson-yards",
+        "preserved": true
+      }
+    },
+    {
+      "id": "dumbo-brooklyn-bridge-park",
+      "name": "DUMBO and Brooklyn Bridge Park",
+      "kind": "urban-viewpoint",
+      "city": "Brooklyn",
+      "state": "NY",
+      "address": "Pier 1, Brooklyn Bridge Park, Brooklyn, NY 11201",
+      "visit_date": "2026-10-07",
+      "summary": "Old brick warehouse streets under the Manhattan Bridge, next to a park on the river. From Washington Street you see the bridge tower with the Empire State Building exactly in the middle. Jane's Carousel stands nearby in a glass box.",
+      "why_go": "Probably the best free view of Manhattan there is, five minutes' walk from an old stone street to the river. No ticket and no fixed time. A relaxed first evening after we park the cars.",
+      "best_for": [
+        "viki"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Viki gets the famous photo. Everyone gets an easy first evening in New York with nothing to book.",
+      "categories": [
+        "architecture_photogenic",
+        "nature_visual",
+        "local_culture_food_cafes"
+      ],
+      "duration_minutes": 90,
+      "priority": "supporting",
+      "reservation": "none",
+      "hours": {
+        "opens": "06:00",
+        "closes": "01:00",
+        "status": "check-later",
+        "note": "Public park; confirm any temporary pier closures."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified"
+      },
+      "source_ids": [
+        "src-final-r01-brooklyn-park"
+      ],
+      "country": "US",
+      "coordinates": [
+        -73.9966225,
+        40.7008598
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "openstreetmap_nominatim",
+      "image_ids": [
+        "img-final-dumbo-brooklyn-bridge-park-1",
+        "img-final-dumbo-brooklyn-bridge-park-2",
+        "img-final-dumbo-brooklyn-bridge-park-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 4,
+          "viki": 5,
+          "gora": 5,
+          "stivka": 5
+        },
+        "average": 4.75,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "experience_bucket": "urban-exploration-photo",
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "booking_required": false,
+        "traffic_gated": true,
+        "high_physicality": false,
+        "photo_heavy": true
+      },
+      "energy_rebuild_role": "retained-distinctive-anchor",
+      "core_status": "final-decision-core",
+      "original_status": "keep-core",
+      "included_in_magic_default": true,
+      "museum_like": false,
+      "texture": null,
+      "interaction_score": null,
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_type": "free",
+      "price_last_checked": "2026-08-31",
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "operational_risk": "green",
+      "operational_confidence": "green",
+      "optional": false,
+      "included_in_daily_max_total": true,
+      "skip_mode": "Viki gets the famous photo. Everyone gets an easy first evening in New York with nothing to book.",
+      "skip_strategy": "Viki gets the famous photo. Everyone gets an easy first evening in New York with nothing to book.",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "dumbo-brooklyn-bridge-park",
+        "preserved": true
+      }
+    },
+    {
+      "id": "st-nicholas-cathedral-dc",
+      "name": "St. Nicholas Orthodox Cathedral",
+      "kind": "orthodox-cathedral",
+      "city": "Washington",
+      "state": "DC",
+      "address": "3500 Massachusetts Avenue NW, Washington, DC 20007",
+      "visit_date": "2026-10-11",
+      "summary": "The main cathedral of the Orthodox Church in America. Every wall and the ceiling are covered with traditional painted icons, made by a team of painters led from Moscow. On Sunday morning it is not a museum but a normal church during a sung service.",
+      "why_go": "You do not visit this church as a tourist. You stand inside a real sung service, with incense and painted walls all around you.",
+      "best_for": [
+        "stivka"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "gora",
+        "viki"
+      ],
+      "best_fit_note": "The strongest personal moment of Route 1 for Stivka. The painted walls give everyone else something to look at and understand.",
+      "categories": [
+        "orthodox_spiritual",
+        "architecture_photogenic",
+        "local_culture_food_cafes"
+      ],
+      "duration_minutes": 105,
+      "priority": "anchor",
+      "reservation": "none",
+      "hours": {
+        "opens": "09:00",
+        "closes": "10:30",
+        "status": "verified-service",
+        "note": "English Divine Liturgy begins 09:00; a Slavonic Divine Liturgy normally follows at 10:45. Reconfirm the monthly calendar."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified",
+        "note": "Donation optional."
+      },
+      "source_ids": [
+        "src-final-r01-st-nicholas-dc"
+      ],
+      "country": "US",
+      "coordinates": [
+        -77.0686587,
+        38.9248859
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "openstreetmap_nominatim",
+      "image_ids": [
+        "img-final-st-nicholas-cathedral-dc-1",
+        "img-final-st-nicholas-cathedral-dc-2",
+        "img-final-st-nicholas-cathedral-dc-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 5,
+          "viki": 3,
+          "gora": 5,
+          "stivka": 5
+        },
+        "average": 4.5,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "experience_bucket": "sacred-spiritual",
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "booking_required": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "photo_heavy": true
+      },
+      "energy_rebuild_role": "retained-distinctive-anchor",
+      "core_status": "final-decision-core",
+      "original_status": "keep-core",
+      "included_in_magic_default": true,
+      "museum_like": false,
+      "texture": null,
+      "interaction_score": null,
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_type": "free",
+      "price_last_checked": "2026-08-31",
+      "viki_fit": 4,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "operational_risk": "green",
+      "operational_confidence": "green",
+      "optional": false,
+      "included_in_daily_max_total": true,
+      "skip_mode": "The strongest personal moment of Route 1 for Stivka. The painted walls give everyone else something to look at and understand.",
+      "skip_strategy": "The strongest personal moment of Route 1 for Stivka. The painted walls give everyone else something to look at and understand.",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "st-nicholas-cathedral-dc",
+        "preserved": true
+      }
+    },
+    {
+      "priority": "anchor",
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "reservation": "timed-ticket-recommended",
+      "cost": {
+        "amount_per_person": 24.99,
+        "low": 24.99,
+        "high": 32,
+        "price_type": "variable",
+        "status": "checked-2026-08-31",
+        "note": "Starting admission range; reprice before purchase."
+      },
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "booking_required": true,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "photo_heavy": true
+      },
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 5,
+          "viki": 4,
+          "gora": 4,
+          "stivka": 4
+        },
+        "average": 4.25,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "included_in_magic_score": true,
+      "id": "ministry-of-awe",
+      "name": "Ministry of Awe",
+      "kind": "immersive-labyrinth",
+      "city": "Philadelphia",
+      "state": "PA",
+      "address": "27 N 3rd St, Philadelphia, PA 19106",
+      "visit_date": "2026-10-12",
+      "duration_minutes": 120,
+      "summary": "Six exploratory stories inside a converted nineteenth-century bank form a strange labyrinth of rooms, passages and immersive installations.",
+      "why_go": "It keeps the old route's folk-art weirdness but makes discovery and movement—not framed viewing—the experience.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Viki gets surreal rooms and strong photographs while Paco gets a flexible shared exploration; Gora and Stivka get mystery without a conventional gallery lecture.",
+      "categories": [
+        "interactive_puzzle_immersive",
+        "unusual_creative",
+        "architecture_photogenic"
+      ],
+      "experience_bucket": "interactive-puzzle-immersive",
+      "hours": {
+        "opens": "11:00",
+        "closes": "22:00",
+        "status": "verified-current",
+        "note": "Friday hours; timed entry recommended."
+      },
+      "source_ids": [
+        "src-final-r01-energy-ministry"
+      ],
+      "image_query": "Ministry of Awe Philadelphia immersive rooms labyrinth bank",
+      "country": "US",
+      "coordinates": [
+        -75.1452624,
+        39.9510622
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address_or_access_point",
+      "image_ids": [
+        "img-final-ministry-of-awe-1",
+        "img-final-ministry-of-awe-2",
+        "img-final-ministry-of-awe-3",
+        "img-final-ministry-of-awe-4",
+        "img-final-ministry-of-awe-5"
+      ],
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "data_status": "complete",
+      "energy_rebuild_role": "new-energy-anchor",
+      "core_status": "final-decision-core",
+      "original_status": "new-core",
+      "included_in_magic_default": true,
+      "museum_like": false,
+      "texture": null,
+      "interaction_score": null,
+      "price_per_person_low": 24.99,
+      "price_per_person_high": 32,
+      "price_per_group": null,
+      "price_type": "variable",
+      "price_last_checked": "2026-08-31",
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 4,
+      "planner_balance_fit": 5,
+      "operational_risk": "green",
+      "operational_confidence": "green",
+      "optional": false,
+      "included_in_daily_max_total": true,
+      "skip_mode": "Viki gets surreal rooms and strong photographs while Paco gets a flexible shared exploration; Gora and Stivka get mystery without a conventional gallery lecture.",
+      "skip_strategy": "Viki gets surreal rooms and strong photographs while Paco gets a flexible shared exploration; Gora and Stivka get mystery without a conventional gallery lecture.",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "ministry-of-awe",
+        "preserved": true
+      }
+    },
+    {
+      "priority": "anchor",
+      "secondary_for": [
+        "sheluvspaco",
+        "gora"
+      ],
+      "reservation": "none",
+      "cost": {
+        "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "price_type": "free",
+        "status": "checked-2026-08-31",
+        "note": "Free unless noted; parking and personal purchases are excluded."
+      },
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "booking_required": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "photo_heavy": true
+      },
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 5,
+          "viki": 5,
+          "gora": 5,
+          "stivka": 3
+        },
+        "average": 4.5,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "included_in_magic_score": true,
+      "id": "baps-akshardham",
+      "name": "BAPS Swaminarayan Akshardham",
+      "kind": "hindu-sacred-complex",
+      "city": "Robbinsville",
+      "state": "NJ",
+      "address": "112 N Main St, Robbinsville, NJ 08561",
+      "visit_date": "2026-10-12",
+      "duration_minutes": 120,
+      "summary": "A monumental living Hindu complex whose carved stone, scale and sacred atmosphere are unlike anything else on this corridor.",
+      "why_go": "It lowers the heart rate after ATV riding while still delivering one of the route's most visually extreme architectural memories.",
+      "best_for": [
+        "stivka",
+        "viki"
+      ],
+      "best_fit_note": "Stivka gets a serious cross-faith sacred encounter and Viki gets extraordinary detail and scale; Paco and Gora get craft, systems and calm.",
+      "categories": [
+        "orthodox_spiritual",
+        "architecture_photogenic",
+        "unusual_creative"
+      ],
+      "experience_bucket": "sacred-spiritual",
+      "hours": {
+        "opens": "09:00",
+        "closes": "19:30",
+        "status": "verified-current",
+        "note": "Open Thursday; respect dress, footwear, bag and photography rules."
+      },
+      "source_ids": [
+        "src-final-r01-energy-baps"
+      ],
+      "image_query": "BAPS Akshardham Robbinsville New Jersey carvings interior exterior sunset",
+      "country": "US",
+      "coordinates": [
+        -74.5792097,
+        40.2544674
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address_or_access_point",
+      "image_ids": [
+        "img-final-baps-akshardham-1",
+        "img-final-baps-akshardham-2",
+        "img-final-baps-akshardham-3",
+        "img-final-baps-akshardham-4",
+        "img-final-baps-akshardham-5"
+      ],
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "data_status": "complete",
+      "energy_rebuild_role": "new-energy-anchor",
+      "core_status": "final-decision-core",
+      "original_status": "new-core",
+      "included_in_magic_default": true,
+      "museum_like": false,
+      "texture": null,
+      "interaction_score": null,
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_type": "free",
+      "price_last_checked": "2026-08-31",
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "operational_risk": "green",
+      "operational_confidence": "green",
+      "optional": false,
+      "included_in_daily_max_total": true,
+      "skip_mode": "Stivka gets a serious cross-faith sacred encounter and Viki gets extraordinary detail and scale; Paco and Gora get craft, systems and calm.",
+      "skip_strategy": "Stivka gets a serious cross-faith sacred encounter and Viki gets extraordinary detail and scale; Paco and Gora get craft, systems and calm.",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "baps-akshardham",
+        "preserved": true
+      }
+    },
+    {
+      "id": "old-sturbridge-village",
+      "name": "Old Sturbridge Village",
+      "kind": "living-history-village",
+      "city": "Sturbridge",
+      "state": "MA",
+      "address": "1 Old Sturbridge Village Road, Sturbridge, MA 01566",
+      "visit_date": "2026-10-14",
+      "summary": "A rebuilt New England town from the 1830s on 200 acres. More than 40 old buildings were moved here. There is a working farm, water mills, old gardens, and staff in period clothes who really do the old jobs: blacksmith, barrel maker, printer, potter. It is the largest open-air history museum in the Northeast.",
+      "why_go": "A whole town working at 1830s speed, in the best week of autumn color. The mill turns, the blacksmith works, and nobody drops the act.",
+      "best_for": [
+        "gora",
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Gora gets everyday history based on real evidence. Viki gets a beautiful village in autumn. Stivka gets the old church and community life. Paco gets a stop everyone enjoys.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_photogenic",
+        "local_culture_food_cafes",
+        "group_bonding"
+      ],
+      "duration_minutes": 150,
+      "priority": "anchor",
+      "reservation": "recommended",
+      "hours": {
+        "opens": "09:30",
+        "closes": "16:00",
+        "status": "verified-2026-08-31",
+        "note": "Wednesday-Sunday, 09:30-16:00 for the Sep 30-Nov 14, 2026 fall/winter schedule (osv.org/visit/, checked 2026-08-31). Some Saturdays in this window close early for the ticketed 'Phantoms by Firelight' evening event; Oct 14, 2026 is a Wednesday so this does not apply. Hours are subject to change; reconfirm before arrival."
+      },
+      "cost": {
+        "amount_per_person": 27,
+        "range_per_person": [
+          27,
+          30
+        ],
+        "status": "verified-2026-08-31",
+        "note": "$27/person online in advance, $30/person at the gate (osv.org/visit/, checked 2026-08-31)."
+      },
+      "source_ids": [
+        "src-final-r01-old-sturbridge"
+      ],
+      "country": "US",
+      "coordinates": [
+        -72.1011232,
+        42.1038149
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-final-old-sturbridge-village-1",
+        "img-final-old-sturbridge-village-2",
+        "img-final-old-sturbridge-village-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 5,
+          "viki": 4,
+          "gora": 5,
+          "stivka": 5
+        },
+        "average": 4.75,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "experience_bucket": "high-impact-history-culture",
+      "experience_flags": {
+        "museum_like": true,
+        "weather_gated": false,
+        "booking_required": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "photo_heavy": true
+      },
+      "energy_rebuild_role": "retained-distinctive-anchor",
+      "core_status": "final-decision-core",
+      "original_status": "keep-core",
+      "included_in_magic_default": true,
+      "museum_like": true,
+      "texture": null,
+      "interaction_score": null,
+      "price_per_person_low": 27,
+      "price_per_person_high": 27,
+      "price_per_group": null,
+      "price_type": "per-person",
+      "price_last_checked": "2026-08-31",
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "operational_risk": "green",
+      "operational_confidence": "green",
+      "optional": false,
+      "included_in_daily_max_total": true,
+      "skip_mode": "Gora gets everyday history based on real evidence. Viki gets a beautiful village in autumn. Stivka gets the old church and community life. Paco gets a stop everyone enjoys.",
+      "skip_strategy": "Gora gets everyday history based on real evidence. Viki gets a beautiful village in autumn. Stivka gets the old church and community life. Paco gets a stop everyone enjoys.",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "old-sturbridge-village",
+        "preserved": true
+      }
+    },
+    {
+      "priority": "flex",
+      "secondary_for": [
+        "stivka"
+      ],
+      "reservation": "reserve-around-car-return",
+      "cost": {
+        "amount_per_person": 32,
+        "low": 32,
+        "high": 32,
+        "price_type": "paid",
+        "status": "checked-2026-08-31",
+        "note": "Two-hour current price; closed-toe attached shoes required."
+      },
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "booking_required": true,
+        "traffic_gated": true,
+        "high_physicality": true,
+        "photo_heavy": true
+      },
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 5,
+          "viki": 4,
+          "gora": 2,
+          "stivka": 3
+        },
+        "average": 3.5,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "included_in_magic_score": false,
+      "id": "boda-borg-boston",
+      "name": "Boda Borg Boston",
+      "kind": "physical-mental-questing",
+      "city": "Malden",
+      "state": "MA",
+      "address": "90 Pleasant St, Malden, MA 02148",
+      "visit_date": "2026-10-04",
+      "duration_minutes": 120,
+      "summary": "Twenty-four themed Quests and more than seventy mental and physical rooms reward repeated attempts, rapid learning and four-person teamwork.",
+      "why_go": "It is the ideal finale: the group fails, adapts, laughs and wins together instead of ending the trip in another display hall.",
+      "best_for": [
+        "sheluvspaco",
+        "gora",
+        "viki"
+      ],
+      "best_fit_note": "Paco gets team coordination, Gora gets physical rooms and Viki gets playful immersive variety; Stivka remains essential to solving the Quests.",
+      "categories": [
+        "interactive_puzzle_immersive",
+        "athletic_adrenaline",
+        "group_bonding"
+      ],
+      "experience_bucket": "interactive-puzzle-immersive",
+      "hours": {
+        "opens": "10:00",
+        "closes": "22:00",
+        "status": "verified-current",
+        "note": "Wednesday hours; final slot must respect the two-car return deadline."
+      },
+      "source_ids": [
+        "src-final-r01-energy-boda"
+      ],
+      "image_query": "Boda Borg Boston Malden quest rooms team challenge",
+      "country": "US",
+      "coordinates": [
+        -71.069703,
+        42.4267231
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address_or_access_point",
+      "image_ids": [
+        "img-final-boda-borg-boston-1",
+        "img-final-boda-borg-boston-2",
+        "img-final-boda-borg-boston-3",
+        "img-final-boda-borg-boston-4",
+        "img-final-boda-borg-boston-5"
+      ],
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "data_status": "complete",
+      "energy_rebuild_role": "new-energy-anchor",
+      "core_status": "corridor-option-outside-baseline",
+      "original_status": "new-core",
+      "included_in_magic_default": false,
+      "museum_like": false,
+      "texture": null,
+      "interaction_score": null,
+      "price_per_person_low": 32,
+      "price_per_person_high": 32,
+      "price_per_group": null,
+      "price_type": "paid",
+      "price_last_checked": "2026-08-31",
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 5,
+      "operational_risk": "green",
+      "operational_confidence": "green",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "skip_mode": "Paco gets team coordination, Gora gets physical rooms and Viki gets playful immersive variety; Stivka remains essential to solving the Quests.",
+      "skip_strategy": "Paco gets team coordination, Gora gets physical rooms and Viki gets playful immersive variety; Stivka remains essential to solving the Quests.",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "boda-borg-boston",
+        "preserved": true
+      }
+    },
+    {
+      "id": "st-nicholas-wtc",
+      "name": "St. Nicholas Greek Orthodox Church and National Shrine",
+      "kind": "orthodox-church",
+      "city": "New York",
+      "state": "NY",
+      "address": "130 Liberty Street, New York, NY 10006",
+      "visit_date": "2026-10-07",
+      "summary": "A white marble church at the World Trade Center, designed by Santiago Calatrava. It replaces the small Greek church destroyed when the South Tower fell. The dome copies Hagia Sophia in Istanbul, and monks from Mount Athos painted the icons inside. The stone is so thin that at night the whole building glows.",
+      "why_go": "The only building destroyed on 11 September that came back as a church, and after dark it shines from inside like a lamp. Faith, art, modern architecture and memory in one small place.",
+      "best_for": [
+        "stivka"
+      ],
+      "secondary_for": [
+        "viki",
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "The clearest stop for Stivka in New York. The building and the history are strong for the rest of the group too.",
+      "categories": [
+        "orthodox_spiritual",
+        "architecture_photogenic",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 45,
+      "priority": "flex",
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified",
+        "note": "Open to the public daily; maintain church etiquette and defer to services."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified",
+        "note": "Donation optional."
+      },
+      "source_ids": [
+        "src-final-r01-st-nicholas-wtc"
+      ],
+      "country": "US",
+      "coordinates": [
+        -74.0132,
+        40.7118
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-final-st-nicholas-wtc-1",
+        "img-final-st-nicholas-wtc-2",
+        "img-final-st-nicholas-wtc-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 5,
+          "viki": 2,
+          "gora": 5,
+          "stivka": 5
+        },
+        "average": 4.25,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "experience_bucket": "sacred-spiritual",
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "booking_required": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "photo_heavy": true
+      },
+      "energy_rebuild_role": "retained-distinctive-anchor",
+      "core_status": "corridor-option-outside-baseline",
+      "original_status": "keep-core",
+      "included_in_magic_default": false,
+      "museum_like": false,
+      "texture": null,
+      "interaction_score": null,
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_type": "free",
+      "price_last_checked": "2026-08-31",
+      "viki_fit": 4,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "operational_risk": "green",
+      "operational_confidence": "green",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "skip_mode": "The clearest stop for Stivka in New York. The building and the history are strong for the rest of the group too.",
+      "skip_strategy": "The clearest stop for Stivka in New York. The building and the history are strong for the rest of the group too.",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "st-nicholas-wtc",
+        "preserved": true
+      }
+    },
+    {
+      "priority": "flex",
+      "secondary_for": [
+        "stivka"
+      ],
+      "reservation": "timed-ticket-required",
+      "cost": {
+        "amount_per_person": 34.95,
+        "low": 34.95,
+        "high": 49.95,
+        "price_type": "variable",
+        "status": "checked-2026-08-31",
+        "note": "Bomb Mission starting price; ticket tier changes final cost."
+      },
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "booking_required": true,
+        "traffic_gated": false,
+        "high_physicality": true,
+        "photo_heavy": true
+      },
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 5,
+          "viki": 5,
+          "gora": 2,
+          "stivka": 3
+        },
+        "average": 3.75,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "included_in_magic_score": false,
+      "id": "beat-the-bomb-brooklyn",
+      "name": "Beat The Bomb Brooklyn",
+      "kind": "team-bomb-mission",
+      "city": "Brooklyn",
+      "state": "NY",
+      "address": "255 Water St, Brooklyn, NY 11201",
+      "visit_date": "2026-10-07",
+      "duration_minutes": 75,
+      "summary": "A four-person team clears five physical and mental rooms before trying to disarm a paint, foam or slime bomb.",
+      "why_go": "It is fast, social and genuinely different from a standard escape room, then spills directly into DUMBO at blue hour.",
+      "best_for": [
+        "sheluvspaco",
+        "viki",
+        "gora"
+      ],
+      "best_fit_note": "Paco gets coordination, Viki gets the absurd photo/video ending and Gora gets pressure-based games; Stivka remains fully part of the team.",
+      "categories": [
+        "interactive_puzzle_immersive",
+        "athletic_adrenaline",
+        "group_bonding"
+      ],
+      "experience_bucket": "interactive-puzzle-immersive",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "verified-weekday-pattern",
+        "note": "Brooklyn is open Wednesday-Sunday; confirm the exact mission inventory."
+      },
+      "source_ids": [
+        "src-final-r01-energy-beat-bomb"
+      ],
+      "image_query": "Beat The Bomb Brooklyn paint bomb mission team hazmat rooms",
+      "country": "US",
+      "coordinates": [
+        -73.983906,
+        40.7032035
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address_or_access_point",
+      "image_ids": [
+        "img-final-beat-the-bomb-brooklyn-1",
+        "img-final-beat-the-bomb-brooklyn-2",
+        "img-final-beat-the-bomb-brooklyn-3",
+        "img-final-beat-the-bomb-brooklyn-4",
+        "img-final-beat-the-bomb-brooklyn-5"
+      ],
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "data_status": "complete",
+      "energy_rebuild_role": "new-energy-anchor",
+      "core_status": "corridor-option-outside-baseline",
+      "original_status": "new-core",
+      "included_in_magic_default": false,
+      "museum_like": false,
+      "texture": null,
+      "interaction_score": null,
+      "price_per_person_low": 34.95,
+      "price_per_person_high": 49.95,
+      "price_per_group": null,
+      "price_type": "variable",
+      "price_last_checked": "2026-08-31",
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 5,
+      "operational_risk": "green",
+      "operational_confidence": "green",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "skip_mode": "Paco gets coordination, Viki gets the absurd photo/video ending and Gora gets pressure-based games; Stivka remains fully part of the team.",
+      "skip_strategy": "Paco gets coordination, Viki gets the absurd photo/video ending and Gora gets pressure-based games; Stivka remains fully part of the team.",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "beat-the-bomb-brooklyn",
+        "preserved": true
+      }
+    },
+    {
+      "priority": "flex",
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "reservation": "none",
+      "cost": {
+        "amount_per_person": 10,
+        "low": 10,
+        "high": 10,
+        "price_type": "paid",
+        "status": "checked-2026-08-31",
+        "note": "Current adult trail admission."
+      },
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "booking_required": false,
+        "traffic_gated": false,
+        "high_physicality": true,
+        "photo_heavy": true
+      },
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 4,
+          "viki": 5,
+          "gora": 4,
+          "stivka": 4
+        },
+        "average": 4.25,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "included_in_magic_score": false,
+      "id": "hawk-mountain-north-lookout",
+      "name": "Hawk Mountain Sanctuary — North Lookout",
+      "kind": "raptor-migration-hike",
+      "city": "Kempton",
+      "state": "PA",
+      "address": "1700 Hawk Mountain Rd, Kempton, PA 19529",
+      "visit_date": "2026-10-08",
+      "duration_minutes": 160,
+      "summary": "A ridge hike reaches the North Lookout during the sanctuary's official autumn raptor-migration count season.",
+      "why_go": "Even on a quiet bird day, the layered October ridges make this the strongest nature replacement for another Bethlehem history walk.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "best_fit_note": "Viki gets the route's broadest fall panorama and Gora gets a purposeful mountain trail; Paco and Stivka get a quiet natural counterweight to Gettysburg.",
+      "categories": [
+        "nature_visual",
+        "athletic_adrenaline",
+        "quiet_reset"
+      ],
+      "experience_bucket": "nature-scenic",
+      "hours": {
+        "opens": "09:00",
+        "closes": "17:00",
+        "status": "verified-current",
+        "note": "Oct 12 is within the Aug 15-Dec 15 migration count; sightings are never guaranteed."
+      },
+      "source_ids": [
+        "src-final-r01-energy-hawk"
+      ],
+      "image_query": "Hawk Mountain Sanctuary North Lookout autumn raptor migration view",
+      "country": "US",
+      "coordinates": [
+        -75.9868307,
+        40.6337751
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address_or_access_point",
+      "image_ids": [
+        "img-final-hawk-mountain-north-lookout-1",
+        "img-final-hawk-mountain-north-lookout-2",
+        "img-final-hawk-mountain-north-lookout-3",
+        "img-final-hawk-mountain-north-lookout-4",
+        "img-final-hawk-mountain-north-lookout-5"
+      ],
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "data_status": "complete",
+      "energy_rebuild_role": "new-energy-anchor",
+      "core_status": "corridor-option-outside-baseline",
+      "original_status": "new-core",
+      "included_in_magic_default": false,
+      "museum_like": false,
+      "texture": null,
+      "interaction_score": null,
+      "price_per_person_low": 10,
+      "price_per_person_high": 10,
+      "price_per_group": null,
+      "price_type": "paid",
+      "price_last_checked": "2026-08-31",
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "operational_risk": "green",
+      "operational_confidence": "green",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "skip_mode": "Viki gets the route's broadest fall panorama and Gora gets a purposeful mountain trail; Paco and Stivka get a quiet natural counterweight to Gettysburg.",
+      "skip_strategy": "Viki gets the route's broadest fall panorama and Gora gets a purposeful mountain trail; Paco and Stivka get a quiet natural counterweight to Gettysburg.",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "hawk-mountain-north-lookout",
+        "preserved": true
+      }
+    },
+    {
+      "priority": "flex",
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "reservation": "none",
+      "cost": {
+        "amount_per_person": 2.5,
+        "low": 2.5,
+        "high": 2.5,
+        "price_type": "vehicle_fee",
+        "status": "checked-2026-08-31",
+        "note": "Two non-Maryland vehicles at the current off-season vehicle charge, split four ways."
+      },
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "booking_required": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "photo_heavy": true
+      },
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 4,
+          "viki": 5,
+          "gora": 4,
+          "stivka": 5
+        },
+        "average": 4.5,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "included_in_magic_score": false,
+      "id": "cunningham-falls",
+      "name": "Cunningham Falls — William Houck Area",
+      "kind": "waterfall-hike",
+      "city": "Thurmont",
+      "state": "MD",
+      "address": "14274 William Houck Dr, Thurmont, MD 21788",
+      "visit_date": "2026-10-09",
+      "duration_minutes": 135,
+      "summary": "A forest trail climbs to Maryland's highest cascading waterfall on the natural corridor from Washington to Gettysburg.",
+      "why_go": "It creates the route's needed recovery day and replaces three slower indoor blocks with one coherent outdoor experience.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "best_fit_note": "Viki gets autumn waterfall photography and Gora gets a moderate trail; Paco and Stivka get a restorative Sunday afternoon.",
+      "categories": [
+        "nature_visual",
+        "quiet_reset",
+        "athletic_adrenaline"
+      ],
+      "experience_bucket": "nature-scenic",
+      "hours": {
+        "opens": "08:00",
+        "closes": null,
+        "status": "verified-seasonal",
+        "note": "Open to sunset in April-October; Sunday capacity is the primary risk."
+      },
+      "source_ids": [
+        "src-final-r01-energy-cunningham"
+      ],
+      "image_query": "Cunningham Falls State Park Maryland autumn waterfall trail",
+      "country": "US",
+      "coordinates": [
+        -77.4665,
+        39.6273
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address_or_access_point",
+      "image_ids": [
+        "img-final-cunningham-falls-1",
+        "img-final-cunningham-falls-2",
+        "img-final-cunningham-falls-3",
+        "img-final-cunningham-falls-4",
+        "img-final-cunningham-falls-5"
+      ],
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "data_status": "complete",
+      "energy_rebuild_role": "new-energy-anchor",
+      "core_status": "corridor-option-outside-baseline",
+      "original_status": "new-core",
+      "included_in_magic_default": false,
+      "museum_like": false,
+      "texture": null,
+      "interaction_score": null,
+      "price_per_person_low": 2.5,
+      "price_per_person_high": 2.5,
+      "price_per_group": null,
+      "price_type": "vehicle_fee",
+      "price_last_checked": "2026-08-31",
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "operational_risk": "green",
+      "operational_confidence": "green",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "skip_mode": "Viki gets autumn waterfall photography and Gora gets a moderate trail; Paco and Stivka get a restorative Sunday afternoon.",
+      "skip_strategy": "Viki gets autumn waterfall photography and Gora gets a moderate trail; Paco and Stivka get a restorative Sunday afternoon.",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "cunningham-falls",
+        "preserved": true
+      }
+    },
+    {
+      "id": "lincoln-memorial",
+      "name": "National Mall Sunset Monument Walk",
+      "kind": "monument-walk",
+      "city": "Washington",
+      "state": "DC",
+      "address": "2 Lincoln Memorial Circle NW, Washington, DC 20002",
+      "visit_date": "2026-10-09",
+      "summary": "A white marble building from 1922, built like a Greek temple around a huge seated statue of Abraham Lincoln. It has 36 columns, one for each state at the time of his death, and his Gettysburg speech is carved into the wall. Martin Luther King gave his I Have a Dream speech from the top step, which is marked in the stone.",
+      "why_go": "In the evening light the marble turns cold white, the long water pool repeats the whole picture, and most people have gone home. Famous for good reason, but we go at the right hour and keep it short.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Viki gets the famous photo. Gora gets to see how a country builds its memory in stone.",
+      "categories": [
+        "architecture_photogenic",
+        "hidden_history_folklore",
+        "nature_visual"
+      ],
+      "duration_minutes": 70,
+      "priority": "flex",
+      "reservation": "none",
+      "hours": {
+        "opens": "00:00",
+        "closes": "23:59",
+        "status": "open-continuously",
+        "note": "Outdoor memorial; ranger-staffed hours are narrower."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified"
+      },
+      "source_ids": [
+        "src-final-r01-lincoln"
+      ],
+      "country": "US",
+      "coordinates": [
+        -77.0502109,
+        38.8892648
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "openstreetmap_nominatim",
+      "image_ids": [
+        "img-final-lincoln-memorial-1",
+        "img-final-lincoln-memorial-2",
+        "img-final-lincoln-memorial-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 4,
+          "viki": 4,
+          "gora": 4,
+          "stivka": 3
+        },
+        "average": 3.75,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "experience_bucket": "high-impact-history-culture",
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "booking_required": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "photo_heavy": true
+      },
+      "energy_rebuild_role": "retained-distinctive-anchor",
+      "core_status": "corridor-option-outside-baseline",
+      "original_status": "keep-core",
+      "included_in_magic_default": false,
+      "museum_like": false,
+      "texture": null,
+      "interaction_score": null,
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_type": "free",
+      "price_last_checked": "2026-08-31",
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "operational_risk": "green",
+      "operational_confidence": "green",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "skip_mode": "Viki gets the famous photo. Gora gets to see how a country builds its memory in stone.",
+      "skip_strategy": "Viki gets the famous photo. Gora gets to see how a country builds its memory in stone.",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "lincoln-memorial",
+        "preserved": true
+      }
+    },
+    {
+      "id": "elfreths-alley",
+      "name": "Elfreth's Alley",
+      "kind": "historic-street",
+      "city": "Philadelphia",
+      "state": "PA",
+      "address": "Elfreth's Alley, Philadelphia, PA 19106",
+      "visit_date": "2026-10-12",
+      "summary": "A narrow stone street with 32 brick houses built between 1720 and 1830. People call it the oldest street in America where people have always lived. Families still live behind every door today.",
+      "why_go": "Thirty-two houses, three hundred years old, and people still live in them. A real street, not a museum. No booking, and easy to skip if traffic makes us late.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "A shared stop for Viki and Gora: pretty on the surface, with the history of ordinary working families underneath.",
+      "categories": [
+        "architecture_photogenic",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 35,
+      "priority": "flex",
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "public-residential-street",
+        "note": "The alley is residential. Keep voices low and do not block homes; museum hours differ."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified"
+      },
+      "source_ids": [
+        "src-final-r01-elfreth"
+      ],
+      "country": "US",
+      "coordinates": [
+        -75.1423814,
+        39.9527723
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "openstreetmap_nominatim",
+      "image_ids": [
+        "img-final-elfreths-alley-1",
+        "img-final-elfreths-alley-2",
+        "img-final-elfreths-alley-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 4,
+          "viki": 4,
+          "gora": 4,
+          "stivka": 4
+        },
+        "average": 4,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "experience_bucket": "high-impact-history-culture",
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "booking_required": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "photo_heavy": true
+      },
+      "energy_rebuild_role": "retained-distinctive-anchor",
+      "core_status": "corridor-option-outside-baseline",
+      "original_status": "keep-core",
+      "included_in_magic_default": false,
+      "museum_like": false,
+      "texture": null,
+      "interaction_score": null,
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_type": "free",
+      "price_last_checked": "2026-08-31",
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "operational_risk": "green",
+      "operational_confidence": "green",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "skip_mode": "A shared stop for Viki and Gora: pretty on the surface, with the history of ordinary working families underneath.",
+      "skip_strategy": "A shared stop for Viki and Gora: pretty on the surface, with the history of ordinary working families underneath.",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "elfreths-alley",
+        "preserved": true
+      }
+    },
+    {
+      "id": "eastern-state",
+      "name": "Eastern State Penitentiary",
+      "kind": "history-museum",
+      "city": "Philadelphia",
+      "state": "PA",
+      "address": "2027 Fairmount Avenue, Philadelphia, PA 19130",
+      "visit_date": "2026-10-12",
+      "summary": "A prison from 1829, the first built to keep every prisoner alone and silent. The cell blocks go out from a central tower like the spokes of a wheel. It was kept as a ruin on purpose: broken roofs, falling walls, trees growing in the cells. Al Capone's cell is here, and the exhibitions continue up to prisons today.",
+      "why_go": "A huge broken prison where the building itself was the punishment. Dark and serious, but everything is explained with real facts and documents.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "The deepest history stop of the trip for Gora. For Viki it is one of the strangest buildings we enter.",
+      "categories": [
+        "hidden_history_folklore",
+        "architecture_photogenic",
+        "unusual_creative"
+      ],
+      "duration_minutes": 135,
+      "priority": "flex",
+      "reservation": "recommended",
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified",
+        "note": "March-November daily schedule; last entry 16:00. Daytime program selected, not the separate Halloween event."
+      },
+      "cost": {
+        "amount_per_person": 21,
+        "status": "verified",
+        "note": "Online adult price; door price currently $23."
+      },
+      "source_ids": [
+        "src-final-r01-eastern-state-hours",
+        "src-final-r01-eastern-state-cost"
+      ],
+      "country": "US",
+      "coordinates": [
+        -75.1726626,
+        39.9683406
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "openstreetmap_nominatim",
+      "image_ids": [
+        "img-final-eastern-state-1",
+        "img-final-eastern-state-2",
+        "img-final-eastern-state-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 5,
+          "viki": 2,
+          "gora": 5,
+          "stivka": 2
+        },
+        "average": 3.5,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "experience_bucket": "high-impact-history-culture",
+      "experience_flags": {
+        "museum_like": true,
+        "weather_gated": false,
+        "booking_required": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "photo_heavy": false
+      },
+      "energy_rebuild_role": "retained-distinctive-anchor",
+      "core_status": "corridor-option-outside-baseline",
+      "original_status": "keep-core",
+      "included_in_magic_default": false,
+      "museum_like": true,
+      "texture": null,
+      "interaction_score": null,
+      "price_per_person_low": 21,
+      "price_per_person_high": 21,
+      "price_per_group": null,
+      "price_type": "per-person",
+      "price_last_checked": "2026-08-31",
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "operational_risk": "green",
+      "operational_confidence": "green",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "skip_mode": "The deepest history stop of the trip for Gora. For Viki it is one of the strangest buildings we enter.",
+      "skip_strategy": "The deepest history stop of the trip for Gora. For Viki it is one of the strangest buildings we enter.",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "eastern-state",
+        "preserved": true
+      }
+    },
+    {
+      "id": "pez-visitor-center",
+      "name": "PEZ Visitor Center & Factory Window",
+      "kind": "candy-design-museum",
+      "city": "Orange",
+      "state": "CT",
+      "visit_date": "2026-10-14",
+      "summary": "The world's largest PEZ dispenser, a hundred years of packaging design, rare character heads, and windows looking onto the real packing line on weekdays.",
+      "why_go": "Cheap, silly and completely specific. Exactly the right last laugh before the drive back to Boston.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Viki's colorful product photos and Paco's mood on the final day. Gora can read the manufacturing history instead of treating it as a shop.",
+      "categories": [
+        "unusual_creative",
+        "food_coffee_shopping",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 75,
+      "source_ids": [
+        "src-final-r03-pez"
+      ],
+      "hours": {
+        "opens": "10:00",
+        "closes": "17:00",
+        "status": "verified",
+        "note": "Open Wednesday; production normally runs weekdays but is not guaranteed."
+      },
+      "cost": {
+        "amount_per_person": 5,
+        "status": "verified",
+        "note": "Includes a $2 same-day shop credit and souvenir lanyard."
+      },
+      "address": "PEZ Visitor Center, 35 Prindle Hill Road, Orange, Connecticut",
+      "priority": "supporting",
+      "reservation": "none",
+      "country": "US",
+      "coordinates": [
+        -72.9971,
+        41.2638
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-final-pez-visitor-center-1",
+        "img-final-pez-visitor-center-2",
+        "img-final-pez-visitor-center-3",
+        "img-final-pez-visitor-center-4",
+        "img-final-pez-visitor-center-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 5,
+          "viki": 5,
+          "gora": 5,
+          "stivka": 4
+        },
+        "average": 4.75,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "core_status": "final-decision-core",
+      "original_status": "keep-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": false,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated",
+      "included_in_magic_default": true,
+      "rating_source": {
+        "route_id": "route-03",
+        "place_id": "pez-visitor-center",
+        "preserved": true
+      }
+    },
+    {
+      "id": "barker-cartoon-museum",
+      "name": "Barker Character, Comic & Cartoon Museum",
+      "kind": "private-pop-culture-collection",
+      "city": "Cheshire",
+      "state": "CT",
+      "visit_date": "2026-10-06",
+      "summary": "Four crowded rooms holding more than 80,000 toys, lunchboxes, character objects and animation pieces, from 1873 to today.",
+      "why_go": "Everyone will find a childhood character they had forgotten. It is also further inland, which leaves more time margin for the drive home.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Good for Viki's colorful nostalgia and Paco's group banter. Gora can follow how toys were made; Stivka can hunt rock and cartoon crossovers.",
+      "categories": [
+        "unusual_creative",
+        "hidden_history_folklore",
+        "food_coffee_shopping"
+      ],
+      "duration_minutes": 90,
+      "source_ids": [
+        "src-final-r03-barker"
+      ],
+      "hours": {
+        "opens": "11:00",
+        "closes": "17:00",
+        "status": "verified-2026",
+        "note": "Wednesday off-season hours are explicitly published for 2026."
+      },
+      "cost": {
+        "amount_per_person": 5,
+        "status": "verified",
+        "note": "Adult admission."
+      },
+      "replacement_reason": "Choose when the group wants a denser, weirder pop-culture finale and more road margin than the coastal PEZ baseline.",
+      "address": "Barker Character Comic and Cartoon Museum, 1188 Highland Avenue, Cheshire, Connecticut",
+      "priority": "flex",
+      "reservation": "none",
+      "country": "US",
+      "coordinates": [
+        -72.894,
+        41.5314
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-final-barker-cartoon-museum-1",
+        "img-final-barker-cartoon-museum-2",
+        "img-final-barker-cartoon-museum-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 5,
+          "viki": 3,
+          "gora": 4,
+          "stivka": 3
+        },
+        "average": 3.75,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "corridor-option-outside-baseline",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated",
+      "included_in_magic_default": false,
+      "rating_source": {
+        "route_id": "route-03",
+        "place_id": "barker-cartoon-museum",
+        "preserved": true
+      }
+    },
+    {
+      "id": "baltimore-industry",
+      "name": "Baltimore Museum of Industry",
+      "kind": "working-industrial-museum",
+      "city": "Baltimore",
+      "state": "MD",
+      "visit_date": "2026-10-11",
+      "summary": "An 1865 oyster cannery on the water. Inside there are canning lines, a belt-driven machine shop and printing equipment, with the stories of the people who worked them.",
+      "why_go": "Smaller than the railway museum, and on Sunday the staff actually run the machines instead of just labeling them.",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Gora's interest in work and machinery, and for Viki's cannery textures and harbor views. Stivka gets human stories of craft and migration.",
+      "categories": [
+        "architecture_photogenic",
+        "hidden_history_folklore",
+        "unusual_creative"
+      ],
+      "duration_minutes": 120,
+      "source_ids": [
+        "src-final-r03-bmi"
+      ],
+      "hours": {
+        "opens": "09:00",
+        "closes": "16:00",
+        "status": "verified",
+        "note": "Tuesday-Sunday; Sunday docent-led tours are included except the fourth Sunday."
+      },
+      "cost": {
+        "amount_per_person": 15,
+        "status": "verified",
+        "note": "Adult admission."
+      },
+      "replacement_reason": "Choose when the group wants labor, manufacturing and waterfront texture instead of a second large transportation collection.",
+      "address": "Baltimore Museum of Industry, 1415 Key Highway, Baltimore, Maryland",
+      "priority": "flex",
+      "reservation": "none",
+      "country": "US",
+      "coordinates": [
+        -76.6015,
+        39.2741
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-final-baltimore-industry-1",
+        "img-final-baltimore-industry-2",
+        "img-final-baltimore-industry-3",
+        "img-final-baltimore-industry-4",
+        "img-final-baltimore-industry-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 3,
+          "viki": 1,
+          "gora": 5,
+          "stivka": 1
+        },
+        "average": 2.5,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "core_status": "corridor-option-outside-baseline",
+      "original_status": "documented-alternative",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "operational_risk": "reconfirm-if-activated",
+      "included_in_magic_default": false,
+      "rating_source": {
+        "route_id": "route-03",
+        "place_id": "baltimore-industry",
+        "preserved": true
+      }
+    },
+    {
+      "id": "pa-capitol",
+      "name": "Pennsylvania State Capitol",
+      "kind": "civic-palace",
+      "city": "Harrisburg",
+      "state": "PA",
+      "visit_date": "2026-10-09",
+      "summary": "A Beaux-Arts parliament building whose inside is far richer than the outside suggests: a tiled dome, huge staircases and painted murals.",
+      "why_go": "From outside it looks ordinary. Inside there is a tiled dome and a staircase copied from the Paris Opera.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Good for Viki's decorated architecture and Gora's political history. Free to enter.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 75,
+      "source_ids": [
+        "src-final-r05-pa-capitol"
+      ],
+      "reservation": "reserve-tour",
+      "hours": {
+        "opens": "07:00",
+        "closes": "18:00",
+        "status": "verified-current",
+        "note": "Weekday public access; reserve or join a morning guided tour."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified-current",
+        "note": "Adult planning price; reconfirm before booking."
+      },
+      "priority": "flex",
+      "address": "Pennsylvania State Capitol",
+      "country": "US",
+      "coordinates": [
+        -76.8837,
+        40.2644
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-final-pa-capitol-1",
+        "img-final-pa-capitol-2",
+        "img-final-pa-capitol-3",
+        "img-final-pa-capitol-4",
+        "img-final-pa-capitol-5",
+        "img-final-pa-capitol-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 5,
+          "viki": 5,
+          "gora": 5,
+          "stivka": 4
+        },
+        "average": 4.75,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "included_in_magic_default": true,
+      "core_status": "final-decision-core",
+      "original_status": "demote-flex",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": false,
+      "included_in_daily_max_total": false,
+      "skip_mode": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "skip_strategy": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "operational_risk": "reconfirm-if-activated",
+      "operational_confidence": "reconfirm-if-activated",
+      "rating_source": {
+        "route_id": "route-05",
+        "place_id": "pa-capitol",
+        "preserved": true
+      }
+    },
+    {
+      "id": "harrisburg-riverfront",
+      "name": "Harrisburg Riverfront & Walnut Street Bridge",
+      "kind": "riverfront-blue-hour",
+      "city": "Harrisburg",
+      "state": "PA",
+      "visit_date": "2026-10-09",
+      "summary": "A long park along the Susquehanna River facing City Island, with the broken remains of the 1890 Walnut Street truss bridge standing in the water.",
+      "why_go": "A half-collapsed iron bridge standing in a wide river at golden hour. Calm, free and very photogenic.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: viki, stivka. A deliberate 45-minute river reset moved here from Day 4 to break the drive.",
+      "categories": [
+        "architecture_nature_photogenic",
+        "quiet_reset"
+      ],
+      "duration_minutes": 65,
+      "source_ids": [
+        "src-final-r05-harrisburg-river"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "public-space",
+        "note": "Outdoor park; use daylight and normal city awareness."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "free",
+        "status": "verified",
+        "note": ""
+      },
+      "priority": "flex",
+      "address": "Harrisburg Riverfront & Walnut Street Bridge",
+      "country": "US",
+      "coordinates": [
+        -76.886,
+        40.2604
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-final-harrisburg-riverfront-1",
+        "img-final-harrisburg-riverfront-2",
+        "img-final-harrisburg-riverfront-3",
+        "img-final-harrisburg-riverfront-4",
+        "img-final-harrisburg-riverfront-5",
+        "img-final-harrisburg-riverfront-6"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 4,
+          "viki": 1,
+          "gora": 4,
+          "stivka": 3
+        },
+        "average": 3,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "included_in_magic_default": false,
+      "core_status": "corridor-option-outside-baseline",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "nature-geology-scenic",
+      "texture": "RELAX",
+      "interaction_score": 1,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": true,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "booking_conflict": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "partial_participation_possible": true,
+        "rare_animal": false,
+        "hands_on_making": false,
+        "traditional_escape_room": false,
+        "photo_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-09-01",
+      "physical_level": "easy",
+      "skip_mode": "A deliberate 45-minute river reset moved here from Day 4 to break the drive.",
+      "skip_strategy": "A deliberate 45-minute river reset moved here from Day 4 to break the drive.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "green",
+      "operational_risk": "green",
+      "fallback_ids": [],
+      "fallback_place_id": null,
+      "rating_source": {
+        "route_id": "route-05",
+        "place_id": "harrisburg-riverfront",
+        "preserved": true
+      }
+    },
+    {
+      "name": "Reading Pagoda Grounds",
+      "kind": "mountaintop-roadside-architecture",
+      "city": "Reading",
+      "state": "PA",
+      "address": "98 Duryea Drive, Reading, PA",
+      "summary": "A restored mountaintop pagoda and city overlook; the grounds, not uncertain interior access, are the attraction.",
+      "why_go": "A strange skyline marker resets the eye before the military landscape.",
+      "id": "reading-pagoda",
+      "country": "US",
+      "visit_date": "2026-10-08",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Primary fit: viki, stivka. Low physical demand; partial participation is easy if anyone needs a shorter version.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 40,
+      "priority": "flex",
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Reconfirm live access before activating this choice."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": 0,
+        "price_type": "free",
+        "status": "free",
+        "note": ""
+      },
+      "source_ids": [
+        "src-final-r06-v6-reading-pagoda"
+      ],
+      "coordinates": [
+        -75.903292,
+        40.336714
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_planning_point",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 5,
+          "viki": 4,
+          "gora": 1,
+          "stivka": 3
+        },
+        "average": 3.25,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "included_in_magic_default": false,
+      "included_in_daily_max_total": true,
+      "core_status": "corridor-option-outside-baseline",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "sacred-visionary",
+      "texture": "AWE",
+      "interaction_score": 1,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "evidence_first": false,
+        "legal_ruin": false,
+        "after_dark": false,
+        "folklore_fieldwork": false,
+        "industrial_scale": false,
+        "institutional_site": false,
+        "hunting_season_recheck": false,
+        "headlamp_required": false,
+        "weather_gated": true,
+        "partial_participation_easy": false,
+        "operator_guided_preferred": false,
+        "source_conflict": false,
+        "exact_date_2026": false,
+        "shopping_spend_excluded": false,
+        "museum_context": false,
+        "statue_microstop": false,
+        "guided_tnt_field_tour": false,
+        "self_guided_wma_fallback": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_type": "free",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": 0,
+      "price_last_checked": "2026-08-31",
+      "physical_level": "easy",
+      "skip_mode": "Low physical demand; partial participation is easy if anyone needs a shorter version.",
+      "skip_strategy": "Low physical demand; partial participation is easy if anyone needs a shorter version.",
+      "optional": true,
+      "source_confidence": "brief-and-primary-source-ledger",
+      "operational_confidence": "green",
+      "operational_risk": "green",
+      "fallback_ids": [],
+      "fallback_place_id": null,
+      "data_status": "complete",
+      "image_ids": [
+        "img-final-reading-pagoda-1",
+        "img-final-reading-pagoda-2",
+        "img-final-reading-pagoda-3"
+      ],
+      "rating_source": {
+        "route_id": "route-06",
+        "place_id": "reading-pagoda",
+        "preserved": true
+      }
+    },
+    {
+      "name": "Hershey's Chocolate World — Create Your Own Candy Bar",
+      "kind": "playful-factory-making",
+      "city": "Hershey",
+      "state": "PA",
+      "address": "101 Chocolate World Way, Hershey, PA 17033",
+      "summary": "Choose ingredients and a wrapper, pull the lever and follow the bar along the conveyor.",
+      "why_go": "A manufacturing stop produces a personal object instead of another display case.",
+      "id": "hershey-candy-bar",
+      "country": "US",
+      "visit_date": "2026-10-08",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Primary fit: viki, sheluvspaco. Shorten the visit or observe while the rest of the group participates.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 60,
+      "priority": "anchor",
+      "reservation": "required",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the exact-date operating window in the Route 07 brief and reconfirm before booking."
+      },
+      "cost": {
+        "amount_per_person": 29.95,
+        "low": 29.95,
+        "high": 29.95,
+        "amount_per_group": 119.8,
+        "price_type": "per-person",
+        "status": "starting-price",
+        "note": "Starting price before taxes and fees.",
+        "planning_signal_per_person": null
+      },
+      "source_ids": [
+        "src-final-r07-v7-hershey"
+      ],
+      "coordinates": [
+        -76.661019,
+        40.288076
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_planning_point",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 5,
+          "viki": 5,
+          "gora": 5,
+          "stivka": 5
+        },
+        "average": 5,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "included_in_magic_default": true,
+      "included_in_daily_max_total": true,
+      "core_status": "final-decision-core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "working-industry",
+      "texture": "DISCOVER",
+      "interaction_score": 2,
+      "museum_like": false,
+      "machine_state": "playable",
+      "sound_state": "none",
+      "industrial_access": "none",
+      "competition_mode": "none",
+      "maker_output": "custom candy bar and wrapper",
+      "headlamp_required": false,
+      "height_or_weight_gate": false,
+      "hearing_protection_recommended": false,
+      "factory_day_required": false,
+      "exact_event_date": null,
+      "lake_weather_gated": false,
+      "route07_dna_strength": "high",
+      "experience_flags": {
+        "playable": true,
+        "you_make_it": true,
+        "head_to_head": false,
+        "team": false,
+        "inside_industry": false,
+        "working_factory": false,
+        "working_infrastructure": false,
+        "exact_event_date": false,
+        "headlamp_required": false,
+        "weather_gated": false,
+        "lake_weather_gated": false,
+        "shopping_spend_excluded": false,
+        "orthodox_sunday": false,
+        "height_or_weight_gate": false,
+        "hearing_protection_recommended": false,
+        "adjacent_puzzle_mission": false,
+        "traditional_escape_room": false,
+        "caution": false,
+        "partial_participation_easy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 4,
+      "planner_balance_fit": 5,
+      "price_status": "starting-price",
+      "price_type": "per-person",
+      "price_per_person_low": 29.95,
+      "price_per_person_high": 29.95,
+      "price_per_group": 119.8,
+      "price_last_checked": "2026-08-31",
+      "shopping_spend_excluded": false,
+      "included_in_selected_total": false,
+      "physical_level": "easy",
+      "skip_mode": "Shorten the visit or observe while the rest of the group participates.",
+      "skip_strategy": "Shorten the visit or observe while the rest of the group participates.",
+      "optional": false,
+      "booking_required": true,
+      "source_confidence": "brief-and-primary-source-ledger",
+      "operational_confidence": "yellow",
+      "operational_risk": "yellow",
+      "fallback_ids": [],
+      "fallback_place_id": null,
+      "data_status": "complete",
+      "image_ids": [
+        "img-final-hershey-candy-bar-1",
+        "img-final-hershey-candy-bar-2",
+        "img-final-hershey-candy-bar-3"
+      ],
+      "rating_source": {
+        "route_id": "route-07",
+        "place_id": "hershey-candy-bar",
+        "preserved": true
+      }
+    },
+    {
+      "name": "F1 Arcade Boston — Team Racing",
+      "kind": "full-motion-team-simulator",
+      "city": "Boston",
+      "state": "MA",
+      "address": "87 Pier 4 Boulevard, Boston, MA 02210",
+      "summary": "A four-driver Team Racing session with multiple simulator races after the rental cars are returned.",
+      "why_go": "The trip ends with a shared mechanical competition instead of four slow city stops.",
+      "id": "f1-arcade-boston",
+      "country": "US",
+      "visit_date": "2026-10-14",
+      "best_for": [
+        "gora",
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "stivka"
+      ],
+      "best_fit_note": "Primary fit: gora, viki, sheluvspaco. Watch or use a shorter simulator mode if motion sensitivity is a concern.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 75,
+      "priority": "anchor",
+      "reservation": "strongly-recommended",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the exact-date operating window in the Route 07 brief and reconfirm before booking."
+      },
+      "cost": {
+        "amount_per_person": null,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "live-quote",
+        "status": "dynamic",
+        "note": "Use the live Team Racing booking-cart quote.",
+        "planning_signal_per_person": null
+      },
+      "source_ids": [
+        "src-final-r07-v7-f1"
+      ],
+      "coordinates": [
+        -71.043539,
+        42.350956
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_access_or_planning_point",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 4,
+          "viki": 5,
+          "gora": 4,
+          "stivka": 4
+        },
+        "average": 4.25,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "included_in_magic_default": true,
+      "included_in_daily_max_total": true,
+      "core_status": "final-decision-core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "interactive-play",
+      "texture": "COMPETE",
+      "interaction_score": 4,
+      "museum_like": false,
+      "machine_state": "playable",
+      "sound_state": "none",
+      "industrial_access": "none",
+      "competition_mode": "team",
+      "maker_output": null,
+      "headlamp_required": false,
+      "height_or_weight_gate": false,
+      "hearing_protection_recommended": false,
+      "factory_day_required": false,
+      "exact_event_date": null,
+      "lake_weather_gated": false,
+      "route07_dna_strength": "high",
+      "experience_flags": {
+        "playable": true,
+        "you_make_it": false,
+        "head_to_head": true,
+        "team": true,
+        "inside_industry": false,
+        "working_factory": false,
+        "working_infrastructure": false,
+        "exact_event_date": false,
+        "headlamp_required": false,
+        "weather_gated": false,
+        "lake_weather_gated": false,
+        "shopping_spend_excluded": false,
+        "orthodox_sunday": false,
+        "height_or_weight_gate": false,
+        "hearing_protection_recommended": false,
+        "adjacent_puzzle_mission": false,
+        "traditional_escape_room": false,
+        "caution": false,
+        "partial_participation_easy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 5,
+      "price_status": "dynamic",
+      "price_type": "live-quote",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "shopping_spend_excluded": false,
+      "included_in_selected_total": false,
+      "physical_level": "moderate-high",
+      "skip_mode": "Watch or use a shorter simulator mode if motion sensitivity is a concern.",
+      "skip_strategy": "Watch or use a shorter simulator mode if motion sensitivity is a concern.",
+      "optional": false,
+      "booking_required": true,
+      "source_confidence": "brief-and-primary-source-ledger",
+      "operational_confidence": "red",
+      "operational_risk": "red",
+      "fallback_ids": [],
+      "fallback_place_id": null,
+      "data_status": "complete",
+      "image_ids": [
+        "img-final-f1-arcade-boston-1",
+        "img-final-f1-arcade-boston-2",
+        "img-final-f1-arcade-boston-3"
+      ],
+      "rating_source": {
+        "route_id": "route-07",
+        "place_id": "f1-arcade-boston",
+        "preserved": true
+      }
+    },
+    {
+      "id": "trinity-boston",
+      "name": "Trinity Church Boston",
+      "kind": "romanesque-sacred-art",
+      "city": "Boston",
+      "state": "MA",
+      "visit_date": "2026-10-04",
+      "summary": "H. H. Richardson's Romanesque landmark encloses deep red masonry, murals, carved wood and stained glass by La Farge, Burne-Jones and Morris.",
+      "why_go": "It is a full American cathedral-scale art experience hidden behind the familiar Copley Square postcard view.",
+      "best_for": [
+        "stivka",
+        "viki"
+      ],
+      "secondary_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Best for stivka and viki because It is a full American cathedral-scale art experience hidden behind the familiar Copley Square postcard view. Also works for gora and sheluvspaco as a balanced shared stop.",
+      "categories": [
+        "orthodox_spiritual",
+        "architecture_nature_photogenic",
+        "unusual_creative"
+      ],
+      "duration_minutes": 50,
+      "source_ids": [
+        "src-final-r07-r07x-trinity-boston"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "researched-reconfirm-before-trip",
+        "note": "Wednesday visitor access; reconfirm 2026 calendar"
+      },
+      "cost": {
+        "amount_per_person": 10,
+        "status": "research-estimate-reconfirm",
+        "note": "Per-person planning estimate; tax, parking, purchases and special-tour fees may differ."
+      },
+      "priority": "flex",
+      "address": "Trinity Church Boston, Boston, MA",
+      "country": "US",
+      "coordinates": [
+        -71.0754254,
+        42.3500677
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manually_verified_research_point",
+      "image_ids": [
+        "img-final-trinity-boston-1",
+        "img-final-trinity-boston-2",
+        "img-final-trinity-boston-3",
+        "img-final-trinity-boston-4",
+        "img-final-trinity-boston-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 5,
+          "viki": 1,
+          "gora": 5,
+          "stivka": 5
+        },
+        "average": 4,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "expansion_status": "transit-after-car-return",
+      "included_in_magic_default": false,
+      "included_in_daily_max_total": false,
+      "core_status": "corridor-option-outside-baseline",
+      "original_status": "keep-optional-or-flex",
+      "energy_rebuild_role": "meaningful-selectable-alternative",
+      "experience_bucket": "optional-variant",
+      "texture": "OPTIONAL",
+      "interaction_score": 2,
+      "museum_like": false,
+      "machine_state": "none",
+      "sound_state": "none",
+      "industrial_access": "none",
+      "competition_mode": "none",
+      "maker_output": null,
+      "headlamp_required": false,
+      "height_or_weight_gate": false,
+      "hearing_protection_recommended": false,
+      "factory_day_required": false,
+      "exact_event_date": null,
+      "lake_weather_gated": false,
+      "route07_dna_strength": "optional",
+      "experience_flags": {
+        "playable": false,
+        "you_make_it": false,
+        "head_to_head": false,
+        "team": false,
+        "inside_industry": false,
+        "working_factory": false,
+        "working_infrastructure": false,
+        "exact_event_date": false,
+        "headlamp_required": false,
+        "weather_gated": false,
+        "lake_weather_gated": false,
+        "shopping_spend_excluded": false,
+        "orthodox_sunday": false,
+        "height_or_weight_gate": false,
+        "hearing_protection_recommended": false,
+        "adjacent_puzzle_mission": false,
+        "traditional_escape_room": false,
+        "caution": false,
+        "partial_participation_easy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 5,
+      "planner_balance_fit": 4,
+      "price_status": "research-estimate-reconfirm",
+      "price_per_person_low": 10,
+      "price_per_person_high": 10,
+      "price_per_group": null,
+      "price_last_checked": "2026-08-31",
+      "shopping_spend_excluded": false,
+      "included_in_selected_total": false,
+      "physical_level": "easy",
+      "skip_mode": "Optional choice; activate it only when the group explicitly wants this variant.",
+      "skip_strategy": "Optional choice; activate it only when the group explicitly wants this variant.",
+      "optional": true,
+      "booking_required": false,
+      "source_confidence": "documented-option",
+      "operational_confidence": "activate-and-reconfirm",
+      "operational_risk": "activate-and-reconfirm",
+      "fallback_ids": [],
+      "fallback_place_id": null,
+      "rating_source": {
+        "route_id": "route-07",
+        "place_id": "trinity-boston",
+        "preserved": true
+      }
+    },
+    {
+      "name": "Clue IQ — Crane Manor",
+      "kind": "escape-room",
+      "city": "Frederick",
+      "state": "MD",
+      "address": "103 South Carroll Street #1A, Frederick, MD 21701",
+      "summary": "A 75-minute multi-linear mystery in Clue IQ's largest and most complex build, recommended for four to eight players.",
+      "why_go": "It wins the route's one traditional-room slot on exact four-person fit, runtime and enthusiast signal.",
+      "id": "crane-manor",
+      "country": "US",
+      "visit_date": "2026-10-09",
+      "best_for": [
+        "gora",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "viki",
+        "stivka"
+      ],
+      "best_fit_note": "Primary fit: gora, sheluvspaco. A 75-minute room built for four to eight; everyone plays at their own pace.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "required",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 39.6,
+        "low": 39.6,
+        "high": 66,
+        "amount_per_group": 158.4,
+        "price_type": "per-person",
+        "status": "planning-range",
+        "note": "$36-60 per person plus Maryland's 10% admissions tax."
+      },
+      "source_ids": [
+        "src-final-r08-v8-clueiq"
+      ],
+      "coordinates": [
+        -77.4083,
+        39.4114
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 5,
+          "viki": 4,
+          "gora": 4,
+          "stivka": 4
+        },
+        "average": 4.25,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "included_in_magic_default": true,
+      "core_status": "final-decision-core",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "puzzle-immersive",
+      "texture": "SOLVE",
+      "interaction_score": 3,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "wet_surface_risk": false,
+        "booking_required": true,
+        "booking_conflict": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "partial_participation_possible": true,
+        "rare_animal": false,
+        "hands_on_making": false,
+        "traditional_escape_room": true,
+        "photo_heavy": false
+      },
+      "viki_fit": 4,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 5,
+      "price_type": "per-person",
+      "price_per_person_low": 39.6,
+      "price_per_person_high": 66,
+      "price_per_group": 158.4,
+      "price_last_checked": "2026-09-01",
+      "physical_level": "light-moderate",
+      "skip_mode": "A 75-minute room built for four to eight; everyone plays at their own pace.",
+      "skip_strategy": "A 75-minute room built for four to eight; everyone plays at their own pace.",
+      "optional": false,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "yellow",
+      "operational_risk": "yellow",
+      "fallback_ids": [
+        "captured-lv-mayan"
+      ],
+      "fallback_place_id": "captured-lv-mayan",
+      "data_status": "complete",
+      "image_ids": [
+        "img-final-crane-manor-1",
+        "img-final-crane-manor-2",
+        "img-final-crane-manor-3"
+      ],
+      "rating_source": {
+        "route_id": "route-08",
+        "place_id": "crane-manor",
+        "preserved": true
+      }
+    },
+    {
+      "id": "hotel-greene",
+      "name": "Hotel Greene",
+      "kind": "theatrical-indoor-mini-golf",
+      "city": "Richmond",
+      "state": "VA",
+      "visit_date": "2026-10-10",
+      "summary": "A 13-hole mini-golf course hides inside a made-up 1930s hotel. Dark halls, old luggage, portraits, and strange stories make the game feel like theater.",
+      "why_go": "It is a playful social night in a beautiful, unusual building without the noise or long hours of a club.",
+      "best_for": [
+        "viki",
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Primary fit: viki, sheluvspaco. Theatrical mini-golf; food and drink are optional and excluded from the total.",
+      "categories": [
+        "unusual_creative",
+        "social_nightlife_live",
+        "architecture_nature_photogenic"
+      ],
+      "duration_minutes": 150,
+      "source_ids": [
+        "src-final-r08-hotel-greene",
+        "src-final-r08-hotel-greene-faq",
+        "src-final-r08-forum-rva",
+        "src-final-r08-v8-hotel-greene"
+      ],
+      "reservation": "none",
+      "hours": {
+        "opens": "10:00",
+        "closes": "24:00",
+        "status": "verified-current",
+        "note": "Current Saturday planning span; the route uses only 18:00-20:30. Official guidance warns of substantial Saturday waits, and exact October hours plus the 21-plus after-17:00 policy must be reconfirmed."
+      },
+      "cost": {
+        "amount_per_person": 18,
+        "low": 18,
+        "high": 18,
+        "amount_per_group": 72,
+        "price_type": "per-person",
+        "status": "verified",
+        "note": ""
+      },
+      "priority": "anchor",
+      "address": "Hotel Greene, 508 East Franklin Street, Richmond, Virginia",
+      "country": "US",
+      "coordinates": [
+        -77.438178,
+        37.541059
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "image_ids": [
+        "img-final-hotel-greene-1",
+        "img-final-hotel-greene-2",
+        "img-final-hotel-greene-3"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 5,
+          "viki": 5,
+          "gora": 5,
+          "stivka": 5
+        },
+        "average": 5,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": true,
+      "data_status": "complete",
+      "included_in_magic_default": true,
+      "core_status": "final-decision-core",
+      "original_status": "keep-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "strange-built-environment",
+      "texture": "WEIRD",
+      "interaction_score": 3,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "wet_surface_risk": false,
+        "booking_required": false,
+        "booking_conflict": false,
+        "traffic_gated": false,
+        "high_physicality": false,
+        "partial_participation_possible": true,
+        "rare_animal": false,
+        "hands_on_making": false,
+        "traditional_escape_room": false,
+        "photo_heavy": true
+      },
+      "viki_fit": 5,
+      "gora_fit": 4,
+      "stivka_fit": 4,
+      "planner_balance_fit": 5,
+      "price_type": "per-person",
+      "price_per_person_low": 18,
+      "price_per_person_high": 18,
+      "price_per_group": 72,
+      "price_last_checked": "2026-09-01",
+      "physical_level": "light-moderate",
+      "skip_mode": "Theatrical mini-golf; food and drink are optional and excluded from the total.",
+      "skip_strategy": "Theatrical mini-golf; food and drink are optional and excluded from the total.",
+      "optional": false,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "green",
+      "operational_risk": "green",
+      "fallback_ids": [],
+      "fallback_place_id": null,
+      "rating_source": {
+        "route_id": "route-08",
+        "place_id": "hotel-greene",
+        "preserved": true
+      }
+    },
+    {
+      "name": "Big SNOW American Dream",
+      "kind": "indoor-snow-slope",
+      "city": "East Rutherford",
+      "state": "NJ",
+      "address": "1 American Dream Way, East Rutherford, NJ 07073",
+      "summary": "A year-round indoor real-snow slope with two hours of access, equipment, outerwear and helmet included.",
+      "why_go": "The route steps out of Mid-Atlantic October and into a completely artificial climate for an afternoon.",
+      "id": "big-snow-american-dream",
+      "country": "US",
+      "visit_date": "2026-10-13",
+      "best_for": [
+        "gora",
+        "viki"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "Primary fit: gora, viki. The beginner Terrain Based Learning area is included, so nobody has to take the full slope.",
+      "categories": [
+        "unusual_creative"
+      ],
+      "duration_minutes": 90,
+      "priority": "flex",
+      "reservation": "required",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "reconfirm-required",
+        "note": "Use the scheduled route window; reconfirm operator inventory before booking."
+      },
+      "cost": {
+        "amount_per_person": 79.99,
+        "low": 79.99,
+        "high": 79.99,
+        "amount_per_group": 319.96,
+        "price_type": "per-person-plus-tax",
+        "status": "verified",
+        "note": "SNOW Day package before New Jersey tax; two hours of slope access with equipment, outerwear and helmet."
+      },
+      "source_ids": [
+        "src-final-r08-v8-big-snow"
+      ],
+      "coordinates": [
+        -74.0702,
+        40.8085
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manual_verified_address",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 5,
+          "viki": 1,
+          "gora": 5,
+          "stivka": 5
+        },
+        "average": 4,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "included_in_magic_default": false,
+      "core_status": "corridor-option-outside-baseline",
+      "original_status": "new-core",
+      "energy_rebuild_role": "active-core",
+      "experience_bucket": "strange-built-environment",
+      "texture": "MOVE",
+      "interaction_score": 4,
+      "museum_like": false,
+      "experience_flags": {
+        "museum_like": false,
+        "weather_gated": false,
+        "wet_surface_risk": false,
+        "booking_required": true,
+        "booking_conflict": false,
+        "traffic_gated": false,
+        "high_physicality": true,
+        "partial_participation_possible": true,
+        "rare_animal": false,
+        "hands_on_making": false,
+        "traditional_escape_room": false,
+        "photo_heavy": false
+      },
+      "viki_fit": 5,
+      "gora_fit": 5,
+      "stivka_fit": 4,
+      "planner_balance_fit": 4,
+      "price_type": "per-person-plus-tax",
+      "price_per_person_low": 79.99,
+      "price_per_person_high": 79.99,
+      "price_per_group": 319.96,
+      "price_last_checked": "2026-09-01",
+      "physical_level": "moderate-high",
+      "skip_mode": "The beginner Terrain Based Learning area is included, so nobody has to take the full slope.",
+      "skip_strategy": "The beginner Terrain Based Learning area is included, so nobody has to take the full slope.",
+      "optional": true,
+      "included_in_daily_max_total": true,
+      "source_confidence": "primary-source-verified",
+      "operational_confidence": "yellow",
+      "operational_risk": "yellow",
+      "fallback_ids": [],
+      "fallback_place_id": null,
+      "data_status": "complete",
+      "image_ids": [
+        "img-final-big-snow-american-dream-1",
+        "img-final-big-snow-american-dream-2",
+        "img-final-big-snow-american-dream-3"
+      ],
+      "rating_source": {
+        "route_id": "route-08",
+        "place_id": "big-snow-american-dream",
+        "preserved": true
+      }
+    },
+    {
+      "id": "fish-church-stamford",
+      "name": "First Presbyterian Church of Stamford (Fish Church)",
+      "kind": "modern-sacred-architecture",
+      "city": "Stamford",
+      "state": "CT",
+      "visit_date": "2026-10-06",
+      "summary": "Wallace Harrison's 1958 sanctuary is a vast blue-violet 'fish' made from 20,000 pieces of faceted glass, with a freestanding carillon tower—a rare merger of mid-century engineering, color and living Christian worship.",
+      "why_go": "Wallace Harrison's 1958 sanctuary is a vast blue-violet 'fish' made from 20,000 pieces of faceted glass, with a freestanding carillon tower—a rare merger of mid-century engineering, color and living Christian worship.",
+      "best_for": [
+        "viki",
+        "stivka"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "gora"
+      ],
+      "best_fit_note": "Best fit: viki and stivka. Paco: a calm, compact shared pause; Viki: extraordinary stained-glass geometry and architecture; Gora: mid-century structural design and carillon engineering; Stivka: a living church and sacred-art encounter.",
+      "categories": [
+        "orthodox_spiritual",
+        "architecture_nature_photogenic",
+        "unusual_creative"
+      ],
+      "duration_minutes": 45,
+      "source_ids": [
+        "src-final-r08-r08x-src-004",
+        "src-final-r08-r08x-src-005",
+        "src-final-r08-r08x-src-006",
+        "src-final-r08-r08x-src-007"
+      ],
+      "reservation": "No ticket, but contact the church in advance for a four-person architecture visit and cancel quietly if a pastoral event intervenes.",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "researched-reconfirm-before-trip",
+        "note": "Church/public visiting is documented Monday-Friday roughly 09:00/09:30-16:30/17:00 during the September-mid-June program season; office and Docomomo listings should be reconfirmed for October 13, 2026."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "research-estimate-reconfirm",
+        "note": "Per-person planning estimate; tax, parking, purchases and special-tour fees may differ."
+      },
+      "priority": "flex",
+      "address": "1101 Bedford St, Stamford, CT 06905",
+      "country": "US",
+      "coordinates": [
+        -73.5383,
+        41.0618
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manually_verified_research_point",
+      "image_ids": [
+        "img-final-fish-church-stamford-1",
+        "img-final-fish-church-stamford-2",
+        "img-final-fish-church-stamford-3",
+        "img-final-fish-church-stamford-4",
+        "img-final-fish-church-stamford-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 4,
+          "viki": 1,
+          "gora": 5,
+          "stivka": 3
+        },
+        "average": 3.25,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "expansion_status": "accepted-addition",
+      "exact_date_feasibility": "Tuesday October 13 falls within the church's published weekday public-hours window. Visit 15:25-16:10 after Bruce Museum; arrange a brief architecture visit in advance because worship, funerals or maintenance always take priority.",
+      "access_and_safety": "Use the church's visitor parking as directed. The sanctuary is an active sacred space; dress and photograph respectfully, keep voices low and confirm the step-free entrance with the office.",
+      "route_fit_note": "Inserted after Bruce Museum on the direct Stamford-Bridgeport line. The full Bensalem-Cloisters-Bruce-Fish Church-Bridgeport OSRM sequence is 200 minutes, below the 210 cap, without removing the Cloisters.",
+      "route_mode": "driving",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "included_in_magic_default": false,
+      "core_status": "corridor-option-outside-baseline",
+      "original_status": "demote-flex",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "skip_mode": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "skip_strategy": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "operational_risk": "reconfirm-if-activated",
+      "operational_confidence": "reconfirm-if-activated",
+      "rating_source": {
+        "route_id": "route-08",
+        "place_id": "fish-church-stamford",
+        "preserved": true
+      }
+    },
+    {
+      "name": "Gnome & Raven — Magic Lamp",
+      "kind": "immersive-room",
+      "city": "Richmond",
+      "state": "VA",
+      "address": "Gnome & Raven, Richmond, VA 23230",
+      "summary": "An award-recognised immersive room built for four players.",
+      "why_go": "A strong Richmond alternative if the group wants a puzzle instead of the river.",
+      "id": "gnome-raven-magic-lamp",
+      "country": "US",
+      "visit_date": "2026-10-10",
+      "best_for": [
+        "sheluvspaco"
+      ],
+      "secondary_for": [
+        "viki",
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Primary fit: sheluvspaco. Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "coordinates": [
+        -77.47,
+        37.56
+      ],
+      "coordinate_order": "longitude_latitude",
+      "cost": {
+        "amount_per_person": null,
+        "low": 0,
+        "high": 0,
+        "amount_per_group": null,
+        "price_type": "live-check",
+        "status": "unpriced-choice",
+        "note": "Check the current price before activating this option."
+      },
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "source_ids": [
+        "src-final-r08-v8-gnome-raven"
+      ],
+      "priority": "flex",
+      "included_in_magic_score": false,
+      "included_in_magic_default": false,
+      "core_status": "corridor-option-outside-baseline",
+      "original_status": "new-optional",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "skip_mode": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "skip_strategy": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "operational_risk": "reconfirm-if-activated",
+      "operational_confidence": "reconfirm-if-activated",
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 5,
+          "viki": null,
+          "gora": null,
+          "stivka": null
+        },
+        "average": 5,
+        "rating_count": 1,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "image_ids": [
+        "img-final-gnome-raven-magic-lamp-1",
+        "img-final-gnome-raven-magic-lamp-2",
+        "img-final-gnome-raven-magic-lamp-3"
+      ],
+      "data_status": "ratings-incomplete",
+      "rating_source": {
+        "route_id": "route-08",
+        "place_id": "gnome-raven-magic-lamp",
+        "preserved": true
+      }
+    },
+    {
+      "id": "kunta-kinte-haley-memorial",
+      "name": "Kunta Kinte-Alex Haley Memorial",
+      "kind": "public-memory-waterfront",
+      "city": "Annapolis",
+      "state": "MD",
+      "visit_date": "2026-10-11",
+      "summary": "Sculpture, Story Wall and Compass Rose occupy the documented port where the Lord Ligonier arrived in 1767, converting a picturesque dock into a specific space for ancestry, bondage, resilience and contested public memory.",
+      "why_go": "Sculpture, Story Wall and Compass Rose occupy the documented port where the Lord Ligonier arrived in 1767, converting a picturesque dock into a specific space for ancestry, bondage, resilience and contested public memory.",
+      "best_for": [
+        "sheluvspaco",
+        "viki"
+      ],
+      "secondary_for": [
+        "gora",
+        "stivka"
+      ],
+      "best_fit_note": "Best fit: sheluvspaco and viki. Paco: shared reflection before dinner; Viki: waterfront sculpture with meaningful group-photo framing; Gora: specific African American port history; Stivka: human dignity and remembrance.",
+      "categories": [
+        "local_culture",
+        "unusual_creative"
+      ],
+      "duration_minutes": 35,
+      "source_ids": [
+        "src-final-r08-r08x-src-040",
+        "src-final-r08-r08x-src-041"
+      ],
+      "reservation": "None.",
+      "hours": {
+        "opens": null,
+        "closes": null,
+        "status": "researched-reconfirm-before-trip",
+        "note": "Open public waterfront; best in daylight and fair weather."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "research-estimate-reconfirm",
+        "note": "Per-person planning estimate; tax, parking, purchases and special-tour fees may differ."
+      },
+      "priority": "flex",
+      "address": "1 Dock St, Annapolis, MD 21401",
+      "country": "US",
+      "coordinates": [
+        -76.4875,
+        38.9771
+      ],
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "manually_verified_research_point",
+      "image_ids": [
+        "img-final-kunta-kinte-haley-memorial-1",
+        "img-final-kunta-kinte-haley-memorial-2",
+        "img-final-kunta-kinte-haley-memorial-3",
+        "img-final-kunta-kinte-haley-memorial-4",
+        "img-final-kunta-kinte-haley-memorial-5"
+      ],
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 5,
+          "viki": 2,
+          "gora": 2,
+          "stivka": 4
+        },
+        "average": 3.25,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_magic_score": false,
+      "data_status": "complete",
+      "expansion_status": "accepted-addition",
+      "exact_date_feasibility": "An outdoor public memorial at City Dock, available after the State House closes. Sunset is later than the 17:40 finish in early October.",
+      "access_and_safety": "Leave both cars in the same downtown garage used for the State House and walk. Watch busy dock traffic and wet edges; use well-lit streets back to the garage.",
+      "route_fit_note": "Five-minute walk from the State House garage; no separate car detour.",
+      "route_mode": "walking",
+      "price_per_person_low": 0,
+      "price_per_person_high": 0,
+      "included_in_magic_default": false,
+      "core_status": "corridor-option-outside-baseline",
+      "original_status": "demote-flex",
+      "energy_rebuild_role": "documented-alternative",
+      "optional": true,
+      "included_in_daily_max_total": false,
+      "skip_mode": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "skip_strategy": "Optional choice outside the frozen driving baseline; activate it only when the live ETA, opening window and group energy still work.",
+      "operational_risk": "reconfirm-if-activated",
+      "operational_confidence": "reconfirm-if-activated",
+      "rating_source": {
+        "route_id": "route-08",
+        "place_id": "kunta-kinte-haley-memorial",
+        "preserved": true
+      }
+    },
+    {
+      "id": "the-breakers",
+      "name": "The Breakers",
+      "kind": "historic-house",
+      "city": "Newport",
+      "state": "RI",
+      "address": "44 Ochre Point Avenue, Newport, RI 02840",
+      "coordinates": [
+        -71.2982119,
+        41.4697373
+      ],
+      "summary": "The Vanderbilt family’s 70-room summer house uses an Italian-palace shell to hide the machinery and labor that made Gilded Age life possible.",
+      "why_go": "It combines theatrical rooms, Atlantic grounds, and the less-polished story of the workers and systems behind the spectacle.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "Viki gets the rooms and architecture; Gora gets the machinery, labor, and money story behind them.",
+      "categories": [
+        "architecture_photogenic",
+        "hidden_history_folklore"
+      ],
+      "duration_minutes": 90,
+      "priority": "anchor",
+      "reservation": "recommended",
+      "hours": {
+        "opens": "09:00",
+        "closes": "17:00",
+        "status": "reconfirm-before-booking",
+        "note": "Reserve the first practical admission and recheck restoration access."
+      },
+      "cost": {
+        "amount_per_person": null,
+        "range_per_person": [
+          30,
+          40
+        ],
+        "status": "checkout-required"
+      },
+      "source_ids": [
+        "src-final-r01-newport-mansions"
+      ],
+      "country": "US",
+      "visit_date": "2026-10-05",
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "retained-verified-route-01-research",
+      "image_ids": [
+        "img-final-the-breakers-1",
+        "img-final-the-breakers-2",
+        "img-final-the-breakers-3"
+      ],
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "the-breakers",
+        "preserved": true
+      },
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 4,
+          "viki": 5,
+          "gora": 5,
+          "stivka": 5
+        },
+        "average": 4.75,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "included_in_magic_default": true,
+      "core_status": "restored-final-decision-core",
+      "optional": false,
+      "data_status": "complete",
+      "operational_confidence": "high",
+      "operational_risk": "reconfirm-hours-and-access-before-booking"
+    },
+    {
+      "id": "beinecke-library",
+      "name": "Beinecke Rare Book & Manuscript Library",
+      "kind": "library-gallery",
+      "city": "New Haven",
+      "state": "CT",
+      "address": "121 Wall Street, New Haven, CT 06511",
+      "coordinates": [
+        -72.9273243,
+        41.3115974
+      ],
+      "summary": "A windowless 1963 library whose thin marble walls glow amber around a six-story glass tower of rare books.",
+      "why_go": "This is the compact, high-impact architectural stop the group unanimously rated 5: a stone box outside and a luminous book vault inside.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "stivka",
+        "sheluvspaco"
+      ],
+      "best_fit_note": "The room delivers rare books, extraordinary light, and strange architecture without demanding a long detour or visit.",
+      "categories": [
+        "architecture_photogenic",
+        "hidden_history_folklore",
+        "unusual_creative"
+      ],
+      "duration_minutes": 55,
+      "priority": "anchor",
+      "reservation": "none",
+      "hours": {
+        "opens": "09:00",
+        "closes": "19:00",
+        "status": "verified",
+        "note": "Monday public exhibition hours; keep the 17:30–18:25 visit."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified"
+      },
+      "source_ids": [
+        "src-final-r01-beinecke"
+      ],
+      "country": "US",
+      "visit_date": "2026-10-05",
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "retained-verified-route-01-research",
+      "image_ids": [
+        "img-final-beinecke-library-1",
+        "img-final-beinecke-library-2",
+        "img-final-beinecke-library-3"
+      ],
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "beinecke-library",
+        "preserved": true
+      },
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 5,
+          "viki": 5,
+          "gora": 5,
+          "stivka": 5
+        },
+        "average": 5,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "included_in_magic_default": true,
+      "core_status": "restored-final-decision-core",
+      "optional": false,
+      "data_status": "complete",
+      "operational_confidence": "high",
+      "operational_risk": "reconfirm-hours-and-access-before-booking"
+    },
+    {
+      "id": "o-street-museum",
+      "name": "O Museum in The Mansion",
+      "kind": "immersive-museum",
+      "city": "Washington",
+      "state": "DC",
+      "address": "2020 O Street NW, Washington, DC 20036",
+      "coordinates": [
+        -77.0452,
+        38.9085
+      ],
+      "summary": "Five connected townhouses form a self-guided maze of more than 100 rooms, collections, and dozens of hidden doors.",
+      "why_go": "It turns the group into active participants: everyone searches, opens panels, and compares discoveries instead of simply reading labels.",
+      "best_for": [
+        "viki",
+        "gora"
+      ],
+      "secondary_for": [
+        "sheluvspaco",
+        "stivka"
+      ],
+      "best_fit_note": "The architecture and secret-door hunt give every traveler something to discover together.",
+      "categories": [
+        "unusual_creative",
+        "architecture_photogenic",
+        "hidden_history_folklore",
+        "group_bonding"
+      ],
+      "duration_minutes": 120,
+      "priority": "anchor",
+      "reservation": "required",
+      "hours": {
+        "opens": "09:00",
+        "closes": "21:00",
+        "status": "verified",
+        "note": "Saturday hours; buy an advance timed experience."
+      },
+      "cost": {
+        "amount_per_person": null,
+        "range_per_person": [
+          35,
+          65
+        ],
+        "status": "experience-dependent"
+      },
+      "source_ids": [
+        "src-final-r01-o-museum"
+      ],
+      "country": "US",
+      "visit_date": "2026-10-10",
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "retained-verified-route-01-research",
+      "image_ids": [
+        "img-final-o-street-museum-1",
+        "img-final-o-street-museum-2",
+        "img-final-o-street-museum-3"
+      ],
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "o-street-museum",
+        "preserved": true
+      },
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 5,
+          "viki": 4,
+          "gora": 5,
+          "stivka": 5
+        },
+        "average": 4.75,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "included_in_magic_default": true,
+      "core_status": "restored-final-decision-core",
+      "optional": false,
+      "data_status": "complete",
+      "operational_confidence": "high",
+      "operational_risk": "reconfirm-hours-and-access-before-booking"
+    },
+    {
+      "id": "princeton-chapel",
+      "name": "Princeton University Chapel",
+      "kind": "church-architecture",
+      "city": "Princeton",
+      "state": "NJ",
+      "address": "Princeton University, Princeton, NJ 08544",
+      "coordinates": [
+        -74.6569695,
+        40.3488453
+      ],
+      "summary": "A monumental 1928 collegiate Gothic chapel of stone arches, stained glass, and an unexpectedly immense interior.",
+      "why_go": "It is a short, quiet counterweight to the route’s games and spectacle, placed directly on the northbound line.",
+      "best_for": [
+        "stivka",
+        "viki"
+      ],
+      "secondary_for": [
+        "gora"
+      ],
+      "best_fit_note": "Stivka gets a reflective sacred stop and Viki gets one of the route’s strongest architectural interiors.",
+      "categories": [
+        "orthodox_spiritual",
+        "architecture_photogenic"
+      ],
+      "duration_minutes": 45,
+      "priority": "supporting",
+      "reservation": "none",
+      "hours": {
+        "opens": "07:00",
+        "closes": "23:00",
+        "status": "reconfirm-before-visit",
+        "note": "Access may pause for services or university events."
+      },
+      "cost": {
+        "amount_per_person": 0,
+        "status": "verified"
+      },
+      "source_ids": [
+        "src-final-r01-princeton-chapel"
+      ],
+      "country": "US",
+      "visit_date": "2026-10-13",
+      "coordinate_order": "longitude_latitude",
+      "coordinate_source": "retained-verified-route-01-research",
+      "image_ids": [
+        "img-final-princeton-chapel-1",
+        "img-final-princeton-chapel-2",
+        "img-final-princeton-chapel-3"
+      ],
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "princeton-chapel",
+        "preserved": true
+      },
+      "ratings": {
+        "traveler_ratings": {
+          "sheluvspaco": 5,
+          "viki": 4,
+          "gora": 3,
+          "stivka": 5
+        },
+        "average": 4.25,
+        "rating_count": 4,
+        "source": "preserved-db-export-2026-09-04"
+      },
+      "researcher_person_fit": {
+        "sheluvspaco": 5,
+        "viki": 4,
+        "gora": 3,
+        "stivka": 5
+      },
+      "included_in_magic_score": true,
+      "included_in_magic_default": true,
+      "core_status": "restored-final-decision-core",
+      "optional": false,
+      "data_status": "complete",
+      "operational_confidence": "high",
+      "operational_risk": "reconfirm-hours-and-access-before-booking"
+    }
+  ]
+}

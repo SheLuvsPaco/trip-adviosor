@@ -66,6 +66,30 @@ export async function reconcileRatings(routeId, localRatings) {
   return { ...localRatings, ...remoteRatings };
 }
 
+export async function reconcileRatingsForPlaces(routeId, places, localRatings) {
+  const usesPreservedSources = places.some((place) => place.rating_source?.preserved);
+  if (!usesPreservedSources) return reconcileRatings(routeId, localRatings);
+  if (!supabase) return localRatings;
+
+  const allRows = await loadAllRatings();
+  const remoteRatings = {};
+  const placeBySource = new Map(
+    places.map((place) => {
+      const source = place.rating_source || { route_id: routeId, place_id: place.id };
+      return [`${source.route_id}:${source.place_id}`, place.id];
+    }),
+  );
+
+  for (const row of allRows) {
+    const localPlaceId = placeBySource.get(`${row.route_id}:${row.place_id}`);
+    if (localPlaceId) remoteRatings[`${row.traveler_id}:${localPlaceId}`] = row.score;
+  }
+
+  // Preserved-source routes never create duplicate route rows during hydration.
+  // The bundled snapshot/local copy is the fallback and the original cloud row wins.
+  return { ...localRatings, ...remoteRatings };
+}
+
 export async function persistRating({ routeId, placeId, travelerId, score }) {
   if (!supabase) return;
 

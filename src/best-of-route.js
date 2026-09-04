@@ -47,6 +47,12 @@ function ratingKey(route, place, traveler) {
   return `${route}:${place}:${traveler}`;
 }
 
+function ratingIdentity(route, place) {
+  return place.rating_source?.preserved
+    ? { route: place.rating_source.route_id, place: place.rating_source.place_id }
+    : { route, place: place.id };
+}
+
 function ratingsIndex(ratingRows) {
   const index = new Map();
   for (const row of ratingRows || []) {
@@ -69,7 +75,8 @@ function fallbackTravelerScore(place, traveler) {
 }
 
 function effectiveTravelerScore(index, route, place, traveler) {
-  const gradedScore = index.get(ratingKey(route, place.id, traveler));
+  const identity = ratingIdentity(route, place);
+  const gradedScore = index.get(ratingKey(identity.route, identity.place, traveler));
   return gradedScore == null
     ? { value: fallbackTravelerScore(place, traveler), source: 'curated-fallback' }
     : { value: gradedScore, source: 'traveler-rating' };
@@ -124,7 +131,8 @@ export function assessAtlasGrading(routes, ratingRows) {
   for (const entry of routes) {
     const id = routeId(entry);
     for (const place of placesFor(entry)) {
-      for (const traveler of BEST_OF_TRAVELERS) requirements.add(ratingKey(id, place.id, traveler));
+      const identity = ratingIdentity(id, place);
+      for (const traveler of BEST_OF_TRAVELERS) requirements.add(ratingKey(identity.route, identity.place, traveler));
     }
   }
 

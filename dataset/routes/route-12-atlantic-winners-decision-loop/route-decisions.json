@@ -1,0 +1,28 @@
+{
+  "route_id": "route-12",
+  "status": "final-decision",
+  "locked_additions": [
+    "beinecke-library"
+  ],
+  "optional_only": [
+    "newport-car-museum",
+    "trinity-boston",
+    "boda-borg-boston",
+    "barker-cartoon-museum",
+    "fish-church-stamford",
+    "st-nicholas-wtc",
+    "beat-the-bomb-brooklyn",
+    "hawk-mountain-north-lookout",
+    "reading-pagoda",
+    "harrisburg-riverfront",
+    "cunningham-falls",
+    "lincoln-memorial",
+    "gnome-raven-magic-lamp",
+    "kunta-kinte-haley-memorial",
+    "baltimore-industry",
+    "elfreths-alley",
+    "eastern-state",
+    "big-snow-american-dream"
+  ],
+  "method": "21 fully rated scored core places, equal traveler weight, physical routing under the 210-minute daily baseline cap; corridor options remain visible but outside the baseline and winning score"
+}

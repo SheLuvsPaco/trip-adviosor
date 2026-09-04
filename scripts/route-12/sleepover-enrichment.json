@@ -1,0 +1,367 @@
+{
+  "schema_version": "1.0.0",
+  "researched_at": "2026-09-04",
+  "source_policy": "Prefer the property or operator's own booking page. Photos are local private-planning references and are not cleared for public deployment unless their rights status says otherwise.",
+  "entries": {
+    "east-island-reserve": {
+      "booking_url": "https://www.eastislandreserve.com/page/book_now/1000",
+      "booking_type": "official-booking",
+      "booking_label": "Official booking",
+      "source_url": "https://www.eastislandreserve.com/",
+      "image": {
+        "local_path": "assets/optimized/routes/route-12-atlantic-winners-decision-loop/sleepovers/east-island-reserve.webp",
+        "source_page": "https://www.eastislandreserve.com/",
+        "source_file_url": "https://s3.amazonaws.com/www1.headwaycloud.com/clients/111/uploaded_graphics/photos/homemini1170_453_PSq5X48263.jpg",
+        "creator": "The East Island Reserve Hotel",
+        "license": "All rights reserved",
+        "rights_status": "permission-required-before-public-deployment",
+        "coverage": "exact-property",
+        "alt": "The East Island Reserve Hotel in Middletown, Rhode Island"
+      }
+    },
+    "harbor-base-pineapple-inn": {
+      "booking_url": "https://www.pineapple-inn.com/Contact-Us/",
+      "booking_type": "contact-only",
+      "booking_label": "Contact property",
+      "source_url": "https://www.pineapple-inn.com/",
+      "image": {
+        "local_path": "assets/optimized/routes/route-12-atlantic-winners-decision-loop/sleepovers/harbor-base-pineapple-inn.webp",
+        "source_page": "https://www.pineapple-inn.com/",
+        "source_file_url": "https://www.pineapple-inn.com/gallery/front%20sign%20FB539328-80C2-45E6-B1B0-5721B9D40308_1_201_a-ts1625614683.jpeg?ts=1786313162",
+        "creator": "Pineapple Inn",
+        "license": "All rights reserved",
+        "rights_status": "permission-required-before-public-deployment",
+        "coverage": "exact-property",
+        "alt": "Pineapple Inn sign and property in Newport, Rhode Island"
+      }
+    },
+    "waterlily-newport": {
+      "booking_url": "https://www.lilypadboat.com/#ContactUs",
+      "booking_type": "inquiry",
+      "booking_label": "Request dates",
+      "source_url": "https://www.lilypadboat.com/",
+      "image": {
+        "local_path": "assets/optimized/routes/route-12-atlantic-winners-decision-loop/sleepovers/waterlily-newport.webp",
+        "source_page": "https://www.lilypadboat.com/",
+        "source_file_url": "https://irp.cdn-website.com/1a0c2c7e/dms3rep/multi/opt/885253459161775448-1920w.jpeg",
+        "creator": "Lilypad Newport",
+        "license": "All rights reserved",
+        "rights_status": "permission-required-before-public-deployment",
+        "coverage": "exact-operator",
+        "alt": "Deck seating aboard a Lilypad Newport floating stay"
+      }
+    },
+    "rose-island-lighthouse": {
+      "booking_url": "https://www.roseisland.org/overnight",
+      "booking_type": "limited-release-official-booking",
+      "booking_label": "Check overnight dates",
+      "source_url": "https://www.roseisland.org/overnight",
+      "image": {
+        "local_path": "assets/optimized/routes/route-12-atlantic-winners-decision-loop/sleepovers/rose-island-lighthouse.webp",
+        "source_page": "https://www.roseisland.org/overnight",
+        "source_file_url": "https://images.squarespace-cdn.com/content/v1/6635251ff7dfcc18101b85db/13c3f118-2d23-437d-be44-101e74593993/Rose+Island+Lighthouse+-+Credit_+Lisette+Rooney+%282%29.jpg",
+        "creator": "Lisette Rooney",
+        "credit": "Photo credited by Rose Island Lighthouse Foundation",
+        "license": "All rights reserved",
+        "rights_status": "permission-required-before-public-deployment",
+        "coverage": "exact-property",
+        "alt": "Rose Island Lighthouse in Newport Harbor"
+      }
+    },
+    "new-haven-hotel-oct-05": {
+      "booking_url": "https://www.newhavenhotel.com/",
+      "booking_type": "official-booking",
+      "booking_label": "Official booking",
+      "source_url": "https://www.newhavenhotel.com/",
+      "image_ref": "new-haven-hotel-oct-13"
+    },
+    "motel-6-branford": {
+      "booking_url": "https://www.motel6.com/property/motel-branford-connecticut-us-293701/",
+      "booking_type": "official-booking",
+      "booking_label": "Official booking",
+      "source_url": "https://www.motel6.com/property/motel-branford-connecticut-us-293701/",
+      "image": {
+        "local_path": "assets/optimized/routes/route-12-atlantic-winners-decision-loop/sleepovers/motel-6-branford.webp",
+        "source_page": "https://www.motel6.com/property/motel-branford-connecticut-us-293701/",
+        "source_file_url": "https://images.oyoroomscdn.com/uploads/hotel_image/293701/motel_6_new_haven_ct_branford_exterior_2_1759242513392.jpg",
+        "creator": "Motel 6",
+        "license": "All rights reserved",
+        "rights_status": "permission-required-before-public-deployment",
+        "coverage": "exact-property",
+        "alt": "Exterior of Motel 6 Branford, Connecticut"
+      }
+    },
+    "winvian-woodlands-cottage": {
+      "booking_url": "https://www.winvian.com/rooms/woodlands/",
+      "booking_type": "official-booking",
+      "booking_label": "Reserve Woodlands",
+      "source_url": "https://www.winvian.com/rooms/woodlands/",
+      "image": {
+        "local_path": "assets/optimized/routes/route-12-atlantic-winners-decision-loop/sleepovers/winvian-woodlands-cottage.webp",
+        "source_page": "https://www.winvian.com/rooms/woodlands/",
+        "source_file_url": "https://www.winvian.com/wp-content/uploads/Woodland-e1770576080699.jpg",
+        "creator": "Winvian Farm",
+        "license": "All rights reserved",
+        "rights_status": "permission-required-before-public-deployment",
+        "coverage": "exact-property",
+        "alt": "Woodlands Cottage at Winvian Farm"
+      }
+    },
+    "fairfield-inn-dc": {
+      "booking_url": "https://www.marriott.com/en-us/hotels/wasfc-fairfield-inn-and-suites-washington-dc-downtown/overview/",
+      "booking_type": "official-booking",
+      "booking_label": "Official booking",
+      "source_url": "https://www.marriott.com/en-us/hotels/wasfc-fairfield-inn-and-suites-washington-dc-downtown/photos/",
+      "image": {
+        "local_path": "assets/optimized/routes/route-12-atlantic-winners-decision-loop/sleepovers/fairfield-inn-dc.webp",
+        "source_page": "https://www.booking.com/hotel/us/fairfield-inn-suites-washington.en-gb.html",
+        "source_file_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/628205304.jpg?k=3ed62d3d14fa9e8bcb641f68c672f4818cf1f7617d397c66d227ffcbfe2498ee&o=",
+        "creator": "Property photo via Booking.com",
+        "license": "All rights reserved",
+        "rights_status": "permission-required-before-public-deployment",
+        "coverage": "exact-property",
+        "alt": "Lobby at Fairfield Inn and Suites Washington DC Downtown"
+      }
+    },
+    "gateway-hotel-dc": {
+      "booking_url": "https://mygatewayhotel.com/",
+      "booking_type": "official-booking",
+      "booking_label": "Official booking",
+      "source_url": "https://mygatewayhotel.com/",
+      "image": {
+        "local_path": "assets/optimized/routes/route-12-atlantic-winners-decision-loop/sleepovers/gateway-hotel-dc.webp",
+        "source_page": "https://www.booking.com/hotel/us/gateway-washington.en-gb.html",
+        "source_file_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/662086099.jpg?k=08fe04f6d643269e75ddb4697aec1e5ef1cea050018726f14213509e36f1baa5&o=",
+        "creator": "Property photo via Booking.com",
+        "license": "All rights reserved",
+        "rights_status": "permission-required-before-public-deployment",
+        "coverage": "exact-property",
+        "alt": "Front entrance of Gateway Hotel in Washington DC"
+      }
+    },
+    "co-canal-lockhouse-10": {
+      "booking_url": "https://www.canaltrust.org/lockhouse-10/",
+      "booking_type": "official-booking",
+      "booking_label": "Official booking",
+      "source_url": "https://www.canaltrust.org/lockhouse-10/",
+      "image": {
+        "local_path": "assets/optimized/routes/route-12-atlantic-winners-decision-loop/sleepovers/co-canal-lockhouse-10.webp",
+        "source_page": "https://www.canaltrust.org/lockhouse-10/",
+        "source_file_url": "https://www.canaltrust.org/wp-content/uploads/2014/12/LH10-1.jpg",
+        "creator": "C&O Canal Trust",
+        "license": "All rights reserved",
+        "rights_status": "permission-required-before-public-deployment",
+        "coverage": "exact-property",
+        "alt": "C&O Canal Lockhouse 10"
+      }
+    },
+    "hampton-richmond-innsbrook": {
+      "booking_url": "https://www.hilton.com/en/hotels/ricwehx-hampton-richmond-west-innsbrook/",
+      "booking_type": "official-booking",
+      "booking_label": "Official booking",
+      "source_url": "https://www.hilton.com/en/hotels/ricwehx-hampton-richmond-west-innsbrook/",
+      "image": {
+        "local_path": "assets/optimized/routes/route-12-atlantic-winners-decision-loop/sleepovers/hampton-richmond-innsbrook.webp",
+        "source_page": "https://www.booking.com/hotel/us/hampton-inn-richmond-west.html",
+        "source_file_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/857075580.jpg?k=27439dc2ce241ac8f1be8f43fc6fb814d8c1394126a75170d9c608ae1f460e8b&o=",
+        "creator": "Property photo via Booking.com",
+        "license": "All rights reserved",
+        "rights_status": "permission-required-before-public-deployment",
+        "coverage": "exact-property",
+        "alt": "Exterior of Hampton Inn Richmond West Innsbrook"
+      }
+    },
+    "motel-6-sandston": {
+      "booking_url": "https://www.motel6.com/property/motel-sandston-virginia-us-293591/",
+      "booking_type": "official-booking",
+      "booking_label": "Official booking",
+      "source_url": "https://www.motel6.com/property/motel-sandston-virginia-us-293591/",
+      "image": {
+        "local_path": "assets/optimized/routes/route-12-atlantic-winners-decision-loop/sleepovers/motel-6-sandston.webp",
+        "source_page": "https://www.motel6.com/property/motel-sandston-virginia-us-293591/",
+        "source_file_url": "https://images.oyoroomscdn.com/uploads/hotel_image/293591/motel_6_richmond_airport_exterior_5_1759257806840.jpg",
+        "creator": "Motel 6",
+        "license": "All rights reserved",
+        "rights_status": "permission-required-before-public-deployment",
+        "coverage": "exact-property",
+        "alt": "Exterior of Motel 6 Sandston Virginia Richmond"
+      }
+    },
+    "trailside-treehouse": {
+      "booking_url": "https://www.trailsidetreehouse.com/book-now",
+      "booking_type": "official-booking",
+      "booking_label": "Official booking",
+      "source_url": "https://www.trailsidetreehouse.com/",
+      "image": {
+        "local_path": "assets/optimized/routes/route-12-atlantic-winners-decision-loop/sleepovers/trailside-treehouse.webp",
+        "source_page": "https://www.trailsidetreehouse.com/",
+        "source_file_url": "https://static.wixstatic.com/media/c057d1_b198b44e3e614d18b236e2d433cba618~mv2_d_4096_2731_s_4_2.jpg/v1/fill/w_1600,h_1067,al_c,q_88/c057d1_b198b44e3e614d18b236e2d433cba618~mv2_d_4096_2731_s_4_2.jpg",
+        "creator": "Trailside Treehouse",
+        "license": "All rights reserved",
+        "rights_status": "permission-required-before-public-deployment",
+        "coverage": "exact-property",
+        "alt": "Trailside Treehouse in Richmond, Virginia"
+      }
+    },
+    "doubletree-annapolis": {
+      "booking_url": "https://www.hilton.com/en/hotels/anpdtdt-doubletree-annapolis/",
+      "booking_type": "official-booking",
+      "booking_label": "Official booking",
+      "source_url": "https://www.hilton.com/en/hotels/anpdtdt-doubletree-annapolis/",
+      "image": {
+        "local_path": "assets/optimized/routes/route-12-atlantic-winners-decision-loop/sleepovers/doubletree-annapolis.webp",
+        "source_page": "https://www.booking.com/hotel/us/doubletree-annapolis.html",
+        "source_file_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/484894335.jpg?k=1ef97657a7b94a3628dc1ca1ad133c43b065a5d58e5128f8fcebf2cab9d8b5a6&o=",
+        "creator": "Property photo via Booking.com",
+        "license": "All rights reserved",
+        "rights_status": "permission-required-before-public-deployment",
+        "coverage": "exact-property",
+        "alt": "Exterior of DoubleTree by Hilton Hotel Annapolis"
+      }
+    },
+    "best-western-annapolis": {
+      "booking_url": "https://www.bestwestern.com/en_US/book/hotel-details.21044.html",
+      "booking_type": "official-booking",
+      "booking_label": "Official booking",
+      "source_url": "https://www.bestwestern.com/en_US/book/hotel-details.21044.html",
+      "image": {
+        "local_path": "assets/optimized/routes/route-12-atlantic-winners-decision-loop/sleepovers/best-western-annapolis.webp",
+        "source_page": "https://www.booking.com/hotel/us/best-western-annapolis.html",
+        "source_file_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/223497166.jpg?k=473b8fec98671dab2065d373ec5443ee39e6077640886c173feceeea1d10cddf&o=",
+        "creator": "Property photo via Booking.com",
+        "license": "All rights reserved",
+        "rights_status": "permission-required-before-public-deployment",
+        "coverage": "exact-property",
+        "alt": "Exterior of Best Western Annapolis"
+      }
+    },
+    "kathleen-marie-yacht": {
+      "booking_url": "https://www.vrbo.com/en-ca/cottage-rental/p1753807vb",
+      "booking_type": "listing-booking",
+      "booking_label": "Open Vrbo listing",
+      "source_url": "https://www.vrbo.com/en-ca/cottage-rental/p1753807vb",
+      "image": {
+        "local_path": "assets/optimized/routes/route-12-atlantic-winners-decision-loop/sleepovers/kathleen-marie-yacht.webp",
+        "source_page": "https://www.vrbo.com/en-ca/cottage-rental/p1753807vb",
+        "source_file_url": "https://media.vrbo.com/lodging/41000000/40060000/40057500/40057406/c779fadd.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "creator": "Property host via Vrbo",
+        "license": "All rights reserved",
+        "rights_status": "permission-required-before-public-deployment",
+        "coverage": "exact-property",
+        "alt": "Deck seating aboard the Kathleen Marie yacht in Annapolis"
+      }
+    },
+    "garden-executive-south-plainfield": {
+      "booking_url": "https://www.gardenexecutivehotel.com/",
+      "booking_type": "official-booking",
+      "booking_label": "Official booking",
+      "source_url": "https://www.gardenexecutivehotel.com/",
+      "image": {
+        "local_path": "assets/optimized/routes/route-12-atlantic-winners-decision-loop/sleepovers/garden-executive-south-plainfield.webp",
+        "source_page": "https://www.gardenexecutivehotel.com/",
+        "source_file_url": "https://image-tc.galaxy.tf/wijpeg-1kk6e3wv8lx9e43v49opl3ik9/garden-executive-hotel-south-plainfield-nj-accommodation-standard-two-doubles-non-smoking-01_standard.jpg?crop=107%2C0%2C1707%2C1280",
+        "creator": "Garden Executive Hotel",
+        "license": "All rights reserved",
+        "rights_status": "permission-required-before-public-deployment",
+        "coverage": "exact-property",
+        "alt": "Double room at Garden Executive Hotel in South Plainfield"
+      }
+    },
+    "motel-6-east-brunswick": {
+      "booking_url": "https://www.motel6.com/property/motel-east-brunswick-new-jersey-us-293763/",
+      "booking_type": "official-booking",
+      "booking_label": "Official booking",
+      "source_url": "https://www.motel6.com/property/motel-east-brunswick-new-jersey-us-293763/",
+      "image": {
+        "local_path": "assets/optimized/routes/route-12-atlantic-winners-decision-loop/sleepovers/motel-6-east-brunswick.webp",
+        "source_page": "https://www.motel6.com/property/motel-east-brunswick-new-jersey-us-293763/",
+        "source_file_url": "https://images.oyoroomscdn.com/uploads/hotel_image/293763/motel_6_east_brunswick_nj_exterior_6_1759343974564.jpg",
+        "creator": "Motel 6",
+        "license": "All rights reserved",
+        "rights_status": "permission-required-before-public-deployment",
+        "coverage": "exact-property",
+        "alt": "Exterior of Motel 6 East Brunswick, New Jersey"
+      }
+    },
+    "new-haven-hotel-oct-13": {
+      "booking_url": "https://www.newhavenhotel.com/",
+      "booking_type": "official-booking",
+      "booking_label": "Official booking",
+      "source_url": "https://www.newhavenhotel.com/",
+      "image": {
+        "local_path": "assets/optimized/routes/route-12-atlantic-winners-decision-loop/sleepovers/new-haven-hotel.webp",
+        "source_page": "https://www.booking.com/hotel/us/new-haven.html",
+        "source_file_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/304351208.jpg?k=ba70f8259bd6d2ba01c49a44fc5a163be618ba4f83fe438ed8668e88f3af0237&o=",
+        "creator": "Property photo via Booking.com",
+        "license": "All rights reserved",
+        "rights_status": "permission-required-before-public-deployment",
+        "coverage": "exact-property",
+        "alt": "Lobby at New Haven Hotel"
+      }
+    },
+    "circle-hotel-fairfield": {
+      "booking_url": "https://www.circlehotelfairfield.com/",
+      "booking_type": "official-booking",
+      "booking_label": "Official booking",
+      "source_url": "https://www.circlehotelfairfield.com/",
+      "image": {
+        "local_path": "assets/optimized/routes/route-12-atlantic-winners-decision-loop/sleepovers/circle-hotel-fairfield.webp",
+        "source_page": "https://www.circlehotelfairfield.com/",
+        "source_file_url": "https://static.wixstatic.com/media/6feb93_fb154c484f064646beaf99c5744f8fb7~mv2.avif",
+        "creator": "The Circle Hotel Fairfield",
+        "license": "All rights reserved",
+        "rights_status": "permission-required-before-public-deployment",
+        "coverage": "exact-property",
+        "alt": "The Circle Hotel Fairfield"
+      }
+    },
+    "red-roof-milford": {
+      "booking_url": "https://www.redroof.com/property/ct/milford/rri197",
+      "booking_type": "official-booking",
+      "booking_label": "Official booking",
+      "source_url": "https://www.redroof.com/property/ct/milford/rri197",
+      "image": {
+        "local_path": "assets/optimized/routes/route-12-atlantic-winners-decision-loop/sleepovers/red-roof-milford.webp",
+        "source_page": "https://www.redroof.com/property/ct/milford/rri197",
+        "source_file_url": "https://images.redroof.com/transform/4d123858-e3f2-40a4-97e9-e21f16cc2f9a/197-exterior?io=transform:fill,width:1200,height:900,gravity:center",
+        "creator": "Red Roof Inn",
+        "license": "All rights reserved",
+        "rights_status": "permission-required-before-public-deployment",
+        "coverage": "exact-property",
+        "alt": "Exterior of Red Roof Inn Milford New Haven"
+      }
+    },
+    "winvian-treehouse": {
+      "booking_url": "https://www.winvian.com/rooms/treehouse/",
+      "booking_type": "official-booking",
+      "booking_label": "Reserve Treehouse",
+      "source_url": "https://www.winvian.com/rooms/treehouse/",
+      "image": {
+        "local_path": "assets/optimized/routes/route-12-atlantic-winners-decision-loop/sleepovers/winvian-treehouse.webp",
+        "source_page": "https://www.winvian.com/rooms/treehouse/",
+        "source_file_url": "https://www.winvian.com/wp-content/uploads/Treehouse-e1760035860988.jpg",
+        "creator": "Winvian Farm",
+        "license": "All rights reserved",
+        "rights_status": "permission-required-before-public-deployment",
+        "coverage": "exact-property",
+        "alt": "Treehouse Cottage at Winvian Farm"
+      }
+    },
+    "greens-ledge-lighthouse": {
+      "booking_url": "https://greensledgelight.org/",
+      "booking_type": "limited-release-official-booking",
+      "booking_label": "Check keeper nights",
+      "source_url": "https://greensledgelight.org/",
+      "image": {
+        "local_path": "assets/optimized/routes/route-12-atlantic-winners-decision-loop/sleepovers/greens-ledge-lighthouse.webp",
+        "source_page": "https://greensledgelight.org/",
+        "source_file_url": "https://l.icdbcdn.com/oh/dddd28f3-5458-440b-a415-c1d2691a9f72.jpg?w=1600",
+        "creator": "Greens Ledge Light Preservation Society",
+        "license": "All rights reserved",
+        "rights_status": "permission-required-before-public-deployment",
+        "coverage": "exact-property",
+        "alt": "Greens Ledge Lighthouse in Long Island Sound"
+      }
+    }
+  }
+}

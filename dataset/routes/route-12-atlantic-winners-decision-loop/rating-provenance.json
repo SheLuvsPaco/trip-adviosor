@@ -1,0 +1,594 @@
+{
+  "schema_version": "1.0.0",
+  "route_id": "route-12",
+  "generated_at": "2026-09-04T18:41:10.224Z",
+  "source_export": "route_ratings_rows.csv",
+  "policy": "No route-12 rating rows are created. Each place reads and writes through rating_source to preserve the original shared-board record.",
+  "selected_spots": [
+    {
+      "place_id": "level99-providence",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "level99-providence",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 3,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_core": true
+    },
+    {
+      "place_id": "newport-car-museum",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "newport-car-museum",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 5,
+        "viki": 3,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_core": false
+    },
+    {
+      "place_id": "it-adventure-ropes",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "it-adventure-ropes",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_core": true
+    },
+    {
+      "place_id": "woodbury-common",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "woodbury-common",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 3,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_core": true
+    },
+    {
+      "place_id": "paterson-great-falls",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "paterson-great-falls",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 3
+      },
+      "included_in_core": true
+    },
+    {
+      "place_id": "central-park-bike-loop",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "central-park-bike-loop",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_core": true
+    },
+    {
+      "place_id": "high-line-hudson-yards",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "high-line-hudson-yards",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 5,
+        "viki": 4,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_core": true
+    },
+    {
+      "place_id": "dumbo-brooklyn-bridge-park",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "dumbo-brooklyn-bridge-park",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_core": true
+    },
+    {
+      "place_id": "st-nicholas-cathedral-dc",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "st-nicholas-cathedral-dc",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 5,
+        "viki": 3,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_core": true
+    },
+    {
+      "place_id": "ministry-of-awe",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "ministry-of-awe",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 5,
+        "viki": 4,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_core": true
+    },
+    {
+      "place_id": "baps-akshardham",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "baps-akshardham",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 3
+      },
+      "included_in_core": true
+    },
+    {
+      "place_id": "old-sturbridge-village",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "old-sturbridge-village",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 5,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_core": true
+    },
+    {
+      "place_id": "boda-borg-boston",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "boda-borg-boston",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 5,
+        "viki": 4,
+        "gora": 2,
+        "stivka": 3
+      },
+      "included_in_core": false
+    },
+    {
+      "place_id": "st-nicholas-wtc",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "st-nicholas-wtc",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 5,
+        "viki": 2,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_core": false
+    },
+    {
+      "place_id": "beat-the-bomb-brooklyn",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "beat-the-bomb-brooklyn",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 2,
+        "stivka": 3
+      },
+      "included_in_core": false
+    },
+    {
+      "place_id": "hawk-mountain-north-lookout",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "hawk-mountain-north-lookout",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_core": false
+    },
+    {
+      "place_id": "cunningham-falls",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "cunningham-falls",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 5
+      },
+      "included_in_core": false
+    },
+    {
+      "place_id": "lincoln-memorial",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "lincoln-memorial",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 4,
+        "stivka": 3
+      },
+      "included_in_core": false
+    },
+    {
+      "place_id": "elfreths-alley",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "elfreths-alley",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 4,
+        "viki": 4,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_core": false
+    },
+    {
+      "place_id": "eastern-state",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "eastern-state",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 5,
+        "viki": 2,
+        "gora": 5,
+        "stivka": 2
+      },
+      "included_in_core": false
+    },
+    {
+      "place_id": "pez-visitor-center",
+      "rating_source": {
+        "route_id": "route-03",
+        "place_id": "pez-visitor-center",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_core": true
+    },
+    {
+      "place_id": "barker-cartoon-museum",
+      "rating_source": {
+        "route_id": "route-03",
+        "place_id": "barker-cartoon-museum",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 5,
+        "viki": 3,
+        "gora": 4,
+        "stivka": 3
+      },
+      "included_in_core": false
+    },
+    {
+      "place_id": "baltimore-industry",
+      "rating_source": {
+        "route_id": "route-03",
+        "place_id": "baltimore-industry",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 3,
+        "viki": 1,
+        "gora": 5,
+        "stivka": 1
+      },
+      "included_in_core": false
+    },
+    {
+      "place_id": "pa-capitol",
+      "rating_source": {
+        "route_id": "route-05",
+        "place_id": "pa-capitol",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 4
+      },
+      "included_in_core": true
+    },
+    {
+      "place_id": "harrisburg-riverfront",
+      "rating_source": {
+        "route_id": "route-05",
+        "place_id": "harrisburg-riverfront",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 4,
+        "viki": 1,
+        "gora": 4,
+        "stivka": 3
+      },
+      "included_in_core": false
+    },
+    {
+      "place_id": "reading-pagoda",
+      "rating_source": {
+        "route_id": "route-06",
+        "place_id": "reading-pagoda",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 5,
+        "viki": 4,
+        "gora": 1,
+        "stivka": 3
+      },
+      "included_in_core": false
+    },
+    {
+      "place_id": "hershey-candy-bar",
+      "rating_source": {
+        "route_id": "route-07",
+        "place_id": "hershey-candy-bar",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_core": true
+    },
+    {
+      "place_id": "f1-arcade-boston",
+      "rating_source": {
+        "route_id": "route-07",
+        "place_id": "f1-arcade-boston",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_core": true
+    },
+    {
+      "place_id": "trinity-boston",
+      "rating_source": {
+        "route_id": "route-07",
+        "place_id": "trinity-boston",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 5,
+        "viki": 1,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_core": false
+    },
+    {
+      "place_id": "crane-manor",
+      "rating_source": {
+        "route_id": "route-08",
+        "place_id": "crane-manor",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 5,
+        "viki": 4,
+        "gora": 4,
+        "stivka": 4
+      },
+      "included_in_core": true
+    },
+    {
+      "place_id": "hotel-greene",
+      "rating_source": {
+        "route_id": "route-08",
+        "place_id": "hotel-greene",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_core": true
+    },
+    {
+      "place_id": "big-snow-american-dream",
+      "rating_source": {
+        "route_id": "route-08",
+        "place_id": "big-snow-american-dream",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 5,
+        "viki": 1,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_core": false
+    },
+    {
+      "place_id": "fish-church-stamford",
+      "rating_source": {
+        "route_id": "route-08",
+        "place_id": "fish-church-stamford",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 4,
+        "viki": 1,
+        "gora": 5,
+        "stivka": 3
+      },
+      "included_in_core": false
+    },
+    {
+      "place_id": "gnome-raven-magic-lamp",
+      "rating_source": {
+        "route_id": "route-08",
+        "place_id": "gnome-raven-magic-lamp",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 5,
+        "viki": null,
+        "gora": null,
+        "stivka": null
+      },
+      "included_in_core": false
+    },
+    {
+      "place_id": "kunta-kinte-haley-memorial",
+      "rating_source": {
+        "route_id": "route-08",
+        "place_id": "kunta-kinte-haley-memorial",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 5,
+        "viki": 2,
+        "gora": 2,
+        "stivka": 4
+      },
+      "included_in_core": false
+    },
+    {
+      "place_id": "the-breakers",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "the-breakers",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 4,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_core": true
+    },
+    {
+      "place_id": "beinecke-library",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "beinecke-library",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 5,
+        "viki": 5,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_core": true
+    },
+    {
+      "place_id": "o-street-museum",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "o-street-museum",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 5,
+        "viki": 4,
+        "gora": 5,
+        "stivka": 5
+      },
+      "included_in_core": true
+    },
+    {
+      "place_id": "princeton-chapel",
+      "rating_source": {
+        "route_id": "route-01",
+        "place_id": "princeton-chapel",
+        "preserved": true
+      },
+      "traveler_ratings": {
+        "sheluvspaco": 5,
+        "viki": 4,
+        "gora": 3,
+        "stivka": 5
+      },
+      "included_in_core": true
+    }
+  ]
+}
